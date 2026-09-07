@@ -22,11 +22,6 @@ https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
 
 ## Install
 
-**ShonenX**
-1. Open **Extensions → Add / Manage extensions**.
-2. Tap **Add repository** and paste the import link above.
-3. Install the **BonoboSubs** plugin.
-
 **CloudStream 3**
 1. Open **Settings → Extensions**.
 2. Tap **Add repository** and paste the import link above.
