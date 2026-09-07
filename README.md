@@ -2,6 +2,14 @@
 
 CloudStream extension for [ShonenX](https://github.com/roshancodespace/ShonenX) (and CloudStream 3) that streams **Renegade Immortal (Xian Ni / 仙逆)** and its movie **Battle of the Gods** in 4K HEVC, direct from the [BonoboSubs](https://buymeacoffee.com/bonobosubs) Nextcloud file share.
 
+## Import link for ShonenX
+
+Copy and paste this URL into ShonenX (**Extensions → Add / Manage extensions → Add repository**):
+
+```
+https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
+```
+
 ## Install
 
 Add the repository to your app's extension settings with this URL:
