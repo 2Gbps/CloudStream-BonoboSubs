@@ -14,9 +14,7 @@
 
 ---
 
-## Import link for ShonenX
-
-Copy and paste this URL into ShonenX (**Extensions → Add / Manage extensions → Add repository**):
+## Import link:
 
 ```
 https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
