@@ -32,12 +32,6 @@ https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
 ```
 3. Install the **BonoboSubs** plugin.
 
-**Direct install** (skip the repository):
-
-```
-https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/builds/BonoboSubs.cs3
-```
-
 ## Content
 
 | Title | Type | Source |
