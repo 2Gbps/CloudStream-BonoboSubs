@@ -1,0 +1,23 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/logo.png",
+        "fileHash": "sha256-9773a454304a9b4d6fac8b1f03d48d793a8c0a9185ad67728f2a90d66e5669b3",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/2Gbps/CloudStream-BonoboSubs",
+        "fileSize": 18816,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "2Gbps"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "version": 17,
+        "internalName": "BonoboSubs",
+        "description": "Renegade Immortal (Xian Ni) series and its movie, 4K + 1080p HEVC, English subtitles included, direct from BonoboSubs (v1.6.0)",
+        "url": "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/builds/BonoboSubs.cs3",
+        "name": "BonoboSubs"
+    }
+]
