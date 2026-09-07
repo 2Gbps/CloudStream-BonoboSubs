@@ -1,0 +1,8 @@
+{
+  "name": "BonoboSubs",
+  "description": "Renegade Immortal (Xian Ni) series and movie in 4K, direct from BonoboSubs",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/builds/plugins.json"
+  ]
+}
