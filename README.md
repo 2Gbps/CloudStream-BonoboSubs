@@ -33,8 +33,6 @@ https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
 https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/builds/BonoboSubs.cs3
 ```
 
-The plugin is rebuilt automatically on every push by GitHub Actions and published to the `builds` branch — you always get the latest build.
-
 ## Content
 
 | Title | Type | Source |
@@ -42,12 +40,6 @@ The plugin is rebuilt automatically on every push by GitHub Actions and publishe
 | Renegade Immortal | TV (episodes 1–157+) | `bonobosubs.ovh/s/download?dir=/4k` |
 | Renegade Immortal: Battle of the Gods | Movie | `bonobosubs.ovh/s/download?dir=/4k` |
 
-## How it works
-
-- Episodes are discovered **dynamically** through the Nextcloud WebDAV API (`PROPFIND` on the public share) — new releases published by BonoboSubs appear automatically, with no extension update needed.
-- Both current file naming schemes are handled: `... Xian Ni - 001.mkv` (v3 batches) and `... Xian Ni Episode 077.mkv` (older releases).
-- Files are streamed directly (`video/x-matroska`, range-request capable, ~1–2.5 GB per episode, HEVC 4K 2160p).
-- English subtitles are embedded in the MKV container and picked up by the player.
 
 ## Build
 
