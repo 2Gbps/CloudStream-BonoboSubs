@@ -14,6 +14,14 @@
 
 ---
 
+## Install — one tap (Android)
+
+Open the install page on your phone and tap the button — it fires the `cloudstreamrepo://` deep link that both **ShonenX** and **CloudStream** register, so the app opens with the repository ready to add:
+
+<p align="center">
+  <a href="https://2gbps.github.io/CloudStream-BonoboSubs/install.html"><b>Install BonoboSubs →</b></a>
+</p>
+
 ## Import link:
 
 ```

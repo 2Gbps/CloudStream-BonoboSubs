@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install BonoboSubs — ShonenX / CloudStream</title>
+<style>
+  :root { --accent: #00679e; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0b0f14; color: #e6edf3;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 480px; width: 100%; text-align: center;
+    background: #121820; border: 1px solid #1f2937; border-radius: 16px;
+    padding: 40px 28px;
+  }
+  .logo { width: 96px; height: 96px; border-radius: 16px; }
+  h1 { font-size: 22px; margin: 18px 0 6px; }
+  p.sub { color: #8b98a5; font-size: 14px; margin-bottom: 26px; }
+  button.install {
+    display: block; width: 100%; padding: 14px 18px; margin: 10px 0;
+    font-size: 16px; font-weight: 600; color: #fff;
+    background: var(--accent); border: none; border-radius: 10px; cursor: pointer;
+  }
+  button.install:hover { filter: brightness(1.15); }
+  button.copy {
+    background: #1c2531; color: #cdd9e5; font-weight: 500; font-size: 14px;
+    display: block; width: 100%; padding: 11px 14px; margin: 10px 0 0;
+    border: 1px solid #2b3a4a; border-radius: 10px; cursor: pointer;
+    font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    word-break: break-all;
+  }
+  button.copy:hover { background: #24303e; }
+  .hint { color: #667583; font-size: 12px; margin-top: 20px; line-height: 1.6; }
+  .ok { color: #3fb950; font-size: 13px; margin-top: 10px; height: 16px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <img class="logo" src="logo.png" alt="BonoboSubs logo">
+  <h1>BonoboSubs Extension</h1>
+  <p class="sub">Renegade Immortal (Xian Ni) series &amp; movie — 4K HEVC</p>
+
+  <button class="install" id="installBtn">Add Repository — opens ShonenX / CloudStream</button>
+  <button class="copy" id="copyUrl">https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json</button>
+  <div class="ok" id="status"></div>
+
+  <p class="hint">
+    Tapping install sends <code>cloudstreamrepo://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json</code>
+    to the app. If nothing opens, copy the URL above and add it manually:
+    ShonenX → Extensions → Add repository, or CloudStream → Settings → Extensions → Add Repository.
+  </p>
+</div>
+<script>
+  var DEEP_LINK = "cloudstreamrepo://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json";
+  var REPO_URL = "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json";
+
+  document.getElementById("installBtn").addEventListener("click", function () {
+    document.getElementById("status").textContent = "";
+    window.location.href = DEEP_LINK;
+    setTimeout(function () {
+      document.getElementById("status").textContent =
+        "Nothing opened? Copy the URL below and paste it in the app.";
+    }, 2500);
+  });
+
+  document.getElementById("copyUrl").addEventListener("click", function () {
+    var b = this;
+    function done() {
+      document.getElementById("status").textContent = "Copied!";
+      setTimeout(function () { document.getElementById("status").textContent = ""; }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(REPO_URL).then(done);
+    } else {
+      var t = document.createElement("textarea");
+      t.value = REPO_URL; document.body.appendChild(t); t.select();
+      document.execCommand("copy"); document.body.removeChild(t); done();
+    }
+  });
+</script>
+</body>
+</html>
