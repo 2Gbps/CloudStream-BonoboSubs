@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="https://github.com/2Gbps/CloudStream-BonoboSubs/actions/workflows/build.yml"><img src="https://github.com/2Gbps/CloudStream-BonoboSubs/actions/workflows/build.yml/badge.svg" alt="Build"/></a>
-  <img src="https://img.shields.io/badge/quality-4K%-brightgreen" alt="Quality"/>
-  <img src="https://img.shields.io/badge/platform-CloudStream%20%2F%-blue" alt="Platform"/>
+  <img src="https://img.shields.io/badge/quality-4K-brightgreen" alt="Quality"/>
+  <img src="https://img.shields.io/badge/platform-CloudStream-blue" alt="Platform"/>
 </p>
 
 > Streams **Renegade Immortal (Xian Ni / 仙逆)** and its movie **Battle of the Gods** in 4K HEVC, direct from the [BonoboSubs](https://buymeacoffee.com/bonobosubs) Nextcloud file share.
