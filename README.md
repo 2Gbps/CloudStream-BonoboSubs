@@ -14,25 +14,22 @@
 
 ---
 
-## Install — one tap (Android)
+## Quick Install (Android)
 
-Open the install page on your phone and tap the button — it fires the `cloudstreamrepo://` deep link that both **ShonenX** and **CloudStream** register, so the app opens with the repository ready to add:
+Opens the app with the repository ready to add:
 
 <p align="center">
   <a href="https://2gbps.github.io/CloudStream-BonoboSubs/install.html"><b>Install BonoboSubs →</b></a>
 </p>
 
-## Import link:
-
-```
-https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
-```
-
-## Install
+## Manual Install
 
 **CloudStream 3**
 1. Open **Settings → Extensions**.
-2. Tap **Add repository** and paste the import link above.
+2. Tap **Add repository** and paste the import link:
+```
+https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
+```
 3. Install the **BonoboSubs** plugin.
 
 **Direct install** (skip the repository):
