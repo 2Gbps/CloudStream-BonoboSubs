@@ -1,6 +1,18 @@
-# CloudStream-BonoboSubs
+<p align="center">
+  <img src="logo.png" alt="BonoboSubs logo" width="128"/>
+</p>
 
-CloudStream extension for [ShonenX](https://github.com/roshancodespace/ShonenX) (and CloudStream 3) that streams **Renegade Immortal (Xian Ni / 仙逆)** and its movie **Battle of the Gods** in 4K HEVC, direct from the [BonoboSubs](https://buymeacoffee.com/bonobosubs) Nextcloud file share.
+<h1 align="center">CloudStream-BonoboSubs</h1>
+
+<p align="center">
+  <a href="https://github.com/2Gbps/CloudStream-BonoboSubs/actions/workflows/build.yml"><img src="https://github.com/2Gbps/CloudStream-BonoboSubs/actions/workflows/build.yml/badge.svg" alt="Build"/></a>
+  <img src="https://img.shields.io/badge/quality-4K%20HEVC-brightgreen" alt="Quality"/>
+  <img src="https://img.shields.io/badge/platform-CloudStream%20%2F%20ShonenX-blue" alt="Platform"/>
+</p>
+
+> Streams **Renegade Immortal (Xian Ni / 仙逆)** and its movie **Battle of the Gods** in 4K HEVC, direct from the [BonoboSubs](https://buymeacoffee.com/bonobosubs) Nextcloud file share.
+
+---
 
 ## Import link for ShonenX
 
@@ -12,16 +24,23 @@ https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
 
 ## Install
 
-Add the repository to your app's extension settings with this URL:
+**ShonenX**
+1. Open **Extensions → Add / Manage extensions**.
+2. Tap **Add repository** and paste the import link above.
+3. Install the **BonoboSubs** plugin.
+
+**CloudStream 3**
+1. Open **Settings → Extensions**.
+2. Tap **Add repository** and paste the import link above.
+3. Install the **BonoboSubs** plugin.
+
+**Direct install** (skip the repository):
 
 ```
-https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/repo.json
+https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/builds/BonoboSubs.cs3
 ```
 
-- **CloudStream 3**: Settings → Extensions → Add repository → paste the URL.
-- **ShonenX**: Extensions → Add / Manage extensions → paste the URL.
-
-The plugin is built automatically on every push by GitHub Actions and published to the `builds` branch.
+The plugin is rebuilt automatically on every push by GitHub Actions and published to the `builds` branch — you always get the latest build.
 
 ## Content
 
@@ -30,9 +49,12 @@ The plugin is built automatically on every push by GitHub Actions and published 
 | Renegade Immortal | TV (episodes 1–157+) | `bonobosubs.ovh/s/download?dir=/4k` |
 | Renegade Immortal: Battle of the Gods | Movie | `bonobosubs.ovh/s/download?dir=/4k` |
 
-Episodes are discovered **dynamically** through the Nextcloud WebDAV API (`PROPFIND` on the public share) — new releases published by BonoboSubs appear automatically without any extension update. Both current file naming schemes (`... Xian Ni - 001.mkv` and `... Xian Ni Episode 077.mkv`) are handled.
+## How it works
 
-Files are streamed directly (`video/x-matroska`, range-request capable, ~1–2.5 GB per episode, HEVC 4K). English subtitles are embedded in the MKV container.
+- Episodes are discovered **dynamically** through the Nextcloud WebDAV API (`PROPFIND` on the public share) — new releases published by BonoboSubs appear automatically, with no extension update needed.
+- Both current file naming schemes are handled: `... Xian Ni - 001.mkv` (v3 batches) and `... Xian Ni Episode 077.mkv` (older releases).
+- Files are streamed directly (`video/x-matroska`, range-request capable, ~1–2.5 GB per episode, HEVC 4K 2160p).
+- English subtitles are embedded in the MKV container and picked up by the player.
 
 ## Build
 
