@@ -198,7 +198,7 @@ class BonoboSubsProvider : MainAPI() {
         return newSubtitleFile(pick.lang, "$mainUrl${pick.href}")
     }
 
-    private fun link(url: String, label: String, quality: Int): ExtractorLink {
+    private suspend fun link(url: String, label: String, quality: Int): ExtractorLink {
         return newExtractorLink(this.name, label, url) {
             this.quality = quality
             this.referer = ""
