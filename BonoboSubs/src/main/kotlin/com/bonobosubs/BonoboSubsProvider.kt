@@ -90,12 +90,10 @@ class BonoboSubsProvider : MainAPI() {
     }
 
     /*
-     * Episode/movie payload passed through loadLinks.
-     * Format: "<ep>|<4kUrl>|<1080pUrl>" for episodes, "movie|<4kUrl>|<1080pUrl>" for the movie.
-     * Pipe-delimited on purpose: Jackson parsing (tryParseJson) of a nested data class
-     * fails silently inside the AnymeX/ShonenX bridge, which dropped the 1080p link
-     * and every subtitle. Plain strings have no parse failure modes.
-     * URLs never contain '|'.
+     * Episode data MUST be the plain 4K URL. ShonenX builds its episode id as
+     * "$url|$episodeNumber" and splits on '|' itself, so any '|' in the data
+     * corrupts the URL reaching the player (mpv "Source error"). The 1080p
+     * link is reconstructed from a cached WebDAV listing inside loadLinks.
      */
 
     private data class DavFile(val href: String, val fileName: String)
@@ -106,6 +104,21 @@ class BonoboSubsProvider : MainAPI() {
 
     private var fallbackSubsCache: List<SubtitleEntry>? = null
     private var fallbackSubsAt = 0L
+
+    private var files1080Cache: List<DavFile>? = null
+    private var files1080At = 0L
+
+    private suspend fun listMkvFiles1080(): List<DavFile> {
+        files1080Cache?.let { cached ->
+            if (System.currentTimeMillis() - files1080At < SUBS_CACHE_MS) return cached
+        }
+        val files = listMkvFiles(PATH_1080)
+        if (files.isNotEmpty()) {
+            files1080Cache = files
+            files1080At = System.currentTimeMillis()
+        }
+        return files
+    }
 
     /** Depth-1 PROPFIND; returns every entry with its raw (still percent-encoded) href. */
     private suspend fun propfind(path: String): List<DavEntry> {
@@ -241,17 +254,19 @@ class BonoboSubsProvider : MainAPI() {
             .sorted()
             .distinct()
             .map { ep ->
-                val data = listOf(
-                    ep.toString(),
-                    byEp4k[ep]?.let { "$mainUrl${it.href}" } ?: "",
-                    byEp1080[ep]?.let { "$mainUrl${it.href}" } ?: ""
-                ).joinToString("|")
+                // Plain URL data — ShonenX splits its own episode id on '|' and
+                // passes parts[0] to loadLinks, so the data must be a bare URL.
+                val data = byEp4k[ep]?.let { "$mainUrl${it.href}" }
+                    ?: byEp1080[ep]?.let { "$mainUrl${it.href}" }
+                    ?: return@map null
                 newEpisode(data) {
                     this.name = "Episode $ep"
                     this.episode = ep
                     this.season = 1
                 }
             }
+            .filterNotNull()
+    }
     }
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
@@ -300,11 +315,7 @@ class BonoboSubsProvider : MainAPI() {
                 val movie4k = files4k.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
                     ?: throw ErrorLoadingException("Movie file not found on BonoboSubs")
                 val movie1080 = files1080.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
-                val data = listOf(
-                    "movie",
-                    "$mainUrl${movie4k.href}",
-                    movie1080?.let { "$mainUrl${it.href}" } ?: ""
-                ).joinToString("|")
+                val data = "$mainUrl${movie4k.href}"
                 newMovieLoadResponse(MOVIE_TITLE, url, TvType.AnimeMovie, data) {
                     this.posterUrl = POSTER_URL
                     this.plot =
@@ -325,36 +336,50 @@ class BonoboSubsProvider : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ): Boolean {
-        val parts = data.split("|")
-        when {
-            // Current format: "<ep>|<4kUrl>|<1080pUrl>" or "movie|<4kUrl>|<1080pUrl>"
-            parts.size >= 3 -> {
-                val key = parts[0]
-                val isMovie = key.equals("movie", true)
-                val ep = key.toIntOrNull()
-                // Subtitles MUST fire before the link callbacks: the bridge attaches
-                // the subtitle list to each link at callback time.
-                if (!isMovie && ep != null) {
-                    subtitleFor(ep)?.let { subtitleCallback(it) }
-                }
-                parts.getOrNull(1)?.takeIf { it.isNotBlank() }?.let {
-                    callback(link(it, "$name 4K HEVC", Qualities.P2160.value))
-                }
-                parts.getOrNull(2)?.takeIf { it.isNotBlank() }?.let {
-                    callback(link(it, "$name 1080p", Qualities.P1080.value))
-                }
-            }
+        // ShonenX splits its episode id "$url|$episodeNumber" on '|' and hands
+        // parts[0] here, so data is normally a bare URL. Tolerate stale v6 ids
+        // ("144|<4k>|<1080p>") left in resume/bookmark caches by picking the
+        // first URL out of them.
+        val videoUrl = if (data.startsWith("http")) data
+        else data.split("|").firstOrNull { it.startsWith("http") } ?: return true
 
-            // Legacy plain-URL data from older plugin versions
-            data.startsWith("http") -> {
-                val videoName = URLDecoder.decode(data.substringAfterLast('/'), "UTF-8")
-                if (!MOVIE_PATTERN.containsMatchIn(videoName)) {
-                    episodeNumber(videoName)?.let { ep ->
-                        subtitleFor(ep)?.let { subtitleCallback(it) }
-                    }
-                }
-                callback(link(data, "$name 4K HEVC", Qualities.P2160.value))
-            }
+        val videoName = URLDecoder.decode(videoUrl.substringAfterLast('/'), "UTF-8")
+        val isMovie = MOVIE_PATTERN.containsMatchIn(videoName)
+        val ep = episodeNumber(videoName)
+        val is4k = videoUrl.contains("/4k/", ignoreCase = true)
+
+        // Subtitles MUST fire before the link callbacks: the bridge attaches the
+        // subtitle list to each link at callback time.
+        if (!isMovie) {
+            ep?.let { e -> subtitleFor(e)?.let { subtitleCallback(it) } }
+        }
+
+        callback(
+            link(
+                videoUrl,
+                if (is4k) "$name 4K HEVC" else "$name 1080p",
+                if (is4k) Qualities.P2160.value else Qualities.P1080.value
+            )
+        )
+
+        // Emit the other quality from the live listing (exact hrefs, cached)
+        val other = if (isMovie) {
+            (if (is4k) listMkvFiles1080() else listMkvFiles(PATH_4K))
+                .firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
+        } else {
+            (if (is4k) listMkvFiles1080() else listMkvFiles(PATH_4K))
+                .firstOrNull { episodeNumber(it.fileName) == ep }
+        }
+        other?.let { file ->
+            val otherUrl = "$mainUrl${file.href}"
+            val otherIs4k = otherUrl.contains("/4k/", ignoreCase = true)
+            callback(
+                link(
+                    otherUrl,
+                    if (otherIs4k) "$name 4K HEVC" else "$name 1080p",
+                    if (otherIs4k) Qualities.P2160.value else Qualities.P1080.value
+                )
+            )
         }
         return true
     }
