@@ -199,7 +199,7 @@ class BonoboSubsProvider : MainAPI() {
         // Bundled: plain-ASCII raw.githubusercontent URL, verified Content-Type text/plain,
         // no percent-encoding traps — this is what makes subs load in mpv-based players.
         if (episode in BUNDLED_SUBS_MIN..BUNDLED_SUBS_MAX) {
-            return newSubtitleFile("English", "$SUBS_RAW_BASE/ep%03d.ass".format(episode))
+            return newSubtitleFile("English", "$SUBS_RAW_BASE/ep%03d.srt".format(episode))
         }
         // Future episodes: pick a single best file from the live share.
         val pick = listFallbackSubs()
