@@ -13,9 +13,9 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
-        // Cloudstream gradle plugin, pinned to a concrete JitPack build
-        // (the -SNAPSHOT resolution flakes when JitPack's cache expires)
-        classpath("com.github.recloudstream:gradle:-32895aedb6-1")
+        // Cloudstream gradle plugin, pinned to JitPack's permanent "master" branch build
+        // (the -SNAPSHOT version expires from JitPack's cache and breaks CI randomly)
+        classpath("com.github.recloudstream:gradle:master")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.20")
     }
 }
