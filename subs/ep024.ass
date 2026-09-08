@@ -1,0 +1,362 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:58.60,0:02:00.24,Sub,,0,0,0,,Senior, are you alright ?
+Dialogue: 0,0:02:01.08,0:02:04.80,Sub,,0,0,0,,I found the way to beat the Great Dragon Formation.
+Dialogue: 0,0:02:05.28,0:02:07.36,Sub,,0,0,0,,Don't you know the Death Spell ?
+Dialogue: 0,0:02:08.16,0:02:12.48,Sub,,0,0,0,,Come on, let this old man witness the power of your Death Spell !
+Dialogue: 0,0:02:12.68,0:02:14.36,Sub,,0,0,0,,I won't fight you anymore.
+Dialogue: 0,0:02:14.68,0:02:15.48,Sub,,0,0,0,,Outrageous !
+Dialogue: 0,0:02:16.28,0:02:18.44,Sub,,0,0,0,,It's not up to you to decide whether you fight !
+Dialogue: 0,0:02:26.20,0:02:28.24,Sub,,0,0,0,,Senior, since we are retreating,
+Dialogue: 0,0:02:28.64,0:02:31.36,Sub,,0,0,0,,could it be that the Great Dragon Formation's flaw is distance ?
+Dialogue: 0,0:02:31.56,0:02:32.32,Sub,,0,0,0,,Correct.
+Dialogue: 0,0:02:32.92,0:02:35.16,Sub,,0,0,0,,Xie Donglai did not attack us immediately
+Dialogue: 0,0:02:35.84,0:02:38.36,Sub,,0,0,0,,but repeatedly tried to lure me closer to the formation to fight.
+Dialogue: 0,0:02:38.52,0:02:40.48,Sub,,0,0,0,,It means the farther he is from the formation
+Dialogue: 0,0:02:40.52,0:02:42.00,Sub,,0,0,0,,the lower its effect is.
+Dialogue: 0,0:02:58.84,0:03:01.56,Card,,0,0,0,,{\fad(300,300)\pos(1485,431)}Sword of Ji Realm Divine Sense
+Dialogue: 0,0:03:14.08,0:03:15.80,Sub,,0,0,0,,The lower his cultivation is,
+Dialogue: 0,0:03:15.80,0:03:17.84,Sub,,0,0,0,,the easier it is for me to destroy the formation's core.
+Dialogue: 0,0:03:18.72,0:03:21.48,Sub,,0,0,0,,No... If I don't use the Dragon Sword to block this thing
+Dialogue: 0,0:03:21.48,0:03:22.88,Sub,,0,0,0,,my soul will be damaged.
+Dialogue: 0,0:03:23.44,0:03:25.04,Sub,,0,0,0,,But if I keep blocking like this...
+Dialogue: 0,0:03:25.68,0:03:26.72,Sub,,0,0,0,,I... I can't...
+Dialogue: 0,0:03:26.96,0:03:28.08,Sub,,0,0,0,,I must return to the formation.
+Dialogue: 0,0:03:28.08,0:03:29.24,Sub,,0,0,0,,Now or never !
+Dialogue: 0,0:03:41.00,0:03:41.80,Sub,,0,0,0,,No !
+Dialogue: 0,0:03:42.24,0:03:43.12,Sub,,0,0,0,,This is impossible...
+Dialogue: 0,0:03:43.68,0:03:45.16,Sub,,0,0,0,,This is impossible !
+Dialogue: 0,0:04:00.28,0:04:02.40,Sub,,0,0,0,,The... The formation has been broken !
+Dialogue: 0,0:04:02.40,0:04:03.56,Sub,,0,0,0,,It broke !
+Dialogue: 0,0:04:20.16,0:04:22.76,Sub,,0,0,0,,Everyone thinks a formation's core must be inside it.
+Dialogue: 0,0:04:22.80,0:04:24.96,Sub,,0,0,0,,Only someone as intelligent as Master
+Dialogue: 0,0:04:24.96,0:04:27.96,Sub,,0,0,0,,could've found the true location of the formation's core.
+Dialogue: 0,0:04:31.00,0:04:32.60,Sub,,0,0,0,,The Dragon Sword is destroyed...
+Dialogue: 0,0:04:33.16,0:04:36.20,Sub,,0,0,0,,You have destroyed the core of the Great Dragon Formation.
+Dialogue: 0,0:04:37.00,0:04:39.24,Sub,,0,0,0,,This old man admits defeat.
+Dialogue: 0,0:04:40.64,0:04:43.12,Sub,,0,0,0,,This is the Sect Leader Token of the Fighting Evil Sect.
+Dialogue: 0,0:04:43.52,0:04:44.84,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:04:45.04,0:04:46.68,Sub,,0,0,0,,we are at your command.
+Dialogue: 0,0:04:55.64,0:04:56.88,Sub,,0,0,0,,Senior !
+Dialogue: 0,0:04:56.36,0:04:56.88,Second,,0,0,0,,Master !
+Dialogue: 0,0:05:07.36,0:05:09.36,Sub,,0,0,0,,He... he is a sword cultivator ?
+Dialogue: 0,0:05:09.48,0:05:12.68,Sub,,0,0,0,,I never thought that after giving it my all,
+Dialogue: 0,0:05:12.68,0:05:15.72,Sub,,0,0,0,,I would still be no match for you.
+Dialogue: 0,0:05:16.08,0:05:18.72,Sub,,0,0,0,,Sect Leader ! The Sect Leader has fallen.
+Dialogue: 0,0:05:18.72,0:05:20.00,Sub,,0,0,0,,Sect Leader ! This...
+Dialogue: 0,0:05:20.96,0:05:23.24,Sub,,0,0,0,,We welcome the new Sect Leader !
+Dialogue: 0,0:05:23.36,0:05:24.68,Sub,,0,0,0,,Welcome Sect Leader !
+Dialogue: 0,0:05:26.84,0:05:28.64,Sub,,0,0,0,,Welcome Sect Leader !
+Dialogue: 0,0:05:29.52,0:05:31.32,Sub,,0,0,0,,Welcome Sect Leader !
+Dialogue: 0,0:05:33.00,0:05:33.64,Sub,,0,0,0,,Master,
+Dialogue: 0,0:05:33.88,0:05:37.24,Sub,,0,0,0,,shouldn't we hold a ceremony for the Sect Leader succession ?
+Dialogue: 0,0:05:37.48,0:05:40.88,Sub,,0,0,0,,That way the whole Sea of Devils will know of your power !
+Dialogue: 0,0:05:44.52,0:05:46.84,Sub,,0,0,0,,You will act as Sect Leader for now.
+Dialogue: 0,0:05:49.88,0:05:51.00,Sub,,0,0,0,,Prepare a secluded cave,
+Dialogue: 0,0:05:51.28,0:05:52.60,Sub,,0,0,0,,I need to cultivate.
+Dialogue: 0,0:05:56.20,0:05:57.36,Sub,,0,0,0,,The Elders said
+Dialogue: 0,0:05:57.64,0:05:59.20,Sub,,0,0,0,,that this is where
+Dialogue: 0,0:05:59.24,0:06:01.20,Sub,,0,0,0,,that villain Xie Donglai used to cultivate.
+Dialogue: 0,0:06:01.96,0:06:03.00,Sub,,0,0,0,,Don't worry Master,
+Dialogue: 0,0:06:03.24,0:06:04.52,Sub,,0,0,0,,this place is very safe.
+Dialogue: 0,0:06:07.72,0:06:10.20,Sub,,0,0,0,,I will send you home after I'm done cultivating.
+Dialogue: 0,0:06:12.20,0:06:13.76,Sub,,0,0,0,,Will you really send me back ?
+Dialogue: 0,0:06:15.96,0:06:18.72,Sub,,0,0,0,,For now... I need to heal my injuries.
+Dialogue: 0,0:06:55.04,0:06:55.84,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:06:56.32,0:06:57.12,Sub,,0,0,0,,Where ?
+Dialogue: 0,0:06:58.80,0:07:00.36,Sub,,0,0,0,,We have some people to kill.
+Dialogue: 0,0:07:03.32,0:07:05.48,Sub,,0,0,0,,Others would go to see a romantic scenery
+Dialogue: 0,0:07:05.88,0:07:07.52,Sub,,0,0,0,,like a sunrise or a sunset.
+Dialogue: 0,0:07:07.72,0:07:11.24,Sub,,0,0,0,,But he took me... to kill people...
+Dialogue: 0,0:07:14.04,0:07:15.44,Sub,,0,0,0,,The past 4 years,
+Dialogue: 0,0:07:15.88,0:07:17.52,Sub,,0,0,0,,he saved me countless times.
+Dialogue: 0,0:07:18.56,0:07:20.20,Sub,,0,0,0,,This is how I will pay him back.
+Dialogue: 0,0:08:03.20,0:08:06.68,Sub,,0,0,0,,Tie Zhu, I heard that Immortals can also marry.
+Dialogue: 0,0:08:06.68,0:08:08.20,Sub,,0,0,0,,If you have time to come home,
+Dialogue: 0,0:08:08.52,0:08:10.72,Sub,,0,0,0,,we can meet some girls in the village.
+Dialogue: 0,0:08:11.08,0:08:13.44,Sub,,0,0,0,,If there's a good one, we'll arrange a marriage.
+Dialogue: 0,0:08:14.16,0:08:15.12,Sub,,0,0,0,,Dear...
+Dialogue: 0,0:08:15.24,0:08:16.80,Sub,,0,0,0,,What are you worrying about ?
+Dialogue: 0,0:08:17.16,0:08:19.48,Sub,,0,0,0,,Our Tie Zhu is an Immortal !
+Dialogue: 0,0:08:19.88,0:08:21.88,Sub,,0,0,0,,How could he have a mortal wife ?
+Dialogue: 0,0:08:22.60,0:08:25.04,Sub,,0,0,0,,Fine, I'll listen to your father.
+Dialogue: 0,0:08:25.20,0:08:26.68,Sub,,0,0,0,,I'll wait and see
+Dialogue: 0,0:08:26.68,0:08:28.84,Sub,,0,0,0,,what kind of person you'll bring back.
+Dialogue: 0,0:08:30.40,0:08:33.00,Sub,,0,0,0,,Father, Mother, don't worry.
+Dialogue: 0,0:08:33.72,0:08:35.84,Sub,,0,0,0,,Tie Zhu will definitely bring back a good wife.
+Dialogue: 0,0:08:36.96,0:08:38.12,Sub,,0,0,0,,But not now...
+Dialogue: 0,0:08:38.92,0:08:39.88,Sub,,0,0,0,,Even if I have
+Dialogue: 0,0:08:40.64,0:08:42.08,Sub,,0,0,0,,established my power in the Sea of Devils.
+Dialogue: 0,0:08:42.72,0:08:43.88,Sub,,0,0,0,,I still have enemies.
+Dialogue: 0,0:08:45.00,0:08:48.04,Sub,,0,0,0,,She will be safer if she is not by my side.
+Dialogue: 0,0:08:54.28,0:08:56.12,Sub,,0,0,0,,Mistress, please have a rest.
+Dialogue: 0,0:08:56.36,0:08:58.04,Sub,,0,0,0,,Don't call me Mistress.
+Dialogue: 0,0:08:59.40,0:09:01.72,Sub,,0,0,0,,Okay, I won't call you Mistress.
+Dialogue: 0,0:09:02.88,0:09:04.68,Sub,,0,0,0,,You've been working on the formation
+Dialogue: 0,0:09:04.96,0:09:07.80,Sub,,0,0,0,,tirelessly since Master went into secluded cultivation.
+Dialogue: 0,0:09:08.68,0:09:10.64,Sub,,0,0,0,,Don't overuse your life energy like that.
+Dialogue: 0,0:09:12.20,0:09:13.20,Sub,,0,0,0,,I'm almost done...
+Dialogue: 0,0:09:23.72,0:09:25.68,Sub,,0,0,0,,Prepare a secluded cave for me.
+Dialogue: 0,0:09:25.88,0:09:26.68,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:09:37.28,0:09:39.44,Sub,,0,0,0,,How much cultivation did you recover ?
+Dialogue: 0,0:09:42.08,0:09:44.60,Sub,,0,0,0,,I only recovered to Late stage Foundation Establishment.
+Dialogue: 0,0:09:45.08,0:09:47.72,Sub,,0,0,0,,If it weren't for your Sword Spirit always competing with me,
+Dialogue: 0,0:09:47.72,0:09:49.60,Sub,,0,0,0,,I would've recovered to Core Formation.
+Dialogue: 0,0:09:52.68,0:09:54.28,Sub,,0,0,0,,Actually I'm Peak Late stage...
+Dialogue: 0,0:09:55.04,0:09:57.12,Sub,,0,0,0,,Just a step away from Core Formation.
+Dialogue: 0,0:10:17.16,0:10:18.80,Sub,,0,0,0,,When did I reach Core Formation ?
+Dialogue: 0,0:10:19.64,0:10:22.04,Sub,,0,0,0,,I must have devoured too much...
+Dialogue: 0,0:10:22.36,0:10:24.28,Sub,,0,0,0,,I didn't even notice it happening...
+Dialogue: 0,0:10:25.08,0:10:26.84,Sub,,0,0,0,,Have you recovered your memory ?
+Dialogue: 0,0:10:28.80,0:10:30.08,Sub,,0,0,0,,When I entered Core Formation,
+Dialogue: 0,0:10:30.24,0:10:32.56,Sub,,0,0,0,,I started seeing weird images in my head.
+Dialogue: 0,0:10:33.08,0:10:34.48,Sub,,0,0,0,,How does he know ?
+Dialogue: 0,0:10:35.88,0:10:36.72,Sub,,0,0,0,,I'll fight him !
+Dialogue: 0,0:10:38.60,0:10:39.20,Sub,,0,0,0,,No...
+Dialogue: 0,0:10:39.44,0:10:41.00,Sub,,0,0,0,,I don't think I can win...
+Dialogue: 0,0:10:45.04,0:10:47.16,Sub,,0,0,0,,I've decided, I'll fight him !
+Dialogue: 0,0:10:55.16,0:10:56.36,Sub,,0,0,0,,Master, spare me...
+Dialogue: 0,0:10:58.52,0:10:59.36,Sub,,0,0,0,,Master, spare me !
+Dialogue: 0,0:11:00.08,0:11:01.52,Sub,,0,0,0,,How many souls did you devour ?
+Dialogue: 0,0:11:01.56,0:11:02.96,Sub,,0,0,0,,Spit them all out.
+Dialogue: 0,0:11:18.28,0:11:20.44,Sub,,0,0,0,,He's kidding me...
+Dialogue: 0,0:11:20.84,0:11:23.20,Sub,,0,0,0,,I worked so hard to snatch all these souls...
+Dialogue: 0,0:11:24.20,0:11:26.12,Sub,,0,0,0,,I'll have my revenge one day !
+Dialogue: 0,0:11:28.40,0:11:30.60,Sub,,0,0,0,,Wait until I recover to Nascent Soul.
+Dialogue: 0,0:11:53.76,0:11:56.84,Sub,,0,0,0,,{\fad(800,800)\pos(964,495)}3 days later
+Dialogue: 0,0:12:06.24,0:12:08.88,Sub,,0,0,0,,Senior, why are you out so soon ?
+Dialogue: 0,0:12:11.68,0:12:13.40,Sub,,0,0,0,,What did you do the past 3 days ?
+Dialogue: 0,0:12:13.52,0:12:14.76,Sub,,0,0,0,,You look exhausted.
+Dialogue: 0,0:12:16.20,0:12:17.52,Sub,,0,0,0,,Drink this.
+Dialogue: 0,0:12:18.32,0:12:20.24,Sub,,0,0,0,,Now that I refined the pill,
+Dialogue: 0,0:12:20.68,0:12:22.56,Sub,,0,0,0,,I'm useless to you, right ?
+Dialogue: 0,0:12:24.04,0:12:24.92,Sub,,0,0,0,,Thank you Senior.
+Dialogue: 0,0:12:25.24,0:12:27.52,Sub,,0,0,0,,I'm fine, let's go.
+Dialogue: 0,0:12:37.84,0:12:41.80,Sub,,0,0,0,,I will return in 10 days for the Sect Leader succession ceremony.
+Dialogue: 0,0:12:55.76,0:12:57.32,Sub,,0,0,0,,The sea is reforming.
+Dialogue: 0,0:12:57.48,0:12:59.60,Sub,,0,0,0,,I've never seen the fog turn into a sea.
+Dialogue: 0,0:13:00.24,0:13:02.20,Sub,,0,0,0,,That's because every time it happened,
+Dialogue: 0,0:13:02.20,0:13:03.32,Sub,,0,0,0,,you were cultivating.
+Dialogue: 0,0:13:04.04,0:13:06.40,Sub,,0,0,0,,The sea transformed 4 times in 4 years.
+Dialogue: 0,0:13:07.00,0:13:08.76,Sub,,0,0,0,,Each time, I got extremely nervous.
+Dialogue: 0,0:13:09.16,0:13:11.24,Sub,,0,0,0,,I had to pay close attention to the formation.
+Dialogue: 0,0:13:11.36,0:13:12.84,Sub,,0,0,0,,I would only relax
+Dialogue: 0,0:13:13.04,0:13:14.28,Sub,,0,0,0,,when it was over.
+Dialogue: 0,0:13:15.80,0:13:17.32,Sub,,0,0,0,,When the sea transformed,
+Dialogue: 0,0:13:17.32,0:13:19.32,Sub,,0,0,0,,all I could see through the formation
+Dialogue: 0,0:13:19.32,0:13:21.56,Sub,,0,0,0,,was the deep blue sea water outside.
+Dialogue: 0,0:13:22.84,0:13:26.64,Sub,,0,0,0,,Occasionally, some Spirit Beasts would swim by.
+Dialogue: 0,0:13:27.00,0:13:28.20,Sub,,0,0,0,,Was it beautiful ?
+Dialogue: 0,0:13:28.36,0:13:29.16,Sub,,0,0,0,,Very beautiful.
+Dialogue: 0,0:13:43.72,0:13:47.16,Sub,,0,0,0,,Back then, the Heaven Defying Bead accidentally devoured the Fire Spirit Beast King.
+Dialogue: 0,0:13:47.16,0:13:49.52,Sub,,0,0,0,,I unintentionally became the target of the Fire Spirit Beasts.
+Dialogue: 0,0:13:49.52,0:13:50.84,Sub,,0,0,0,,My bad luck
+Dialogue: 0,0:13:51.00,0:13:53.12,Sub,,0,0,0,,destroyed the whole Burning Fire country.
+Dialogue: 0,0:13:53.48,0:13:55.48,Sub,,0,0,0,,How much of what happened next
+Dialogue: 0,0:13:55.80,0:13:57.40,Sub,,0,0,0,,was under my control ?
+Dialogue: 0,0:13:57.92,0:13:59.56,Sub,,0,0,0,,How much of it was my fate ?
+Dialogue: 0,0:14:00.08,0:14:01.84,Sub,,0,0,0,,I can't quite tell anymore.
+Dialogue: 0,0:14:02.20,0:14:03.56,Sub,,0,0,0,,We're almost there.
+Dialogue: 0,0:14:15.28,0:14:16.32,Sub,,0,0,0,,I'll see you off here.
+Dialogue: 0,0:14:18.00,0:14:20.00,Sub,,0,0,0,,Thank you for these past 4 years.
+Dialogue: 0,0:14:24.52,0:14:27.44,Sub,,0,0,0,,I left a sliver of my Divine Sense in your Soul Blood.
+Dialogue: 0,0:14:27.64,0:14:29.28,Sub,,0,0,0,,No one below Nascent Soul
+Dialogue: 0,0:14:29.28,0:14:31.08,Sub,,0,0,0,,will be able to harm you.
+Dialogue: 0,0:14:33.88,0:14:38.16,Sub,,0,0,0,,Senior, why don't you hide with me in the Luo River Sect for a while ?
+Dialogue: 0,0:14:38.80,0:14:39.60,Sub,,0,0,0,,No need.
+Dialogue: 0,0:14:41.00,0:14:44.04,Sub,,0,0,0,,Will we have a chance to meet again in the future ?
+Dialogue: 0,0:14:49.48,0:14:51.96,Sub,,0,0,0,,These are pills I have made in the past few years.
+Dialogue: 0,0:14:51.96,0:14:54.80,Sub,,0,0,0,,The jade has an explanation of all of them.
+Dialogue: 0,0:15:02.04,0:15:04.68,Sub,,0,0,0,,4 years ago, I promised to bring you back safely.
+Dialogue: 0,0:15:05.64,0:15:06.76,Sub,,0,0,0,,Now that we're here,
+Dialogue: 0,0:15:07.24,0:15:08.12,Sub,,0,0,0,,we no longer
+Dialogue: 0,0:15:08.28,0:15:09.52,Sub,,0,0,0,,owe each other anything.
+Dialogue: 0,0:15:11.52,0:15:12.32,Sub,,0,0,0,,Farewell.
+Dialogue: 0,0:15:16.32,0:15:17.12,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:15:19.04,0:15:20.08,Sub,,0,0,0,,This is for you.
+Dialogue: 0,0:15:31.28,0:15:32.44,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:15:32.64,0:15:34.24,Sub,,0,0,0,,I want to thank you
+Dialogue: 0,0:15:34.44,0:15:36.88,Sub,,0,0,0,,for saving my life countless times these past 4 years.
+Dialogue: 0,0:15:37.72,0:15:39.84,Sub,,0,0,0,,The time I spent in the Sea of Devils
+Dialogue: 0,0:15:39.88,0:15:41.60,Sub,,0,0,0,,is something I’ll never forget…
+Dialogue: 0,0:15:42.44,0:15:44.32,Sub,,0,0,0,,Since our separation is inevitable,
+Dialogue: 0,0:15:44.36,0:15:45.76,Sub,,0,0,0,,I made this gift for you.
+Dialogue: 0,0:15:46.12,0:15:49.04,Sub,,0,0,0,,This jade is the epitome of my formation skills.
+Dialogue: 0,0:15:49.80,0:15:51.64,Sub,,0,0,0,,It's a derived version of the Great Dragon Formation
+Dialogue: 0,0:15:51.76,0:15:52.76,Sub,,0,0,0,,with improvements.
+Dialogue: 0,0:15:53.60,0:15:56.44,Sub,,0,0,0,,This formation is a fusion of attack and defense.
+Dialogue: 0,0:15:56.56,0:15:57.80,Sub,,0,0,0,,But compared to attack,
+Dialogue: 0,0:15:58.08,0:16:00.08,Sub,,0,0,0,,defense is the true purpose of this formation.
+Dialogue: 0,0:16:00.72,0:16:04.16,Sub,,0,0,0,,Wan'er knows that Senior has his own goals.
+Dialogue: 0,0:16:04.64,0:16:06.76,Sub,,0,0,0,,The cultivation path is extremely dangerous
+Dialogue: 0,0:16:07.36,0:16:09.60,Sub,,0,0,0,,but I hope that if you encounter danger in the future,
+Dialogue: 0,0:16:09.84,0:16:11.60,Sub,,0,0,0,,this formation can delay it for a moment.
+Dialogue: 0,0:16:12.28,0:16:13.56,Sub,,0,0,0,,If it helps you,
+Dialogue: 0,0:16:13.96,0:16:15.24,Sub,,0,0,0,,Wan'er will be satisfied.
+Dialogue: 0,0:16:42.68,0:16:44.48,Sub,,0,0,0,,So this is Qian Kun's cultivation.
+Dialogue: 0,0:16:45.68,0:16:48.20,Sub,,0,0,0,,If I consume it when I try to form a Nascent Soul,
+Dialogue: 0,0:16:48.28,0:16:49.60,Sub,,0,0,0,,it will improve my chance of success.
+Dialogue: 0,0:16:51.00,0:16:52.24,Sub,,0,0,0,,It's time to leave.
+Dialogue: 0,0:16:55.20,0:16:56.04,Sub,,0,0,0,,Senior Situ,
+Dialogue: 0,0:16:56.92,0:16:59.36,Sub,,0,0,0,,I will reach Soul Transformation one day.
+Dialogue: 0,0:17:00.24,0:17:02.12,Sub,,0,0,0,,That's when I will be able to wake you up.
+Dialogue: 0,0:17:02.72,0:17:05.44,Sub,,0,0,0,,I, Wang Lin, promise it to you.
+Dialogue: 0,0:17:15.68,0:17:16.84,Sub,,0,0,0,,We were short on time
+Dialogue: 0,0:17:16.96,0:17:19.32,Sub,,0,0,0,,but we finally managed to repair the formation.
+Dialogue: 0,0:17:20.20,0:17:21.56,Sub,,0,0,0,,The Sect Leader will arrive soon,
+Dialogue: 0,0:17:21.56,0:17:22.60,Sub,,0,0,0,,stand up straight !
+Dialogue: 0,0:17:32.84,0:17:35.36,Sub,,0,0,0,,Welcome back Sect Leader.
+Dialogue: 0,0:17:35.76,0:17:38.00,Sub,,0,0,0,,Welcome back Sect Leader.
+Dialogue: 0,0:17:39.12,0:17:40.76,Sub,,0,0,0,,The execution order is gone ?
+Dialogue: 0,0:17:40.76,0:17:42.44,Sub,,0,0,0,,Our Sect Leader is so powerful
+Dialogue: 0,0:17:42.64,0:17:45.84,Sub,,0,0,0,,that he got rid of the Hundred Days Execution order in just 10 days.
+Dialogue: 0,0:17:45.84,0:17:49.16,Sub,,0,0,0,,Why else would we honor him as Sect Leader ?
+Dialogue: 0,0:17:52.08,0:17:55.44,Sub,,0,0,0,,Please Master, accept the Sect Leader Token.
+Dialogue: 0,0:18:01.96,0:18:08.32,Sub,,0,0,0,,All hail the Sect Leader !
+Dialogue: 0,0:18:21.92,0:18:24.52,Sub,,0,0,0,,Ancestor, the Zhen Family that disrespected you
+Dialogue: 0,0:18:24.92,0:18:26.68,Sub,,0,0,0,,has been completely exterminated.
+Dialogue: 0,0:18:35.56,0:18:36.52,Sub,,0,0,0,,Teng Huayuan...
+Dialogue: 0,0:18:37.72,0:18:40.72,Sub,,0,0,0,,Wait until I, the Sect Leader of Fighting Evil Sect, form my Nascent Soul.
+Dialogue: 0,0:18:40.80,0:18:42.68,Sub,,0,0,0,,That's when I will kill you !
+Dialogue: 0,0:18:42.80,0:18:45.32,Sub,,0,0,0,,Every single person named Teng in the country of Zhao
+Dialogue: 0,0:18:45.72,0:18:47.24,Sub,,0,0,0,,will be buried with you !
+Dialogue: 0,0:18:59.84,0:19:02.52,Sub,,0,0,0,,Did you hear that dragon roar a few days ago ?
+Dialogue: 0,0:19:02.92,0:19:07.04,Sub,,0,0,0,,It was the succession ceremony of the Fighting Evil Sect.
+Dialogue: 0,0:19:08.80,0:19:09.96,Sub,,0,0,0,,Their new Sect Leader
+Dialogue: 0,0:19:10.08,0:19:11.92,Sub,,0,0,0,,not only single-handedly broke the Great Dragon Formation
+Dialogue: 0,0:19:12.08,0:19:15.44,Sub,,0,0,0,,but he also killed Xie Donglai in one single move.
+Dialogue: 0,0:19:16.52,0:19:17.44,Sub,,0,0,0,,I heard that
+Dialogue: 0,0:19:18.08,0:19:21.64,Sub,,0,0,0,,this person cultivates the extremely vicious Death Spell.
+Dialogue: 0,0:19:22.88,0:19:24.20,Sub,,0,0,0,,The Death Spell ?
+Dialogue: 0,0:19:30.76,0:19:33.92,Sub,,0,0,0,,This old man is pretty interested in the person you mentioned.
+Dialogue: 0,0:19:34.20,0:19:38.32,Sub,,0,0,0,,Fellow cultivator, please lead the way to the Fighting Evil Sect.
+Dialogue: 0,0:19:34.72,0:19:37.20,Card Hard,,0,0,0,,{\pos(1561,479)\fad(300,300)}Duanmu Ji\NEight Extremes Devil Lord\NDevil Lord of Qi Mei City\NMiddle stage Soul Formation
+Dialogue: 0,0:19:41.37,0:22:03.85,Note,,0,0,0,,{\fad(1000,1000)}Wang Lin got some loot from all the people he killed that wasn't shown.\N\NHe obtained a weird black scroll that he cannot see through with his Divine Sense and that he cannot open. This scroll will be shown later on in the series without explaining where he got it from.\N\NThen he obtained hundreds of golden cores from all the kills:\N\NAfter carefully putting away the scroll, Wang Lin began to ponder. After a long time, he took out a golden core from his bag of holding. Its color had already darkened. He pondered for a bit before taking out more than 100 golden cores. All of them were dim, emanating a feeling of death.\N\NIf it was in the past, Wang Lin would immediately devour them as he got them, but on the way here, Li Muwan told him that although devouring golden cores would increase his cultivation level, it would also cause his spiritual energy to become tainted, as well as cause the spiritual energy in his body to become a mess. Also, golden cores had different properties. If too much of the opposite was absorbed, it would make his spiritual energy go crazy, making him lose control and go mad.
+Dialogue: 0,0:20:10.37,0:20:17.25,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:20:14.25,0:20:17.25,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:20:17.61,0:20:23.49,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:20:24.61,0:20:31.01,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:20:28.41,0:20:31.01,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:20:31.27,0:20:37.53,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:20:38.17,0:20:45.25,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:20:40.85,0:20:45.25,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:20:45.33,0:20:52.41,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:20:47.37,0:20:52.41,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:20:52.85,0:20:54.93,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:20:54.93,0:20:59.69,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:20:56.33,0:20:59.69,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:20:59.69,0:21:01.69,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:21:01.77,0:21:04.21,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:21:04.41,0:21:06.57,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:21:06.57,0:21:09.49,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:21:09.49,0:21:12.57,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:21:13.85,0:21:19.53,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:21:15.77,0:21:19.53,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:21:21.05,0:21:28.41,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:21:24.93,0:21:28.41,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:21:28.41,0:21:35.01,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:21:30.01,0:21:35.01,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:21:35.21,0:21:37.89,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:21:37.89,0:21:42.25,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:21:42.69,0:21:49.41,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:21:45.21,0:21:49.41,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:21:49.81,0:21:53.65,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:21:53.65,0:21:56.97,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:21:56.97,0:22:02.77,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:21:59.21,0:22:02.77,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:22:04.09,0:22:13.73,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:22:05.89,0:22:13.73,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.
+Dialogue: 0,0:12:58.71,0:13:02.20,Music,,0,0,0,,{\fad(800,800)}Count the specks of time
+Dialogue: 0,0:13:02.24,0:13:05.40,Music,,0,0,0,,{\fad(800,800)}floating down gently.
+Dialogue: 0,0:13:05.52,0:13:11.92,Music,,0,0,0,,{\fad(500,800)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:13:12.72,0:13:16.52,Music,,0,0,0,,{\fad(800,800)}Forever lock away the scars
+Dialogue: 0,0:13:16.60,0:13:19.12,Music,,0,0,0,,{\fad(800,800)}of this mortal life.
+Dialogue: 0,0:13:19.24,0:13:25.76,Music,,0,0,0,,{\fad(500,800)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:13:26.28,0:13:28.68,Music,,0,0,0,,{\fad(500,800)}The flying bird could not escape the twilight
+Dialogue: 0,0:13:28.92,0:13:33.76,Music,,0,0,0,,{\fad(500,800)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:13:33.84,0:13:36.04,Music,,0,0,0,,{\fad(500,800)}The night-blooming flower cannot drink
+Dialogue: 0,0:13:36.08,0:13:40.64,Music,,0,0,0,,{\fad(500,800)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:13:41.24,0:13:43.00,Music,,0,0,0,,{\fad(200,500)}I will ask the heavens who exactly
+Dialogue: 0,0:13:43.00,0:13:45.08,Music,,0,0,0,,{\fad(200,500)}sliced open this world...
+Dialogue: 0,0:13:52.56,0:13:54.72,Music,,0,0,0,,{\fad(200,800)}...that we will live forever.
+Dialogue: 0,0:14:00.28,0:14:03.12,Music,,0,0,0,,{\fad(200,800)}...through heaven and earth.
+Dialogue: 0,0:14:09.96,0:14:11.68,Music,,0,0,0,,{\fad(300,500)}I will ask the heavens who exactly
+Dialogue: 0,0:14:11.72,0:14:13.76,Music,,0,0,0,,{\fad(300,800)}sliced open this world
+Dialogue: 0,0:14:13.76,0:14:16.48,Music,,0,0,0,,{\fad(500,800)}to let the rain fall in.
+Dialogue: 0,0:14:16.52,0:14:18.76,Music,,0,0,0,,{\fad(300,800)}I will refine the world
+Dialogue: 0,0:14:18.80,0:14:21.16,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:14:21.16,0:14:23.48,Music,,0,0,0,,{\fad(300,800)}that we will live forever.
+Dialogue: 0,0:14:23.48,0:14:26.24,Music,,0,0,0,,{\fad(500,300)}Walking off the beaten path
+Dialogue: 0,0:14:26.24,0:14:30.16,Music,,0,0,0,,{\fad(300,800)}through heaven and earth.
+Dialogue: 0,0:14:30.76,0:14:33.28,Music,,0,0,0,,{\fad(500,500)}Before returning to dust,
+Dialogue: 0,0:14:33.28,0:14:37.36,Music,,0,0,0,,{\fad(500,800)}I will refine this mortal body.
+Dialogue: 0,0:14:37.92,0:14:41.88,Music,,0,0,0,,{\fad(500,800)}The left shore is the joyous laughter
+Dialogue: 0,0:14:41.88,0:14:45.24,Music,,0,0,0,,{\fad(300,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:14:45.28,0:14:47.48,Music,,0,0,0,,{\fad(500,800)}The right shore is an eternal silence
+Dialogue: 0,0:14:47.48,0:14:52.16,Music,,0,0,0,,{\fad(300,800)}lingering under the candlelight.
+Dialogue: 0,0:14:52.20,0:14:54.84,Music,,0,0,0,,{\fad(500,800)}To overturn this fate,
+Dialogue: 0,0:14:54.84,0:14:58.92,Music,,0,0,0,,{\fad(300,800)}I will walk against the heavens.
+Dialogue: 0,0:14:59.60,0:15:01.88,Music,,0,0,0,,{\fad(500,800)}I will even gather the clouds
+Dialogue: 0,0:15:01.92,0:15:05.92,Music,,0,0,0,,{\fad(500,800)}to illuminate the sky for you.
+Dialogue: 0,0:15:06.72,0:15:10.64,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:15:10.64,0:15:13.96,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:15:13.96,0:15:16.16,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:15:16.16,0:15:20.88,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:15:20.88,0:15:23.60,Music,,0,0,0,,{\fad(500,800)}Walking off the beaten path
+Dialogue: 0,0:15:23.60,0:15:27.60,Music,,0,0,0,,{\fad(500,800)}through heaven and earth.
+Dialogue: 0,0:15:28.24,0:15:30.72,Music,,0,0,0,,{\fad(500,800)}Before returning to dust,
+Dialogue: 0,0:15:30.72,0:15:34.76,Music,,0,0,0,,{\fad(500,800)}I will refine this mortal body.
+Dialogue: 0,0:15:35.32,0:15:39.32,Music,,0,0,0,,{\fad(500,800)}The left shore is the joyous laughter
+Dialogue: 0,0:15:39.32,0:15:42.64,Music,,0,0,0,,{\fad(300,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:15:42.64,0:15:44.88,Music,,0,0,0,,{\fad(500,800)}The right shore is an eternal silence
+Dialogue: 0,0:15:44.88,0:15:49.56,Music,,0,0,0,,{\fad(300,500)}lingering under the candlelight.
+Dialogue: 0,0:15:49.56,0:15:52.28,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:15:52.28,0:15:56.32,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:15:57.08,0:15:59.60,Music,,0,0,0,,{\fad(500,800)}I will even gather the clouds
+Dialogue: 0,0:15:59.60,0:16:03.72,Music,,0,0,0,,{\fad(300,800)}to illuminate the sky for you.
+Dialogue: 0,0:16:04.24,0:16:08.04,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:16:08.04,0:16:11.36,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:16:11.36,0:16:13.60,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:16:13.60,0:16:18.28,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.

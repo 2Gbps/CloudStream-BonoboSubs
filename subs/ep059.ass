@@ -1,0 +1,271 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Map,Lucida Sans,50,&H00000000,&H000000FF,&H00FCFFF6,&H00FCFFF6,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:58.76,0:01:59.56,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:02:00.00,0:02:03.32,Sub,,0,0,0,,the teams we sent to the other countries are gradually returning.
+Dialogue: 0,0:02:03.87,0:02:06.16,Sub,,0,0,0,,This war was prepared meticulously.
+Dialogue: 0,0:02:06.36,0:02:08.96,Sub,,0,0,0,,It was beyond our imagination.
+Dialogue: 0,0:02:09.80,0:02:12.56,Sub,,0,0,0,,We asked eight rank 4 cultivations countries for help,
+Dialogue: 0,0:02:12.88,0:02:14.96,Sub,,0,0,0,,but almost all of them refused.
+Dialogue: 0,0:02:16.72,0:02:18.80,Sub,,0,0,0,,Even when our envoys were recieved,
+Dialogue: 0,0:02:19.12,0:02:22.16,Sub,,0,0,0,,they did not agree to send any troops.
+Dialogue: 0,0:02:22.88,0:02:24.92,Sub,,0,0,0,,Only a country which has been a friend for generations
+Dialogue: 0,0:02:25.08,0:02:27.52,Sub,,0,0,0,,told us out of sympathy
+Dialogue: 0,0:02:28.04,0:02:30.48,Sub,,0,0,0,,that their ancestors had made a deal
+Dialogue: 0,0:02:30.72,0:02:34.08,Sub,,0,0,0,,and issued the order that no one is to help the Four Sect Alliance.
+Dialogue: 0,0:02:34.52,0:02:36.72,Sub,,0,0,0,,How can Xue Yue, a rank 4 country,
+Dialogue: 0,0:02:37.48,0:02:39.20,Sub,,0,0,0,,have such an influence ?
+Dialogue: 0,0:02:41.72,0:02:43.60,Sub,,0,0,0,,The real reason for this war is actually
+Dialogue: 0,0:02:44.00,0:02:46.52,Sub,,0,0,0,,a woman from Xue Yue.
+Dialogue: 0,0:02:47.16,0:02:47.96,Sub,,0,0,0,,This woman
+Dialogue: 0,0:02:48.16,0:02:49.84,Sub,,0,0,0,,has only cultivated for 100 years.
+Dialogue: 0,0:02:50.40,0:02:52.40,Sub,,0,0,0,,She has never consumed any pill
+Dialogue: 0,0:02:52.56,0:02:54.88,Sub,,0,0,0,,and already has reached Soul Formation.
+Dialogue: 0,0:02:55.76,0:02:56.60,Sub,,0,0,0,,It's rumored that
+Dialogue: 0,0:02:56.64,0:02:59.56,Sub,,0,0,0,,she has a never seen before 5 elements constitution.
+Dialogue: 0,0:02:59.88,0:03:02.44,Sub,,0,0,0,,She was born with 5 elemental spirits guarding her.
+Dialogue: 0,0:03:02.60,0:03:03.88,Sub,,0,0,0,,Now she controls them.
+Dialogue: 0,0:03:04.40,0:03:07.68,Sub,,0,0,0,,She is the most talented person born on Suzaku in the past 10 000 years.
+Dialogue: 0,0:03:08.68,0:03:09.80,Sub,,0,0,0,,This woman,
+Dialogue: 0,0:03:10.12,0:03:12.60,Sub,,0,0,0,,has attracted the attention of the rank 6 country of Suzaku
+Dialogue: 0,0:03:12.60,0:03:15.68,Sub,,0,0,0,,which invited her to join them to rule the planet.
+Dialogue: 0,0:03:16.64,0:03:19.96,Sub,,0,0,0,,She only set a single condition to her joining Suzaku.
+Dialogue: 0,0:03:20.89,0:03:23.96,Sub,,0,0,0,,Which is to raise Xue Yue to a rank 5 country
+Dialogue: 0,0:03:24.44,0:03:26.32,Sub,,0,0,0,,and have them leave
+Dialogue: 0,0:03:26.32,0:03:27.88,Sub,,0,0,0,,the barren North.
+Dialogue: 0,0:03:28.92,0:03:30.48,Sub,,0,0,0,,The place she chose
+Dialogue: 0,0:03:30.88,0:03:33.28,Sub,,0,0,0,,was the Four Sect Alliance.
+Dialogue: 0,0:03:32.63,0:03:34.66,Map,,0,0,0,,{\fad(300,300)\pos(975,530)}Four Sect Alliance
+Dialogue: 0,0:03:33.88,0:03:35.08,Sub,,0,0,0,,On top of that,
+Dialogue: 0,0:03:35.40,0:03:36.80,Sub,,0,0,0,,Xue Yue's Rain Cauldron
+Dialogue: 0,0:03:37.16,0:03:40.36,Sub,,0,0,0,,suddenly appeared in the Four Sect Alliance.
+Dialogue: 0,0:03:41.56,0:03:42.56,Sub,,0,0,0,,There will be
+Dialogue: 0,0:03:42.76,0:03:45.12,Sub,,0,0,0,,many powerful Soul Formation cultivators in this war.
+Dialogue: 0,0:03:45.44,0:03:47.04,Sub,,0,0,0,,My cultivation is too low.
+Dialogue: 0,0:03:47.48,0:03:49.00,Sub,,0,0,0,,If I really need to fight them,
+Dialogue: 0,0:03:49.40,0:03:51.68,Sub,,0,0,0,,my only chance is to place one last restriction on this flag
+Dialogue: 0,0:03:53.08,0:03:55.08,Sub,,0,0,0,,to summon a tribulation.
+Dialogue: 0,0:03:59.20,0:04:03.48,Sub,,0,0,0,,{\fad(600,600)\pos(958,515)}1 year later
+Dialogue: 0,0:04:08.17,0:04:09.68,Sub,,0,0,0,,Within 80 feet of the Sky-Locking Nail,
+Dialogue: 0,0:04:09.72,0:04:11.02,Sub,,0,0,0,,using artifacts is forbidden.
+Dialogue: 0,0:04:11.05,0:04:11.66,Second,,0,0,0,,Pay attention !
+Dialogue: 0,0:04:11.49,0:04:12.53,Sub,,0,0,0,,By order of the sect leader,
+Dialogue: 0,0:04:12.56,0:04:14.45,Sub,,0,0,0,,take the Green Jade Bell of the Water Ink Sect,
+Dialogue: 0,0:04:14.50,0:04:15.99,Sub,,0,0,0,,and use it as the center of the formation.
+Dialogue: 0,0:04:16.02,0:04:16.80,Sub,,0,0,0,,Fellow cultivators,
+Dialogue: 0,0:04:17.12,0:04:18.01,Sub,,0,0,0,,build the formation with me.
+Dialogue: 0,0:04:18.02,0:04:19.08,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:04:22.61,0:04:23.20,Sub,,0,0,0,,Master,
+Dialogue: 0,0:04:23.76,0:04:24.84,Sub,,0,0,0,,the dragon soul is in place.
+Dialogue: 0,0:04:24.96,0:04:26.36,Sub,,0,0,0,,It can be woken up at any time.
+Dialogue: 0,0:04:28.16,0:04:29.45,Sub,,0,0,0,,They have arrived.
+Dialogue: 0,0:04:52.84,0:04:54.40,Sub,,0,0,0,,Fellow cultivators of Xue Yue,
+Dialogue: 0,0:04:55.28,0:04:57.72,Sub,,0,0,0,,since you are here for the Rain Cauldron,
+Dialogue: 0,0:04:58.40,0:04:59.92,Sub,,0,0,0,,it's right here.
+Dialogue: 0,0:05:00.76,0:05:03.28,Sub,,0,0,0,,Can our two countries call a truce
+Dialogue: 0,0:05:03.68,0:05:04.96,Sub,,0,0,0,,and let the mortals
+Dialogue: 0,0:05:05.28,0:05:06.72,Sub,,0,0,0,,survive ?
+Dialogue: 0,0:05:06.84,0:05:07.48,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:05:07.68,0:05:08.32,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:05:08.48,0:05:09.12,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:05:09.36,0:05:10.16,Sub,,0,0,0,,This land
+Dialogue: 0,0:05:10.32,0:05:11.76,Sub,,0,0,0,,now belongs to Xue Yue.
+Dialogue: 0,0:05:12.52,0:05:13.20,Sub,,0,0,0,,The Rain Cauldron
+Dialogue: 0,0:05:13.64,0:05:15.00,Sub,,0,0,0,,also belongs to Xue Yue.
+Dialogue: 0,0:05:15.76,0:05:16.72,Sub,,0,0,0,,The mortals
+Dialogue: 0,0:05:17.36,0:05:19.28,Sub,,0,0,0,,will also belong to Xue Yue if they survive.
+Dialogue: 0,0:05:19.88,0:05:20.92,Sub,,0,0,0,,Kill them now !
+Dialogue: 0,0:05:21.36,0:05:22.28,Sub,,0,0,0,,This land
+Dialogue: 0,0:05:22.68,0:05:24.96,Sub,,0,0,0,,is our new Xue Yue.
+Dialogue: 0,0:05:59.48,0:06:02.64,Sub,,0,0,0,,The cultivators of Xue Yue use this snow for their spells.
+Dialogue: 0,0:06:03.84,0:06:05.32,Sub,,0,0,0,,That's why
+Dialogue: 0,0:06:05.96,0:06:07.36,Sub,,0,0,0,,it snowed for years...
+Dialogue: 0,0:06:08.28,0:06:09.34,Sub,,0,0,0,,Humans
+Dialogue: 0,0:06:09.48,0:06:10.88,Sub,,0,0,0,,cannot live without a home.
+Dialogue: 0,0:06:11.68,0:06:13.08,Sub,,0,0,0,,And we, cultivators,
+Dialogue: 0,0:06:13.08,0:06:14.36,Sub,,0,0,0,,are also human.
+Dialogue: 0,0:06:14.60,0:06:16.28,Sub,,0,0,0,,If we want to save our homeland,
+Dialogue: 0,0:06:17.04,0:06:18.00,Sub,,0,0,0,,then today,
+Dialogue: 0,0:06:18.16,0:06:19.96,Sub,,0,0,0,,we will fight to the death !
+Dialogue: 0,0:06:29.56,0:06:31.04,Card,,0,0,0,,{\pos(279,511)\fad(300,000)}Mo Shan\NWater Ink Sect Elder\NMiddle stage Soul Formation
+Dialogue: 0,0:06:30.35,0:06:31.04,Card,,0,0,0,,{\pos(1227,503)\fad(300,000)}Wu Huichu\NBlack Soul Sect Elder\NLate stage Soul Formation
+Dialogue: 0,0:06:39.76,0:06:41.00,Sub,,0,0,0,,The 5 elemental spirits ?
+Dialogue: 0,0:06:41.40,0:06:42.12,Sub,,0,0,0,,Attack !
+Dialogue: 0,0:06:53.36,0:06:56.36,Sub,,0,0,0,,I heard that the 5 elemental spirits are all Soul Formation.
+Dialogue: 0,0:06:56.72,0:06:59.48,Sub,,0,0,0,,I can finally meet them today.
+Dialogue: 0,0:06:56.67,0:06:59.68,Card,,0,0,0,,{\pos(1584,503)\fad(300,000)}Qing Fu\NGreen Wood Sect Elder\NMiddle stage Soul Formation
+Dialogue: 0,0:07:41.68,0:07:43.92,Sub,,0,0,0,,Both sides are still preserving their power.
+Dialogue: 0,0:08:06.32,0:08:07.72,Sub,,0,0,0,,The Ice Towers !
+Dialogue: 0,0:08:08.00,0:08:09.88,Sub,,0,0,0,,That means Soul Formation elders have arrived
+Dialogue: 0,0:08:13.52,0:08:15.44,Sub,,0,0,0,,36 Soul Formation cultivators...
+Dialogue: 0,0:08:15.92,0:08:18.00,Sub,,0,0,0,,4 of them are Late stage.
+Dialogue: 0,0:08:18.96,0:08:21.16,Sub,,0,0,0,,Xue Yue sent all of their elders on this battlefield...
+Dialogue: 0,0:08:55.76,0:08:59.08,Card,,0,0,0,,{\pos(1534,597)\fad(300,300) }Zhou Yun\NBlack Soul Sect Great Elder\NLate stage Soul Formation
+Dialogue: 0,0:08:56.20,0:09:00.04,Sub,,0,0,0,,I'm Zhou Yun of the Black Soul Sect.
+Dialogue: 0,0:09:00.80,0:09:04.64,Sub,,0,0,0,,May I ask if you are Xue Yue's Red Butterfly ?
+Dialogue: 0,0:09:07.48,0:09:09.12,Sub,,0,0,0,,So it's fellow cultivator Zhou Yun,
+Dialogue: 0,0:09:09.56,0:09:12.72,Sub,,0,0,0,,one of the 9 Late stage Soul Formation of the Four Sect Alliance.
+Dialogue: 0,0:09:13.20,0:09:14.04,Sub,,0,0,0,,I admire you.
+Dialogue: 0,0:09:17.12,0:09:19.84,Sub,,0,0,0,,The Nine-Sons killing formation is very powerful,
+Dialogue: 0,0:09:20.40,0:09:23.40,Sub,,0,0,0,,it can definitely kill anyone below Soul Transformation.
+Dialogue: 0,0:09:23.52,0:09:25.16,Sub,,0,0,0,,Although this formation is strong,
+Dialogue: 0,0:09:25.67,0:09:28.59,Sub,,0,0,0,,it will consume Seniors' lifespan.
+Dialogue: 0,0:09:29.56,0:09:30.92,Sub,,0,0,0,,If we lose our country,
+Dialogue: 0,0:09:30.92,0:09:32.00,Sub,,0,0,0,,our sects
+Dialogue: 0,0:09:32.17,0:09:33.40,Sub,,0,0,0,,and our lives,
+Dialogue: 0,0:09:33.80,0:09:36.68,Sub,,0,0,0,,what will the point of having preserved our lifespan be ?
+Dialogue: 0,0:09:37.20,0:09:40.64,Sub,,0,0,0,,The key to this battle is Red Butterfly.
+Dialogue: 0,0:09:41.16,0:09:42.56,Sub,,0,0,0,,Once this woman dies,
+Dialogue: 0,0:09:42.92,0:09:45.88,Sub,,0,0,0,,Xue Yue will lose the support of the country of Suzaku.
+Dialogue: 0,0:09:46.48,0:09:48.96,Sub,,0,0,0,,Then we will have a chance to win the war.
+Dialogue: 0,0:09:50.04,0:09:53.76,Sub,,0,0,0,,Xue Yue could not have overlooked this strategy of yours.
+Dialogue: 0,0:09:54.24,0:09:55.40,Sub,,0,0,0,,There might be dozens
+Dialogue: 0,0:09:55.56,0:09:57.32,Sub,,0,0,0,,of Soul Formation cultivators
+Dialogue: 0,0:09:57.35,0:09:59.36,Sub,,0,0,0,,laying in ambush around Red Butterfly
+Dialogue: 0,0:09:59.36,0:10:00.84,Sub,,0,0,0,,to save her no matter what.
+Dialogue: 0,0:10:01.36,0:10:02.36,Sub,,0,0,0,,What should we do ?
+Dialogue: 0,0:10:03.34,0:10:05.56,Sub,,0,0,0,,We need to force their Soul Formation cultivators
+Dialogue: 0,0:10:05.56,0:10:08.16,Sub,,0,0,0,,to put all their efforts into the battlefield.
+Dialogue: 0,0:10:08.48,0:10:10.52,Sub,,0,0,0,,No matter what it takes.
+Dialogue: 0,0:10:11.24,0:10:12.96,Sub,,0,0,0,,Fellow cultivators,
+Dialogue: 0,0:10:12.96,0:10:13.96,Sub,,0,0,0,,let's fight !
+Dialogue: 0,0:10:21.56,0:10:22.72,Sub,,0,0,0,,Lifespan sacrifice !
+Dialogue: 0,0:10:28.04,0:10:29.36,Sub,,0,0,0,,Burning away your lifespans ?
+Dialogue: 0,0:10:29.36,0:10:30.24,Sub,,0,0,0,,Futile !
+Dialogue: 0,0:10:40.28,0:10:42.00,Sub,,0,0,0,,The damage is spread out !?
+Dialogue: 0,0:10:44.32,0:10:46.16,Sub,,0,0,0,,Nine-Sons killing formation !
+Dialogue: 0,0:10:47.24,0:10:48.12,Sub,,0,0,0,,Rise !
+Dialogue: 0,0:10:54.12,0:10:55.40,Sub,,0,0,0,,Our combined strength
+Dialogue: 0,0:10:55.40,0:10:56.68,Sub,,0,0,0,,can kill you !
+Dialogue: 0,0:11:36.16,0:11:37.72,Sub,,0,0,0,,They killed Red Butterfly ?
+Dialogue: 0,0:11:38.64,0:11:40.92,Sub,,0,0,0,,This seemed too easy to be real.
+Dialogue: 0,0:11:48.72,0:11:50.68,Sub,,0,0,0,,Red Butterfly is dead !
+Dialogue: 0,0:11:50.87,0:11:53.80,Sub,,0,0,0,,The Four Sect Alliance will not give up its land !
+Dialogue: 0,0:11:53.80,0:11:55.32,Sub,,0,0,0,,We won't give up our land !
+Dialogue: 0,0:11:55.60,0:11:57.60,Sub,,0,0,0,,Kill them !
+Dialogue: 0,0:12:32.21,0:12:34.60,Sub,,0,0,0,,Guardian Azure Dragon,
+Dialogue: 0,0:12:34.60,0:12:37.16,Sub,,0,0,0,,protect our Four Sect Alliance !
+Dialogue: 0,0:12:38.08,0:12:40.24,Sub,,0,0,0,,So the reason his status is so high
+Dialogue: 0,0:12:41.08,0:12:42.84,Sub,,0,0,0,,despite only being Nascent Soul
+Dialogue: 0,0:12:43.20,0:12:44.68,Sub,,0,0,0,,is because he has the bloodline
+Dialogue: 0,0:12:44.71,0:12:46.00,Sub,,0,0,0,,of the Azure Dragon.
+Dialogue: 0,0:12:47.04,0:12:48.72,Sub,,0,0,0,,Red Butterfly is dead,
+Dialogue: 0,0:12:48.72,0:12:50.44,Sub,,0,0,0,,the 5 elemental spirits are weakened.
+Dialogue: 0,0:12:50.44,0:12:52.72,Sub,,0,0,0,,My fellow cultivators, do your best to fight !
+Dialogue: 0,0:12:52.96,0:12:55.60,Sub,,0,0,0,,Don't let that tiger escape !
+Dialogue: 0,0:13:09.96,0:13:11.16,Sub,,0,0,0,,Seal !
+Dialogue: 0,0:13:40.64,0:13:42.97,Sub,,0,0,0,,The elements of the Heaven Defying Bead are incomplete.
+Dialogue: 0,0:13:43.40,0:13:45.76,Sub,,0,0,0,,Maybe I can absorb this Soul Formation earth spirit.
+Dialogue: 0,0:13:47.48,0:13:48.76,Sub,,0,0,0,,It's worth trying !
+Dialogue: 0,0:14:00.32,0:14:01.92,Sub,,0,0,0,,Where can you escape to ?
+Dialogue: 0,0:14:44.86,0:14:45.48,Sub,,0,0,0,,As expected,
+Dialogue: 0,0:14:46.36,0:14:48.12,Sub,,0,0,0,,even if the earth spirit is weakened,
+Dialogue: 0,0:14:48.20,0:14:49.76,Sub,,0,0,0,,I can't underestimate it.
+Dialogue: 0,0:14:52.56,0:14:53.48,Sub,,0,0,0,,Damn beast !
+Dialogue: 0,0:15:12.84,0:15:13.72,Sub,,0,0,0,,Bold of you !
+Dialogue: 0,0:15:15.48,0:15:17.14,Sub,,0,0,0,,Junior is a disciple of the White Cloud Sect.
+Dialogue: 0,0:15:17.19,0:15:18.84,Sub,,0,0,0,,I am Qing Song's disciple.
+Dialogue: 0,0:15:18.88,0:15:20.84,Sub,,0,0,0,,My master ordered me to take the earth spirit.
+Dialogue: 0,0:15:21.68,0:15:22.80,Sub,,0,0,0,,Senior, don't blame me.
+Dialogue: 0,0:15:26.20,0:15:28.12,Sub,,0,0,0,,It's really Qing Song's Passage of Time Domain.
+Dialogue: 0,0:15:30.44,0:15:31.44,Sub,,0,0,0,,White Cloud Sect...
+Dialogue: 0,0:15:34.72,0:15:36.59,Sub,,0,0,0,,If that Soul Formation cultivator were to act,
+Dialogue: 0,0:15:36.64,0:15:38.36,Sub,,0,0,0,,I would be dead without a doubt.
+Dialogue: 0,0:15:39.76,0:15:40.92,Sub,,0,0,0,,The restriction flag was damaged.
+Dialogue: 0,0:15:42.04,0:15:44.04,Sub,,0,0,0,,Snatching food from the tiger's mouth
+Dialogue: 0,0:15:44.29,0:15:45.40,Sub,,0,0,0,,is too risky.
+Dialogue: 0,0:15:48.44,0:15:49.64,Sub,,0,0,0,,What's this ?
+Dialogue: 0,0:16:20.92,0:16:24.28,Sub,,0,0,0,,This ice sculpture is almost impossible to detect with Divine Sense.
+Dialogue: 0,0:16:24.68,0:16:27.00,Sub,,0,0,0,,It seems that even the Soul Formation cultivators
+Dialogue: 0,0:16:27.52,0:16:29.00,Sub,,0,0,0,,didn't notice it.
+Dialogue: 0,0:16:30.08,0:16:32.40,Sub,,0,0,0,,The power of ice contained in it is tremendous...
+Dialogue: 0,0:16:33.44,0:16:35.08,Sub,,0,0,0,,It must be a part of a formation.
+Dialogue: 0,0:16:43.04,0:16:45.80,Sub,,0,0,0,,This ice formation covers the whole Four Sect Alliance.
+Dialogue: 0,0:16:47.40,0:16:48.12,Sub,,0,0,0,,This war
+Dialogue: 0,0:16:49.80,0:16:50.92,Sub,,0,0,0,,is far from over.
+Dialogue: 0,0:16:54.28,0:16:55.64,Sub,,0,0,0,,A gigantic ice formation ?
+Dialogue: 0,0:17:02.96,0:17:03.56,Sub,,0,0,0,,This is...
+Dialogue: 0,0:17:03.84,0:17:04.60,Sub,,0,0,0,,a formation ?
+Dialogue: 0,0:17:04.76,0:17:06.72,Sub,,0,0,0,,Xue Yue came well prepared...
+Dialogue: 0,0:17:06.80,0:17:07.68,Sub,,0,0,0,,Everyone, be careful !
+Dialogue: 0,0:17:29.80,0:17:30.86,Sub,,0,0,0,,This is bad...
+Dialogue: 0,0:17:42.88,0:17:44.45,Sub,,0,0,0,,Lord Envoy,
+Dialogue: 0,0:17:46.24,0:17:47.84,Sub,,0,0,0,,the country of Suzaku promised
+Dialogue: 0,0:17:48.76,0:17:50.60,Sub,,0,0,0,,that they would help me once.
+Dialogue: 0,0:17:50.88,0:17:52.08,Sub,,0,0,0,,So now...
+Dialogue: 0,0:17:54.20,0:17:56.16,Sub,,0,0,0,,Please kill this Azure Dragon !
+Dialogue: 0,0:17:56.16,0:17:59.16,Card,,0,0,0,,{\fad(300,300)\pos(365,553)}Red Butterfly\NXue Yue's genius Dao Child\NPeak Late stage Soul Formation
+Dialogue: 0,0:18:14.28,0:18:18.16,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:18:16.32,0:18:18.16,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:18:18.24,0:18:21.72,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:18:21.80,0:18:27.64,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:18:24.68,0:18:27.64,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:18:29.44,0:18:33.40,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:18:31.16,0:18:33.40,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:18:33.72,0:18:36.80,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:18:37.16,0:18:42.80,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:18:39.88,0:18:42.80,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:18:44.16,0:18:48.28,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:18:45.20,0:18:48.28,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:18:48.56,0:18:52.32,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:18:49.32,0:18:52.32,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:18:52.32,0:18:56.16,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:18:54.27,0:18:56.16,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:18:56.40,0:19:00.28,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:19:02.28,0:19:08.08,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:19:04.80,0:19:08.08,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:19:08.20,0:19:15.64,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:19:10.32,0:19:15.64,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:19:15.84,0:19:23.28,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:19:19.88,0:19:23.28,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:19:23.68,0:19:32.64,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:19:27.64,0:19:32.64,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:20:03.52,0:20:09.48,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:20:06.24,0:20:09.48,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:20:09.48,0:20:17.04,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:20:10.92,0:20:17.04,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:20:17.08,0:20:26.44,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:20:23.04,0:20:26.44,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:20:26.68,0:20:34.28,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:20:29.20,0:20:34.28,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

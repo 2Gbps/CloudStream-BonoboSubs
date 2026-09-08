@@ -1,0 +1,322 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:51.60,0:01:53.20,Sub,,0,0,0,,After the tribulation,
+Dialogue: 0,0:01:53.56,0:01:57.20,Sub,,0,0,0,,the fog in the Sea of Devils dissipated
+Dialogue: 0,0:01:57.88,0:02:01.64,Sub,,0,0,0,,and a strange black rain began falling.
+Dialogue: 0,0:02:03.80,0:02:06.80,Sub,,0,0,0,,Many sects were infected by it.
+Dialogue: 0,0:02:07.32,0:02:10.57,Sub,,0,0,0,,The Spirit Beasts mutated,
+Dialogue: 0,0:02:10.80,0:02:12.08,Sub,,0,0,0,,increasing in strength.
+Dialogue: 0,0:02:12.28,0:02:14.24,Sub,,0,0,0,,They even attacked the sects.
+Dialogue: 0,0:02:15.12,0:02:16.08,Sub,,0,0,0,,Now,
+Dialogue: 0,0:02:16.40,0:02:21.28,Sub,,0,0,0,,chaos reigns in the Sea of Devils.
+Dialogue: 0,0:02:30.99,0:02:31.72,Sub,,0,0,0,,Sect Leader,
+Dialogue: 0,0:02:31.84,0:02:34.45,Sub,,0,0,0,,you asked for a map of ancient teleportation formations.
+Dialogue: 0,0:02:34.68,0:02:35.84,Sub,,0,0,0,,I found a place that has one !
+Dialogue: 0,0:02:35.96,0:02:38.01,Sub,,0,0,0,,It's sold in Lian Mo City.
+Dialogue: 0,0:02:38.68,0:02:39.99,Sub,,0,0,0,,If I want to return to Zhao,
+Dialogue: 0,0:02:40.76,0:02:42.36,Sub,,0,0,0,,I have to cross the Sea of Devils.
+Dialogue: 0,0:02:42.79,0:02:44.40,Sub,,0,0,0,,But this place is huge
+Dialogue: 0,0:02:44.84,0:02:47.20,Sub,,0,0,0,,and conflicts have been going on for years.
+Dialogue: 0,0:02:47.40,0:02:48.98,Sub,,0,0,0,,The fastest way to travel
+Dialogue: 0,0:02:49.29,0:02:51.60,Sub,,0,0,0,,is ancient teleportation formations.
+Dialogue: 0,0:02:52.48,0:02:55.44,Sub,,0,0,0,,I need to find a map of these formations.
+Dialogue: 0,0:03:05.24,0:03:07.40,Card,,0,0,0,,{\pos(285,517)\fad(300,000)}Ma Jinrong\NPoison Devil Palace Disciple\NLate stage Core Formation
+Dialogue: 0,0:03:05.24,0:03:07.40,Card,,0,0,0,,{\pos(1651,491)\fad(300,000)}Shangguan Cai\NPoison Devil Palace Disciple\NLate stage Core Formation
+Dialogue: 0,0:03:11.99,0:03:14.32,Sub,,0,0,0,,There really is an Eight-clawed Beast here !
+Dialogue: 0,0:03:14.40,0:03:16.88,Sub,,0,0,0,,I've been tracking this beast for months.
+Dialogue: 0,0:03:17.04,0:03:18.56,Sub,,0,0,0,,But my cultivation is too low
+Dialogue: 0,0:03:18.56,0:03:20.28,Sub,,0,0,0,,to catch this beast.
+Dialogue: 0,0:03:20.36,0:03:22.68,Sub,,0,0,0,,I will have to bother the two of you.
+Dialogue: 0,0:03:23.08,0:03:23.77,Sub,,0,0,0,,Of course,
+Dialogue: 0,0:03:24.07,0:03:26.18,Sub,,0,0,0,,Brother Qiu is only at Middle stage Core Formation.
+Dialogue: 0,0:03:26.60,0:03:29.56,Sub,,0,0,0,,Just leave the matter of killing this beast to us.
+Dialogue: 0,0:03:33.25,0:03:36.52,Sub,,0,0,0,,If killing this beast didn't require freshly made poison,
+Dialogue: 0,0:03:36.76,0:03:38.56,Sub,,0,0,0,,I wouldn't have had to rely on Juniors
+Dialogue: 0,0:03:38.67,0:03:40.60,Sub,,0,0,0,,with my Nascent Soul cultivation.
+Dialogue: 0,0:03:42.44,0:03:43.24,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:03:43.82,0:03:47.60,Sub,,0,0,0,,After swallowing that Nascent Soul, I successfully established mine.
+Dialogue: 0,0:03:48.08,0:03:50.00,Sub,,0,0,0,,I don't know if you've succeeded.
+Dialogue: 0,0:03:50.31,0:03:51.60,Sub,,0,0,0,,But if you haven't,
+Dialogue: 0,0:03:51.92,0:03:54.00,Sub,,0,0,0,,when we meet again,
+Dialogue: 0,0:03:54.44,0:03:56.56,Sub,,0,0,0,,I will have to pay you back.
+Dialogue: 0,0:04:03.01,0:04:06.76,Sub,,0,0,0,,After you finish the poison and kill this beast,
+Dialogue: 0,0:04:07.24,0:04:09.20,Sub,,0,0,0,,I'll kill you both.
+Dialogue: 0,0:04:11.79,0:04:14.60,Sub,,0,0,0,,Huh ? I have met an old friend.
+Dialogue: 0,0:04:18.52,0:04:19.32,Sub,,0,0,0,,Go !
+Dialogue: 0,0:04:32.44,0:04:33.24,Sub,,0,0,0,,Impossible...
+Dialogue: 0,0:04:37.42,0:04:39.00,Sub,,0,0,0,,Such a powerful Divine Sense...
+Dialogue: 0,0:04:39.55,0:04:42.20,Sub,,0,0,0,,Could it be a monster of the Soul Formation level ?
+Dialogue: 0,0:04:42.71,0:04:43.80,Sub,,0,0,0,,I've been looking for you.
+Dialogue: 0,0:04:44.48,0:04:46.02,Sub,,0,0,0,,Long time no see.
+Dialogue: 0,0:04:47.78,0:04:49.76,Sub,,0,0,0,,Does Senior know me ?
+Dialogue: 0,0:04:54.04,0:04:55.56,Sub,,0,0,0,,It's you !
+Dialogue: 0,0:04:55.72,0:04:57.88,Sub,,0,0,0,,Brother Qiu is really in a good mood.
+Dialogue: 0,0:04:57.88,0:04:59.33,Sub,,0,0,0,,With your Nascent Soul cultivation,
+Dialogue: 0,0:04:59.60,0:05:01.76,Sub,,0,0,0,,you're playing around with 2 Juniors...
+Dialogue: 0,0:05:02.24,0:05:03.40,Sub,,0,0,0,,Very interesting.
+Dialogue: 0,0:05:04.50,0:05:05.76,Sub,,0,0,0,,He's Nascent Soul ?
+Dialogue: 0,0:05:06.16,0:05:09.04,Sub,,0,0,0,,If we didn't give the beast to him,
+Dialogue: 0,0:05:09.24,0:05:11.44,Sub,,0,0,0,,he would've certainly killed us !
+Dialogue: 0,0:05:14.12,0:05:15.92,Sub,,0,0,0,,Thank you for your guidance Senior.
+Dialogue: 0,0:05:23.34,0:05:24.24,Sub,,0,0,0,,Leaving ?
+Dialogue: 0,0:05:33.52,0:05:35.28,Sub,,0,0,0,,These two juniors seem to be
+Dialogue: 0,0:05:35.28,0:05:37.48,Sub,,0,0,0,,from the Poison Devil Palace.
+Dialogue: 0,0:05:38.20,0:05:39.96,Sub,,0,0,0,,That sect takes good care of their disciples.
+Dialogue: 0,0:05:40.19,0:05:41.02,Sub,,0,0,0,,Brother Qiu,
+Dialogue: 0,0:05:41.40,0:05:43.40,Sub,,0,0,0,,you have to be careful in the future.
+Dialogue: 0,0:05:44.19,0:05:47.68,Sub,,0,0,0,,That guy is a core disciple of the Poison Devil Palace
+Dialogue: 0,0:05:47.89,0:05:49.40,Sub,,0,0,0,,If he really runs away,
+Dialogue: 0,0:05:49.80,0:05:52.76,Sub,,0,0,0,,I will have problems in the future
+Dialogue: 0,0:05:52.93,0:05:54.20,Sub,,0,0,0,,This guy...
+Dialogue: 0,0:05:55.19,0:05:57.76,Sub,,0,0,0,,With their Late stage Core Formation speed,
+Dialogue: 0,0:05:57.98,0:05:59.96,Sub,,0,0,0,,if Brother Qiu quickly chases after them,
+Dialogue: 0,0:06:01.14,0:06:02.85,Sub,,0,0,0,,you might still catch up.
+Dialogue: 0,0:06:04.58,0:06:05.40,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:06:05.96,0:06:08.76,Sub,,0,0,0,,say what's on your mind.
+Dialogue: 0,0:06:09.17,0:06:10.76,Sub,,0,0,0,,Although our relation isn't deep
+Dialogue: 0,0:06:10.84,0:06:13.08,Sub,,0,0,0,,we still have been through a bit together.
+Dialogue: 0,0:06:13.76,0:06:15.84,Sub,,0,0,0,,Do you have a map of the Sea of Devils ?
+Dialogue: 0,0:06:18.48,0:06:19.48,Sub,,0,0,0,,I don't have one.
+Dialogue: 0,0:06:19.83,0:06:21.40,Sub,,0,0,0,,But if Brother Wang wants one,
+Dialogue: 0,0:06:21.60,0:06:23.56,Sub,,0,0,0,,you can go to the treasure pavilions in the cities.
+Dialogue: 0,0:06:23.68,0:06:25.16,Sub,,0,0,0,,You might have some luck there.
+Dialogue: 0,0:06:25.72,0:06:28.60,Sub,,0,0,0,,Then Brother Qiu should come with me to the city.
+Dialogue: 0,0:06:28.91,0:06:30.96,Sub,,0,0,0,,We'll buy a map together.
+Dialogue: 0,0:06:31.36,0:06:34.00,Sub,,0,0,0,,You can chase them after I obtain a map.
+Dialogue: 0,0:06:34.76,0:06:37.96,Sub,,0,0,0,,He has forced me into a situation where I need to kill them
+Dialogue: 0,0:06:38.00,0:06:39.40,Sub,,0,0,0,,but he's blocking me.
+Dialogue: 0,0:06:39.84,0:06:41.12,Sub,,0,0,0,,Now that I'm in this situation,
+Dialogue: 0,0:06:41.12,0:06:42.16,Sub,,0,0,0,,I can't wait,
+Dialogue: 0,0:06:42.28,0:06:43.56,Sub,,0,0,0,,I can only comply.
+Dialogue: 0,0:06:44.08,0:06:45.80,Sub,,0,0,0,,That's truly a great scheme...
+Dialogue: 0,0:06:51.14,0:06:52.64,Sub,,0,0,0,,All my knowledge of the Sea of Devils
+Dialogue: 0,0:06:52.64,0:06:55.00,Sub,,0,0,0,,from all the years I have traveled
+Dialogue: 0,0:06:55.04,0:06:56.96,Sub,,0,0,0,,is compiled in this jade.
+Dialogue: 0,0:06:57.24,0:06:58.88,Sub,,0,0,0,,There might be some mistakes,
+Dialogue: 0,0:06:58.92,0:07:00.08,Sub,,0,0,0,,but not too many.
+Dialogue: 0,0:07:00.27,0:07:01.00,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:07:01.38,0:07:02.48,Sub,,0,0,0,,If there's nothing else,
+Dialogue: 0,0:07:02.68,0:07:03.76,Sub,,0,0,0,,I'm leaving.
+Dialogue: 0,0:07:04.32,0:07:05.12,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:07:06.92,0:07:08.00,Sub,,0,0,0,,You're not going to check it ?
+Dialogue: 0,0:07:08.96,0:07:10.16,Sub,,0,0,0,,Do I need to ?
+Dialogue: 0,0:07:12.48,0:07:13.28,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:07:13.64,0:07:16.00,Sub,,0,0,0,,I wouldn't give you false information.
+Dialogue: 0,0:07:16.20,0:07:17.96,Sub,,0,0,0,,You can rest assured.
+Dialogue: 0,0:07:18.97,0:07:21.28,Sub,,0,0,0,,I need to gather multiple maps
+Dialogue: 0,0:07:22.00,0:07:23.68,Sub,,0,0,0,,to cross reference them
+Dialogue: 0,0:07:24.28,0:07:26.20,Sub,,0,0,0,,and find out the real information.
+Dialogue: 0,0:07:27.12,0:07:30.20,Sub,,0,0,0,,{\fad(800,800)\pos(964,534)}7 days later
+Dialogue: 0,0:07:33.73,0:07:36.00,Sub,,0,0,0,,There are so many mutants in the Sea of Devils,
+Dialogue: 0,0:07:36.11,0:07:37.64,Sub,,0,0,0,,yet this guy is just strolling around.
+Dialogue: 0,0:07:38.12,0:07:40.52,Sub,,0,0,0,,How long until we reach Lian Mo City ?
+Dialogue: 0,0:07:41.34,0:07:42.60,Sub,,0,0,0,,Something's wrong here.
+Dialogue: 0,0:07:43.88,0:07:46.00,Sub,,0,0,0,,I don't hear any sound.
+Dialogue: 0,0:08:20.32,0:08:21.76,Sub,,0,0,0,,Underworld Ice Flame,
+Dialogue: 0,0:08:21.88,0:08:22.60,Sub,,0,0,0,,emerge !
+Dialogue: 0,0:08:41.42,0:08:43.60,Sub,,0,0,0,,The beast hiding in this mountain
+Dialogue: 0,0:08:43.96,0:08:45.28,Sub,,0,0,0,,can take a humanoid shape ?
+Dialogue: 0,0:08:46.00,0:08:46.88,Sub,,0,0,0,,Interesting...
+Dialogue: 0,0:08:47.93,0:08:49.68,Sub,,0,0,0,,Although the beast isn't strong,
+Dialogue: 0,0:08:50.36,0:08:52.36,Sub,,0,0,0,,I can help it cultivate to grow in strength.
+Dialogue: 0,0:08:52.68,0:08:53.24,Sub,,0,0,0,,Break !
+Dialogue: 0,0:08:59.60,0:09:00.79,Sub,,0,0,0,,A mosquito beast ?
+Dialogue: 0,0:09:01.14,0:09:04.40,Sub,,0,0,0,,Tu Si was almost killed by their encirclement before...
+Dialogue: 0,0:09:05.04,0:09:07.48,Sub,,0,0,0,,This one must be of the same race.
+Dialogue: 0,0:09:15.11,0:09:16.36,Sub,,0,0,0,,I am here !
+Dialogue: 0,0:09:18.45,0:09:19.68,Sub,,0,0,0,,What the hell is this ?
+Dialogue: 0,0:09:20.07,0:09:21.60,Sub,,0,0,0,,Why is it even uglier than the ape ?
+Dialogue: 0,0:09:22.14,0:09:24.56,Sub,,0,0,0,,This new devil seems dumb.
+Dialogue: 0,0:09:25.24,0:09:28.04,Sub,,0,0,0,,I'll let him do the dirty work.
+Dialogue: 0,0:09:28.20,0:09:30.36,Sub,,0,0,0,,If it turns out he's useless
+Dialogue: 0,0:09:30.36,0:09:32.00,Sub,,0,0,0,,I'll just clean up after him.
+Dialogue: 0,0:09:37.56,0:09:38.80,Sub,,0,0,0,,Such speed !
+Dialogue: 0,0:09:47.89,0:09:49.00,Sub,,0,0,0,,So powerful !
+Dialogue: 0,0:09:49.60,0:09:51.20,Sub,,0,0,0,,If it weren't for this stupid ape,
+Dialogue: 0,0:09:51.21,0:09:53.48,Sub,,0,0,0,,I wouldn't have come out to look for trouble.
+Dialogue: 0,0:09:55.58,0:09:57.00,Sub,,0,0,0,,So it's hard huh ?
+Dialogue: 0,0:09:57.44,0:10:00.80,Sub,,0,0,0,,I want to see how he will capture this thing.
+Dialogue: 0,0:10:01.12,0:10:01.92,Sub,,0,0,0,,Split !
+Dialogue: 0,0:10:04.93,0:10:05.76,Sub,,0,0,0,,Illusion !
+Dialogue: 0,0:10:16.04,0:10:17.76,Sub,,0,0,0,,So it will fight itself.
+Dialogue: 0,0:10:18.00,0:10:20.20,Sub,,0,0,0,,Master always has good ideas !
+Dialogue: 0,0:10:29.25,0:10:31.80,Sub,,0,0,0,,It seems that it can not just attack with its dart,
+Dialogue: 0,0:10:34.29,0:10:37.40,Sub,,0,0,0,,but it can also attack with its mouth.
+Dialogue: 0,0:10:43.64,0:10:46.08,Sub,,0,0,0,,You cannot run away !
+Dialogue: 0,0:10:50.56,0:10:53.20,Sub,,0,0,0,,Master is getting more and more terrifying...
+Dialogue: 0,0:11:10.88,0:11:11.80,Sub,,0,0,0,,Ridiculous.
+Dialogue: 0,0:11:24.00,0:11:26.48,Sub,,0,0,0,,Master, you are too generous !
+Dialogue: 0,0:11:26.48,0:11:28.80,Sub,,0,0,0,,You've given him too many treasures to absorb !
+Dialogue: 0,0:11:40.25,0:11:41.08,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:11:44.96,0:11:46.48,Sub,,0,0,0,,How about 3 mid quality spirit stones ?
+Dialogue: 0,0:11:46.72,0:11:47.68,Sub,,0,0,0,,I can't go cheaper.
+Dialogue: 0,0:11:47.72,0:11:48.59,Sub,,0,0,0,,Let's talk later.
+Dialogue: 0,0:11:46.00,0:11:49.24,Card,,0,0,0,,{\pos(1600,455)\fad(300,300)}Lian Mo City\NSea of Devils
+Dialogue: 0,0:11:49.04,0:11:50.80,Sub,,0,0,0,,Long time no see, fellow cultivator.
+Dialogue: 0,0:11:51.97,0:11:54.36,Sub,,0,0,0,,The Sea isn't very calm lately.
+Dialogue: 0,0:11:55.24,0:11:56.20,Sub,,0,0,0,,This is a special item...
+Dialogue: 0,0:11:56.20,0:11:59.68,Sub,,0,0,0,,These artifacts are made from middle grade Spirit Beast bones.
+Dialogue: 0,0:11:59.83,0:12:01.20,Sub,,0,0,0,,Especially this bell,
+Dialogue: 0,0:12:01.40,0:12:03.60,Sub,,0,0,0,,it was made out of beast ear drums and wings.
+Dialogue: 0,0:12:03.72,0:12:04.68,Sub,,0,0,0,,It is extraordinary.
+Dialogue: 0,0:12:04.84,0:12:06.80,Sub,,0,0,0,,I exchange for spirit stones.
+Dialogue: 0,0:12:07.32,0:12:10.36,Sub,,0,0,0,,I want the bell, for 30 spirit stones ?
+Dialogue: 0,0:12:10.68,0:12:11.32,Sub,,0,0,0,,Sold.
+Dialogue: 0,0:12:13.16,0:12:14.16,Sub,,0,0,0,,Next person.
+Dialogue: 0,0:12:14.48,0:12:15.80,Sub,,0,0,0,,This crystal furnace
+Dialogue: 0,0:12:16.04,0:12:17.60,Sub,,0,0,0,,can be exchanged for high grade pills.
+Dialogue: 0,0:12:18.06,0:12:19.76,Sub,,0,0,0,,I am looking for secret cultivation techniques !
+Dialogue: 0,0:12:20.24,0:12:24.00,Sub,,0,0,0,,I have a book about the secret water sealing pills.
+Dialogue: 0,0:12:24.44,0:12:27.00,Second,,0,0,0,,This gourd can transmit the voice,
+Dialogue: 0,0:12:27.00,0:12:28.48,Second,,0,0,0,,I sell it for 100 spirit stones.
+Dialogue: 0,0:12:27.00,0:12:28.84,Sub,,0,0,0,,Among all those items
+Dialogue: 0,0:12:28.84,0:12:30.96,Sub,,0,0,0,,maybe one can sell for a high price.
+Dialogue: 0,0:12:30.96,0:12:32.20,Second,,0,0,0,,Fellow cultivator, I'm in !
+Dialogue: 0,0:12:32.76,0:12:34.76,Sub,,0,0,0,,It turns there are many strong people hidden here.
+Dialogue: 0,0:12:34.54,0:12:36.04,Second,,0,0,0,,Fellow Daoist, don't compete with me !
+Dialogue: 0,0:12:36.14,0:12:37.16,Sub,,0,0,0,,Next person.
+Dialogue: 0,0:12:40.08,0:12:44.56,Sub,,0,0,0,,I will trade sea beast cores for a map of ancient teleportation formations,
+Dialogue: 0,0:12:44.56,0:12:45.80,Sub,,0,0,0,,the more complete, the better.
+Dialogue: 0,0:12:51.09,0:12:51.84,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:12:52.15,0:12:56.28,Sub,,0,0,0,,this kind of high quality map is invaluable in the Sea of Devils.
+Dialogue: 0,0:12:56.60,0:12:59.20,Sub,,0,0,0,,It will cost 1000 high quality spirit stones
+Dialogue: 0,0:12:59.56,0:13:03.00,Sub,,0,0,0,,plus some of your items, it might be difficult for you.
+Dialogue: 0,0:13:03.48,0:13:04.48,Sub,,0,0,0,,A thousand ?
+Dialogue: 0,0:13:04.80,0:13:06.40,Sub,,0,0,0,,Who has this much ?
+Dialogue: 0,0:13:06.52,0:13:07.20,Sub,,0,0,0,,Yeah right ?
+Dialogue: 0,0:13:07.84,0:13:09.88,Sub,,0,0,0,,Then I'll offer a top grade spirit stone.
+Dialogue: 0,0:13:10.08,0:13:11.70,Sub,,0,0,0,,Does anyone have a map ?
+Dialogue: 0,0:13:11.28,0:13:12.24,Second,,0,0,0,,Top quality ?!
+Dialogue: 0,0:13:12.24,0:13:13.08,Sub,,0,0,0,,I heard it wrong.
+Dialogue: 0,0:13:13.08,0:13:14.60,Sub,,0,0,0,,A top quality spirit stone...
+Dialogue: 0,0:13:14.59,0:13:15.20,Sub,,0,0,0,,No way !
+Dialogue: 0,0:13:15.34,0:13:16.60,Sub,,0,0,0,,Aren't they extinct ?
+Dialogue: 0,0:13:25.44,0:13:27.00,Sub,,0,0,0,,Is this a top quality spirit stone ?
+Dialogue: 0,0:13:32.33,0:13:33.65,Sub,,0,0,0,,Unfortunately I don't have a map...
+Dialogue: 0,0:13:34.44,0:13:35.40,Sub,,0,0,0,,Next person.
+Dialogue: 0,0:13:37.79,0:13:38.60,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:13:39.77,0:13:42.00,Sub,,0,0,0,,I have what you're looking for.
+Dialogue: 0,0:13:42.83,0:13:44.64,Sub,,0,0,0,,But with the top quality spirit stone,
+Dialogue: 0,0:13:45.36,0:13:47.04,Sub,,0,0,0,,I want one more thing in exchange.
+Dialogue: 0,0:13:48.00,0:13:48.97,Sub,,0,0,0,,First, the map.
+Dialogue: 0,0:13:51.88,0:13:55.04,Sub,,0,0,0,,This map not only records the teleportation formations
+Dialogue: 0,0:13:55.24,0:13:57.48,Sub,,0,0,0,,but also how damaged they are.
+Dialogue: 0,0:13:58.40,0:13:59.28,Sub,,0,0,0,,What else do you need ?
+Dialogue: 0,0:14:00.04,0:14:02.40,Sub,,0,0,0,,I want you to kill someone.
+Dialogue: 0,0:14:02.76,0:14:03.80,Sub,,0,0,0,,What cultivation level ?
+Dialogue: 0,0:14:04.24,0:14:06.18,Sub,,0,0,0,,Peak Late stage Nascent Soul,
+Dialogue: 0,0:14:06.36,0:14:07.80,Sub,,0,0,0,,Half-Step Soul Formation.
+Dialogue: 0,0:14:09.12,0:14:09.92,Sub,,0,0,0,,Lead the way.
+Dialogue: 0,0:14:16.75,0:14:17.55,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:14:17.58,0:14:19.53,Sub,,0,0,0,,this person is nearby.
+Dialogue: 0,0:14:20.28,0:14:21.40,Sub,,0,0,0,,You will lay in ambush.
+Dialogue: 0,0:14:21.84,0:14:23.16,Sub,,0,0,0,,When I invite him out,
+Dialogue: 0,0:14:23.32,0:14:24.96,Sub,,0,0,0,,you attack.
+Dialogue: 0,0:14:24.96,0:14:25.72,Sub,,0,0,0,,What's wrong ?
+Dialogue: 0,0:14:31.92,0:14:33.16,Sub,,0,0,0,,You bastard !
+Dialogue: 0,0:14:33.24,0:14:34.60,Sub,,0,0,0,,I'll kill you !
+Dialogue: 0,0:14:34.84,0:14:36.00,Sub,,0,0,0,,You can all come out.
+Dialogue: 0,0:14:40.91,0:14:42.80,Sub,,0,0,0,,When did you find out ?
+Dialogue: 0,0:14:43.32,0:14:44.80,Sub,,0,0,0,,When we arrived here.
+Dialogue: 0,0:14:46.64,0:14:48.16,Sub,,0,0,0,,You are smart.
+Dialogue: 0,0:14:48.76,0:14:50.20,Sub,,0,0,0,,But it's too late.
+Dialogue: 0,0:14:50.52,0:14:52.08,Sub,,0,0,0,,This place is too remote
+Dialogue: 0,0:14:52.12,0:14:53.36,Sub,,0,0,0,,so no one can help you.
+Dialogue: 0,0:14:53.36,0:14:54.20,Sub,,0,0,0,,You are...
+Dialogue: 0,0:14:57.36,0:14:59.00,Sub,,0,0,0,,Go together, kill him !
+Dialogue: 0,0:15:13.36,0:15:17.00,Sub,,0,0,0,,This sword sheath is exactly the same as the one I used in the past.
+Dialogue: 0,0:15:17.80,0:15:19.84,Sub,,0,0,0,,Is there more of these ?
+Dialogue: 0,0:15:29.28,0:15:30.48,Sub,,0,0,0,,It has a strong killing intent.
+Dialogue: 0,0:15:32.48,0:15:35.20,Sub,,0,0,0,,The energy is sealed in the sheath.
+Dialogue: 0,0:15:35.72,0:15:37.24,Sub,,0,0,0,,If I push the sword a third of the way in
+Dialogue: 0,0:15:37.31,0:15:39.20,Sub,,0,0,0,,it can release this much energy.
+Dialogue: 0,0:15:39.72,0:15:42.00,Sub,,0,0,0,,If I can sheathe it entirely...
+Dialogue: 0,0:15:42.40,0:15:44.32,Sub,,0,0,0,,Its strength will be tremendous.
+Dialogue: 0,0:15:54.84,0:15:55.76,Sub,,0,0,0,,Spot on.
+Dialogue: 0,0:16:30.80,0:16:32.34,Sub,,0,0,0,,Take this, and this,
+Dialogue: 0,0:16:32.36,0:16:34.32,Sub,,0,0,0,,and this spiced beef, take all of it !
+Dialogue: 0,0:16:33.99,0:16:35.56,Second,,0,0,0,,outstanding form and spirit.
+Dialogue: 0,0:16:37.36,0:16:39.16,Sub,,0,0,0,,Blood for blood.
+Dialogue: 0,0:16:39.16,0:16:40.92,Sub,,0,0,0,,I will wipe out your Wang Family
+Dialogue: 0,0:16:41.24,0:16:43.00,Sub,,0,0,0,,to avenge my grandson Teng Li !
+Dialogue: 0,0:16:46.82,0:16:47.80,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:16:47.96,0:16:49.88,Sub,,0,0,0,,look how kind I am !
+Dialogue: 0,0:16:50.68,0:16:53.00,Sub,,0,0,0,,I let you reunite with your parents...
+Dialogue: 0,0:16:53.73,0:16:55.08,Sub,,0,0,0,,I have waited for this day
+Dialogue: 0,0:16:55.72,0:16:57.52,Sub,,0,0,0,,for 400 years.
+Dialogue: 0,0:16:58.36,0:16:59.20,Sub,,0,0,0,,Zhao...
+Dialogue: 0,0:16:59.88,0:17:01.08,Sub,,0,0,0,,I'm coming back !
+Dialogue: 0,0:17:13.56,0:17:17.44,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:17:15.60,0:17:17.44,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:17:17.52,0:17:21.00,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:17:21.08,0:17:26.92,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:17:23.96,0:17:26.92,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:17:28.72,0:17:32.68,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:17:30.44,0:17:32.68,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:17:33.00,0:17:36.08,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:17:36.44,0:17:42.08,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:17:39.16,0:17:42.08,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:17:43.44,0:17:47.56,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:17:44.48,0:17:47.56,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:17:47.84,0:17:51.60,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:17:48.60,0:17:51.60,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:17:51.60,0:17:55.44,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:17:53.55,0:17:55.44,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:17:55.68,0:17:59.56,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:18:01.56,0:18:07.36,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:18:04.08,0:18:07.36,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:18:07.48,0:18:14.92,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:18:09.60,0:18:14.92,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:18:15.12,0:18:22.56,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:18:19.16,0:18:22.56,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:18:22.96,0:18:31.92,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:18:26.92,0:18:31.92,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:18:47.36,0:18:53.32,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:18:50.08,0:18:53.32,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:18:53.32,0:19:00.88,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:18:54.76,0:19:00.88,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:19:00.92,0:19:10.28,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:19:06.88,0:19:10.28,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:19:10.52,0:19:18.12,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:19:13.04,0:19:18.12,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

@@ -1,0 +1,341 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:04.72,0:02:06.52,Sub,,0,0,0,,Early stage Soul Formation ?
+Dialogue: 0,0:02:06.52,0:02:08.04,Sub,,0,0,0,,This is a great opportunity,
+Dialogue: 0,0:02:08.04,0:02:09.04,Sub,,0,0,0,,we should act now !
+Dialogue: 0,0:02:30.40,0:02:31.19,Sub,,0,0,0,,Master,
+Dialogue: 0,0:02:31.20,0:02:32.32,Sub,,0,0,0,,don't scare me like that.
+Dialogue: 0,0:02:32.64,0:02:34.36,Sub,,0,0,0,,My Origin Soul got damaged.
+Dialogue: 0,0:02:34.48,0:02:36.00,Sub,,0,0,0,,I need to recover as soon as possible.
+Dialogue: 0,0:02:43.20,0:02:44.20,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:02:44.24,0:02:45.65,Sub,,0,0,0,,what happened to cause you
+Dialogue: 0,0:02:45.68,0:02:47.08,Sub,,0,0,0,,to end up in such a state ?
+Dialogue: 0,0:02:48.92,0:02:50.28,Sub,,0,0,0,,Giant Demon Clan ?
+Dialogue: 0,0:02:55.16,0:02:56.72,Sub,,0,0,0,,A Celestial Realm fragment collapse.
+Dialogue: 0,0:02:59.04,0:02:59.80,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:02:59.84,0:03:01.28,Sub,,0,0,0,,not just anyone can escape
+Dialogue: 0,0:03:01.48,0:03:03.60,Sub,,0,0,0,,the collapse of a Celestial Realm fragment.
+Dialogue: 0,0:03:04.52,0:03:06.20,Sub,,0,0,0,,I'm Chi Hu of the Giant Demon Clan.
+Dialogue: 0,0:03:06.80,0:03:08.69,Sub,,0,0,0,,What's your name ?
+Dialogue: 0,0:03:09.12,0:03:10.72,Sub,,0,0,0,,I'm Ceng Niu.
+Dialogue: 0,0:03:12.00,0:03:12.88,Sub,,0,0,0,,Ceng Niu...
+Dialogue: 0,0:03:14.36,0:03:15.64,Sub,,0,0,0,,Is this cultivator part of
+Dialogue: 0,0:03:16.00,0:03:17.84,Sub,,0,0,0,,the Ceng family of the rank 5
+Dialogue: 0,0:03:17.84,0:03:20.05,Sub,,0,0,0,,country of Heaven Soul from Suzaku ?
+Dialogue: 0,0:03:20.64,0:03:23.12,Sub,,0,0,0,,He is Early stage Soul Formation at such a young age
+Dialogue: 0,0:03:23.44,0:03:25.52,Sub,,0,0,0,,and he can even control wandering souls...
+Dialogue: 0,0:03:26.20,0:03:29.20,Sub,,0,0,0,,He must be the core disciple of a rank 5 country.
+Dialogue: 0,0:03:30.24,0:03:31.00,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:03:31.48,0:03:32.92,Sub,,0,0,0,,can I come closer to talk ?
+Dialogue: 0,0:03:44.72,0:03:45.48,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:03:46.08,0:03:47.48,Sub,,0,0,0,,I'll be frank with you.
+Dialogue: 0,0:03:47.88,0:03:49.71,Sub,,0,0,0,,Since we are both from Suzaku,
+Dialogue: 0,0:03:49.80,0:03:51.08,Sub,,0,0,0,,I hope you can help me.
+Dialogue: 0,0:03:52.56,0:03:54.72,Sub,,0,0,0,,Once you see this, you will understand.
+Dialogue: 0,0:03:59.60,0:04:02.92,Card,,0,0,0,,{\pos(1655,538)\fad(300,300)}Jade coffin\NCentral fragment\NRain Celestial Realm
+Dialogue: 0,0:04:03.36,0:04:05.20,Sub,,0,0,0,,A coffin made of celestial jades ?!
+Dialogue: 0,0:04:06.32,0:04:08.76,Sub,,0,0,0,,So there are such treasures in the Celestial Realm...
+Dialogue: 0,0:04:09.32,0:04:10.12,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:04:10.52,0:04:12.20,Sub,,0,0,0,,that place was found many years ago
+Dialogue: 0,0:04:12.65,0:04:14.40,Sub,,0,0,0,,by a genius of my clan
+Dialogue: 0,0:04:14.40,0:04:15.76,Sub,,0,0,0,,when he came in here.
+Dialogue: 0,0:04:16.68,0:04:17.49,Sub,,0,0,0,,That place
+Dialogue: 0,0:04:17.52,0:04:18.84,Sub,,0,0,0,,is guarded by celestial beasts
+Dialogue: 0,0:04:19.04,0:04:21.24,Sub,,0,0,0,,and powerful restrictions.
+Dialogue: 0,0:04:21.56,0:04:22.80,Sub,,0,0,0,,As he wasn't powerful enough,
+Dialogue: 0,0:04:22.80,0:04:24.08,Sub,,0,0,0,,he didn't act recklessly.
+Dialogue: 0,0:04:24.48,0:04:26.60,Sub,,0,0,0,,He recorded his sight in this jade
+Dialogue: 0,0:04:26.60,0:04:27.80,Sub,,0,0,0,,and returned safely.
+Dialogue: 0,0:04:29.36,0:04:30.36,Sub,,0,0,0,,It has been many years.
+Dialogue: 0,0:04:30.72,0:04:32.76,Sub,,0,0,0,,It probably has been found by someone.
+Dialogue: 0,0:04:33.96,0:04:34.72,Sub,,0,0,0,,Not possible !
+Dialogue: 0,0:04:35.12,0:04:37.08,Sub,,0,0,0,,I promise you this place has not been found.
+Dialogue: 0,0:04:38.00,0:04:39.56,Sub,,0,0,0,,There is a reason,
+Dialogue: 0,0:04:40.20,0:04:42.12,Sub,,0,0,0,,but I cannot tell you right now.
+Dialogue: 0,0:04:43.16,0:04:44.16,Sub,,0,0,0,,Forgive me Brother Ceng.
+Dialogue: 0,0:04:45.32,0:04:47.16,Sub,,0,0,0,,Chi Hu and I are complete strangers
+Dialogue: 0,0:04:47.60,0:04:49.04,Sub,,0,0,0,,but he wants to team up with me...
+Dialogue: 0,0:04:49.73,0:04:52.60,Sub,,0,0,0,,He must have really liked my wandering souls.
+Dialogue: 0,0:04:53.04,0:04:54.80,Sub,,0,0,0,,I'm afraid it will be hard
+Dialogue: 0,0:04:55.36,0:04:57.00,Sub,,0,0,0,,for just the both of us to get there.
+Dialogue: 0,0:04:57.36,0:04:58.32,Sub,,0,0,0,,To be honest,
+Dialogue: 0,0:04:58.84,0:05:00.35,Sub,,0,0,0,,I have also asked
+Dialogue: 0,0:05:00.39,0:05:01.76,Sub,,0,0,0,,another person for help.
+Dialogue: 0,0:05:02.24,0:05:03.48,Sub,,0,0,0,,If the three of us go,
+Dialogue: 0,0:05:03.76,0:05:05.32,Sub,,0,0,0,,I’m pretty confident that we will get there.
+Dialogue: 0,0:05:06.20,0:05:07.64,Sub,,0,0,0,,But don't worry Brother Ceng,
+Dialogue: 0,0:05:07.96,0:05:09.12,Sub,,0,0,0,,we will divide equally
+Dialogue: 0,0:05:09.44,0:05:10.80,Sub,,0,0,0,,the treasures we will find.
+Dialogue: 0,0:05:11.92,0:05:13.52,Sub,,0,0,0,,Take your time to consider my offer.
+Dialogue: 0,0:05:14.48,0:05:15.52,Sub,,0,0,0,,If you agree,
+Dialogue: 0,0:05:15.68,0:05:16.68,Sub,,0,0,0,,in one month,
+Dialogue: 0,0:05:16.73,0:05:19.20,Sub,,0,0,0,,use this jade to teleport to my fragment.
+Dialogue: 0,0:05:24.00,0:05:24.80,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:05:25.20,0:05:27.20,Sub,,0,0,0,,I hope you will join me !
+Dialogue: 0,0:05:30.56,0:05:31.96,Sub,,0,0,0,,First of all, I need to recover.
+Dialogue: 0,0:05:32.44,0:05:34.24,Sub,,0,0,0,,I'd rather not take any risks
+Dialogue: 0,0:05:37.52,0:05:39.92,Sub,,0,0,0,,{\pos(956,525)\fad(300,300)}A few days later
+Dialogue: 0,0:05:45.80,0:05:47.40,Sub,,0,0,0,,Celestial spiritual energy
+Dialogue: 0,0:05:48.00,0:05:50.88,Sub,,0,0,0,,before the Soul Transformation breakthrough
+Dialogue: 0,0:05:51.16,0:05:52.48,Sub,,0,0,0,,cannot be used.
+Dialogue: 0,0:05:53.72,0:05:56.64,Sub,,0,0,0,,It's a poison if I try to absorb it before that point.
+Dialogue: 0,0:05:57.56,0:05:59.80,Sub,,0,0,0,,Fortunately, I gained a lot from this trip.
+Dialogue: 0,0:06:00.96,0:06:02.64,Sub,,0,0,0,,This is a naturally formed celestial jade.
+Dialogue: 0,0:06:03.40,0:06:05.23,Sub,,0,0,0,,The celestial spiritual energy inside it
+Dialogue: 0,0:06:05.28,0:06:07.28,Sub,,0,0,0,,is way stronger than the ones I condensed.
+Dialogue: 0,0:06:08.32,0:06:10.09,Sub,,0,0,0,,To cultivate after Soul Transformation,
+Dialogue: 0,0:06:10.40,0:06:12.36,Sub,,0,0,0,,this one is even more efficient.
+Dialogue: 0,0:06:14.44,0:06:15.92,Sub,,0,0,0,,But this thing doesn't look
+Dialogue: 0,0:06:16.44,0:06:18.40,Sub,,0,0,0,,like a defensive artifact.
+Dialogue: 0,0:06:28.20,0:06:29.56,Sub,,0,0,0,,What an ingenious technique !
+Dialogue: 0,0:06:30.40,0:06:33.00,Sub,,0,0,0,,It turns out this jade was carved by an ancient Celestial !
+Dialogue: 0,0:06:45.28,0:06:48.08,Card,,0,0,0,,{\pos(1618,479)\fad(300,200)}Tian Bao\NHeavenly Treasure Celestial
+Dialogue: 0,0:06:46.20,0:06:49.44,Sub,,0,0,0,,I am Tian Bao, the Heavenly Treasure Celestial.
+Dialogue: 0,0:06:49.48,0:06:52.44,Sub,,0,0,0,,I have always dreamed of creating
+Dialogue: 0,0:06:53.20,0:06:56.04,Sub,,0,0,0,,the most powerful artifact in existence.
+Dialogue: 0,0:06:57.24,0:07:00.44,Sub,,0,0,0,,This dream of mine has ended
+Dialogue: 0,0:07:01.12,0:07:04.36,Sub,,0,0,0,,with the destruction of the Celestial Realm.
+Dialogue: 0,0:07:04.76,0:07:08.31,Sub,,0,0,0,,I have sealed my God Slaying Chariot in a cave.
+Dialogue: 0,0:07:09.04,0:07:13.56,Sub,,0,0,0,,If someone ever obtains this jade,
+Dialogue: 0,0:07:14.64,0:07:16.88,Sub,,0,0,0,,please retrieve it.
+Dialogue: 0,0:07:18.00,0:07:19.60,Sub,,0,0,0,,The God Slaying Chariot ?
+Dialogue: 0,0:07:19.68,0:07:20.72,Sub,,0,0,0,,This artifact
+Dialogue: 0,0:07:21.12,0:07:23.20,Sub,,0,0,0,,might still be in Tian Bao's cave !
+Dialogue: 0,0:07:23.60,0:07:25.24,Sub,,0,0,0,,A celestial artifact is incomparable
+Dialogue: 0,0:07:25.36,0:07:27.05,Sub,,0,0,0,,to artifacts of our world.
+Dialogue: 0,0:07:27.80,0:07:28.72,Sub,,0,0,0,,I must not miss
+Dialogue: 0,0:07:29.40,0:07:30.52,Sub,,0,0,0,,this opportunity.
+Dialogue: 0,0:07:33.60,0:07:36.92,Sub,,0,0,0,,{\pos(958,518)\fad(500,800)}10 days later
+Dialogue: 0,0:07:36.20,0:07:39.36,Card,,0,0,0,,{\pos(1611,475)\fad(300,300}Stone Forest Fragment\NRain Celestial Realm
+Dialogue: 0,0:07:38.84,0:07:41.24,Sub,,0,0,0,,I have already searched all the fragments
+Dialogue: 0,0:07:41.44,0:07:42.84,Sub,,0,0,0,,of the Da Lou Sword Sect.
+Dialogue: 0,0:07:43.72,0:07:44.95,Sub,,0,0,0,,The Celestial Realm is vast,
+Dialogue: 0,0:07:45.40,0:07:47.60,Sub,,0,0,0,,if the cave isn't somewhere I can teleport to,
+Dialogue: 0,0:07:48.04,0:07:49.80,Sub,,0,0,0,,it will take me a long time to find.
+Dialogue: 0,0:07:54.64,0:07:55.20,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:07:55.48,0:07:56.12,Sub,,0,0,0,,save me !
+Dialogue: 0,0:08:06.36,0:08:08.96,Card,,0,0,0,,{\pos(1571,517)\fad(300,000)}Sima Yun\NShattered Silver Planet, Kui Shui Sect\NEarly stage Soul Formation
+Dialogue: 0,0:08:06.64,0:08:07.44,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:08:07.68,0:08:08.88,Sub,,0,0,0,,this has nothing to do with you.
+Dialogue: 0,0:08:09.08,0:08:09.96,Sub,,0,0,0,,Please leave.
+Dialogue: 0,0:08:11.76,0:08:13.76,Sub,,0,0,0,,He tried to steal my celestial jade.
+Dialogue: 0,0:08:14.04,0:08:15.24,Sub,,0,0,0,,If you help me to kill him,
+Dialogue: 0,0:08:15.48,0:08:16.60,Sub,,0,0,0,,we can split evenly !
+Dialogue: 0,0:08:16.68,0:08:17.48,Sub,,0,0,0,,Nonsense !
+Dialogue: 0,0:08:18.20,0:08:20.00,Sub,,0,0,0,,You're the one that stole from me.
+Dialogue: 0,0:08:25.40,0:08:27.00,Sub,,0,0,0,,We both come from planet Suzaku,
+Dialogue: 0,0:08:27.09,0:08:28.24,Sub,,0,0,0,,help me this once !
+Dialogue: 0,0:08:28.32,0:08:28.92,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:08:29.28,0:08:32.20,Sub,,0,0,0,,Don't get me involved in this matter between you two.
+Dialogue: 0,0:08:34.64,0:08:36.00,Sub,,0,0,0,,Since you aren't willing to help,
+Dialogue: 0,0:08:36.52,0:08:38.68,Sub,,0,0,0,,then I might as well pass the buck.
+Dialogue: 0,0:08:39.00,0:08:39.80,Sub,,0,0,0,,I don't want
+Dialogue: 0,0:08:39.92,0:08:41.20,Sub,,0,0,0,,this celestial jade anymore !
+Dialogue: 0,0:08:57.00,0:08:57.68,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:08:58.36,0:08:59.72,Sub,,0,0,0,,I am Sima Yun from the Kui Shui Sect.
+Dialogue: 0,0:09:00.20,0:09:01.24,Sub,,0,0,0,,And fellow cultivator is ?
+Dialogue: 0,0:09:02.11,0:09:02.93,Sub,,0,0,0,,Ceng Niu.
+Dialogue: 0,0:09:04.00,0:09:05.02,Sub,,0,0,0,,Fellow cultivator Ceng,
+Dialogue: 0,0:09:05.16,0:09:06.84,Sub,,0,0,0,,I have been searching here for a few days,
+Dialogue: 0,0:09:07.24,0:09:09.24,Sub,,0,0,0,,there is no more celestial spiritual energy left.
+Dialogue: 0,0:09:09.52,0:09:10.64,Sub,,0,0,0,,Don't waste your time.
+Dialogue: 0,0:09:11.00,0:09:13.00,Sub,,0,0,0,,I don't know if you have any teleportation formations locations.
+Dialogue: 0,0:09:13.04,0:09:14.03,Sub,,0,0,0,,But if you do,
+Dialogue: 0,0:09:14.08,0:09:15.48,Sub,,0,0,0,,maybe we can exchange them.
+Dialogue: 0,0:09:16.52,0:09:19.64,Sub,,0,0,0,,He should also have a map of teleportation formations given by his sect.
+Dialogue: 0,0:09:22.24,0:09:23.80,Sub,,0,0,0,,What will you exchange with me ?
+Dialogue: 0,0:09:32.48,0:09:33.92,Sub,,0,0,0,,This person has 5 fragments
+Dialogue: 0,0:09:34.52,0:09:36.28,Sub,,0,0,0,,on the western side.
+Dialogue: 0,0:09:36.40,0:09:37.42,Sub,,0,0,0,,Fellow cultivator Ceng,
+Dialogue: 0,0:09:37.52,0:09:39.71,Sub,,0,0,0,,my map has 21 fragments
+Dialogue: 0,0:09:39.80,0:09:41.48,Sub,,0,0,0,,and 8 of them overlap with yours.
+Dialogue: 0,0:09:41.52,0:09:42.66,Sub,,0,0,0,,How about we trade
+Dialogue: 0,0:09:42.72,0:09:44.20,Sub,,0,0,0,,after you wipe off a few.
+Dialogue: 0,0:09:53.40,0:09:54.40,Sub,,0,0,0,,Fellow cultivator Ceng,
+Dialogue: 0,0:09:54.52,0:09:56.36,Sub,,0,0,0,,if you have the chance to come to my planet,
+Dialogue: 0,0:09:56.51,0:09:57.64,Sub,,0,0,0,,I’ll certainly welcome you.
+Dialogue: 0,0:09:58.32,0:09:59.12,Sub,,0,0,0,,Sure.
+Dialogue: 0,0:09:59.32,0:10:00.16,Sub,,0,0,0,,I shall take my leave.
+Dialogue: 0,0:10:00.60,0:10:02.40,Sub,,0,0,0,,Since that bastard tried to steal from me,
+Dialogue: 0,0:10:02.68,0:10:04.28,Sub,,0,0,0,,I will definitely not let him get away.
+Dialogue: 0,0:10:06.42,0:10:07.44,Sub,,0,0,0,,It seems that
+Dialogue: 0,0:10:07.90,0:10:09.56,Sub,,0,0,0,,the fragments of the Da Lou Sword Sect
+Dialogue: 0,0:10:10.32,0:10:13.20,Sub,,0,0,0,,were just the tip of the iceberg of the Celestial Realm.
+Dialogue: 0,0:10:13.76,0:10:16.60,Card,,0,0,0,,{\pos(1644,492)\fad(300,300}Tiger Mountain Fragment\NRain Celestial Realm
+Dialogue: 0,0:10:26.92,0:10:27.64,Sub,,0,0,0,,I found it !
+Dialogue: 0,0:10:30.36,0:10:31.84,Sub,,0,0,0,,A tiger-shaped mountain ?
+Dialogue: 0,0:10:31.88,0:10:33.41,Sub,,0,0,0,,Such a place really exists ?
+Dialogue: 0,0:10:49.36,0:10:52.00,Card,,0,0,0,,{\pos(1611,568)\fad(300,000)}Celestial Tian Bao's cave\NTiger Mountain Fragment\NRain Celestial Realm
+Dialogue: 0,0:10:58.08,0:10:59.64,Sub,,0,0,0,,It seems that it has already been looted.
+Dialogue: 0,0:11:00.76,0:11:02.88,Sub,,0,0,0,,That's a shame, it was so hard to find this place.
+Dialogue: 0,0:11:19.76,0:11:21.44,Sub,,0,0,0,,The God Slaying Chariot
+Dialogue: 0,0:11:21.48,0:11:24.48,Sub,,0,0,0,,is sealed in the 10th room of the cave,
+Dialogue: 0,0:11:25.00,0:11:26.76,Sub,,0,0,0,,waiting for the one destined for it.
+Dialogue: 0,0:11:27.28,0:11:29.40,Sub,,0,0,0,,There are only 9 rooms in this cave.
+Dialogue: 0,0:11:30.20,0:11:31.84,Sub,,0,0,0,,Where is the 10th ?
+Dialogue: 0,0:11:32.06,0:11:35.72,Sub,,0,0,0,,The God Slaying Chariot is my life's work.
+Dialogue: 0,0:11:36.24,0:11:37.96,Sub,,0,0,0,,If it can be completed,
+Dialogue: 0,0:11:38.95,0:11:39.64,Sub,,0,0,0,,I...
+Dialogue: 0,0:11:40.36,0:11:42.28,Sub,,0,0,0,,won't have any regrets.
+Dialogue: 0,0:11:47.36,0:11:48.68,Sub,,0,0,0,,The cave is sinking.
+Dialogue: 0,0:11:49.80,0:11:52.20,Sub,,0,0,0,,Even if people found this cave, very few would be able
+Dialogue: 0,0:11:52.20,0:11:54.80,Sub,,0,0,0,,to find the room with the real treasure inside.
+Dialogue: 0,0:12:15.44,0:12:16.56,Sub,,0,0,0,,I don't know
+Dialogue: 0,0:12:17.00,0:12:18.44,Sub,,0,0,0,,what's in this room.
+Dialogue: 0,0:12:25.12,0:12:28.00,Card,,0,0,0,,{\pos(1642,426)\fad(300,300)}God Slaying Chariots
+Dialogue: 0,0:12:30.08,0:12:31.68,Sub,,0,0,0,,It looks like a celestial beast
+Dialogue: 0,0:12:32.60,0:12:34.20,Sub,,0,0,0,,that has come back to life.
+Dialogue: 0,0:12:35.56,0:12:36.60,Sub,,0,0,0,,This is
+Dialogue: 0,0:12:36.85,0:12:38.20,Sub,,0,0,0,,the God Slaying Chariot !
+Dialogue: 0,0:12:51.29,0:12:54.16,Card,,0,0,0,,{\pos(324,425)\fad(300,000}Fei\NSoul of the God Slaying Chariot
+Dialogue: 0,0:12:53.20,0:12:55.24,Sub,,0,0,0,,What an overwhelming pressure !
+Dialogue: 0,0:12:55.36,0:12:57.23,Sub,,0,0,0,,The smallest of those beasts
+Dialogue: 0,0:12:57.36,0:13:00.24,Sub,,0,0,0,,is stronger than the 9-headed dragon in the Land of the Ancient God.
+Dialogue: 0,0:13:00.73,0:13:03.32,Sub,,0,0,0,,Although the jade didn't record the name of those beasts,
+Dialogue: 0,0:13:04.09,0:13:05.44,Sub,,0,0,0,,it did mention that
+Dialogue: 0,0:13:05.44,0:13:07.69,Sub,,0,0,0,,each chariot has chains to bind them.
+Dialogue: 0,0:13:08.32,0:13:10.08,Sub,,0,0,0,,So they can't move more than 9 meters away.
+Dialogue: 0,0:13:15.80,0:13:17.12,Sub,,0,0,0,,Using the God Slaying Chariot
+Dialogue: 0,0:13:17.64,0:13:18.92,Sub,,0,0,0,,with my Soul Formation cultivation
+Dialogue: 0,0:13:19.36,0:13:20.56,Sub,,0,0,0,,is impossible.
+Dialogue: 0,0:13:21.72,0:13:24.04,Sub,,0,0,0,,I can only seal these beasts for now.
+Dialogue: 0,0:13:33.32,0:13:35.32,Sub,,0,0,0,,Celestial Tian Bao wouldn't have thought that
+Dialogue: 0,0:13:36.00,0:13:38.20,Sub,,0,0,0,,his inestimable celestial artifacts would end up
+Dialogue: 0,0:13:38.88,0:13:41.16,Sub,,0,0,0,,in the hands of an Early stage Soul Formation.
+Dialogue: 0,0:13:42.84,0:13:43.52,Sub,,0,0,0,,Seal !
+Dialogue: 0,0:14:01.40,0:14:03.20,Sub,,0,0,0,,This God Slaying Chariot is so ingenious,
+Dialogue: 0,0:14:04.16,0:14:05.96,Sub,,0,0,0,,it's being powered by the beast soul inside.
+Dialogue: 0,0:14:06.88,0:14:07.80,Sub,,0,0,0,,I'm sure that
+Dialogue: 0,0:14:08.16,0:14:09.72,Sub,,0,0,0,,its power won't disappoint me.
+Dialogue: 0,0:14:10.88,0:14:12.72,Sub,,0,0,0,,This is the smallest of the 3 beasts
+Dialogue: 0,0:14:13.04,0:14:15.08,Sub,,0,0,0,,so maybe I can use the Beast Trap on it.
+Dialogue: 0,0:14:15.80,0:14:17.52,Sub,,0,0,0,,But even if the Beast Trap works,
+Dialogue: 0,0:14:17.71,0:14:19.24,Sub,,0,0,0,,will I be able to withstand
+Dialogue: 0,0:14:19.76,0:14:21.84,Sub,,0,0,0,,the absorption of spiritual energy ?
+Dialogue: 0,0:14:29.28,0:14:31.00,Sub,,0,0,0,,The harvest on this trip
+Dialogue: 0,0:14:31.00,0:14:32.56,Sub,,0,0,0,,has been very good.
+Dialogue: 0,0:14:33.52,0:14:35.12,Sub,,0,0,0,,But it also was dangerous.
+Dialogue: 0,0:14:35.60,0:14:38.24,Sub,,0,0,0,,If anything had gone wrong during that fragment collapse,
+Dialogue: 0,0:14:38.40,0:14:40.00,Sub,,0,0,0,,I would be dead by now.
+Dialogue: 0,0:14:41.35,0:14:42.32,Sub,,0,0,0,,Therefore,
+Dialogue: 0,0:14:42.72,0:14:44.52,Sub,,0,0,0,,I have to carefully consider
+Dialogue: 0,0:14:44.52,0:14:46.56,Sub,,0,0,0,,Chi Hu's invitation.
+Dialogue: 0,0:14:47.23,0:14:49.00,Sub,,0,0,0,,Not to mention the 3 celestial swords,
+Dialogue: 0,0:14:49.72,0:14:51.20,Sub,,0,0,0,,the celestial jade coffin
+Dialogue: 0,0:14:51.51,0:14:53.84,Sub,,0,0,0,,will be crucial for my future Soul Transformation.
+Dialogue: 0,0:14:54.68,0:14:56.55,Sub,,0,0,0,,As long as my cultivation reaches Soul Transformation,
+Dialogue: 0,0:14:56.57,0:14:58.20,Sub,,0,0,0,,I will be able to wake up Senior Situ.
+Dialogue: 0,0:14:59.24,0:15:00.84,Sub,,0,0,0,,I can also bring some
+Dialogue: 0,0:15:01.52,0:15:03.52,Sub,,0,0,0,,celestial herbs back to Wan'er.
+Dialogue: 0,0:15:12.60,0:15:15.24,Card,,0,0,0,,{\pos(1572,472)\fad(300,000}Central Cold Fragment Entrance\NRain Celestial Realm
+Dialogue: 0,0:15:15.96,0:15:16.80,Sub,,0,0,0,,They're here.
+Dialogue: 0,0:15:17.04,0:15:17.96,Sub,,0,0,0,,I just don't know
+Dialogue: 0,0:15:18.20,0:15:19.28,Sub,,0,0,0,,which one it is.
+Dialogue: 0,0:15:36.73,0:15:37.80,Sub,,0,0,0,,Fellow cultivator Red Butterfly,
+Dialogue: 0,0:15:37.81,0:15:39.24,Sub,,0,0,0,,I've been waiting for you.
+Dialogue: 0,0:15:41.48,0:15:42.84,Sub,,0,0,0,,If what you said is false,
+Dialogue: 0,0:15:43.76,0:15:45.68,Sub,,0,0,0,,I won’t let this end so easily !
+Dialogue: 0,0:15:46.20,0:15:47.80,Sub,,0,0,0,,Fellow cultivator Red Butterfly can relax.
+Dialogue: 0,0:15:47.81,0:15:48.72,Sub,,0,0,0,,This jade was made
+Dialogue: 0,0:15:48.72,0:15:51.36,Sub,,0,0,0,,by my Giant Demon Clan’s Ancestor, Xi Zu.
+Dialogue: 0,0:15:52.57,0:15:54.68,Sub,,0,0,0,,He should have no reason to lie.
+Dialogue: 0,0:15:55.70,0:15:56.60,Sub,,0,0,0,,Xi Zu ?
+Dialogue: 0,0:15:57.92,0:15:59.04,Sub,,0,0,0,,On planet Suzaku,
+Dialogue: 0,0:15:59.05,0:16:00.96,Sub,,0,0,0,,my Giant Demon Clan and your country of Xue Yue
+Dialogue: 0,0:16:00.97,0:16:03.12,Sub,,0,0,0,,are the only non natives to the planet.
+Dialogue: 0,0:16:03.55,0:16:05.92,Sub,,0,0,0,,Xi Zu and your master were friends.
+Dialogue: 0,0:16:05.92,0:16:08.00,Sub,,0,0,0,,How could I lie to you ?
+Dialogue: 0,0:16:09.68,0:16:11.48,Sub,,0,0,0,,Since it was recorded by Xi Zu himself,
+Dialogue: 0,0:16:11.95,0:16:13.92,Sub,,0,0,0,,then I'll believe you and go on this trip.
+Dialogue: 0,0:16:14.40,0:16:15.76,Sub,,0,0,0,,The only treasure I want
+Dialogue: 0,0:16:15.76,0:16:17.04,Sub,,0,0,0,,is that jade coffin.
+Dialogue: 0,0:16:17.44,0:16:18.52,Sub,,0,0,0,,It must be mine !
+Dialogue: 0,0:16:21.60,0:16:23.80,Sub,,0,0,0,,She really is too overbearing.
+Dialogue: 0,0:16:25.64,0:16:27.24,Sub,,0,0,0,,Fellow cultivator Red Butterfly,
+Dialogue: 0,0:16:27.25,0:16:28.84,Sub,,0,0,0,,this matter is not so easily decided.
+Dialogue: 0,0:16:29.36,0:16:30.72,Sub,,0,0,0,,After all, besides the two of us,
+Dialogue: 0,0:16:30.80,0:16:31.72,Sub,,0,0,0,,one more person
+Dialogue: 0,0:16:32.16,0:16:34.00,Sub,,0,0,0,,should also join us on this trip.
+Dialogue: 0,0:16:34.01,0:16:35.20,Sub,,0,0,0,,I've promised him that
+Dialogue: 0,0:16:35.68,0:16:37.48,Sub,,0,0,0,,if the three of us work together,
+Dialogue: 0,0:16:37.62,0:16:38.64,Sub,,0,0,0,,we would split
+Dialogue: 0,0:16:39.32,0:16:40.16,Sub,,0,0,0,,all the treasures we find
+Dialogue: 0,0:16:40.60,0:16:42.20,Sub,,0,0,0,,evenly among us.
+Dialogue: 0,0:16:43.72,0:16:45.72,Sub,,0,0,0,,Since I'm the young master of the Giant Demon Clan,
+Dialogue: 0,0:16:45.99,0:16:47.36,Sub,,0,0,0,,I must keep my word.
+Dialogue: 0,0:16:47.92,0:16:48.68,Sub,,0,0,0,,Oh ?
+Dialogue: 0,0:16:48.90,0:16:49.64,Sub,,0,0,0,,And who is it ?
+Dialogue: 0,0:16:50.35,0:16:51.24,Sub,,0,0,0,,Ceng Niu.
+Dialogue: 0,0:16:52.52,0:16:53.88,Sub,,0,0,0,,Just like you and me,
+Dialogue: 0,0:16:53.96,0:16:55.37,Sub,,0,0,0,,he comes from planet Suzaku.
+Dialogue: 0,0:16:56.06,0:16:57.68,Sub,,0,0,0,,From planet Suzaku ?
+Dialogue: 0,0:17:00.02,0:17:00.79,Sub,,0,0,0,,Brother Ceng !
+Dialogue: 0,0:17:00.81,0:17:02.25,Sub,,0,0,0,,So you did come afterall.
+Dialogue: 0,0:17:02.27,0:17:04.28,Sub,,0,0,0,,It's you !
+Dialogue: 0,0:17:19.79,0:17:26.47,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:17:26.54,0:17:32.63,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:17:32.74,0:17:36.57,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:17:36.60,0:17:40.50,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:17:40.86,0:17:46.51,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:17:47.69,0:17:53.52,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:17:53.83,0:17:59.37,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:17:59.83,0:18:04.05,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:18:04.31,0:18:07.54,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:18:07.71,0:18:13.53,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:18:14.05,0:18:17.73,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:17.83,0:18:21.65,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:21.83,0:18:27.50,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:27.76,0:18:31.43,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:31.64,0:18:35.21,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:35.33,0:18:41.25,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:41.32,0:18:45.33,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:45.36,0:18:49.15,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:49.74,0:18:54.98,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:55.05,0:18:58.93,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:58.97,0:19:02.77,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:19:03.07,0:19:08.63,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:19:09.27,0:19:15.49,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:19:15.79,0:19:22.29,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:19:23.31,0:19:29.01,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:19:29.18,0:19:35.88,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

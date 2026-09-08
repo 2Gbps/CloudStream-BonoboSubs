@@ -1,0 +1,299 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,4,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:01.76,0:02:02.48,Sub,,0,0,0,,Celestials
+Dialogue: 0,0:02:02.84,0:02:03.88,Sub,,0,0,0,,are too weak !
+Dialogue: 0,0:02:06.40,0:02:07.56,Sub,,0,0,0,,Noooo !!!
+Dialogue: 0,0:02:15.44,0:02:17.58,Sub,,0,0,0,,Between Life and Death,
+Dialogue: 0,0:02:17.84,0:02:19.36,Sub,,0,0,0,,fate plays tricks on us.
+Dialogue: 0,0:02:26.32,0:02:27.52,Sub,,0,0,0,,My name is not Ting'er.
+Dialogue: 0,0:02:28.36,0:02:29.48,Sub,,0,0,0,,However,
+Dialogue: 0,0:02:30.20,0:02:31.60,Sub,,0,0,0,,this name, Ting'er,
+Dialogue: 0,0:02:32.84,0:02:33.92,Sub,,0,0,0,,I like it very much.
+Dialogue: 0,0:02:37.40,0:02:39.88,Sub,,0,0,0,,I die, you live...
+Dialogue: 0,0:02:40.88,0:02:43.60,Sub,,0,0,0,,I live, you die...
+Dialogue: 0,0:02:44.96,0:02:47.76,Sub,,0,0,0,,Don't tell me that this is our destiny !
+Dialogue: 0,0:02:49.28,0:02:50.08,Sub,,0,0,0,,No !
+Dialogue: 0,0:02:54.28,0:02:55.56,Sub,,0,0,0,,Life and Death
+Dialogue: 0,0:02:55.96,0:02:57.44,Sub,,0,0,0,,are separated by a thin line.
+Dialogue: 0,0:02:59.00,0:02:59.80,Sub,,0,0,0,,Death
+Dialogue: 0,0:03:00.92,0:03:03.24,Sub,,0,0,0,,is not always the end
+Dialogue: 0,0:03:04.68,0:03:06.68,Sub,,0,0,0,,because you can be reborn
+Dialogue: 0,0:03:07.80,0:03:09.80,Sub,,0,0,0,,in someone else's heart.
+Dialogue: 0,0:03:12.36,0:03:13.44,Sub,,0,0,0,,Life and Death
+Dialogue: 0,0:03:14.72,0:03:16.72,Sub,,0,0,0,,are the basis of the reincarnation cycle.
+Dialogue: 0,0:03:17.92,0:03:19.76,Sub,,0,0,0,,The flow of Life and Death
+Dialogue: 0,0:03:21.12,0:03:23.56,Sub,,0,0,0,,really does mess with people.
+Dialogue: 0,0:03:55.92,0:03:57.84,Sub,,0,0,0,,What's wrong with his domain ?
+Dialogue: 0,0:03:58.04,0:03:59.40,Sub,,0,0,0,,He's really making a breakthrough
+Dialogue: 0,0:03:59.44,0:04:00.72,Sub,,0,0,0,,in such a place ?
+Dialogue: 0,0:04:03.88,0:04:06.51,Sub,,0,0,0,,My Life and Death Domain underwent a breakthrough.
+Dialogue: 0,0:04:06.76,0:04:08.48,Sub,,0,0,0,,Middle stage Soul Formation
+Dialogue: 0,0:04:09.04,0:04:10.36,Sub,,0,0,0,,is just a step away.
+Dialogue: 0,0:04:14.80,0:04:16.48,Sub,,0,0,0,,Let's see how long you can hold on
+Dialogue: 0,0:04:16.52,0:04:18.72,Sub,,0,0,0,,before you run out of celestial spiritual energy !
+Dialogue: 0,0:04:30.80,0:04:31.72,Sub,,0,0,0,,The celestial swords
+Dialogue: 0,0:04:32.16,0:04:33.44,Sub,,0,0,0,,are mine !
+Dialogue: 0,0:04:54.92,0:04:55.92,Sub,,0,0,0,,Ling...
+Dialogue: 0,0:04:56.36,0:04:57.48,Sub,,0,0,0,,Tian...
+Dialogue: 0,0:04:57.84,0:04:59.00,Sub,,0,0,0,,hou !!!
+Dialogue: 0,0:05:06.80,0:05:08.32,Sub,,0,0,0,,Senior Zhou Yi's Sword Spirit
+Dialogue: 0,0:05:08.84,0:05:10.92,Sub,,0,0,0,,feels like it could destroy everything.
+Dialogue: 0,0:05:14.56,0:05:16.16,Sub,,0,0,0,,The Celestial is dead.
+Dialogue: 0,0:05:16.88,0:05:18.88,Sub,,0,0,0,,A mere Sword Spirit
+Dialogue: 0,0:05:19.84,0:05:21.60,Sub,,0,0,0,,dares to try to stop me !?
+Dialogue: 0,0:05:30.24,0:05:32.04,Sub,,0,0,0,,This Sword Spirit has a high cultivation,
+Dialogue: 0,0:05:32.32,0:05:34.28,Sub,,0,0,0,,the strength he can display
+Dialogue: 0,0:05:34.88,0:05:36.28,Sub,,0,0,0,,is that of a Celestial.
+Dialogue: 0,0:05:36.28,0:05:38.84,Sub,,0,0,0,,I have been injured so I can't use my full power.
+Dialogue: 0,0:05:51.92,0:05:52.72,Sub,,0,0,0,,Forget it.
+Dialogue: 0,0:05:56.84,0:05:58.48,Sub,,0,0,0,,Ting'er is dead...
+Dialogue: 0,0:05:59.12,0:06:01.72,Sub,,0,0,0,,I won't let you survive !
+Dialogue: 0,0:06:15.36,0:06:16.32,Sub,,0,0,0,,Are you
+Dialogue: 0,0:06:16.64,0:06:17.88,Sub,,0,0,0,,willing to help me ?
+Dialogue: 0,0:06:18.36,0:06:19.88,Sub,,0,0,0,,My wife
+Dialogue: 0,0:06:20.28,0:06:23.84,Sub,,0,0,0,,needs 1000 celestial jades every 1000 years to sustain her body.
+Dialogue: 0,0:06:30.20,0:06:32.00,Sub,,0,0,0,,2 Rain Celestial Swords...
+Dialogue: 0,0:06:32.16,0:06:33.72,Sub,,0,0,0,,such precious artifacts !
+Dialogue: 0,0:06:42.64,0:06:45.72,Card,,0,0,0,,{\pos(1250,504)\fad(300,300)}Zhuang Yi\NHun Yuan Sect\NEarly stage Soul Formation
+Dialogue: 0,0:06:43.68,0:06:44.92,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:06:45.52,0:06:46.96,Sub,,0,0,0,,if you give me one
+Dialogue: 0,0:06:47.36,0:06:48.48,Sub,,0,0,0,,of your celestial swords,
+Dialogue: 0,0:06:49.36,0:06:52.24,Sub,,0,0,0,,the eight of us from the Hun Yuan Sect will protect you.
+Dialogue: 0,0:06:52.84,0:06:54.00,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:06:55.88,0:06:57.36,Sub,,0,0,0,,The Hun Yuan Sect is trash !
+Dialogue: 0,0:06:57.76,0:06:58.40,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:06:58.72,0:07:00.48,Sub,,0,0,0,,if you give me a celestial sword,
+Dialogue: 0,0:07:00.72,0:07:02.04,Sub,,0,0,0,,my Sky Devil Sect
+Dialogue: 0,0:07:02.24,0:07:03.24,Sub,,0,0,0,,will ensure your safety !
+Dialogue: 0,0:07:00.88,0:07:03.16,Card,,0,0,0,,{\pos(1590,510)\fad(300,000)}Nie Ming\NSky Devil Sect\NEarly stage Soul Formation
+Dialogue: 0,0:07:04.56,0:07:06.12,Sub,,0,0,0,,3 Late stage Soul Formation,
+Dialogue: 0,0:07:06.60,0:07:08.16,Sub,,0,0,0,,8 Middle stage Soul Formation,
+Dialogue: 0,0:07:08.68,0:07:10.60,Sub,,0,0,0,,and the rest are Early stage Soul Formation...
+Dialogue: 0,0:07:11.28,0:07:12.48,Sub,,0,0,0,,These 2 celestial swords
+Dialogue: 0,0:07:12.68,0:07:14.92,Sub,,0,0,0,,belong to my Heaven and Earth Sect !
+Dialogue: 0,0:07:14.24,0:07:16.24,Card,,0,0,0,,{\pos(1650,559)\fad(300,000)}Lu Tianrui\NHeaven and Earth Sect\NMiddle stage Soul Formation
+Dialogue: 0,0:07:17.76,0:07:18.96,Sub,,0,0,0,,I can't back down now.
+Dialogue: 0,0:07:19.40,0:07:20.44,Sub,,0,0,0,,If I try to retreat,
+Dialogue: 0,0:07:20.76,0:07:22.12,Sub,,0,0,0,,I will be in a lot of danger.
+Dialogue: 0,0:07:22.52,0:07:24.16,Sub,,0,0,0,,An Early stage Soul Formation
+Dialogue: 0,0:07:24.44,0:07:26.40,Sub,,0,0,0,,dares to display his domain in front of me ?
+Dialogue: 0,0:07:26.72,0:07:28.24,Sub,,0,0,0,,You’re courting death!
+Dialogue: 0,0:07:29.08,0:07:30.32,Sub,,0,0,0,,What is Life ?
+Dialogue: 0,0:07:39.36,0:07:40.48,Sub,,0,0,0,,I lost my five senses...
+Dialogue: 0,0:07:40.72,0:07:41.76,Sub,,0,0,0,,What kind of domain is this !?
+Dialogue: 0,0:07:43.60,0:07:44.28,Sub,,0,0,0,,Domain...
+Dialogue: 0,0:07:44.60,0:07:45.04,Sub,,0,0,0,,activate !
+Dialogue: 0,0:07:54.44,0:07:57.20,Card,,0,0,0,,{\pos(1671,479)\fad(300,000}Lu Tianrui's domain\NFilial Piety
+Dialogue: 0,0:08:06.52,0:08:07.76,Sub,,0,0,0,,Let's compare our domains,
+Dialogue: 0,0:08:07.80,0:08:09.24,Sub,,0,0,0,,I'm not afraid of you !
+Dialogue: 0,0:08:14.28,0:08:15.84,Sub,,0,0,0,,It's rare to see someone reach Soul Formation
+Dialogue: 0,0:08:16.28,0:08:17.36,Sub,,0,0,0,,through filial piety.
+Dialogue: 0,0:08:20.68,0:08:22.04,Sub,,0,0,0,,What is Death ?
+Dialogue: 0,0:08:24.24,0:08:25.36,Sub,,0,0,0,,What kind of domain is this !?
+Dialogue: 0,0:08:26.08,0:08:28.84,Sub,,0,0,0,,Why does this black and white painting shake my heart ?!
+Dialogue: 0,0:08:29.40,0:08:31.80,Sub,,0,0,0,,This is the Life and Death reincarnation cycle !
+Dialogue: 0,0:08:41.16,0:08:43.40,Sub,,0,0,0,,Although my cultivation is at Early stage Soul Formation,
+Dialogue: 0,0:08:43.80,0:08:46.64,Sub,,0,0,0,,my domain was able to reach Middle stage just now.
+Dialogue: 0,0:08:47.40,0:08:49.92,Sub,,0,0,0,,Now that my Life and Death Domain has reached the second stage,
+Dialogue: 0,0:08:51.16,0:08:53.32,Sub,,0,0,0,,I would even dare to fight Red Butterfly.
+Dialogue: 0,0:08:54.04,0:08:55.60,Sub,,0,0,0,,As for you...
+Dialogue: 0,0:08:58.60,0:09:00.20,Sub,,0,0,0,,He crushed his Origin Soul ?!
+Dialogue: 0,0:09:00.20,0:09:02.40,Sub,,0,0,0,,He killed a Soul Formation cultivator just like that ?
+Dialogue: 0,0:09:07.28,0:09:08.52,Sub,,0,0,0,,We are outnumbered,
+Dialogue: 0,0:09:08.96,0:09:10.84,Sub,,0,0,0,,if they fight to the death for the celestial swords,
+Dialogue: 0,0:09:10.92,0:09:12.52,Sub,,0,0,0,,I'm afraid we won't be able to win.
+Dialogue: 0,0:09:12.64,0:09:14.68,Sub,,0,0,0,,Your domain might be powerful
+Dialogue: 0,0:09:15.00,0:09:16.80,Sub,,0,0,0,,but fellow cultivator is alone !
+Dialogue: 0,0:09:17.60,0:09:20.36,Sub,,0,0,0,,You can't protect the celestial swords !
+Dialogue: 0,0:09:21.08,0:09:22.32,Sub,,0,0,0,,Let's see
+Dialogue: 0,0:09:22.48,0:09:24.16,Sub,,0,0,0,,who will win this fight.
+Dialogue: 0,0:09:26.48,0:09:27.56,Sub,,0,0,0,,Hun Yuan Sect,
+Dialogue: 0,0:09:27.56,0:09:28.24,Sub,,0,0,0,,go !
+Dialogue: 0,0:09:28.84,0:09:29.88,Sub,,0,0,0,,Sky Devil Sect,
+Dialogue: 0,0:09:30.04,0:09:30.72,Sub,,0,0,0,,this is an order.
+Dialogue: 0,0:09:30.92,0:09:32.08,Sub,,0,0,0,,Steal the sword
+Dialogue: 0,0:09:32.44,0:09:33.44,Sub,,0,0,0,,at all costs !
+Dialogue: 0,0:09:34.48,0:09:35.28,Sub,,0,0,0,,Kill him !
+Dialogue: 0,0:09:36.76,0:09:38.36,Sub,,0,0,0,,I can't be blamed for this,
+Dialogue: 0,0:09:38.48,0:09:40.08,Sub,,0,0,0,,they are just envious of my treasures.
+Dialogue: 0,0:09:41.56,0:09:43.52,Sub,,0,0,0,,If they don't value their lives,
+Dialogue: 0,0:09:43.84,0:09:46.08,Sub,,0,0,0,,then they're not worth much.
+Dialogue: 0,0:09:46.40,0:09:47.08,Sub,,0,0,0,,You
+Dialogue: 0,0:09:47.28,0:09:48.64,Sub,,0,0,0,,are still not showing yourself ?
+Dialogue: 0,0:09:49.48,0:09:50.32,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:10:17.32,0:10:18.68,Sub,,0,0,0,,A Soul Transformation Senior ?
+Dialogue: 0,0:10:19.44,0:10:21.72,Sub,,0,0,0,,You knew I was here ?
+Dialogue: 0,0:10:22.44,0:10:23.48,Sub,,0,0,0,,Of course I knew,
+Dialogue: 0,0:10:24.36,0:10:25.44,Sub,,0,0,0,,you followed me
+Dialogue: 0,0:10:25.80,0:10:27.08,Sub,,0,0,0,,the entire way.
+Dialogue: 0,0:10:29.48,0:10:30.52,Sub,,0,0,0,,The Corpse Sect ?!
+Dialogue: 0,0:10:33.52,0:10:35.20,Sub,,0,0,0,,Little guy, how about we make a deal ?
+Dialogue: 0,0:10:37.96,0:10:40.12,Sub,,0,0,0,,I’ll help you kill these guys
+Dialogue: 0,0:10:40.80,0:10:42.68,Sub,,0,0,0,,and you give me 1000 years of freedom.
+Dialogue: 0,0:10:43.56,0:10:44.76,Sub,,0,0,0,,In these 1000 years,
+Dialogue: 0,0:10:45.12,0:10:46.32,Sub,,0,0,0,,I won’t look for you
+Dialogue: 0,0:10:46.84,0:10:49.60,Sub,,0,0,0,,and you won’t crush my Origin Soul for no reason.
+Dialogue: 0,0:10:49.84,0:10:50.52,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:10:52.00,0:10:54.60,Sub,,0,0,0,,Senior wants to have nothing to do with me from now on.
+Dialogue: 0,0:10:55.52,0:10:56.88,Sub,,0,0,0,,But 1000 years is too long.
+Dialogue: 0,0:10:57.36,0:10:58.12,Sub,,0,0,0,,Besides,
+Dialogue: 0,0:10:59.20,0:11:02.72,Sub,,0,0,0,,what if I die within 1000 years ?
+Dialogue: 0,0:11:06.88,0:11:07.76,Sub,,0,0,0,,Zhou Yi !
+Dialogue: 0,0:11:08.68,0:11:10.40,Sub,,0,0,0,,You really tricked me !
+Dialogue: 0,0:11:10.92,0:11:12.60,Sub,,0,0,0,,If he doesn’t even live for 1000 years,
+Dialogue: 0,0:11:12.80,0:11:13.96,Sub,,0,0,0,,then my Origin Soul
+Dialogue: 0,0:11:14.20,0:11:15.88,Sub,,0,0,0,,will die with him !
+Dialogue: 0,0:11:25.44,0:11:26.56,Sub,,0,0,0,,Hurry up, retreat !
+Dialogue: 0,0:11:28.16,0:11:30.12,Sub,,0,0,0,,If I let a single one escape,
+Dialogue: 0,0:11:30.64,0:11:32.08,Sub,,0,0,0,,word of this will get out
+Dialogue: 0,0:11:32.08,0:11:33.52,Sub,,0,0,0,,and he won't be safe.
+Dialogue: 0,0:11:35.68,0:11:36.80,Sub,,0,0,0,,Sky Devil Sect, retreat !
+Dialogue: 0,0:11:41.28,0:11:42.08,Sub,,0,0,0,,Die...
+Dialogue: 0,0:11:45.44,0:11:46.28,Sub,,0,0,0,,Retreat, quick !
+Dialogue: 0,0:11:48.44,0:11:49.04,Sub,,0,0,0,,Retreat !
+Dialogue: 0,0:11:49.92,0:11:50.60,Sub,,0,0,0,,Let's go !
+Dialogue: 0,0:11:50.60,0:11:51.44,Sub,,0,0,0,,It's too late...
+Dialogue: 0,0:11:52.52,0:11:53.96,Sub,,0,0,0,,In front of a Soul Transformation,
+Dialogue: 0,0:11:54.72,0:11:56.72,Sub,,0,0,0,,Soul Formation cultivators are powerless.
+Dialogue: 0,0:12:04.92,0:12:05.88,Sub,,0,0,0,,Not him.
+Dialogue: 0,0:12:18.96,0:12:20.12,Sub,,0,0,0,,In these 1000 years,
+Dialogue: 0,0:12:20.76,0:12:22.52,Sub,,0,0,0,,I will protect you once.
+Dialogue: 0,0:12:22.60,0:12:24.52,Sub,,0,0,0,,You better stay alive for me !
+Dialogue: 0,0:12:32.04,0:12:33.04,Sub,,0,0,0,,Brother Chi Hu,
+Dialogue: 0,0:12:33.16,0:12:33.92,Sub,,0,0,0,,hop on.
+Dialogue: 0,0:12:34.84,0:12:36.60,Sub,,0,0,0,,Let's go back to planet Suzaku.
+Dialogue: 0,0:12:42.40,0:12:43.76,Sub,,0,0,0,,I really gained a lot
+Dialogue: 0,0:12:44.04,0:12:46.12,Sub,,0,0,0,,from this trip to the Celestial Realm.
+Dialogue: 0,0:12:46.20,0:12:48.24,Sub,,0,0,0,,I didn't expect to meet Senior All-Seer
+Dialogue: 0,0:12:49.04,0:12:50.84,Sub,,0,0,0,,and the Ancestor of the Da Lou Sword Sect.
+Dialogue: 0,0:12:51.64,0:12:53.96,Sub,,0,0,0,,The cultivation of these old monsters is too high.
+Dialogue: 0,0:12:54.08,0:12:56.52,Sub,,0,0,0,,Fortunately, no one knows where the celestial swords have gone
+Dialogue: 0,0:12:57.12,0:12:58.92,Sub,,0,0,0,,apart from Chi Hu and Sun Tai.
+Dialogue: 0,0:13:02.56,0:13:03.92,Sub,,0,0,0,,Thank you for sparing me,
+Dialogue: 0,0:13:03.96,0:13:05.36,Sub,,0,0,0,,I will remember it.
+Dialogue: 0,0:13:05.80,0:13:07.12,Sub,,0,0,0,,Don't worry Brother Ceng,
+Dialogue: 0,0:13:07.16,0:13:08.48,Sub,,0,0,0,,I won't tell anyone
+Dialogue: 0,0:13:08.48,0:13:09.80,Sub,,0,0,0,,about what happened today.
+Dialogue: 0,0:13:09.84,0:13:10.80,Sub,,0,0,0,,I, Chi Hu,
+Dialogue: 0,0:13:11.12,0:13:12.64,Sub,,0,0,0,,swear upon my Giant Demon Clan !
+Dialogue: 0,0:13:13.44,0:13:14.72,Sub,,0,0,0,,Red Butterfly was reckless
+Dialogue: 0,0:13:15.08,0:13:16.80,Sub,,0,0,0,,so I cut off one of her arms.
+Dialogue: 0,0:13:17.04,0:13:19.32,Sub,,0,0,0,,I'm sure the country of Suzaku won't let that slide.
+Dialogue: 0,0:13:19.36,0:13:20.92,Sub,,0,0,0,,If you are asked...
+Dialogue: 0,0:13:21.28,0:13:22.32,Sub,,0,0,0,,Given her behavior,
+Dialogue: 0,0:13:22.68,0:13:24.32,Sub,,0,0,0,,I would have done the same as you.
+Dialogue: 0,0:13:24.48,0:13:26.04,Sub,,0,0,0,,I can't blame Brother Ceng.
+Dialogue: 0,0:13:32.36,0:13:33.36,Sub,,0,0,0,,Brother Chi Hu,
+Dialogue: 0,0:13:33.48,0:13:34.68,Sub,,0,0,0,,let us meet again back on Suzaku.
+Dialogue: 0,0:13:35.48,0:13:36.40,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:13:36.48,0:13:37.60,Sub,,0,0,0,,if you have the chance,
+Dialogue: 0,0:13:37.72,0:13:38.96,Sub,,0,0,0,,come to the Giant Demon Clan.
+Dialogue: 0,0:13:39.32,0:13:41.44,Sub,,0,0,0,,So we can have a drink together.
+Dialogue: 0,0:13:46.60,0:13:47.20,Sub,,0,0,0,,Goodbye.
+Dialogue: 0,0:13:57.24,0:13:58.36,Sub,,0,0,0,,5 months ago,
+Dialogue: 0,0:13:58.80,0:14:01.08,Sub,,0,0,0,,the proud daughter of the heavens lost an arm.
+Dialogue: 0,0:14:01.36,0:14:04.12,Sub,,0,0,0,,The news of her panicked return to Suzaku
+Dialogue: 0,0:14:04.12,0:14:05.28,Sub,,0,0,0,,spread like wildfire.
+Dialogue: 0,0:14:06.00,0:14:06.88,Sub,,0,0,0,,Overnight,
+Dialogue: 0,0:14:07.16,0:14:08.48,Sub,,0,0,0,,Ceng Niu's name
+Dialogue: 0,0:14:08.80,0:14:10.52,Sub,,0,0,0,,was heard throughout the planet.
+Dialogue: 0,0:14:10.96,0:14:13.20,Sub,,0,0,0,,Rumors about Ceng Niu became a popular topic among cultivators.
+Dialogue: 0,0:14:13.92,0:14:16.28,Sub,,0,0,0,,Many people regarded Ceng Niu
+Dialogue: 0,0:14:16.36,0:14:18.84,Sub,,0,0,0,,as the star of the new generation.
+Dialogue: 0,0:14:19.36,0:14:20.88,Sub,,0,0,0,,That was until 3 days ago,
+Dialogue: 0,0:14:21.20,0:14:23.52,Sub,,0,0,0,,when the young master of the Giant Demon Clan returned.
+Dialogue: 0,0:14:23.88,0:14:27.68,Sub,,0,0,0,,Suzaku's Envoy immediately summoned Chi Hu
+Dialogue: 0,0:14:24.24,0:14:27.00,Card Hard,,0,0,0,,{\pos(1592,459)\fad(300,300)}Altar of Mount Suzaku\NCountry of Suzaku
+Dialogue: 0,0:14:28.08,0:14:29.68,Sub,,0,0,0,,to investigate this matter.
+Dialogue: 0,0:14:30.08,0:14:31.00,Sub,,0,0,0,,Lord Envoy,
+Dialogue: 0,0:14:31.76,0:14:32.88,Sub,,0,0,0,,I don't know his true name.
+Dialogue: 0,0:14:33.44,0:14:34.96,Sub,,0,0,0,,I only know him as Ceng Niu.
+Dialogue: 0,0:14:35.12,0:14:36.40,Sub,,0,0,0,,His cultivation is unfathomable.
+Dialogue: 0,0:14:35.32,0:14:38.56,Card Hard,,0,0,0,,{\pos(1537,553)\fad(300,000)}Feng Yushan\NHeavenly Jade Sect disciple\NMiddle stage Soul Transformation
+Dialogue: 0,0:14:37.52,0:14:38.80,Sub,,0,0,0,,Please Lord Envoy,
+Dialogue: 0,0:14:38.80,0:14:41.12,Sub,,0,0,0,,the records of the whole Ceng family are here.
+Dialogue: 0,0:14:41.16,0:14:43.40,Sub,,0,0,0,,There is indeed such a name in the country of Tianhun.
+Dialogue: 0,0:14:43.44,0:14:44.44,Sub,,0,0,0,,But that Ceng Niu
+Dialogue: 0,0:14:44.44,0:14:46.40,Sub,,0,0,0,,is only a Foundation Establishment cultivator !
+Dialogue: 0,0:14:46.40,0:14:48.28,Sub,,0,0,0,,His name has been usurped !
+Dialogue: 0,0:14:48.28,0:14:49.92,Sub,,0,0,0,,Please understand, Lord Envoy !
+Dialogue: 0,0:14:51.48,0:14:52.56,Sub,,0,0,0,,In this jade
+Dialogue: 0,0:14:53.09,0:14:54.84,Sub,,0,0,0,,is Ceng Niu's appearance.
+Dialogue: 0,0:14:56.12,0:14:57.32,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:14:57.84,0:14:59.60,Sub,,0,0,0,,if you find this person,
+Dialogue: 0,0:14:59.88,0:15:01.00,Sub,,0,0,0,,you must kill him.
+Dialogue: 0,0:15:01.56,0:15:03.08,Sub,,0,0,0,,Those who cover up for him
+Dialogue: 0,0:15:03.72,0:15:06.24,Sub,,0,0,0,,will have their whole country buried with them !
+Dialogue: 0,0:15:16.04,0:15:18.60,Sub,,0,0,0,,You mustn't look for Ceng Niu.
+Dialogue: 0,0:15:21.88,0:15:22.68,Sub,,0,0,0,,Disciple
+Dialogue: 0,0:15:23.36,0:15:24.16,Sub,,0,0,0,,obeys !
+Dialogue: 0,0:15:24.84,0:15:26.76,Sub,,0,0,0,,We obey your order.
+Dialogue: 0,0:15:27.96,0:15:30.48,Sub,,0,0,0,,The Elders of Mount Suzaku banned the search order...
+Dialogue: 0,0:15:30.60,0:15:31.40,Sub,,0,0,0,,This Ceng Niu...
+Dialogue: 0,0:15:31.88,0:15:33.28,Sub,,0,0,0,,who the hell is he ?
+Dialogue: 0,0:15:41.56,0:15:42.40,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:15:43.40,0:15:46.24,Sub,,0,0,0,,our battle is not over.
+Dialogue: 0,0:15:47.32,0:15:49.00,Sub,,0,0,0,,I’m waiting for you to find me !
+Dialogue: 0,0:15:55.92,0:15:58.88,Card,,0,0,0,,{\pos(1602,433)\fad(300,300}Country of Schuilu
+Dialogue: 0,0:15:59.04,0:15:59.64,Sub,,0,0,0,,Teacher,
+Dialogue: 0,0:15:59.84,0:16:01.00,Sub,,0,0,0,,traveling in this rain
+Dialogue: 0,0:16:01.16,0:16:02.40,Sub,,0,0,0,,consumes a lot of spiritual energy
+Dialogue: 0,0:16:02.52,0:16:04.16,Sub,,0,0,0,,so it is a good training method.
+Dialogue: 0,0:16:05.60,0:16:06.36,Sub,,0,0,0,,Correct.
+Dialogue: 0,0:16:06.64,0:16:08.76,Sub,,0,0,0,,If you remain this diligent,
+Dialogue: 0,0:16:09.08,0:16:10.16,Sub,,0,0,0,,within 10 years,
+Dialogue: 0,0:16:10.68,0:16:11.76,Sub,,0,0,0,,you'll be Core Formation.
+Dialogue: 0,0:16:13.28,0:16:14.08,Sub,,0,0,0,,Teacher,
+Dialogue: 0,0:16:14.32,0:16:15.64,Sub,,0,0,0,,what cultivation level
+Dialogue: 0,0:16:15.64,0:16:17.04,Sub,,0,0,0,,do you think Ceng Niu has ?
+Dialogue: 0,0:16:17.52,0:16:18.48,Sub,,0,0,0,,Could he be
+Dialogue: 0,0:16:18.68,0:16:20.44,Sub,,0,0,0,,at the legendary Soul Transformation stage ?
+Dialogue: 0,0:16:21.16,0:16:22.76,Sub,,0,0,0,,This person's cultivation
+Dialogue: 0,0:16:23.24,0:16:25.28,Sub,,0,0,0,,should be Late stage Soul Formation,
+Dialogue: 0,0:16:25.84,0:16:27.24,Sub,,0,0,0,,not Soul Transformation.
+Dialogue: 0,0:16:28.24,0:16:29.72,Sub,,0,0,0,,Or else Red Butterfly
+Dialogue: 0,0:16:29.72,0:16:31.68,Sub,,0,0,0,,wouldn't just have lost an arm.
+Dialogue: 0,0:16:32.00,0:16:33.56,Sub,,0,0,0,,She would be dead.
+Dialogue: 0,0:16:57.30,0:19:30.03,Note,,0,0,0,,{\fad(1000,1000)}Wang Lin's breakthrough had important context cut. Here is the novel for reference.\N\NHe lives, she dies… she lives, he dies…\NThis was another meaning of Life and Death. At this moment, Wang Lin suddenly understood something.\NThe words “To see a mountain as a mountain and see water as water” gained a new meaning to Wang Lin.\N\NSeeing life as life and seeing death as death was only the first layer of the Life and Death Domain.\NBack in the Four Sect Alliance, he saw the entire country be destroyed by Xue Yue. He saw the Soul Formation cultivator who gave him the feather die and staining Xue Yue with his blood. His heart shook. There was a sign of a breakthrough.\NLife and Death are separated by a thin line. Some are clearly dead, but they are now living in someone else’s heart. Some are clearly alive, but they start dying if they don’t change. Wang Lin’s eyes sparkled brighter and brighter.\NZhou Yi’s death caused Ting'er to live, but Ting'er’s death brought Zhou Yi life. Life and Death really did mess with people.\N\NHowever, the life and death of those two hadn’t ended; they now existed as a new life in the heart.\NSee life not as life and see death not as death. Wang Lin’s eyes were clear. He understood.\NHe seemed to have seen through the Life and Death Domain. His understanding of the Life and Death Domain rapidly increased. He took a deep breath. He knew that his cultivation was about to make a breakthrough.\N\N-> This is a buddhist concept, you start by seeing a mountain as a mountain. In the process of enlightment about Dharma (or the Dao here) you see the mountain not as a mountain but as something else entirely that does not exist on its own, is interconnected with the world, ephemeral. Once enlightened you see once again the mountain as a mountain. But the mountain in the third step is very different from the first step thanks to the wisdom and enlightment of the second step.

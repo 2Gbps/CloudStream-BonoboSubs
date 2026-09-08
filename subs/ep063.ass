@@ -1,0 +1,225 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:53.85,0:01:55.97,Sub,,0,0,0,,There's nothing good in the recent auctions.
+Dialogue: 0,0:01:56.45,0:01:57.58,Sub,,0,0,0,,It's disappointing.
+Dialogue: 0,0:01:58.29,0:01:59.59,Sub,,0,0,0,,Bear with it,
+Dialogue: 0,0:01:59.64,0:02:02.09,Sub,,0,0,0,,the 4 major sects have been looking for treasures recently.
+Dialogue: 0,0:02:02.52,0:02:04.58,Sub,,0,0,0,,We'd be lucky if there were any left.
+Dialogue: 0,0:02:06.42,0:02:08.28,Sub,,0,0,0,,What are they trying to...
+Dialogue: 0,0:02:10.60,0:02:11.49,Sub,,0,0,0,,I heard that
+Dialogue: 0,0:02:12.05,0:02:13.57,Sub,,0,0,0,,they are going to the Celestial Realm.
+Dialogue: 0,0:02:18.89,0:02:20.36,Sub,,0,0,0,,I used almost all of my artifacts
+Dialogue: 0,0:02:20.45,0:02:22.17,Sub,,0,0,0,,in the war against Xue Yue.
+Dialogue: 0,0:02:22.83,0:02:24.33,Sub,,0,0,0,,Many sects are looking forward
+Dialogue: 0,0:02:24.39,0:02:26.34,Sub,,0,0,0,,to the opening of the Celestial Realm.
+Dialogue: 0,0:02:26.41,0:02:28.09,Sub,,0,0,0,,I have to be fully prepared.
+Dialogue: 0,0:02:29.09,0:02:29.97,Sub,,0,0,0,,The first step
+Dialogue: 0,0:02:30.65,0:02:32.73,Sub,,0,0,0,,is to refine another Restriction Flag.
+Dialogue: 0,0:02:54.89,0:02:55.80,Sub,,0,0,0,,This is...
+Dialogue: 0,0:03:02.33,0:03:04.25,Sub,,0,0,0,,Do you want this ?
+Dialogue: 0,0:03:46.17,0:03:48.17,Sub,,0,0,0,,It can improve my Spirit Beast's cultivation ?
+Dialogue: 0,0:04:11.13,0:04:12.17,Sub,,0,0,0,,Wait here,
+Dialogue: 0,0:04:12.77,0:04:14.77,Sub,,0,0,0,,I'm going to the Land of the Ancient God.
+Dialogue: 0,0:04:25.05,0:04:27.21,Sub,,0,0,0,,As long as I don't enter the Ancient God trials,
+Dialogue: 0,0:04:27.44,0:04:29.57,Sub,,0,0,0,,Tuo Sen shouldn't notice that I am here.
+Dialogue: 0,0:04:30.04,0:04:31.62,Sub,,0,0,0,,Even if he does,
+Dialogue: 0,0:04:31.73,0:04:33.45,Sub,,0,0,0,,with my current cultivation,
+Dialogue: 0,0:04:33.89,0:04:35.65,Sub,,0,0,0,,I should be able to leave this place.
+Dialogue: 0,0:04:40.33,0:04:42.44,Sub,,0,0,0,,I refined a flag in the Sea of Devils before
+Dialogue: 0,0:04:42.77,0:04:45.16,Sub,,0,0,0,,but it triggered a tribulation and I was injured.
+Dialogue: 0,0:04:45.17,0:04:46.50,Sub,,0,0,0,,The Land of the Ancient God
+Dialogue: 0,0:04:46.89,0:04:48.26,Sub,,0,0,0,,is a realm of its own
+Dialogue: 0,0:04:48.37,0:04:50.52,Sub,,0,0,0,,so the tribulation shouldn't be able to fall.
+Dialogue: 0,0:05:03.57,0:05:04.65,Sub,,0,0,0,,This is the last one.
+Dialogue: 0,0:05:09.23,0:05:10.45,Sub,,0,0,0,,If my is guess wrong
+Dialogue: 0,0:05:10.97,0:05:12.60,Sub,,0,0,0,,and the tribulation falls now,
+Dialogue: 0,0:05:12.77,0:05:14.81,Sub,,0,0,0,,it will be hard to protect the flag.
+Dialogue: 0,0:05:15.41,0:05:16.73,Sub,,0,0,0,,But if I stop now,
+Dialogue: 0,0:05:17.44,0:05:20.28,Sub,,0,0,0,,the flag won't reach the first stage and will lack strength.
+Dialogue: 0,0:05:20.39,0:05:22.86,Sub,,0,0,0,,It will hardly help me in the Celestial Realm.
+Dialogue: 0,0:05:26.85,0:05:28.05,Sub,,0,0,0,,I will gamble !
+Dialogue: 0,0:06:01.01,0:06:01.85,Sub,,0,0,0,,I won the gamble.
+Dialogue: 0,0:06:03.89,0:06:06.82,Sub,,0,0,0,,I don't need to worry about tribulations in the Land of the Ancient God.
+Dialogue: 0,0:06:06.89,0:06:08.49,Sub,,0,0,0,,Let's keep adding restrictions,
+Dialogue: 0,0:06:09.25,0:06:11.97,Sub,,0,0,0,,maybe I can hit the second stage.
+Dialogue: 0,0:06:12.48,0:06:13.56,Sub,,0,0,0,,When it does,
+Dialogue: 0,0:06:13.81,0:06:15.09,Sub,,0,0,0,,its power will be doubled.
+Dialogue: 0,0:06:16.36,0:06:26.12,Sub,,0,0,0,,Note: Wang Lin refined non-specialized restriction flags before.\NNow that he knows more restrictions, he is refining a pure attack restriction flag.
+Dialogue: 0,0:06:22.29,0:06:24.45,Sub,,0,0,0,,{\pos(188,475)\fad(000,800}3 days later
+Dialogue: 0,0:06:35.17,0:06:36.05,Sub,,0,0,0,,With my cultivation,
+Dialogue: 0,0:06:36.52,0:06:38.69,Sub,,0,0,0,,the second stage is still a step away.
+Dialogue: 0,0:06:39.81,0:06:40.61,Sub,,0,0,0,,It's okay,
+Dialogue: 0,0:06:41.05,0:06:43.37,Sub,,0,0,0,,the next tribulation the flag will cause
+Dialogue: 0,0:06:43.89,0:06:47.44,Sub,,0,0,0,,will be able to save me in a life or death situation.
+Dialogue: 0,0:06:52.44,0:07:09.44,Sub,,0,0,0,,{\an8}Note: This scene was originally cut from episode 35, at that time the Blood Sea Warriors give Wang Lin their artifacts to guarantee his safety
+Dialogue: 0,0:06:52.80,0:06:55.73,Sub,,0,0,0,,This artifact is called the Huan Yuan Beast Trap.
+Dialogue: 0,0:06:56.36,0:06:59.61,Sub,,0,0,0,,Any beast in the world can be controlled by it for a short time.
+Dialogue: 0,0:07:00.45,0:07:02.81,Sub,,0,0,0,,In theory, you just need to have enough spiritual energy.
+Dialogue: 0,0:07:03.25,0:07:05.21,Sub,,0,0,0,,The stronger the beast is,
+Dialogue: 0,0:07:05.48,0:07:07.41,Sub,,0,0,0,,the more it will consume spiritual energy.
+Dialogue: 0,0:07:07.43,0:07:09.01,Sub,,0,0,0,,Use it wisely.
+Dialogue: 0,0:07:11.24,0:07:13.22,Sub,,0,0,0,,It would be great to capture
+Dialogue: 0,0:07:13.50,0:07:15.28,Sub,,0,0,0,,another beast with this.
+Dialogue: 0,0:07:16.17,0:07:17.42,Sub,,0,0,0,,Even if I fail,
+Dialogue: 0,0:07:17.49,0:07:18.76,Sub,,0,0,0,,I can always just leave.
+Dialogue: 0,0:07:26.60,0:07:28.76,Sub,,0,0,0,,Why is the spiritual energy so thin here ?
+Dialogue: 0,0:07:31.17,0:07:32.63,Sub,,0,0,0,,Desolate beasts !
+Dialogue: 0,0:08:09.95,0:08:12.73,Sub,,0,0,0,,Wow, 2 Desolate Beasts are fighting.
+Dialogue: 0,0:08:12.77,0:08:15.13,Sub,,0,0,0,,Wrong, this toad isn't a Desolate Beast.
+Dialogue: 0,0:08:15.69,0:08:17.89,Sub,,0,0,0,,It's only a high quality Spirit Beast.
+Dialogue: 0,0:08:29.20,0:08:31.16,Sub,,0,0,0,,It's still able to fight back,
+Dialogue: 0,0:08:31.24,0:08:32.52,Sub,,0,0,0,,it must be special.
+Dialogue: 0,0:08:43.45,0:08:44.77,Sub,,0,0,0,,This Flood Dragon is powerful !
+Dialogue: 0,0:08:45.12,0:08:46.29,Sub,,0,0,0,,Master, let's capture it.
+Dialogue: 0,0:08:47.05,0:08:48.41,Sub,,0,0,0,,With my current cultivation,
+Dialogue: 0,0:08:48.92,0:08:50.45,Sub,,0,0,0,,I can't subdue Desolate Beasts.
+Dialogue: 0,0:08:50.93,0:08:53.73,Sub,,0,0,0,,But a high quality Spirit Beast is worth a shot.
+Dialogue: 0,0:08:53.85,0:08:55.73,Sub,,0,0,0,,But can I escape this Flood Dragon ?
+Dialogue: 0,0:08:56.41,0:08:57.69,Sub,,0,0,0,,It's gonna be tight.
+Dialogue: 0,0:09:12.17,0:09:14.29,Sub,,0,0,0,,If you don't want to die, don't struggle !
+Dialogue: 0,0:09:34.97,0:09:35.57,Sub,,0,0,0,,Master,
+Dialogue: 0,0:09:35.77,0:09:36.85,Sub,,0,0,0,,are you okay ?
+Dialogue: 0,0:09:38.73,0:09:40.50,Sub,,0,0,0,,This toad is really powerful.
+Dialogue: 0,0:09:40.57,0:09:42.20,Sub,,0,0,0,,The moment it was captured,
+Dialogue: 0,0:09:42.20,0:09:44.84,Sub,,0,0,0,,almost all my spiritual energy was absorbed by it.
+Dialogue: 0,0:10:06.96,0:10:09.09,Sub,,0,0,0,,So this beast is a Thunder Toad.
+Dialogue: 0,0:10:10.17,0:10:11.45,Sub,,0,0,0,,The beast trap
+Dialogue: 0,0:10:11.64,0:10:13.88,Sub,,0,0,0,,will regularly absob spiritual energy from my body.
+Dialogue: 0,0:10:13.88,0:10:15.65,Sub,,0,0,0,,to maintain control of the Thunder Toad.
+Dialogue: 0,0:10:16.37,0:10:18.23,Sub,,0,0,0,,From now on, I need to prepare in advance
+Dialogue: 0,0:10:18.28,0:10:20.53,Sub,,0,0,0,,because if this happens during a fight,
+Dialogue: 0,0:10:20.80,0:10:21.89,Sub,,0,0,0,,it can be very dangerous.
+Dialogue: 0,0:10:37.61,0:10:39.37,Sub,,0,0,0,,Why are they fighting ?
+Dialogue: 0,0:10:45.80,0:10:46.45,Sub,,0,0,0,,Enough !
+Dialogue: 0,0:10:53.57,0:10:54.92,Sub,,0,0,0,,I need to catch my breath,
+Dialogue: 0,0:10:55.92,0:10:57.17,Sub,,0,0,0,,I can't make mistakes.
+Dialogue: 0,0:11:05.08,0:11:07.60,Sub,,0,0,0,,{\fad(300,000)\pos(961,534)}6 days later
+Dialogue: 0,0:11:18.09,0:11:19.49,Sub,,0,0,0,,It's been 6 days !
+Dialogue: 0,0:11:19.61,0:11:21.64,Sub,,0,0,0,,Aren't you guys done already !?
+Dialogue: 0,0:11:38.13,0:11:39.17,Sub,,0,0,0,,It's over...
+Dialogue: 0,0:11:39.20,0:11:40.53,Sub,,0,0,0,,Master, wake up.
+Dialogue: 0,0:11:40.57,0:11:42.41,Sub,,0,0,0,,There's a big one coming.
+Dialogue: 0,0:11:54.09,0:11:57.05,Sub,,0,0,0,,With my cultivation, I'm afraid I can't stop this one.
+Dialogue: 0,0:12:16.81,0:12:18.69,Sub,,0,0,0,,Where are we going next ?
+Dialogue: 0,0:12:19.49,0:12:20.69,Sub,,0,0,0,,The Foreign Battlefield.
+Dialogue: 0,0:12:25.76,0:12:30.01,Sub,,0,0,0,,Today, the Foreign Battlefield opens once again.
+Dialogue: 0,0:12:30.69,0:12:33.89,Sub,,0,0,0,,I hope the elites of the country of Wuwen can seize this opportunity
+Dialogue: 0,0:12:34.53,0:12:37.09,Sub,,0,0,0,,to raise their cultivations !
+Dialogue: 0,0:12:37.36,0:12:39.05,Sub,,0,0,0,,Thank you, Lord Envoy.
+Dialogue: 0,0:12:34.80,0:12:36.89,Card,,0,0,0,,{\pos(292,521)\fad(500,000)}Sun Wen\NGong Sun country's Envoy\NLate stage Nacent Soul
+Dialogue: 0,0:12:59.77,0:13:00.25,Sub,,0,0,0,,This...
+Dialogue: 0,0:13:01.25,0:13:01.88,Sub,,0,0,0,,This is...
+Dialogue: 0,0:13:01.88,0:13:03.89,Sub,,0,0,0,,Why are there so many wandering souls ?!
+Dialogue: 0,0:13:04.49,0:13:06.77,Sub,,0,0,0,,Is the Foreign Battlefield collapsing ?
+Dialogue: 0,0:13:05.97,0:13:07.34,Second,,0,0,0,,What's going on ?!
+Dialogue: 0,0:13:09.29,0:13:10.12,Sub,,0,0,0,,Someone's in there ?
+Dialogue: 0,0:13:10.12,0:13:11.36,Sub,,0,0,0,,How did he get in ?
+Dialogue: 0,0:13:11.36,0:13:14.17,Sub,,0,0,0,,I'm afraid that this fellow cultivator is in a pinch.
+Dialogue: 0,0:13:48.89,0:13:50.13,Sub,,0,0,0,,Junior Sun Wen,
+Dialogue: 0,0:13:50.45,0:13:51.85,Sub,,0,0,0,,greets Senior.
+Dialogue: 0,0:13:52.65,0:13:54.33,Sub,,0,0,0,,Greetings Senior.
+Dialogue: 0,0:13:56.05,0:13:57.17,Sub,,0,0,0,,Where am I ?
+Dialogue: 0,0:13:58.70,0:13:59.77,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:14:00.13,0:14:01.53,Sub,,0,0,0,,this is the country of country Wuwen.
+Dialogue: 0,0:14:12.57,0:14:14.05,Sub,,0,0,0,,How can such a person be here ?
+Dialogue: 0,0:14:14.30,0:14:16.66,Sub,,0,0,0,,I feel like I just met my sect's Ancestor.
+Dialogue: 0,0:14:17.01,0:14:18.28,Sub,,0,0,0,,That was scary !
+Dialogue: 0,0:14:24.77,0:14:26.69,Sub,,0,0,0,,I have a Restriction Flag, a Thunder Toad,
+Dialogue: 0,0:14:26.79,0:14:29.69,Sub,,0,0,0,,wandering souls and ancient artifacts ready.
+Dialogue: 0,0:14:30.44,0:14:31.84,Sub,,0,0,0,,Even the 3 swords sheaths
+Dialogue: 0,0:14:32.48,0:14:34.16,Sub,,0,0,0,,are being refined by my Origin Soul.
+Dialogue: 0,0:14:35.29,0:14:36.17,Sub,,0,0,0,,Now,
+Dialogue: 0,0:14:37.12,0:14:38.53,Sub,,0,0,0,,one last step...
+Dialogue: 0,0:14:43.85,0:14:46.89,Sub,,0,0,0,,{\fad(500,600)\pos(966,532)}1 year later
+Dialogue: 0,0:14:50.93,0:14:51.73,Sub,,0,0,0,,Alright.
+Dialogue: 0,0:15:01.75,0:15:03.10,Sub,,0,0,0,,The past year,
+Dialogue: 0,0:15:03.21,0:15:06.18,Sub,,0,0,0,,the sword sheaths have been refined one by one.
+Dialogue: 0,0:15:06.45,0:15:08.91,Sub,,0,0,0,,The artifacts I got from the Blood Sea Warriors
+Dialogue: 0,0:15:08.97,0:15:10.85,Sub,,0,0,0,,are finally under my control.
+Dialogue: 0,0:15:11.77,0:15:14.68,Sub,,0,0,0,,But I still can't completely open this scroll
+Dialogue: 0,0:15:14.68,0:15:16.64,Sub,,0,0,0,,that I got in the Sea of Devils.
+Dialogue: 0,0:15:17.06,0:15:20.20,Sub,,0,0,0,,Note: This is the scroll I was talking about in the note of episode 24
+Dialogue: 0,0:15:36.45,0:15:37.41,Sub,,0,0,0,,The day
+Dialogue: 0,0:15:37.61,0:15:38.81,Sub,,0,0,0,,has finally come.
+Dialogue: 0,0:15:55.89,0:15:57.81,Sub,,0,0,0,,It's finally starting.
+Dialogue: 0,0:15:58.29,0:15:59.69,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:15:59.88,0:16:03.01,Sub,,0,0,0,,make a good use of the straw hat I lent you.
+Dialogue: 0,0:16:03.33,0:16:06.57,Sub,,0,0,0,,Otherwise, I'm afraid you won't make it.
+Dialogue: 0,0:16:07.29,0:16:08.17,Sub,,0,0,0,,Grandpa,
+Dialogue: 0,0:16:08.29,0:16:09.61,Sub,,0,0,0,,can you continue the story ?
+Dialogue: 0,0:16:09.81,0:16:11.57,Sub,,0,0,0,,Yes, Grandpa, please continue.
+Dialogue: 0,0:16:11.93,0:16:12.81,Sub,,0,0,0,,Sure, sure.
+Dialogue: 0,0:16:14.25,0:16:17.10,Sub,,0,0,0,,It's said that an accident many years ago
+Dialogue: 0,0:16:17.15,0:16:20.09,Sub,,0,0,0,,caused the death of all the ancient Celestials.
+Dialogue: 0,0:16:20.26,0:16:24.01,Sub,,0,0,0,,The Celestial Realm was shattered into fragments.
+Dialogue: 0,0:16:24.24,0:16:26.85,Sub,,0,0,0,,But the cultivators didn't give up.
+Dialogue: 0,0:16:27.28,0:16:30.21,Sub,,0,0,0,,When the gates of the Celestial Realm open again,
+Dialogue: 0,0:16:30.40,0:16:33.96,Sub,,0,0,0,,those who obtained a Rain Cauldron will rush in
+Dialogue: 0,0:16:34.12,0:16:37.25,Sub,,0,0,0,,to look for its remaining treasures.
+Dialogue: 0,0:17:03.96,0:17:10.64,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:17:10.71,0:17:16.80,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:17:16.91,0:17:20.74,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:17:20.77,0:17:24.67,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:17:25.03,0:17:30.68,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:17:31.86,0:17:37.69,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:17:38.00,0:17:43.54,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:17:44.00,0:17:48.22,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:17:48.48,0:17:51.71,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:17:51.88,0:17:57.70,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:17:58.22,0:18:01.90,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:02.00,0:18:05.82,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:06.00,0:18:11.67,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:11.93,0:18:15.60,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:15.81,0:18:19.38,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:19.50,0:18:25.42,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:25.49,0:18:29.50,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:29.53,0:18:33.32,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:33.91,0:18:39.15,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:39.22,0:18:43.10,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:43.14,0:18:46.94,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:47.24,0:18:52.80,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:53.44,0:18:59.66,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:18:59.96,0:19:06.46,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:19:07.48,0:19:13.18,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:19:13.35,0:19:20.05,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

@@ -1,0 +1,273 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Message,Lucida Sans,50,&H002D2F2A,&H000000FF,&H00FCFFF6,&H00FCFFF6,-1,0,0,0,100,100,0,0,1,1.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:08.48,0:02:09.80,Sub,,0,0,0,,Please heaven and earth,
+Dialogue: 0,0:02:09.80,0:02:11.60,Sub,,0,0,0,,make it so he doesn't see us.
+Dialogue: 0,0:02:25.72,0:02:27.60,Sub,,0,0,0,,Another chain of restrictions...
+Dialogue: 0,0:02:28.04,0:02:29.60,Sub,,0,0,0,,Damn Six Desires brat,
+Dialogue: 0,0:02:30.32,0:02:31.84,Sub,,0,0,0,,I almost fell for it.
+Dialogue: 0,0:02:39.88,0:02:41.40,Sub,,0,0,0,,As expected, it's a trap.
+Dialogue: 0,0:02:41.48,0:02:42.84,Sub,,0,0,0,,Remnant Rainbow Jade Sword,
+Dialogue: 0,0:02:42.84,0:02:43.32,Sub,,0,0,0,,go !
+Dialogue: 0,0:02:45.32,0:02:45.92,Sub,,0,0,0,,Master,
+Dialogue: 0,0:02:45.92,0:02:46.96,Sub,,0,0,0,,what are you doing ?
+Dialogue: 0,0:02:46.96,0:02:48.60,Sub,,0,0,0,,Just let him pass.
+Dialogue: 0,0:02:48.64,0:02:50.40,Sub,,0,0,0,,If he finds us, we’re dead !
+Dialogue: 0,0:02:51.56,0:02:52.76,Sub,,0,0,0,,Wait till I catch you,
+Dialogue: 0,0:02:53.28,0:02:55.12,Sub,,0,0,0,,I’ll refine you to death !
+Dialogue: 0,0:03:03.64,0:03:05.64,Sub,,0,0,0,,These old Devil Lords are extremely cunning.
+Dialogue: 0,0:03:06.08,0:03:08.04,Sub,,0,0,0,,If he isn't the one to break the restriction,
+Dialogue: 0,0:03:08.76,0:03:10.00,Sub,,0,0,0,,he'll know something's wrong.
+Dialogue: 0,0:03:10.28,0:03:11.76,Sub,,0,0,0,,So that’s why...
+Dialogue: 0,0:03:11.76,0:03:13.24,Sub,,0,0,0,,Master, you’re brilliant !
+Dialogue: 0,0:03:14.84,0:03:18.08,Sub,,0,0,0,,A single strike of that sword broke our restrictions.
+Dialogue: 0,0:03:18.56,0:03:19.16,Sub,,0,0,0,,Master,
+Dialogue: 0,0:03:19.16,0:03:21.52,Sub,,0,0,0,,if only you had such a trump card too,
+Dialogue: 0,0:03:21.96,0:03:24.04,Sub,,0,0,0,,we wouldn’t have to suffer through each trial like this.
+Dialogue: 0,0:03:26.80,0:03:28.76,Sub,,0,0,0,,Although we’ve temporarily escaped the worst,
+Dialogue: 0,0:03:28.84,0:03:31.96,Sub,,0,0,0,,these two remain a grave threat.
+Dialogue: 0,0:03:33.24,0:03:34.76,Sub,,0,0,0,,On this restriction mountain,
+Dialogue: 0,0:03:35.96,0:03:38.20,Sub,,0,0,0,,eliminating them isn’t impossible.
+Dialogue: 0,0:03:43.56,0:03:47.32,Sub,,0,0,0,,If I didn't have to rescue you from that restriction,
+Dialogue: 0,0:03:48.16,0:03:51.12,Sub,,0,0,0,,I would've reached the summit 3 months ago.
+Dialogue: 0,0:03:52.12,0:03:54.48,Sub,,0,0,0,,But you are the legacy Master left me,
+Dialogue: 0,0:03:55.20,0:03:57.32,Sub,,0,0,0,,how could I bear to abandon you ?
+Dialogue: 0,0:03:58.76,0:04:02.48,Sub,,0,0,0,,Someone's been breaking all the restrictions I placed behind us,
+Dialogue: 0,0:04:03.20,0:04:06.44,Sub,,0,0,0,,it must be that old ghost Duanmu Ji.
+Dialogue: 0,0:04:07.88,0:04:08.68,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:04:09.56,0:04:12.00,Sub,,0,0,0,,once I have solved this final restriction,
+Dialogue: 0,0:04:12.64,0:04:13.80,Sub,,0,0,0,,we'll leave.
+Dialogue: 0,0:04:17.00,0:04:18.88,Sub,,0,0,0,,Such power !
+Dialogue: 0,0:04:19.16,0:04:21.76,Sub,,0,0,0,,It's indeed worthy of being the last step of Restriction Mountain.
+Dialogue: 0,0:04:23.28,0:04:25.32,Sub,,0,0,0,,But as long as I find this restriction's core,
+Dialogue: 0,0:04:25.96,0:04:26.80,Sub,,0,0,0,,I will...
+Dialogue: 0,0:04:26.84,0:04:28.04,Sub,,0,0,0,,Six Desires brat !
+Dialogue: 0,0:04:29.04,0:04:30.12,Sub,,0,0,0,,I need to thank you
+Dialogue: 0,0:04:30.40,0:04:32.64,Sub,,0,0,0,,for how you prepared the path for me !
+Dialogue: 0,0:04:37.40,0:04:39.28,Sub,,0,0,0,,Old man, are you mad ?
+Dialogue: 0,0:04:39.32,0:04:40.88,Sub,,0,0,0,,If you trigger this final restriction,
+Dialogue: 0,0:04:41.44,0:04:43.16,Sub,,0,0,0,,we’ll both be annihilated.
+Dialogue: 0,0:04:44.36,0:04:45.60,Sub,,0,0,0,,I'll slay you down first !
+Dialogue: 0,0:04:48.36,0:04:50.44,Sub,,0,0,0,,This is something I found in a rank 5 country,
+Dialogue: 0,0:04:50.44,0:04:52.08,Sub,,0,0,0,,it's my most precious artifact.
+Dialogue: 0,0:04:52.08,0:04:53.80,Sub,,0,0,0,,You should be honored
+Dialogue: 0,0:04:53.84,0:04:55.24,Sub,,0,0,0,,to be killed by it !
+Dialogue: 0,0:04:56.48,0:04:57.92,Sub,,0,0,0,,You old freak...
+Dialogue: 0,0:04:58.24,0:04:59.32,Sub,,0,0,0,,Greed !
+Dialogue: 0,0:05:12.84,0:05:13.40,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:05:26.44,0:05:27.52,Sub,,0,0,0,,Old ghost Duanmu,
+Dialogue: 0,0:05:27.52,0:05:28.72,Sub,,0,0,0,,are you insane ?
+Dialogue: 0,0:05:28.84,0:05:31.16,Sub,,0,0,0,,If I don’t refine you today,
+Dialogue: 0,0:05:31.16,0:05:32.72,Sub,,0,0,0,,I swear I’m not human !
+Dialogue: 0,0:05:41.52,0:05:42.52,Sub,,0,0,0,,Six Desires brat,
+Dialogue: 0,0:05:43.16,0:05:46.60,Sub,,0,0,0,,I've watched you slaughter sects specialized in formations for 1000 years.
+Dialogue: 0,0:05:47.12,0:05:49.04,Sub,,0,0,0,,You plunged the Sea of Devils in chaos
+Dialogue: 0,0:05:49.60,0:05:52.20,Sub,,0,0,0,,just to learn how to make these worthless restrictions.
+Dialogue: 0,0:05:52.36,0:05:54.00,Sub,,0,0,0,,I'll show you today
+Dialogue: 0,0:05:54.56,0:05:56.40,Sub,,0,0,0,,how futile formations
+Dialogue: 0,0:05:56.44,0:05:58.24,Sub,,0,0,0,,and restrictions really are !
+Dialogue: 0,0:05:59.80,0:06:00.56,Sub,,0,0,0,,Ridiculous !
+Dialogue: 0,0:06:01.24,0:06:03.24,Sub,,0,0,0,,You used that Core Formation brat as a decoy,
+Dialogue: 0,0:06:03.72,0:06:06.40,Sub,,0,0,0,,did you ever plan to let him survive past the third trial ?
+Dialogue: 0,0:06:07.44,0:06:09.44,Sub,,0,0,0,,I immersed myself in the Dao of restrictions
+Dialogue: 0,0:06:09.80,0:06:11.80,Sub,,0,0,0,,but you, an unscrupulous old lunatic,
+Dialogue: 0,0:06:12.56,0:06:14.00,Sub,,0,0,0,,dares to lecture me !?
+Dialogue: 0,0:06:16.04,0:06:17.12,Sub,,0,0,0,,You talk too much !
+Dialogue: 0,0:06:22.44,0:06:24.92,Sub,,0,0,0,,When you set those vicious chain restrictions,
+Dialogue: 0,0:06:25.28,0:06:27.32,Sub,,0,0,0,,you never thought this day would come, did you ?
+Dialogue: 0,0:06:27.72,0:06:29.16,Sub,,0,0,0,,Now die !
+Dialogue: 0,0:06:34.56,0:06:36.16,Sub,,0,0,0,,What are you talking about ?
+Dialogue: 0,0:06:36.28,0:06:37.88,Sub,,0,0,0,,Chain restrictions ?
+Dialogue: 0,0:06:38.24,0:06:39.16,Sub,,0,0,0,,What ?
+Dialogue: 0,0:06:39.48,0:06:41.04,Sub,,0,0,0,,Do you think you can fool me ?
+Dialogue: 0,0:06:41.88,0:06:43.00,Sub,,0,0,0,,Besides you,
+Dialogue: 0,0:06:43.32,0:06:45.28,Sub,,0,0,0,,who could have done it ?
+Dialogue: 0,0:06:48.64,0:06:49.52,Sub,,0,0,0,,Brother Duanmu,
+Dialogue: 0,0:06:49.92,0:06:51.56,Sub,,0,0,0,,I believe this is a misunderstanding.
+Dialogue: 0,0:06:51.56,0:06:53.04,Sub,,0,0,0,,I never set chain restrictions.
+Dialogue: 0,0:06:54.04,0:06:55.80,Sub,,0,0,0,,I'll make a Devil Hearth Oath.
+Dialogue: 0,0:06:56.16,0:06:57.64,Sub,,0,0,0,,Besides the two of us,
+Dialogue: 0,0:06:57.64,0:06:59.36,Sub,,0,0,0,,there is someone else on this mountain.
+Dialogue: 0,0:06:59.52,0:07:01.28,Sub,,0,0,0,,That person didn't climb to the top yet,
+Dialogue: 0,0:07:01.44,0:07:02.92,Sub,,0,0,0,,they must be hiding somewhere
+Dialogue: 0,0:07:03.36,0:07:04.96,Sub,,0,0,0,,and watching us fight.
+Dialogue: 0,0:07:06.96,0:07:09.04,Sub,,0,0,0,,Could it be Hunchback Meng ?
+Dialogue: 0,0:07:10.64,0:07:11.56,Sub,,0,0,0,,Whoever it is,
+Dialogue: 0,0:07:12.04,0:07:13.72,Sub,,0,0,0,,we should leave quickly.
+Dialogue: 0,0:07:15.20,0:07:16.04,Sub,,0,0,0,,Too late !
+Dialogue: 0,0:07:32.00,0:07:32.80,Sub,,0,0,0,,It’s him !
+Dialogue: 0,0:07:33.12,0:07:34.44,Sub,,0,0,0,,The Core Formation brat
+Dialogue: 0,0:07:34.88,0:07:36.84,Sub,,0,0,0,,actually triggered the final restriction ?
+Dialogue: 0,0:07:37.56,0:07:39.52,Sub,,0,0,0,,Oh no... He’s gone mad, completely mad !
+Dialogue: 0,0:07:39.88,0:07:43.44,Sub,,0,0,0,,This fiend dared to attack two Soul Formation cultivators.
+Dialogue: 0,0:08:12.36,0:08:13.24,Sub,,0,0,0,,I will succeed
+Dialogue: 0,0:08:13.80,0:08:14.92,Sub,,0,0,0,,in this second trial !
+Dialogue: 0,0:08:23.08,0:08:23.96,Sub,,0,0,0,,Anger !
+Dialogue: 0,0:08:37.52,0:08:39.08,Sub,,0,0,0,,Master, look down the mountain.
+Dialogue: 0,0:08:49.72,0:08:50.64,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:08:58.92,0:09:01.68,Sub,,0,0,0,,What... what kind of restriction is this ?
+Dialogue: 0,0:09:17.88,0:09:19.92,Sub,,0,0,0,,Brother Duanmu, if you hold back any longer
+Dialogue: 0,0:09:19.92,0:09:21.88,Sub,,0,0,0,,I fear neither of us will pass this second trial.
+Dialogue: 0,0:09:21.92,0:09:22.92,Sub,,0,0,0,,I know,
+Dialogue: 0,0:09:23.20,0:09:24.72,Sub,,0,0,0,,even if it costs us some cultivation
+Dialogue: 0,0:09:24.72,0:09:25.84,Sub,,0,0,0,,we must charge through.
+Dialogue: 0,0:09:31.56,0:09:32.92,Sub,,0,0,0,,Core Formation brat,
+Dialogue: 0,0:09:32.92,0:09:34.88,Sub,,0,0,0,,may you die a miserable death !
+Dialogue: 0,0:09:47.48,0:09:48.72,Sub,,0,0,0,,All in one...
+Dialogue: 0,0:09:49.48,0:09:50.76,Sub,,0,0,0,,One is all....
+Dialogue: 0,0:09:51.20,0:09:53.92,Sub,,0,0,0,,This restriction mountain is one single giant restriction.
+Dialogue: 0,0:09:58.80,0:09:59.60,Sub,,0,0,0,,Pick it up.
+Dialogue: 0,0:10:06.16,0:10:09.24,Sub,,0,0,0,,This thing has no trace of spiritual energy.
+Dialogue: 0,0:10:09.68,0:10:11.16,Sub,,0,0,0,,It’s probably already useless.
+Dialogue: 0,0:10:12.92,0:10:15.00,Sub,,0,0,0,,I can't probe it with my Divine Sense ?
+Dialogue: 0,0:10:21.92,0:10:22.72,Sub,,0,0,0,,Master,
+Dialogue: 0,0:10:23.08,0:10:26.16,Sub,,0,0,0,,you’re the only person left on this restriction mountain.
+Dialogue: 0,0:10:26.36,0:10:27.96,Sub,,0,0,0,,Stop dawdling,
+Dialogue: 0,0:10:28.28,0:10:29.56,Sub,,0,0,0,,let’s leave quickly.
+Dialogue: 0,0:10:29.88,0:10:33.16,Sub,,0,0,0,,The final restriction is something even Soul Formation cultivators can’t withstand.
+Dialogue: 0,0:10:33.16,0:10:34.52,Sub,,0,0,0,,I can’t force my way through it.
+Dialogue: 0,0:10:34.52,0:10:36.24,Sub,,0,0,0,,Besides, now that I’m the only one left,
+Dialogue: 0,0:10:36.24,0:10:37.84,Sub,,0,0,0,,I can take my time to study it.
+Dialogue: 0,0:10:49.84,0:10:51.44,Sub,,0,0,0,,I will sleep for a while then...
+Dialogue: 0,0:11:09.72,0:11:11.04,Sub,,0,0,0,,Are you done now ?
+Dialogue: 0,0:11:11.32,0:11:12.64,Sub,,0,0,0,,Are you done now ?
+Dialogue: 0,0:11:17.88,0:11:19.96,Sub,,0,0,0,,{\fad(600,600)\pos(960,520)}3 years later
+Dialogue: 0,0:11:24.08,0:11:25.56,Sub,,0,0,0,,What’s happening ?
+Dialogue: 0,0:11:33.04,0:11:35.64,Sub,,0,0,0,,The first chains with the second, the second with the third,
+Dialogue: 0,0:11:35.64,0:11:36.96,Sub,,0,0,0,,all the restrictions are linked !
+Dialogue: 0,0:11:53.56,0:11:54.68,Sub,,0,0,0,,He solved it ?
+Dialogue: 0,0:11:54.68,0:11:57.40,Sub,,0,0,0,,Finally, we can leave this cursed place !
+Dialogue: 0,0:12:04.04,0:12:05.04,Sub,,0,0,0,,I can’t move,
+Dialogue: 0,0:12:05.04,0:12:06.68,Sub,,0,0,0,,we’re doomed !
+Dialogue: 0,0:12:09.12,0:12:10.88,Sub,,0,0,0,,What’s going on ?
+Dialogue: 0,0:12:10.88,0:12:13.36,Sub,,0,0,0,,I clearly solved all the restrictions.
+Dialogue: 0,0:12:13.36,0:12:14.20,Sub,,0,0,0,,This...
+Dialogue: 0,0:12:24.36,0:12:26.76,Sub,,0,0,0,,My name is Tu Si.
+Dialogue: 0,0:12:27.84,0:12:31.44,Sub,,0,0,0,,You have solved all restrictions of Restriction Mountain.
+Dialogue: 0,0:12:32.04,0:12:36.96,Sub,,0,0,0,,You are the fourth Enlightened of Restriction Mountain.
+Dialogue: 0,0:12:36.96,0:12:40.00,Sub,,0,0,0,,I'm here to give you the method to refine a Restriction Flag.
+Dialogue: 0,0:12:36.96,0:12:40.08,Card,,0,0,0,,{\fad(300,300)\pos(1549,455)}Tu Si\N8-stars Ancient God
+Dialogue: 0,0:12:40.56,0:12:43.16,Sub,,0,0,0,,If you can enter my Sea of Consciousness
+Dialogue: 0,0:12:43.96,0:12:46.20,Sub,,0,0,0,,as an Enlightened,
+Dialogue: 0,0:12:46.20,0:12:49.68,Sub,,0,0,0,,you may receive a part of my memories of restrictions.
+Dialogue: 0,0:12:50.36,0:12:52.12,Sub,,0,0,0,,Each Enlightened
+Dialogue: 0,0:12:52.12,0:12:56.80,Sub,,0,0,0,,can also find a piece of Void Ink Stone in my Sea of Consciousness.
+Dialogue: 0,0:12:57.88,0:13:01.76,Sub,,0,0,0,,This Void Ink Stone isn’t produced on any planet
+Dialogue: 0,0:13:02.16,0:13:05.68,Sub,,0,0,0,,but only comes from the starry sky.
+Dialogue: 0,0:13:06.12,0:13:09.36,Sub,,0,0,0,,It's the essential material for crafting a Restriction Flag.
+Dialogue: 0,0:13:10.24,0:13:18.00,Sub,,0,0,0,,After you engrave 999 999 restrictions on that flag,
+Dialogue: 0,0:13:18.00,0:13:20.88,Sub,,0,0,0,,it will become a true Restriction Flag.
+Dialogue: 0,0:14:02.52,0:14:03.32,Sub,,0,0,0,,Explore it.
+Dialogue: 0,0:14:04.96,0:14:07.84,Sub,,0,0,0,,The moment I come out, he always makes me do the hard work...
+Dialogue: 0,0:14:11.76,0:14:13.96,Sub,,0,0,0,,Master, everything inside the pagoda is safe.
+Dialogue: 0,0:14:25.80,0:14:29.52,Message,,0,0,0,,{\pos(967,521)}Nothing here can catch my eye. I'm very disappointed.\NThe Flood Dragon in the first trial was too weak.\NIt seems that this is all the Land of the Ancient God has to offer.
+Dialogue: 0,0:14:26.24,0:14:27.88,Sub,,0,0,0,,It’s him again !
+Dialogue: 0,0:14:27.88,0:14:29.28,Sub,,0,0,0,,Such an arrogant tone...
+Dialogue: 0,0:14:29.88,0:14:31.64,Sub,,0,0,0,,It seems these perilous trials
+Dialogue: 0,0:14:32.28,0:14:33.92,Sub,,0,0,0,,were effortless for him.
+Dialogue: 0,0:14:52.24,0:14:55.20,Sub,,0,0,0,,It looks like the previous Enlightened
+Dialogue: 0,0:14:55.84,0:14:56.88,Sub,,0,0,0,,took everything.
+Dialogue: 0,0:14:59.40,0:15:01.16,Sub,,0,0,0,,All that work for nothing.
+Dialogue: 0,0:15:16.24,0:15:17.84,Sub,,0,0,0,,They left something for us !
+Dialogue: 0,0:15:19.16,0:15:20.28,Sub,,0,0,0,,If you don’t want to die,
+Dialogue: 0,0:15:20.28,0:15:21.12,Sub,,0,0,0,,don’t touch it.
+Dialogue: 0,0:15:24.00,0:15:25.48,Sub,,0,0,0,,The reason this bag is still here
+Dialogue: 0,0:15:26.28,0:15:27.96,Sub,,0,0,0,,must be because of that restriction.
+Dialogue: 0,0:15:35.84,0:15:37.24,Sub,,0,0,0,,This restriction is too complex.
+Dialogue: 0,0:15:39.04,0:15:41.40,Sub,,0,0,0,,My current cultivation isn’t enough to solve it.
+Dialogue: 0,0:15:42.00,0:15:45.08,Sub,,0,0,0,,It’ll take many years before I can open it.
+Dialogue: 0,0:15:50.20,0:15:51.00,Sub,,0,0,0,,Go in.
+Dialogue: 0,0:15:52.04,0:15:53.44,Sub,,0,0,0,,You're only giving me this little ?
+Dialogue: 0,0:15:53.64,0:15:55.40,Sub,,0,0,0,,Who knows what awaits me this time ?
+Dialogue: 0,0:16:03.16,0:16:04.76,Sub,,0,0,0,,He knows the Death Spell.
+Dialogue: 0,0:16:05.48,0:16:06.32,Sub,,0,0,0,,Little brat,
+Dialogue: 0,0:16:07.24,0:16:09.48,Sub,,0,0,0,,if you can really help us in the third trial,
+Dialogue: 0,0:16:10.36,0:16:13.04,Sub,,0,0,0,,I wouldn't mind keeping you by my side forever.
+Dialogue: 0,0:16:13.80,0:16:14.84,Sub,,0,0,0,,This gate
+Dialogue: 0,0:16:15.44,0:16:18.08,Sub,,0,0,0,,must lead to the third trial, the Six Desires Devil Lord and company.
+Dialogue: 0,0:16:20.04,0:16:21.72,Sub,,0,0,0,,With my mere Core Formation cultivation
+Dialogue: 0,0:16:21.76,0:16:23.48,Sub,,0,0,0,,I have a very low chance
+Dialogue: 0,0:16:23.72,0:16:25.56,Sub,,0,0,0,,of passing it smoothly.
+Dialogue: 0,0:16:45.32,0:16:46.16,Sub,,0,0,0,,This place is...
+Dialogue: 0,0:16:45.12,0:16:48.36,Card,,0,0,0,,{\fad(300,300)\pos(1605,515)}Nirvana Space\NLand of the Ancient God\NThird trial
+Dialogue: 0,0:16:49.16,0:16:50.40,Sub,,0,0,0,,another Foreign Battlefield ?
+Dialogue: 0,0:17:08.92,0:17:09.56,Sub,,0,0,0,,I see...
+Dialogue: 0,0:17:10.88,0:17:13.44,Sub,,0,0,0,,That's what the third trial is.
+Dialogue: 0,0:17:17.52,0:19:39.96,Note,,0,0,0,,{\fad(1000,1000)}In the donghua, Wang Lin finds a bag of holding at the end of the second trial. But the story is very different in the novel.\N\NWhen Wang Lin was paying respects to Founder Chen Chong after learning the Divine Path in the War God Shrine, he checked out all the chambers and noticed that something was wrong. In one of the chambers he found a corpse that wasn't sitting down in mediation but floating. That corpse seemed to be absorbing the death energy of all the other corpses and showed signs of being alive. Wang Lin deduced that this person was not an Ancestor of the War God Shrine but an outsider that was cultivating here in secret. That person's bag of holding looked very different from all the other bags Wang Lin saw before so he decided to steal it. The bag was also sealed the same way it is in the donghua so he wasn't able to open it.\N\NThe donghua comes up with another explanation that leads to the same consequences. I'll put another note when that becomes relevant.
+Dialogue: 0,0:17:46.43,0:17:53.31,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:17:50.31,0:17:53.31,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:17:53.67,0:17:59.55,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:18:00.67,0:18:07.07,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:18:04.47,0:18:07.07,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:18:07.33,0:18:13.59,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:18:14.23,0:18:21.31,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:18:16.91,0:18:21.31,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:18:21.39,0:18:28.47,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:18:23.43,0:18:28.47,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:18:28.91,0:18:30.99,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:18:30.99,0:18:35.75,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:18:32.39,0:18:35.75,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:18:35.75,0:18:37.75,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:18:37.83,0:18:40.27,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:18:40.47,0:18:42.63,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:18:42.63,0:18:45.55,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:18:45.55,0:18:48.63,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:18:49.91,0:18:55.59,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:18:51.83,0:18:55.59,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:18:57.11,0:19:04.47,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:19:00.99,0:19:04.47,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:19:04.47,0:19:11.07,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:19:06.07,0:19:11.07,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:19:11.27,0:19:13.95,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:19:13.95,0:19:18.31,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:19:18.75,0:19:25.47,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:19:21.27,0:19:25.47,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:19:25.87,0:19:29.71,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:19:29.71,0:19:33.03,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:19:33.03,0:19:38.83,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:19:35.27,0:19:38.83,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:19:40.15,0:19:49.79,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:19:41.95,0:19:49.79,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

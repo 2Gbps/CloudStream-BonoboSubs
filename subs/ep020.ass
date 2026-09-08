@@ -1,0 +1,312 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Map,Lucida Sans,45,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.60,0:01:51.32,Sub,,0,0,0,,Master, oh Master...
+Dialogue: 0,0:01:51.72,0:01:53.84,Sub,,0,0,0,,Normally, I can only appear when summoned.
+Dialogue: 0,0:01:54.48,0:01:56.28,Sub,,0,0,0,,But now that you're unconscious,
+Dialogue: 0,0:01:57.04,0:02:00.48,Sub,,0,0,0,,it seems my chance for freedom has finally come !
+Dialogue: 0,0:02:05.72,0:02:07.08,Sub,,0,0,0,,Should I attack him ?
+Dialogue: 0,0:02:09.96,0:02:11.56,Sub,,0,0,0,,He probably isn't faking it, right ?
+Dialogue: 0,0:02:14.12,0:02:15.20,Sub,,0,0,0,,I won't fall for it.
+Dialogue: 0,0:02:15.52,0:02:17.72,Sub,,0,0,0,,You can keep pretending.
+Dialogue: 0,0:02:36.24,0:02:37.88,Sub,,0,0,0,,{\fad(300,300)\pos(960,515)}3 days later
+Dialogue: 0,0:02:39.32,0:02:42.36,Sub,,0,0,0,,Ah, I can't take it anymore !
+Dialogue: 0,0:02:42.36,0:02:44.36,Sub,,0,0,0,,I won't ever get a better chance than this !
+Dialogue: 0,0:02:45.52,0:02:47.16,Sub,,0,0,0,,Fuck it, I'll try !
+Dialogue: 0,0:02:55.80,0:02:59.08,Sub,,0,0,0,,When did this guy plant his Divine Sense in me ?
+Dialogue: 0,0:02:59.68,0:03:00.80,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:03:06.24,0:03:07.64,Sub,,0,0,0,,Damn it !
+Dialogue: 0,0:03:07.64,0:03:10.72,Sub,,0,0,0,,Is this how I am supposed to live from now on !?
+Dialogue: 0,0:03:19.68,0:03:22.32,Sub,,0,0,0,,I really underestimated the difficulty of merging the 3 Cold Cores.
+Dialogue: 0,0:03:22.36,0:03:25.40,Sub,,0,0,0,,This body simply can't withstand the cold energy released when I try...
+Dialogue: 0,0:03:27.40,0:03:30.76,Sub,,0,0,0,,I wonder how other cultivators that practiced this method did it.
+Dialogue: 0,0:03:40.04,0:03:41.80,Sub,,0,0,0,,I've been guarding you the entire time,
+Dialogue: 0,0:03:41.80,0:03:42.96,Sub,,0,0,0,,I swear !
+Dialogue: 0,0:03:43.24,0:03:44.36,Sub,,0,0,0,,Go inside.
+Dialogue: 0,0:04:04.32,0:04:06.60,Sub,,0,0,0,,He's been in closed-door cultivation every day lately.
+Dialogue: 0,0:04:06.76,0:04:09.00,Sub,,0,0,0,,But forming a Golden Core isn't easy...
+Dialogue: 0,0:04:09.76,0:04:12.36,Sub,,0,0,0,,The fastest Core Formation in the Burning Fire Country
+Dialogue: 0,0:04:12.36,0:04:13.68,Sub,,0,0,0,,still took 30 years.
+Dialogue: 0,0:04:18.40,0:04:18.88,Sub,,0,0,0,,You...
+Dialogue: 0,0:04:19.56,0:04:22.04,Sub,,0,0,0,,Have you reached a bottleneck ?
+Dialogue: 0,0:04:24.36,0:04:27.88,Sub,,0,0,0,,Death Spell cultivators need women's Primordial Yin to cultivate...
+Dialogue: 0,0:04:28.68,0:04:29.76,Sub,,0,0,0,,If he...
+Dialogue: 0,0:04:31.44,0:04:32.16,Sub,,0,0,0,,You...
+Dialogue: 0,0:04:32.16,0:04:34.00,Sub,,0,0,0,,I only agreed to make pills for you !
+Dialogue: 0,0:04:34.36,0:04:35.28,Sub,,0,0,0,,If...
+Dialogue: 0,0:04:35.96,0:04:37.32,Sub,,0,0,0,,I would rather die than do it !
+Dialogue: 0,0:04:41.16,0:04:44.16,Sub,,0,0,0,,Why is the Flood Dragon's skull this color ?
+Dialogue: 0,0:04:45.52,0:04:47.04,Sub,,0,0,0,,The Flood Dragon is poisonous,
+Dialogue: 0,0:04:47.52,0:04:50.16,Sub,,0,0,0,,it's not strange for its bones to turn purple.
+Dialogue: 0,0:04:51.96,0:04:54.28,Sub,,0,0,0,,If a Flood Dragon's body contains poison
+Dialogue: 0,0:04:54.52,0:04:56.24,Sub,,0,0,0,,then how does it avoid being poisoned ?
+Dialogue: 0,0:04:56.24,0:04:58.52,Sub,,0,0,0,,When the Flood Dragon was alive,
+Dialogue: 0,0:04:58.88,0:05:01.12,Sub,,0,0,0,,its flesh, blood, bones, and internal organs
+Dialogue: 0,0:05:01.56,0:05:03.40,Sub,,0,0,0,,and even its saliva contains poison.
+Dialogue: 0,0:05:03.64,0:05:05.08,Sub,,0,0,0,,So of course it's immune to it.
+Dialogue: 0,0:05:05.48,0:05:07.08,Sub,,0,0,0,,A body filled with poison...
+Dialogue: 0,0:05:09.92,0:05:12.36,Sub,,0,0,0,,Since my body cannot withstand the cold energy
+Dialogue: 0,0:05:12.48,0:05:15.68,Sub,,0,0,0,,that means I need to fill my body with cold energy.
+Dialogue: 0,0:05:16.56,0:05:17.76,Sub,,0,0,0,,That's how
+Dialogue: 0,0:05:17.76,0:05:19.68,Sub,,0,0,0,,I will be able to withstand it.
+Dialogue: 0,0:05:23.16,0:05:24.80,Sub,,0,0,0,,When I reach Core Formation,
+Dialogue: 0,0:05:25.44,0:05:27.08,Sub,,0,0,0,,I will send you back to the Luo River Sect.
+Dialogue: 0,0:05:44.92,0:05:47.04,Sub,,0,0,0,,Most of the Corpse Valley is filled with bones
+Dialogue: 0,0:05:47.88,0:05:49.60,Sub,,0,0,0,,except for this place.
+Dialogue: 0,0:05:51.00,0:05:53.80,Sub,,0,0,0,,All is this bone-chilling cold that could freeze my soul.
+Dialogue: 0,0:06:00.88,0:06:03.28,Sub,,0,0,0,,I can only descend this far for now.
+Dialogue: 0,0:06:03.56,0:06:05.08,Sub,,0,0,0,,If I go any further,
+Dialogue: 0,0:06:05.12,0:06:06.28,Sub,,0,0,0,,my body,
+Dialogue: 0,0:06:06.92,0:06:08.68,Sub,,0,0,0,,along with my soul and Divine Sense,
+Dialogue: 0,0:06:09.04,0:06:10.40,Sub,,0,0,0,,will freeze instantly.
+Dialogue: 0,0:06:11.32,0:06:12.96,Sub,,0,0,0,,I won't leave this valley
+Dialogue: 0,0:06:12.96,0:06:14.56,Sub,,0,0,0,,until my Cold Cores are merged !
+Dialogue: 0,0:06:15.80,0:06:17.24,Sub,,0,0,0,,After some time passed,
+Dialogue: 0,0:06:17.24,0:06:19.28,Sub,,0,0,0,,the incident of the Fire Spirit Beasts
+Dialogue: 0,0:06:19.28,0:06:22.48,Sub,,0,0,0,,was solved by a rank 4 country.
+Dialogue: 0,0:06:23.16,0:06:25.84,Sub,,0,0,0,,But the war between the Burning Fire Alliance and Xuanwu
+Dialogue: 0,0:06:25.84,0:06:27.76,Sub,,0,0,0,,continued.
+Dialogue: 0,0:06:28.56,0:06:32.28,Sub,,0,0,0,,The Burning Fire Alliance was able to hold its ground.
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(846,710)}Country of Chu
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(484,710)}Cloud Sky Sect
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(1252,657)}Country of Xuanwu
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(952,441)}Burning Fire country
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(685,288)}War God Shrine
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(773,113)}Evil Devil Sect
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(1100,148)}Corpse Sect
+Dialogue: 0,0:06:31.68,0:06:36.64,Map,,0,0,0,,{\fad(300,300)\pos(1246,397)}Luo River Sect
+Dialogue: 0,0:06:32.28,0:06:34.96,Sub,,0,0,0,,After some negotiations,
+Dialogue: 0,0:06:34.96,0:06:38.24,Sub,,0,0,0,,the situation finally stabilized.
+Dialogue: 0,0:06:38.92,0:06:42.28,Sub,,0,0,0,,As for Wang Lin, he was focused on cultivating.
+Dialogue: 0,0:06:42.32,0:06:45.24,Sub,,0,0,0,,The Underworld Ascension Method he cultivates
+Dialogue: 0,0:06:45.32,0:06:47.40,Sub,,0,0,0,,shouldn't be this difficult.
+Dialogue: 0,0:06:47.40,0:06:54.28,Second,,0,0,0,,Note: 1 zhang = 3 meters
+Dialogue: 0,0:06:47.40,0:06:49.72,Sub,,0,0,0,,This unprecedented difficulty is due to
+Dialogue: 0,0:06:47.40,0:06:56.12,Card,,0,0,0,,{\pos(285,567)\fad(1000,500)}After 6 months
+Dialogue: 0,0:06:49.32,0:06:56.12,Card,,0,0,0,,{\fad(1000,500)\pos(285,607)}at a depth of 180 zhang
+Dialogue: 0,0:06:51.08,0:06:56.12,Card,,0,0,0,,{\fad(1000,500)\pos(285,647)}his heart has beaten
+Dialogue: 0,0:06:52.76,0:06:56.12,Card,,0,0,0,,{\fad(1000,500)\pos(285,687)}9 837 543 times
+Dialogue: 0,0:06:49.72,0:06:54.72,Sub,,0,0,0,,the Ji Realm and the Heaven Defying Bead.
+Dialogue: 0,0:06:59.80,0:07:08.12,Card,,0,0,0,,{\pos(1547,527)\fad(1000,500)}After 1 year
+Dialogue: 0,0:07:01.44,0:07:08.12,Card,,0,0,0,,{\fad(1000,500)\pos(1547,567)}at a depth of 730 zhang
+Dialogue: 0,0:07:03.12,0:07:08.12,Card,,0,0,0,,{\fad(1000,500)\pos(1547,607)}his heart has beaten
+Dialogue: 0,0:07:04.84,0:07:08.12,Card,,0,0,0,,{\fad(1000,500)\pos(1547,647)}437 659 times
+Dialogue: 0,0:07:13.40,0:07:22.52,Card,,0,0,0,,{\pos(285,567)\fad(1000,500)}After 2 years
+Dialogue: 0,0:07:15.08,0:07:22.52,Card,,0,0,0,,{\fad(1000,500)\pos(285,607)}at a depth of 3627 zhang
+Dialogue: 0,0:07:17.00,0:07:22.52,Card,,0,0,0,,{\fad(1000,500)\pos(285,647)}his heart has beaten
+Dialogue: 0,0:07:18.68,0:07:22.52,Card,,0,0,0,,{\fad(1000,500)\pos(285,687)}0 times...
+Dialogue: 0,0:07:38.24,0:07:44.84,Card,,0,0,0,,{\pos(285,607)\fad(1000,500)}After 3 years
+Dialogue: 0,0:07:39.80,0:07:44.84,Card,,0,0,0,,{\fad(1000,500)\pos(285,647)}at a depth of
+Dialogue: 0,0:07:41.60,0:07:44.84,Card,,0,0,0,,{\fad(1000,500)\pos(285,687)}7979 zhang
+Dialogue: 0,0:08:17.68,0:08:19.12,Sub,,0,0,0,,The Core embryo is formed.
+Dialogue: 0,0:08:19.12,0:08:20.52,Sub,,0,0,0,,To reach Core Formation
+Dialogue: 0,0:08:20.52,0:08:22.08,Sub,,0,0,0,,I just need some spiritual energy.
+Dialogue: 0,0:08:23.56,0:08:25.00,Sub,,0,0,0,,But I'm not confident
+Dialogue: 0,0:08:25.60,0:08:27.00,Sub,,0,0,0,,in this final push.
+Dialogue: 0,0:08:27.60,0:08:28.56,Sub,,0,0,0,,If I fail,
+Dialogue: 0,0:08:28.56,0:08:29.96,Sub,,0,0,0,,the Core embryo will shatter
+Dialogue: 0,0:08:30.64,0:08:32.40,Sub,,0,0,0,,and I'll have to start over.
+Dialogue: 0,0:08:34.84,0:08:35.64,Sub,,0,0,0,,Cold energy !
+Dialogue: 0,0:08:41.16,0:08:44.36,Sub,,0,0,0,,Could this blue flame be the true expression of the Underworld Ascension Method ?
+Dialogue: 0,0:08:44.44,0:08:46.24,Sub,,0,0,0,,The Underworld Ice Flame !
+Dialogue: 0,0:09:07.48,0:09:10.60,Sub,,0,0,0,,I never thought I would find more beast bones
+Dialogue: 0,0:09:10.60,0:09:12.04,Sub,,0,0,0,,this deep underground.
+Dialogue: 0,0:09:12.64,0:09:14.56,Sub,,0,0,0,,There are so many Spirit Beast bones
+Dialogue: 0,0:09:14.56,0:09:17.68,Sub,,0,0,0,,that I could try making a reaction furnace
+Dialogue: 0,0:09:17.72,0:09:19.44,Sub,,0,0,0,,to upgrade my flying sword with.
+Dialogue: 0,0:09:34.24,0:09:37.04,Sub,,0,0,0,,Crafting a reaction furnace is harder than I expected...
+Dialogue: 0,0:09:43.24,0:09:44.76,Sub,,0,0,0,,I refuse to believe
+Dialogue: 0,0:09:44.92,0:09:46.52,Sub,,0,0,0,,that I can't make one furnace
+Dialogue: 0,0:09:46.52,0:09:48.44,Sub,,0,0,0,,out of this many bones !
+Dialogue: 0,0:10:13.92,0:10:14.88,Sub,,0,0,0,,Still not enough !
+Dialogue: 0,0:10:47.12,0:10:48.33,Sub,,0,0,0,,9 colors !
+Dialogue: 0,0:10:49.60,0:10:52.12,Sub,,0,0,0,,Unfortunately, it's only grade 9.
+Dialogue: 0,0:10:52.84,0:10:54.00,Sub,,0,0,0,,After all my efforts,
+Dialogue: 0,0:10:54.32,0:10:56.72,Sub,,0,0,0,,I couldn't make a grade 10 reaction furnace.
+Dialogue: 0,0:10:57.04,0:10:59.48,Sub,,0,0,0,,Forget it, this will have to do.
+Dialogue: 0,0:11:01.16,0:11:03.16,Sub,,0,0,0,,Wang Lin didn't know that
+Dialogue: 0,0:11:03.20,0:11:06.32,Sub,,0,0,0,,even the Sect Leader of the War God Shrine
+Dialogue: 0,0:11:06.56,0:11:10.12,Sub,,0,0,0,,only possessed a grade 6 reaction furnace.
+Dialogue: 0,0:11:10.56,0:11:13.84,Sub,,0,0,0,,Using a grade 9 reaction furnace to refine his artifact
+Dialogue: 0,0:11:14.52,0:11:17.44,Sub,,0,0,0,,is extremely efficient.
+Dialogue: 0,0:11:35.24,0:11:35.88,Sub,,0,0,0,,Go !
+Dialogue: 0,0:11:56.16,0:11:57.80,Sub,,0,0,0,,Congratulations on your new life.
+Dialogue: 0,0:12:09.48,0:12:11.08,Sub,,0,0,0,,Since you swallowed the sword,
+Dialogue: 0,0:12:11.08,0:12:13.08,Sub,,0,0,0,,where will I live now ?
+Dialogue: 0,0:12:13.69,0:12:20.16,Sub,,0,0,0,,Note: This is a Flood Dragon's tendon.
+Dialogue: 0,0:12:20.76,0:12:21.56,Sub,,0,0,0,,Go in.
+Dialogue: 0,0:12:27.72,0:12:29.04,Sub,,0,0,0,,Now I just need
+Dialogue: 0,0:12:30.72,0:12:32.48,Sub,,0,0,0,,the Heaven Separating Pill.
+Dialogue: 0,0:12:38.60,0:12:45.24,Sub,,0,0,0,,South Dipper City is one of the 998 cities in the Sea of Devils.
+Dialogue: 0,0:12:42.52,0:12:45.60,Card,,0,0,0,,{\fad(300,300)\pos(1551,472)}South Dipper City\NSea of Devils
+Dialogue: 0,0:12:46.04,0:12:49.24,Sub,,0,0,0,,The city is managed by the Punishing Heaven Sect, Soul Extinguishing Sect,
+Dialogue: 0,0:12:49.24,0:12:53.08,Sub,,0,0,0,,and the One Heaven Path Sect.
+Dialogue: 0,0:13:00.20,0:13:01.52,Sub,,0,0,0,,Fellow cultivator, what are you looking for ?
+Dialogue: 0,0:13:01.52,0:13:03.12,Sub,,0,0,0,,Our Treasure Pavilion has everything.
+Dialogue: 0,0:13:03.44,0:13:04.68,Sub,,0,0,0,,What's this artifact ?
+Dialogue: 0,0:13:04.76,0:13:06.16,Sub,,0,0,0,,This is a defensive bracelet
+Dialogue: 0,0:13:06.16,0:13:07.52,Sub,,0,0,0,,called the Mist-Born Flower.
+Dialogue: 0,0:13:07.52,0:13:09.60,Sub,,0,0,0,,It has an illusion spell
+Dialogue: 0,0:13:09.60,0:13:10.76,Sub,,0,0,0,,and women love it.
+Dialogue: 0,0:13:19.28,0:13:21.84,Sub,,0,0,0,,Why is my cultivation probing failing ?
+Dialogue: 0,0:13:22.96,0:13:25.60,Sub,,0,0,0,,This person is fluctuating between Core Formation
+Dialogue: 0,0:13:25.60,0:13:27.20,Sub,,0,0,0,,and Foundation Establishment...
+Dialogue: 0,0:13:29.68,0:13:31.20,Sub,,0,0,0,,What does Senior need ?
+Dialogue: 0,0:13:32.44,0:13:34.08,Sub,,0,0,0,,Do you sell pill furnaces ?
+Dialogue: 0,0:13:35.44,0:13:38.08,Sub,,0,0,0,,Senior, in the entire South Dipper City
+Dialogue: 0,0:13:38.08,0:13:39.60,Sub,,0,0,0,,our Treasure pavilion
+Dialogue: 0,0:13:39.60,0:13:41.84,Sub,,0,0,0,,is the only place that sells pill furnaces.
+Dialogue: 0,0:13:42.36,0:13:44.28,Sub,,0,0,0,,Please follow me to the second floor.
+Dialogue: 0,0:13:47.12,0:13:47.92,Sub,,0,0,0,,Customer,
+Dialogue: 0,0:13:48.64,0:13:49.60,Sub,,0,0,0,,please reconsider.
+Dialogue: 0,0:13:51.20,0:13:53.52,Sub,,0,0,0,,If you buy two, you'll get one for free !
+Dialogue: 0,0:14:00.04,0:14:01.24,Sub,,0,0,0,,If you're still not satisfied,
+Dialogue: 0,0:14:01.28,0:14:02.16,Sub,,0,0,0,,take a look at this.
+Dialogue: 0,0:14:08.56,0:14:10.08,Sub,,0,0,0,,Shopkeeper, the situation is...
+Dialogue: 0,0:14:10.20,0:14:12.04,Sub,,0,0,0,,The Treasure Pavilion has 3 floors
+Dialogue: 0,0:14:12.24,0:14:14.64,Sub,,0,0,0,,The attendants on the first floor are at Qi Condensation.
+Dialogue: 0,0:14:14.72,0:14:17.04,Sub,,0,0,0,,On the second floor, this guy is Foundation Establishment.
+Dialogue: 0,0:14:18.08,0:14:19.56,Sub,,0,0,0,,Will the third floor
+Dialogue: 0,0:14:20.68,0:14:22.32,Sub,,0,0,0,,have a Core Formation cultivator ?
+Dialogue: 0,0:14:29.00,0:14:29.80,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:14:32.87,0:14:36.75,Sub,,0,0,0,,this Mysterious Green Pill Furnace was refined over 49 months
+Dialogue: 0,0:14:37.72,0:14:41.36,Sub,,0,0,0,,using Greenstar Rock and Mysterious Fog Crystal from the depths of the Sea of Devils.
+Dialogue: 0,0:14:41.40,0:14:42.88,Sub,,0,0,0,,This is a grade 3 pill furnace.
+Dialogue: 0,0:14:44.00,0:14:45.12,Sub,,0,0,0,,Li Muwan told me
+Dialogue: 0,0:14:45.68,0:14:47.44,Sub,,0,0,0,,she needs at least a grade 4 furnace
+Dialogue: 0,0:14:48.08,0:14:50.72,Sub,,0,0,0,,to guarantee she can refine the Heaven Separating Pill.
+Dialogue: 0,0:15:00.52,0:15:03.88,Sub,,0,0,0,,I presume fellow cultivator is refining a top quality pill.
+Dialogue: 0,0:15:04.28,0:15:07.48,Sub,,0,0,0,,This is the Hundred Beasts Pill Furnace, forged from the cores
+Dialogue: 0,0:15:07.48,0:15:09.28,Sub,,0,0,0,,of 99 low quality beasts
+Dialogue: 0,0:15:09.28,0:15:11.56,Sub,,0,0,0,,from the Sea of Devils.
+Dialogue: 0,0:15:11.92,0:15:13.40,Sub,,0,0,0,,If you use it to refine pills,
+Dialogue: 0,0:15:13.40,0:15:16.88,Sub,,0,0,0,,there will be a chance the pills absorbs the energy of a beast's core.
+Dialogue: 0,0:15:18.32,0:15:21.32,Sub,,0,0,0,,The furnace's spiritual energy is leaking when it's closed.
+Dialogue: 0,0:15:22.44,0:15:24.08,Sub,,0,0,0,,When the seal is opened,
+Dialogue: 0,0:15:24.36,0:15:26.44,Sub,,0,0,0,,this spiritual energy will surge forth !
+Dialogue: 0,0:15:28.28,0:15:32.55,Sub,,0,0,0,,The Hundred Beasts Spirit Furnace is a grade 5 pill furnace.
+Dialogue: 0,0:15:32.64,0:15:35.27,Sub,,0,0,0,,The Fighting Evil Sect have been wanting it for a long time
+Dialogue: 0,0:15:35.32,0:15:37.84,Sub,,0,0,0,,but they lack the funds to buy it
+Dialogue: 0,0:15:38.12,0:15:40.52,Sub,,0,0,0,,so they never did.
+Dialogue: 0,0:15:41.76,0:15:42.77,Sub,,0,0,0,,What's the price ?
+Dialogue: 0,0:15:44.08,0:15:46.28,Sub,,0,0,0,,100 000 high-quality spirit stones !
+Dialogue: 0,0:15:46.36,0:15:49.92,Sub,,0,0,0,,Or you can offer an artifact of similar value.
+Dialogue: 0,0:15:50.64,0:15:53.04,Sub,,0,0,0,,This furnace is indeed extremely expensive...
+Dialogue: 0,0:15:53.52,0:15:56.36,Sub,,0,0,0,,No wonder the Fighting Evil Sect don't have the funds.
+Dialogue: 0,0:15:56.92,0:15:59.08,Sub,,0,0,0,,Fellow cultivator, would you like another ?
+Dialogue: 0,0:15:59.88,0:16:01.76,Sub,,0,0,0,,The Mysterious Green Pill Furnace
+Dialogue: 0,0:16:01.76,0:16:04.00,Sub,,0,0,0,,is only 10 000 high-quality spirit stones.
+Dialogue: 0,0:16:04.00,0:16:06.88,Sub,,0,0,0,,It can also be used to make many pills.
+Dialogue: 0,0:16:09.16,0:16:10.44,Sub,,0,0,0,,Flood Dragon hide !
+Dialogue: 0,0:16:13.12,0:16:16.16,Sub,,0,0,0,,It's real hide from a middle rank Spirit Beast, a Flood Dragon !
+Dialogue: 0,0:16:16.40,0:16:18.12,Sub,,0,0,0,,How much of this do you have ?
+Dialogue: 0,0:16:18.32,0:16:19.64,Sub,,0,0,0,,How much for the furnace ?
+Dialogue: 0,0:16:19.76,0:16:21.96,Sub,,0,0,0,,If the dragon was 1000 zhang long...
+Dialogue: 0,0:16:22.72,0:16:24.12,Sub,,0,0,0,,the entire hide !
+Dialogue: 0,0:16:42.36,0:16:44.64,Sub,,0,0,0,,We finally managed to sell that Hundred Beasts Pill Furnace.
+Dialogue: 0,0:16:44.92,0:16:46.32,Sub,,0,0,0,,The Fighting Evil Sect
+Dialogue: 0,0:16:46.32,0:16:48.52,Sub,,0,0,0,,lacked the funds to buy it yet acted like it was reserved
+Dialogue: 0,0:16:48.52,0:16:50.68,Sub,,0,0,0,,and scared everyone from buying it.
+Dialogue: 0,0:16:52.00,0:16:54.20,Sub,,0,0,0,,Since this person has Flood Dragon hide,
+Dialogue: 0,0:16:54.52,0:16:56.84,Sub,,0,0,0,,he should be able to protect that pill furnace.
+Dialogue: 0,0:16:57.76,0:17:00.88,Sub,,0,0,0,,Trading the Flood Dragon hide will attract attention
+Dialogue: 0,0:17:01.72,0:17:03.20,Sub,,0,0,0,,but it was necessary...
+Dialogue: 0,0:17:04.08,0:17:06.16,Sub,,0,0,0,,If I were to trade my spirit liquid
+Dialogue: 0,0:17:06.36,0:17:08.24,Sub,,0,0,0,,it would be even worse.
+Dialogue: 0,0:17:14.68,0:17:15.80,Sub,,0,0,0,,Someone's been watching me
+Dialogue: 0,0:17:15.80,0:17:17.32,Sub,,0,0,0,,since I entered the second floor.
+Dialogue: 0,0:17:18.32,0:17:20.64,Sub,,0,0,0,,Besides the one I marked with my Divine Sense,
+Dialogue: 0,0:17:20.72,0:17:23.36,Sub,,0,0,0,,there are 3 more Core Formation cultivators.
+Dialogue: 0,0:17:36.00,0:17:36.64,Sub,,0,0,0,,Elder,
+Dialogue: 0,0:17:37.08,0:17:39.36,Sub,,0,0,0,,the guy who traded the furnace just left the city.
+Dialogue: 0,0:17:40.80,0:17:44.04,Card,,0,0,0,,{\fad(300,300)\pos(1575,523)}Kun Sang\NFighting Evil Sect Elder\NEarly stage Core Formation
+Dialogue: 0,0:17:57.00,0:17:58.24,Sub,,0,0,0,,Mere tricks !
+Dialogue: 0,0:18:13.16,0:18:15.92,Sub,,0,0,0,,The hunt begins now !
+Dialogue: 0,0:18:35.92,0:18:39.16,Card,,0,0,0,,{\fad(300,300)\pos(335,503)}Pu Lin\NFighting Evil Sect Elder\NEarly stage Core Formation
+Dialogue: 0,0:18:35.60,0:18:38.44,Sub,,0,0,0,,Hand over the furnace you bought at the Treasure Pavilion
+Dialogue: 0,0:18:38.44,0:18:39.92,Sub,,0,0,0,,or die !
+Dialogue: 0,0:18:46.12,0:18:47.08,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:18:52.36,0:18:54.04,Sub,,0,0,0,,What kind of flying sword is this !?
+Dialogue: 0,0:18:54.64,0:18:56.08,Sub,,0,0,0,,If I hadn't slightly dodged it
+Dialogue: 0,0:18:56.28,0:18:57.60,Sub,,0,0,0,,to avoid a vital spot,
+Dialogue: 0,0:18:58.00,0:19:00.00,Sub,,0,0,0,,I would've died just now.
+Dialogue: 0,0:19:08.44,0:19:09.68,Sub,,0,0,0,,Such a flying sword
+Dialogue: 0,0:19:09.68,0:19:10.88,Sub,,0,0,0,,is extremely rare.
+Dialogue: 0,0:19:10.00,0:19:13.24,Card,,0,0,0,,{\fad(300,300)\pos(1561,513)}Gu Cheng\NFighting Evil Sect Elder\NEarly stage Core Formation
+Dialogue: 0,0:19:11.40,0:19:14.72,Sub,,0,0,0,,This kid must have even more artifacts on him !
+Dialogue: 0,0:19:24.84,0:19:26.68,Sub,,0,0,0,,If it were just one Core Formation,
+Dialogue: 0,0:19:26.68,0:19:28.00,Sub,,0,0,0,,I might have a chance.
+Dialogue: 0,0:19:28.40,0:19:30.44,Sub,,0,0,0,,But facing three at the same time
+Dialogue: 0,0:19:30.52,0:19:31.88,Sub,,0,0,0,,is troublesome...
+Dialogue: 0,0:19:41.28,0:19:46.92,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:19:43.58,0:19:46.92,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:19:47.56,0:19:52.52,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:19:49.40,0:19:52.52,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:19:52.68,0:19:58.44,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:19:58.56,0:20:04.16,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:20:04.44,0:20:09.76,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:20:06.32,0:20:09.76,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:20:10.04,0:20:15.36,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:20:11.94,0:20:15.36,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:20:15.40,0:20:21.08,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:18.28,0:20:21.08,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:20:21.52,0:20:25.72,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:23.68,0:20:25.72,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:20:25.80,0:20:29.04,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:20:29.08,0:20:32.12,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:20:32.25,0:20:37.68,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:20:33.94,0:20:37.68,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:20:37.68,0:20:40.80,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:20:40.80,0:20:43.84,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:20:43.84,0:20:49.20,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:20:45.72,0:20:49.20,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:20:49.20,0:20:52.16,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:20:52.16,0:20:54.96,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:20:54.96,0:21:00.44,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:20:57.00,0:21:00.44,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:21:00.64,0:21:03.80,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:21:03.80,0:21:06.84,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:21:06.84,0:21:12.52,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:21:09.16,0:21:12.52,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

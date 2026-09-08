@@ -1,0 +1,207 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:02.68,0:02:05.40,Sub,,0,0,0,,Such a potent poison... It really is Hunchback Meng.
+Dialogue: 0,0:02:11.80,0:02:12.64,Sub,,0,0,0,,Stay attentive.
+Dialogue: 0,0:02:13.08,0:02:14.84,Sub,,0,0,0,,If you detect any trace of Hunchback Meng,
+Dialogue: 0,0:02:14.84,0:02:15.72,Sub,,0,0,0,,tell me immediately.
+Dialogue: 0,0:02:18.20,0:02:19.00,Sub,,0,0,0,,Master,
+Dialogue: 0,0:02:19.56,0:02:23.40,Sub,,0,0,0,,are we going after that Soul Formation old toad ?
+Dialogue: 0,0:02:23.76,0:02:25.56,Sub,,0,0,0,,Just do as you're told.
+Dialogue: 0,0:02:33.76,0:02:35.92,Sub,,0,0,0,,Why do I always have to do all the hard work ?
+Dialogue: 0,0:02:36.48,0:02:39.88,Sub,,0,0,0,,How shameless ! You're just scared of that Soul Formation cultivator.
+Dialogue: 0,0:02:57.72,0:02:59.84,Sub,,0,0,0,,There's another alpha beast in this tornado.
+Dialogue: 0,0:03:06.24,0:03:09.20,Sub,,0,0,0,,It's probing me...
+Dialogue: 0,0:03:16.04,0:03:16.84,Sub,,0,0,0,,Kill it.
+Dialogue: 0,0:03:49.16,0:03:50.36,Sub,,0,0,0,,False Nascent Soul ?
+Dialogue: 0,0:04:07.48,0:04:08.96,Sub,,0,0,0,,I can't get close.
+Dialogue: 0,0:04:09.00,0:04:10.24,Sub,,0,0,0,,I can't fight it directly.
+Dialogue: 0,0:04:35.32,0:04:36.76,Sub,,0,0,0,,Retreat another 10 zhang.
+Dialogue: 0,0:04:45.36,0:04:49.76,Sub,,0,0,0,,I refuse to believe my Divine Sense can't cut you !
+Dialogue: 0,0:04:58.44,0:05:01.72,Sub,,0,0,0,,False Nascent Soul is the limit of what I can face.
+Dialogue: 0,0:05:02.96,0:05:05.32,Sub,,0,0,0,,There must be other alpha beasts in tornadoes.
+Dialogue: 0,0:05:17.20,0:05:18.08,Sub,,0,0,0,,As I thought,
+Dialogue: 0,0:05:18.76,0:05:20.48,Sub,,0,0,0,,the closer we get to the end,
+Dialogue: 0,0:05:20.68,0:05:22.36,Sub,,0,0,0,,the stronger the beasts.
+Dialogue: 0,0:05:23.64,0:05:25.20,Sub,,0,0,0,,Master ! Master !
+Dialogue: 0,0:05:26.60,0:05:28.80,Sub,,0,0,0,,I found that old toad !
+Dialogue: 0,0:05:44.96,0:05:48.32,Sub,,0,0,0,,Little ant that poisoned my brethren,
+Dialogue: 0,0:05:48.96,0:05:54.16,Sub,,0,0,0,,I will unleash divine punishment upon you !
+Dialogue: 0,0:05:51.60,0:05:54.40,Card,,0,0,0,,{\pos(1581,467)\fad(300,000)}Tornado Beast King\NPeak Late stage Soul Formation
+Dialogue: 0,0:05:56.52,0:05:58.64,Sub,,0,0,0,,Peak Late stage Soul Formation !?
+Dialogue: 0,0:06:10.96,0:06:11.80,Sub,,0,0,0,,This is...
+Dialogue: 0,0:06:13.56,0:06:16.08,Sub,,0,0,0,,That old bastard and his toad
+Dialogue: 0,0:06:16.08,0:06:18.12,Sub,,0,0,0,,relied on their Soul Formation cultivation
+Dialogue: 0,0:06:18.24,0:06:19.88,Sub,,0,0,0,,to fight their way through.
+Dialogue: 0,0:06:20.08,0:06:20.68,Sub,,0,0,0,,But then...
+Dialogue: 0,0:06:22.56,0:06:24.56,Sub,,0,0,0,,it attracted this trial's king.
+Dialogue: 0,0:06:25.64,0:06:27.52,Sub,,0,0,0,,Thankfully, I didn't act recklessly.
+Dialogue: 0,0:06:27.56,0:06:29.56,Sub,,0,0,0,,The consequences would've been terrible.
+Dialogue: 0,0:07:29.56,0:07:30.84,Sub,,0,0,0,,Li Tian !
+Dialogue: 0,0:07:54.92,0:07:56.12,Sub,,0,0,0,,Let's let him fight.
+Dialogue: 0,0:07:56.56,0:07:58.64,Sub,,0,0,0,,Even if he doesn't die, he'll be severely injured.
+Dialogue: 0,0:07:59.56,0:08:00.20,Sub,,0,0,0,,Master,
+Dialogue: 0,0:08:00.56,0:08:03.04,Sub,,0,0,0,,the end of the first trial is right there.
+Dialogue: 0,0:08:03.40,0:08:05.88,Sub,,0,0,0,,Shouldn't we take advantage of the chaos to leave ?
+Dialogue: 0,0:08:16.32,0:08:17.68,Sub,,0,0,0,,Not now,
+Dialogue: 0,0:08:17.84,0:08:18.72,Sub,,0,0,0,,get closer.
+Dialogue: 0,0:08:23.44,0:08:25.32,Sub,,0,0,0,,Just do what you're told !
+Dialogue: 0,0:08:32.76,0:08:33.84,Sub,,0,0,0,,Go a bit closer,
+Dialogue: 0,0:08:34.00,0:08:35.52,Sub,,0,0,0,,we can't see from far away.
+Dialogue: 0,0:08:36.16,0:08:38.44,Sub,,0,0,0,,What a great spectacle !
+Dialogue: 0,0:08:50.20,0:08:52.08,Sub,,0,0,0,,Damn beast !
+Dialogue: 0,0:08:52.64,0:08:54.44,Sub,,0,0,0,,You pushed me this far !
+Dialogue: 0,0:08:57.56,0:09:00.12,Sub,,0,0,0,,This black tower cannot stop me.
+Dialogue: 0,0:09:00.72,0:09:03.16,Sub,,0,0,0,,You slaughtered countless of my brethren.
+Dialogue: 0,0:09:03.80,0:09:05.16,Sub,,0,0,0,,Little ant,
+Dialogue: 0,0:09:05.92,0:09:09.24,Sub,,0,0,0,,come out and die !
+Dialogue: 0,0:09:15.16,0:09:17.36,Sub,,0,0,0,,Bastard ! Bastard !
+Dialogue: 0,0:09:18.04,0:09:21.36,Sub,,0,0,0,,I... I cannot die here !
+Dialogue: 0,0:09:27.68,0:09:28.48,Sub,,0,0,0,,Li Tian...
+Dialogue: 0,0:09:29.48,0:09:31.36,Sub,,0,0,0,,Come to think of it,
+Dialogue: 0,0:09:31.44,0:09:33.88,Sub,,0,0,0,,you've only been with me for 1000 years.
+Dialogue: 0,0:09:38.00,0:09:40.28,Sub,,0,0,0,,I'm sorry Li Tian.
+Dialogue: 0,0:09:40.68,0:09:43.24,Sub,,0,0,0,,This old man needs to live a few more years !
+Dialogue: 0,0:09:48.28,0:09:50.00,Sub,,0,0,0,,This is your fate.
+Dialogue: 0,0:09:50.72,0:09:53.32,Sub,,0,0,0,,Blame Tornado Beast King for it !
+Dialogue: 0,0:10:08.40,0:10:12.84,Sub,,0,0,0,,Hahahahaha !
+Dialogue: 0,0:10:18.28,0:10:21.40,Sub,,0,0,0,,We mustn't waste your body either.
+Dialogue: 0,0:10:51.60,0:10:56.56,Sub,,0,0,0,,You actually devoured the core of your high quality Spirit Beast.
+Dialogue: 0,0:10:57.32,0:11:00.32,Sub,,0,0,0,,I raised it for 1000 years
+Dialogue: 0,0:11:01.16,0:11:04.24,Sub,,0,0,0,,step by step until high quality.
+Dialogue: 0,0:11:06.56,0:11:09.88,Sub,,0,0,0,,It almost became a Desolate Beast.
+Dialogue: 0,0:11:10.68,0:11:12.32,Sub,,0,0,0,,Just one more step
+Dialogue: 0,0:11:13.68,0:11:16.68,Sub,,0,0,0,,and Li Tian would've become a Desolate Beast !
+Dialogue: 0,0:11:16.92,0:11:18.40,Sub,,0,0,0,,It's your fault !
+Dialogue: 0,0:11:18.48,0:11:20.80,Sub,,0,0,0,,You forced me to devour Li Tian !
+Dialogue: 0,0:11:21.32,0:11:25.16,Sub,,0,0,0,,How laughable, it was completely loyal to you.
+Dialogue: 0,0:11:25.60,0:11:27.48,Sub,,0,0,0,,But in the end
+Dialogue: 0,0:11:27.84,0:11:32.04,Sub,,0,0,0,,you only raised it for it to become a pill.
+Dialogue: 0,0:11:32.44,0:11:34.20,Sub,,0,0,0,,So what if I did ?
+Dialogue: 0,0:11:34.56,0:11:36.36,Sub,,0,0,0,,What does it change ?
+Dialogue: 0,0:11:36.44,0:11:37.64,Sub,,0,0,0,,Enough talk !
+Dialogue: 0,0:11:38.16,0:11:41.52,Sub,,0,0,0,,Now that I'm also at Peak Late stage Soul Formation,
+Dialogue: 0,0:11:42.28,0:11:44.00,Sub,,0,0,0,,let's have a fight,
+Dialogue: 0,0:11:44.28,0:11:46.92,Sub,,0,0,0,,you damn beast !
+Dialogue: 0,0:11:51.48,0:11:53.08,Sub,,0,0,0,,Die !
+Dialogue: 0,0:12:15.68,0:12:16.88,Sub,,0,0,0,,Nine Nethers Poison,
+Dialogue: 0,0:12:17.48,0:12:18.56,Sub,,0,0,0,,explode !
+Dialogue: 0,0:12:47.96,0:12:49.76,Sub,,0,0,0,,My subjects,
+Dialogue: 0,0:12:50.36,0:12:53.80,Sub,,0,0,0,,sacrifice your bodies for your king !
+Dialogue: 0,0:13:16.92,0:13:17.72,Sub,,0,0,0,,Go !
+Dialogue: 0,0:14:00.84,0:14:03.52,Sub,,0,0,0,,Your life artifact is shattered.
+Dialogue: 0,0:14:04.36,0:14:06.60,Sub,,0,0,0,,Now die !
+Dialogue: 0,0:14:07.40,0:14:09.12,Sub,,0,0,0,,Damn beast...
+Dialogue: 0,0:14:09.68,0:14:12.36,Sub,,0,0,0,,Did you think my Poison King Cauldron
+Dialogue: 0,0:14:12.96,0:14:16.04,Sub,,0,0,0,,was forged with just any amount of Heaven Severing Poison ?
+Dialogue: 0,0:14:23.76,0:14:27.80,Sub,,0,0,0,,I want you, damn beast, to pay with your life for Li Tian !
+Dialogue: 0,0:14:33.16,0:14:34.76,Sub,,0,0,0,,Heaven Severing Poison...
+Dialogue: 0,0:14:34.88,0:14:36.32,Sub,,0,0,0,,Explode for me !
+Dialogue: 0,0:14:36.40,0:14:39.00,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:15:02.56,0:15:04.56,Sub,,0,0,0,,He actually won !
+Dialogue: 0,0:15:06.36,0:15:08.04,Sub,,0,0,0,,Quick, let's go, let's go !
+Dialogue: 0,0:15:08.20,0:15:10.40,Sub,,0,0,0,,If that old toad finds us
+Dialogue: 0,0:15:10.40,0:15:11.96,Sub,,0,0,0,,we won't be able to leave !
+Dialogue: 0,0:15:13.08,0:15:13.92,Sub,,0,0,0,,Get closer.
+Dialogue: 0,0:15:16.36,0:15:17.56,Sub,,0,0,0,,Are you crazy !?
+Dialogue: 0,0:15:31.28,0:15:32.32,Sub,,0,0,0,,With my cultivation,
+Dialogue: 0,0:15:32.68,0:15:34.24,Sub,,0,0,0,,the trials will be perilous.
+Dialogue: 0,0:15:34.40,0:15:36.44,Sub,,0,0,0,,A Soul Formation's bag of holding
+Dialogue: 0,0:15:37.12,0:15:38.32,Sub,,0,0,0,,might give me an edge.
+Dialogue: 0,0:15:38.32,0:15:41.52,Sub,,0,0,0,,That's a Soul Formation cultivator !
+Dialogue: 0,0:15:41.72,0:15:44.16,Sub,,0,0,0,,He might be one step in the grave
+Dialogue: 0,0:15:44.80,0:15:46.16,Sub,,0,0,0,,but killing you
+Dialogue: 0,0:15:46.36,0:15:49.36,Sub,,0,0,0,,is as easy as crushing an ant  !
+Dialogue: 0,0:15:50.08,0:15:51.24,Sub,,0,0,0,,I can't kill him
+Dialogue: 0,0:15:51.92,0:15:53.61,Sub,,0,0,0,,but that doesn't mean he can't die.
+Dialogue: 0,0:15:54.64,0:15:55.72,Sub,,0,0,0,,Either we go all in
+Dialogue: 0,0:15:56.32,0:15:57.60,Sub,,0,0,0,,or we don't try at all.
+Dialogue: 0,0:16:03.96,0:16:08.08,Sub,,0,0,0,,Mere Core Formation and Nascent Soul beasts dare to catch me ?
+Dialogue: 0,0:16:08.56,0:16:09.80,Sub,,0,0,0,,Ridiculous.
+Dialogue: 0,0:16:13.88,0:16:14.96,Sub,,0,0,0,,It's you !
+Dialogue: 0,0:16:16.44,0:16:18.60,Sub,,0,0,0,,We're dead !
+Dialogue: 0,0:16:24.48,0:16:25.52,Sub,,0,0,0,,How dare you ?
+Dialogue: 0,0:16:27.16,0:16:28.84,Sub,,0,0,0,,You're out of fuel.
+Dialogue: 0,0:16:29.32,0:16:30.36,Sub,,0,0,0,,Come down !
+Dialogue: 0,0:16:33.56,0:16:34.68,Sub,,0,0,0,,How dare you !?
+Dialogue: 0,0:16:36.20,0:16:36.88,Sub,,0,0,0,,You...
+Dialogue: 0,0:16:36.88,0:16:37.96,Sub,,0,0,0,,A mere Core Formation...
+Dialogue: 0,0:16:38.96,0:16:40.84,Sub,,0,0,0,,A mere Core Formation brat !
+Dialogue: 0,0:17:01.52,0:17:04.24,Sub,,0,0,0,,They... saw us !
+Dialogue: 0,0:17:15.76,0:19:37.72,Note,,0,0,0,,{\fad(1000,1000)}A life artifact is similar to a blood-refined artifact. The cultivator links his life to an artifact. Although it makes the artifact stronger and it makes the artifact grow together with the cultivator's cultivation level, if the life artifact is destroyed, the consequences are terrible for the cultivator.\N\NThe Poison King Cauldron was Hunchback Meng's life artifact. After it was destroyed, he was greatly weakened. That's part of the reason why Wang Lin was able to finish him off.
+Dialogue: 0,0:17:44.23,0:17:51.11,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:17:48.11,0:17:51.11,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:17:51.47,0:17:57.35,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny
+Dialogue: 0,0:17:58.47,0:18:04.87,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:18:02.27,0:18:04.87,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:18:05.13,0:18:11.39,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:18:12.03,0:18:19.11,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:18:14.71,0:18:19.11,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:18:19.19,0:18:26.27,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:18:21.23,0:18:26.27,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:18:26.71,0:18:28.79,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:18:28.79,0:18:33.55,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:18:30.19,0:18:33.55,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:18:33.55,0:18:35.55,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:18:35.63,0:18:38.07,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:18:38.27,0:18:40.43,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:18:40.43,0:18:43.35,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:18:43.35,0:18:46.43,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:18:47.71,0:18:53.39,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:18:49.63,0:18:53.39,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:18:54.91,0:19:02.27,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:18:58.79,0:19:02.27,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:19:02.27,0:19:08.87,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:19:03.87,0:19:08.87,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:19:09.07,0:19:11.75,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:19:11.75,0:19:16.11,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:19:16.55,0:19:23.27,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:19:19.07,0:19:23.27,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:19:23.67,0:19:27.51,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:19:27.51,0:19:30.83,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:19:30.83,0:19:36.63,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:19:33.07,0:19:36.63,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:19:37.95,0:19:47.59,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:19:39.75,0:19:47.59,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

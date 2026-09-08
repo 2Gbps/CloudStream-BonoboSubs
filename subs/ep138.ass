@@ -1,0 +1,330 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 138
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100.0,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Stamp,Lucida Sans,100,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Opening2,Lucida Sans,38,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,90,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.80,0:00:16.80,Opening2,,0,0,0,,{\fad(1000,1000)}The rules keep changing.
+Dialogue: 0,0:00:20.64,0:00:25.64,Opening2,,0,0,0,,{\fad(1000,1000)}I've been rehearsing every possible outcome.
+Dialogue: 0,0:00:29.80,0:00:36.08,Opening2,,0,0,0,,{\fad(1000,1000)}Once this thought arises, there is no more room for right or wrong.
+Dialogue: 0,0:00:39.24,0:00:44.72,Opening2,,0,0,0,,{\fad(1000,1000)}I am resolved to sever this flood
+Dialogue: 0,0:00:46.84,0:00:51.08,Opening2,,0,0,0,,{\fad(1000,1000)}so that my soul can break free from mediocrity,
+Dialogue: 0,0:00:51.32,0:00:55.44,Opening2,,0,0,0,,{\fad(1000,1000)}from loneliness and distinction.
+Dialogue: 0,0:00:55.92,0:01:00.40,Opening2,,0,0,0,,{\fad(1000,800)}One more step and you'll fall into madness.
+Dialogue: 0,0:01:00.60,0:01:05.40,Opening2,,0,0,0,,{\fad(1000,1000)}Don't fall down.
+Dialogue: 0,0:01:07.04,0:01:08.60,Opening2,,0,0,0,,{\fad(1000,150)}I look towards the top.
+Dialogue: 0,0:01:08.68,0:01:11.24,Opening2,,0,0,0,,{\fad(300,500)}Chase !
+Dialogue: 0,0:01:11.44,0:01:14.44,Opening2,,0,0,0,,{\fad(600,600)}Refined to perfection.
+Dialogue: 0,0:01:16.00,0:01:20.36,Opening2,,0,0,0,,{\fad(600,600)}Never retreat, no matter the danger.
+Dialogue: 0,0:01:20.48,0:01:23.40,Opening2,,0,0,0,,{\fad(300,300)}I dare to defy the heavens !
+Dialogue: 0,0:01:23.88,0:01:27.24,Opening2,,0,0,0,,{\fad(600,600)}Always overcome the obstacles,
+Dialogue: 0,0:01:27.43,0:01:29.60,Opening2,,0,0,0,,{\fad(300,300)}ignite the seas with blood,
+Dialogue: 0,0:01:29.76,0:01:34.04,Opening2,,0,0,0,,{\fad(600,600)}bloom through trials and tribulations.
+Dialogue: 0,0:01:34.20,0:01:38.68,Opening2,,0,0,0,,{\fad(600,600)}Even the sharpest thorns
+Dialogue: 0,0:01:38.80,0:01:43.24,Opening2,,0,0,0,,{\fad(600,1000)}will be reduced into ashes.
+Dialogue: 0,0:01:43.28,0:01:47.56,Opening2,,0,0,0,,{\fad(800,800)}What is there to fear ?
+Dialogue: 0,0:01:52.56,0:01:56.72,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:05.72,0:02:06.92,Sub,,0,0,0,,Members of the Huan Family,
+Dialogue: 0,0:02:07.32,0:02:08.55,Sub,,0,0,0,,hand over Liu Mei.
+Dialogue: 0,0:02:11.12,0:02:11.83,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:02:12.68,0:02:13.96,Sub,,0,0,0,,the Huan Family's defensive formation
+Dialogue: 0,0:02:13.96,0:02:15.12,Sub,,0,0,0,,has stood for 10 000 years !
+Dialogue: 0,0:02:15.68,0:02:16.87,Sub,,0,0,0,,Say these words again
+Dialogue: 0,0:02:17.20,0:02:18.59,Sub,,0,0,0,,if you can break it.
+Dialogue: 0,0:02:19.32,0:02:20.07,Sub,,0,0,0,,Seal...
+Dialogue: 0,0:02:20.72,0:02:21.44,Sub,,0,0,0,,open !
+Dialogue: 0,0:02:38.32,0:02:38.99,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:02:39.36,0:02:40.95,Sub,,0,0,0,,the Thunder Beast represents the Thunder Celestial Temple !
+Dialogue: 0,0:02:41.56,0:02:42.67,Sub,,0,0,0,,Ancestor, think twice !
+Dialogue: 0,0:02:43.52,0:02:45.35,Sub,,0,0,0,,Causing a calamity for an outsider
+Dialogue: 0,0:02:45.56,0:02:46.63,Sub,,0,0,0,,is inappropriate !
+Dialogue: 0,0:02:47.40,0:02:48.91,Sub,,0,0,0,,Ancestor, think twice !
+Dialogue: 0,0:02:49.36,0:02:51.15,Sub,,0,0,0,,All of you, shut up !
+Dialogue: 0,0:02:55.00,0:02:56.72,Sub,,0,0,0,,With the formation's strength,
+Dialogue: 0,0:02:57.20,0:02:59.55,Sub,,0,0,0,,he won't be able to break it without using
+Dialogue: 0,0:02:59.60,0:03:00.80,Sub,,0,0,0,,his Nirvana Cleanser sword energy.
+Dialogue: 0,0:03:01.40,0:03:03.91,Sub,,0,0,0,,Once this brat uses up all his sword energy,
+Dialogue: 0,0:03:04.48,0:03:07.63,Sub,,0,0,0,,I will make my move and kill him.
+Dialogue: 0,0:03:11.48,0:03:12.15,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:03:13.16,0:03:14.59,Sub,,0,0,0,,is it really worth doing all this
+Dialogue: 0,0:03:15.52,0:03:17.07,Sub,,0,0,0,,for an outsider of the family !?
+Dialogue: 0,0:03:17.72,0:03:18.99,Sub,,0,0,0,,You're too short-sighted !
+Dialogue: 0,0:03:19.88,0:03:21.07,Sub,,0,0,0,,Our Huan Family's formation
+Dialogue: 0,0:03:21.40,0:03:23.44,Sub,,0,0,0,,was laid by successive generations of Ancestors !
+Dialogue: 0,0:03:23.84,0:03:26.27,Sub,,0,0,0,,Even with his Thunder Beast and Illusory Yin puppet,
+Dialogue: 0,0:03:26.76,0:03:28.47,Sub,,0,0,0,,there is no way he can break it !
+Dialogue: 0,0:03:28.84,0:03:31.03,Sub,,0,0,0,,Your Huan Family's formation is indeed powerful...
+Dialogue: 0,0:03:32.36,0:03:34.35,Sub,,0,0,0,,but what if I use this sword intent ?
+Dialogue: 0,0:03:42.64,0:03:45.84,Sub,,0,0,0,,Heaven{\alpha&HFF\t(1136,1360,\alpha0)}ly {\alpha&HFF\t(2680,2680,\alpha0)}Chop !
+Dialogue: 0,0:03:50.36,0:03:51.11,Sub,,0,0,0,,This is...
+Dialogue: 0,0:03:51.48,0:03:52.23,Sub,,0,0,0,,law !
+Dialogue: 0,0:04:07.36,0:04:07.95,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:04:08.52,0:04:10.55,Sub,,0,0,0,,I am the family head, Huan Fengshen.
+Dialogue: 0,0:04:11.40,0:04:13.83,Sub,,0,0,0,,This matter is a personal grudge between you and Huan Wuqing.
+Dialogue: 0,0:04:14.60,0:04:16.11,Sub,,0,0,0,,The Huan Family will not intervene.
+Dialogue: 0,0:04:16.48,0:04:17.31,Sub,,0,0,0,,I hope fellow cultivator
+Dialogue: 0,0:04:17.76,0:04:18.95,Sub,,0,0,0,,understands the situation.
+Dialogue: 0,0:04:19.04,0:04:20.39,Sub,,0,0,0,,You bunch of useless trash !
+Dialogue: 0,0:04:20.88,0:04:21.59,Sub,,0,0,0,,I summon
+Dialogue: 0,0:04:22.28,0:04:23.47,Sub,,0,0,0,,the Ancestral Jade !
+Dialogue: 0,0:04:24.72,0:04:27.84,Card,,0,0,0,,{\fad(300,300)\pos(299,461)}Ancestral Jade\NCelestial artifact
+Dialogue: 0,0:04:59.32,0:05:00.55,Sub,,0,0,0,,Ancestral Jade,
+Dialogue: 0,0:05:01.12,0:05:02.59,Sub,,0,0,0,,kill this man !
+Dialogue: 0,0:05:13.00,0:05:13.64,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:05:14.32,0:05:15.59,Sub,,0,0,0,,what other tricks do you have
+Dialogue: 0,0:05:16.04,0:05:17.63,Sub,,0,0,0,,apart from that sword energy !?
+Dialogue: 0,0:05:41.00,0:05:42.63,Sub,,0,0,0,,Scattered Devil !
+Dialogue: 0,0:06:00.52,0:06:01.59,Sub,,0,0,0,,Kid,
+Dialogue: 0,0:06:02.24,0:06:03.35,Sub,,0,0,0,,is he the one
+Dialogue: 0,0:06:03.88,0:06:05.07,Sub,,0,0,0,,you spoke of ?
+Dialogue: 0,0:06:09.44,0:06:10.23,Sub,,0,0,0,,Help you !?
+Dialogue: 0,0:06:11.16,0:06:11.91,Sub,,0,0,0,,I just
+Dialogue: 0,0:06:12.48,0:06:14.79,Sub,,0,0,0,,wish to tear you to pieces for capturing me !
+Dialogue: 0,0:06:16.16,0:06:17.67,Sub,,0,0,0,,And you want
+Dialogue: 0,0:06:18.36,0:06:20.35,Sub,,0,0,0,,me to help you !?
+Dialogue: 0,0:06:21.24,0:06:22.27,Sub,,0,0,0,,If I die,
+Dialogue: 0,0:06:22.88,0:06:24.67,Sub,,0,0,0,,Senior will be affected by the backlash of the seal
+Dialogue: 0,0:06:25.32,0:06:27.27,Sub,,0,0,0,,and won't end up unscathed.
+Dialogue: 0,0:06:27.92,0:06:29.87,Sub,,0,0,0,,Is that all ?
+Dialogue: 0,0:06:30.52,0:06:31.47,Sub,,0,0,0,,After this battle,
+Dialogue: 0,0:06:32.72,0:06:33.79,Sub,,0,0,0,,I'm releasing you.
+Dialogue: 0,0:07:23.52,0:07:24.79,Sub,,0,0,0,,Such a thick devilish energy !
+Dialogue: 0,0:07:25.44,0:07:26.75,Sub,,0,0,0,,What the hell is this !?
+Dialogue: 0,0:07:27.76,0:07:29.95,Sub,,0,0,0,,How many more abilities is he hiding ?
+Dialogue: 0,0:07:30.72,0:07:31.51,Sub,,0,0,0,,Energy
+Dialogue: 0,0:07:32.04,0:07:32.83,Sub,,0,0,0,,Gathering !
+Dialogue: 0,0:07:33.92,0:07:35.27,Sub,,0,0,0,,No matter who you are,
+Dialogue: 0,0:07:35.76,0:07:38.39,Sub,,0,0,0,,I have gathered the spiritual energy of the entire Planet Thousand Illusions
+Dialogue: 0,0:07:38.88,0:07:40.31,Sub,,0,0,0,,just to kill you !
+Dialogue: 0,0:07:40.76,0:07:42.67,Sub,,0,0,0,,Is that enough !?
+Dialogue: 0,0:07:52.04,0:07:53.43,Sub,,0,0,0,,He destroyed countless Spirit Veins
+Dialogue: 0,0:07:53.84,0:07:55.07,Sub,,0,0,0,,just for a single strike ?
+Dialogue: 0,0:07:55.96,0:07:57.67,Sub,,0,0,0,,Huan Wuqing, that old bastard,
+Dialogue: 0,0:07:58.44,0:08:00.52,Sub,,0,0,0,,actually did something that outrageous !
+Dialogue: 0,0:08:08.84,0:08:09.63,Sub,,0,0,0,,Go !
+Dialogue: 0,0:08:13.60,0:08:15.19,Sub,,0,0,0,,A Celestial transformation spell ?
+Dialogue: 0,0:08:16.32,0:08:19.79,Sub,,0,0,0,,It is only a spell from the old Ancient Demon Clan,
+Dialogue: 0,0:08:20.56,0:08:23.07,Sub,,0,0,0,,and you dare to display it before me !?
+Dialogue: 0,0:08:42.76,0:08:44.91,Sub,,0,0,0,,Extract the planet's soul !
+Dialogue: 0,0:08:52.84,0:08:55.51,Sub,,0,0,0,,Since you absorbed all the spiritual energy of this planet,
+Dialogue: 0,0:08:56.20,0:08:58.59,Sub,,0,0,0,,then I will extract this planet's soul !
+Dialogue: 0,0:09:01.75,0:09:04.96,Card,,0,0,0,,{\pos(341,465)\fad(300,300)}Wang Lin's\NSea of Consciousness
+Dialogue: 0,0:09:02.20,0:09:04.44,Sub,,0,0,0,,He extracted a planet's soul with a wave of his hand ?
+Dialogue: 0,0:09:05.24,0:09:06.83,Sub,,0,0,0,,The life and death of the planet
+Dialogue: 0,0:09:07.28,0:09:08.51,Sub,,0,0,0,,comes down to a single thought.
+Dialogue: 0,0:09:10.20,0:09:12.55,Sub,,0,0,0,,This is the true power of the second step !
+Dialogue: 0,0:10:11.56,0:10:13.39,Sub,,0,0,0,,The Ancestral Jade
+Dialogue: 0,0:10:13.84,0:10:14.55,Sub,,0,0,0,,has lost !
+Dialogue: 0,0:10:23.88,0:10:25.27,Sub,,0,0,0,,The Ancestors said
+Dialogue: 0,0:10:25.80,0:10:27.47,Sub,,0,0,0,,that if the Ancestral Jade shatters,
+Dialogue: 0,0:10:28.16,0:10:30.47,Sub,,0,0,0,,it will unleash one final defensive spell.
+Dialogue: 0,0:10:31.72,0:10:33.47,Sub,,0,0,0,,This must be it.
+Dialogue: 0,0:10:34.68,0:10:36.03,Sub,,0,0,0,,Once this formation appears,
+Dialogue: 0,0:10:36.52,0:10:37.91,Sub,,0,0,0,,defeat is already certain.
+Dialogue: 0,0:10:38.64,0:10:40.19,Sub,,0,0,0,,It's only used for final arrangements
+Dialogue: 0,0:10:40.64,0:10:42.51,Sub,,0,0,0,,and to give time to end our own lives.
+Dialogue: 0,0:10:46.12,0:10:46.91,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:10:48.16,0:10:49.55,Sub,,0,0,0,,please hand over Liu Mei.
+Dialogue: 0,0:11:00.28,0:11:01.23,Sub,,0,0,0,,Huan Mei,
+Dialogue: 0,0:11:01.96,0:11:03.99,Sub,,0,0,0,,ever since you joined the Huan Family,
+Dialogue: 0,0:11:04.84,0:11:06.67,Sub,,0,0,0,,this old man has always treated you well.
+Dialogue: 0,0:11:07.56,0:11:08.71,Sub,,0,0,0,,If you are grateful,
+Dialogue: 0,0:11:09.28,0:11:10.55,Sub,,0,0,0,,then give me your domain
+Dialogue: 0,0:11:11.16,0:11:13.87,Sub,,0,0,0,,to help me fight to the death !
+Dialogue: 0,0:11:19.08,0:11:21.24,Sub,,0,0,0,,From the day I stepped into the Huan Family,
+Dialogue: 0,0:11:21.68,0:11:22.99,Sub,,0,0,0,,everything you did
+Dialogue: 0,0:11:23.88,0:11:25.63,Sub,,0,0,0,,was all to obtain my domain.
+Dialogue: 0,0:11:26.72,0:11:28.51,Sub,,0,0,0,,I've never had the choice,
+Dialogue: 0,0:11:29.24,0:11:29.99,Sub,,0,0,0,,haven't I ?
+Dialogue: 0,0:11:30.96,0:11:32.39,Sub,,0,0,0,,The Dao of the Huan Family
+Dialogue: 0,0:11:33.00,0:11:34.19,Sub,,0,0,0,,is not the Identityless
+Dialogue: 0,0:11:34.56,0:11:35.71,Sub,,0,0,0,,nor the Heavenly Devil Dao.
+Dialogue: 0,0:11:36.76,0:11:38.47,Sub,,0,0,0,,They were originally one.
+Dialogue: 0,0:11:39.80,0:11:43.99,Sub,,0,0,0,,It was the domain that allowed the Huan Family to dominate the Thunder Celestial Realm,
+Dialogue: 0,0:11:44.92,0:11:47.51,Sub,,0,0,0,,the Identityless Heavenly Devil Dao !
+Dialogue: 0,0:11:48.68,0:11:50.63,Sub,,0,0,0,,The Huan Family searched for tens of thousands of years
+Dialogue: 0,0:11:51.36,0:11:54.51,Sub,,0,0,0,,and finally found someone who possesses the Heavenly Devil Dao.
+Dialogue: 0,0:11:55.64,0:11:57.43,Sub,,0,0,0,,Devouring you,
+Dialogue: 0,0:11:57.84,0:12:01.95,Sub,,0,0,0,,is the only chance to regain the Identityless Heavenly Devil Dao !
+Dialogue: 0,0:12:04.52,0:12:06.03,Sub,,0,0,0,,Then promise me two things.
+Dialogue: 0,0:12:07.12,0:12:07.91,Sub,,0,0,0,,Speak !
+Dialogue: 0,0:12:09.00,0:12:09.71,Sub,,0,0,0,,First,
+Dialogue: 0,0:12:10.84,0:12:12.03,Sub,,0,0,0,,help me to kill Wang Lin !
+Dialogue: 0,0:12:14.64,0:12:15.71,Sub,,0,0,0,,After that,
+Dialogue: 0,0:12:16.92,0:12:17.91,Sub,,0,0,0,,I ask the Ancestor
+Dialogue: 0,0:12:18.64,0:12:19.95,Sub,,0,0,0,,to open this bag of holding.
+Dialogue: 0,0:12:22.92,0:12:24.75,Sub,,0,0,0,,This old man will do his best
+Dialogue: 0,0:12:25.32,0:12:26.87,Sub,,0,0,0,,to help you fulfill this wish !
+Dialogue: 0,0:12:29.44,0:12:31.07,Sub,,0,0,0,,If you cannot kill Wang Lin,
+Dialogue: 0,0:12:31.80,0:12:33.11,Sub,,0,0,0,,then give this thing
+Dialogue: 0,0:12:34.32,0:12:35.03,Sub,,0,0,0,,to him.
+Dialogue: 0,0:12:50.00,0:12:51.43,Sub,,0,0,0,,Her cultivation skyrocketed overnight
+Dialogue: 0,0:12:52.40,0:12:56.12,Sub,,0,0,0,,but in the end she died at the hands of the teacher who had been looking out for her.
+Dialogue: 0,0:12:57.08,0:12:57.63,Sub,,0,0,0,,Fate
+Dialogue: 0,0:12:58.52,0:12:59.83,Sub,,0,0,0,,really is unpredictable.
+Dialogue: 0,0:13:00.00,0:13:01.39,Sub,,0,0,0,,Give it to me !
+Dialogue: 0,0:13:01.84,0:13:02.92,Sub,,0,0,0,,Break !
+Dialogue: 0,0:13:16.00,0:13:17.51,Sub,,0,0,0,,Domain devouring ?
+Dialogue: 0,0:13:18.56,0:13:20.87,Sub,,0,0,0,,This little girl is completely dead.
+Dialogue: 0,0:13:21.92,0:13:22.99,Sub,,0,0,0,,But the other one
+Dialogue: 0,0:13:23.56,0:13:25.11,Sub,,0,0,0,,is somewhat interesting to watch !
+Dialogue: 0,0:14:18.76,0:14:22.03,Sub,,0,0,0,,All beings in the world can become Devils.
+Dialogue: 0,0:14:23.00,0:14:24.79,Sub,,0,0,0,,In this identityless shape,
+Dialogue: 0,0:14:25.16,0:14:26.91,Sub,,0,0,0,,we merge with the devilish thoughts of all things
+Dialogue: 0,0:14:27.44,0:14:29.63,Sub,,0,0,0,,to freely roam the world
+Dialogue: 0,0:14:29.92,0:14:31.55,Sub,,0,0,0,,as an Identityless Heavenly Devil !
+Dialogue: 0,0:14:32.48,0:14:33.83,Sub,,0,0,0,,Ancestors of the Huan Family,
+Dialogue: 0,0:14:34.48,0:14:36.15,Sub,,0,0,0,,our Huan Family's Dao
+Dialogue: 0,0:14:37.04,0:14:39.27,Sub,,0,0,0,,has reappeared !
+Dialogue: 0,0:14:36.68,0:14:39.60,Card,,0,0,0,,{\fad(300,300)\pos(431,433)}Identityless Heavenly Devil Dao
+Dialogue: 0,0:14:42.96,0:14:46.71,Sub,,0,0,0,,Can human cultivators truly give birth to devilish thoughts ?
+Dialogue: 0,0:14:47.60,0:14:48.79,Sub,,0,0,0,,If that's the case,
+Dialogue: 0,0:14:49.36,0:14:50.27,Sub,,0,0,0,,then I am
+Dialogue: 0,0:14:50.76,0:14:53.59,Sub,,0,0,0,,what you call a true Devil !
+Dialogue: 0,0:14:54.24,0:14:55.55,Sub,,0,0,0,,You really...
+Dialogue: 0,0:14:56.20,0:14:57.99,Sub,,0,0,0,,are a great tonic for me !
+Dialogue: 0,0:15:26.12,0:15:26.55,Sub,,0,0,0,,You !
+Dialogue: 0,0:15:26.56,0:15:28.15,Sub,,0,0,0,,You have just entered the Devil Dao
+Dialogue: 0,0:15:28.60,0:15:29.55,Sub,,0,0,0,,but you don't know
+Dialogue: 0,0:15:30.60,0:15:31.91,Sub,,0,0,0,,the way of the Devils
+Dialogue: 0,0:15:32.36,0:15:34.55,Sub,,0,0,0,,is to devour one another !
+Dialogue: 0,0:15:38.16,0:15:40.71,Sub,,0,0,0,,And a newborn little Devil like you
+Dialogue: 0,0:15:41.32,0:15:44.47,Sub,,0,0,0,,is one of the finest meals !
+Dialogue: 0,0:15:59.00,0:16:01.08,Sub,,0,0,0,,Huan Wuqing pursued the Devil Dao for countless years
+Dialogue: 0,0:16:01.60,0:16:03.95,Sub,,0,0,0,,only to end up as the Scattered Devil's meal.
+Dialogue: 0,0:16:05.32,0:16:06.43,Sub,,0,0,0,,Nothing in this world
+Dialogue: 0,0:16:07.28,0:16:08.87,Sub,,0,0,0,,can escape karma.
+Dialogue: 0,0:16:09.68,0:16:10.79,Sub,,0,0,0,,Little Brat Wang Lin,
+Dialogue: 0,0:16:12.04,0:16:13.79,Sub,,0,0,0,,I have fulfilled my promise.
+Dialogue: 0,0:16:14.72,0:16:15.79,Sub,,0,0,0,,As for Bei Luo's seal,
+Dialogue: 0,0:16:16.64,0:16:18.07,Sub,,0,0,0,,I will deal with it myself.
+Dialogue: 0,0:16:18.72,0:16:20.31,Sub,,0,0,0,,Don't think about pulling more tricks !
+Dialogue: 0,0:16:57.60,0:16:58.23,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:16:59.28,0:17:00.47,Sub,,0,0,0,,before Liu Mei died,
+Dialogue: 0,0:17:00.88,0:17:01.67,Sub,,0,0,0,,she made
+Dialogue: 0,0:17:02.28,0:17:03.59,Sub,,0,0,0,,an agreement with Huan Wuqing.
+Dialogue: 0,0:17:04.44,0:17:06.03,Sub,,0,0,0,,If Huan Wuqing could not kill you,
+Dialogue: 0,0:17:06.92,0:17:08.63,Sub,,0,0,0,,he had to give you this bag of holding.
+Dialogue: 0,0:17:12.36,0:17:14.04,Sub,,0,0,0,,This thing might very well be a trap.
+Dialogue: 0,0:17:24.36,0:17:25.19,Sub,,0,0,0,,Inside the bag,
+Dialogue: 0,0:17:25.88,0:17:28.27,Sub,,0,0,0,,is the antidote to dissolve Li'er's resentment.
+Dialogue: 0,0:17:29.60,0:17:31.59,Sub,,0,0,0,,Combined with a cultivator who practices thunder spells,
+Dialogue: 0,0:17:32.20,0:17:34.63,Sub,,0,0,0,,most of the resentment can be dispelled.
+Dialogue: 0,0:17:36.36,0:17:37.07,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:17:38.28,0:17:39.55,Sub,,0,0,0,,you destroyed my Dao Heart.
+Dialogue: 0,0:17:40.68,0:17:42.71,Sub,,0,0,0,,All my life, I've hated you to the bones.
+Dialogue: 0,0:17:44.64,0:17:46.19,Sub,,0,0,0,,But I have also implicated Li'er...
+Dialogue: 0,0:17:48.52,0:17:49.95,Sub,,0,0,0,,In my lifetime of cultivation,
+Dialogue: 0,0:17:51.00,0:17:52.71,Sub,,0,0,0,,I have seen all the deceit and treachery.
+Dialogue: 0,0:17:53.96,0:17:55.83,Sub,,0,0,0,,Yet the only one who treated me sincerely,
+Dialogue: 0,0:17:56.36,0:17:59.19,Sub,,0,0,0,,was none other than Li'er, who was consumed by resentment.
+Dialogue: 0,0:18:01.64,0:18:02.43,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:18:03.88,0:18:05.91,Sub,,0,0,0,,I wanted to kill you with my own hands
+Dialogue: 0,0:18:07.00,0:18:08.52,Sub,,0,0,0,,and when all was settled,
+Dialogue: 0,0:18:08.68,0:18:11.27,Sub,,0,0,0,,personally wash away the resentment on Li'er.
+Dialogue: 0,0:18:12.20,0:18:13.11,Sub,,0,0,0,,But in the end,
+Dialogue: 0,0:18:13.80,0:18:15.11,Sub,,0,0,0,,I lost that chance.
+Dialogue: 0,0:18:17.88,0:18:20.51,Sub,,0,0,0,,I fought against you my whole life without being able to win.
+Dialogue: 0,0:18:18.28,0:18:21.40,Card,,0,0,0,,{\pos(1446,462)\fad(300,300)}High Mountains\NPlanet Ran Yun
+Dialogue: 0,0:18:21.60,0:18:23.63,Sub,,0,0,0,,Instead, it left behind deep regrets.
+Dialogue: 0,0:18:25.36,0:18:26.63,Sub,,0,0,0,,Maybe this is
+Dialogue: 0,0:18:28.08,0:18:31.27,Sub,,0,0,0,,the karma that I sowed many years ago.
+Dialogue: 0,0:18:32.84,0:18:34.08,Sub,,0,0,0,,Let dust return to dust,
+Dialogue: 0,0:18:34.68,0:18:36.00,Sub,,0,0,0,,let dirt return to dirt.
+Dialogue: 0,0:18:37.04,0:18:38.55,Sub,,0,0,0,,Above the Life and Death reincarnation cycle
+Dialogue: 0,0:18:39.40,0:18:41.67,Sub,,0,0,0,,lies the elusive karma.
+Dialogue: 0,0:18:44.36,0:18:45.75,Sub,,0,0,0,,You were born from my soul
+Dialogue: 0,0:18:45.92,0:18:46.75,Sub,,0,0,0,,and are bound to me.
+Dialogue: 0,0:18:48.20,0:18:50.12,Sub,,0,0,0,,You are consumed by resentment
+Dialogue: 0,0:18:50.20,0:18:52.12,Sub,,0,0,0,,such that even my Origin Soul can't escape it.
+Dialogue: 0,0:18:53.08,0:18:54.28,Sub,,0,0,0,,In that case...
+Dialogue: 0,0:18:54.92,0:18:56.36,Sub,,0,0,0,,there is only one way.
+Dialogue: 0,0:19:21.28,0:19:22.07,Sub,,0,0,0,,Li is not
+Dialogue: 0,0:19:22.92,0:19:23.84,Sub,,0,0,0,,a good word.
+Dialogue: 0,0:19:24.28,0:19:25.11,Sub,,0,0,0,,Let’s change it to...
+Dialogue: 0,0:19:26.32,0:19:26.95,Sub,,0,0,0,,Ping.
+Dialogue: 0,0:19:27.88,0:19:28.71,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:19:29.72,0:19:31.11,Sub,,0,0,0,,your name will be Wang Ping.
+Dialogue: 0,0:19:32.20,0:19:33.96,Sub,,0,0,0,,I hope your life will be calm and peaceful,
+Dialogue: 0,0:19:34.24,0:19:35.55,Sub,,0,0,0,,unlike mine.
+Dialogue: 0,0:19:38.20,0:19:39.67,Sub,,0,0,0,,The resentment you bear,
+Dialogue: 0,0:19:39.80,0:19:41.28,Sub,,0,0,0,,born from bloodshed,
+Dialogue: 0,0:19:41.88,0:19:43.71,Sub,,0,0,0,,must also be dissolved in the mortal world.
+Dialogue: 0,0:19:46.88,0:19:47.43,Sub,,0,0,0,,This time,
+Dialogue: 0,0:19:48.24,0:19:49.67,Sub,,0,0,0,,I will grant you a new life.
+Dialogue: 0,0:19:51.68,0:19:53.07,Sub,,0,0,0,,Enter this world of human existence,
+Dialogue: 0,0:19:53.88,0:19:55.44,Sub,,0,0,0,,to observe the warmth of mountains and rivers,
+Dialogue: 0,0:19:55.48,0:19:57.21,Sub,,0,0,0,,to experience the kindness of worldly affairs,
+Dialogue: 0,0:19:58.28,0:19:59.79,Sub,,0,0,0,,to truly live
+Dialogue: 0,0:20:00.88,0:20:02.19,Sub,,0,0,0,,the life you deserve.
+Dialogue: 100,0:20:07.17,0:22:41.21,Note,,0,0,0,,{\fad(1000,0000)}Li 厉 means severe, strict. While Ping 平 means peace. That's why Wang Lin chose that name for his child.\N\NWhen attacked by the Heavenly Chop Huan Wuqing says "This is law !" he then says a bit more in the novel “Law! That sword strike contains law! The pursuit of the second step is law! The first step is understanding the heavens, and the second step is converting that understanding into the power of laws. If this child is not someone from the Thunder Celestial Temple, how could he display such a sword strike?!”
+Dialogue: 0,0:20:28.25,0:20:33.73,Music,,0,0,0,,{\fad(600,600)}Ask
+Dialogue: 0,0:20:29.85,0:20:31.65,Stamp,,0,0,0,,{\pos(1514,677)}Qi Condensation
+Dialogue: 0,0:20:30.77,0:20:33.81,Music,,0,0,0,,{\fad(600,600)}the perilous path filled with countless blades.
+Dialogue: 0,0:20:33.29,0:20:34.93,Stamp,,0,0,0,,{\pos(1299,685)}Foundation Establishment
+Dialogue: 0,0:20:34.45,0:20:40.61,Music,,0,0,0,,{\fad(600,600)}Can the mundane world be shattered
+Dialogue: 0,0:20:35.81,0:20:38.25,Stamp,,0,0,0,,{\pos(1557,705)\fad(800,000)}Core Formation
+Dialogue: 0,0:20:39.01,0:20:41.69,Stamp,,0,0,0,,{\fad(800,000)\pos(1557,705)}Nascent Soul
+Dialogue: 0,0:20:37.25,0:20:40.61,Music,,0,0,0,,{\fad(600,600)}by a child's steadfast heart ?
+Dialogue: 0,0:20:40.73,0:20:46.85,Music,,0,0,0,,{\fad(600,600)}If the laws of this world
+Dialogue: 0,0:20:42.57,0:20:45.13,Stamp,,0,0,0,,{\pos(368,638)\fad(800,300)}Soul Formation
+Dialogue: 0,0:20:45.45,0:20:48.33,Stamp,,0,0,0,,{\pos(1445,688)\fad(800,000)}Soul Transformation
+Dialogue: 0,0:20:43.53,0:20:46.85,Music,,0,0,0,,{\fad(600,600)}stand in the way,
+Dialogue: 0,0:20:47.81,0:20:53.65,Music,,0,0,0,,{\fad(600,600)}I'll defy the universe to tread the heavens
+Dialogue: 0,0:20:51.65,0:20:54.61,Stamp,,0,0,0,,{\pos(1574,688)\fad(800,000)}Ascendant
+Dialogue: 0,0:20:50.01,0:20:53.65,Music,,0,0,0,,{\fad(600,600)}and ask this question to the sky.
+Dialogue: 0,0:20:54.09,0:20:59.53,Music,,0,0,0,,{\fad(600,600)}My heart's deepest wish
+Dialogue: 0,0:20:56.47,0:20:59.53,Music,,0,0,0,,{\fad(600,600)}is to not kneel before these mountains and rivers.
+Dialogue: 0,0:21:00.69,0:21:06.61,Music,,0,0,0,,{\fad(600,600)}Don't accept your doomed fate,
+Dialogue: 0,0:21:03.25,0:21:06.61,Music,,0,0,0,,{\fad(600,600)}karma can be changed.
+Dialogue: 0,0:21:07.01,0:21:12.37,Music,,0,0,0,,{\fad(600,600)}Unwilling to let go,
+Dialogue: 0,0:21:09.53,0:21:12.37,Music,,0,0,0,,{\fad(600,600)}my obsessions propel me forward.
+Dialogue: 0,0:21:12.37,0:21:19.89,Music,,0,0,0,,{\fad(600,600)}Don't be afraid.
+Dialogue: 0,0:21:14.69,0:21:19.89,Music,,0,0,0,,{\fad(600,600)}Thunder rumbles as I dare to tread through the reincarnation cycle.
+Dialogue: 0,0:21:20.85,0:21:24.29,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:21:22.29,0:21:24.29,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:21:24.41,0:21:28.13,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:21:25.73,0:21:28.13,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:21:28.21,0:21:33.85,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:21:29.81,0:21:33.85,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:21:34.17,0:21:37.69,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:21:35.53,0:21:37.69,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:21:37.69,0:21:41.25,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:21:38.73,0:21:41.25,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:21:41.33,0:21:46.65,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:21:43.09,0:21:46.65,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:21:48.01,0:21:52.89,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:21:49.33,0:21:52.89,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.
+Dialogue: 0,0:22:07.45,0:22:11.13,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:22:09.09,0:22:11.13,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:22:11.21,0:22:14.97,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:22:12.49,0:22:14.97,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:22:14.97,0:22:20.65,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:22:16.65,0:22:20.65,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:22:20.93,0:22:24.49,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:22:22.29,0:22:24.49,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:22:24.48,0:22:28.09,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:22:25.45,0:22:28.09,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:22:28.09,0:22:33.69,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:22:30.05,0:22:33.69,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:22:34.41,0:22:39.77,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:22:35.25,0:22:39.77,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.

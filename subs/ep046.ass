@@ -1,0 +1,330 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Zhao,Lucida Sans,100,&H00598FC5,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:08.44,0:02:09.88,Sub,,0,0,0,,The Heng Yue Sect...
+Dialogue: 0,0:02:11.08,0:02:12.04,Sub,,0,0,0,,The country of Zhao...
+Dialogue: 0,0:02:16.00,0:02:17.24,Sub,,0,0,0,,Teng Family...
+Dialogue: 0,0:02:18.69,0:02:20.04,Sub,,0,0,0,,To avenge my family,
+Dialogue: 0,0:02:20.92,0:02:22.40,Sub,,0,0,0,,you will pay
+Dialogue: 0,0:02:24.16,0:02:25.80,Sub,,0,0,0,,with your life !
+Dialogue: 0,0:02:34.76,0:02:36.16,Sub,,0,0,0,,400 years
+Dialogue: 0,0:02:38.44,0:02:40.00,Sub,,0,0,0,,passed by in the blink of an eye.
+Dialogue: 0,0:02:41.88,0:02:43.36,Sub,,0,0,0,,It may not be a long time
+Dialogue: 0,0:02:43.69,0:02:45.20,Sub,,0,0,0,, for cultivators.
+Dialogue: 0,0:02:46.68,0:02:48.00,Sub,,0,0,0,,-But for mortals,
+Dialogue: 0,0:02:51.88,0:02:53.60,Sub,,0,0,0,,it's multiple lifetimes.
+Dialogue: 0,0:03:08.72,0:03:10.48,Sub,,0,0,0,,The wood carvings of the Immortals
+Dialogue: 0,0:03:10.48,0:03:13.84,Sub,,0,0,0,,will influence the protection they provide our country.
+Dialogue: 0,0:03:13.84,0:03:15.64,Sub,,0,0,0,,These carvings must have
+Dialogue: 0,0:03:15.64,0:03:17.28,Sub,,0,0,0,,outstanding form and spirit.
+Dialogue: 0,0:03:32.96,0:03:34.68,Sub,,0,0,0,,No matter what you have done,
+Dialogue: 0,0:03:35.00,0:03:37.08,Sub,,0,0,0,,you have to take care of yourself.
+Dialogue: 0,0:03:37.92,0:03:39.00,Sub,,0,0,0,,That way,
+Dialogue: 0,0:03:39.76,0:03:41.64,Sub,,0,0,0,,your parents can rest in peace.
+Dialogue: 0,0:03:40.56,0:03:42.76,Second,,0,0,0,,Noooo !!!
+Dialogue: 0,0:03:52.40,0:03:53.20,Sub,,0,0,0,,Father,
+Dialogue: 0,0:03:53.80,0:03:54.60,Sub,,0,0,0,,Mother,
+Dialogue: 0,0:03:56.92,0:03:58.40,Sub,,0,0,0,,Tie Zhu is back.
+Dialogue: 0,0:04:01.96,0:04:03.24,Sub,,0,0,0,,Your unfilial son Wang Lin
+Dialogue: 0,0:04:04.20,0:04:05.80,Sub,,0,0,0,,swears an oath today.
+Dialogue: 0,0:04:06.40,0:04:10.24,Sub,,0,0,0,,I will make the Teng Family pay blood for blood !
+Dialogue: 0,0:04:16.00,0:04:17.32,Sub,,0,0,0,,It's so cold.
+Dialogue: 0,0:04:19.80,0:04:20.76,Sub,,0,0,0,,What ?
+Dialogue: 0,0:04:19.76,0:04:20.96,Card,,0,0,0,,{\pos(1590,455)\fad(300,000)}Wang Liao Yi\NWang Family descendant
+Dialogue: 0,0:04:21.36,0:04:22.60,Sub,,0,0,0,,Someone came ?
+Dialogue: 0,0:04:25.84,0:04:28.12,Sub,,0,0,0,,Why is it so cold today ?
+Dialogue: 0,0:04:36.35,0:04:37.40,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:04:37.76,0:04:40.31,Sub,,0,0,0,,Why are you in the Wang family's ancestral home ?
+Dialogue: 0,0:04:40.56,0:04:42.60,Sub,,0,0,0,,What's your relationship with the tablets ?
+Dialogue: 0,0:04:44.76,0:04:46.60,Sub,,0,0,0,,I am Wang Liao Yi.
+Dialogue: 0,0:04:47.32,0:04:49.00,Sub,,0,0,0,,My ancestor Wang Tian Tu
+Dialogue: 0,0:04:49.04,0:04:51.48,Sub,,0,0,0,,was the fourth brother of the person on the tablet.
+Dialogue: 0,0:04:51.80,0:04:52.68,Sub,,0,0,0,,Fourth Uncle ?
+Dialogue: 0,0:04:53.88,0:04:55.88,Sub,,0,0,0,,When the ancestor was middle aged,
+Dialogue: 0,0:04:56.08,0:04:58.24,Sub,,0,0,0,,he was spotted by an Immortal of the Piao Miao Sect.
+Dialogue: 0,0:04:58.68,0:05:01.76,Sub,,0,0,0,,He became a vassal of the royal family after leaving the mountains.
+Dialogue: 0,0:05:02.00,0:05:06.16,Sub,,0,0,0,,That's the story of our branch of the Wang family.
+Dialogue: 0,0:05:14.88,0:05:17.08,Sub,,0,0,0,,Fourth Uncle's descendants are alive.
+Dialogue: 0,0:05:17.60,0:05:20.40,Sub,,0,0,0,,This is a blessing for the Wang Family.
+Dialogue: 0,0:05:29.40,0:05:30.60,Sub,,0,0,0,,What's this ?
+Dialogue: 0,0:05:31.32,0:05:33.04,Sub,,0,0,0,,Why is her Spirit Root missing ?
+Dialogue: 0,0:05:33.12,0:05:35.56,Sub,,0,0,0,,Everyone is born with a Spirit Root
+Dialogue: 0,0:05:35.56,0:05:38.16,Sub,,0,0,0,,but they all have different properties.
+Dialogue: 0,0:05:38.28,0:05:39.60,Sub,,0,0,0,,Their quality
+Dialogue: 0,0:05:39.88,0:05:42.68,Sub,,0,0,0,,determines the potential for cultivation.
+Dialogue: 0,0:05:43.28,0:05:44.92,Sub,,0,0,0,,To become a so-called "Immortal"
+Dialogue: 0,0:05:44.92,0:05:46.68,Sub,,0,0,0,,we cultivate and absorb
+Dialogue: 0,0:05:46.68,0:05:48.76,Sub,,0,0,0,,spiritual energy from the world.
+Dialogue: 0,0:05:49.00,0:05:50.24,Sub,,0,0,0,,The mortals
+Dialogue: 0,0:05:50.24,0:05:53.24,Sub,,0,0,0,,will only rely on the energy their Spirit Root had at birth
+Dialogue: 0,0:05:53.24,0:05:54.68,Sub,,0,0,0,,during their whole life.
+Dialogue: 0,0:05:54.72,0:05:57.76,Sub,,0,0,0,,What will happen if a mortal doesn't have one ?
+Dialogue: 0,0:05:57.76,0:05:59.40,Sub,,0,0,0,,If a mortal loses their Spirit Root
+Dialogue: 0,0:05:59.72,0:06:01.64,Sub,,0,0,0,,they will become sick
+Dialogue: 0,0:06:02.00,0:06:04.00,Sub,,0,0,0,,and heavily lose weight.
+Dialogue: 0,0:06:04.48,0:06:06.28,Sub,,0,0,0,,This is definitely not simple.
+Dialogue: 0,0:06:06.56,0:06:08.40,Sub,,0,0,0,,Do you remember when
+Dialogue: 0,0:06:08.92,0:06:10.60,Sub,,0,0,0,,you started to get sick ?
+Dialogue: 0,0:06:11.96,0:06:13.00,Sub,,0,0,0,,I don't remember.
+Dialogue: 0,0:06:13.16,0:06:15.16,Sub,,0,0,0,,The health of the family is very poor.
+Dialogue: 0,0:06:15.68,0:06:17.04,Sub,,0,0,0,,We consulted doctors,
+Dialogue: 0,0:06:17.16,0:06:18.84,Sub,,0,0,0,,but they didn't find anything.
+Dialogue: 0,0:06:19.32,0:06:21.44,Sub,,0,0,0,,My illness is mild.
+Dialogue: 0,0:06:21.80,0:06:24.20,Sub,,0,0,0,,I'm afraid that the Wang family offended a cultivator
+Dialogue: 0,0:06:24.70,0:06:26.40,Sub,,0,0,0,,that stole the family's Spirit Roots.
+Dialogue: 0,0:06:45.24,0:06:46.20,Sub,,0,0,0,,In all my life,
+Dialogue: 0,0:06:46.74,0:06:50.00,Sub,,0,0,0,,my body has never felt so light.
+Dialogue: 0,0:06:50.84,0:06:51.96,Sub,,0,0,0,,Thank you Immortal !
+Dialogue: 0,0:06:52.26,0:06:53.16,Sub,,0,0,0,,By the way,
+Dialogue: 0,0:06:54.16,0:06:55.88,Sub,,0,0,0,,I should be your ancestor.
+Dialogue: 0,0:06:56.60,0:06:59.60,Sub,,0,0,0,,Our Wang family has an Immortal ancestor ?
+Dialogue: 0,0:07:00.24,0:07:01.84,Sub,,0,0,0,,Thanks to Fourth Uncle,
+Dialogue: 0,0:07:02.64,0:07:04.72,Sub,,0,0,0,,I successfully became an Immortal
+Dialogue: 0,0:07:05.20,0:07:07.16,Sub,,0,0,0,,so I will protect his descendants
+Dialogue: 0,0:07:07.76,0:07:09.40,Sub,,0,0,0,,to repay his kindness.
+Dialogue: 0,0:07:29.16,0:07:29.96,Sub,,0,0,0,,Come.
+Dialogue: 0,0:07:30.80,0:07:31.72,Sub,,0,0,0,,Where to ?
+Dialogue: 0,0:07:32.24,0:07:33.24,Sub,,0,0,0,,The capital,
+Dialogue: 0,0:07:33.61,0:07:34.68,Sub,,0,0,0,,to the Wang family.
+Dialogue: 0,0:07:42.72,0:07:46.00,Zhao,,0,0,0,,{\fad(1000,000)\pos(941,664)}Country of Zhao
+Dialogue: 0,0:07:49.72,0:07:50.52,Sub,,0,0,0,,Who's coming ?
+Dialogue: 0,0:07:54.72,0:07:55.40,Sub,,0,0,0,,Wang ?
+Dialogue: 0,0:07:55.80,0:07:56.48,Sub,,0,0,0,,Two people ?
+Dialogue: 0,0:07:57.00,0:07:57.80,Sub,,0,0,0,,Yes.
+Dialogue: 0,0:07:58.50,0:07:59.32,Sub,,0,0,0,,Come in.
+Dialogue: 0,0:08:04.32,0:08:05.12,Sub,,0,0,0,,My Lord,
+Dialogue: 0,0:08:05.68,0:08:07.12,Sub,,0,0,0,,have mercy on us.
+Dialogue: 0,0:08:09.84,0:08:11.40,Sub,,0,0,0,,Please let us leave.
+Dialogue: 0,0:08:11.44,0:08:12.28,Sub,,0,0,0,,You don't meet the conditions.
+Dialogue: 0,0:08:12.29,0:08:13.20,Sub,,0,0,0,,I can't let you pass.
+Dialogue: 0,0:08:13.36,0:08:14.00,Sub,,0,0,0,,Go away !
+Dialogue: 0,0:08:16.88,0:08:18.96,Sub,,0,0,0,,Why is it so hard to leave the city ?
+Dialogue: 0,0:08:20.56,0:08:21.88,Sub,,0,0,0,,Immortal doesn't know,
+Dialogue: 0,0:08:22.36,0:08:25.04,Sub,,0,0,0,,the government is afraid that if someone leaves they will not come back.
+Dialogue: 0,0:08:25.24,0:08:27.80,Sub,,0,0,0,,Therefore, those who don't have a family to protect
+Dialogue: 0,0:08:27.92,0:08:29.00,Sub,,0,0,0,,cannot leave the city.
+Dialogue: 0,0:08:39.64,0:08:41.84,Sub,,0,0,0,,How was the mortals' capital of Zhao
+Dialogue: 0,0:08:42.08,0:08:43.76,Sub,,0,0,0,,reduced to this ?
+Dialogue: 0,0:08:51.92,0:08:55.36,Sub,,0,0,0,,Not a single person here has a Spirit Root...
+Dialogue: 0,0:09:06.68,0:09:07.56,Sub,,0,0,0,,Miss,
+Dialogue: 0,0:09:07.76,0:09:10.00,Sub,,0,0,0,,you are finally back.
+Dialogue: 0,0:09:10.36,0:09:13.60,Sub,,0,0,0,,The patriarch... he will not make it.
+Dialogue: 0,0:09:15.20,0:09:16.15,Sub,,0,0,0,,Grandfather...
+Dialogue: 0,0:09:16.22,0:09:17.12,Sub,,0,0,0,,Grandfather !
+Dialogue: 0,0:09:21.52,0:09:22.36,Sub,,0,0,0,,Grandfather...
+Dialogue: 0,0:09:23.16,0:09:24.64,Sub,,0,0,0,,Yi'er is back.
+Dialogue: 0,0:09:24.50,0:09:26.68,Card,,0,0,0,,{\pos(1608,452)\fad(300,000)}Wang Zefu\NWang Family Patriarch
+Dialogue: 0,0:09:25.40,0:09:27.60,Sub,,0,0,0,,Please look at me once more !
+Dialogue: 0,0:09:33.28,0:09:34.20,Sub,,0,0,0,,Indeed,
+Dialogue: 0,0:09:35.56,0:09:37.44,Sub,,0,0,0,,missing a Spirit Root for too long
+Dialogue: 0,0:09:37.50,0:09:39.04,Sub,,0,0,0,,will result in death.
+Dialogue: 0,0:09:44.23,0:09:44.92,Sub,,0,0,0,,Immortal.
+Dialogue: 0,0:09:45.36,0:09:46.00,Sub,,0,0,0,,Please,
+Dialogue: 0,0:09:46.44,0:09:48.04,Sub,,0,0,0,,please save my grandfather...
+Dialogue: 0,0:09:49.99,0:09:51.16,Sub,,0,0,0,,Save him ?
+Dialogue: 0,0:09:52.35,0:09:53.97,Sub,,0,0,0,,He can save him ?
+Dialogue: 0,0:09:55.07,0:09:57.11,Sub,,0,0,0,,He can save the patriarch ?
+Dialogue: 0,0:10:10.36,0:10:11.68,Sub,,0,0,0,,He's really an Immortal ?
+Dialogue: 0,0:10:11.72,0:10:12.36,Sub,,0,0,0,,Magic powers ?
+Dialogue: 0,0:10:12.44,0:10:13.40,Sub,,0,0,0,,The patriarch is saved !
+Dialogue: 0,0:10:13.57,0:10:14.52,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:10:22.91,0:10:24.04,Sub,,0,0,0,,The patriarch is awake !
+Dialogue: 0,0:10:25.72,0:10:26.40,Sub,,0,0,0,,Grandfather,
+Dialogue: 0,0:10:26.88,0:10:27.64,Sub,,0,0,0,,Grandfather !
+Dialogue: 0,0:10:31.20,0:10:32.84,Sub,,0,0,0,,This is...
+Dialogue: 0,0:10:36.48,0:10:37.80,Sub,,0,0,0,,I didn't think
+Dialogue: 0,0:10:38.04,0:10:42.04,Sub,,0,0,0,,our Wang family had a living Immortal ancestor.
+Dialogue: 0,0:10:42.40,0:10:44.84,Sub,,0,0,0,,We are truly blessed.
+Dialogue: 0,0:10:45.00,0:10:46.08,Sub,,0,0,0,,Don't worry about it.
+Dialogue: 0,0:10:47.93,0:10:50.40,Sub,,0,0,0,,Immortal ancestor must want to know...
+Dialogue: 0,0:10:50.48,0:10:56.04,Sub,,0,0,0,,Decades ago, after changes occured in the Immortal world,
+Dialogue: 0,0:10:56.24,0:11:00.20,Sub,,0,0,0,,the people of Zhao all caught an illness.
+Dialogue: 0,0:11:00.64,0:11:02.48,Sub,,0,0,0,,I know it's not a plague
+Dialogue: 0,0:11:02.81,0:11:05.16,Sub,,0,0,0,,but I don't know the true cause.
+Dialogue: 0,0:11:05.84,0:11:06.64,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:11:07.68,0:11:09.04,Sub,,0,0,0,,since I owe Fourth Uncle,
+Dialogue: 0,0:11:09.92,0:11:11.36,Sub,,0,0,0,,I will help you.
+Dialogue: 0,0:11:30.20,0:11:31.77,Sub,,0,0,0,,Formation, activate !
+Dialogue: 0,0:11:40.64,0:11:43.88,Sub,,0,0,0,,The trees in the garden are growing leaves !
+Dialogue: 0,0:11:44.44,0:11:46.20,Sub,,0,0,0,,I can feel the energy !
+Dialogue: 0,0:11:46.20,0:11:47.20,Sub,,0,0,0,,It's relaxing.
+Dialogue: 0,0:11:51.48,0:11:53.84,Sub,,0,0,0,,Madam. Your hair is turning black.
+Dialogue: 0,0:11:56.56,0:11:58.84,Sub,,0,0,0,,Dear, your back is straight again !
+Dialogue: 0,0:11:59.08,0:11:59.88,Sub,,0,0,0,,Yes.
+Dialogue: 0,0:12:00.57,0:12:02.68,Sub,,0,0,0,,This formation is called the Spirit Gathering Formation.
+Dialogue: 0,0:12:03.12,0:12:05.64,Sub,,0,0,0,,It will protect the Wang family around it.
+Dialogue: 0,0:12:06.80,0:12:08.84,Sub,,0,0,0,,Thank you Immortal.
+Dialogue: 0,0:12:10.80,0:12:11.60,Sub,,0,0,0,,We are truly grateful.
+Dialogue: 0,0:12:19.56,0:12:21.44,Sub,,0,0,0,,Wait ! It's me !
+Dialogue: 0,0:12:20.28,0:12:22.48,Card,,0,0,0,,{\fad(300,300)\pos(1611,513)}Zhang Kuang\NTiandao Sect Disciple\NQi Condensation
+Dialogue: 0,0:12:22.12,0:12:23.60,Sub,,0,0,0,,I'm Zhang Kuang of the Heng Yue Sect,
+Dialogue: 0,0:12:23.80,0:12:25.04,Sub,,0,0,0,,please enlighten me.
+Dialogue: 0,0:12:25.68,0:12:27.56,Sub,,0,0,0,,Senior Brother Zhang Kuang ?
+Dialogue: 0,0:12:31.42,0:12:33.88,Sub,,0,0,0,,I recognized you when you entered the city,
+Dialogue: 0,0:12:34.18,0:12:35.40,Sub,,0,0,0,,but wanted to confirm
+Dialogue: 0,0:12:35.68,0:12:37.20,Sub,,0,0,0,,so I followed you.
+Dialogue: 0,0:12:37.56,0:12:39.84,Sub,,0,0,0,,In what condition is the Heng Yue Sect ?
+Dialogue: 0,0:12:42.24,0:12:44.20,Sub,,0,0,0,,I haven't gone back in years.
+Dialogue: 0,0:12:44.92,0:12:47.44,Sub,,0,0,0,,Senior Brother Zhang, why are you in the capital ?
+Dialogue: 0,0:12:50.92,0:12:52.40,Sub,,0,0,0,,And your cultivation...
+Dialogue: 0,0:12:55.60,0:12:57.48,Sub,,0,0,0,,The spiritual energy in your body is scattered
+Dialogue: 0,0:12:58.08,0:12:59.80,Sub,,0,0,0,,and your meridians are very fragile.
+Dialogue: 0,0:13:00.84,0:13:02.64,Sub,,0,0,0,,I followed the Heng Yue Ancestors.
+Dialogue: 0,0:13:03.36,0:13:05.00,Sub,,0,0,0,,After many years of cultivation,
+Dialogue: 0,0:13:05.00,0:13:06.48,Sub,,0,0,0,,I reached Core Formation.
+Dialogue: 0,0:13:07.08,0:13:08.80,Sub,,0,0,0,,I went down the mountain
+Dialogue: 0,0:13:09.40,0:13:10.84,Sub,,0,0,0,,to gain experience.
+Dialogue: 0,0:13:10.96,0:13:12.60,Sub,,0,0,0,,I hoped for a breakthrough
+Dialogue: 0,0:13:12.68,0:13:14.44,Sub,,0,0,0,,to restore the glory of the Heng Yue Sect.
+Dialogue: 0,0:13:15.80,0:13:17.48,Sub,,0,0,0,,But it didn't go as planned.
+Dialogue: 0,0:13:19.19,0:13:22.40,Sub,,0,0,0,,I was captured by the Tiandao Sect.
+Dialogue: 0,0:13:24.96,0:13:26.88,Sub,,0,0,0,,They used my body to refine pills.
+Dialogue: 0,0:13:26.88,0:13:27.48,Sub,,0,0,0,,My...
+Dialogue: 0,0:13:30.40,0:13:32.80,Sub,,0,0,0,,My lifelong cultivation has gone to waste.
+Dialogue: 0,0:13:33.60,0:13:37.00,Sub,,0,0,0,,Now, I can only be exploited as a disciple.
+Dialogue: 0,0:13:40.68,0:13:42.20,Sub,,0,0,0,,There are 7 pills in it.
+Dialogue: 0,0:13:42.76,0:13:44.28,Sub,,0,0,0,,You will take one per month,
+Dialogue: 0,0:13:44.80,0:13:45.82,Sub,,0,0,0,,and in 7 months
+Dialogue: 0,0:13:46.28,0:13:48.82,Sub,,0,0,0,,you will have recovered at least half your cultivation.
+Dialogue: 0,0:13:49.40,0:13:50.88,Sub,,0,0,0,,Senior Brother Zhang, take care.
+Dialogue: 0,0:13:51.56,0:13:52.48,Sub,,0,0,0,,I hope that
+Dialogue: 0,0:13:52.97,0:13:54.64,Sub,,0,0,0,,we will see each other again.
+Dialogue: 0,0:13:54.84,0:13:55.68,Sub,,0,0,0,,Wait...
+Dialogue: 0,0:13:55.80,0:13:56.92,Sub,,0,0,0,,Wait a minute.
+Dialogue: 0,0:14:01.67,0:14:03.76,Sub,,0,0,0,,Do not investigate
+Dialogue: 0,0:14:04.08,0:14:05.56,Sub,,0,0,0,,the disappearance of Spirit Roots.
+Dialogue: 0,0:14:06.56,0:14:08.88,Sub,,0,0,0,,Does the Tiandao Sect have something to do with it ?
+Dialogue: 0,0:14:09.32,0:14:10.84,Sub,,0,0,0,,The less you know, the better.
+Dialogue: 0,0:14:11.08,0:14:12.40,Sub,,0,0,0,,The Tiandao Sect is cruel,
+Dialogue: 0,0:14:12.40,0:14:14.20,Sub,,0,0,0,,but they would not dare to steal Spirit Roots of mortals.
+Dialogue: 0,0:14:14.20,0:14:14.99,Sub,,0,0,0,,I fear that
+Dialogue: 0,0:14:15.01,0:14:16.28,Sub,,0,0,0,,there must be someone else involved.
+Dialogue: 0,0:14:16.36,0:14:17.28,Sub,,0,0,0,,If you interfere,
+Dialogue: 0,0:14:17.28,0:14:18.36,Sub,,0,0,0,,they will find out !
+Dialogue: 0,0:14:20.76,0:14:21.64,Sub,,0,0,0,,They are coming !
+Dialogue: 0,0:14:27.35,0:14:30.40,Sub,,0,0,0,,You dare to make a Spirit Gathering Formation behind my back ?
+Dialogue: 0,0:14:30.88,0:14:32.44,Sub,,0,0,0,,Are you tired of living ?
+Dialogue: 0,0:14:33.30,0:14:34.28,Sub,,0,0,0,,Who did it ?
+Dialogue: 0,0:14:32.56,0:14:35.88,Card,,0,0,0,,{\pos(1602,498)\fad(300,300)}Lu Shiming\NTiandao Sect Elder\NLate stage Core Formation
+Dialogue: 0,0:14:34.80,0:14:35.52,Sub,,0,0,0,,Speak !
+Dialogue: 0,0:14:43.12,0:14:44.64,Sub,,0,0,0,,Hide inside,
+Dialogue: 0,0:14:44.64,0:14:46.04,Sub,,0,0,0,,I will take care of this.
+Dialogue: 0,0:14:46.96,0:14:47.75,Sub,,0,0,0,,Thank you Immortal !
+Dialogue: 0,0:14:47.77,0:14:48.36,Sub,,0,0,0,,Hurry up !
+Dialogue: 0,0:14:49.64,0:14:51.20,Sub,,0,0,0,,Did you do it ?
+Dialogue: 0,0:14:52.24,0:14:54.84,Sub,,0,0,0,,You dare to act like this on our Tiandao Sect's territory ?
+Dialogue: 0,0:14:55.40,0:14:56.88,Sub,,0,0,0,,You really have a death wish !
+Dialogue: 0,0:14:59.48,0:15:00.52,Sub,,0,0,0,,We are all cultivators,
+Dialogue: 0,0:15:00.52,0:15:01.44,Sub,,0,0,0,,let's discuss this.
+Dialogue: 0,0:15:01.72,0:15:03.00,Sub,,0,0,0,,Please give me some face.
+Dialogue: 0,0:15:03.60,0:15:04.36,Sub,,0,0,0,,Elder Lu,
+Dialogue: 0,0:15:04.64,0:15:07.20,Sub,,0,0,0,,Brother Wang set the formation to protect his descendants.
+Dialogue: 0,0:15:07.56,0:15:09.00,Sub,,0,0,0,,It will not affect the sect's plans.
+Dialogue: 0,0:15:11.32,0:15:12.84,Sub,,0,0,0,,Who do you think you are ?
+Dialogue: 0,0:15:14.72,0:15:16.40,Sub,,0,0,0,,You think we can talk this out ?
+Dialogue: 0,0:15:25.72,0:15:27.72,Sub,,0,0,0,,You dare to attack in the Tiandao Sect's territory ?
+Dialogue: 0,0:15:27.76,0:15:29.64,Sub,,0,0,0,,Do you want to make an enemy of the Teng Family !?
+Dialogue: 0,0:15:29.86,0:15:30.60,Sub,,0,0,0,,Teng ?
+Dialogue: 0,0:15:30.24,0:15:33.10,Second,,0,0,0,,The Tiandao Sect is backed by the Teng Family !
+Dialogue: 0,0:15:33.36,0:15:34.76,Sub,,0,0,0,,I'm not afraid to tell you that
+Dialogue: 0,0:15:34.84,0:15:38.04,Sub,,0,0,0,,the mortals' land also belongs to the Teng Family !
+Dialogue: 0,0:15:39.00,0:15:39.72,Sub,,0,0,0,,Go !
+Dialogue: 0,0:15:49.48,0:15:50.24,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:15:50.24,0:15:52.00,Sub,,0,0,0,,It's the Fallen Souls Devouring Formation.
+Dialogue: 0,0:15:52.04,0:15:55.00,Sub,,0,0,0,,Any counsciousness trapped in it will be devoured.
+Dialogue: 0,0:15:55.49,0:15:57.08,Sub,,0,0,0,,Their Divine Sense will shatter
+Dialogue: 0,0:15:57.16,0:15:58.16,Sub,,0,0,0,,and they will fall to madness.
+Dialogue: 0,0:16:08.88,0:16:10.20,Sub,,0,0,0,,Xu Liguo...
+Dialogue: 0,0:16:10.88,0:16:12.40,Sub,,0,0,0,,I am here !
+Dialogue: 0,0:16:14.09,0:16:15.44,Sub,,0,0,0,,This is great !
+Dialogue: 0,0:16:15.48,0:16:16.80,Sub,,0,0,0,,I haven't eaten in a long time !
+Dialogue: 0,0:16:16.84,0:16:18.56,Sub,,0,0,0,,It will be delicious.
+Dialogue: 0,0:16:32.78,0:16:33.60,Sub,,0,0,0,,That's it ?
+Dialogue: 0,0:16:35.28,0:16:37.40,Sub,,0,0,0,,You couldn't even fill the gaps between my teeth.
+Dialogue: 0,0:16:39.52,0:16:40.40,Sub,,0,0,0,,How is it possible ?
+Dialogue: 0,0:16:42.40,0:16:43.08,Sub,,0,0,0,,You...
+Dialogue: 0,0:16:43.48,0:16:44.76,Sub,,0,0,0,,Who the hell are you !?
+Dialogue: 0,0:16:46.00,0:16:47.44,Sub,,0,0,0,,You mentionned the Teng Family...
+Dialogue: 0,0:16:51.52,0:16:53.60,Sub,,0,0,0,,I haven't even begun
+Dialogue: 0,0:16:54.62,0:16:57.04,Sub,,0,0,0,,yet you come to me yourself...
+Dialogue: 0,0:16:58.04,0:16:59.20,Sub,,0,0,0,,You can't kill me.
+Dialogue: 0,0:16:59.28,0:17:02.04,Sub,,0,0,0,,If you do, you will offend both the Tiandao Sect and the Teng Family.
+Dialogue: 0,0:17:02.04,0:17:02.84,Sub,,0,0,0,,Do you dare ?
+Dialogue: 0,0:17:16.16,0:17:16.96,Sub,,0,0,0,,You...
+Dialogue: 0,0:17:17.12,0:17:19.12,Sub,,0,0,0,,You're going to destroy the Tiandao Sect ?
+Dialogue: 0,0:17:19.16,0:17:20.20,Sub,,0,0,0,,I will not stop
+Dialogue: 0,0:17:20.72,0:17:22.72,Sub,,0,0,0,,at just the Tiandao Sect.
+Dialogue: 0,0:17:35.44,0:17:39.32,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:17:37.48,0:17:39.32,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:17:39.40,0:17:42.88,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:17:42.96,0:17:48.80,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:17:45.84,0:17:48.80,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:17:50.60,0:17:54.56,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:17:52.32,0:17:54.56,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:17:54.88,0:17:57.96,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:17:58.32,0:18:03.96,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:18:01.04,0:18:03.96,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:18:05.32,0:18:09.44,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:18:06.36,0:18:09.44,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:18:09.72,0:18:13.48,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:18:10.48,0:18:13.48,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:18:13.48,0:18:17.32,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:18:15.43,0:18:17.32,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:18:17.56,0:18:21.44,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:18:23.44,0:18:29.24,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:18:25.96,0:18:29.24,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:18:29.36,0:18:36.80,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:18:31.48,0:18:36.80,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:18:37.00,0:18:44.44,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:18:41.04,0:18:44.44,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:18:44.84,0:18:53.80,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:18:48.80,0:18:53.80,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:19:09.24,0:19:15.20,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:19:11.96,0:19:15.20,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:19:15.20,0:19:22.76,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:19:16.64,0:19:22.76,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:19:22.80,0:19:32.16,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:19:28.76,0:19:32.16,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:19:32.40,0:19:40.00,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:19:34.92,0:19:40.00,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

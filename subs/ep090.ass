@@ -1,0 +1,364 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 90_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:53.20,0:01:56.36,Card,,0,0,0,,{\pos(1678,428)\fad(300,300)}Giant Demon Clan
+Dialogue: 0,0:02:00.88,0:02:02.95,Sub,,0,0,0,,Ceng Niu killed Li Yuanfeng
+Dialogue: 0,0:02:03.36,0:02:05.47,Sub,,0,0,0,,and he sealed Xue Yue...
+Dialogue: 0,0:02:07.32,0:02:09.84,Card,,0,0,0,,{\pos(425,566)\fad(300,000)}Tian Mu\NHead Elder of the Giant Demon Clan\NPeak Late stage Soul Formation
+Dialogue: 0,0:02:07.68,0:02:11.75,Sub,,0,0,0,,I fear our Giant Demon Clan won’t escape this calamity.
+Dialogue: 0,0:02:12.36,0:02:15.55,Sub,,0,0,0,,The Ancestor hasn’t fully possessed his new body
+Dialogue: 0,0:02:15.80,0:02:17.75,Sub,,0,0,0,,and he hasn’t yet recovered.
+Dialogue: 0,0:02:16.16,0:02:19.20,Card,,0,0,0,,{\pos(384,540)\fad(300,000)}Second Elder of the Giant Demon Clan\NPeak Late stage Soul Formation
+Dialogue: 0,0:02:18.28,0:02:21.47,Sub,,0,0,0,,Fortunately, his seclusion spot is very well hidden.
+Dialogue: 0,0:02:21.92,0:02:25.35,Sub,,0,0,0,,Ceng Niu will never find it.
+Dialogue: 0,0:02:25.52,0:02:27.92,Card,,0,0,0,,{\pos(1572,536)\fad(300,000)}Third Elder of the Giant Demon Clan\NPeak Late stage Soul Formation
+Dialogue: 0,0:02:25.72,0:02:27.92,Sub,,0,0,0,,Whether it's Ceng Niu or Ceng Ma,
+Dialogue: 0,0:02:25.72,0:02:27.92,Second,,0,0,0,,Note: "Niu" mean "cow" and "Ma" means "horse"
+Dialogue: 0,0:02:28.08,0:02:29.87,Sub,,0,0,0,,since he threatens the Ancestor
+Dialogue: 0,0:02:30.08,0:02:34.07,Sub,,0,0,0,,our Giant Demon Clan will ensure he never finds him !
+Dialogue: 0,0:02:34.56,0:02:36.19,Sub,,0,0,0,,If Ceng Niu really comes,
+Dialogue: 0,0:02:36.80,0:02:38.51,Sub,,0,0,0,,that means he is confident…
+Dialogue: 0,0:02:39.48,0:02:41.07,Sub,,0,0,0,,Although the Ancestor was wrong,
+Dialogue: 0,0:02:41.32,0:02:43.67,Sub,,0,0,0,,he is the hope of the Giant Demon Clan.
+Dialogue: 0,0:02:44.60,0:02:45.67,Sub,,0,0,0,,But Ceng Niu…
+Dialogue: 0,0:02:46.28,0:02:48.47,Sub,,0,0,0,,considers me a real friend.
+Dialogue: 0,0:03:00.12,0:03:01.07,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:03:01.68,0:03:03.55,Sub,,0,0,0,,this should work.
+Dialogue: 0,0:03:10.88,0:03:12.52,Sub,,0,0,0,,Giant Demon Clan's Ancestor,
+Dialogue: 0,0:03:12.52,0:03:13.75,Sub,,0,0,0,,come out now !
+Dialogue: 0,0:03:20.20,0:03:21.79,Sub,,0,0,0,,Who are you !?
+Dialogue: 0,0:03:22.92,0:03:24.03,Sub,,0,0,0,,Ceng Niu.
+Dialogue: 0,0:03:25.20,0:03:27.19,Sub,,0,0,0,,Ceng Niu, he's the one who won against Red Butterfly !
+Dialogue: 0,0:03:27.20,0:03:29.16,Sub,,0,0,0,,The number one cultivator under Soul Transformation !
+Dialogue: 0,0:03:30.16,0:03:31.75,Sub,,0,0,0,,Fellow cultivator Ceng Niu,
+Dialogue: 0,0:03:32.08,0:03:34.39,Sub,,0,0,0,,why are you looking for the Ancestor ?
+Dialogue: 0,0:03:34.80,0:03:35.91,Sub,,0,0,0,,To kill him.
+Dialogue: 0,0:03:38.32,0:03:40.67,Sub,,0,0,0,,The Giant Demon Clan is linked by blood,
+Dialogue: 0,0:03:41.12,0:03:43.59,Sub,,0,0,0,,we’re not like Xue Yue !
+Dialogue: 0,0:03:44.08,0:03:45.99,Sub,,0,0,0,,Since you disrespect the Ancestor,
+Dialogue: 0,0:03:46.20,0:03:48.95,Sub,,0,0,0,,don’t blame us for being ruthless !
+Dialogue: 0,0:03:48.96,0:03:51.27,Sub,,0,0,0,,I use my status as the Elder of the Giant Demon Clan
+Dialogue: 0,0:03:51.28,0:03:52.43,Sub,,0,0,0,,to order all clan members
+Dialogue: 0,0:03:52.44,0:03:54.51,Sub,,0,0,0,,to use everything they have
+Dialogue: 0,0:03:54.52,0:03:56.23,Sub,,0,0,0,,to kill Ceng Niu !
+Dialogue: 0,0:03:56.24,0:03:56.80,Sub,,0,0,0,,Kill him !
+Dialogue: 0,0:03:56.88,0:03:58.00,Sub,,0,0,0,,Kill him !
+Dialogue: 0,0:03:58.12,0:03:59.12,Sub,,0,0,0,,Kill him !
+Dialogue: 0,0:04:03.68,0:04:04.48,Sub,,0,0,0,,Seal !
+Dialogue: 0,0:04:14.36,0:04:15.07,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:04:20.08,0:04:20.88,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:04:20.88,0:04:22.07,Sub,,0,0,0,,please spare them !
+Dialogue: 0,0:04:26.92,0:04:27.71,Sub,,0,0,0,,Chi Hu…
+Dialogue: 0,0:04:34.80,0:04:35.63,Sub,,0,0,0,,Brother Ceng…
+Dialogue: 0,0:04:36.04,0:04:37.95,Sub,,0,0,0,,Do you consider me, Chi Hu, your friend ?
+Dialogue: 0,0:04:38.48,0:04:40.07,Sub,,0,0,0,,I don't have many friends in my life,
+Dialogue: 0,0:04:40.68,0:04:41.99,Sub,,0,0,0,,but you, Chi Hu, are one.
+Dialogue: 0,0:04:42.68,0:04:44.64,Sub,,0,0,0,,The Giant Demon Clan wronged you first
+Dialogue: 0,0:04:44.68,0:04:47.07,Sub,,0,0,0,,so Brother Ceng’s actions are justified.
+Dialogue: 0,0:04:47.68,0:04:48.47,Sub,,0,0,0,,But I…
+Dialogue: 0,0:04:49.28,0:04:51.07,Sub,,0,0,0,,am the Giant Demon Clan’s successor.
+Dialogue: 0,0:04:51.88,0:04:53.95,Sub,,0,0,0,,If Brother Ceng really sees me as a friend
+Dialogue: 0,0:04:54.28,0:04:56.07,Sub,,0,0,0,,then I beg you to show mercy
+Dialogue: 0,0:04:56.20,0:04:57.67,Sub,,0,0,0,,and to leave the clan.
+Dialogue: 0,0:04:58.00,0:05:00.59,Sub,,0,0,0,,Do you know why I haven't killed anyone yet ?
+Dialogue: 0,0:05:01.60,0:05:02.39,Sub,,0,0,0,,Chi Hu…
+Dialogue: 0,0:05:02.92,0:05:04.11,Sub,,0,0,0,,If it weren't for you,
+Dialogue: 0,0:05:04.52,0:05:06.08,Sub,,0,0,0,,I wouldn’t have spared them.
+Dialogue: 0,0:05:06.12,0:05:06.71,Sub,,0,0,0,,Brother Ceng…
+Dialogue: 0,0:05:06.92,0:05:07.23,Sub,,0,0,0,,I…
+Dialogue: 0,0:05:07.24,0:05:09.07,Sub,,0,0,0,,Why are you wasting words on him !?
+Dialogue: 0,0:05:18.08,0:05:20.79,Sub,,0,0,0,,Just tell me where the Giant Demon Clan's Ancestor is
+Dialogue: 0,0:05:21.08,0:05:22.07,Sub,,0,0,0,,and I’ll leave.
+Dialogue: 0,0:05:22.48,0:05:23.35,Sub,,0,0,0,,So bold !
+Dialogue: 0,0:05:23.48,0:05:24.47,Sub,,0,0,0,,Arrogant !
+Dialogue: 0,0:05:24.76,0:05:26.91,Sub,,0,0,0,,If you want to find the Ancestor,
+Dialogue: 0,0:05:27.28,0:05:29.11,Sub,,0,0,0,,you'll have to get past me first !
+Dialogue: 0,0:05:29.12,0:05:29.71,Sub,,0,0,0,,Elder,
+Dialogue: 0,0:05:29.72,0:05:30.51,Sub,,0,0,0,,don’t do it !
+Dialogue: 0,0:05:41.88,0:05:42.51,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:05:42.80,0:05:44.31,Sub,,0,0,0,,the Giant Demon Clan isn’t your enemy.
+Dialogue: 0,0:05:44.52,0:05:46.27,Sub,,0,0,0,,Where is the Giant Demon Clan Ancestor ?
+Dialogue: 0,0:05:46.64,0:05:48.11,Sub,,0,0,0,,I might spare him
+Dialogue: 0,0:05:48.80,0:05:49.75,Sub,,0,0,0,,if he gives back
+Dialogue: 0,0:05:50.28,0:05:51.87,Sub,,0,0,0,,my celestial sword.
+Dialogue: 0,0:05:53.52,0:05:55.67,Sub,,0,0,0,,No one knows where the Ancestor is hidden.
+Dialogue: 0,0:05:56.00,0:05:58.07,Sub,,0,0,0,,Only by activating the Heaven Reaching Formation
+Dialogue: 0,0:05:58.28,0:05:59.67,Sub,,0,0,0,,can we contact him.
+Dialogue: 0,0:06:00.12,0:06:00.71,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:06:01.32,0:06:02.47,Sub,,0,0,0,,if he returns your sword
+Dialogue: 0,0:06:03.00,0:06:04.43,Sub,,0,0,0,,will you really leave ?
+Dialogue: 0,0:06:07.72,0:06:08.87,Sub,,0,0,0,,Three Elders,
+Dialogue: 0,0:06:09.20,0:06:10.99,Sub,,0,0,0,,by my authority as Junior Clan Leader,
+Dialogue: 0,0:06:11.36,0:06:13.55,Sub,,0,0,0,,I order you to open the Heaven Reaching Formation !
+Dialogue: 0,0:06:20.08,0:06:22.27,Sub,,0,0,0,,Giant Demon Clan's Heaven Reaching Formation !
+Dialogue: 0,0:06:22.87,0:06:24.83,Sub,,0,0,0,,{\pos(387,754)}Southern Giant Demon Gate
+Dialogue: 0,0:06:22.88,0:06:24.83,Sub,,0,0,0,,{\pos(960,553)}Western Giant Demon Gate
+Dialogue: 0,0:06:22.88,0:06:24.83,Sub,,0,0,0,,{\pos(1562,754)}Northern Giant Demon Gate
+Dialogue: 0,0:06:25.00,0:06:25.95,Sub,,0,0,0,,Activate !
+Dialogue: 0,0:06:37.64,0:06:39.83,Sub,,0,0,0,,Ceng Niu always exacts his vengeance.
+Dialogue: 0,0:06:41.00,0:06:42.51,Sub,,0,0,0,,Since the Ancestor wronged him,
+Dialogue: 0,0:06:42.96,0:06:44.91,Sub,,0,0,0,,he won’t spare the Ancestor’s life.
+Dialogue: 0,0:06:45.88,0:06:47.59,Sub,,0,0,0,,He asked for the sword
+Dialogue: 0,0:06:48.08,0:06:49.47,Sub,,0,0,0,,as a pretext.
+Dialogue: 0,0:06:50.68,0:06:52.15,Sub,,0,0,0,,Eastern Giant Demon Gate,
+Dialogue: 0,0:06:53.08,0:06:53.87,Sub,,0,0,0,,activate !
+Dialogue: 0,0:07:10.68,0:07:11.43,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:07:11.88,0:07:13.47,Sub,,0,0,0,,I'm sorry for betraying you.
+Dialogue: 0,0:07:13.96,0:07:16.15,Sub,,0,0,0,,But the Ancestor is our clan’s hope
+Dialogue: 0,0:07:16.88,0:07:18.59,Sub,,0,0,0,,As the successor,
+Dialogue: 0,0:07:19.00,0:07:20.75,Sub,,0,0,0,,I must bear this responsibility !
+Dialogue: 0,0:07:21.48,0:07:22.71,Sub,,0,0,0,,The Ancestor's old body
+Dialogue: 0,0:07:23.32,0:07:24.87,Sub,,0,0,0,,could only take 8 blows
+Dialogue: 0,0:07:25.40,0:07:27.39,Sub,,0,0,0,,from the Heaven Reaching Formation.
+Dialogue: 0,0:07:27.76,0:07:28.51,Sub,,0,0,0,,You…
+Dialogue: 0,0:07:29.48,0:07:30.95,Sub,,0,0,0,,can’t possibly survive this.
+Dialogue: 0,0:07:30.96,0:07:31.87,Sub,,0,0,0,,Chi Hu,
+Dialogue: 0,0:07:32.88,0:07:34.32,Sub,,0,0,0,,you owe me for what happened
+Dialogue: 0,0:07:34.80,0:07:36.19,Sub,,0,0,0,,in the Celestial Realm.
+Dialogue: 0,0:07:36.92,0:07:38.31,Sub,,0,0,0,,I owe you
+Dialogue: 0,0:07:38.92,0:07:40.72,Sub,,0,0,0,,for your help in Xue Yue.
+Dialogue: 0,0:07:41.20,0:07:42.75,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:07:43.24,0:07:44.39,Sub,,0,0,0,,we’re even.
+Dialogue: 0,0:07:44.84,0:07:45.83,Sub,,0,0,0,,Even...
+Dialogue: 0,0:07:47.48,0:07:48.48,Sub,,0,0,0,,that's correct...
+Dialogue: 0,0:07:49.28,0:07:50.51,Sub,,0,0,0,,The two of us
+Dialogue: 0,0:07:51.20,0:07:52.67,Sub,,0,0,0,,are even !
+Dialogue: 0,0:07:53.76,0:07:54.76,Sub,,0,0,0,,Chi Hu,
+Dialogue: 0,0:07:54.76,0:07:56.95,Sub,,0,0,0,,do you really think this Heaven Reaching Formation
+Dialogue: 0,0:07:57.56,0:07:59.43,Sub,,0,0,0,,can kill me ?
+Dialogue: 0,0:08:01.56,0:08:03.12,Sub,,0,0,0,,That's the first blow.
+Dialogue: 0,0:08:03.56,0:08:05.27,Sub,,0,0,0,,Can an outsider really withstand
+Dialogue: 0,0:08:05.88,0:08:07.75,Sub,,0,0,0,,the formation with his body ?!
+Dialogue: 0,0:08:08.56,0:08:09.71,Sub,,0,0,0,,Second blow !
+Dialogue: 0,0:08:14.64,0:08:15.39,Sub,,0,0,0,,What ?!
+Dialogue: 0,0:08:15.60,0:08:16.43,Sub,,0,0,0,,How can he...
+Dialogue: 0,0:08:16.64,0:08:17.47,Sub,,0,0,0,,Impossible !
+Dialogue: 0,0:08:32.12,0:08:33.56,Sub,,0,0,0,,This is impossible !
+Dialogue: 0,0:08:33.76,0:08:34.91,Sub,,0,0,0,,Even the Ancestor
+Dialogue: 0,0:08:34.92,0:08:36.91,Sub,,0,0,0,,could only endure 8 blows.
+Dialogue: 0,0:08:37.32,0:08:39.87,Sub,,0,0,0,,He can’t possibly survive the 12th !
+Dialogue: 0,0:08:40.88,0:08:42.27,Sub,,0,0,0,,This is the final blow.
+Dialogue: 0,0:08:43.12,0:08:43.87,Sub,,0,0,0,,Chi Hu,
+Dialogue: 0,0:08:44.48,0:08:46.71,Sub,,0,0,0,,watch closely !
+Dialogue: 0,0:08:59.84,0:09:01.51,Sub,,0,0,0,,Giant Demon Clan's Heaven Reaching Formation,
+Dialogue: 0,0:09:01.56,0:09:02.55,Sub,,0,0,0,,fall !
+Dialogue: 0,0:09:03.20,0:09:04.55,Sub,,0,0,0,,Fall !
+Dialogue: 0,0:09:28.48,0:09:30.67,Sub,,0,0,0,,So this is your true strength…
+Dialogue: 0,0:09:31.48,0:09:32.64,Sub,,0,0,0,,It looks like
+Dialogue: 0,0:09:32.64,0:09:34.71,Sub,,0,0,0,,even Master underestimated you.
+Dialogue: 0,0:09:35.12,0:09:36.83,Sub,,0,0,0,,Since none of you will speak,
+Dialogue: 0,0:09:37.64,0:09:41.27,Sub,,0,0,0,,then I will use your formation to send my voice
+Dialogue: 0,0:09:41.48,0:09:44.32,Sub,,0,0,0,,far enough so your Ancestor will hear it.
+Dialogue: 0,0:09:44.36,0:09:46.11,Sub,,0,0,0,,Giant Demon Clan Ancestor,
+Dialogue: 0,0:09:46.28,0:09:48.15,Sub,,0,0,0,,come for your death !
+Dialogue: 0,0:09:49.08,0:09:50.67,Sub,,0,0,0,,Giant Demon Clan Ancestor,
+Dialogue: 0,0:09:51.24,0:09:52.99,Sub,,0,0,0,,come for your death !
+Dialogue: 0,0:09:54.88,0:09:55.87,Sub,,0,0,0,,The fiend !
+Dialogue: 0,0:09:56.92,0:09:59.35,Sub,,0,0,0,,You really used the vibration of the formation collapse
+Dialogue: 0,0:09:59.68,0:10:02.47,Sub,,0,0,0,,to send your threat to me ?!
+Dialogue: 0,0:10:02.68,0:10:04.47,Sub,,0,0,0,,How arrogant !
+Dialogue: 0,0:10:05.68,0:10:08.07,Sub,,0,0,0,,Once I have finished my possession,
+Dialogue: 0,0:10:08.08,0:10:09.91,Sub,,0,0,0,,I'll come to kill you immediately !
+Dialogue: 0,0:10:10.68,0:10:12.15,Sub,,0,0,0,,12 blows...
+Dialogue: 0,0:10:12.88,0:10:14.47,Sub,,0,0,0,,This is unheard of
+Dialogue: 0,0:10:15.28,0:10:16.87,Sub,,0,0,0,,in the clan's history.
+Dialogue: 0,0:10:16.96,0:10:18.52,Sub,,0,0,0,,Giant Demon Clan,
+Dialogue: 0,0:10:18.64,0:10:19.31,Sub,,0,0,0,,seal !
+Dialogue: 0,0:10:20.80,0:10:22.31,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:10:22.56,0:10:25.52,Sub,,0,0,0,,there will be no Nascent Soul or above cultivators !
+Dialogue: 0,0:10:26.60,0:10:27.83,Sub,,0,0,0,,Without my approval,
+Dialogue: 0,0:10:28.80,0:10:30.79,Sub,,0,0,0,,you will not get past Core Formation.
+Dialogue: 0,0:10:32.32,0:10:35.03,Sub,,0,0,0,,This is your punishment.
+Dialogue: 0,0:10:37.08,0:10:37.87,Sub,,0,0,0,,Master,
+Dialogue: 0,0:10:37.96,0:10:39.07,Sub,,0,0,0,,let me out !
+Dialogue: 0,0:10:39.08,0:10:40.27,Sub,,0,0,0,,I’ll fight him to the death !
+Dialogue: 0,0:10:41.88,0:10:44.87,Sub,,0,0,0,,What did Wang Lin ever do to you
+Dialogue: 0,0:10:44.96,0:10:46.87,Sub,,0,0,0,,to make you hate him so much ?
+Dialogue: 0,0:10:47.56,0:10:49.71,Sub,,0,0,0,,He treated me worse than dirt !
+Dialogue: 0,0:10:49.72,0:10:51.27,Sub,,0,0,0,,He's nothing like you, Master !
+Dialogue: 0,0:10:52.28,0:10:53.99,Sub,,0,0,0,,Once we kill Wang Lin,
+Dialogue: 0,0:10:54.28,0:10:55.55,Sub,,0,0,0,,will you let me
+Dialogue: 0,0:10:55.76,0:10:59.47,Sub,,0,0,0,,see that little sister in your artifact.
+Dialogue: 0,0:10:59.48,0:11:00.67,Sub,,0,0,0,,Not yet,
+Dialogue: 0,0:11:00.84,0:11:02.91,Sub,,0,0,0,,once I fully recover,
+Dialogue: 0,0:11:03.36,0:11:05.95,Sub,,0,0,0,,I’ll let you meet her.
+Dialogue: 0,0:11:27.20,0:11:28.35,Sub,,0,0,0,,Come out !
+Dialogue: 0,0:11:30.88,0:11:32.84,Sub,,0,0,0,,You overestimate yourself.
+Dialogue: 0,0:11:32.88,0:11:35.39,Sub,,0,0,0,,I planned to let you live a few more days
+Dialogue: 0,0:11:35.56,0:11:37.87,Sub,,0,0,0,,but since you’re eager to die,
+Dialogue: 0,0:11:37.92,0:11:39.91,Sub,,0,0,0,,I'll deal with you right now !
+Dialogue: 0,0:11:50.04,0:11:52.68,Sub,,0,0,0,,His possession isn't complete
+Dialogue: 0,0:11:52.76,0:11:54.88,Sub,,0,0,0,,yet he’s already this powerful ?
+Dialogue: 0,0:11:55.72,0:11:57.43,Sub,,0,0,0,,If he fully recovers,
+Dialogue: 0,0:11:58.28,0:12:00.87,Sub,,0,0,0,,his body might rival the strength
+Dialogue: 0,0:12:01.84,0:12:04.08,Sub,,0,0,0,,a 3-star Ancient God !
+Dialogue: 0,0:12:05.48,0:12:08.91,Sub,,0,0,0,,How can his body be stronger than mine ?!
+Dialogue: 0,0:12:12.88,0:12:14.91,Sub,,0,0,0,,I wanted to avoid
+Dialogue: 0,0:12:15.20,0:12:17.88,Sub,,0,0,0,,using celestial spiritual energy during the possession.
+Dialogue: 0,0:12:17.88,0:12:19.47,Sub,,0,0,0,,But it looks like
+Dialogue: 0,0:12:19.68,0:12:21.67,Sub,,0,0,0,,I have no choice !
+Dialogue: 0,0:12:36.48,0:12:38.07,Sub,,0,0,0,,Slash him to death !
+Dialogue: 0,0:12:38.56,0:12:39.95,Sub,,0,0,0,,Got it !
+Dialogue: 0,0:12:40.28,0:12:41.11,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:12:41.56,0:12:43.59,Sub,,0,0,0,,your Grandpa Xu has come !
+Dialogue: 0,0:12:43.72,0:12:47.67,Sub,,0,0,0,,Watch as I kill you with your own sword !
+Dialogue: 0,0:12:57.48,0:13:00.47,Sub,,0,0,0,,I, Xu Liguo, have always been loyal.
+Dialogue: 0,0:13:01.00,0:13:03.15,Sub,,0,0,0,,Did you think you could control me so easily ?
+Dialogue: 0,0:13:03.76,0:13:05.27,Sub,,0,0,0,,How did you do it ?!
+Dialogue: 0,0:13:05.48,0:13:07.71,Sub,,0,0,0,,I had planted a restriction on you !
+Dialogue: 0,0:13:07.96,0:13:09.35,Sub,,0,0,0,,That's funny because,
+Dialogue: 0,0:13:09.80,0:13:12.31,Sub,,0,0,0,,you’re no match for my master in restrictions.
+Dialogue: 0,0:13:12.72,0:13:13.87,Sub,,0,0,0,,Xu Liguo...
+Dialogue: 0,0:13:25.16,0:13:25.71,Sub,,0,0,0,,Master,
+Dialogue: 0,0:13:25.96,0:13:27.27,Sub,,0,0,0,,I have done well this time,
+Dialogue: 0,0:13:27.60,0:13:29.35,Sub,,0,0,0,,be sure to reward me !
+Dialogue: 0,0:13:31.00,0:13:33.27,Sub,,0,0,0,,The fiend is still the fiend...
+Dialogue: 0,0:13:33.56,0:13:34.47,Sub,,0,0,0,,Alright.
+Dialogue: 0,0:13:35.24,0:13:36.03,Sub,,0,0,0,,Really !?
+Dialogue: 0,0:13:38.84,0:13:41.68,Card,,0,0,0,,{\pos(1695,468)}Mountains East of the\NGiant Demon Clan
+Dialogue: 0,0:13:40.92,0:13:41.67,Sub,,0,0,0,,Bastard,
+Dialogue: 0,0:13:41.92,0:13:43.19,Sub,,0,0,0,,where are you running to ?!
+Dialogue: 0,0:13:44.68,0:13:46.03,Sub,,0,0,0,,Blackflame Beast,
+Dialogue: 0,0:13:46.28,0:13:47.07,Sub,,0,0,0,,appear !
+Dialogue: 0,0:14:12.36,0:14:15.12,Sub,,0,0,0,,Since he has a Soul Transformation cultivation,
+Dialogue: 0,0:14:15.20,0:14:17.07,Sub,,0,0,0,,I don't think he played all his cards yet.
+Dialogue: 0,0:14:22.52,0:14:25.27,Sub,,0,0,0,,I, the 67th-generation Giant Demon Clan's Ancestor,
+Dialogue: 0,0:14:25.28,0:14:27.03,Sub,,0,0,0,,offer my blood
+Dialogue: 0,0:14:27.04,0:14:29.55,Sub,,0,0,0,,to summon the ancestral artifact !
+Dialogue: 0,0:14:43.76,0:14:48.63,Sub,,0,0,0,,Our Ancestor once split heaven and earth with this axe.
+Dialogue: 0,0:14:48.80,0:14:52.35,Sub,,0,0,0,,He killed two 9-leaf Warriors of the Forsaken Immortal Clan !
+Dialogue: 0,0:14:52.84,0:14:54.95,Sub,,0,0,0,,Being killed by it
+Dialogue: 0,0:14:55.16,0:14:56.95,Sub,,0,0,0,,is an honor.
+Dialogue: 0,0:14:57.16,0:15:00.39,Sub,,0,0,0,,Now go to hell !
+Dialogue: 0,0:15:05.36,0:15:07.87,Sub,,0,0,0,,I can't withstand this thing !
+Dialogue: 0,0:15:18.00,0:15:19.80,Sub,,0,0,0,,A perfect opportunity !
+Dialogue: 0,0:15:23.72,0:15:24.95,Sub,,0,0,0,,Lady Liu Mei,
+Dialogue: 0,0:15:25.52,0:15:26.75,Sub,,0,0,0,,your opponent
+Dialogue: 0,0:15:27.12,0:15:28.39,Sub,,0,0,0,,is me.
+Dialogue: 0,0:15:29.88,0:15:33.11,Sub,,0,0,0,,So what if you're a candidate of Uncle Yunque ?
+Dialogue: 0,0:15:34.00,0:15:36.63,Sub,,0,0,0,,With your mere Middle stage Soul Formation cultivation,
+Dialogue: 0,0:15:37.40,0:15:39.44,Sub,,0,0,0,,you can't stop me.
+Dialogue: 0,0:15:52.00,0:15:53.31,Sub,,0,0,0,,In that case,
+Dialogue: 0,0:15:53.88,0:15:55.23,Sub,,0,0,0,,please enlighten me.
+Dialogue: 0,0:15:57.48,0:15:58.43,Sub,,0,0,0,,Come out !
+Dialogue: 0,0:15:58.84,0:16:00.47,Sub,,0,0,0,,Weren't you going to kill me !?
+Dialogue: 0,0:16:06.68,0:16:07.87,Sub,,0,0,0,,Sub Soul Flag,
+Dialogue: 0,0:16:08.20,0:16:08.91,Sub,,0,0,0,,come !
+Dialogue: 0,0:16:22.12,0:16:22.75,Sub,,0,0,0,,This...
+Dialogue: 0,0:16:23.40,0:16:25.19,Sub,,0,0,0,,this is the Soul Refining Sect's...
+Dialogue: 0,0:16:39.28,0:16:40.91,Sub,,0,0,0,,The Billion-Soul Flag ?
+Dialogue: 0,0:16:41.56,0:16:43.52,Sub,,0,0,0,,Du Tian actually gave it to Wang Lin !?
+Dialogue: 0,0:16:44.32,0:16:45.51,Sub,,0,0,0,,Lady Liu Mei,
+Dialogue: 0,0:16:46.12,0:16:47.47,Sub,,0,0,0,,you're no match
+Dialogue: 0,0:16:47.96,0:16:49.55,Sub,,0,0,0,,for this Soul Flag.
+Dialogue: 0,0:17:23.32,0:17:24.36,Sub,,0,0,0,,Devour !
+Dialogue: 0,0:17:38.08,0:17:42.19,Sub,,0,0,0,,The body I was painstakingly taking possession of was destroyed
+Dialogue: 0,0:17:42.48,0:17:44.92,Sub,,0,0,0,,and my Origin Soul was severely injured again...
+Dialogue: 0,0:17:44.96,0:17:46.55,Sub,,0,0,0,,Wang Lin...
+Dialogue: 0,0:17:47.64,0:17:50.79,Sub,,0,0,0,,Bloodline power !
+Dialogue: 0,0:17:52.28,0:17:57.27,Sub,,0,0,0,,Even if my Origin Soul collapses, I'll drag you down with me !
+Dialogue: 0,0:17:57.92,0:17:59.55,Sub,,0,0,0,,I'll teleport you in the void
+Dialogue: 0,0:17:59.56,0:18:00.87,Sub,,0,0,0,,with no way back
+Dialogue: 0,0:18:00.92,0:18:02.39,Sub,,0,0,0,,and nowhere to go.
+Dialogue: 0,0:18:03.28,0:18:05.15,Sub,,0,0,0,,You will live in constant fear
+Dialogue: 0,0:18:05.36,0:18:07.75,Sub,,0,0,0,,until you die miserably !
+Dialogue: 0,0:18:09.04,0:18:10.12,Sub,,0,0,0,,Formation, activate !
+Dialogue: 0,0:18:11.08,0:18:12.55,Sub,,0,0,0,,This jade slip
+Dialogue: 0,0:18:13.00,0:18:17.15,Sub,,0,0,0,,details how to counter the Giant Demon Clan's teleportation spell.
+Dialogue: 0,0:18:21.00,0:18:21.91,Sub,,0,0,0,,How ?!
+Dialogue: 0,0:18:22.56,0:18:24.95,Sub,,0,0,0,,I can't stop your bloodline power,
+Dialogue: 0,0:18:25.28,0:18:27.99,Sub,,0,0,0,,but if I can find my way back,
+Dialogue: 0,0:18:28.48,0:18:29.55,Sub,,0,0,0,,then it's useless.
+Dialogue: 0,0:18:29.56,0:18:31.27,Sub,,0,0,0,,An Orientation Formation...
+Dialogue: 0,0:18:31.64,0:18:32.35,Sub,,0,0,0,,You...
+Dialogue: 0,0:18:33.28,0:18:34.79,Sub,,0,0,0,,are already dead.
+Dialogue: 0,0:18:44.32,0:18:45.39,Sub,,0,0,0,,This is impossible...
+Dialogue: 0,0:18:48.88,0:18:51.59,Sub,,0,0,0,,This is impossible !!!
+Dialogue: 0,0:18:59.08,0:19:01.19,Sub,,0,0,0,,Zhuque Zi will likely soon learn
+Dialogue: 0,0:19:01.40,0:19:03.87,Sub,,0,0,0,,of the deaths of the Giant Demon Clan's Ancestor and Li Yuanfeng.
+Dialogue: 0,0:19:05.36,0:19:07.39,Sub,,0,0,0,,But there are more pressing matters now.
+Dialogue: 0,0:19:08.56,0:19:10.08,Sub,,0,0,0,,It's nearly been
+Dialogue: 0,0:19:10.32,0:19:11.79,Sub,,0,0,0,,18 years.
+Dialogue: 0,0:19:14.40,0:19:15.92,Sub,,0,0,0,,Law of the heavens...
+Dialogue: 0,0:19:15.96,0:19:16.91,Sub,,0,0,0,,Once again,
+Dialogue: 0,0:19:17.36,0:19:21.59,Sub,,0,0,0,,I will take Wan'er back from you !
+Dialogue: 0,0:19:42.29,0:19:45.59,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:19:45.59,0:19:47.31,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:19:47.35,0:19:49.25,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:19:50.13,0:19:56.73,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:19:52.97,0:19:56.73,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:19:56.73,0:20:04.33,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:19:59.97,0:20:04.33,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:20:04.77,0:20:11.89,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:20:07.53,0:20:11.89,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:20:12.21,0:20:15.21,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:20:13.49,0:20:15.21,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:20:15.50,0:20:18.93,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:20:17.33,0:20:18.93,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:20:19.49,0:20:23.01,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:20:23.01,0:20:26.33,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:20:27.09,0:20:30.29,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:20:30.65,0:20:34.49,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:20:32.49,0:20:34.49,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:20:34.65,0:20:39.45,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:20:36.21,0:20:39.45,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:20:39.46,0:20:42.17,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:20:42.21,0:20:45.49,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:20:45.49,0:20:50.13,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:20:50.13,0:20:53.53,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:20:53.57,0:20:58.21,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:20:58.66,0:21:03.89,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:21:04.01,0:21:07.81,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:21:07.81,0:21:12.45,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:21:09.49,0:21:12.45,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:21:12.61,0:21:15.53,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:21:15.53,0:21:20.41,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:21:20.42,0:21:23.69,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:21:23.85,0:21:28.41,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:21:28.41,0:21:32.37,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:21:32.37,0:21:35.17,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:21:35.25,0:21:39.05,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:21:39.13,0:21:42.41,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:21:42.69,0:21:47.65,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

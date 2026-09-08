@@ -1,0 +1,332 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:03.12,0:02:04.24,Sub,,0,0,0,,This purple lightning
+Dialogue: 0,0:02:04.96,0:02:07.28,Sub,,0,0,0,,is the same as the one on Restriction Mountain.
+Dialogue: 0,0:02:18.08,0:02:19.72,Sub,,0,0,0,,Is the memory inheritance
+Dialogue: 0,0:02:20.04,0:02:21.16,Sub,,0,0,0,,right over there ?
+Dialogue: 0,0:02:21.76,0:02:23.76,Sub,,0,0,0,,The Ancient God's memory inheritance
+Dialogue: 0,0:02:24.00,0:02:25.80,Sub,,0,0,0,,is the most precious treasure for everyone
+Dialogue: 0,0:02:26.28,0:02:28.16,Sub,,0,0,0,,but is useless to me...
+Dialogue: 0,0:02:28.88,0:02:31.72,Sub,,0,0,0,,As an inner demon separated from Tu Si,
+Dialogue: 0,0:02:31.76,0:02:33.04,Sub,,0,0,0,,I already know
+Dialogue: 0,0:02:33.04,0:02:34.40,Sub,,0,0,0,,what he knew.
+Dialogue: 0,0:02:34.80,0:02:37.80,Sub,,0,0,0,,If it weren't for the rules of the inheritances
+Dialogue: 0,0:02:38.64,0:02:40.80,Sub,,0,0,0,,that require both inheritances to be obtained,
+Dialogue: 0,0:02:40.96,0:02:43.52,Sub,,0,0,0,,I wouldn't have gone through such trouble.
+Dialogue: 0,0:02:58.84,0:03:00.08,Sub,,0,0,0,,What is that monster ?
+Dialogue: 0,0:03:00.24,0:03:02.28,Sub,,0,0,0,,The guardian beast of the Land of the Ancient God ?
+Dialogue: 0,0:03:01.64,0:03:03.68,Second,,0,0,0,,I am here by order
+Dialogue: 0,0:03:04.40,0:03:06.00,Sub,,0,0,0,,of the Ancient God
+Dialogue: 0,0:03:06.04,0:03:08.56,Sub,,0,0,0,,to guard the memory inheritance.
+Dialogue: 0,0:03:09.08,0:03:11.08,Sub,,0,0,0,,Without the Master's order,
+Dialogue: 0,0:03:11.56,0:03:14.56,Sub,,0,0,0,,no one may enter.
+Dialogue: 0,0:03:16.44,0:03:17.40,Sub,,0,0,0,,You damn beast,
+Dialogue: 0,0:03:17.72,0:03:19.80,Sub,,0,0,0,,your master is already dead.
+Dialogue: 0,0:03:20.04,0:03:20.88,Sub,,0,0,0,,Now,
+Dialogue: 0,0:03:21.52,0:03:23.28,Sub,,0,0,0,,I'm the Ancient God.
+Dialogue: 0,0:03:23.40,0:03:25.64,Sub,,0,0,0,,A pipe dream !
+Dialogue: 0,0:03:26.44,0:03:29.04,Sub,,0,0,0,,You are just an inner demon.
+Dialogue: 0,0:03:34.92,0:03:36.32,Sub,,0,0,0,,Matters of gods
+Dialogue: 0,0:03:36.60,0:03:39.96,Sub,,0,0,0,,don't need a beast's comments.
+Dialogue: 0,0:03:40.32,0:03:42.40,Sub,,0,0,0,,Blood Sea Warriors, heed my order.
+Dialogue: 0,0:03:43.32,0:03:45.16,Sub,,0,0,0,,Kill this beast.
+Dialogue: 0,0:03:45.80,0:03:46.84,Sub,,0,0,0,,Let's fight !
+Dialogue: 0,0:03:46.84,0:03:48.56,Sub,,0,0,0,,It all depends on this final move !
+Dialogue: 0,0:03:49.16,0:03:51.56,Sub,,0,0,0,,You mere moths flying into the flame
+Dialogue: 0,0:03:51.80,0:03:54.40,Sub,,0,0,0,,are utterly foolish !
+Dialogue: 0,0:04:21.68,0:04:23.88,Sub,,0,0,0,,The Blood Sea Warriors attacked the beast
+Dialogue: 0,0:04:24.64,0:04:26.72,Sub,,0,0,0,,but Duo Mu detonated them all...
+Dialogue: 0,0:04:27.64,0:04:28.44,Sub,,0,0,0,,Could it be...?
+Dialogue: 0,0:04:37.36,0:04:39.52,Sub,,0,0,0,,God Sealing Great Formation...
+Dialogue: 0,0:04:44.44,0:04:45.40,Sub,,0,0,0,,Activate !
+Dialogue: 0,0:04:51.00,0:04:53.32,Sub,,0,0,0,,Do you still remember me,
+Dialogue: 0,0:04:53.36,0:04:54.88,Sub,,0,0,0,,Li Peng ?
+Dialogue: 0,0:04:52.28,0:04:55.16,Card,,0,0,0,,{\fad(300,000)\pos(1600,456)}Li Peng\NDead Soul Sea Guardian Beast
+Dialogue: 0,0:04:56.32,0:04:57.88,Sub,,0,0,0,,So the reason I failed
+Dialogue: 0,0:04:57.88,0:04:59.64,Sub,,0,0,0,,to capture you was because
+Dialogue: 0,0:05:00.52,0:05:01.68,Sub,,0,0,0,,you had
+Dialogue: 0,0:05:01.96,0:05:04.24,Sub,,0,0,0,,taken over the guardian beast's body.
+Dialogue: 0,0:05:04.44,0:05:05.80,Sub,,0,0,0,,You're about to die,
+Dialogue: 0,0:05:05.88,0:05:07.56,Sub,,0,0,0,,stop pretending to be calm !
+Dialogue: 0,0:05:08.64,0:05:09.88,Sub,,0,0,0,,You guys
+Dialogue: 0,0:05:10.88,0:05:12.56,Sub,,0,0,0,,waited all these years...
+Dialogue: 0,0:05:13.24,0:05:14.52,Sub,,0,0,0,,It seems that
+Dialogue: 0,0:05:15.32,0:05:17.48,Sub,,0,0,0,,you really intend to kill me this time.
+Dialogue: 0,0:05:21.04,0:05:22.32,Sub,,0,0,0,,There's one more,
+Dialogue: 0,0:05:23.04,0:05:25.40,Sub,,0,0,0,,make him explode too !
+Dialogue: 0,0:05:27.84,0:05:28.64,Sub,,0,0,0,,Oh ?
+Dialogue: 0,0:05:29.24,0:05:31.72,Sub,,0,0,0,,So you are all in the same team ?
+Dialogue: 0,0:05:32.32,0:05:34.00,Sub,,0,0,0,,Tuo Sen's reaction is strange,
+Dialogue: 0,0:05:34.44,0:05:36.12,Sub,,0,0,0,,he's neither angry nor worried.
+Dialogue: 0,0:05:36.76,0:05:38.92,Sub,,0,0,0,,It's as if none of this is a danger to him.
+Dialogue: 0,0:05:41.72,0:05:42.52,Sub,,0,0,0,,However,
+Dialogue: 0,0:05:43.72,0:05:46.20,Sub,,0,0,0,,what makes you think
+Dialogue: 0,0:05:47.32,0:05:49.84,Sub,,0,0,0,,that you can kill a god ?
+Dialogue: 0,0:05:58.36,0:05:59.64,Sub,,0,0,0,,I am evil,
+Dialogue: 0,0:06:00.24,0:06:01.28,Sub,,0,0,0,,a great evil !
+Dialogue: 0,0:06:01.96,0:06:03.76,Sub,,0,0,0,,I was born from evil thoughts,
+Dialogue: 0,0:06:03.76,0:06:06.24,Sub,,0,0,0,,I never hide my evil thoughts to pretend to be kind !
+Dialogue: 0,0:06:06.32,0:06:07.12,Sub,,0,0,0,,You will not
+Dialogue: 0,0:06:07.64,0:06:09.64,Sub,,0,0,0,,obtain the Ancient God's inheritance today
+Dialogue: 0,0:06:09.64,0:06:11.68,Sub,,0,0,0,,not because you can't kill me
+Dialogue: 0,0:06:12.48,0:06:15.24,Sub,,0,0,0,,but because you don't know anything about the memory inheritance.
+Dialogue: 0,0:06:15.28,0:06:16.52,Sub,,0,0,0,,You have no idea
+Dialogue: 0,0:06:16.52,0:06:18.80,Sub,,0,0,0,,where the true memory inheritance is !
+Dialogue: 0,0:06:21.52,0:06:24.16,Sub,,0,0,0,,As expected, I don't feel the memory inheritance down there.
+Dialogue: 0,0:06:23.48,0:06:24.60,Second,,0,0,0,,Actually,
+Dialogue: 0,0:06:26.24,0:06:28.16,Sub,,0,0,0,,even if you knew,
+Dialogue: 0,0:06:28.60,0:06:31.36,Sub,,0,0,0,,you will never get past me
+Dialogue: 0,0:06:31.48,0:06:33.80,Sub,,0,0,0,,to obtain the memory inheritance !
+Dialogue: 0,0:06:35.28,0:06:36.84,Sub,,0,0,0,,Since Tuo Sen came here,
+Dialogue: 0,0:06:37.12,0:06:39.28,Sub,,0,0,0,,it means the memory inheritance must be around here.
+Dialogue: 0,0:06:39.64,0:06:40.92,Sub,,0,0,0,,If it's not down there,
+Dialogue: 0,0:06:41.20,0:06:42.12,Sub,,0,0,0,,then where is it ?
+Dialogue: 0,0:06:44.32,0:06:45.12,Sub,,0,0,0,,No...
+Dialogue: 0,0:06:45.52,0:06:46.96,Sub,,0,0,0,,There is one more place !
+Dialogue: 0,0:06:47.56,0:06:48.52,Sub,,0,0,0,,As I thought !
+Dialogue: 0,0:06:48.72,0:06:50.84,Sub,,0,0,0,,It was clever to hide it in plain sight.
+Dialogue: 0,0:06:52.52,0:06:54.20,Sub,,0,0,0,,Let's kill Tuo Sen first,
+Dialogue: 0,0:06:54.36,0:06:56.92,Sub,,0,0,0,,then split his inheritance of power among ourselves !
+Dialogue: 0,0:06:58.12,0:06:58.72,Sub,,0,0,0,,Little guy,
+Dialogue: 0,0:06:59.12,0:07:01.00,Sub,,0,0,0,,seize the opportunity to enter the formation
+Dialogue: 0,0:07:01.00,0:07:03.04,Sub,,0,0,0,,and deal the fatal blow with your Soul Devourer powers !
+Dialogue: 0,0:07:04.32,0:07:05.60,Sub,,0,0,0,,Success or failure
+Dialogue: 0,0:07:05.84,0:07:07.60,Sub,,0,0,0,,depend on you !
+Dialogue: 0,0:07:09.52,0:07:10.68,Sub,,0,0,0,,Wait, not yet !
+Dialogue: 0,0:07:12.72,0:07:14.68,Sub,,0,0,0,,At least there is a clever one among you.
+Dialogue: 0,0:07:16.72,0:07:17.32,Sub,,0,0,0,,What the...?
+Dialogue: 0,0:07:17.56,0:07:18.48,Sub,,0,0,0,,Little guy,
+Dialogue: 0,0:07:19.08,0:07:20.32,Sub,,0,0,0,,what is the meaning of this ?
+Dialogue: 0,0:07:20.32,0:07:21.64,Sub,,0,0,0,,From the beginning,
+Dialogue: 0,0:07:21.64,0:07:23.32,Sub,,0,0,0,,I only wanted to leave this place.
+Dialogue: 0,0:07:23.40,0:07:25.40,Sub,,0,0,0,,Your quarrels have nothing to do with me.
+Dialogue: 0,0:07:24.92,0:07:26.40,Second,,0,0,0,,In that case,
+Dialogue: 0,0:07:26.40,0:07:27.92,Sub,,0,0,0,,you can die !
+Dialogue: 0,0:07:28.16,0:07:29.56,Sub,,0,0,0,,My artifact,
+Dialogue: 0,0:07:29.56,0:07:30.24,Sub,,0,0,0,,devour !
+Dialogue: 0,0:07:32.40,0:07:33.32,Sub,,0,0,0,,My artifact ?
+Dialogue: 0,0:07:33.96,0:07:35.68,Sub,,0,0,0,,Why can't I sense it !?
+Dialogue: 0,0:07:35.68,0:07:37.68,Sub,,0,0,0,,It's the Ancient God's restriction,
+Dialogue: 0,0:07:37.68,0:07:39.68,Sub,,0,0,0,,this brat was prepared all along !
+Dialogue: 0,0:07:43.08,0:07:45.48,Sub,,0,0,0,,You all were so proud of yourselves
+Dialogue: 0,0:07:46.00,0:07:49.12,Sub,,0,0,0,,but you've been tricked by a mere Core Formation brat !
+Dialogue: 0,0:07:49.80,0:07:50.80,Sub,,0,0,0,,Hilarious !
+Dialogue: 0,0:07:56.64,0:07:58.80,Sub,,0,0,0,,I've had enough of this,
+Dialogue: 0,0:07:59.68,0:08:01.92,Sub,,0,0,0,,this is the end of the show.
+Dialogue: 0,0:08:02.64,0:08:04.24,Sub,,0,0,0,,Ancient God Tactic,
+Dialogue: 0,0:08:04.96,0:08:05.84,Sub,,0,0,0,,activate !
+Dialogue: 0,0:08:19.52,0:08:20.68,Sub,,0,0,0,,How naive !
+Dialogue: 0,0:08:23.48,0:08:26.24,Sub,,0,0,0,,No one can oppose a god.
+Dialogue: 0,0:08:29.32,0:08:30.64,Sub,,0,0,0,,And now,
+Dialogue: 0,0:08:30.92,0:08:33.08,Sub,,0,0,0,,you will all die here !
+Dialogue: 0,0:08:38.68,0:08:39.76,Sub,,0,0,0,,The power of an Ancient God
+Dialogue: 0,0:08:39.80,0:08:41.76,Sub,,0,0,0,,isn't something mortals can stand against.
+Dialogue: 0,0:08:42.00,0:08:43.60,Sub,,0,0,0,,If Tuo Sen obtains the memory inheritance,
+Dialogue: 0,0:08:43.60,0:08:45.00,Sub,,0,0,0,,I will also die for sure.
+Dialogue: 0,0:08:45.68,0:08:47.60,Sub,,0,0,0,,What am I missing ?
+Dialogue: 0,0:08:48.28,0:08:49.32,Sub,,0,0,0,,Actually,
+Dialogue: 0,0:08:49.32,0:08:51.08,Sub,,0,0,0,,even if you knew,
+Dialogue: 0,0:08:51.84,0:08:54.28,Sub,,0,0,0,,you will never get past me
+Dialogue: 0,0:08:54.60,0:08:56.68,Sub,,0,0,0,,to obtain the memory inheritance !
+Dialogue: 0,0:08:57.52,0:08:59.60,Sub,,0,0,0,,What does this sentence really mean ?
+Dialogue: 0,0:09:01.88,0:09:03.08,Sub,,0,0,0,,Could it be...?
+Dialogue: 0,0:09:12.48,0:09:13.28,Sub,,0,0,0,,Again ?
+Dialogue: 0,0:09:26.40,0:09:27.84,Sub,,0,0,0,,Core Formation brat,
+Dialogue: 0,0:09:28.56,0:09:31.04,Sub,,0,0,0,,stop struggling for nothing.
+Dialogue: 0,0:09:31.76,0:09:33.96,Sub,,0,0,0,,The passage to the memory inheritance
+Dialogue: 0,0:09:34.36,0:09:36.08,Sub,,0,0,0,,can only be entered by Divine Sense.
+Dialogue: 0,0:09:36.36,0:09:37.88,Sub,,0,0,0,,Is my guess correct ?
+Dialogue: 0,0:09:45.04,0:09:46.48,Sub,,0,0,0,,Mere tricks...
+Dialogue: 0,0:10:48.40,0:10:50.24,Sub,,0,0,0,,I split my Soul into Divine Sense
+Dialogue: 0,0:10:50.40,0:10:51.60,Sub,,0,0,0,,for the memory inheritance.
+Dialogue: 0,0:10:52.48,0:10:53.36,Sub,,0,0,0,,Transfer !
+Dialogue: 0,0:10:57.48,0:10:58.80,Sub,,0,0,0,,You what ?
+Dialogue: 0,0:10:59.04,0:11:00.84,Sub,,0,0,0,,Core Formation brat,
+Dialogue: 0,0:11:01.00,0:11:03.68,Sub,,0,0,0,,how dare you compete with me !?
+Dialogue: 0,0:11:24.08,0:11:26.20,Sub,,0,0,0,,NOOOO !!!
+Dialogue: 0,0:12:51.44,0:12:53.20,Sub,,0,0,0,,He's refining an artifact
+Dialogue: 0,0:12:53.32,0:12:54.52,Sub,,0,0,0,,with planets ?
+Dialogue: 0,0:13:18.68,0:13:19.92,Sub,,0,0,0,,Such a powerful pressure !
+Dialogue: 0,0:13:27.68,0:13:28.92,Sub,,0,0,0,,He threw it away ?
+Dialogue: 0,0:13:30.52,0:13:31.64,Sub,,0,0,0,,If such an artifact
+Dialogue: 0,0:13:31.76,0:13:33.68,Sub,,0,0,0,,fell in the hands of any cultivator,
+Dialogue: 0,0:13:33.72,0:13:35.68,Sub,,0,0,0,,they would have unmatched power.
+Dialogue: 0,0:13:36.04,0:13:37.80,Sub,,0,0,0,,In the Ancient God's memories,
+Dialogue: 0,0:13:37.96,0:13:40.40,Sub,,0,0,0,,there are methods for alchemy and artifact crafting.
+Dialogue: 0,0:13:40.64,0:13:41.88,Sub,,0,0,0,,This is unvaluable...
+Dialogue: 0,0:13:43.00,0:13:44.28,Sub,,0,0,0,,But the materials
+Dialogue: 0,0:13:44.28,0:13:45.92,Sub,,0,0,0,,really are too extravagant...
+Dialogue: 0,0:13:46.56,0:13:48.12,Sub,,0,0,0,,Among Ancient Gods,
+Dialogue: 0,0:13:48.56,0:13:52.80,Sub,,0,0,0,,there are no cultivation levels like in the cultivation world.
+Dialogue: 0,0:13:53.32,0:13:54.92,Sub,,0,0,0,,Ancient Gods refine their bodies.
+Dialogue: 0,0:13:54.92,0:13:59.40,Sub,,0,0,0,,Cultivation only involves the Divine Sense and the body.
+Dialogue: 0,0:13:59.88,0:14:01.52,Sub,,0,0,0,,Every Ancient God
+Dialogue: 0,0:14:01.52,0:14:04.44,Sub,,0,0,0,,will use most of the spiritual energy they devour
+Dialogue: 0,0:14:04.64,0:14:06.64,Sub,,0,0,0,,to strengthen their body.
+Dialogue: 0,0:14:07.44,0:14:11.04,Sub,,0,0,0,,When the body reaches the limit of how much spiritual energy it can hold,
+Dialogue: 0,0:14:11.72,0:14:14.80,Sub,,0,0,0,,it will undergo a reconstruction
+Dialogue: 0,0:14:15.20,0:14:17.12,Sub,,0,0,0,,to make the body bigger.
+Dialogue: 0,0:14:18.28,0:14:19.64,Sub,,0,0,0,,This is a process
+Dialogue: 0,0:14:19.64,0:14:21.48,Sub,,0,0,0,,of qualitative change.
+Dialogue: 0,0:14:22.08,0:14:24.24,Sub,,0,0,0,,The more reconstructions there are,
+Dialogue: 0,0:14:24.88,0:14:26.88,Sub,,0,0,0,,the stronger the cultivation.
+Dialogue: 0,0:14:27.96,0:14:30.52,Sub,,0,0,0,,The memory inheritance you absorbed
+Dialogue: 0,0:14:31.08,0:14:33.60,Sub,,0,0,0,,contains the memories of my entire life.
+Dialogue: 0,0:14:34.60,0:14:37.36,Sub,,0,0,0,,I went through 8 reconstructions.
+Dialogue: 0,0:14:37.88,0:14:38.96,Sub,,0,0,0,,And you
+Dialogue: 0,0:14:39.28,0:14:41.40,Sub,,0,0,0,,by using your Divine Sense as the guide
+Dialogue: 0,0:14:41.40,0:14:43.68,Sub,,0,0,0,,and my memories as the trigger
+Dialogue: 0,0:14:43.68,0:14:45.88,Sub,,0,0,0,,have already gone through it once.
+Dialogue: 0,0:14:47.60,0:14:49.36,Sub,,0,0,0,,I have placed the location
+Dialogue: 0,0:14:49.56,0:14:52.92,Sub,,0,0,0,,of the Void Ink Stones in your memories.
+Dialogue: 0,0:14:53.68,0:14:54.84,Sub,,0,0,0,,Take them.
+Dialogue: 0,0:14:56.08,0:14:57.28,Sub,,0,0,0,,How far you can go
+Dialogue: 0,0:14:58.04,0:14:59.76,Sub,,0,0,0,,in the rest of your journey
+Dialogue: 0,0:15:00.16,0:15:02.40,Sub,,0,0,0,,will depend on yourself.
+Dialogue: 0,0:15:20.60,0:15:24.28,Sub,,0,0,0,,{\fad(600,600)\pos(1710,609)}200 years later
+Dialogue: 0,0:15:57.28,0:15:58.68,Sub,,0,0,0,,I never thought that
+Dialogue: 0,0:15:58.68,0:16:01.20,Sub,,0,0,0,,I would see myself in this body once again.
+Dialogue: 0,0:16:03.72,0:16:05.52,Sub,,0,0,0,,I have placed the location
+Dialogue: 0,0:16:06.16,0:16:09.48,Sub,,0,0,0,,of the Void Ink Stones in your memories.
+Dialogue: 0,0:16:10.44,0:16:11.56,Sub,,0,0,0,,Take them.
+Dialogue: 0,0:16:54.76,0:16:55.52,Sub,,0,0,0,,Open !
+Dialogue: 0,0:17:00.40,0:17:02.36,Sub,,0,0,0,,I want your body,
+Dialogue: 0,0:17:02.36,0:17:03.56,Sub,,0,0,0,,dead man.
+Dialogue: 0,0:17:03.88,0:17:04.92,Sub,,0,0,0,,Divine Sense,
+Dialogue: 0,0:17:05.40,0:17:06.04,Sub,,0,0,0,,return !
+Dialogue: 0,0:17:06.48,0:17:07.32,Sub,,0,0,0,,This time,
+Dialogue: 0,0:17:07.32,0:17:08.96,Sub,,0,0,0,,no one can stop me !
+Dialogue: 0,0:17:10.20,0:17:12.60,Sub,,0,0,0,,Be it his talent or Spirit Root, Ma Liang's body
+Dialogue: 0,0:17:13.20,0:17:14.84,Sub,,0,0,0,,is far superior to my previous body.
+Dialogue: 0,0:17:16.00,0:17:17.68,Sub,,0,0,0,,Congratulations on your new life.
+Dialogue: 0,0:17:35.96,0:17:37.40,Sub,,0,0,0,,Underworld Ice Flame,
+Dialogue: 0,0:17:37.40,0:17:38.20,Sub,,0,0,0,,appear !
+Dialogue: 0,0:17:59.08,0:18:00.16,Sub,,0,0,0,,Land of the Ancient God,
+Dialogue: 0,0:18:01.04,0:18:01.84,Sub,,0,0,0,,farewell.
+Dialogue: 0,0:18:19.88,0:18:22.60,Sub,,0,0,0,,Stop torturing me !
+Dialogue: 0,0:18:23.24,0:18:24.24,Sub,,0,0,0,,I'll talk !
+Dialogue: 0,0:18:24.60,0:18:25.68,Sub,,0,0,0,,I'll talk !
+Dialogue: 0,0:18:26.36,0:18:28.36,Sub,,0,0,0,,Tu Si's memory inheritance
+Dialogue: 0,0:18:28.92,0:18:31.96,Sub,,0,0,0,,will take 1000 years to reform if he doesn't absorb it.
+Dialogue: 0,0:18:39.44,0:18:41.36,Sub,,0,0,0,,1000 years...
+Dialogue: 0,0:18:41.96,0:18:43.24,Sub,,0,0,0,,I will wait !
+Dialogue: 0,0:18:43.72,0:18:45.32,Sub,,0,0,0,,Core Formation brat,
+Dialogue: 0,0:18:45.80,0:18:47.76,Sub,,0,0,0,,the day I leave this place
+Dialogue: 0,0:18:47.88,0:18:50.48,Sub,,0,0,0,,will be the day you die !
+Dialogue: 0,0:18:51.44,0:18:52.52,Sub,,0,0,0,,Even if I
+Dialogue: 0,0:18:52.52,0:18:55.52,Sub,,0,0,0,,have to seach high and low,
+Dialogue: 0,0:18:55.88,0:18:58.12,Sub,,0,0,0,,I will definitely kill you
+Dialogue: 0,0:18:58.60,0:19:00.92,Sub,,0,0,0,,and leave no trace of your existence !
+Dialogue: 0,0:19:05.76,0:21:21.62,Note,,0,0,0,,{\fad(1000,1000)}The scene of Wang Lin tranfering his soul to the memory inheritance was VERY different in the novel. The problem is that they kept the novel's dialogue but not what happens in it. I took the liberty of rewriting Wang Lin's dialogue to fit to what happens in the donghua.\N\NIn the novel, Li Peng had a clone that he sacrified to allow Wang Lin to enter the memory inheritance.\N\N“Tuo Sen, anyone but you can inherit Master’s memory inheritance. Little guy, it all depends on your luck!”\NThose last words were meant for Wang Lin. In that moment, he made a decision, a decision that would cost him a price he could barely withstand.\N\NSuddenly, the man covered in scales pointed his hand at his brow and said, “Using my clone as a sacrifice, I transfer the memory inheritance!” His clone quickly shook, and along with the spear, both turned into golden specks of light and disappeared. Wang Lin’s soul, which was spreading out quickly, shrunk, as if it were being sucked in by a strong force. In the blink of an eye, Wang Lin’s soul was sucked in by the special scale and disappeared.\N-> This is what they made Wang Lin say but it makes no sense in the donghua's context which is why I changed it.
+Dialogue: 0,0:19:14.38,0:19:18.26,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:19:16.42,0:19:18.26,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:19:18.34,0:19:21.82,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:19:21.90,0:19:27.74,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:19:24.78,0:19:27.74,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:19:29.54,0:19:33.50,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:19:31.26,0:19:33.50,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:19:33.82,0:19:36.90,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:19:37.26,0:19:42.90,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:19:39.98,0:19:42.90,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:19:44.26,0:19:48.38,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:19:45.30,0:19:48.38,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:19:48.66,0:19:52.42,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:19:49.42,0:19:52.42,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:19:52.42,0:19:56.26,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:19:54.37,0:19:56.26,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:19:56.50,0:20:00.38,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:20:02.38,0:20:08.18,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:20:04.90,0:20:08.18,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:20:08.30,0:20:15.74,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:20:10.42,0:20:15.74,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:20:15.94,0:20:23.38,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:20:19.98,0:20:23.38,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:20:23.78,0:20:32.74,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:20:27.74,0:20:32.74,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:20:48.18,0:20:54.14,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:20:50.90,0:20:54.14,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:20:54.14,0:21:01.70,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:20:55.58,0:21:01.70,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:21:01.74,0:21:11.10,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:21:07.70,0:21:11.10,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:21:11.34,0:21:18.94,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:21:13.86,0:21:18.94,Music,,0,0,0,,{\fad(600,600}like the descent of a god.
+Dialogue: 0,0:15:21.52,0:15:27.24,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:15:24.16,0:15:27.24,Music,,0,0,0,,{\fad(300,600}and awakens from its dream
+Dialogue: 0,0:15:27.72,0:15:34.80,Music,,0,0,0,,{\fad(300,600}as if it's proclaiming the descent
+Dialogue: 0,0:15:29.16,0:15:34.80,Music,,0,0,0,,{\fad(300,600}of a new god.
+Dialogue: 0,0:15:35.04,0:15:42.52,Music,,0,0,0,,{\fad(600,600}The number of stars on my forehead
+Dialogue: 0,0:15:39.28,0:15:42.52,Music,,0,0,0,,{\fad(600,600}now represent how strong I am.
+Dialogue: 0,0:15:42.80,0:15:52.20,Music,,0,0,0,,{\fad(600,600}I will stand above the clouds to protect
+Dialogue: 0,0:15:46.88,0:15:52.20,Music,,0,0,0,,{\fad(600,600}those dear to my heart.
+Dialogue: 0,0:15:59.88,0:16:03.64,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:16:01.76,0:16:03.64,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:16:03.92,0:16:07.16,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:16:07.36,0:16:13.12,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:16:10.28,0:16:13.12,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:16:14.60,0:16:18.52,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:16:15.80,0:16:18.52,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:16:19.00,0:16:22.60,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:16:19.76,0:16:22.60,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:16:22.80,0:16:26.48,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:16:24.88,0:16:26.48,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:16:26.80,0:16:30.52,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:16:32.08,0:16:37.84,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:16:34.84,0:16:37.84,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:16:38.16,0:16:45.40,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:16:39.48,0:16:45.40,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:16:45.68,0:16:54.88,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:16:51.60,0:16:54.88,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:16:55.08,0:17:02.64,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:16:57.84,0:17:02.64,Music,,0,0,0,,{\fad(600,600}like the descent of a god.
+Dialogue: 0,0:17:18.16,0:17:23.96,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:17:20.96,0:17:23.96,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:17:24.20,0:17:31.44,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:17:25.60,0:17:31.44,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:17:31.88,0:17:40.96,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:17:37.60,0:17:40.96,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:17:41.16,0:17:48.72,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:17:43.84,0:17:48.72,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

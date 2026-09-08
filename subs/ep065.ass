@@ -1,0 +1,301 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Celestial Beast Temple,Roboto,130,&H00397A9E,&H0000FFFF,&H00304964,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,1,2,10,10,3,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:25.18,0:02:26.40,Sub,,0,0,0,,Red Butterfly !
+Dialogue: 0,0:02:26.82,0:02:28.28,Sub,,0,0,0,,You indeed know me.
+Dialogue: 0,0:02:28.90,0:02:29.61,Sub,,0,0,0,,Speak,
+Dialogue: 0,0:02:30.30,0:02:31.40,Sub,,0,0,0,,who the hell are you ?
+Dialogue: 0,0:02:31.82,0:02:34.46,Sub,,0,0,0,,Who doesn't know Xue Yue's genius ?
+Dialogue: 0,0:02:35.06,0:02:36.38,Sub,,0,0,0,,Not going to tell me ?
+Dialogue: 0,0:02:36.42,0:02:37.18,Sub,,0,0,0,,Then you will
+Dialogue: 0,0:02:37.98,0:02:38.98,Sub,,0,0,0,,remain here forever !
+Dialogue: 0,0:02:51.29,0:02:52.48,Sub,,0,0,0,,This is her domain !
+Dialogue: 0,0:03:00.14,0:03:01.20,Sub,,0,0,0,,Master, what's going on ?
+Dialogue: 0,0:03:01.22,0:03:02.16,Sub,,0,0,0,,Wake up !
+Dialogue: 0,0:03:04.74,0:03:06.30,Sub,,0,0,0,,Early stage Soul Formation...
+Dialogue: 0,0:03:06.94,0:03:08.48,Sub,,0,0,0,,If you don't struggle,
+Dialogue: 0,0:03:08.50,0:03:10.22,Sub,,0,0,0,,you can have a painless death.
+Dialogue: 0,0:03:16.26,0:03:17.84,Sub,,0,0,0,,My memories and emotions
+Dialogue: 0,0:03:18.58,0:03:19.78,Sub,,0,0,0,,are becoming numb...
+Dialogue: 0,0:03:33.38,0:03:34.10,Sub,,0,0,0,,Wan'er...
+Dialogue: 0,0:03:39.14,0:03:40.30,Sub,,0,0,0,,I hate you !!!
+Dialogue: 0,0:03:41.54,0:03:43.46,Sub,,0,0,0,,I never believed in fate !
+Dialogue: 0,0:03:44.37,0:03:45.23,Sub,,0,0,0,,She's already gone.
+Dialogue: 0,0:03:45.25,0:03:46.51,Sub,,0,0,0,,I told you not to tell her.
+Dialogue: 0,0:03:46.51,0:03:47.33,Sub,,0,0,0,,It's all your fault !
+Dialogue: 0,0:03:48.03,0:03:49.13,Sub,,0,0,0,,You... You...
+Dialogue: 0,0:03:50.34,0:03:51.06,Sub,,0,0,0,,Enough !
+Dialogue: 0,0:03:53.34,0:03:55.46,Sub,,0,0,0,,If I were to get lost in this emotionless domain,
+Dialogue: 0,0:03:56.54,0:03:57.62,Sub,,0,0,0,,I'll never be the same again.
+Dialogue: 0,0:03:58.46,0:04:00.54,Sub,,0,0,0,,I would become an emotionless murderer.
+Dialogue: 0,0:04:01.78,0:04:03.74,Sub,,0,0,0,,Life and death are controlled by her thoughts.
+Dialogue: 0,0:04:04.46,0:04:05.44,Sub,,0,0,0,,Her domain
+Dialogue: 0,0:04:05.50,0:04:07.24,Sub,,0,0,0,,is capable of freezing emotions.
+Dialogue: 0,0:04:08.06,0:04:09.42,Sub,,0,0,0,,The domain of this genius
+Dialogue: 0,0:04:09.62,0:04:10.86,Sub,,0,0,0,,is so domineering.
+Dialogue: 0,0:04:11.22,0:04:12.74,Sub,,0,0,0,,If I can't break her domain,
+Dialogue: 0,0:04:13.10,0:04:14.50,Sub,,0,0,0,,I'll be in deep trouble.
+Dialogue: 0,0:04:15.18,0:04:16.84,Sub,,0,0,0,,This snow is born in the sky
+Dialogue: 0,0:04:16.90,0:04:18.50,Sub,,0,0,0,,and dies on the earth.
+Dialogue: 0,0:04:19.50,0:04:22.42,Sub,,0,0,0,,I heard Red Butterfly managed to reach Peak Late stage Soul Formation
+Dialogue: 0,0:04:22.90,0:04:24.22,Sub,,0,0,0,,in a mere 100 years.
+Dialogue: 0,0:04:24.82,0:04:26.86,Sub,,0,0,0,,100 years is the lifetime of a mortal.
+Dialogue: 0,0:04:27.50,0:04:28.74,Sub,,0,0,0,,I wonder if your parents
+Dialogue: 0,0:04:29.22,0:04:30.30,Sub,,0,0,0,,are still alive.
+Dialogue: 0,0:04:40.18,0:04:41.14,Sub,,0,0,0,,Red Butterfly,
+Dialogue: 0,0:04:41.26,0:04:42.62,Sub,,0,0,0,,do your parents have
+Dialogue: 0,0:04:43.10,0:04:44.30,Sub,,0,0,0,,any other children ?
+Dialogue: 0,0:04:44.82,0:04:48.22,Sub,,0,0,0,,If not, doesn’t that mean they have no one to send them off ?
+Dialogue: 0,0:04:48.26,0:04:50.78,Sub,,0,0,0,,That means you are... unfilial.
+Dialogue: 0,0:04:51.74,0:04:52.74,Sub,,0,0,0,,Know your place !
+Dialogue: 0,0:04:58.14,0:04:59.22,Sub,,0,0,0,,Your domain
+Dialogue: 0,0:04:59.82,0:05:00.62,Sub,,0,0,0,,is too weak.
+Dialogue: 0,0:05:15.72,0:05:17.24,Sub,,0,0,0,,Instead of collapsing,
+Dialogue: 0,0:05:17.30,0:05:18.62,Sub,,0,0,0,,his domain is spreading out.
+Dialogue: 0,0:05:18.78,0:05:20.22,Sub,,0,0,0,,As long as I can kill him...
+Dialogue: 0,0:05:21.22,0:05:22.38,Sub,,0,0,0,,For 100 years,
+Dialogue: 0,0:05:23.14,0:05:24.22,Sub,,0,0,0,,mortals have lived.
+Dialogue: 0,0:05:25.14,0:05:26.10,Sub,,0,0,0,,Was your family
+Dialogue: 0,0:05:26.34,0:05:28.34,Sub,,0,0,0,,wiped out by the law of the heavens ?
+Dialogue: 0,0:05:29.50,0:05:30.38,Sub,,0,0,0,,Red Butterfly,
+Dialogue: 0,0:05:31.10,0:05:32.78,Sub,,0,0,0,,even if your parents are dead,
+Dialogue: 0,0:05:33.86,0:05:36.10,Sub,,0,0,0,,they will always be looking at you.
+Dialogue: 0,0:05:36.74,0:05:38.66,Sub,,0,0,0,,Do you dare to look back at them !?
+Dialogue: 0,0:05:45.06,0:05:46.58,Sub,,0,0,0,,The Icy Snow Tactic
+Dialogue: 0,0:05:47.06,0:05:48.70,Sub,,0,0,0,,requires a clear heart.
+Dialogue: 0,0:05:49.85,0:05:51.50,Sub,,0,0,0,,That's why I was suspicious.
+Dialogue: 0,0:05:52.22,0:05:54.48,Sub,,0,0,0,,Red Butterfly has only cultivated for 100 years.
+Dialogue: 0,0:05:54.82,0:05:56.52,Sub,,0,0,0,,No matter her talent,
+Dialogue: 0,0:05:56.52,0:05:58.30,Sub,,0,0,0,,she couldn't have wiped all her emotions.
+Dialogue: 0,0:05:59.46,0:06:00.50,Sub,,0,0,0,,Love never dies.
+Dialogue: 0,0:06:02.10,0:06:04.03,Sub,,0,0,0,,Naturally, her Dao Heart is unstable.
+Dialogue: 0,0:06:04.34,0:06:05.86,Sub,,0,0,0,,Dragon Restriction, attack !
+Dialogue: 0,0:06:11.42,0:06:12.90,Sub,,0,0,0,,A mere Early stage Soul Formation
+Dialogue: 0,0:06:13.50,0:06:15.34,Sub,,0,0,0,,tried to ruin my Dao Heart.
+Dialogue: 0,0:06:15.94,0:06:17.38,Sub,,0,0,0,,I can't allow him to live !
+Dialogue: 0,0:06:30.30,0:06:31.12,Sub,,0,0,0,,Master,
+Dialogue: 0,0:06:31.21,0:06:32.82,Sub,,0,0,0,,that woman has a higher cultivation than you.
+Dialogue: 0,0:06:32.86,0:06:34.78,Sub,,0,0,0,,Why are you so chill about it ?
+Dialogue: 0,0:06:34.90,0:06:35.26,Sub,,0,0,0,,She...
+Dialogue: 0,0:06:36.02,0:06:37.82,Sub,,0,0,0,,She is going to catch up with us !
+Dialogue: 0,0:06:38.22,0:06:39.58,Sub,,0,0,0,,You can't escape.
+Dialogue: 0,0:06:44.70,0:06:46.58,Sub,,0,0,0,,Master, what are you doing ?!
+Dialogue: 0,0:06:46.70,0:06:47.94,Sub,,0,0,0,,Run away !
+Dialogue: 0,0:06:48.70,0:06:49.94,Sub,,0,0,0,,I won't run away.
+Dialogue: 0,0:06:58.02,0:06:58.82,Sub,,0,0,0,,This is...
+Dialogue: 0,0:08:00.10,0:08:00.60,Sub,,0,0,0,,You !
+Dialogue: 0,0:08:01.62,0:08:03.42,Sub,,0,0,0,,He has access to teleportation formations
+Dialogue: 0,0:08:03.82,0:08:05.92,Sub,,0,0,0,,so his identity must not be exceptional.
+Dialogue: 0,0:08:06.72,0:08:08.36,Sub,,0,0,0,,His Dao Heart is strong,
+Dialogue: 0,0:08:08.54,0:08:09.80,Sub,,0,0,0,,he's very cautious,
+Dialogue: 0,0:08:09.80,0:08:11.12,Sub,,0,0,0,,has a strange domain,
+Dialogue: 0,0:08:11.38,0:08:12.74,Sub,,0,0,0,,and extraordinary artifacts.
+Dialogue: 0,0:08:13.94,0:08:16.18,Sub,,0,0,0,,He must be the most elite disciple
+Dialogue: 0,0:08:16.62,0:08:18.58,Sub,,0,0,0,,of a rank 5 country of Suzaku.
+Dialogue: 0,0:08:19.93,0:08:22.38,Card,,0,0,0,,{\pos(1605,475)\fad(300,400)}Rain Celestial Realm\NLava fragment
+Dialogue: 0,0:08:25.50,0:08:27.02,Sub,,0,0,0,,That palm strike was empty
+Dialogue: 0,0:08:27.58,0:08:29.11,Sub,,0,0,0,,but it managed to fool Red Butterfly.
+Dialogue: 0,0:08:29.26,0:08:31.31,Sub,,0,0,0,,Otherwise, with our gap in cultivation,
+Dialogue: 0,0:08:31.46,0:08:32.94,Sub,,0,0,0,,it would have been hard to escape.
+Dialogue: 0,0:08:33.17,0:08:35.30,Sub,,0,0,0,,I almost ran out of spiritual energy...
+Dialogue: 0,0:08:35.42,0:08:37.34,Sub,,0,0,0,,This palm strike was really expensive.
+Dialogue: 0,0:08:49.02,0:08:50.18,Sub,,0,0,0,,Spatial rifts ?
+Dialogue: 0,0:09:01.90,0:09:03.00,Sub,,0,0,0,,There are spatial rifts ahead
+Dialogue: 0,0:09:03.00,0:09:03.92,Sub,,0,0,0,,and lava below,
+Dialogue: 0,0:09:03.92,0:09:06.18,Sub,,0,0,0,,even if there is a treasure here, it must be ruined.
+Dialogue: 0,0:09:07.62,0:09:10.26,Sub,,0,0,0,,Why did the Da Lou Sword Sect build the teleportation formation here ?
+Dialogue: 0,0:09:10.54,0:09:12.42,Sub,,0,0,0,,There must be something inside this cave.
+Dialogue: 0,0:09:13.46,0:09:14.78,Sub,,0,0,0,,This place is very strange.
+Dialogue: 0,0:09:15.66,0:09:17.82,Sub,,0,0,0,,But it's too dangerous to enter alone.
+Dialogue: 0,0:09:18.94,0:09:20.50,Sub,,0,0,0,,I need to wait for other people,
+Dialogue: 0,0:09:21.42,0:09:22.74,Sub,,0,0,0,,that's my best chance.
+Dialogue: 0,0:09:28.58,0:09:31.30,Sub,,0,0,0,,{\pos(968,492)\fad(700,700)}3 days later
+Dialogue: 0,0:09:36.74,0:09:38.10,Sub,,0,0,0,,So they have come.
+Dialogue: 0,0:09:41.30,0:09:42.48,Sub,,0,0,0,,Third Senior Brother,
+Dialogue: 0,0:09:42.86,0:09:44.86,Sub,,0,0,0,,is this the Celestial Beast Temple ?
+Dialogue: 0,0:09:45.46,0:09:46.34,Sub,,0,0,0,,Correct.
+Dialogue: 0,0:09:46.82,0:09:50.06,Card,,0,0,0,,{\pos(1660,517)\fad(300,300}Zheng Hao\NDa Lou Sword Sect disciple\NEarly stage Soul Formation
+Dialogue: 0,0:09:46.90,0:09:47.66,Sub,,0,0,0,,This place
+Dialogue: 0,0:09:47.86,0:09:50.38,Sub,,0,0,0,,is one of the 16 Celestial Beast Temples.
+Dialogue: 0,0:09:51.50,0:09:53.26,Sub,,0,0,0,,The Ancestor found this place by accident.
+Dialogue: 0,0:09:53.70,0:09:54.93,Sub,,0,0,0,,After thousands of years,
+Dialogue: 0,0:09:55.06,0:09:56.68,Sub,,0,0,0,,this place has been badly damaged.
+Dialogue: 0,0:09:57.82,0:09:59.81,Sub,,0,0,0,,Sixth Junior Brother, you just reached Soul Formation
+Dialogue: 0,0:09:59.93,0:10:01.91,Sub,,0,0,0,,You must pay attention to the spacial rifts.
+Dialogue: 0,0:10:02.02,0:10:04.04,Sub,,0,0,0,,Remember to always have the Full Search Tactic activated.
+Dialogue: 0,0:10:05.62,0:10:08.08,Card,,0,0,0,,{\pos(1677,484)\fad(300,300}Da Lou Sword Sect\NFull Search Tactic
+Dialogue: 0,0:10:11.82,0:10:12.74,Sub,,0,0,0,,This Full Search Tactic
+Dialogue: 0,0:10:13.30,0:10:15.90,Sub,,0,0,0,,must be able to help them avoid the spacial rifts.
+Dialogue: 0,0:10:16.66,0:10:18.56,Sub,,0,0,0,,It's very useful in the Celestial Realm.
+Dialogue: 0,0:10:26.06,0:10:29.30,Card,,0,0,0,,{\pos(1681,518)\fad(300,300)}Celestial Beast Temple\NLava fragment\NRain Celestial Realm
+Dialogue: 0,0:10:26.26,0:10:28.86,Sub,,0,0,0,,Remember you can't use teleportation inside.
+Dialogue: 0,0:10:30.10,0:10:31.42,Sub,,0,0,0,,You must be careful.
+Dialogue: 0,0:10:36.58,0:10:37.38,Sub,,0,0,0,,Third Senior Brother,
+Dialogue: 0,0:10:38.14,0:10:40.56,Sub,,0,0,0,,this Celestial Beast Temple has been here for so many years
+Dialogue: 0,0:10:40.70,0:10:42.72,Sub,,0,0,0,,so it should already have been emptied.
+Dialogue: 0,0:10:43.70,0:10:45.82,Sub,,0,0,0,,Even if there are Celestial Beast Souls remaining,
+Dialogue: 0,0:10:46.06,0:10:48.98,Sub,,0,0,0,,I'm afraid they would be hard to obtain for just the two of us.
+Dialogue: 0,0:10:49.90,0:10:52.02,Sub,,0,0,0,,The Celestial Realm lacks spiritual energy.
+Dialogue: 0,0:10:52.62,0:10:53.94,Sub,,0,0,0,,If there are any
+Dialogue: 0,0:10:54.38,0:10:55.34,Sub,,0,0,0,,Celestial Beast Souls left,
+Dialogue: 0,0:10:55.70,0:10:56.82,Sub,,0,0,0,,they must be very weak.
+Dialogue: 0,0:10:57.26,0:10:58.50,Sub,,0,0,0,,If we bring back one,
+Dialogue: 0,0:10:58.74,0:11:00.22,Sub,,0,0,0,,we will be rewarded.
+Dialogue: 0,0:11:01.06,0:11:03.14,Sub,,0,0,0,,Back then, the Ancestor was able to find
+Dialogue: 0,0:11:03.46,0:11:05.06,Sub,,0,0,0,,a Celestial Beast Soul here.
+Dialogue: 0,0:11:05.98,0:11:07.90,Sub,,0,0,0,,He then proceeded to unite planet Da Lou.
+Dialogue: 0,0:11:13.18,0:11:14.38,Sub,,0,0,0,,There's such a treasure ?
+Dialogue: 0,0:11:15.14,0:11:16.76,Sub,,0,0,0,,No wonder they placed the formation here.
+Dialogue: 0,0:11:23.54,0:11:25.16,Celestial Beast Temple,,0,0,0,,{\pos(964,374)}Celestial Beast Temple
+Dialogue: 0,0:11:42.98,0:11:44.62,Sub,,0,0,0,,Here's some celestial spiritual energy.
+Dialogue: 0,0:11:44.90,0:11:45.98,Sub,,0,0,0,,Back then, the Ancestor
+Dialogue: 0,0:11:46.02,0:11:47.86,Sub,,0,0,0,,found a Celestial Beast Soul here.
+Dialogue: 0,0:11:48.66,0:11:49.29,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:11:49.74,0:11:50.50,Sub,,0,0,0,,protect me
+Dialogue: 0,0:11:51.14,0:11:52.94,Sub,,0,0,0,,while I gather this celestial spiritual energy.
+Dialogue: 0,0:11:53.38,0:11:53.98,Sub,,0,0,0,,Okay.
+Dialogue: 0,0:12:07.58,0:12:10.18,Card,,0,0,0,,{\pos(1608,461)\fad(300,300}Da Lou Sword Sect\NSoul Purification Gourd
+Dialogue: 0,0:12:21.58,0:12:24.38,Sub,,0,0,0,,This gourd can gather celestial spiritual energy much quicker.
+Dialogue: 0,0:12:28.54,0:12:30.36,Card,,0,0,0,,{\pos(1720,445)\fad(300,000}Celestial jades
+Dialogue: 0,0:12:33.34,0:12:34.44,Sub,,0,0,0,,Sixth Junior Brother,
+Dialogue: 0,0:12:34.82,0:12:36.42,Sub,,0,0,0,,we've got a good harvest this time.
+Dialogue: 0,0:12:36.82,0:12:37.90,Sub,,0,0,0,,The celestial spiritual energy
+Dialogue: 0,0:12:38.38,0:12:39.82,Sub,,0,0,0,,was enough for 2 celestial jades.
+Dialogue: 0,0:12:40.90,0:12:41.90,Sub,,0,0,0,,Keep this one.
+Dialogue: 0,0:12:42.62,0:12:43.34,Sub,,0,0,0,,This way,
+Dialogue: 0,0:12:43.94,0:12:46.92,Sub,,0,0,0,,we've both completed the lowest requirement of our sect.
+Dialogue: 0,0:12:48.22,0:12:48.86,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:12:50.94,0:12:51.78,Sub,,0,0,0,,Third Senior Brother,
+Dialogue: 0,0:12:51.82,0:12:53.42,Sub,,0,0,0,,Is this the Soul Purification Gourd ?
+Dialogue: 0,0:12:54.90,0:12:55.62,Sub,,0,0,0,,Correct.
+Dialogue: 0,0:12:56.46,0:12:58.38,Sub,,0,0,0,,This is one of the 3 Soul Purification Gourds
+Dialogue: 0,0:12:59.10,0:13:01.70,Sub,,0,0,0,,personally refined by the Ancestor.
+Dialogue: 0,0:13:02.78,0:13:03.70,Sub,,0,0,0,,With this,
+Dialogue: 0,0:13:04.46,0:13:06.28,Sub,,0,0,0,,we can quickly gather celestial spiritual energy
+Dialogue: 0,0:13:06.28,0:13:08.26,Sub,,0,0,0,,without wasting time refining it.
+Dialogue: 0,0:13:08.74,0:13:09.82,Sub,,0,0,0,,What was that sound ?
+Dialogue: 0,0:13:14.90,0:13:18.14,Card,,0,0,0,,{\pos(1532,504)\fad(300,300)}Celestial Beast Temple\NLava fragment\NRain Celestial Realm
+Dialogue: 0,0:13:29.82,0:13:30.18,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:13:30.70,0:13:31.30,Sub,,0,0,0,,go ahead
+Dialogue: 0,0:13:32.02,0:13:34.02,Sub,,0,0,0,,to see what that ball of light is.
+Dialogue: 0,0:13:34.62,0:13:35.08,Sub,,0,0,0,,I...
+Dialogue: 0,0:13:37.38,0:13:39.54,Sub,,0,0,0,,Why does this look familiar ?
+Dialogue: 0,0:13:40.26,0:13:41.28,Sub,,0,0,0,,Don't be afraid Junior,
+Dialogue: 0,0:13:41.66,0:13:43.40,Sub,,0,0,0,,your Senior is protecting you.
+Dialogue: 0,0:13:43.46,0:13:44.26,Sub,,0,0,0,,Go for it.
+Dialogue: 0,0:13:56.54,0:13:57.82,Sub,,0,0,0,,Get closer !
+Dialogue: 0,0:14:13.02,0:14:14.02,Sub,,0,0,0,,3 more steps !
+Dialogue: 0,0:14:16.94,0:14:17.86,Sub,,0,0,0,,Bring the skull here !
+Dialogue: 0,0:14:34.74,0:14:35.26,Sub,,0,0,0,,Chase !
+Dialogue: 0,0:14:37.46,0:14:38.02,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:14:38.50,0:14:39.50,Sub,,0,0,0,,what the hell was that ?
+Dialogue: 0,0:14:40.66,0:14:41.94,Sub,,0,0,0,,If I'm not mistaken,
+Dialogue: 0,0:14:42.02,0:14:43.62,Sub,,0,0,0,,this is a Celestial Beast Feed.
+Dialogue: 0,0:14:46.38,0:14:48.06,Sub,,0,0,0,,It turns out that was a Celestial Beast Feed.
+Dialogue: 0,0:14:49.26,0:14:51.24,Sub,,0,0,0,,No wonder the mosquito beast loved it.
+Dialogue: 0,0:14:52.26,0:14:54.46,Sub,,0,0,0,,But compared to those of the Sea of Devils,
+Dialogue: 0,0:14:55.38,0:14:56.66,Sub,,0,0,0,,this Celestial Beast Feed
+Dialogue: 0,0:14:57.26,0:14:58.90,Sub,,0,0,0,,is way more powerful.
+Dialogue: 0,0:15:02.69,0:15:05.14,Sub,,0,0,0,,Mere feed for celestial beasts and it has this much power ?
+Dialogue: 0,0:15:06.70,0:15:08.38,Sub,,0,0,0,,If that thing had entered my brow,
+Dialogue: 0,0:15:10.06,0:15:11.82,Sub,,0,0,0,,I would have turned into a skeleton…
+Dialogue: 0,0:15:12.90,0:15:15.50,Sub,,0,0,0,,You cannot be scared of mere Celestial Beast Feed.
+Dialogue: 0,0:15:16.46,0:15:18.92,Sub,,0,0,0,,How are you going to be respected in the Da Lou Sword Sect ?
+Dialogue: 0,0:15:19.22,0:15:21.29,Sub,,0,0,0,,If we can catch that Celestial Beast Feed,
+Dialogue: 0,0:15:21.58,0:15:23.40,Sub,,0,0,0,,we will rise through the ranks.
+Dialogue: 0,0:15:31.74,0:15:33.30,Sub,,0,0,0,,Using his Junior's life as a test.
+Dialogue: 0,0:15:34.82,0:15:35.94,Sub,,0,0,0,,This Senior Brother
+Dialogue: 0,0:15:36.66,0:15:38.26,Sub,,0,0,0,,is ill-intentioned.
+Dialogue: 0,0:15:46.06,0:15:47.54,Sub,,0,0,0,,A celestial artifact ?
+Dialogue: 0,0:15:49.38,0:15:50.90,Sub,,0,0,0,,I found a celestial artifact !
+Dialogue: 0,0:16:09.30,0:16:10.19,Sub,,0,0,0,,Retreat !
+Dialogue: 0,0:16:20.90,0:16:21.50,Sub,,0,0,0,,Die !
+Dialogue: 0,0:16:22.26,0:16:23.54,Sub,,0,0,0,,Two Swords Spirit World !
+Dialogue: 0,0:16:34.30,0:16:34.82,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:16:35.46,0:16:37.06,Sub,,0,0,0,,why are there so many Celestial Beast Feeds ?
+Dialogue: 0,0:16:38.78,0:16:40.96,Sub,,0,0,0,,The aura of that artifact must be too strong.
+Dialogue: 0,0:16:41.10,0:16:42.06,Sub,,0,0,0,,Under its influence,
+Dialogue: 0,0:16:42.42,0:16:44.19,Sub,,0,0,0,,the Celestial Beast Feeds grew to such an extent.
+Dialogue: 0,0:16:44.22,0:16:44.94,Sub,,0,0,0,,It's a disaster !
+Dialogue: 0,0:16:46.02,0:16:47.06,Sub,,0,0,0,,With our cultivation,
+Dialogue: 0,0:16:47.26,0:16:50.12,Sub,,0,0,0,,it will be difficult to escape so many Celestial Beast Feeds.
+Dialogue: 0,0:16:50.32,0:16:52.42,Sub,,0,0,0,,I can only use my Junior's life
+Dialogue: 0,0:16:52.46,0:16:53.78,Sub,,0,0,0,,to keep me alive.
+Dialogue: 0,0:16:54.14,0:16:54.70,Sub,,0,0,0,,Junior !
+Dialogue: 0,0:16:55.18,0:16:56.67,Sub,,0,0,0,,Watch out behind you !
+Dialogue: 0,0:17:02.06,0:17:02.74,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:17:03.54,0:17:04.54,Sub,,0,0,0,,what are you doing ?
+Dialogue: 0,0:17:04.95,0:17:07.30,Card,,0,0,0,,{\pos(267,510)\fad(300,00}Sun Lei\NDa Lou Sword Sect disciple\NMiddle stage Soul Formation
+Dialogue: 0,0:17:06.94,0:17:08.18,Sub,,0,0,0,,Middle stage Soul Formation ?!
+Dialogue: 0,0:17:14.46,0:17:15.02,Sub,,0,0,0,,You...
+Dialogue: 0,0:17:15.58,0:17:16.64,Sub,,0,0,0,,Who the hell are you ?
+Dialogue: 0,0:17:25.70,0:17:28.21,Sub,,0,0,0,,Obtaining a celestial artifact is an unprecedented opportunity.
+Dialogue: 0,0:17:28.34,0:17:30.62,Sub,,0,0,0,,While the Celestial Beast Feeds are running rampant,
+Dialogue: 0,0:17:30.90,0:17:33.14,Sub,,0,0,0,,now is my best chance to get it.
+Dialogue: 0,0:17:52.07,0:17:58.75,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:17:58.82,0:18:04.91,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:18:05.02,0:18:08.85,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:18:08.88,0:18:12.78,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:18:13.14,0:18:18.79,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:18:19.97,0:18:25.80,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:18:26.11,0:18:31.65,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:18:32.11,0:18:36.33,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:18:36.59,0:18:39.82,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:18:39.99,0:18:45.81,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:18:46.33,0:18:50.01,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:50.11,0:18:53.93,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:54.11,0:18:59.78,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:19:00.04,0:19:03.71,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:19:03.92,0:19:07.49,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:19:07.61,0:19:13.53,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:19:13.60,0:19:17.61,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:19:17.64,0:19:21.43,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:19:22.02,0:19:27.26,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:19:27.33,0:19:31.21,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:19:31.25,0:19:35.05,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:19:35.35,0:19:40.91,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:19:41.55,0:19:47.77,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:19:48.07,0:19:54.57,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:19:55.59,0:20:01.29,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:20:01.46,0:20:08.16,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

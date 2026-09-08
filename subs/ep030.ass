@@ -1,0 +1,240 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Message,Lucida Sans,40,&H004037FF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:00.44,0:02:02.64,Sub,,0,0,0,,We're so dead...
+Dialogue: 0,0:02:09.08,0:02:09.80,Sub,,0,0,0,,Go higher.
+Dialogue: 0,0:02:21.72,0:02:23.00,Sub,,0,0,0,,Master, it won't work !
+Dialogue: 0,0:02:23.00,0:02:24.80,Sub,,0,0,0,,We're too slow, we can't dodge !
+Dialogue: 0,0:02:37.80,0:02:39.08,Sub,,0,0,0,,Come with me !
+Dialogue: 0,0:03:10.16,0:03:11.68,Sub,,0,0,0,,Bringing you along
+Dialogue: 0,0:03:11.92,0:03:14.00,Sub,,0,0,0,,gives me more cards to play for my safety.
+Dialogue: 0,0:04:23.44,0:04:25.48,Sub,,0,0,0,,Master is too generous to it
+Dialogue: 0,0:04:25.84,0:04:27.60,Sub,,0,0,0,,for gathering so many underlings.
+Dialogue: 0,0:04:28.68,0:04:29.80,Sub,,0,0,0,,Guard me.
+Dialogue: 0,0:04:31.24,0:04:32.68,Sub,,0,0,0,,Leave it to me, Master.
+Dialogue: 0,0:04:35.36,0:04:38.24,Sub,,0,0,0,,The bag of holding is no longer sealed by Divine Sense.
+Dialogue: 0,0:04:38.64,0:04:40.56,Sub,,0,0,0,,That means Hunchback Meng is dead.
+Dialogue: 0,0:04:47.52,0:04:48.72,Sub,,0,0,0,,Top-quality spirit stones !
+Dialogue: 0,0:05:03.56,0:05:04.44,Sub,,0,0,0,,This cauldron
+Dialogue: 0,0:05:04.44,0:05:07.04,Sub,,0,0,0,,was the treasure of a rank 3 country:
+Dialogue: 0,0:05:07.04,0:05:08.56,Sub,,0,0,0,,the Medicine King Cauldron.
+Dialogue: 0,0:05:08.60,0:05:10.48,Sub,,0,0,0,,Hunchback Meng killed its owner, took the cauldron,
+Dialogue: 0,0:05:10.68,0:05:13.04,Sub,,0,0,0,,and made it his life artifact.
+Dialogue: 0,0:05:13.16,0:05:15.60,Sub,,0,0,0,,He tempered it for thousands of years with his life energy
+Dialogue: 0,0:05:15.60,0:05:17.96,Sub,,0,0,0,,to forge it into the Poison King Cauldron.
+Dialogue: 0,0:05:17.96,0:05:20.48,Sub,,0,0,0,,Its spiritual energy is poisonous,
+Dialogue: 0,0:05:20.64,0:05:24.20,Sub,,0,0,0,,that green mist can destroy Divine Sense.
+Dialogue: 0,0:05:26.20,0:05:27.72,Sub,,0,0,0,,Although this treasure is dangerous,
+Dialogue: 0,0:05:28.40,0:05:29.72,Sub,,0,0,0,,if I use it properly,
+Dialogue: 0,0:05:30.40,0:05:32.40,Sub,,0,0,0,,it will help me leave this place safely.
+Dialogue: 0,0:06:47.92,0:06:49.52,Sub,,0,0,0,,Wow !
+Dialogue: 0,0:06:49.68,0:06:52.48,Sub,,0,0,0,,An artifact made from a Soul Formation's life artifact !
+Dialogue: 0,0:06:54.48,0:06:55.64,Sub,,0,0,0,,Congratulations, Master.
+Dialogue: 0,0:06:56.36,0:06:57.96,Sub,,0,0,0,,This poison sword
+Dialogue: 0,0:06:58.28,0:07:00.88,Sub,,0,0,0,,can poison a Nascent Soul with a single hit !
+Dialogue: 0,0:07:00.92,0:07:03.12,Sub,,0,0,0,,It would leave them at death's door !
+Dialogue: 0,0:07:19.60,0:07:21.16,Sub,,0,0,0,,So what if it has many underlings ?
+Dialogue: 0,0:07:21.16,0:07:22.40,Sub,,0,0,0,,What's so great about you ?
+Dialogue: 0,0:07:22.48,0:07:24.52,Sub,,0,0,0,,I'll get some underlings very soon too !
+Dialogue: 0,0:07:36.80,0:07:38.40,Sub,,0,0,0,,Check the surroundings.
+Dialogue: 0,0:07:46.60,0:07:48.36,Sub,,0,0,0,,Earth Trial:
+Dialogue: 0,0:07:48.36,0:07:50.00,Sub,,0,0,0,,Bridge of No Return
+Dialogue: 0,0:07:44.80,0:07:55.56,Message,,0,0,0,,{\fad(1000,000)\pos(912,482)}Earth Trial: Bridge of No Return\N\NI have passed through the Earth Trial and killed its king before reaching this Road of No Return. This place is very interesting, if anyone in the future sees this, then consider it fate.\N\NCarefully ponder the meaning of 'No Return'.
+Dialogue: 0,0:07:50.36,0:07:51.44,Sub,,0,0,0,,No Return ?
+Dialogue: 0,0:07:51.56,0:07:54.80,Sub,,0,0,0,,Carefully ponder the meaning of 'No Return'.
+Dialogue: 0,0:07:55.04,0:07:57.04,Sub,,0,0,0,,Why is there such a message here ?
+Dialogue: 0,0:08:02.36,0:08:03.60,Sub,,0,0,0,,No Return...
+Dialogue: 0,0:08:04.88,0:08:06.28,Sub,,0,0,0,,No Return...
+Dialogue: 0,0:08:07.44,0:08:09.16,Sub,,0,0,0,,Does it mean that once you step on it,
+Dialogue: 0,0:08:09.44,0:08:10.84,Sub,,0,0,0,,you cannot come back ?
+Dialogue: 0,0:08:15.20,0:08:17.72,Sub,,0,0,0,,Master still values me more.
+Dialogue: 0,0:08:17.92,0:08:18.92,Sub,,0,0,0,,If he didn't,
+Dialogue: 0,0:08:19.24,0:08:21.84,Sub,,0,0,0,,wouldn't he let Number Two do the job ?
+Dialogue: 0,0:08:28.00,0:08:28.72,Sub,,0,0,0,,Master !
+Dialogue: 0,0:08:28.72,0:08:30.08,Sub,,0,0,0,,Nothing's wrong here !
+Dialogue: 0,0:08:35.40,0:08:36.08,Sub,,0,0,0,,Go.
+Dialogue: 0,0:08:41.04,0:08:41.72,Sub,,0,0,0,,Stop.
+Dialogue: 0,0:08:43.40,0:08:44.12,Sub,,0,0,0,,Come back.
+Dialogue: 0,0:08:51.76,0:08:53.12,Sub,,0,0,0,,The devil was fine
+Dialogue: 0,0:08:53.96,0:08:55.48,Sub,,0,0,0,,but the beast wasn't.
+Dialogue: 0,0:08:56.52,0:08:58.28,Sub,,0,0,0,,The devil is somewhat of a special entity.
+Dialogue: 0,0:08:59.20,0:09:01.08,Sub,,0,0,0,,It means that every living being
+Dialogue: 0,0:09:01.08,0:09:02.04,Sub,,0,0,0,,that steps on this bridge
+Dialogue: 0,0:09:02.36,0:09:03.96,Sub,,0,0,0,,cannot turn back.
+Dialogue: 0,0:09:32.92,0:09:33.76,Sub,,0,0,0,,They're gone ?
+Dialogue: 0,0:09:49.52,0:09:50.84,Sub,,0,0,0,,A Desolate Beast !
+Dialogue: 0,0:10:19.72,0:10:21.64,Sub,,0,0,0,,If it really were a Desolate Beast,
+Dialogue: 0,0:10:21.88,0:10:23.88,Sub,,0,0,0,,a single breath would've blown me away
+Dialogue: 0,0:10:25.32,0:10:27.16,Sub,,0,0,0,,not make my clothes flutter.
+Dialogue: 0,0:10:30.84,0:10:31.92,Sub,,0,0,0,,It's an illusion.
+Dialogue: 0,0:10:35.24,0:10:36.60,Sub,,0,0,0,,Tie Zhu !
+Dialogue: 0,0:10:38.56,0:10:39.32,Sub,,0,0,0,,My son...
+Dialogue: 0,0:10:40.16,0:10:41.28,Sub,,0,0,0,,You've lost weight...
+Dialogue: 0,0:10:41.32,0:10:41.92,Sub,,0,0,0,,Father...
+Dialogue: 0,0:10:43.08,0:10:43.68,Sub,,0,0,0,,Mother...
+Dialogue: 0,0:10:44.12,0:10:45.12,Sub,,0,0,0,,Dear,
+Dialogue: 0,0:10:45.48,0:10:47.84,Sub,,0,0,0,,didn’t we bring something for Tie Zhu ?
+Dialogue: 0,0:10:48.52,0:10:49.68,Sub,,0,0,0,,Tie Zhu,
+Dialogue: 0,0:10:49.68,0:10:51.48,Sub,,0,0,0,,Mother brought your favorite spiced beef.
+Dialogue: 0,0:10:52.32,0:10:53.34,Sub,,0,0,0,,My son,
+Dialogue: 0,0:10:53.36,0:10:54.96,Sub,,0,0,0,,come and take it !
+Dialogue: 0,0:10:55.12,0:10:55.92,Sub,,0,0,0,,Right,
+Dialogue: 0,0:10:56.32,0:10:59.56,Sub,,0,0,0,,didn't you love your mom's spiced beef ?
+Dialogue: 0,0:11:00.12,0:11:01.12,Sub,,0,0,0,,An illusion...
+Dialogue: 0,0:11:02.64,0:11:03.80,Sub,,0,0,0,,This is an illusion.
+Dialogue: 0,0:11:07.44,0:11:09.68,Sub,,0,0,0,,Wang Lin dared to kill my grandson
+Dialogue: 0,0:11:10.68,0:11:12.68,Sub,,0,0,0,,so I'll exterminate his entire family !
+Dialogue: 0,0:11:17.96,0:11:18.76,Sub,,0,0,0,,Tie Zhu...
+Dialogue: 0,0:11:19.32,0:11:20.72,Sub,,0,0,0,,Save your father !
+Dialogue: 0,0:11:21.00,0:11:21.52,Sub,,0,0,0,,Tie Zhu !
+Dialogue: 0,0:11:21.52,0:11:24.08,Sub,,0,0,0,,Why won't you turn around to save us ?
+Dialogue: 0,0:11:25.72,0:11:28.12,Sub,,0,0,0,,Turn around and look at your mother.
+Dialogue: 0,0:11:28.12,0:11:30.00,Sub,,0,0,0,,How could you be so heartless ?
+Dialogue: 0,0:11:30.32,0:11:32.24,Sub,,0,0,0,,Why don't you turn your head ?
+Dialogue: 0,0:11:32.32,0:11:33.28,Sub,,0,0,0,,Tie Zhu !
+Dialogue: 0,0:11:35.12,0:11:37.84,Sub,,0,0,0,,I crushed the Divine Sense Bead you gave us,
+Dialogue: 0,0:11:38.04,0:11:39.60,Sub,,0,0,0,,come back now !
+Dialogue: 0,0:11:41.56,0:11:42.52,Sub,,0,0,0,,Tie Zhu...
+Dialogue: 0,0:11:51.60,0:11:55.24,Sub,,0,0,0,,Even facing death, my parents never crushed the Divine Sense Bead.
+Dialogue: 0,0:11:53.84,0:11:54.84,Second,,0,0,0,,Tie Zhu...
+Dialogue: 0,0:11:55.36,0:11:56.16,Sub,,0,0,0,,I beg you !
+Dialogue: 0,0:11:56.16,0:11:57.48,Sub,,0,0,0,,They're not my parents.
+Dialogue: 0,0:11:58.68,0:12:01.12,Sub,,0,0,0,,Father and Mother protected me until the end.
+Dialogue: 0,0:12:01.68,0:12:04.08,Sub,,0,0,0,,Why would they make me turn back here now ?
+Dialogue: 0,0:12:04.80,0:12:05.64,Sub,,0,0,0,,I beg you !!!
+Dialogue: 0,0:12:05.64,0:12:07.12,Sub,,0,0,0,,It's an illusion.
+Dialogue: 0,0:12:08.64,0:12:10.28,Sub,,0,0,0,,This is all an illusion !
+Dialogue: 0,0:12:19.84,0:12:22.16,Sub,,0,0,0,,The Bridge of No Return was very dangerous...
+Dialogue: 0,0:12:45.64,0:12:46.68,Sub,,0,0,0,,Go.
+Dialogue: 0,0:12:58.48,0:13:00.04,Sub,,0,0,0,,This is a restriction !
+Dialogue: 0,0:13:12.40,0:13:14.60,Sub,,0,0,0,,This restriction is very powerful.
+Dialogue: 0,0:13:28.32,0:13:29.28,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:13:31.92,0:13:34.48,Sub,,0,0,0,,that this place is covered in restrictions ?
+Dialogue: 0,0:13:35.44,0:13:37.08,Sub,,0,0,0,,This is a restriction mountain !
+Dialogue: 0,0:13:38.56,0:13:40.08,Sub,,0,0,0,,It seems this second trial
+Dialogue: 0,0:13:40.08,0:13:42.28,Sub,,0,0,0,,requires me to climb this restriction mountain
+Dialogue: 0,0:13:42.28,0:13:43.92,Sub,,0,0,0,,to the summit.
+Dialogue: 0,0:13:45.88,0:13:47.36,Sub,,0,0,0,,Master, over here !
+Dialogue: 0,0:13:50.76,0:13:52.68,Sub,,0,0,0,,Someone was here before me !
+Dialogue: 0,0:13:58.12,0:13:59.92,Sub,,0,0,0,,You're lucky for having me
+Dialogue: 0,0:14:00.40,0:14:02.72,Sub,,0,0,0,,protect you all the way up here.
+Dialogue: 0,0:14:31.96,0:14:34.12,Sub,,0,0,0,,The core of this Ancient God's restriction
+Dialogue: 0,0:14:34.12,0:14:35.88,Sub,,0,0,0,,is indeed beautiful.
+Dialogue: 0,0:15:08.48,0:15:09.28,Sub,,0,0,0,,Master,
+Dialogue: 0,0:15:09.92,0:15:11.64,Sub,,0,0,0,,Yi'er did not fail you.
+Dialogue: 0,0:15:11.76,0:15:13.20,Sub,,0,0,0,,I diligently studied restrictions
+Dialogue: 0,0:15:13.20,0:15:15.12,Sub,,0,0,0,,during the past 1000 years.
+Dialogue: 0,0:15:15.00,0:15:19.96,Sub,,0,0,0,,{\fad(1000,1000)\pos(242,618)}1000 years ago
+Dialogue: 0,0:15:19.56,0:15:20.36,Sub,,0,0,0,,Yi'er,
+Dialogue: 0,0:15:21.24,0:15:22.60,Sub,,0,0,0,,watch carefully.
+Dialogue: 0,0:15:33.60,0:15:35.04,Sub,,0,0,0,,This is a restriction.
+Dialogue: 0,0:15:35.96,0:15:36.84,Sub,,0,0,0,,The second trial
+Dialogue: 0,0:15:37.12,0:15:38.92,Sub,,0,0,0,,is called Restriction Mountain.
+Dialogue: 0,0:15:39.44,0:15:41.92,Sub,,0,0,0,,The mountain is covered in restrictions.
+Dialogue: 0,0:15:44.68,0:15:45.48,Sub,,0,0,0,,Master,
+Dialogue: 0,0:15:46.20,0:15:47.12,Sub,,0,0,0,,this restriction
+Dialogue: 0,0:15:47.80,0:15:50.04,Sub,,0,0,0,,looks somewhat similar to a formation.
+Dialogue: 0,0:15:50.32,0:15:51.12,Sub,,0,0,0,,Correct.
+Dialogue: 0,0:15:52.16,0:15:54.08,Sub,,0,0,0,,A restriction is a type of formation
+Dialogue: 0,0:15:54.96,0:15:56.92,Sub,,0,0,0,,but way more flexible.
+Dialogue: 0,0:15:57.40,0:15:59.60,Sub,,0,0,0,,They can bend according to the cultivator's will
+Dialogue: 0,0:15:59.60,0:16:01.16,Sub,,0,0,0,,in an infinite number of ways.
+Dialogue: 0,0:16:01.16,0:16:03.76,Sub,,0,0,0,,Restrictions are more like Divine Sense in a way.
+Dialogue: 0,0:16:04.76,0:16:06.80,Sub,,0,0,0,,A powerful cultivator can place restrictions
+Dialogue: 0,0:16:07.16,0:16:08.88,Sub,,0,0,0,,just with their Divine Sense.
+Dialogue: 0,0:16:09.20,0:16:10.84,Sub,,0,0,0,,As long as that Divine Sense remains,
+Dialogue: 0,0:16:11.16,0:16:14.08,Sub,,0,0,0,,the restriction will continue to operate.
+Dialogue: 0,0:16:15.80,0:16:18.24,Sub,,0,0,0,,The simplest way to break a restriction
+Dialogue: 0,0:16:18.40,0:16:20.12,Sub,,0,0,0,,is to use brute force.
+Dialogue: 0,0:16:21.00,0:16:23.64,Sub,,0,0,0,,But this method requires having a high cultivation.
+Dialogue: 0,0:16:24.12,0:16:25.84,Sub,,0,0,0,,The higher you climb,
+Dialogue: 0,0:16:25.96,0:16:28.12,Sub,,0,0,0,,the more complex and powerful
+Dialogue: 0,0:16:29.32,0:16:31.04,Sub,,0,0,0,,the restrictions become.
+Dialogue: 0,0:16:32.08,0:16:34.08,Sub,,0,0,0,,The second method to break restrictions
+Dialogue: 0,0:16:34.32,0:16:35.60,Sub,,0,0,0,,is to study them.
+Dialogue: 0,0:16:36.56,0:16:39.64,Sub,,0,0,0,,Once you understand the principles and rules
+Dialogue: 0,0:16:39.64,0:16:41.56,Sub,,0,0,0,,of how a restriction operates,
+Dialogue: 0,0:16:42.56,0:16:45.12,Sub,,0,0,0,,you can naturally break it.
+Dialogue: 0,0:16:45.36,0:16:46.16,Sub,,0,0,0,,Master,
+Dialogue: 0,0:16:46.96,0:16:48.68,Sub,,0,0,0,,disciple will definitely realize
+Dialogue: 0,0:16:48.84,0:16:50.84,Sub,,0,0,0,,your unfulfilled dream.
+Dialogue: 0,0:17:08.12,0:17:10.00,Sub,,0,0,0,,Since I modified the restrictions,
+Dialogue: 0,0:17:10.68,0:17:12.00,Sub,,0,0,0,,no one
+Dialogue: 0,0:17:12.00,0:17:13.92,Sub,,0,0,0,,will be able to follow us.
+Dialogue: 0,0:17:49.35,0:17:56.23,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:17:53.23,0:17:56.23,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:17:56.59,0:18:02.47,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:18:03.59,0:18:09.99,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:18:07.39,0:18:09.99,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:18:10.25,0:18:16.51,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:18:17.15,0:18:24.23,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:18:19.83,0:18:24.23,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:18:24.31,0:18:31.39,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:18:26.35,0:18:31.39,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:18:31.83,0:18:33.91,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:18:33.91,0:18:38.67,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:18:35.31,0:18:38.67,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:18:38.67,0:18:40.67,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:18:40.75,0:18:43.19,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:18:43.39,0:18:45.55,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:18:45.55,0:18:48.47,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:18:48.47,0:18:51.55,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:18:52.83,0:18:58.51,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:18:54.75,0:18:58.51,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:19:00.03,0:19:07.39,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:19:03.91,0:19:07.39,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:19:07.39,0:19:13.99,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:19:08.99,0:19:13.99,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:19:14.19,0:19:16.87,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:19:16.87,0:19:21.23,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:19:21.67,0:19:28.39,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:19:24.19,0:19:28.39,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:19:28.79,0:19:32.63,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:19:32.63,0:19:35.95,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:19:35.95,0:19:41.75,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:19:38.19,0:19:41.75,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:19:43.07,0:19:52.71,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:19:44.87,0:19:52.71,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

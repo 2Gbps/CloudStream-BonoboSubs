@@ -1,10 +1,10 @@
 // Use an integer for version numbers
-version = 3
+version = 4
 
 cloudstream {
     // All of these properties are optional, you can safely remove any of them.
 
-    description = "Renegade Immortal (Xian Ni) series and its movie, 4K HEVC, external English subtitles (Above/Below/Uncut), direct from BonoboSubs"
+    description = "Renegade Immortal (Xian Ni) series and its movie, 4K + 1080p HEVC, English subtitles included, direct from BonoboSubs"
     authors = listOf("2Gbps")
 
     /**

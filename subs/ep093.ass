@@ -1,0 +1,383 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 93_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,37.5,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Wufeng,Lucida Sans,100,&H007C6C5F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:54.00,0:01:57.95,Sub,,0,0,0,,The first Suzaku sacrificed himself
+Dialogue: 0,0:01:59.20,0:02:03.08,Sub,,0,0,0,,along with 9 Middle stage Ascendant cultivators
+Dialogue: 0,0:02:03.20,0:02:06.47,Sub,,0,0,0,,to make the 5 Sealing Swords
+Dialogue: 0,0:02:07.60,0:02:11.32,Sub,,0,0,0,,and seal the Forsaken Immortal Clan for tens of thousands of years.
+Dialogue: 0,0:02:11.96,0:02:12.83,Sub,,0,0,0,,But today,
+Dialogue: 0,0:02:13.88,0:02:17.00,Card,,0,0,0,,{\pos(1645,520)\fad(300,300)}Original Ancestor of the\NForsaken Immortal Clan\N11-Leaf
+Dialogue: 0,0:02:13.76,0:02:16.47,Sub,,0,0,0,,this old man can rival peak Ascendant !
+Dialogue: 0,0:02:16.92,0:02:20.71,Sub,,0,0,0,,No one can stop my clan from taking back planet Fu Wen !
+Dialogue: 0,0:02:28.32,0:02:29.71,Sub,,0,0,0,,Back then,
+Dialogue: 0,0:02:30.64,0:02:32.63,Sub,,0,0,0,,this old man was but a coward
+Dialogue: 0,0:02:33.40,0:02:37.12,Sub,,0,0,0,,who had to watch countless clan members die.
+Dialogue: 0,0:02:37.84,0:02:40.12,Sub,,0,0,0,,For tens of thousands of years,
+Dialogue: 0,0:02:40.20,0:02:43.51,Sub,,0,0,0,,they fed me the lives of my own brethren
+Dialogue: 0,0:02:44.08,0:02:46.67,Sub,,0,0,0,,because I was the Ancestor.
+Dialogue: 0,0:02:47.40,0:02:49.75,Sub,,0,0,0,,This old man is a sinner...
+Dialogue: 0,0:02:50.44,0:02:52.11,Sub,,0,0,0,,I deserve to die...
+Dialogue: 0,0:02:53.72,0:02:56.79,Sub,,0,0,0,,I will be sealed by these swords
+Dialogue: 0,0:02:57.56,0:03:00.04,Sub,,0,0,0,,in place of the Forsaken Immortal Tree.
+Dialogue: 0,0:03:01.68,0:03:03.59,Sub,,0,0,0,,I offer my soul
+Dialogue: 0,0:03:04.24,0:03:05.79,Sub,,0,0,0,,as sacrifice.
+Dialogue: 0,0:03:06.88,0:03:07.87,Sub,,0,0,0,,In exchange,
+Dialogue: 0,0:03:08.76,0:03:10.84,Sub,,0,0,0,,the Forsaken Immortal Clan
+Dialogue: 0,0:03:11.12,0:03:12.39,Sub,,0,0,0,,will be free !
+Dialogue: 0,0:03:14.56,0:03:16.88,Sub,,0,0,0,,I will die for the Dao
+Dialogue: 0,0:03:17.08,0:03:18.47,Sub,,0,0,0,,so that my clan
+Dialogue: 0,0:03:19.52,0:03:21.67,Sub,,0,0,0,,may walk this earth again !
+Dialogue: 0,0:03:27.76,0:03:30.88,Card,,0,0,0,,{\pos(1653,458)\fad(300,300)}Ancestral Spirit Tree\NForsaken Immortal Clan
+Dialogue: 0,0:03:53.80,0:03:55.19,Sub,,0,0,0,,Forsaken Immortal Clan,
+Dialogue: 0,0:03:55.64,0:03:57.39,Sub,,0,0,0,,bid farewell to the Ancestor.
+Dialogue: 0,0:03:58.04,0:04:00.51,Sub,,0,0,0,,Farewell Ancestor.
+Dialogue: 0,0:04:01.12,0:04:02.88,Sub,,0,0,0,,Take back the planet !
+Dialogue: 0,0:04:03.12,0:04:03.91,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:04:04.40,0:04:05.11,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:04:05.48,0:04:06.27,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:04:06.52,0:04:07.67,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:04:11.60,0:04:15.79,Sub,,0,0,0,,As the 14th generation Suzaku,
+Dialogue: 0,0:04:16.32,0:04:19.76,Sub,,0,0,0,,I command all countries of planet Suzaku
+Dialogue: 0,0:04:20.28,0:04:21.83,Sub,,0,0,0,,to wage war against
+Dialogue: 0,0:04:22.88,0:04:24.68,Sub,,0,0,0,,the Forsaken Immortal Clan !
+Dialogue: 0,0:04:43.68,0:04:46.36,Sub,,0,0,0,,Even if I'm one step from Soul Transformation,
+Dialogue: 0,0:04:46.60,0:04:48.52,Sub,,0,0,0,,the amount of celestial jades I have
+Dialogue: 0,0:04:48.52,0:04:51.00,Sub,,0,0,0,,is far from enough to breakthrough.
+Dialogue: 0,0:04:51.40,0:04:53.16,Sub,,0,0,0,,Celestial jades are rare.
+Dialogue: 0,0:04:53.32,0:04:56.00,Sub,,0,0,0,,I must return to the Soul Refining Sect first
+Dialogue: 0,0:04:56.20,0:04:58.96,Sub,,0,0,0,,to seek Senior Du Tian’s guidance.
+Dialogue: 0,0:05:05.28,0:05:06.28,Sub,,0,0,0,,This is…
+Dialogue: 0,0:05:07.64,0:05:09.76,Sub,,0,0,0,,{\fad(000,500)}the Forsaken Immortal Clan ?
+Dialogue: 0,0:05:12.68,0:05:15.64,Card,,0,0,0,,{\fad(300,300)\pos(1627,433)}Country of Zhao
+Dialogue: 0,0:05:29.12,0:05:30.60,Card,,0,0,0,,{\pos(1339,504)\fad(300,000)}Wang Zhuo\NXuan Dao Sect Elder\NLate stage Core Formation
+Dialogue: 0,0:05:31.20,0:05:32.04,Sub,,0,0,0,,Be careful !
+Dialogue: 0,0:05:40.40,0:05:41.44,Sub,,0,0,0,,Junior Brother !
+Dialogue: 0,0:05:42.36,0:05:43.76,Sub,,0,0,0,,You Forsaken Immortal bandits,
+Dialogue: 0,0:05:43.76,0:05:44.96,Sub,,0,0,0,,come out and face me !
+Dialogue: 0,0:05:49.04,0:05:50.12,Sub,,0,0,0,,That’s…
+Dialogue: 0,0:05:50.04,0:05:53.28,Card,,0,0,0,,{\pos(1528,501)\fad(300,300)}Pang Long\NForsaken Immortal Clan\N6-Leaf Shaman
+Dialogue: 0,0:05:51.48,0:05:52.71,Sub,,0,0,0,,a 6-leaf Shaman !
+Dialogue: 0,0:05:54.48,0:05:55.87,Sub,,0,0,0,,Little brats
+Dialogue: 0,0:05:56.52,0:05:58.24,Sub,,0,0,0,,you can keep trying,
+Dialogue: 0,0:05:58.24,0:06:00.03,Sub,,0,0,0,,I'm not done playing with you.
+Dialogue: 0,0:06:01.16,0:06:03.23,Sub,,0,0,0,,Since you refuse to surrender,
+Dialogue: 0,0:06:03.68,0:06:06.31,Sub,,0,0,0,,I let my Juniors will practice on you !
+Dialogue: 0,0:06:25.68,0:06:27.03,Sub,,0,0,0,,I’ll fight you to the death !
+Dialogue: 0,0:06:40.72,0:06:41.75,Sub,,0,0,0,,Boring.
+Dialogue: 0,0:06:42.72,0:06:43.59,Sub,,0,0,0,,Die !
+Dialogue: 0,0:06:58.60,0:06:59.23,Sub,,0,0,0,,Break.
+Dialogue: 0,0:07:03.52,0:07:04.64,Sub,,0,0,0,,Who’s there ?!
+Dialogue: 0,0:07:07.80,0:07:08.79,Sub,,0,0,0,,Soul Transformation !
+Dialogue: 0,0:07:09.56,0:07:10.27,Sub,,0,0,0,,Run !
+Dialogue: 0,0:07:10.80,0:07:11.92,Sub,,0,0,0,,Mosquito Beast !
+Dialogue: 0,0:07:33.80,0:07:35.96,Sub,,0,0,0,,When you reach Nascent Soul,
+Dialogue: 0,0:07:36.48,0:07:38.23,Sub,,0,0,0,,you will remember the past.
+Dialogue: 0,0:07:39.40,0:07:40.56,Sub,,0,0,0,,It’s you ?
+Dialogue: 0,0:07:41.12,0:07:43.80,Sub,,0,0,0,,The Senior that reached Soul Formation at Heng Yue...
+Dialogue: 0,0:07:44.08,0:07:45.48,Sub,,0,0,0,,A few years have passed
+Dialogue: 0,0:07:46.04,0:07:48.28,Sub,,0,0,0,,and you’re already at Late stage Core Formation.
+Dialogue: 0,0:07:48.60,0:07:49.07,Sub,,0,0,0,,Not bad.
+Dialogue: 0,0:07:51.00,0:07:54.12,Sub,,0,0,0,,Unfortunately, I haven't managed to form a Nascent Soul.
+Dialogue: 0,0:07:55.60,0:07:56.88,Sub,,0,0,0,,I’ll help you.
+Dialogue: 0,0:08:15.48,0:08:18.76,Card,,0,0,0,,{\pos(1558,507)\fad(300,300)}Wang Zhuo\NXuan Dao Sect Elder\NEarly stage Nascent Soul
+Dialogue: 0,0:08:24.40,0:08:25.41,Sub,,0,0,0,,Wang Lin...
+Dialogue: 0,0:08:26.92,0:08:27.51,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:08:28.00,0:08:30.40,Sub,,0,0,0,,We're the last remnants of the Wang Family,
+Dialogue: 0,0:08:30.96,0:08:32.64,Sub,,0,0,0,,you don't need to thank me.
+Dialogue: 0,0:08:35.00,0:08:36.48,Sub,,0,0,0,,Times have changed...
+Dialogue: 0,0:08:37.88,0:08:40.68,Sub,,0,0,0,,We once took the Spirit Root test together.
+Dialogue: 0,0:08:40.92,0:08:42.64,Sub,,0,0,0,,Who could’ve imagined
+Dialogue: 0,0:08:42.68,0:08:45.16,Sub,,0,0,0,,that things would turn out like this ?
+Dialogue: 0,0:08:45.24,0:08:46.40,Sub,,0,0,0,,What happened
+Dialogue: 0,0:08:47.00,0:08:48.88,Sub,,0,0,0,,for planet Suzaku to be in this state ?
+Dialogue: 0,0:08:48.96,0:08:50.16,Sub,,0,0,0,,You don’t know !?
+Dialogue: 0,0:08:50.48,0:08:51.84,Sub,,0,0,0,,These past few years,
+Dialogue: 0,0:08:51.84,0:08:53.88,Sub,,0,0,0,,I haven’t been on planet Suzaku.
+Dialogue: 0,0:08:55.20,0:08:56.75,Sub,,0,0,0,,Wang Lin’s cultivation
+Dialogue: 0,0:08:57.88,0:09:00.08,Sub,,0,0,0,,can now traverse the void...
+Dialogue: 0,0:09:03.20,0:09:03.99,Sub,,0,0,0,,3 years ago,
+Dialogue: 0,0:09:05.12,0:09:07.76,Sub,,0,0,0,,the Forsaken Immortal Clan declared war against Suzaku.
+Dialogue: 0,0:09:07.92,0:09:10.47,Sub,,0,0,0,,The country of Suzaku called all countries for help in the war.
+Dialogue: 0,0:09:11.20,0:09:12.72,Sub,,0,0,0,,But who would've thought
+Dialogue: 0,0:09:12.72,0:09:15.00,Sub,,0,0,0,,that the Forsaken Immortal Clan plotted for millennia.
+Dialogue: 0,0:09:15.00,0:09:17.20,Sub,,0,0,0,,They had sent 9 cultivators to the surface
+Dialogue: 0,0:09:17.20,0:09:19.52,Sub,,0,0,0,,to infiltrate important countries.
+Dialogue: 0,0:09:19.88,0:09:22.32,Sub,,0,0,0,,Now, these 9 all hold key positions.
+Dialogue: 0,0:09:22.40,0:09:24.40,Sub,,0,0,0,,Only 5 of them have been exposed.
+Dialogue: 0,0:09:24.44,0:09:26.16,Sub,,0,0,0,,But with their help from within,
+Dialogue: 0,0:09:26.20,0:09:28.59,Sub,,0,0,0,,the country of Suzaku was forced to retreat.
+Dialogue: 0,0:09:29.72,0:09:31.28,Sub,,0,0,0,,To try to turn the tide,
+Dialogue: 0,0:09:31.40,0:09:34.16,Sub,,0,0,0,,Qian Feng challenged the Forsaken Immortal Clan's young patriarch alone.
+Dialogue: 0,0:09:34.20,0:09:35.84,Sub,,0,0,0,,After 3 days and 3 nights,
+Dialogue: 0,0:09:35.88,0:09:37.03,Sub,,0,0,0,,Their duel
+Dialogue: 0,0:09:37.52,0:09:38.55,Sub,,0,0,0,,ended in a draw.
+Dialogue: 0,0:09:39.80,0:09:41.32,Sub,,0,0,0,,After the stalemate,
+Dialogue: 0,0:09:41.44,0:09:44.92,Sub,,0,0,0,,the Forsaken Immortal Clan agreed to a truce.
+Dialogue: 0,0:09:46.20,0:09:48.04,Sub,,0,0,0,,But no one expected
+Dialogue: 0,0:09:48.60,0:09:50.35,Sub,,0,0,0,,that the condition for this truce
+Dialogue: 0,0:09:51.00,0:09:53.83,Sub,,0,0,0,,was for Suzaku to cede all countries under rank 4
+Dialogue: 0,0:09:54.40,0:09:57.39,Sub,,0,0,0,,and hand over their cultivators and gifted children.
+Dialogue: 0,0:09:59.04,0:09:59.99,Sub,,0,0,0,,Since then
+Dialogue: 0,0:10:00.68,0:10:03.43,Sub,,0,0,0,,all rank 3 countries have been in this state.
+Dialogue: 0,0:10:04.40,0:10:06.04,Sub,,0,0,0,,Some were forced to surrender
+Dialogue: 0,0:10:06.04,0:10:07.88,Sub,,0,0,0,,and others refused to yield,
+Dialogue: 0,0:10:08.04,0:10:10.12,Sub,,0,0,0,,becoming a living hell.
+Dialogue: 0,0:10:11.68,0:10:13.63,Sub,,0,0,0,,Our Country of Zhao is struggling to hold on.
+Dialogue: 0,0:10:14.24,0:10:15.78,Sub,,0,0,0,,We're at our wit's end.
+Dialogue: 0,0:10:16.20,0:10:17.64,Sub,,0,0,0,,The mission of our squad
+Dialogue: 0,0:10:17.68,0:10:19.43,Sub,,0,0,0,,was to get help from a rank 4 country
+Dialogue: 0,0:10:19.88,0:10:22.31,Sub,,0,0,0,,in hope that someone will accept to shelter us.
+Dialogue: 0,0:10:23.24,0:10:24.20,Sub,,0,0,0,,But...
+Dialogue: 0,0:10:25.12,0:10:27.00,Sub,,0,0,0,,not only did they coldly refuse
+Dialogue: 0,0:10:27.00,0:10:29.64,Sub,,0,0,0,,but they even mocked us for resisting.
+Dialogue: 0,0:10:30.28,0:10:32.04,Sub,,0,0,0,,And problems never come alone,
+Dialogue: 0,0:10:32.44,0:10:35.40,Sub,,0,0,0,,we were ambushed by the Forsaken Immortal Clan on our way back.
+Dialogue: 0,0:10:35.56,0:10:37.28,Sub,,0,0,0,,I fear it won't be long
+Dialogue: 0,0:10:37.32,0:10:38.96,Sub,,0,0,0,,before Zhao falls too.
+Dialogue: 0,0:10:40.08,0:10:40.71,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:10:41.72,0:10:43.72,Sub,,0,0,0,,can you return to Zhao ?
+Dialogue: 0,0:10:51.84,0:10:52.84,Sub,,0,0,0,,Master,
+Dialogue: 0,0:10:53.12,0:10:55.44,Sub,,0,0,0,,if this Senior is so powerful,
+Dialogue: 0,0:10:55.68,0:10:57.96,Sub,,0,0,0,,couldn't he resolve our country's crisis ?
+Dialogue: 0,0:11:00.00,0:11:01.60,Sub,,0,0,0,,If he helps us,
+Dialogue: 0,0:11:01.60,0:11:03.68,Sub,,0,0,0,,he'd make enemies of both sides.
+Dialogue: 0,0:11:04.32,0:11:05.83,Sub,,0,0,0,,In these times,
+Dialogue: 0,0:11:06.48,0:11:09.07,Sub,,0,0,0,,no one wants be in this kind of situation.
+Dialogue: 0,0:11:19.40,0:11:20.15,Sub,,0,0,0,,Your Highness
+Dialogue: 0,0:11:21.12,0:11:22.56,Sub,,0,0,0,,3 children in the capital
+Dialogue: 0,0:11:22.56,0:11:24.67,Sub,,0,0,0,,were already taken by the outsiders.
+Dialogue: 0,0:11:21.00,0:11:24.12,Card,,0,0,0,,{\fad(300,300)\pos(491,469)}Wang Qi\NPrince of Zhao
+Dialogue: 0,0:11:21.00,0:11:24.12,Card,,0,0,0,,{\pos(1637,432)\fad(300,300)}Queen consort of Zhao
+Dialogue: 0,0:11:24.96,0:11:26.32,Card,,0,0,0,,{\pos(1644,474)\fad(300,000)}Wang Yu\NCrown prince of Zhao
+Dialogue: 0,0:11:25.40,0:11:28.11,Sub,,0,0,0,,Are you sure that place can protect Yu'er ?
+Dialogue: 0,0:11:29.08,0:11:29.99,Sub,,0,0,0,,I'm not sure.
+Dialogue: 0,0:11:30.64,0:11:32.16,Sub,,0,0,0,,But my great-grandfather told me
+Dialogue: 0,0:11:32.24,0:11:34.11,Sub,,0,0,0,,the family's oldest rule:
+Dialogue: 0,0:11:34.72,0:11:36.56,Sub,,0,0,0,,When facing annihilation,
+Dialogue: 0,0:11:36.92,0:11:38.56,Sub,,0,0,0,,enter the Ancestral Home
+Dialogue: 0,0:11:38.72,0:11:40.16,Sub,,0,0,0,,and your life will be saved.
+Dialogue: 0,0:11:40.20,0:11:42.87,Sub,,0,0,0,,What's so special about that Ancestral Home ?
+Dialogue: 0,0:11:43.44,0:11:46.08,Sub,,0,0,0,,Before our Wang Family came to the capital,
+Dialogue: 0,0:11:46.52,0:11:49.12,Sub,,0,0,0,,one of us became a powerful Immortal.
+Dialogue: 0,0:11:49.56,0:11:50.83,Sub,,0,0,0,,He's known as the Ancestor.
+Dialogue: 0,0:11:51.80,0:11:52.92,Sub,,0,0,0,,The Ancestral Home
+Dialogue: 0,0:11:53.20,0:11:55.32,Sub,,0,0,0,,must contain something he left.
+Dialogue: 0,0:11:55.64,0:11:57.16,Sub,,0,0,0,,But after all these years,
+Dialogue: 0,0:11:57.20,0:11:58.80,Sub,,0,0,0,,I'm not sure if it's true.
+Dialogue: 0,0:12:00.04,0:12:02.63,Sub,,0,0,0,,Where have all the Immortals from the capital gone ?
+Dialogue: 0,0:12:03.16,0:12:05.31,Sub,,0,0,0,,They could've protected us !
+Dialogue: 0,0:12:06.08,0:12:08.87,Sub,,0,0,0,,They returned to their sects to fight.
+Dialogue: 0,0:12:09.20,0:12:09.99,Sub,,0,0,0,,If defeated,
+Dialogue: 0,0:12:10.80,0:12:12.27,Sub,,0,0,0,,they'll gather at a designated place.
+Dialogue: 0,0:12:26.08,0:12:27.72,Sub,,0,0,0,,The Sect Formation is falling !
+Dialogue: 0,0:12:30.92,0:12:32.92,Wufeng,,0,0,0,,{\frz340\move(1043,455,901,426)}Wufeng Valley
+Dialogue: 0,0:12:33.72,0:12:35.67,Sub,,0,0,0,,Everyone, retreat to Heng Yue Mountain !
+Dialogue: 0,0:12:36.24,0:12:36.79,Sub,,0,0,0,,Hurry !
+Dialogue: 0,0:12:48.68,0:12:50.40,Sub,,0,0,0,,Did you tell everyone ?
+Dialogue: 0,0:12:50.80,0:12:52.39,Sub,,0,0,0,,They all went to Heng Yue Mountain.
+Dialogue: 0,0:12:53.88,0:12:54.76,Sub,,0,0,0,,Let's go !
+Dialogue: 0,0:13:02.68,0:13:04.12,Sub,,0,0,0,,Quick, into the Ancestral Home !
+Dialogue: 0,0:13:07.40,0:13:09.03,Sub,,0,0,0,,You run quite fast
+Dialogue: 0,0:13:17.12,0:13:17.88,Sub,,0,0,0,,Your Highness...
+Dialogue: 0,0:13:17.92,0:13:20.16,Sub,,0,0,0,,Hand over this children with a Spirit Root
+Dialogue: 0,0:13:20.16,0:13:21.51,Sub,,0,0,0,,and I'll spare your lives.
+Dialogue: 0,0:13:23.00,0:13:23.71,Sub,,0,0,0,,Never !
+Dialogue: 0,0:13:29.64,0:13:31.71,Sub,,0,0,0,,Your country is interesting,
+Dialogue: 0,0:13:32.40,0:13:34.07,Sub,,0,0,0,,why did you gather here like this ?
+Dialogue: 0,0:13:35.08,0:13:36.11,Sub,,0,0,0,,Does this place
+Dialogue: 0,0:13:36.56,0:13:38.39,Sub,,0,0,0,,hide some artifacts ?
+Dialogue: 0,0:13:39.92,0:13:41.59,Sub,,0,0,0,,You're welcome to try.
+Dialogue: 0,0:13:42.48,0:13:43.43,Sub,,0,0,0,,Interesting !
+Dialogue: 0,0:13:44.28,0:13:45.39,Sub,,0,0,0,,Let me see
+Dialogue: 0,0:13:46.00,0:13:48.75,Sub,,0,0,0,,what makes you so confident.
+Dialogue: 0,0:14:09.32,0:14:10.68,Sub,,0,0,0,,The Ancestor !
+Dialogue: 0,0:14:10.92,0:14:12.56,Sub,,0,0,0,,He really exists...
+Dialogue: 0,0:14:19.40,0:14:22.00,Sub,,0,0,0,,This is the legacy of the Ancestor of Zhao,
+Dialogue: 0,0:14:22.00,0:14:23.64,Sub,,0,0,0,,it will surely protect us !
+Dialogue: 0,0:14:25.24,0:14:26.63,Sub,,0,0,0,,The Ancestor has appeared !
+Dialogue: 0,0:14:27.84,0:14:28.99,Sub,,0,0,0,,The Ancestor has appeared !
+Dialogue: 0,0:14:29.44,0:14:31.63,Sub,,0,0,0,,I knew he would protect us !
+Dialogue: 0,0:14:33.64,0:14:35.95,Sub,,0,0,0,,It's actually a domain artifact...
+Dialogue: 0,0:14:36.24,0:14:38.63,Sub,,0,0,0,,Greetings, Elder !
+Dialogue: 0,0:14:38.64,0:14:41.99,Sub,,0,0,0,,But its owner's cultivation is too weak.
+Dialogue: 0,0:14:38.40,0:14:40.92,Card,,0,0,0,,{\pos(1448,500)}Mo Luo\NForsaken Immortal Clan\N6-Leaf Shaman
+Dialogue: 0,0:14:44.04,0:14:46.43,Sub,,0,0,0,,Merely Early stage Soul Formation...
+Dialogue: 0,0:14:47.24,0:14:49.15,Sub,,0,0,0,,Even if he came here personally,
+Dialogue: 0,0:14:49.68,0:14:51.59,Sub,,0,0,0,,he wouldn't survive,
+Dialogue: 0,0:14:52.08,0:14:54.19,Sub,,0,0,0,,let alone his artifact.
+Dialogue: 0,0:14:59.64,0:15:01.40,Sub,,0,0,0,,The country's artifact is attacked !
+Dialogue: 0,0:15:01.40,0:15:02.71,Sub,,0,0,0,,what do we do ?
+Dialogue: 0,0:15:06.20,0:15:08.31,Sub,,0,0,0,,This object is intriguing.
+Dialogue: 0,0:15:10.00,0:15:12.51,Sub,,0,0,0,,It would be a pity to destroy it.
+Dialogue: 0,0:15:26.64,0:15:28.79,Sub,,0,0,0,,It's a real treasure !
+Dialogue: 0,0:15:34.04,0:15:36.19,Sub,,0,0,0,,For this object's sake,
+Dialogue: 0,0:15:36.84,0:15:38.91,Sub,,0,0,0,,I won't make things difficult for you.
+Dialogue: 0,0:15:40.00,0:15:42.71,Sub,,0,0,0,,Become vassals of our Forsaken Immortal Clan
+Dialogue: 0,0:15:42.72,0:15:45.79,Sub,,0,0,0,,and you'll far better than under Suzaku.
+Dialogue: 0,0:15:46.60,0:15:47.71,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:15:47.72,0:15:48.80,Sub,,0,0,0,,Dream on !
+Dialogue: 0,0:15:48.80,0:15:52.63,Sub,,0,0,0,,We'll defend Zhao to the death !
+Dialogue: 0,0:15:52.64,0:15:54.19,Sub,,0,0,0,,We'll never surrender !
+Dialogue: 0,0:15:54.44,0:15:55.59,Sub,,0,0,0,,In that case,
+Dialogue: 0,0:15:56.00,0:15:57.11,Sub,,0,0,0,,the Country of Zhao
+Dialogue: 0,0:15:57.72,0:15:59.87,Sub,,0,0,0,,shall be destroyed today !
+Dialogue: 0,0:16:10.36,0:16:11.43,Sub,,0,0,0,,You
+Dialogue: 0,0:16:12.60,0:16:13.83,Sub,,0,0,0,,are unworthy.
+Dialogue: 0,0:16:32.36,0:16:33.59,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:16:34.32,0:16:35.35,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:16:36.24,0:16:37.67,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:16:38.20,0:16:39.51,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:16:40.88,0:16:43.11,Sub,,0,0,0,,His cultivation is unfathomable.
+Dialogue: 0,0:16:43.84,0:16:45.91,Sub,,0,0,0,,At first glance, Peak Late stage Soul Formation
+Dialogue: 0,0:16:46.92,0:16:49.39,Sub,,0,0,0,,but it contains a strange power...
+Dialogue: 0,0:16:51.24,0:16:52.28,Sub,,0,0,0,,Hand over
+Dialogue: 0,0:16:53.20,0:16:54.36,Sub,,0,0,0,,the wood carving.
+Dialogue: 0,0:16:57.40,0:16:58.32,Sub,,0,0,0,,Tattoo,
+Dialogue: 0,0:16:58.40,0:16:59.28,Sub,,0,0,0,,explode !
+Dialogue: 0,0:17:09.40,0:17:10.24,Sub,,0,0,0,,What !?
+Dialogue: 0,0:17:10.24,0:17:13.19,Sub,,0,0,0,,He neutralized my attack so easily ?
+Dialogue: 0,0:17:14.28,0:17:16.99,Sub,,0,0,0,,It's just a rank 3 country's Ancestor
+Dialogue: 0,0:17:17.72,0:17:20.04,Sub,,0,0,0,,but he's a Soul Transformation old monster !
+Dialogue: 0,0:17:20.20,0:17:22.47,Sub,,0,0,0,,Why is this happening to me ?
+Dialogue: 0,0:17:26.60,0:17:28.52,Sub,,0,0,0,,Did I allow you to leave ?
+Dialogue: 0,0:17:31.76,0:17:32.64,Sub,,0,0,0,,Sir,
+Dialogue: 0,0:17:33.08,0:17:35.55,Sub,,0,0,0,,we have a truce with Suzaku.
+Dialogue: 0,0:17:36.24,0:17:37.99,Sub,,0,0,0,,Do you dare to break it ?
+Dialogue: 0,0:17:39.00,0:17:40.23,Sub,,0,0,0,,So what if I do ?
+Dialogue: 0,0:18:04.52,0:18:06.28,Sub,,0,0,0,,Since it has come to this,
+Dialogue: 0,0:18:06.28,0:18:08.91,Sub,,0,0,0,,I must use the Reincarnation Tree's power to go back !
+Dialogue: 0,0:18:25.84,0:18:26.73,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:18:36.08,0:18:37.72,Sub,,0,0,0,,If you kill me,
+Dialogue: 0,0:18:37.80,0:18:40.48,Sub,,0,0,0,,there will be a lingering tattoo curse on you.
+Dialogue: 0,0:18:40.56,0:18:42.00,Sub,,0,0,0,,When my Seniors see it
+Dialogue: 0,0:18:42.08,0:18:43.35,Sub,,0,0,0,,they will kill you.
+Dialogue: 0,0:18:43.40,0:18:45.08,Sub,,0,0,0,,I have already killed quite a few
+Dialogue: 0,0:18:45.12,0:18:47.07,Sub,,0,0,0,,Forsaken Immortal Clan members.
+Dialogue: 0,0:18:47.80,0:18:49.27,Sub,,0,0,0,,6-leaf Warrior ?
+Dialogue: 0,0:18:49.88,0:18:51.35,Sub,,0,0,0,,And even Shamans !
+Dialogue: 0,0:18:52.16,0:18:53.00,Sub,,0,0,0,,No...
+Dialogue: 0,0:18:53.16,0:18:54.87,Sub,,0,0,0,,Impossible !
+Dialogue: 0,0:18:54.88,0:18:55.88,Sub,,0,0,0,,Absorb !
+Dialogue: 0,0:19:11.68,0:19:14.19,Sub,,0,0,0,,Junior Zhen Fengxiao of the Xuan Dao Sect
+Dialogue: 0,0:19:14.48,0:19:16.19,Sub,,0,0,0,,pays respects to Ancestor.
+Dialogue: 0,0:19:17.88,0:19:19.40,Sub,,0,0,0,,I'm not your Ancestor.
+Dialogue: 0,0:19:19.80,0:19:21.44,Second,,0,0,0,,Note: they say 200 but it's incorrect
+Dialogue: 0,0:19:19.80,0:19:21.44,Sub,,0,0,0,,100 years ago,
+Dialogue: 0,0:19:21.44,0:19:23.88,Sub,,0,0,0,,when you reached Soul Formation at the Xuan Dao Sect,
+Dialogue: 0,0:19:23.88,0:19:25.76,Sub,,0,0,0,,you earned the title of Ancestor.
+Dialogue: 0,0:19:26.16,0:19:27.08,Sub,,0,0,0,,And now,
+Dialogue: 0,0:19:27.28,0:19:28.95,Sub,,0,0,0,,you've saved Zhao
+Dialogue: 0,0:19:28.96,0:19:30.63,Sub,,0,0,0,,from certain destruction.
+Dialogue: 0,0:19:31.08,0:19:33.20,Sub,,0,0,0,,Fulfilling the Ancestor's role.
+Dialogue: 0,0:19:33.76,0:19:37.19,Sub,,0,0,0,,You are Zhao rightful Ancestor !
+Dialogue: 0,0:19:40.80,0:19:41.67,Sub,,0,0,0,,My son,
+Dialogue: 0,0:19:41.92,0:19:43.91,Sub,,0,0,0,,it doesn't matter if you aren't chosen.
+Dialogue: 0,0:19:44.64,0:19:46.36,Sub,,0,0,0,,You can always come back home,
+Dialogue: 0,0:19:46.36,0:19:47.59,Sub,,0,0,0,,you still have your parents.
+Dialogue: 0,0:19:48.88,0:19:50.59,Sub,,0,0,0,,500 years have passed...
+Dialogue: 0,0:19:58.64,0:20:01.19,Sub,,0,0,0,,We pay Respects to Zhao's Ancestor !
+Dialogue: 0,0:20:03.48,0:20:05.28,Sub,,0,0,0,,Lectures on cultivation
+Dialogue: 0,0:20:05.52,0:20:07.64,Sub,,0,0,0,,to clarify the right path
+Dialogue: 0,0:20:09.48,0:20:12.20,Sub,,0,0,0,,will help Core Formations form Nascent Souls.
+Dialogue: 0,0:20:14.12,0:20:15.64,Sub,,0,0,0,,Seeing a domain
+Dialogue: 0,0:20:16.20,0:20:18.04,Sub,,0,0,0,,and understanding the heavens
+Dialogue: 0,0:20:19.12,0:20:21.35,Sub,,0,0,0,,gives Nascent Souls hope for Soul Formation.
+Dialogue: 0,0:20:22.76,0:20:24.36,Sub,,0,0,0,,Stronger formations
+Dialogue: 0,0:20:24.64,0:20:26.34,Sub,,0,0,0,,will help resist invaders.
+Dialogue: 0,0:20:26.80,0:20:28.87,Sub,,0,0,0,,Only a Soul Transformation can break them.
+Dialogue: 0,0:20:30.32,0:20:31.83,Sub,,0,0,0,,The future of Zhao
+Dialogue: 0,0:20:33.00,0:20:34.75,Sub,,0,0,0,,will depend on their own fate.
+Dialogue: 0,0:20:49.12,0:20:50.80,Sub,,0,0,0,,Have you decided ?
+Dialogue: 0,0:20:54.88,0:20:56.36,Sub,,0,0,0,,In both my lives,
+Dialogue: 0,0:20:56.60,0:20:58.31,Sub,,0,0,0,,the Wang Family raised me.
+Dialogue: 0,0:20:58.88,0:21:00.40,Sub,,0,0,0,,All I want now
+Dialogue: 0,0:21:01.24,0:21:03.32,Sub,,0,0,0,,is to spend my remaining time
+Dialogue: 0,0:21:03.32,0:21:05.32,Sub,,0,0,0,,protecting future generations !
+Dialogue: 0,0:21:07.00,0:21:08.56,Sub,,0,0,0,,Matters of the past
+Dialogue: 0,0:21:08.60,0:21:09.96,Sub,,0,0,0,,end here.
+Dialogue: 0,0:21:11.60,0:21:14.28,Sub,,0,0,0,,I too must attend to my duties.
+Dialogue: 0,0:21:19.52,0:21:20.40,Sub,,0,0,0,,Take care.
+Dialogue: 0,0:21:47.52,0:21:49.48,Sub,,0,0,0,,Little friend Ceng Niu,
+Dialogue: 0,0:21:50.16,0:21:51.68,Sub,,0,0,0,,you're finally back.
+Dialogue: 0,0:22:20.54,0:22:23.84,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:22:23.84,0:22:25.56,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:22:25.60,0:22:27.50,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:22:28.38,0:22:34.98,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:22:31.22,0:22:34.98,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:22:34.98,0:22:42.58,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:22:38.22,0:22:42.58,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:22:43.02,0:22:50.14,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:22:45.78,0:22:50.14,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:22:50.46,0:22:53.46,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:22:51.74,0:22:53.46,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:22:53.75,0:22:57.18,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:22:55.58,0:22:57.18,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:22:57.74,0:23:01.26,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:23:01.26,0:23:04.58,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:23:05.34,0:23:08.54,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:23:08.90,0:23:12.74,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:23:10.74,0:23:12.74,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:23:12.90,0:23:17.70,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:23:14.46,0:23:17.70,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:23:17.71,0:23:20.42,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:23:20.46,0:23:23.74,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:23:23.74,0:23:28.38,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:23:28.38,0:23:31.78,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:23:31.82,0:23:36.46,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:23:36.91,0:23:42.14,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:23:42.26,0:23:46.06,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:23:46.06,0:23:50.70,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:23:47.74,0:23:50.70,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:23:50.86,0:23:53.78,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:23:53.78,0:23:58.66,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:23:58.67,0:24:01.94,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:24:02.10,0:24:06.66,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:24:06.66,0:24:10.62,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:24:10.62,0:24:13.42,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:24:13.50,0:24:17.30,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:24:17.38,0:24:20.66,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:24:20.94,0:24:25.90,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

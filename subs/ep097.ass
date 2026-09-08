@@ -1,0 +1,387 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 97_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:53.32,0:01:55.63,Sub,,0,0,0,,Zhuque Zi doesn't control the Cultivation Planet Crystal yet.
+Dialogue: 0,0:01:57.64,0:02:00.12,Sub,,0,0,0,,And Situ still needs time to possess his new body...
+Dialogue: 0,0:02:00.72,0:02:01.88,Sub,,0,0,0,,Once he awakens,
+Dialogue: 0,0:02:01.92,0:02:04.48,Sub,,0,0,0,,I will retrieve both my soul strand and Wan'er's.
+Dialogue: 0,0:02:05.80,0:02:07.72,Sub,,0,0,0,,Now that planet Suzaku is in chaos,
+Dialogue: 0,0:02:07.72,0:02:09.48,Sub,,0,0,0,,it's no longer suitable for cultivation.
+Dialogue: 0,0:02:10.36,0:02:12.72,Sub,,0,0,0,,But if I'm heading to planet Tian Yun,
+Dialogue: 0,0:02:12.84,0:02:14.27,Sub,,0,0,0,,I'll need to prepare thoroughly.
+Dialogue: 0,0:02:16.68,0:02:19.72,Sub,,0,0,0,,There is also the problem of Tuo Sen from the Land of the Ancient God...
+Dialogue: 0,0:02:20.32,0:02:22.63,Sub,,0,0,0,,This blood contains a trace of Ancient God blood
+Dialogue: 0,0:02:23.44,0:02:25.91,Sub,,0,0,0,,so it's perfect for my Ancient God body.
+Dialogue: 0,0:02:27.64,0:02:29.43,Sub,,0,0,0,,But this amount is far from enough...
+Dialogue: 0,0:02:30.92,0:02:33.64,Sub,,0,0,0,,The person I found under the Corpse Sect begging for help
+Dialogue: 0,0:02:33.64,0:02:36.84,Sub,,0,0,0,,must be the founding Ancestor of the Giant Demon Clan.
+Dialogue: 0,0:02:37.20,0:02:39.15,Sub,,0,0,0,,Perhaps I should take this chance to visit the Corpse Sect
+Dialogue: 0,0:02:39.56,0:02:41.04,Sub,,0,0,0,,and see if I can get more.
+Dialogue: 0,0:02:57.00,0:02:57.87,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:02:58.84,0:03:00.19,Sub,,0,0,0,,it’s been a while.
+Dialogue: 0,0:03:00.72,0:03:02.23,Sub,,0,0,0,,Do you still remember me ?
+Dialogue: 0,0:03:02.92,0:03:03.71,Sub,,0,0,0,,Brother Zhou,
+Dialogue: 0,0:03:05.00,0:03:05.99,Sub,,0,0,0,,long time no see.
+Dialogue: 0,0:03:12.32,0:03:13.80,Sub,,0,0,0,,It's wine from back then,
+Dialogue: 0,0:03:14.12,0:03:15.15,Sub,,0,0,0,,my last jar.
+Dialogue: 0,0:03:19.00,0:03:21.23,Sub,,0,0,0,,This wine is still the same as back then
+Dialogue: 0,0:03:22.24,0:03:24.11,Sub,,0,0,0,,and so are the people.
+Dialogue: 0,0:03:25.00,0:03:25.91,Sub,,0,0,0,,As the saying goes:
+Dialogue: 0,0:03:26.64,0:03:29.04,Sub,,0,0,0,,"Things remain the same, but it's the people that change."
+Dialogue: 0,0:03:26.64,0:03:29.04,Second,,0,0,0,,"Spring at Wuling", poem by Li Qingzhao
+Dialogue: 0,0:03:29.12,0:03:33.12,Sub,,0,0,0,,But it seems that the people remain the same, and it's the things that have changed.
+Dialogue: 0,0:03:33.84,0:03:35.31,Sub,,0,0,0,,Since the Four Sect Alliance,
+Dialogue: 0,0:03:35.60,0:03:38.71,Sub,,0,0,0,,Brother Wang has gained a mighty reputation on planet Suzaku.
+Dialogue: 0,0:03:39.52,0:03:41.63,Sub,,0,0,0,,Let's toast to you.
+Dialogue: 0,0:03:46.12,0:03:48.56,Sub,,0,0,0,,Brother Zhou has a good master guarding him.
+Dialogue: 0,0:03:49.24,0:03:50.68,Sub,,0,0,0,,I'm sure that you also will
+Dialogue: 0,0:03:50.80,0:03:52.03,Sub,,0,0,0,,achieve great feats.
+Dialogue: 0,0:03:58.72,0:03:59.51,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:04:00.72,0:04:02.19,Sub,,0,0,0,,I have another toast for you.
+Dialogue: 0,0:04:02.92,0:04:04.80,Sub,,0,0,0,,Thank you for killing Li Yuanfeng,
+Dialogue: 0,0:04:04.80,0:04:06.40,Sub,,0,0,0,,sealing Xue Yue,
+Dialogue: 0,0:04:06.40,0:04:08.40,Sub,,0,0,0,,and avenging the Four Sect Alliance.
+Dialogue: 0,0:04:13.04,0:04:13.71,Sub,,0,0,0,,Brother Zhou,
+Dialogue: 0,0:04:14.48,0:04:16.31,Sub,,0,0,0,,since you were waiting for me,
+Dialogue: 0,0:04:17.36,0:04:19.00,Sub,,0,0,0,,please speak your mind.
+Dialogue: 0,0:04:23.04,0:04:24.71,Sub,,0,0,0,,It all began when
+Dialogue: 0,0:04:25.72,0:04:28.51,Sub,,0,0,0,,the Forsaken Immortal Clan activated the Reincarnation Tree.
+Dialogue: 0,0:04:29.80,0:04:32.16,Card,,0,0,0,,{\pos(1628,474)\fad(300,300)}East of the\NSuzaku Continent
+Dialogue: 0,0:04:39.68,0:04:42.32,Card,,0,0,0,,{\pos(364,618)\fad(300,000)}Mei Ji\NThird Ancestor of the\NForsaken Immortal Clan\N9-leaf Shaman
+Dialogue: 0,0:04:42.12,0:04:43.60,Sub,,0,0,0,,Old Thief,
+Dialogue: 0,0:04:43.60,0:04:45.80,Sub,,0,0,0,,don't think that destroying a Reincarnation Tree
+Dialogue: 0,0:04:45.80,0:04:48.55,Sub,,0,0,0,,will reverse the decline of your country of Suzaku !
+Dialogue: 0,0:04:52.12,0:04:54.23,Sub,,0,0,0,,Early stage Ascendant
+Dialogue: 0,0:04:54.84,0:04:56.99,Sub,,0,0,0,,yet you bark like a dog !
+Dialogue: 0,0:05:06.36,0:05:07.31,Sub,,0,0,0,,My clan
+Dialogue: 0,0:05:07.32,0:05:09.23,Sub,,0,0,0,,will win this war for sure !
+Dialogue: 0,0:05:10.08,0:05:12.71,Sub,,0,0,0,,Don't be so arrogant, Junior.
+Dialogue: 0,0:05:25.56,0:05:28.88,Card,,0,0,0,,{\pos(1551,551)\fad(300,300)}Yunque Zi\NSecond Ancestor of the\NForsaken Immortal Clan\NMiddle stage Ascendant
+Dialogue: 0,0:05:32.20,0:05:33.63,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:05:34.40,0:05:36.43,Sub,,0,0,0,,long time no see.
+Dialogue: 0,0:05:42.92,0:05:45.32,Sub,,0,0,0,,Thank you for saving me, Second Ancestor.
+Dialogue: 0,0:05:46.32,0:05:48.51,Sub,,0,0,0,,Greetings, Second Ancestor.
+Dialogue: 0,0:05:48.96,0:05:50.99,Sub,,0,0,0,,Greetings, Second Ancestor.
+Dialogue: 0,0:05:56.84,0:05:59.59,Sub,,0,0,0,,Should I call you Yunque Zi
+Dialogue: 0,0:05:59.84,0:06:02.39,Sub,,0,0,0,,or Second Ancestor of the Forsaken Immortal Clan ?
+Dialogue: 0,0:06:02.52,0:06:04.56,Sub,,0,0,0,,Titles are meaningless.
+Dialogue: 0,0:06:04.60,0:06:06.48,Sub,,0,0,0,,Senior Brother can call me however he likes.
+Dialogue: 0,0:06:07.76,0:06:09.35,Sub,,0,0,0,,You’re heavily injured.
+Dialogue: 0,0:06:09.64,0:06:11.11,Sub,,0,0,0,,If you fight me now
+Dialogue: 0,0:06:11.32,0:06:13.23,Sub,,0,0,0,,you will only accelerate your death.
+Dialogue: 0,0:06:13.24,0:06:17.15,Sub,,0,0,0,,Then why don't you kill me now !?
+Dialogue: 0,0:06:17.40,0:06:19.39,Sub,,0,0,0,,"Don't fight a desperate enemy,
+Dialogue: 0,0:06:19.40,0:06:21.56,Sub,,0,0,0,,always leave an escape route open."
+Dialogue: 0,0:06:17.40,0:06:21.56,Second,,0,0,0,,Note: "The art of War", Sun Tzu
+Dialogue: 0,0:06:22.32,0:06:23.91,Sub,,0,0,0,,My Forsaken Immortal Clan
+Dialogue: 0,0:06:24.08,0:06:26.71,Sub,,0,0,0,,has a deal for you.
+Dialogue: 0,0:06:27.24,0:06:29.31,Sub,,0,0,0,,You know better than anyone
+Dialogue: 0,0:06:29.84,0:06:32.23,Sub,,0,0,0,,that the defeat of Suzaku is inevitable.
+Dialogue: 0,0:06:32.80,0:06:35.47,Sub,,0,0,0,,But my Forsaken Immortal Clan
+Dialogue: 0,0:06:35.48,0:06:38.39,Sub,,0,0,0,,is willing to split planet Suzaku in half with you.
+Dialogue: 0,0:06:38.64,0:06:40.11,Sub,,0,0,0,,We will rule separately
+Dialogue: 0,0:06:40.12,0:06:41.79,Sub,,0,0,0,,without interfering.
+Dialogue: 0,0:06:42.52,0:06:44.23,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:06:48.40,0:06:49.51,Sub,,0,0,0,,Despicable...
+Dialogue: 0,0:06:50.72,0:06:52.47,Sub,,0,0,0,,We will meet in 3 months
+Dialogue: 0,0:06:52.80,0:06:54.31,Sub,,0,0,0,,at Mount Suzaku.
+Dialogue: 0,0:06:55.04,0:07:00.11,Sub,,0,0,0,,My Forsaken Immortal Clan will wait for your decision.
+Dialogue: 0,0:07:08.32,0:07:10.75,Sub,,0,0,0,,Find a cold, dark place
+Dialogue: 0,0:07:11.00,0:07:12.91,Sub,,0,0,0,,and recover quickly.
+Dialogue: 0,0:07:26.52,0:07:29.64,Card,,0,0,0,,{\pos(1637,474)\fad(300,300)}First Ancestor of the\NForsaken Immortal Clan\N11-leaf Shaman
+Dialogue: 0,0:07:21.76,0:07:23.71,Sub,,0,0,0,,Do you remember
+Dialogue: 0,0:07:24.20,0:07:26.79,Sub,,0,0,0,,how many clansmen we sacrificed
+Dialogue: 0,0:07:27.44,0:07:30.79,Sub,,0,0,0,,to break the seal and send you into the country of Suzaku ?
+Dialogue: 0,0:07:31.52,0:07:34.03,Sub,,0,0,0,,You could’ve killed him,
+Dialogue: 0,0:07:34.56,0:07:36.31,Sub,,0,0,0,,why did you let him go !?
+Dialogue: 0,0:07:38.52,0:07:40.83,Sub,,0,0,0,,He has the Cultivation Planet Heart
+Dialogue: 0,0:07:41.12,0:07:43.63,Sub,,0,0,0,,and can control the Cultivation Planet Crystal.
+Dialogue: 0,0:07:43.84,0:07:47.55,Sub,,0,0,0,,Even if the Second Suzaku sealed the crystal,
+Dialogue: 0,0:07:48.04,0:07:50.95,Sub,,0,0,0,,he can still destroy it.
+Dialogue: 0,0:07:51.44,0:07:54.43,Sub,,0,0,0,,Even if his soul strand is inside it,
+Dialogue: 0,0:07:55.00,0:07:57.39,Sub,,0,0,0,,if you try to kill him
+Dialogue: 0,0:07:57.96,0:08:01.47,Sub,,0,0,0,,he will crush the crystal before his life ends
+Dialogue: 0,0:08:02.20,0:08:06.71,Sub,,0,0,0,,and billions of our people below 9-Leaf
+Dialogue: 0,0:08:07.36,0:08:09.55,Sub,,0,0,0,,will die with him.
+Dialogue: 0,0:08:13.52,0:08:16.47,Sub,,0,0,0,,I had secretly raised 4 candidates.
+Dialogue: 0,0:08:16.76,0:08:19.91,Sub,,0,0,0,,No matter the one he chose as successor,
+Dialogue: 0,0:08:20.36,0:08:23.55,Sub,,0,0,0,,we could've weakened Suzaku even more
+Dialogue: 0,0:08:23.92,0:08:26.39,Sub,,0,0,0,,and ensured our clan’s prosperity !
+Dialogue: 0,0:08:27.24,0:08:30.59,Sub,,0,0,0,,But Ancestor Xu and you were too impatient
+Dialogue: 0,0:08:31.20,0:08:34.31,Sub,,0,0,0,,and ruined the plan I painstakingly laid out.
+Dialogue: 0,0:08:34.52,0:08:36.75,Sub,,0,0,0,,It was all for nothing !
+Dialogue: 0,0:08:38.52,0:08:40.55,Sub,,0,0,0,,Why did you give him 3 months ?
+Dialogue: 0,0:08:41.52,0:08:42.71,Sub,,0,0,0,,What’s the point ?
+Dialogue: 0,0:08:44.00,0:08:45.47,Sub,,0,0,0,,3 months
+Dialogue: 0,0:08:45.84,0:08:48.75,Sub,,0,0,0,,is enough to subdue his last allies
+Dialogue: 0,0:08:48.92,0:08:51.11,Sub,,0,0,0,,and make him face reality !
+Dialogue: 0,0:08:51.44,0:08:53.43,Sub,,0,0,0,,To keep planet Suzaku,
+Dialogue: 0,0:08:53.60,0:08:56.31,Sub,,0,0,0,,he must surrender the Cultivation Planet Heart.
+Dialogue: 0,0:08:56.84,0:08:57.95,Sub,,0,0,0,,Remember,
+Dialogue: 0,0:08:58.28,0:09:01.35,Sub,,0,0,0,,we never wanted to kill the Suzaku.
+Dialogue: 0,0:09:01.72,0:09:03.27,Sub,,0,0,0,,We want our clan
+Dialogue: 0,0:09:03.48,0:09:07.95,Sub,,0,0,0,,to freely live on the surface of this planet again.
+Dialogue: 0,0:09:08.60,0:09:10.07,Sub,,0,0,0,,Why are you so sure
+Dialogue: 0,0:09:10.48,0:09:12.71,Sub,,0,0,0,,he will agree to your plan ?
+Dialogue: 0,0:09:14.04,0:09:16.23,Sub,,0,0,0,,In order to become the Suzaku,
+Dialogue: 0,0:09:16.32,0:09:18.95,Sub,,0,0,0,,he killed his own master.
+Dialogue: 0,0:09:20.04,0:09:21.55,Sub,,0,0,0,,Such a person
+Dialogue: 0,0:09:22.32,0:09:24.91,Sub,,0,0,0,,will never accept
+Dialogue: 0,0:09:25.16,0:09:27.51,Sub,,0,0,0,,that he has lost everything.
+Dialogue: 0,0:09:28.76,0:09:30.27,Sub,,0,0,0,,In the following months
+Dialogue: 0,0:09:30.72,0:09:34.03,Sub,,0,0,0,,Yunque Zi and the others besieged the Earth Soul Sect
+Dialogue: 0,0:09:34.32,0:09:35.91,Sub,,0,0,0,,and killed its Ascendant Ancestor.
+Dialogue: 0,0:09:36.72,0:09:39.19,Sub,,0,0,0,,They crippled the Heavenly Jade Sect Leader, Chu Yunfei,
+Dialogue: 0,0:09:39.84,0:09:42.04,Sub,,0,0,0,,and forced him to flee planet Suzaku.
+Dialogue: 0,0:09:43.68,0:09:45.23,Sub,,0,0,0,,The rank 5 country of Suiboku
+Dialogue: 0,0:09:45.48,0:09:46.19,Sub,,0,0,0,,has fallen
+Dialogue: 0,0:09:46.52,0:09:48.11,Sub,,0,0,0,,The rank 5 country of Mudan
+Dialogue: 0,0:09:48.20,0:09:48.99,Sub,,0,0,0,,has fallen.
+Dialogue: 0,0:09:49.04,0:09:50.31,Sub,,0,0,0,,The rank 5 country of Qin
+Dialogue: 0,0:09:50.52,0:09:51.31,Sub,,0,0,0,,has fallen.
+Dialogue: 0,0:09:51.56,0:09:53.75,Sub,,0,0,0,,Among planet Suzaku’s cultivators,
+Dialogue: 0,0:09:54.44,0:09:55.51,Sub,,0,0,0,,Zhuque Zi
+Dialogue: 0,0:09:56.12,0:09:57.87,Sub,,0,0,0,,is the only remaining Ascendant.
+Dialogue: 0,0:09:59.72,0:10:00.91,Sub,,0,0,0,,And very soon,
+Dialogue: 0,0:10:01.76,0:10:04.31,Sub,,0,0,0,,the Ancestral Spirits will bloom again.
+Dialogue: 0,0:10:05.72,0:10:07.11,Sub,,0,0,0,,When that happens,
+Dialogue: 0,0:10:07.68,0:10:08.91,Sub,,0,0,0,,Zhuque Zi
+Dialogue: 0,0:10:09.52,0:10:11.51,Sub,,0,0,0,,will have no chance left.
+Dialogue: 0,0:10:13.52,0:10:16.87,Sub,,0,0,0,,Everything unfolded as Senior Yunque Zi predicted.
+Dialogue: 0,0:10:17.76,0:10:20.28,Sub,,0,0,0,,So you were also chosen by Yunque Zi.
+Dialogue: 0,0:10:21.32,0:10:22.35,Sub,,0,0,0,,Of the four of us,
+Dialogue: 0,0:10:22.72,0:10:24.11,Sub,,0,0,0,,I only know three.
+Dialogue: 0,0:10:24.84,0:10:28.20,Sub,,0,0,0,,I possess Azure Dragon bloodline and the Emotionless domain.
+Dialogue: 0,0:10:28.64,0:10:30.75,Sub,,0,0,0,,Zi Xin was once Qian Feng’s cauldron
+Dialogue: 0,0:10:31.12,0:10:33.03,Sub,,0,0,0,,and has karma with him.
+Dialogue: 0,0:10:34.12,0:10:35.51,Sub,,0,0,0,,Senior Yunque Zi
+Dialogue: 0,0:10:35.64,0:10:39.83,Sub,,0,0,0,,wanted us to counter Zhuque Zi’s 2 disciples.
+Dialogue: 0,0:10:40.96,0:10:42.51,Sub,,0,0,0,,The third person
+Dialogue: 0,0:10:43.52,0:10:44.75,Sub,,0,0,0,,is you.
+Dialogue: 0,0:10:46.20,0:10:47.71,Sub,,0,0,0,,He said if you’re willing
+Dialogue: 0,0:10:47.92,0:10:49.11,Sub,,0,0,0,,you can meet him.
+Dialogue: 0,0:10:49.92,0:10:50.75,Sub,,0,0,0,,That way,
+Dialogue: 0,0:10:51.00,0:10:54.71,Sub,,0,0,0,,he can teach you the true use of the Staw Hat.
+Dialogue: 0,0:11:01.92,0:11:02.91,Sub,,0,0,0,,Tell Yunque Zi
+Dialogue: 0,0:11:04.76,0:11:06.03,Sub,,0,0,0,,that I won’t meet him.
+Dialogue: 0,0:11:12.84,0:11:13.63,Sub,,0,0,0,,Fine.
+Dialogue: 0,0:11:13.92,0:11:15.31,Sub,,0,0,0,,Will you give me
+Dialogue: 0,0:11:16.48,0:11:17.59,Sub,,0,0,0,,this jar of wine ?
+Dialogue: 0,0:11:18.76,0:11:20.39,Sub,,0,0,0,,I once fought Liu Mei
+Dialogue: 0,0:11:20.52,0:11:21.88,Sub,,0,0,0,,and recorded her domain
+Dialogue: 0,0:11:21.92,0:11:23.35,Sub,,0,0,0,,in this jade slip.
+Dialogue: 0,0:11:29.32,0:11:30.92,Sub,,0,0,0,,Whether you read it or not
+Dialogue: 0,0:11:30.92,0:11:32.35,Sub,,0,0,0,,is your choice.
+Dialogue: 0,0:11:37.24,0:11:37.91,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:11:54.16,0:11:57.28,Card,,0,0,0,,{\fad(300,300)\pos(1642,488)}Corpse Sect\NCountry of Zhao
+Dialogue: 0,0:12:03.44,0:12:05.64,Card,,0,0,0,,{\pos(1587,510)\fad(300,300)}Li Qingping\NCorpse Sect Leader\NLate stage Nascent Soul
+Dialogue: 0,0:12:05.76,0:12:07.20,Sub,,0,0,0,,This Divine Sense…
+Dialogue: 0,0:12:07.36,0:12:08.84,Sub,,0,0,0,,a Soul Transformation cultivator ?
+Dialogue: 0,0:12:09.12,0:12:10.11,Sub,,0,0,0,,Interesting.
+Dialogue: 0,0:12:07.48,0:12:10.72,Card,,0,0,0,,{\pos(1597,515)\fad(300,300)}Cao Yidou's Origin Soul\NPlanet Tian Yun's Mile Sect\NMiddle stage Soul Formation
+Dialogue: 0,0:12:11.12,0:12:12.87,Sub,,0,0,0,,A Soul Formation Origin Soul
+Dialogue: 0,0:12:13.52,0:12:16.07,Sub,,0,0,0,,is able to detect my presence.
+Dialogue: 0,0:12:16.32,0:12:17.76,Sub,,0,0,0,,Please spare me, Senior !
+Dialogue: 0,0:12:18.16,0:12:20.04,Sub,,0,0,0,,My sect's cultivation method
+Dialogue: 0,0:12:20.04,0:12:21.60,Sub,,0,0,0,,is highly sensitive to Divine Sense.
+Dialogue: 0,0:12:22.72,0:12:24.39,Sub,,0,0,0,,Which sect are you from ?
+Dialogue: 0,0:12:25.68,0:12:26.63,Sub,,0,0,0,,Junior...
+Dialogue: 0,0:12:26.96,0:12:28.15,Sub,,0,0,0,,Junior's name is Cao Yidou,
+Dialogue: 0,0:12:28.40,0:12:30.48,Sub,,0,0,0,,I'm a disciple of the Mile Sect on planet Tian Yun.
+Dialogue: 0,0:12:30.52,0:12:32.36,Sub,,0,0,0,,Planet Tian Yun ?
+Dialogue: 0,0:12:33.12,0:12:34.76,Sub,,0,0,0,,Why is someone from Tian Yun
+Dialogue: 0,0:12:34.88,0:12:36.51,Sub,,0,0,0,,on planet Suzaku ?
+Dialogue: 0,0:12:36.92,0:12:37.71,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:12:37.96,0:12:39.15,Sub,,0,0,0,,my body was destroyed
+Dialogue: 0,0:12:39.44,0:12:41.35,Sub,,0,0,0,,so I bought a new one from the Corpse Sect.
+Dialogue: 0,0:12:41.92,0:12:43.35,Sub,,0,0,0,,But I didn't have enough spirit stones
+Dialogue: 0,0:12:43.44,0:12:45.03,Sub,,0,0,0,,for the prices on Tian Yun.
+Dialogue: 0,0:12:45.32,0:12:47.12,Sub,,0,0,0,,My only choice was to settle for
+Dialogue: 0,0:12:47.12,0:12:48.88,Sub,,0,0,0,,a cheaper option like planet Suzaku.
+Dialogue: 0,0:12:49.76,0:12:51.11,Sub,,0,0,0,,What do you know
+Dialogue: 0,0:12:51.64,0:12:53.36,Sub,,0,0,0,,about planet Tian Yun ?
+Dialogue: 0,0:12:53.56,0:12:55.51,Sub,,0,0,0,,Junior grew up there
+Dialogue: 0,0:12:55.84,0:12:57.63,Sub,,0,0,0,,and knows every detail !
+Dialogue: 0,0:12:58.12,0:12:59.19,Sub,,0,0,0,,If Senior plans to go,
+Dialogue: 0,0:12:59.36,0:13:00.51,Sub,,0,0,0,,I can guide you.
+Dialogue: 0,0:13:01.72,0:13:02.43,Sub,,0,0,0,,Very well.
+Dialogue: 0,0:13:03.20,0:13:05.31,Sub,,0,0,0,,Be my servant for 100 years
+Dialogue: 0,0:13:05.92,0:13:06.91,Sub,,0,0,0,,and in return
+Dialogue: 0,0:13:07.20,0:13:10.19,Sub,,0,0,0,,I’ll give you a Soul Transformation body.
+Dialogue: 0,0:13:10.52,0:13:12.28,Sub,,0,0,0,,This person seems strong.
+Dialogue: 0,0:13:12.32,0:13:13.68,Sub,,0,0,0,,It's better to gamble
+Dialogue: 0,0:13:13.72,0:13:15.11,Sub,,0,0,0,,than to provoke his wrath.
+Dialogue: 0,0:13:16.52,0:13:17.23,Sub,,0,0,0,,Cao Yidou
+Dialogue: 0,0:13:17.52,0:13:18.63,Sub,,0,0,0,,greets Master.
+Dialogue: 0,0:13:26.32,0:13:27.95,Sub,,0,0,0,,It's still here...
+Dialogue: 0,0:13:30.52,0:13:32.39,Sub,,0,0,0,,His bloodline is the purest
+Dialogue: 0,0:13:32.76,0:13:34.23,Sub,,0,0,0,,and he's at least Ascendant.
+Dialogue: 0,0:13:35.52,0:13:37.03,Sub,,0,0,0,,If I can take his blood,
+Dialogue: 0,0:13:37.80,0:13:39.71,Sub,,0,0,0,,it'll benefit me greatly.
+Dialogue: 0,0:13:40.56,0:13:41.31,Sub,,0,0,0,,Fog, disperse.
+Dialogue: 0,0:13:42.60,0:13:43.75,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:13:44.12,0:13:45.11,Sub,,0,0,0,,save me !
+Dialogue: 0,0:13:45.32,0:13:46.55,Sub,,0,0,0,,Save me !
+Dialogue: 0,0:13:54.68,0:13:55.48,Sub,,0,0,0,,Seal !
+Dialogue: 0,0:13:57.44,0:13:58.83,Sub,,0,0,0,,This Giant Demon body
+Dialogue: 0,0:13:59.24,0:14:01.16,Sub,,0,0,0,,can't be pierced by my celestial sword
+Dialogue: 0,0:14:01.20,0:14:02.75,Sub,,0,0,0,,but can be hurt by these vines.
+Dialogue: 0,0:14:03.72,0:14:04.99,Sub,,0,0,0,,I’ll use them to draw blood.
+Dialogue: 0,0:14:06.96,0:14:07.71,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:14:08.32,0:14:09.99,Sub,,0,0,0,,if you free me
+Dialogue: 0,0:14:10.32,0:14:12.91,Sub,,0,0,0,,and I’ll give you the main artifact of the Giant Demon Clan !
+Dialogue: 0,0:14:21.76,0:14:24.40,Card,,0,0,0,,{\pos(1614,467)\fad(300,000)}Lei Ji\NGiant Demon Clan branch leader
+Dialogue: 0,0:14:16.72,0:14:17.47,Sub,,0,0,0,,This is…
+Dialogue: 0,0:14:18.16,0:14:19.60,Sub,,0,0,0,,a hint of Ancient God blood.
+Dialogue: 0,0:14:19.92,0:14:21.35,Sub,,0,0,0,,His blood is indeed useful to me.
+Dialogue: 0,0:14:21.64,0:14:22.51,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:14:23.08,0:14:24.63,Sub,,0,0,0,,if you accept to free me,
+Dialogue: 0,0:14:24.80,0:14:26.79,Sub,,0,0,0,,I’ll give you my clan’s strongest artifact:
+Dialogue: 0,0:14:26.80,0:14:28.39,Sub,,0,0,0,,the Heaven-Splitting Metal.
+Dialogue: 0,0:14:28.72,0:14:31.31,Sub,,0,0,0,,I will order the Giant Demon Clan of Suzaku
+Dialogue: 0,0:14:31.36,0:14:33.11,Sub,,0,0,0,,to obey you forever !
+Dialogue: 0,0:14:33.92,0:14:35.91,Sub,,0,0,0,,As long as you free me from this place,
+Dialogue: 0,0:14:36.24,0:14:38.63,Sub,,0,0,0,,I’ll even become your mount !
+Dialogue: 0,0:14:40.04,0:14:41.03,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:14:41.92,0:14:43.83,Sub,,0,0,0,,a Giant Demon’s body
+Dialogue: 0,0:14:44.32,0:14:45.99,Sub,,0,0,0,,is like a star compass.
+Dialogue: 0,0:14:46.36,0:14:48.51,Sub,,0,0,0,,It's able to traverse places
+Dialogue: 0,0:14:48.80,0:14:51.47,Sub,,0,0,0,,ordinary cultivators cannot.
+Dialogue: 0,0:14:52.64,0:14:55.24,Sub,,0,0,0,,The old monsters of the Cultivation Alliance
+Dialogue: 0,0:14:55.24,0:14:57.51,Sub,,0,0,0,,all want Giant Demons as mounts !
+Dialogue: 0,0:14:57.92,0:14:59.83,Sub,,0,0,0,,Once we pledge loyalty,
+Dialogue: 0,0:15:00.04,0:15:01.31,Sub,,0,0,0,,we never betray.
+Dialogue: 0,0:15:01.60,0:15:02.67,Sub,,0,0,0,,Free me
+Dialogue: 0,0:15:02.96,0:15:05.35,Sub,,0,0,0,,and I’ll serve you !
+Dialogue: 0,0:15:06.32,0:15:07.71,Sub,,0,0,0,,Since you took my blood,
+Dialogue: 0,0:15:07.72,0:15:09.23,Sub,,0,0,0,,you must need it.
+Dialogue: 0,0:15:09.36,0:15:10.95,Sub,,0,0,0,,My marrow holds
+Dialogue: 0,0:15:11.24,0:15:13.11,Sub,,0,0,0,,even more essence than my blood.
+Dialogue: 0,0:15:13.32,0:15:15.24,Sub,,0,0,0,,I will teach you how to extract it !
+Dialogue: 0,0:15:15.84,0:15:17.03,Sub,,0,0,0,,Something's wrong.
+Dialogue: 0,0:15:19.92,0:15:23.55,Sub,,0,0,0,,First, he baited me with promises.
+Dialogue: 0,0:15:24.40,0:15:26.95,Sub,,0,0,0,,Then, he stalled with explanations.
+Dialogue: 0,0:15:27.40,0:15:28.71,Sub,,0,0,0,,Losing his blood
+Dialogue: 0,0:15:28.72,0:15:29.79,Sub,,0,0,0,,should weaken him
+Dialogue: 0,0:15:30.40,0:15:32.19,Sub,,0,0,0,,and make his escape harder.
+Dialogue: 0,0:15:32.92,0:15:35.04,Sub,,0,0,0,,But he is ignoring it...
+Dialogue: 0,0:15:35.16,0:15:37.95,Sub,,0,0,0,,This isn't how someone that needs help would act.
+Dialogue: 0,0:15:39.16,0:15:40.19,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:15:40.68,0:15:41.79,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:15:42.60,0:15:45.96,Sub,,0,0,0,,I'm Lei Ji, the leader of our branch of the Giant Demon Clan !
+Dialogue: 0,0:15:46.04,0:15:47.87,Sub,,0,0,0,,I once killed 3 9-Leaf Shamans
+Dialogue: 0,0:15:48.20,0:15:50.31,Sub,,0,0,0,,of the Forsaken Immortal Clan.
+Dialogue: 0,0:15:50.88,0:15:53.63,Sub,,0,0,0,,I was then chased by an 11-Leaf Warrior
+Dialogue: 0,0:15:54.04,0:15:55.92,Sub,,0,0,0,,and ended up captured by the Corpse Sect
+Dialogue: 0,0:15:55.92,0:15:57.48,Sub,,0,0,0,,and then sealed here.
+Dialogue: 0,0:15:57.64,0:15:58.51,Sub,,0,0,0,,If you free me,
+Dialogue: 0,0:15:59.28,0:16:02.27,Sub,,0,0,0,,every Giant Demon Clan member on Suzaku
+Dialogue: 0,0:16:02.48,0:16:03.95,Sub,,0,0,0,,will pledge themselves to you !
+Dialogue: 0,0:16:08.84,0:16:09.63,Sub,,0,0,0,,Little friend,
+Dialogue: 0,0:16:09.64,0:16:10.23,Sub,,0,0,0,,you…
+Dialogue: 0,0:16:10.52,0:16:11.55,Sub,,0,0,0,,I won't save you.
+Dialogue: 0,0:16:12.40,0:16:14.55,Sub,,0,0,0,,Saving you doesn't benefit me.
+Dialogue: 0,0:16:15.16,0:16:16.83,Sub,,0,0,0,,But if I leave you here,
+Dialogue: 0,0:16:17.12,0:16:19.15,Sub,,0,0,0,,I can come later to harvest more blood.
+Dialogue: 0,0:16:19.60,0:16:21.03,Sub,,0,0,0,,Which is much better.
+Dialogue: 0,0:16:21.52,0:16:22.59,Sub,,0,0,0,,Senior Lei Ji,
+Dialogue: 0,0:16:23.16,0:16:24.43,Sub,,0,0,0,,farewell.
+Dialogue: 0,0:16:25.00,0:16:27.20,Sub,,0,0,0,,He didn't want me to free him
+Dialogue: 0,0:16:27.24,0:16:29.36,Sub,,0,0,0,,but he was luring me into drawing more blood.
+Dialogue: 0,0:16:29.76,0:16:31.15,Sub,,0,0,0,,If I had continued,
+Dialogue: 0,0:16:31.44,0:16:33.31,Sub,,0,0,0,,it would've awakened his power
+Dialogue: 0,0:16:33.92,0:16:35.51,Sub,,0,0,0,,and help him escape.
+Dialogue: 0,0:16:36.72,0:16:38.71,Sub,,0,0,0,,If he had stayed half an incense stick of time
+Dialogue: 0,0:16:39.00,0:16:40.79,Sub,,0,0,0,,and continued to draw my blood,
+Dialogue: 0,0:16:40.92,0:16:43.35,Sub,,0,0,0,,it would have lured this vine inside my body
+Dialogue: 0,0:16:43.36,0:16:45.59,Sub,,0,0,0,,and allowed my soul to escape !
+Dialogue: 0,0:16:46.16,0:16:49.27,Sub,,0,0,0,,I REFUSE TO ACCEPT THIS !
+Dialogue: 0,0:17:05.96,0:17:10.63,Sub,,0,0,0,,I didn't expect that in this cold and gloomy Corpse Sect
+Dialogue: 0,0:17:10.80,0:17:14.83,Sub,,0,0,0,,I would find such a delicious smell.
+Dialogue: 0,0:17:20.52,0:17:24.51,Sub,,0,0,0,,A Soul Transformation that hasn't tasted a woman ?
+Dialogue: 0,0:17:25.32,0:17:27.51,Sub,,0,0,0,,A rare delicacy...
+Dialogue: 0,0:17:33.92,0:17:35.59,Sub,,0,0,0,,Little cultivator,
+Dialogue: 0,0:17:36.04,0:17:37.79,Sub,,0,0,0,,how about we…
+Dialogue: 0,0:17:37.96,0:17:40.63,Sub,,0,0,0,,experience the beauty of life ?
+Dialogue: 0,0:17:45.37,0:20:21.15,Note,,0,0,0,,{\fad(1000,1000)}There is some debate among the fans about the real cultivation level of Yunque Zi. To be clear, the animation studio went with 10-Leaf Shaman in the character card but I don't think this is correct because:\N\Nn°1: Yunque Zi lived his early life infiltrated in the country of Suzaku and had to become a regular cultivator for that. Yunque Zi also doesn't display any tattoos.\Nn°2: Yunque Zi has a domain whereas the Forsaken Immortal Clan members don't have one with their method of cultivation (it's the same as Ancient Gods having a different cultivation system and thus not having domains).\Nn°3: Wang Lin explicitly says he is Middle stage Ascendant in the novel.\N\NCounter-arguments:\N\Nn°1: Even if lore-wise Forsaken Immortal Clan members shouldn't have domains, there is a second example of one (which is Mei Ji, the Third Ancestor of the Forsaken Immortal clan that we see at the end of the episode with her charm domain).\Nn°2: There is a single dialogue where Yunque Zi mentions high level shamans and he includes himself in them.
+Dialogue: 0,0:18:02.09,0:18:05.39,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:18:05.39,0:18:07.11,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:18:07.15,0:18:09.05,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:18:09.93,0:18:16.53,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:18:12.77,0:18:16.53,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:18:16.53,0:18:24.13,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:18:19.77,0:18:24.13,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:18:24.57,0:18:31.69,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:18:27.33,0:18:31.69,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:18:32.01,0:18:35.01,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:18:33.29,0:18:35.01,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:18:35.30,0:18:38.73,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:18:37.13,0:18:38.73,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:18:39.29,0:18:42.81,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:18:42.81,0:18:46.13,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:18:46.89,0:18:50.09,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:18:50.45,0:18:54.29,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:18:52.29,0:18:54.29,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:18:54.45,0:18:59.25,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:18:56.01,0:18:59.25,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:18:59.26,0:19:01.97,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:19:02.01,0:19:05.29,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:19:05.29,0:19:09.93,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:19:09.93,0:19:13.33,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:19:13.37,0:19:18.01,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:19:18.46,0:19:23.69,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:19:23.81,0:19:27.61,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:19:27.61,0:19:32.25,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:19:29.29,0:19:32.25,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:19:32.41,0:19:35.33,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:19:35.33,0:19:40.21,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:19:40.22,0:19:43.49,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:19:43.65,0:19:48.21,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:19:48.21,0:19:52.17,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:19:52.17,0:19:54.97,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:19:55.05,0:19:58.85,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:19:58.93,0:20:02.21,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:20:02.49,0:20:07.45,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

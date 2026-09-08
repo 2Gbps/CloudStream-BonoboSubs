@@ -1,0 +1,247 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:13.74,0:02:14.90,Sub,,0,0,0,,As expected of Master !
+Dialogue: 0,0:02:15.30,0:02:17.73,Sub,,0,0,0,,I can't believe you managed to hide like this.
+Dialogue: 0,0:02:41.51,0:02:41.51,Sub,,0,0,0,,master of this move.
+Dialogue: 0,0:02:40.82,0:02:42.66,Sub,,0,0,0,,Is this thing also a Celestial Beast Feed ?
+Dialogue: 0,0:02:43.02,0:02:44.70,Sub,,0,0,0,,I'm unsure who is eating whom...
+Dialogue: 0,0:02:45.14,0:02:47.06,Sub,,0,0,0,,I can handle a few Celestial Beast Feeds
+Dialogue: 0,0:02:47.98,0:02:49.82,Sub,,0,0,0,,but this one is terrifying.
+Dialogue: 0,0:02:50.30,0:02:51.70,Sub,,0,0,0,,I must not disturb it.
+Dialogue: 0,0:03:04.66,0:03:05.38,Sub,,0,0,0,,This is...
+Dialogue: 0,0:03:06.14,0:03:07.66,Sub,,0,0,0,,a celestial restriction ?
+Dialogue: 0,0:03:11.90,0:03:13.14,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:03:30.98,0:03:32.94,Sub,,0,0,0,,These Celestial Beast Feeds don't have a divine sense,
+Dialogue: 0,0:03:33.66,0:03:35.38,Sub,,0,0,0,,they can only act on sight.
+Dialogue: 0,0:03:36.70,0:03:38.14,Sub,,0,0,0,,I should be able to hide.
+Dialogue: 0,0:03:52.38,0:03:53.38,Sub,,0,0,0,,As expected
+Dialogue: 0,0:04:21.94,0:04:23.46,Sub,,0,0,0,,We made it out of there
+Dialogue: 0,0:04:23.98,0:04:25.26,Sub,,0,0,0,,thanks to the wandering souls.
+Dialogue: 0,0:04:55.98,0:04:56.94,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:04:57.46,0:04:59.45,Sub,,0,0,0,,I'm afraid we are the only two people
+Dialogue: 0,0:04:59.58,0:05:01.34,Sub,,0,0,0,,remaining in the Celestial Beast Temple.
+Dialogue: 0,0:05:03.06,0:05:05.05,Sub,,0,0,0,,Since this place has already collapsed,
+Dialogue: 0,0:05:05.14,0:05:07.07,Sub,,0,0,0,,why did fellow cultivator come find me
+Dialogue: 0,0:05:07.18,0:05:09.22,Sub,,0,0,0,,instead of looking for a way out ?
+Dialogue: 0,0:05:10.58,0:05:12.24,Sub,,0,0,0,,Fellow cultivator doesn't have to worry.
+Dialogue: 0,0:05:12.29,0:05:13.94,Sub,,0,0,0,,My name is Sun Lei.
+Dialogue: 0,0:05:14.06,0:05:15.32,Sub,,0,0,0,,You must have seen
+Dialogue: 0,0:05:15.38,0:05:16.85,Sub,,0,0,0,,what happened just now.
+Dialogue: 0,0:05:17.78,0:05:19.25,Sub,,0,0,0,,I'm not afraid to tell you
+Dialogue: 0,0:05:19.38,0:05:21.38,Sub,,0,0,0,,that I'm not really from the Da Lou Sword Sect.
+Dialogue: 0,0:05:21.54,0:05:22.54,Sub,,0,0,0,,I infiltrated the sect
+Dialogue: 0,0:05:23.37,0:05:24.88,Sub,,0,0,0,,to kill and steal treasures.
+Dialogue: 0,0:05:24.94,0:05:28.18,Sub,,0,0,0,,If fellow cultivator takes one more step, I will have to act.
+Dialogue: 0,0:05:33.58,0:05:35.90,Sub,,0,0,0,,This person is only Early stage Soul Formation
+Dialogue: 0,0:05:35.98,0:05:37.86,Sub,,0,0,0,,but his divine sense is very powerful.
+Dialogue: 0,0:05:39.18,0:05:41.22,Sub,,0,0,0,,If I specifically didn't know a technique
+Dialogue: 0,0:05:41.98,0:05:43.70,Sub,,0,0,0,, to detect divine sense,
+Dialogue: 0,0:05:44.58,0:05:47.70,Sub,,0,0,0,,I would not have been able to notice him following us.
+Dialogue: 0,0:05:48.14,0:05:49.22,Sub,,0,0,0,,I know,
+Dialogue: 0,0:05:49.98,0:05:51.62,Sub,,0,0,0,,he must be hiding his cultivation.
+Dialogue: 0,0:05:52.50,0:05:53.50,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:05:54.46,0:05:56.20,Sub,,0,0,0,,I won't beat around the bush,
+Dialogue: 0,0:05:56.30,0:05:57.82,Sub,,0,0,0,,there are 3 treasures in this cave.
+Dialogue: 0,0:05:59.03,0:06:00.58,Sub,,0,0,0,,The first is a celestial jade
+Dialogue: 0,0:06:00.90,0:06:02.36,Sub,,0,0,0,,the second is celestial metal,
+Dialogue: 0,0:06:02.46,0:06:03.94,Sub,,0,0,0,,the third is a celestial sword.
+Dialogue: 0,0:06:05.17,0:06:06.66,Sub,,0,0,0,,How many
+Dialogue: 0,0:06:06.74,0:06:07.90,Sub,,0,0,0,,did you obtain ?
+Dialogue: 0,0:06:09.14,0:06:10.82,Sub,,0,0,0,,They came back too fast,
+Dialogue: 0,0:06:11.34,0:06:12.30,Sub,,0,0,0,,so I didn't get any.
+Dialogue: 0,0:06:14.58,0:06:16.30,Sub,,0,0,0,,It's hard to predict what will happen,
+Dialogue: 0,0:06:16.38,0:06:18.66,Sub,,0,0,0,,I'd rather be with him to take the treasures.
+Dialogue: 0,0:06:19.18,0:06:21.10,Sub,,0,0,0,,When facing the Celestial Beast Feeds,
+Dialogue: 0,0:06:21.66,0:06:23.34,Sub,,0,0,0,,I will still have a chance to kill him.
+Dialogue: 0,0:06:26.58,0:06:27.42,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:06:27.46,0:06:28.78,Sub,,0,0,0,,the celestial jade has been condensing
+Dialogue: 0,0:06:28.82,0:06:30.68,Sub,,0,0,0,,celestial spiritual energy for thousands of years
+Dialogue: 0,0:06:30.78,0:06:32.38,Sub,,0,0,0,,and is considered priceless.
+Dialogue: 0,0:06:33.42,0:06:34.50,Sub,,0,0,0,,My guess is that
+Dialogue: 0,0:06:35.30,0:06:36.34,Sub,,0,0,0,,the celestial metal
+Dialogue: 0,0:06:36.58,0:06:38.18,Sub,,0,0,0,,is a type of defensive artifact.
+Dialogue: 0,0:06:39.46,0:06:41.11,Sub,,0,0,0,,And the most precious thing
+Dialogue: 0,0:06:41.21,0:06:42.53,Sub,,0,0,0,,is the celestial sword.
+Dialogue: 0,0:06:44.94,0:06:46.80,Sub,,0,0,0,,There are many Celestial Beast Feeds.
+Dialogue: 0,0:06:46.90,0:06:48.78,Sub,,0,0,0,,so it will be hard to get the 3 treasures.
+Dialogue: 0,0:06:49.50,0:06:51.98,Sub,,0,0,0,,Why don't you and I work together ?
+Dialogue: 0,0:06:52.74,0:06:55.14,Sub,,0,0,0,,Oh ? And why should I help you ?
+Dialogue: 0,0:06:56.86,0:06:58.63,Sub,,0,0,0,,I only want the celestial sword.
+Dialogue: 0,0:06:58.78,0:06:59.78,Sub,,0,0,0,,The other two
+Dialogue: 0,0:07:00.38,0:07:01.34,Sub,,0,0,0,,will belong to you.
+Dialogue: 0,0:07:01.94,0:07:02.94,Sub,,0,0,0,,How is that ?
+Dialogue: 0,0:07:03.42,0:07:05.54,Sub,,0,0,0,,I don't want the celestial sword.
+Dialogue: 0,0:07:06.78,0:07:08.62,Sub,,0,0,0,,And I'm not interested
+Dialogue: 0,0:07:08.74,0:07:10.54,Sub,,0,0,0,, in the other 2 treasures either.
+Dialogue: 0,0:07:11.90,0:07:13.58,Sub,,0,0,0,,Fellow cultivator, what do you want ?
+Dialogue: 0,0:07:14.74,0:07:16.22,Sub,,0,0,0,,If he wasn't hiding his cultivation
+Dialogue: 0,0:07:16.54,0:07:17.70,Sub,,0,0,0,,I would have already killed him
+Dialogue: 0,0:07:18.70,0:07:19.86,Sub,,0,0,0,,to prevent future troubles.
+Dialogue: 0,0:07:20.62,0:07:21.82,Sub,,0,0,0,,Fellow cultivator Sun,
+Dialogue: 0,0:07:22.34,0:07:25.20,Sub,,0,0,0,,You want me to risk my life to help you get the celestial sword
+Dialogue: 0,0:07:25.33,0:07:28.14,Sub,,0,0,0,,for just 2 items that might not even be obtainable ?
+Dialogue: 0,0:07:28.26,0:07:29.51,Sub,,0,0,0,,Do you think I'm 3 years old ?
+Dialogue: 0,0:07:29.58,0:07:30.66,Sub,,0,0,0,,What do you want?
+Dialogue: 0,0:07:31.18,0:07:33.18,Sub,,0,0,0,,I noticed that when you arrived
+Dialogue: 0,0:07:33.30,0:07:35.30,Sub,,0,0,0,,you guys were able to detect the spacial rifts
+Dialogue: 0,0:07:36.18,0:07:37.78,Sub,,0,0,0,,before they even appeared…
+Dialogue: 0,0:07:40.18,0:07:41.22,Sub,,0,0,0,,Full Search Tactic
+Dialogue: 0,0:07:41.98,0:07:43.96,Sub,,0,0,0,,It's a technique of the Da Lou Sword Sect.
+Dialogue: 0,0:07:44.62,0:07:45.74,Sub,,0,0,0,,It's not a problem
+Dialogue: 0,0:07:45.98,0:07:47.02,Sub,,0,0,0,,to gift it to you.
+Dialogue: 0,0:07:47.29,0:07:49.02,Sub,,0,0,0,,Fellow cultivator is indeed quick on his decisions,
+Dialogue: 0,0:07:49.06,0:07:50.76,Sub,,0,0,0,,so I won't beat around the bush anymore
+Dialogue: 0,0:07:50.86,0:07:52.66,Sub,,0,0,0,,I want that gourd
+Dialogue: 0,0:07:52.70,0:07:54.38,Sub,,0,0,0,,in your Third Senior's bag,
+Dialogue: 0,0:07:54.98,0:07:57.10,Sub,,0,0,0,,then I’ll be willing to take this risk with you.
+Dialogue: 0,0:07:58.30,0:07:59.54,Sub,,0,0,0,,Fellow cultivator, don't make it hard for me.
+Dialogue: 0,0:08:00.38,0:08:01.38,Sub,,0,0,0,,This gourd
+Dialogue: 0,0:08:01.78,0:08:04.66,Sub,,0,0,0,,is the reason why I infiltrated the Da Lou Sword Sect.
+Dialogue: 0,0:08:05.86,0:08:08.18,Sub,,0,0,0,,If fellow cultivator helps me get the celestial sword,
+Dialogue: 0,0:08:08.63,0:08:10.66,Card,,0,0,0,,{\pos(210,458)\fad(300,000}Purification wood
+Dialogue: 0,0:08:08.62,0:08:10.26,Sub,,0,0,0,,I will give you a piece of purification wood.
+Dialogue: 0,0:08:11.46,0:08:14.06,Sub,,0,0,0,,Although it isn’t as good as the gourd
+Dialogue: 0,0:08:15.06,0:08:17.78,Sub,,0,0,0,,it can also absorb celestial spiritual energy.
+Dialogue: 0,0:08:18.98,0:08:20.54,Sub,,0,0,0,,Fellow cultivator can lead the way.
+Dialogue: 0,0:08:37.82,0:08:39.48,Sub,,0,0,0,,That black beast feed
+Dialogue: 0,0:08:39.58,0:08:42.06,Sub,,0,0,0,,must have devoured that skeleton.
+Dialogue: 0,0:08:42.58,0:08:44.10,Sub,,0,0,0,,It was nourished by the celestial treasures
+Dialogue: 0,0:08:44.14,0:08:45.52,Sub,,0,0,0,,and it gained its own domain.
+Dialogue: 0,0:08:46.58,0:08:48.74,Sub,,0,0,0,,The reason why there are so many Celestial Beast Feeds
+Dialogue: 0,0:08:48.78,0:08:50.78,Sub,,0,0,0,,is that they must all be its offspring.
+Dialogue: 0,0:08:51.82,0:08:52.82,Sub,,0,0,0,,To get the treasures,
+Dialogue: 0,0:08:52.86,0:08:54.62,Sub,,0,0,0,,we must reduce their numbers.
+Dialogue: 0,0:08:55.58,0:08:56.58,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:08:56.74,0:08:58.82,Sub,,0,0,0,,I’ll lure them out with a technique.
+Dialogue: 0,0:08:59.46,0:09:00.58,Sub,,0,0,0,,Then we
+Dialogue: 0,0:09:00.66,0:09:02.66,Sub,,0,0,0,,kill as many of them as we can.
+Dialogue: 0,0:09:03.34,0:09:04.66,Sub,,0,0,0,,Once the black one moves
+Dialogue: 0,0:09:05.38,0:09:06.88,Sub,,0,0,0,,we'll run away immediately.
+Dialogue: 0,0:09:07.06,0:09:08.54,Sub,,0,0,0,,and meet back where we met.
+Dialogue: 0,0:09:18.94,0:09:19.94,Sub,,0,0,0,,Thunder Toad !
+Dialogue: 0,0:09:20.86,0:09:21.82,Sub,,0,0,0,,Let's start.
+Dialogue: 0,0:09:35.06,0:09:36.54,Sub,,0,0,0,,Nine-colored Rainbow Smoke
+Dialogue: 0,0:09:36.58,0:09:37.22,Sub,,0,0,0,,Go!
+Dialogue: 0,0:10:14.78,0:10:15.66,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:10:15.70,0:10:16.38,Sub,,0,0,0,,together
+Dialogue: 0,0:10:16.98,0:10:18.82,Sub,,0,0,0,,we can beat any amount of beast feeds.
+Dialogue: 0,0:10:23.94,0:10:24.94,Sub,,0,0,0,,Here it comes.
+Dialogue: 0,0:10:59.38,0:11:00.38,Sub,,0,0,0,,This is bad,
+Dialogue: 0,0:11:01.34,0:11:02.58,Sub,,0,0,0,,I'm running out of spiritual energy.
+Dialogue: 0,0:11:03.14,0:11:04.14,Sub,,0,0,0,,If he acts now,
+Dialogue: 0,0:11:05.22,0:11:06.22,Sub,,0,0,0,,it's over for me.
+Dialogue: 0,0:11:11.22,0:11:12.98,Sub,,0,0,0,,Brother Sun was not where we agreed to meet
+Dialogue: 0,0:11:13.51,0:11:14.69,Sub,,0,0,0,,but it turns out you're injured.
+Dialogue: 0,0:11:15.78,0:11:16.94,Sub,,0,0,0,,In that case,
+Dialogue: 0,0:11:16.98,0:11:18.38,Sub,,0,0,0,,please continue to cultivate
+Dialogue: 0,0:11:18.94,0:11:20.22,Sub,,0,0,0,,while I protect you.
+Dialogue: 0,0:11:22.02,0:11:23.50,Sub,,0,0,0,,He faced the black beast feed
+Dialogue: 0,0:11:23.62,0:11:25.22,Sub,,0,0,0,,and was unharmed.
+Dialogue: 0,0:11:25.98,0:11:27.02,Sub,,0,0,0,,This person's cultivation
+Dialogue: 0,0:11:27.86,0:11:28.70,Sub,,0,0,0,,is enigmatic.
+Dialogue: 0,0:11:37.62,0:11:39.18,Sub,,0,0,0,,Fellow cultivator, lets go back.
+Dialogue: 0,0:11:40.42,0:11:41.98,Sub,,0,0,0,,Today, I will definitely kill that beast feed
+Dialogue: 0,0:11:42.66,0:11:43.74,Sub,,0,0,0,,to avenge my finger.
+Dialogue: 0,0:11:44.50,0:11:46.18,Sub,,0,0,0,,Bastard, come out !
+Dialogue: 0,0:12:12.58,0:12:15.66,Card,,0,0,0,,{\pos(243,499)\fad(300,300}Sun Lei's Origin Soul\NDa Lou Sword Sect
+Dialogue: 0,0:12:26.73,0:12:27.38,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:12:27.39,0:12:28.58,Sub,,0,0,0,,this technique has a time limit,
+Dialogue: 0,0:12:28.58,0:12:29.86,Sub,,0,0,0,,it will only last 10 breaths.
+Dialogue: 0,0:12:30.10,0:12:31.54,Sub,,0,0,0,,I will go get the treasures first
+Dialogue: 0,0:12:31.74,0:12:33.18,Sub,,0,0,0,,and then come to save you.
+Dialogue: 0,0:12:34.02,0:12:34.98,Sub,,0,0,0,,Fellow cultivator Sun,
+Dialogue: 0,0:12:35.46,0:12:37.38,Sub,,0,0,0,,you haven't given me the purification wood yet.
+Dialogue: 0,0:12:37.86,0:12:39.42,Sub,,0,0,0,,Why are you in such a hurry ?
+Dialogue: 0,0:13:12.82,0:13:14.18,Sub,,0,0,0,,If we fight now,
+Dialogue: 0,0:13:15.02,0:13:16.50,Sub,,0,0,0,,when the Celestial Beast Feeds come back
+Dialogue: 0,0:13:17.11,0:13:18.22,Sub,,0,0,0,,I may not survive.
+Dialogue: 0,0:13:39.86,0:13:41.78,Sub,,0,0,0,,The sword is protected by celestial restrictions.
+Dialogue: 0,0:13:42.55,0:13:44.02,Sub,,0,0,0,,Even with my Master's jade,
+Dialogue: 0,0:13:44.03,0:13:45.26,Sub,,0,0,0,,I need to take it slow.
+Dialogue: 0,0:13:46.74,0:13:48.02,Sub,,0,0,0,,A normal cultivator
+Dialogue: 0,0:13:48.70,0:13:50.54,Sub,,0,0,0,,will die if he attempts to break it.
+Dialogue: 0,0:14:01.34,0:14:03.22,Sub,,0,0,0,,Although this restriction is exquisite
+Dialogue: 0,0:14:05.18,0:14:06.78,Sub,,0,0,0,,it's not unbreakable.
+Dialogue: 0,0:14:09.46,0:14:10.54,Sub,,0,0,0,,This...this...
+Dialogue: 0,0:14:32.58,0:14:33.74,Sub,,0,0,0,,Master's treasure
+Dialogue: 0,0:14:33.76,0:14:35.25,Sub,,0,0,0,,can freeze everything for 10 breaths.
+Dialogue: 0,0:14:35.30,0:14:37.21,Sub,,0,0,0,,Yet it only lasted 8 breaths !?
+Dialogue: 0,0:14:42.66,0:14:44.18,Sub,,0,0,0,,That bastard !
+Dialogue: 0,0:15:01.54,0:15:02.78,Sub,,0,0,0,,All of this scheming
+Dialogue: 0,0:15:04.18,0:15:05.82,Sub,,0,0,0,,was in vain.
+Dialogue: 0,0:15:06.98,0:15:08.14,Sub,,0,0,0,,Let's...
+Dialogue: 0,0:15:09.22,0:15:10.78,Sub,,0,0,0,,die together !
+Dialogue: 0,0:15:13.15,0:15:14.10,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:15:51.74,0:15:52.38,Sub,,0,0,0,,This is...
+Dialogue: 0,0:15:53.58,0:15:54.38,Sub,,0,0,0,,spatial rifts ?
+Dialogue: 0,0:15:58.66,0:15:59.34,Sub,,0,0,0,,Master,
+Dialogue: 0,0:15:59.84,0:16:00.90,Sub,,0,0,0,,this place is collapsing !
+Dialogue: 0,0:16:13.98,0:16:15.02,Sub,,0,0,0,,It's collapsing ! It's collapsing !
+Dialogue: 0,0:16:15.14,0:16:16.14,Sub,,0,0,0,,Not just the cave
+Dialogue: 0,0:16:16.38,0:16:19.54,Sub,,0,0,0,,but this whole Celestial Realm fragment is collapsing.
+Dialogue: 0,0:17:11.22,0:17:17.90,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:17:17.97,0:17:24.06,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:17:24.17,0:17:28.00,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:17:28.03,0:17:31.93,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:17:32.29,0:17:37.94,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:17:39.12,0:17:44.95,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:17:45.26,0:17:50.80,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:17:51.26,0:17:55.48,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:17:55.74,0:17:58.97,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:17:59.14,0:18:04.96,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:18:05.48,0:18:09.16,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:09.26,0:18:13.08,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:13.26,0:18:18.93,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:19.19,0:18:22.86,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:23.07,0:18:26.64,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:26.76,0:18:32.68,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:32.75,0:18:36.76,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:36.79,0:18:40.58,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:41.17,0:18:46.41,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:46.48,0:18:50.36,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:50.40,0:18:54.20,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:54.50,0:19:00.06,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:19:00.70,0:19:06.92,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:19:07.22,0:19:13.72,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:19:14.74,0:19:20.44,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:19:20.61,0:19:27.31,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

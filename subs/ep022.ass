@@ -1,0 +1,315 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:11.48,0:02:12.84,Sub,,0,0,0,,To think that a pill furnace
+Dialogue: 0,0:02:12.84,0:02:14.76,Sub,,0,0,0,,has brought this calamity upon us...
+Dialogue: 0,0:02:27.08,0:02:28.00,Sub,,0,0,0,,When did
+Dialogue: 0,0:02:28.00,0:02:31.68,Sub,,0,0,0,,the prey become the hunter ?
+Dialogue: 0,0:02:38.96,0:02:39.92,Sub,,0,0,0,,That's the third.
+Dialogue: 0,0:02:51.80,0:02:55.16,Sub,,0,0,0,,I, Gu Cheng, Elder of the Fighting Evil Sect,
+Dialogue: 0,0:02:55.52,0:02:58.92,Sub,,0,0,0,,am reduced to hiding underground like a stray dog...
+Dialogue: 0,0:02:59.40,0:03:01.64,Sub,,0,0,0,,The last time I did this
+Dialogue: 0,0:03:01.96,0:03:03.60,Sub,,0,0,0,,was at Foundation Establishment.
+Dialogue: 0,0:03:08.72,0:03:09.84,Sub,,0,0,0,,That's the fourth.
+Dialogue: 0,0:03:12.00,0:03:13.68,Sub,,0,0,0,,Just one more left.
+Dialogue: 0,0:03:20.92,0:03:22.20,Sub,,0,0,0,,Did he really
+Dialogue: 0,0:03:22.64,0:03:24.92,Sub,,0,0,0,,kill all the others already ?
+Dialogue: 0,0:03:25.16,0:03:26.04,Sub,,0,0,0,,Could he be...
+Dialogue: 0,0:03:26.04,0:03:27.32,Sub,,0,0,0,,at Nascent Soul ?
+Dialogue: 0,0:03:27.96,0:03:30.40,Sub,,0,0,0,,I think there's a Fighting Evil Sect branch here
+Dialogue: 0,0:03:30.40,0:03:32.04,Sub,,0,0,0,,that has 2 Core Formation cultivators.
+Dialogue: 0,0:03:32.24,0:03:34.44,Sub,,0,0,0,,They should be able to stall him for a moment.
+Dialogue: 0,0:03:43.40,0:03:45.52,Card,,0,0,0,,{\fad(300,000)\pos(274,498)}Mu Nan\NEarly stage Core Formation\NFighting Evil Sect Elder
+Dialogue: 0,0:03:43.40,0:03:45.52,Card,,0,0,0,,{\pos(1653,495)\fad(300,000)}Mu Bei\NEarly stage Core Formation\NFighting Evil Sect Elder
+Dialogue: 0,0:03:44.00,0:03:45.28,Sub,,0,0,0,,We pay respects to Grand Elder !
+Dialogue: 0,0:03:45.80,0:03:46.92,Sub,,0,0,0,,Mu Nan, Mu Bei,
+Dialogue: 0,0:03:47.08,0:03:49.64,Sub,,0,0,0,,I order you to stop the person behind me !
+Dialogue: 0,0:03:49.84,0:03:50.72,Sub,,0,0,0,,If you succeed,
+Dialogue: 0,0:03:50.84,0:03:53.32,Sub,,0,0,0,,I'll give you 10 000 high-quality spirit stones !
+Dialogue: 0,0:03:55.68,0:03:57.44,Sub,,0,0,0,,How can we resist an enemy
+Dialogue: 0,0:03:57.72,0:03:59.60,Sub,,0,0,0,,that even the Grand Elder is fleeing from ?
+Dialogue: 0,0:04:03.80,0:04:06.88,Sub,,0,0,0,,Th... Those are the souls of 4 Elders of the sect !
+Dialogue: 0,0:04:16.04,0:04:17.60,Sub,,0,0,0,,Junior Mu Nan
+Dialogue: 0,0:04:16.72,0:04:17.60,Second,,0,0,0,,Junior Mu Bei
+Dialogue: 0,0:04:17.96,0:04:19.04,Sub,,0,0,0,,pays respects to Senior !
+Dialogue: 0,0:04:17.96,0:04:19.04,Second,,0,0,0,,pays respects to Senior !
+Dialogue: 0,0:04:37.24,0:04:37.92,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:04:38.16,0:04:40.00,Sub,,0,0,0,,do you recognize this token ?
+Dialogue: 0,0:04:40.00,0:04:41.52,Sub,,0,0,0,,If you dare to kill me
+Dialogue: 0,0:04:41.52,0:04:43.52,Sub,,0,0,0,,you will be hunted by everyone !
+Dialogue: 0,0:04:43.64,0:04:44.28,Sub,,0,0,0,,Noisy !
+Dialogue: 0,0:04:47.60,0:04:48.40,Sub,,0,0,0,,This...
+Dialogue: 0,0:04:48.40,0:04:50.12,Sub,,0,0,0,,This is the Hundred Days Execution Order !
+Dialogue: 0,0:04:50.20,0:04:51.56,Sub,,0,0,0,,The Hundred Days Execution Order
+Dialogue: 0,0:04:51.68,0:04:54.60,Sub,,0,0,0,,is the most vicious life-saving artifact of the Sea of Devils.
+Dialogue: 0,0:04:54.84,0:04:56.84,Sub,,0,0,0,,Very few of them still exist.
+Dialogue: 0,0:04:57.84,0:05:00.36,Sub,,0,0,0,,The requirements to activate it are extremely strict.
+Dialogue: 0,0:05:00.44,0:05:03.56,Sub,,0,0,0,,It requires at least a Core Formation cultivator to refine it with their life.
+Dialogue: 0,0:05:03.64,0:05:06.00,Sub,,0,0,0,,If that cultivator is killed,
+Dialogue: 0,0:05:06.24,0:05:08.92,Sub,,0,0,0,,all his cultivation will go to the killer.
+Dialogue: 0,0:05:09.24,0:05:11.52,Sub,,0,0,0,,However, if the killer doesn't survive 100 days,
+Dialogue: 0,0:05:11.52,0:05:13.52,Sub,,0,0,0,,whoever kills them will get it instead.
+Dialogue: 0,0:05:15.40,0:05:17.12,Sub,,0,0,0,,Since ancient times,
+Dialogue: 0,0:05:17.84,0:05:20.08,Sub,,0,0,0,,no one has ever survived the hunt.
+Dialogue: 0,0:05:22.52,0:05:24.72,Sub,,0,0,0,,Are you sure that if I can last 100 days,
+Dialogue: 0,0:05:25.36,0:05:27.80,Sub,,0,0,0,,I can obtain all of his cultivation ?
+Dialogue: 0,0:05:28.44,0:05:31.32,Sub,,0,0,0,,That's what the ancient records say...
+Dialogue: 0,0:05:39.96,0:05:41.76,Sub,,0,0,0,,Why did he come back ?
+Dialogue: 0,0:05:42.28,0:05:43.76,Sub,,0,0,0,,We pay respects to Senior !
+Dialogue: 0,0:05:44.12,0:05:45.69,Sub,,0,0,0,,Is there a Nascent Soul
+Dialogue: 0,0:05:45.72,0:05:47.08,Sub,,0,0,0,,in the Fighting Evil Sect ?
+Dialogue: 0,0:05:47.72,0:05:48.80,Sub,,0,0,0,,No.
+Dialogue: 0,0:05:49.04,0:05:51.64,Sub,,0,0,0,,Nascent Soul Seniors are found further in the sea.
+Dialogue: 0,0:05:52.68,0:05:54.64,Sub,,0,0,0,,What's the cultivation level of the Sect Leader ?
+Dialogue: 0,0:05:54.64,0:05:55.64,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:05:55.64,0:05:58.24,Sub,,0,0,0,,the Fighting Evil Sect Leader is Peak Late stage Core Formation.
+Dialogue: 0,0:05:58.40,0:06:01.52,Sub,,0,0,0,,But his breakthrough can happen anytime.
+Dialogue: 0,0:06:03.28,0:06:06.28,Sub,,0,0,0,,You two will lead the way to the Fighting Evil Sect.
+Dialogue: 0,0:06:07.12,0:06:08.40,Sub,,0,0,0,,Understood...
+Dialogue: 0,0:06:16.72,0:06:18.05,Sub,,0,0,0,,Do you think that
+Dialogue: 0,0:06:18.32,0:06:19.60,Sub,,0,0,0,,those five tried to kill
+Dialogue: 0,0:06:19.60,0:06:21.40,Sub,,0,0,0,,the one wanted by the execution order
+Dialogue: 0,0:06:21.52,0:06:23.20,Sub,,0,0,0,,but got killed instead ?
+Dialogue: 0,0:06:23.60,0:06:25.24,Sub,,0,0,0,,This guy is displaying their souls
+Dialogue: 0,0:06:25.64,0:06:26.72,Sub,,0,0,0,,as a warning for us all
+Dialogue: 0,0:06:26.72,0:06:27.76,Sub,,0,0,0,,not to act recklessly.
+Dialogue: 0,0:06:28.92,0:06:30.92,Sub,,0,0,0,,The Hundred Days Execution Order really has appeared !
+Dialogue: 0,0:06:31.16,0:06:32.28,Sub,,0,0,0,,If we kill this person
+Dialogue: 0,0:06:32.36,0:06:35.32,Sub,,0,0,0,,we can obtain a Core Formation's cultivation !
+Dialogue: 0,0:06:35.84,0:06:36.84,Sub,,0,0,0,,If I can do it,
+Dialogue: 0,0:06:36.84,0:06:39.04,Sub,,0,0,0,,gaining a whole realm is not impossible.
+Dialogue: 0,0:06:39.36,0:06:40.96,Sub,,0,0,0,,Quick, contact everyone.
+Dialogue: 0,0:06:42.76,0:06:44.80,Sub,,0,0,0,,The backlash of killing Teng Li
+Dialogue: 0,0:06:44.84,0:06:46.52,Sub,,0,0,0,,is still vivid in my mind.
+Dialogue: 0,0:06:46.80,0:06:48.68,Sub,,0,0,0,,They will definitely try to get their revenge someday.
+Dialogue: 0,0:06:49.36,0:06:50.48,Sub,,0,0,0,,To avoid this future threat,
+Dialogue: 0,0:06:50.80,0:06:52.52,Sub,,0,0,0,,I need to go to the Fighting Evil Sect
+Dialogue: 0,0:06:52.80,0:06:54.04,Sub,,0,0,0,,to establish my power.
+Dialogue: 0,0:06:56.36,0:06:58.72,Sub,,0,0,0,,How come no one tried to kill this guy yet ?
+Dialogue: 0,0:06:58.76,0:07:01.68,Sub,,0,0,0,,He's got such a big "Execute" character above his head...
+Dialogue: 0,0:07:01.96,0:07:03.88,Sub,,0,0,0,,If we really lead him to the sect,
+Dialogue: 0,0:07:03.88,0:07:05.84,Sub,,0,0,0,,the Sect Leader will destroy our souls
+Dialogue: 0,0:07:05.84,0:07:07.56,Sub,,0,0,0,,if he doesn't kill us beforehand...
+Dialogue: 0,0:07:24.48,0:07:27.72,Card,,0,0,0,,{\fad(300,300)\pos(1653,497)}Shangguan Mo\NBlack Cloak Devil Lord\NMiddle stage Core Formation
+Dialogue: 0,0:07:27.20,0:07:29.40,Sub,,0,0,0,,The Hundred Days Execution Order !
+Dialogue: 0,0:07:29.60,0:07:31.16,Sub,,0,0,0,,Excellent !
+Dialogue: 0,0:07:33.52,0:07:36.28,Sub,,0,0,0,,This is the Devil Lord even the Sect Leader shows respect to !
+Dialogue: 0,0:07:36.44,0:07:37.16,Sub,,0,0,0,,Junior,
+Dialogue: 0,0:07:37.36,0:07:40.36,Sub,,0,0,0,,you have half an incense stick of time to settle your affairs.
+Dialogue: 0,0:07:40.68,0:07:42.12,Sub,,0,0,0,,Don't attempt to resist !
+Dialogue: 0,0:07:42.64,0:07:45.00,Sub,,0,0,0,,Your mere Early stage Core Formation cultivation
+Dialogue: 0,0:07:45.00,0:07:48.00,Sub,,0,0,0,,is nothing compared to mine.
+Dialogue: 0,0:07:48.00,0:07:49.64,Sub,,0,0,0,,As long as he makes a move,
+Dialogue: 0,0:07:49.64,0:07:51.92,Sub,,0,0,0,,we can both turn against him together !
+Dialogue: 0,0:07:52.48,0:07:53.76,Sub,,0,0,0,,So you're looking for death...
+Dialogue: 0,0:07:53.84,0:07:56.04,Sub,,0,0,0,,Ignorant Junior that doesn't know his place,
+Dialogue: 0,0:07:56.32,0:07:59.08,Sub,,0,0,0,,let me deal with you properly !
+Dialogue: 0,0:08:14.16,0:08:14.72,Sub,,0,0,0,,Die !
+Dialogue: 0,0:08:32.56,0:08:33.72,Sub,,0,0,0,,The Death Spell !?
+Dialogue: 0,0:08:35.08,0:08:38.08,Sub,,0,0,0,,That artifact was supposed to resist a Nascent Soul level attack
+Dialogue: 0,0:08:38.12,0:08:40.72,Sub,,0,0,0,,but it's... broken !?
+Dialogue: 0,0:08:43.20,0:08:44.20,Sub,,0,0,0,,Senior, spare me !
+Dialogue: 0,0:08:44.24,0:08:45.56,Sub,,0,0,0,,Senior, have mercy !
+Dialogue: 0,0:08:45.80,0:08:47.80,Sub,,0,0,0,,Ju...Junior Shangguan Mo was wrong !
+Dialogue: 0,0:08:48.00,0:08:50.00,Sub,,0,0,0,,I beg Senior to forgive me !
+Dialogue: 0,0:08:50.00,0:08:52.36,Sub,,0,0,0,,Was this Devil Lord always this weak ?
+Dialogue: 0,0:08:52.40,0:08:53.64,Sub,,0,0,0,,What kind of Devil Lord is this ?
+Dialogue: 0,0:08:53.92,0:08:55.80,Sub,,0,0,0,,He's just a bully of the outer Sea of Devils
+Dialogue: 0,0:08:55.92,0:08:57.72,Sub,,0,0,0,,that preys on the weak, that's all.
+Dialogue: 0,0:08:58.04,0:08:59.60,Sub,,0,0,0,,He built his reputation
+Dialogue: 0,0:08:59.60,0:09:01.20,Sub,,0,0,0,,on empty words.
+Dialogue: 0,0:09:01.36,0:09:02.84,Sub,,0,0,0,,Junior wishes to pledge himself !
+Dialogue: 0,0:09:03.12,0:09:04.88,Sub,,0,0,0,,From now on, you will be my Master.
+Dialogue: 0,0:09:05.04,0:09:06.56,Sub,,0,0,0,,I beg you to accept me...
+Dialogue: 0,0:09:07.56,0:09:09.60,Sub,,0,0,0,,Mistress, please persuade Master
+Dialogue: 0,0:09:09.60,0:09:11.28,Sub,,0,0,0,,to accept me !
+Dialogue: 0,0:09:15.16,0:09:17.44,Sub,,0,0,0,,He must be as strong as a Nascent Soul cultivator
+Dialogue: 0,0:09:17.96,0:09:19.64,Sub,,0,0,0,,and even has the Death Spell.
+Dialogue: 0,0:09:19.76,0:09:21.68,Sub,,0,0,0,,If I try to escape now,
+Dialogue: 0,0:09:21.80,0:09:23.72,Sub,,0,0,0,,I will inevitably die...
+Dialogue: 0,0:09:25.68,0:09:27.36,Sub,,0,0,0,,Junior is willing to offer his Soul Blood !
+Dialogue: 0,0:09:27.52,0:09:29.36,Sub,,0,0,0,,Master would only be able
+Dialogue: 0,0:09:29.44,0:09:31.08,Sub,,0,0,0,,to kill Junior with a thought !
+Dialogue: 0,0:09:34.92,0:09:36.80,Sub,,0,0,0,,Thank you Master !
+Dialogue: 0,0:09:37.04,0:09:38.24,Sub,,0,0,0,,Continue to lead the way.
+Dialogue: 0,0:09:38.44,0:09:39.64,Sub,,0,0,0,,Understood...
+Dialogue: 0,0:09:57.20,0:09:58.40,Sub,,0,0,0,,Keep moving.
+Dialogue: 0,0:09:58.44,0:09:59.92,Sub,,0,0,0,,If anyone blocks the way,
+Dialogue: 0,0:09:59.92,0:10:00.92,Sub,,0,0,0,,kill them.
+Dialogue: 0,0:10:01.44,0:10:02.96,Sub,,0,0,0,,It's time to prove my worth !
+Dialogue: 0,0:10:06.12,0:10:08.72,Sub,,0,0,0,,Listen, Foundation Establishment trash,
+Dialogue: 0,0:10:08.96,0:10:11.24,Sub,,0,0,0,,those who block Master's path
+Dialogue: 0,0:10:11.28,0:10:12.08,Sub,,0,0,0,,shall die !
+Dialogue: 0,0:10:24.64,0:10:25.40,Sub,,0,0,0,,This is
+Dialogue: 0,0:10:25.44,0:10:26.92,Sub,,0,0,0,,the Black Cloak Devil Lord !
+Dialogue: 0,0:10:27.16,0:10:27.92,Sub,,0,0,0,,Don't turn back,
+Dialogue: 0,0:10:27.92,0:10:28.96,Sub,,0,0,0,,call the Elders !
+Dialogue: 0,0:10:31.96,0:10:33.68,Sub,,0,0,0,,My lifespan is nearing its end.
+Dialogue: 0,0:10:34.16,0:10:36.72,Sub,,0,0,0,,I need to raise my cultivation within 10 years...
+Dialogue: 0,0:10:36.96,0:10:40.24,Card,,0,0,0,,{\fad(300,300)\pos(1545,501)}Ouyang Mao\NRogue cultivator\NMiddle stage Core Formation
+Dialogue: 0,0:10:37.36,0:10:38.32,Sub,,0,0,0,,I must
+Dialogue: 0,0:10:38.52,0:10:40.56,Sub,,0,0,0,,kill this person today !
+Dialogue: 0,0:10:41.92,0:10:43.28,Sub,,0,0,0,,Same for me.
+Dialogue: 0,0:10:44.52,0:10:47.24,Card,,0,0,0,,{\fad(300,300)\pos(1541,500)}Zhu Kun\NRogue cultivator\NMiddle stage Core Formation
+Dialogue: 0,0:10:43.84,0:10:45.28,Sub,,0,0,0,,As long as I kill this person,
+Dialogue: 0,0:10:45.36,0:10:47.48,Sub,,0,0,0,,I can reach the Late stage Core Formation !
+Dialogue: 0,0:10:47.92,0:10:50.72,Card,,0,0,0,,{\pos(1167,495)\fad(300,300)}Xue Ming\NRogue cultivator\NMiddle stage Core Formation
+Dialogue: 0,0:10:47.92,0:10:48.72,Sub,,0,0,0,,Old Xue,
+Dialogue: 0,0:10:48.72,0:10:50.60,Sub,,0,0,0,,it's just an Early stage Core Formation.
+Dialogue: 0,0:10:51.04,0:10:53.48,Sub,,0,0,0,,Why are we sending Foundation Establishment ants ahead ?
+Dialogue: 0,0:10:54.00,0:10:55.52,Sub,,0,0,0,,Let's make our move quickly.
+Dialogue: 0,0:10:56.24,0:10:57.04,Sub,,0,0,0,,Be patient.
+Dialogue: 0,0:11:01.08,0:11:02.40,Sub,,0,0,0,,If this continues,
+Dialogue: 0,0:11:02.52,0:11:04.04,Sub,,0,0,0,,we will attract the attention
+Dialogue: 0,0:11:04.04,0:11:06.28,Sub,,0,0,0,,of cultivations millions of li from South Dipper City.
+Dialogue: 0,0:11:06.80,0:11:07.68,Sub,,0,0,0,,If it happens,
+Dialogue: 0,0:11:07.68,0:11:11.28,Sub,,0,0,0,,I can't guarantee that Nascent Soul cultivators won't show up.
+Dialogue: 0,0:11:11.84,0:11:13.44,Sub,,0,0,0,,The news is spreading
+Dialogue: 0,0:11:13.80,0:11:15.68,Sub,,0,0,0,,abnormally fast...
+Dialogue: 0,0:11:16.36,0:11:17.60,Sub,,0,0,0,,Those who remain here
+Dialogue: 0,0:11:17.60,0:11:19.04,Sub,,0,0,0,,in 3 breaths
+Dialogue: 0,0:11:19.92,0:11:21.04,Sub,,0,0,0,,will die.
+Dialogue: 0,0:11:22.04,0:11:23.16,Sub,,0,0,0,,1 breath
+Dialogue: 0,0:11:25.36,0:11:26.32,Sub,,0,0,0,,2 breaths
+Dialogue: 0,0:11:28.88,0:11:30.00,Sub,,0,0,0,,3 breaths
+Dialogue: 0,0:11:31.40,0:11:32.20,Sub,,0,0,0,,Let's go !
+Dialogue: 0,0:11:32.44,0:11:33.24,Sub,,0,0,0,,Too late !
+Dialogue: 0,0:12:17.04,0:12:19.32,Sub,,0,0,0,,This person is only Early stage Core Formation.
+Dialogue: 0,0:12:19.88,0:12:21.44,Sub,,0,0,0,,How can he be so powerful ?
+Dialogue: 0,0:12:21.92,0:12:23.56,Sub,,0,0,0,,Even if we make a move,
+Dialogue: 0,0:12:23.72,0:12:25.56,Sub,,0,0,0,,we probably won't gain anything.
+Dialogue: 0,0:12:27.04,0:12:28.21,Sub,,0,0,0,,Keep killing,
+Dialogue: 0,0:12:28.36,0:12:30.36,Sub,,0,0,0,,the more you kill, the better.
+Dialogue: 0,0:12:30.96,0:12:32.76,Sub,,0,0,0,,If you're still greedy,
+Dialogue: 0,0:12:32.96,0:12:34.16,Sub,,0,0,0,,that's your problem.
+Dialogue: 0,0:12:34.16,0:12:36.08,Sub,,0,0,0,,I will not participate.
+Dialogue: 0,0:12:36.28,0:12:37.04,Sub,,0,0,0,,Farewell.
+Dialogue: 0,0:12:38.08,0:12:39.12,Sub,,0,0,0,,Since that's the case,
+Dialogue: 0,0:12:39.48,0:12:42.40,Sub,,0,0,0,,fellow cultivator Zhu, do this old man a favor !
+Dialogue: 0,0:12:47.44,0:12:48.76,Sub,,0,0,0,,You old ghost,
+Dialogue: 0,0:12:48.84,0:12:49.80,Sub,,0,0,0,,how dare you !?
+Dialogue: 0,0:13:06.20,0:13:09.00,Sub,,0,0,0,,Myriad Blood Demon Formation...
+Dialogue: 0,0:13:09.04,0:13:09.84,Sub,,0,0,0,,Activate !
+Dialogue: 0,0:13:26.60,0:13:28.56,Sub,,0,0,0,,Such dense blood energy !
+Dialogue: 0,0:13:29.12,0:13:29.92,Sub,,0,0,0,,Xue Ming
+Dialogue: 0,0:13:30.00,0:13:31.96,Sub,,0,0,0,,used to be an Elder of the Fighting Evil Sect.
+Dialogue: 0,0:13:32.32,0:13:33.68,Sub,,0,0,0,,He fled with several others
+Dialogue: 0,0:13:34.04,0:13:36.16,Sub,,0,0,0,,after an internal conflict.
+Dialogue: 0,0:13:36.80,0:13:38.76,Sub,,0,0,0,,Even if he's only Middle stage Core Formation,
+Dialogue: 0,0:13:38.84,0:13:41.16,Sub,,0,0,0,,he knows many spells of the Fighting Evil Sect !
+Dialogue: 0,0:13:47.32,0:13:48.60,Sub,,0,0,0,,This blood energy formation
+Dialogue: 0,0:13:48.60,0:13:49.84,Sub,,0,0,0,,is raising his cultivation
+Dialogue: 0,0:13:49.84,0:13:52.80,Sub,,0,0,0,,from Middle to Late stage Core Formation !
+Dialogue: 0,0:13:55.53,0:13:56.60,Sub,,0,0,0,,Shangguan Mo,
+Dialogue: 0,0:13:56.76,0:13:57.60,Sub,,0,0,0,,Mu Nan, Mu Bei,
+Dialogue: 0,0:13:58.64,0:14:00.36,Sub,,0,0,0,,what are you three waiting for ?
+Dialogue: 0,0:14:00.52,0:14:02.04,Sub,,0,0,0,,This guy is so strong
+Dialogue: 0,0:14:02.32,0:14:03.84,Sub,,0,0,0,,that if we want to save our skins,
+Dialogue: 0,0:14:04.00,0:14:05.68,Sub,,0,0,0,,we need to show our loyalty !
+Dialogue: 0,0:14:09.92,0:14:11.64,Sub,,0,0,0,,Isn't this old man Ouyang ?
+Dialogue: 0,0:14:12.08,0:14:13.16,Sub,,0,0,0,,Come, come, come,
+Dialogue: 0,0:14:13.16,0:14:14.56,Sub,,0,0,0,,we haven't met in a long time.
+Dialogue: 0,0:14:14.92,0:14:16.60,Sub,,0,0,0,,Let's catch up !
+Dialogue: 0,0:14:16.88,0:14:17.92,Sub,,0,0,0,,Old man Ouyang,
+Dialogue: 0,0:14:18.36,0:14:19.52,Sub,,0,0,0,,get ready to die !
+Dialogue: 0,0:14:28.92,0:14:29.92,Sub,,0,0,0,,Just you wait !
+Dialogue: 0,0:15:01.08,0:15:02.43,Second,,0,0,0,,Come on !
+Dialogue: 0,0:15:01.64,0:15:03.40,Sub,,0,0,0,,This... this isn't blood energy,
+Dialogue: 0,0:15:03.40,0:15:04.52,Sub,,0,0,0,,it's death energy !
+Dialogue: 0,0:15:04.52,0:15:07.04,Sub,,0,0,0,,The formation is using the death energy from everyone who died.
+Dialogue: 0,0:15:07.08,0:15:09.08,Sub,,0,0,0,,The Death Spell probably won't work on him.
+Dialogue: 0,0:15:09.24,0:15:10.84,Sub,,0,0,0,,We must find the formation's core.
+Dialogue: 0,0:15:10.84,0:15:12.80,Sub,,0,0,0,,The Hundred Days Execution Order,
+Dialogue: 0,0:15:13.40,0:15:14.64,Sub,,0,0,0,,the Death Spell,
+Dialogue: 0,0:15:14.80,0:15:16.04,Sub,,0,0,0,,your artifacts...
+Dialogue: 0,0:15:18.48,0:15:20.84,Sub,,0,0,0,,This old man will take all of it !
+Dialogue: 0,0:15:22.00,0:15:23.32,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:15:23.56,0:15:25.00,Sub,,0,0,0,,I am the strongest person
+Dialogue: 0,0:15:25.24,0:15:27.72,Sub,,0,0,0,,below Nascent Soul !
+Dialogue: 0,0:15:41.48,0:15:42.36,Sub,,0,0,0,,Hold tight.
+Dialogue: 0,0:15:48.84,0:15:50.88,Sub,,0,0,0,,The strongest below Nascent Soul ?
+Dialogue: 0,0:16:14.24,0:16:16.24,Sub,,0,0,0,,H-how is this possible ?
+Dialogue: 0,0:16:16.68,0:16:18.40,Sub,,0,0,0,,What kind of spell is this !?
+Dialogue: 0,0:16:20.24,0:16:21.36,Sub,,0,0,0,,Blood energy,
+Dialogue: 0,0:16:21.56,0:16:22.68,Sub,,0,0,0,,death energy,
+Dialogue: 0,0:16:22.80,0:16:24.56,Sub,,0,0,0,,formations made of corpses,
+Dialogue: 0,0:16:25.20,0:16:27.20,Sub,,0,0,0,,stand no chance against me.
+Dialogue: 0,0:16:49.96,0:16:50.76,Sub,,0,0,0,,Come out !
+Dialogue: 0,0:16:50.96,0:16:52.28,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:16:52.56,0:16:54.48,Sub,,0,0,0,,you can devour to your heart's content.
+Dialogue: 0,0:16:54.64,0:16:55.72,Sub,,0,0,0,,Finally !
+Dialogue: 0,0:16:56.04,0:16:59.16,Sub,,0,0,0,,I can finally devour to my heart's content !
+Dialogue: 0,0:17:09.04,0:17:10.16,Sub,,0,0,0,,Lead the way
+Dialogue: 0,0:17:11.52,0:17:14.04,Sub,,0,0,0,,{\fad(000,800)}to the Fighting Evil Sect.
+Dialogue: 0,0:17:16.72,0:19:18.55,Note,,0,0,0,,{\fad(1000,1000)}The donghua makes Wang Lin triggering the execution order look like an accident. In the novel, it wasn't...\N\NWang Lin stopped. He glanced at the token before his cold gaze locked onto Qian Kun. After Li Muwan saw the token, she hesitated before taking a closer look and was startled. She said, “That is the Hundred Days Execution Order. I can’t believe the Sea of Devils has this kind of treasure. I have only seen it in ancient records.”\N\NLi Muwan quickly explained the details of the token to Wang Lin. Her breathing was ragged by the time she was finished and there was a sense of dread in her eyes when she looked at the token.\N\NQian Kun was really afraid that Wang Lin wouldn’t recognize the token. If Wang Lin didn’t believe him and killed him anyways, it would be really bad.\NHowever, after seeing the girl explaining it, he finally relaxed.\N\NHe didn’t believe that there would be someone who would be willing to kill after learning of the effect of the execution order. He relaxed in his heart and said, “Fellow cultivator, what do you think of my proposal? Don’t be too stubborn. If you were to really kill me, you would be marked by the execution order and it would create a lot of trouble for you. The girl with you will also be dragged in as well, so don't be like this.”\N\NWang Lin didn’t even look at Qian Kun. He turned to Li Muwan and asked,“Are you sure? If I can last 100 days, I can obtain all of his cultivation?”\N\NLi Muwan took a deep breath and nodded.\N\NQian Kun’s heart skipped a beat as he realized that something was wrong. He started to back away, but Wang Lin’s cold gaze suddenly locked onto him. Wang Lin spat out one word: “Die!”
+Dialogue: 0,0:17:22.19,0:17:27.83,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:17:24.49,0:17:27.83,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:17:28.47,0:17:33.43,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:17:30.31,0:17:33.43,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:17:33.59,0:17:39.35,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:17:39.47,0:17:45.07,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:17:45.35,0:17:50.67,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:17:47.23,0:17:50.67,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:17:50.95,0:17:56.27,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:17:52.85,0:17:56.27,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:17:56.31,0:18:01.99,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:59.19,0:18:01.99,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:18:02.43,0:18:06.63,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:18:04.59,0:18:06.63,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:18:06.71,0:18:09.95,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:18:09.99,0:18:13.03,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:18:13.16,0:18:18.59,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:18:14.85,0:18:18.59,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:18:18.59,0:18:21.71,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:18:21.71,0:18:24.75,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:18:24.75,0:18:30.11,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:18:26.63,0:18:30.11,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:18:30.11,0:18:33.07,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:18:33.07,0:18:35.87,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:18:35.87,0:18:41.35,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:18:37.91,0:18:41.35,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:18:41.55,0:18:44.71,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:18:44.71,0:18:47.75,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:18:47.75,0:18:53.43,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:18:50.07,0:18:53.43,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

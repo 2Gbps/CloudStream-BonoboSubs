@@ -1,0 +1,317 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Intro,Roboto,55,&H0054A6CB,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:51.08,0:01:52.08,Sub,,0,0,0,,Zhang Hu...
+Dialogue: 0,0:01:52.60,0:01:53.44,Sub,,0,0,0,,You...
+Dialogue: 0,0:01:56.40,0:01:57.76,Sub,,0,0,0,,You should leave.
+Dialogue: 0,0:02:00.24,0:02:01.64,Sub,,0,0,0,,I'll handle the body.
+Dialogue: 0,0:02:04.52,0:02:05.75,Sub,,0,0,0,,Come with me !
+Dialogue: 0,0:02:06.32,0:02:06.91,Sub,,0,0,0,,I...
+Dialogue: 0,0:02:10.36,0:02:12.08,Sub,,0,0,0,,I'll stay to clean things up.
+Dialogue: 0,0:02:12.20,0:02:13.31,Sub,,0,0,0,,I'll find an excuse
+Dialogue: 0,0:02:13.32,0:02:14.68,Sub,,0,0,0,,so no one will suspect me.
+Dialogue: 0,0:02:15.20,0:02:16.92,Sub,,0,0,0,,It will be best for both of us.
+Dialogue: 0,0:02:19.44,0:02:20.23,Sub,,0,0,0,,Fine...
+Dialogue: 0,0:02:22.12,0:02:23.95,Sub,,0,0,0,,Wang Lin, take care.
+Dialogue: 0,0:02:26.32,0:02:28.16,Sub,,0,0,0,,It's the law of the jungle
+Dialogue: 0,0:02:28.52,0:02:30.40,Sub,,0,0,0,,and I might be the next one.
+Dialogue: 0,0:02:42.88,0:02:45.80,Sub,,0,0,0,,Senior, why can't I condense spiritual energy ?
+Dialogue: 0,0:02:58.52,0:02:59.52,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:02:59.76,0:03:01.68,Sub,,0,0,0,,Is there something wrong with my cultivation ?
+Dialogue: 0,0:03:02.28,0:03:04.75,Sub,,0,0,0,,There's a plant called the Qi Scattering Grass.
+Dialogue: 0,0:03:05.88,0:03:07.11,Sub,,0,0,0,,If you're poisoned by it,
+Dialogue: 0,0:03:07.12,0:03:09.12,Sub,,0,0,0,,you can no longer condense spiritual energy
+Dialogue: 0,0:03:09.16,0:03:11.23,Sub,,0,0,0,,and your cultivation cannot advance.
+Dialogue: 0,0:03:11.96,0:03:13.19,Sub,,0,0,0,,Someone poisoned you.
+Dialogue: 0,0:03:13.64,0:03:15.07,Sub,,0,0,0,,Do you know who it might be ?
+Dialogue: 0,0:03:17.76,0:03:19.43,Sub,,0,0,0,,This pill and bag of holding
+Dialogue: 0,0:03:19.44,0:03:21.99,Sub,,0,0,0,,are gifts for you, my disciple.
+Dialogue: 0,0:03:22.80,0:03:23.83,Sub,,0,0,0,,Listen to me.
+Dialogue: 0,0:03:24.24,0:03:25.84,Sub,,0,0,0,,That cheap master of yours,
+Dialogue: 0,0:03:25.88,0:03:26.95,Sub,,0,0,0,,just kill him !
+Dialogue: 0,0:03:27.20,0:03:28.08,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:03:28.12,0:03:29.36,Sub,,0,0,0,,you're knowledgeable.
+Dialogue: 0,0:03:29.56,0:03:30.51,Sub,,0,0,0,,Do you know
+Dialogue: 0,0:03:30.52,0:03:32.52,Sub,,0,0,0,,how to cure this poison ?
+Dialogue: 0,0:03:33.00,0:03:35.32,Sub,,0,0,0,,The only option is to fight poison with poison.
+Dialogue: 0,0:03:35.44,0:03:37.23,Sub,,0,0,0,,But can you endure the pain ?
+Dialogue: 0,0:03:39.08,0:03:40.51,Sub,,0,0,0,,As long as I can keep cultivating,
+Dialogue: 0,0:03:40.52,0:03:41.72,Sub,,0,0,0,,I'm not afraid !
+Dialogue: 0,0:03:47.24,0:03:49.28,Sub,,0,0,0,,Don't be late for the sect gathering !
+Dialogue: 0,0:03:50.12,0:03:51.75,Sub,,0,0,0,,The Xuan Dao Sect is arriving soon...
+Dialogue: 0,0:03:52.20,0:03:53.40,Sub,,0,0,0,,Senior Brother, wait for me !
+Dialogue: 0,0:03:53.64,0:03:54.27,Sub,,0,0,0,,Hurry up !
+Dialogue: 0,0:03:56.32,0:03:57.11,Sub,,0,0,0,,Wow !
+Dialogue: 0,0:03:58.24,0:03:59.03,Sub,,0,0,0,,Wow !
+Dialogue: 0,0:04:09.60,0:04:11.55,Sub,,0,0,0,,Ouyang Dao from the Xuan Dao Sect
+Dialogue: 0,0:04:11.56,0:04:14.15,Sub,,0,0,0,,has arrived with his disciples.
+Dialogue: 0,0:04:15.24,0:04:16.76,Sub,,0,0,0,,Look at the sky !
+Dialogue: 0,0:04:25.40,0:04:26.71,Sub,,0,0,0,,So impressive !
+Dialogue: 0,0:04:26.72,0:04:27.71,Sub,,0,0,0,,Be quiet,
+Dialogue: 0,0:04:27.72,0:04:29.83,Sub,,0,0,0,,don't flatter them.
+Dialogue: 0,0:04:34.60,0:04:36.15,Sub,,0,0,0,,Wow, so impressive !
+Dialogue: 0,0:04:41.04,0:04:44.00,Sub,,0,0,0,,It's the Xuan Dao Sect's guardian beast: the Thousand-legged Centipede.
+Dialogue: 0,0:04:44.04,0:04:47.19,Sub,,0,0,0,,Judging by its size, it must be over 300 years old.
+Dialogue: 0,0:04:47.88,0:04:48.83,Sub,,0,0,0,,Stay away from it,
+Dialogue: 0,0:04:49.08,0:04:51.31,Sub,,0,0,0,,its poison could kill you instantly !
+Dialogue: 0,0:04:51.88,0:04:53.32,Sub,,0,0,0,,Over 300 years...
+Dialogue: 0,0:04:53.36,0:04:54.55,Sub,,0,0,0,,This centipede is perfect.
+Dialogue: 0,0:05:21.72,0:05:24.32,Card,,0,0,0,,{\pos(377,528)\fad(300,300)}Liu Mei\NXuan Dao Sect disciple\N12th layer of Qi Condensation
+Dialogue: 0,0:05:22.72,0:05:23.67,Sub,,0,0,0,,The cultivation world
+Dialogue: 0,0:05:23.68,0:05:25.76,Sub,,0,0,0,,has such beautiful female cultivators ?
+Dialogue: 0,0:05:26.24,0:05:28.47,Sub,,0,0,0,,Our prettiest Senior Sister Zhou
+Dialogue: 0,0:05:28.48,0:05:30.59,Sub,,0,0,0,,doesn't even compare to her pinky.
+Dialogue: 0,0:05:33.84,0:05:37.15,Sub,,0,0,0,,Is this the power of love ?
+Dialogue: 0,0:05:37.84,0:05:40.23,Sub,,0,0,0,,If I had such a beautiful fairy,
+Dialogue: 0,0:05:41.32,0:05:43.48,Sub,,0,0,0,,I'd die without regrets.
+Dialogue: 0,0:05:43.76,0:05:45.52,Sub,,0,0,0,,She's so beautiful...
+Dialogue: 0,0:06:14.12,0:06:15.59,Sub,,0,0,0,,My fairy, I'm here !
+Dialogue: 0,0:06:15.68,0:06:17.20,Sub,,0,0,0,,She's mine!
+Dialogue: 0,0:06:17.72,0:06:19.24,Sub,,0,0,0,,No, she's mine !
+Dialogue: 0,0:06:21.12,0:06:21.99,Sub,,0,0,0,,Break !
+Dialogue: 0,0:06:29.56,0:06:31.51,Sub,,0,0,0,,I was born with a pure Water Spirit Root.
+Dialogue: 0,0:06:31.64,0:06:32.95,Sub,,0,0,0,,Among my peers,
+Dialogue: 0,0:06:32.96,0:06:35.35,Sub,,0,0,0,,no one can resist my charm.
+Dialogue: 0,0:06:35.96,0:06:38.60,Sub,,0,0,0,,This guy is only at the 1st layer of Qi Condensation
+Dialogue: 0,0:06:38.68,0:06:41.08,Sub,,0,0,0,,but he was the first to recover his senses.
+Dialogue: 0,0:06:41.28,0:06:42.64,Sub,,0,0,0,,Weird...
+Dialogue: 0,0:06:42.68,0:06:46.27,Sub,,0,0,0,,When did the Xuan Dao Sect start practicing charm spells ?
+Dialogue: 0,0:06:47.16,0:06:48.87,Sub,,0,0,0,,That's really despicable.
+Dialogue: 0,0:06:52.68,0:06:55.07,Sub,,0,0,0,,My disciple has a pure Water Spirit Root.
+Dialogue: 0,0:06:55.40,0:06:57.59,Sub,,0,0,0,,You really are fools
+Dialogue: 0,0:06:57.60,0:06:59.23,Sub,,0,0,0,,for calling it a spell.
+Dialogue: 0,0:06:59.24,0:07:00.47,Sub,,0,0,0,,How utterly ridiculous.
+Dialogue: 0,0:06:59.08,0:07:01.92,Card,,0,0,0,,{\pos(348,541)\fad(300,300)}Qin Gulei\NXuan Dao Sect Elder\NPeak Late stage\NFoundation Establishment
+Dialogue: 0,0:07:02.72,0:07:05.52,Card,,0,0,0,,{\pos(1579,531)\fad(300,300)}Ouyang Dao\NXuan Dao Sect Elder\NPeak Late stage\NFoundation Establishment
+Dialogue: 0,0:07:02.80,0:07:03.59,Sub,,0,0,0,,Junior Brother,
+Dialogue: 0,0:07:04.00,0:07:06.11,Sub,,0,0,0,,I can see that among the Heng Yue Sect disciples,
+Dialogue: 0,0:07:06.12,0:07:07.92,Sub,,0,0,0,,none have such a pure Spirit Root.
+Dialogue: 0,0:07:07.96,0:07:09.87,Sub,,0,0,0,,It's no wonder that fellow cultivator Daoxu
+Dialogue: 0,0:07:09.88,0:07:11.31,Sub,,0,0,0,,couldn't tell the difference.
+Dialogue: 0,0:07:12.76,0:07:13.99,Sub,,0,0,0,,I see...
+Dialogue: 0,0:07:14.36,0:07:19.11,Sub,,0,0,0,,It's too early to be saying such harsh words.
+Dialogue: 0,0:07:20.72,0:07:21.71,Sub,,0,0,0,,Fellow cultivator Huanglong.
+Dialogue: 0,0:07:22.96,0:07:25.99,Sub,,0,0,0,,You must be tired from your trip
+Dialogue: 0,0:07:26.00,0:07:27.79,Sub,,0,0,0,,so you can rest for a few days.
+Dialogue: 0,0:07:28.56,0:07:31.43,Sub,,0,0,0,,As for the competition between disciples,
+Dialogue: 0,0:07:32.12,0:07:34.59,Sub,,0,0,0,,it will begin in 3 days.
+Dialogue: 0,0:07:34.60,0:07:36.23,Sub,,0,0,0,,Review your judgement after it.
+Dialogue: 0,0:07:54.12,0:07:55.04,Sub,,0,0,0,,Wang Zhuo,
+Dialogue: 0,0:07:55.56,0:07:57.99,Sub,,0,0,0,,you'll guide the Xuan Dao Sect's disciples.
+Dialogue: 0,0:07:58.40,0:07:59.79,Sub,,0,0,0,,If you mess up,
+Dialogue: 0,0:08:00.28,0:08:01.67,Sub,,0,0,0,,I won't spare you.
+Dialogue: 0,0:08:02.12,0:08:02.99,Sub,,0,0,0,,Don't worry Master.
+Dialogue: 0,0:08:03.60,0:08:05.19,Sub,,0,0,0,,Disciple will take care of
+Dialogue: 0,0:08:05.20,0:08:06.99,Sub,,0,0,0,,the Seniors from the Xuan Dao Sect.
+Dialogue: 0,0:08:11.76,0:08:13.67,Sub,,0,0,0,,This centipede really is magnificent !
+Dialogue: 0,0:08:16.08,0:08:16.87,Sub,,0,0,0,,Step back !
+Dialogue: 0,0:08:17.12,0:08:18.03,Sub,,0,0,0,,It's aggressive !
+Dialogue: 0,0:08:21.28,0:08:22.95,Sub,,0,0,0,,During your stay at Heng Yue Sect,
+Dialogue: 0,0:08:23.36,0:08:25.27,Sub,,0,0,0,,we will take care of trivial tasks
+Dialogue: 0,0:08:25.96,0:08:27.60,Sub,,0,0,0,,such as feeding your beast.
+Dialogue: 0,0:08:27.76,0:08:28.35,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:08:29.40,0:08:32.39,Sub,,0,0,0,,you'll feed the centipede for the next few days.
+Dialogue: 0,0:08:40.40,0:08:41.75,Sub,,0,0,0,,This beast is dangerous.
+Dialogue: 0,0:08:42.20,0:08:44.47,Sub,,0,0,0,,First I'll suppress the poison in your body
+Dialogue: 0,0:08:44.48,0:08:46.16,Sub,,0,0,0,,so you can use some spiritual energy.
+Dialogue: 0,0:08:46.68,0:08:49.60,Sub,,0,0,0,,But it'll only last half an incense stick of time.
+Dialogue: 0,0:08:46.68,0:08:49.60,Second,,0,0,0,,Note: 1 incense stick of time = 15 min
+Dialogue: 0,0:08:49.64,0:08:51.80,Sub,,0,0,0,,Thanks Senior, it'll be enough.
+Dialogue: 0,0:09:41.48,0:09:42.76,Sub,,0,0,0,,That's enough.
+Dialogue: 0,0:09:57.80,0:09:59.84,Sub,,0,0,0,,The centipede is a poisonous beast,
+Dialogue: 0,0:09:59.88,0:10:02.31,Sub,,0,0,0,,of course it recovered quickly from the sedative.
+Dialogue: 0,0:10:49.88,0:10:52.23,Sub,,0,0,0,,This venom is too strong...
+Dialogue: 0,0:11:09.76,0:11:10.88,Sub,,0,0,0,,If you die now,
+Dialogue: 0,0:11:10.88,0:11:12.87,Sub,,0,0,0,,I'll be lonely for a few more centuries.
+Dialogue: 0,0:11:12.88,0:11:14.35,Sub,,0,0,0,,I won't die yet,
+Dialogue: 0,0:11:14.40,0:11:15.79,Sub,,0,0,0,,I must free you first, Senior.
+Dialogue: 0,0:11:17.76,0:11:20.27,Sub,,0,0,0,,Try circulating your spiritual energy.
+Dialogue: 0,0:11:33.92,0:11:35.44,Sub,,0,0,0,,2nd layer of Qi Condensation ?
+Dialogue: 0,0:11:40.88,0:11:42.04,Sub,,0,0,0,,4th layer...
+Dialogue: 0,0:11:42.32,0:11:43.32,Sub,,0,0,0,,5th layer...
+Dialogue: 0,0:11:49.92,0:11:52.12,Sub,,0,0,0,,14th layer of Qi Condensation !
+Dialogue: 0,0:11:56.76,0:12:00.00,Card,,0,0,0,,{\pos(1625,500)\fad(300,300)}Wang Lin\NHeng Yue Sect disciple\N14th layer of Qi Condensation
+Dialogue: 0,0:12:03.32,0:12:04.16,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:12:04.24,0:12:06.35,Sub,,0,0,0,,how did I breakthrough to the 14th layer ?
+Dialogue: 0,0:12:06.60,0:12:09.28,Sub,,0,0,0,,The centipede's venom opened all the restraints in your body
+Dialogue: 0,0:12:09.28,0:12:11.84,Sub,,0,0,0,,and released all the spiritual energy you accumulated
+Dialogue: 0,0:12:11.84,0:12:13.80,Sub,,0,0,0,,which helped you to breakthrough.
+Dialogue: 0,0:12:15.48,0:12:16.19,Sub,,0,0,0,,Wang Lin !
+Dialogue: 0,0:12:19.76,0:12:22.03,Sub,,0,0,0,,That Heng Yue disciple was right,
+Dialogue: 0,0:12:22.04,0:12:23.63,Sub,,0,0,0,,you really were hiding here.
+Dialogue: 0,0:12:24.40,0:12:27.87,Sub,,0,0,0,,I wonder why you were so eager to find me.
+Dialogue: 0,0:12:28.80,0:12:29.67,Sub,,0,0,0,,Stop pretending !
+Dialogue: 0,0:12:30.28,0:12:32.23,Sub,,0,0,0,,Our guardian centipede
+Dialogue: 0,0:12:32.24,0:12:33.60,Sub,,0,0,0,,is suddenly weakened.
+Dialogue: 0,0:12:33.64,0:12:34.58,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:12:34.60,0:12:36.00,Sub,,0,0,0,,this was your doing !
+Dialogue: 0,0:12:38.28,0:12:39.28,Sub,,0,0,0,,Weird...
+Dialogue: 0,0:12:39.48,0:12:40.87,Sub,,0,0,0,,It was fine when I fed it.
+Dialogue: 0,0:12:41.52,0:12:43.16,Sub,,0,0,0,,How could this have happened ?
+Dialogue: 0,0:12:47.96,0:12:49.59,Sub,,0,0,0,,Little friend, wait a moment.
+Dialogue: 0,0:12:59.00,0:12:59.88,Sub,,0,0,0,,Master...
+Dialogue: 0,0:13:07.80,0:13:09.55,Sub,,0,0,0,,This is the Heng Yue Sect
+Dialogue: 0,0:13:09.56,0:13:11.80,Sub,,0,0,0,,and the competition hasn't started yet.
+Dialogue: 0,0:13:11.80,0:13:13.75,Sub,,0,0,0,,If you harm someone now,
+Dialogue: 0,0:13:13.76,0:13:16.35,Sub,,0,0,0,,it would dishonor the Xuan Dao Sect.
+Dialogue: 0,0:13:16.36,0:13:18.75,Sub,,0,0,0,,Think carefully about this.
+Dialogue: 0,0:13:31.92,0:13:33.03,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:13:33.32,0:13:34.35,Sub,,0,0,0,,see you at the competition.
+Dialogue: 0,0:13:38.96,0:13:41.64,Card,,0,0,0,,{\pos(321,477)\fad(300,300)}Wang Lin's room\NHeng Yue Sect
+Dialogue: 0,0:13:39.84,0:13:41.39,Sub,,0,0,0,,Thank you for saving me earlier.
+Dialogue: 0,0:13:43.16,0:13:44.87,Sub,,0,0,0,,You're my disciple,
+Dialogue: 0,0:13:44.88,0:13:47.35,Sub,,0,0,0,,I can't let outsiders bully you.
+Dialogue: 0,0:13:49.25,0:13:51.12,Sub,,0,0,0,,Why are you still at the 1st layer ?
+Dialogue: 0,0:13:51.36,0:13:52.44,Sub,,0,0,0,,Didn't you have...
+Dialogue: 0,0:13:54.12,0:13:56.95,Sub,,0,0,0,,Have you been slacking off lately ?
+Dialogue: 0,0:14:00.12,0:14:02.24,Sub,,0,0,0,,You're already at the 14th layer.
+Dialogue: 0,0:14:02.28,0:14:03.88,Sub,,0,0,0,,The cultivation world is dangerous
+Dialogue: 0,0:14:03.88,0:14:07.28,Sub,,0,0,0,,so I'll teach you how to hide your cultivation.
+Dialogue: 0,0:14:10.76,0:14:12.19,Sub,,0,0,0,,Is disciple too slow ?
+Dialogue: 0,0:14:12.80,0:14:14.15,Sub,,0,0,0,,I'll cultivate harder then.
+Dialogue: 0,0:14:15.52,0:14:18.27,Sub,,0,0,0,,This kid seems honest but is actually cunning.
+Dialogue: 0,0:14:18.96,0:14:21.63,Sub,,0,0,0,,I'm sure he's the one who killed Liu Shulang.
+Dialogue: 0,0:14:22.28,0:14:24.31,Sub,,0,0,0,,But he must be at the 3rd layer
+Dialogue: 0,0:14:24.32,0:14:26.12,Sub,,0,0,0,,in order to survive a Soul Search.
+Dialogue: 0,0:14:26.16,0:14:27.27,Sub,,0,0,0,,When that happens,
+Dialogue: 0,0:14:27.28,0:14:28.99,Sub,,0,0,0,,the treasure you are hiding
+Dialogue: 0,0:14:29.00,0:14:30.39,Sub,,0,0,0,,will be mine !
+Dialogue: 0,0:14:31.60,0:14:32.79,Sub,,0,0,0,,The competition is near
+Dialogue: 0,0:14:32.80,0:14:35.99,Sub,,0,0,0,,go ahead and reach the 3rd layer of Qi Condensation
+Dialogue: 0,0:14:36.00,0:14:37.71,Sub,,0,0,0,,so I can be proud of you.
+Dialogue: 0,0:14:38.16,0:14:38.83,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:14:40.08,0:14:41.68,Sub,,0,0,0,,Master, have some tea.
+Dialogue: 0,0:14:41.76,0:14:42.27,Sub,,0,0,0,,Sure.
+Dialogue: 0,0:14:47.04,0:14:50.24,Card,,0,0,0,,{\pos(1588,455)\fad(300,300)}Pine Peak Mountain\NHeng Yue Sect
+Dialogue: 0,0:15:22.70,0:15:32.04,Sub,,0,0,0,,Note: It doesn't make any sense for these characters to be here right now, it's pure fanservice because the adaptation was supposed to only be 24 episodes long.
+Dialogue: 0,0:15:33.60,0:15:37.00,Card,,0,0,0,,{\pos(458,521)\fad(300,300)}Li Muwan\NLuo River Sect\N12th layer of Qi Condensation
+Dialogue: 0,0:15:45.40,0:15:47.71,Sub,,0,0,0,,Our Luo River Sect doesn't do such competitions.
+Dialogue: 0,0:15:49.04,0:15:50.03,Sub,,0,0,0,,Let's watch it.
+Dialogue: 0,0:15:50.96,0:15:52.51,Sub,,0,0,0,,The people of Zhao are more combative than us.
+Dialogue: 0,0:15:52.52,0:15:54.16,Sub,,0,0,0,,Our countries are distant
+Dialogue: 0,0:15:54.20,0:15:57.12,Sub,,0,0,0,,so if our master didn't need Dao Fruits for alchemy
+Dialogue: 0,0:15:57.20,0:15:58.71,Sub,,0,0,0,,from the Xuan Dao Sect
+Dialogue: 0,0:15:58.72,0:16:01.15,Sub,,0,0,0,,and activated the Ancient Teleportation Formations,
+Dialogue: 0,0:16:01.16,0:16:02.00,Sub,,0,0,0,,we...
+Dialogue: 0,0:16:02.04,0:16:04.72,Sub,,0,0,0,,would never have been able to come here.
+Dialogue: 0,0:16:01.96,0:16:05.32,Card,,0,0,0,,{\pos(400,465)\fad(300,300)}Li Qiqing\NLuo River Sect disciple\NMiddle stage Foundation Establishment
+Dialogue: 0,0:16:05.84,0:16:08.24,Sub,,0,0,0,,Their cultivators focus mostly on combat
+Dialogue: 0,0:16:08.24,0:16:09.71,Sub,,0,0,0,,unlike us from the Burning Fire country
+Dialogue: 0,0:16:09.72,0:16:11.91,Sub,,0,0,0,,who focus on refining pills and artifacts.
+Dialogue: 0,0:16:12.56,0:16:13.60,Sub,,0,0,0,,Little sister,
+Dialogue: 0,0:16:14.00,0:16:15.76,Sub,,0,0,0,,you've had an easy life
+Dialogue: 0,0:16:15.88,0:16:18.12,Sub,,0,0,0,,and don't know the dangers of the world.
+Dialogue: 0,0:16:18.40,0:16:20.39,Sub,,0,0,0,,I hope you'll get to travel more
+Dialogue: 0,0:16:20.68,0:16:22.52,Sub,,0,0,0,,and learn to be cautious.
+Dialogue: 0,0:16:31.12,0:16:31.96,Sub,,0,0,0,,Look !
+Dialogue: 0,0:16:37.24,0:16:40.08,Sub,,0,0,0,,This competition will be a king of the hill.
+Dialogue: 0,0:16:40.32,0:16:42.67,Sub,,0,0,0,,The last disciple standing
+Dialogue: 0,0:16:42.68,0:16:45.27,Sub,,0,0,0,,will determine the winning sect.
+Dialogue: 0,0:16:46.16,0:16:47.32,Sub,,0,0,0,,I officially declare
+Dialogue: 0,0:16:47.32,0:16:50.27,Sub,,0,0,0,,that the competition between the Heng Yue Sect and the Xuan Dao Sect
+Dialogue: 0,0:16:50.28,0:16:51.91,Sub,,0,0,0,,begins now !
+Dialogue: 0,0:17:02.16,0:17:03.76,Sub,,0,0,0,,I'm Zhang Kuang from the Heng Yue Sect,
+Dialogue: 0,0:17:03.76,0:17:05.20,Sub,,0,0,0,,please enlighten me.
+Dialogue: 0,0:17:05.48,0:17:06.75,Sub,,0,0,0,,Senior Zhang's lotus sword qi
+Dialogue: 0,0:17:06.76,0:17:09.39,Sub,,0,0,0,,could easily defeat 10 of them.
+Dialogue: 0,0:17:12.40,0:17:13.23,Sub,,0,0,0,,What's going on ?
+Dialogue: 0,0:17:19.08,0:17:22.40,Card,,0,0,0,,{\pos(358,520)\fad(300,300)}Zhou Peng\NXuan Dao Sect disciple\N13th layer of Qi Condensation
+Dialogue: 0,0:17:29.00,0:17:30.67,Sub,,0,0,0,,What's your name ?
+Dialogue: 0,0:18:03.28,0:18:05.08,Sub,,0,0,0,,13th layer of Qi Condensation ?
+Dialogue: 0,0:18:05.60,0:18:08.03,Sub,,0,0,0,,I'm the Xuan Dao Sect's top disciple,
+Dialogue: 0,0:18:08.04,0:18:09.07,Sub,,0,0,0,,Zhou Peng.
+Dialogue: 0,0:18:10.04,0:18:10.59,Sub,,0,0,0,,You...
+Dialogue: 0,0:18:11.16,0:18:12.67,Sub,,0,0,0,,As a token of our sincerity,
+Dialogue: 0,0:18:12.68,0:18:14.59,Sub,,0,0,0,,we wish to minimize injuries this time.
+Dialogue: 0,0:18:14.60,0:18:17.19,Sub,,0,0,0,,Let this one match decide it all.
+Dialogue: 0,0:18:17.96,0:18:21.83,Sub,,0,0,0,,If one of your disciples can beat him,
+Dialogue: 0,0:18:21.84,0:18:23.83,Sub,,0,0,0,,then the Heng Yue Sect wins.
+Dialogue: 0,0:18:25.72,0:18:27.28,Sub,,0,0,0,,The Xuan Dao Sect
+Dialogue: 0,0:18:27.32,0:18:30.48,Sub,,0,0,0,,actually sent their top disciple at the 13th layer to bully them ?
+Dialogue: 0,0:18:30.88,0:18:34.24,Card,,0,0,0,,{\pos(390,523)\fad(300,300)}Lu Song\NHeng Yue Sect disciple\N10th layer of Qi Condensation
+Dialogue: 0,0:18:34.56,0:18:35.80,Sub,,0,0,0,,Senior Brother Lu Song !
+Dialogue: 0,0:18:35.84,0:18:38.13,Sub,,0,0,0,,He's the best disciple Heng Yue had in the past century.
+Dialogue: 0,0:18:38.15,0:18:39.59,Sub,,0,0,0,,I'm sure he'll win !
+Dialogue: 0,0:18:40.16,0:18:42.11,Sub,,0,0,0,,Lu Song's sword qi is impressive.
+Dialogue: 0,0:18:42.60,0:18:43.60,Sub,,0,0,0,,However...
+Dialogue: 0,0:18:44.08,0:18:45.28,Sub,,0,0,0,,He can't beat him.
+Dialogue: 0,0:18:46.20,0:18:47.35,Sub,,0,0,0,,Let me try !
+Dialogue: 0,0:18:52.40,0:18:53.11,Sub,,0,0,0,,You...
+Dialogue: 0,0:18:53.76,0:18:55.91,Sub,,0,0,0,,Your cultivation isn't high enough.
+Dialogue: 0,0:19:25.52,0:19:26.08,Sub,,0,0,0,,Go !
+Dialogue: 0,0:19:55.16,0:19:56.43,Sub,,0,0,0,,Who's next !?
+Dialogue: 0,0:20:03.84,0:20:06.64,Sub,,0,0,0,,The Heng Yue Sect really is worthless.
+Dialogue: 0,0:20:09.80,0:20:11.31,Sub,,0,0,0,,You're just a bunch of trash !
+Dialogue: 0,0:20:34.33,0:22:36.25,Note,,0,0,0,,{\fad(1000,1000)}A breakthrough in cultivation is when a character levels up and overcomes their current bottleneck in cultivation. Breakthroughs are always important moments because they mean an increase in power.\NCultivation realms for Qi Condensation are segmented into layers numbered from 1 to 15.\NLater cultivation realms are segmented between early stage, middle stage, late stage and peak late stage.\NWhether it's going from a sub-level to another one or advancing to the next realm of cultivation, it always involves a breakthrough.\N\NA LOT of stuff is getting cut & rewritten here, I won't go over all of it because there is just too much and most of it won't have too many consequences. Just know that novel Wang Lin doesn't go from layer 1 to layer 14 in one go but has to work for it.
+Dialogue: 0,0:20:39.88,0:20:45.52,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:20:42.53,0:20:45.52,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:20:46.16,0:20:51.12,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:20:48.00,0:20:51.12,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:20:51.28,0:20:57.04,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:20:57.16,0:21:02.76,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:21:03.04,0:21:08.36,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:21:04.92,0:21:08.36,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:21:08.64,0:21:13.96,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:21:10.54,0:21:13.96,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:21:14.00,0:21:19.68,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:21:16.88,0:21:19.68,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:21:20.12,0:21:24.32,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:21:22.28,0:21:24.32,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:21:24.40,0:21:27.64,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:21:27.68,0:21:30.72,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:21:30.85,0:21:36.28,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:21:32.54,0:21:36.28,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:21:36.28,0:21:39.40,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:21:39.40,0:21:42.44,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:21:42.44,0:21:47.80,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:21:44.32,0:21:47.80,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:21:47.80,0:21:50.76,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:21:50.76,0:21:53.56,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:21:53.56,0:21:59.04,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:21:55.60,0:21:59.04,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:21:59.24,0:22:02.40,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:22:02.40,0:22:05.44,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:22:05.44,0:22:11.12,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:22:07.76,0:22:11.12,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

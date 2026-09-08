@@ -1,0 +1,315 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Asura,Lucida Sans,40,&H00322CEB,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Earth,Lucida Sans,40,&H0098EAFE,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Jade,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Map,Lucida Sans,30,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.12,0:01:50.44,Sub,,0,0,0,,Thousands of years ago,
+Dialogue: 0,0:01:51.44,0:01:55.00,Sub,,0,0,0,,the Ancestors of the Burning Fire country
+Dialogue: 0,0:01:55.12,0:01:58.12,Sub,,0,0,0,,sealed the Fire Spirit Beasts within the volcanoes.
+Dialogue: 0,0:01:58.80,0:02:01.20,Sub,,0,0,0,,These Fire Spirit Beasts sought vengeance
+Dialogue: 0,0:02:01.44,0:02:04.64,Sub,,0,0,0,,so they hunted lone cultivators to use as sacrifices
+Dialogue: 0,0:02:05.32,0:02:08.64,Sub,,0,0,0,,in order to feed a powerful Fire Spirit Beast King.
+Dialogue: 0,0:02:09.48,0:02:12.04,Sub,,0,0,0,,Once the Fire Spirit Beast King is mature,
+Dialogue: 0,0:02:12.16,0:02:15.68,Sub,,0,0,0,,they will reduce the Burning Fire country along with its neighbors
+Dialogue: 0,0:02:15.68,0:02:17.76,Sub,,0,0,0,,to ashes.
+Dialogue: 0,0:02:19.32,0:02:23.48,Sub,,0,0,0,,Now that the Fire Spirit Beast King has been devoured by the Heaven Defying Bead,
+Dialogue: 0,0:02:23.52,0:02:29.60,Sub,,0,0,0,,the enraged Fire Spirit Beasts will begin to attack the seals anyways.
+Dialogue: 0,0:02:51.88,0:02:53.36,Sub,,0,0,0,,I'm glad this seal exists.
+Dialogue: 0,0:02:53.36,0:02:54.92,Sub,,0,0,0,,Once Lin Tao brings me the map,
+Dialogue: 0,0:02:54.92,0:02:56.40,Sub,,0,0,0,,I must leave the Burning Fire country.
+Dialogue: 0,0:03:21.92,0:03:24.68,Sub,,0,0,0,,That spiritual energy fluctuation was very powerful.
+Dialogue: 0,0:03:24.96,0:03:26.68,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:03:23.84,0:03:27.08,Card,,0,0,0,,{\pos(1578,491)\fad(300,300)}Song Yunzhi\NWar God Shrine Ancestor\NLate stage Nascent Soul
+Dialogue: 0,0:03:27.60,0:03:29.12,Sub,,0,0,0,,The others might not recognize this
+Dialogue: 0,0:03:29.20,0:03:30.88,Sub,,0,0,0,,but we all know that
+Dialogue: 0,0:03:29.64,0:03:32.88,Card,,0,0,0,,{\pos(1677,500)\fad(300,300)}Yang Sen\NWar God Shrine Ancestor\NMiddle stage Nascent Soul
+Dialogue: 0,0:03:31.16,0:03:33.16,Sub,,0,0,0,,this is the doing of the Fire Spirit Beasts.
+Dialogue: 0,0:03:33.72,0:03:36.52,Sub,,0,0,0,,It’s far more violent than usual this time.
+Dialogue: 0,0:03:37.12,0:03:40.72,Sub,,0,0,0,,But if we join forces to subdue these mere beasts,
+Dialogue: 0,0:03:40.80,0:03:41.88,Sub,,0,0,0,,it won't be a problem.
+Dialogue: 0,0:03:41.88,0:03:43.16,Sub,,0,0,0,,That's nonsense.
+Dialogue: 0,0:03:43.56,0:03:45.28,Sub,,0,0,0,,The Fire Spirit Beasts are the fire element
+Dialogue: 0,0:03:45.28,0:03:47.88,Sub,,0,0,0,,so only water element spells can resist them.
+Dialogue: 0,0:03:48.08,0:03:51.08,Sub,,0,0,0,,How many water or cold type cultivators do we have ?
+Dialogue: 0,0:03:51.28,0:03:52.84,Sub,,0,0,0,,How could we...
+Dialogue: 0,0:03:53.36,0:03:56.60,Card,,0,0,0,,{\pos(345,494)\fad(300,300)}Zhou Jin\NWar God Shrine Ancestor\NEarly stage Nascent Soul
+Dialogue: 0,0:03:53.48,0:03:55.68,Sub,,0,0,0,,Since the previous seals were effective,
+Dialogue: 0,0:03:55.88,0:03:56.80,Sub,,0,0,0,,then this time
+Dialogue: 0,0:03:56.80,0:03:58.88,Sub,,0,0,0,,we just have to reinforce the seals.
+Dialogue: 0,0:03:59.12,0:04:00.48,Sub,,0,0,0,,Rather than debating here,
+Dialogue: 0,0:04:00.52,0:04:01.68,Sub,,0,0,0,,we should act now.
+Dialogue: 0,0:04:01.96,0:04:03.24,Sub,,0,0,0,,I’ll take my leave first !
+Dialogue: 0,0:04:03.80,0:04:04.76,Sub,,0,0,0,,Enough,
+Dialogue: 0,0:04:04.92,0:04:06.12,Sub,,0,0,0,,send the order.
+Dialogue: 0,0:04:06.68,0:04:08.28,Sub,,0,0,0,,All Ancestors and disciples
+Dialogue: 0,0:04:08.48,0:04:11.48,Sub,,0,0,0,,are to reinforce the seals on the volcanoes in our territory.
+Dialogue: 0,0:04:12.68,0:04:13.68,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:04:22.08,0:04:24.60,Sub,,0,0,0,,I can finally feast to my heart’s content !
+Dialogue: 0,0:04:28.24,0:04:29.72,Sub,,0,0,0,,Come back here !
+Dialogue: 0,0:04:42.20,0:04:44.92,Sub,,0,0,0,,I have completed the water and fire elements.
+Dialogue: 0,0:04:45.36,0:04:47.28,Sub,,0,0,0,,Wood is only halfway done.
+Dialogue: 0,0:04:47.56,0:04:50.56,Sub,,0,0,0,,With metal and earth, that will be all 5 elements.
+Dialogue: 0,0:04:51.68,0:04:53.56,Sub,,0,0,0,,I wonder what power this bead will have
+Dialogue: 0,0:04:53.56,0:04:55.80,Sub,,0,0,0,,when all 5 are complete.
+Dialogue: 0,0:05:04.20,0:05:05.00,Sub,,0,0,0,,Spare me Master !
+Dialogue: 0,0:05:05.20,0:05:07.08,Sub,,0,0,0,,Spare me Master ! Please...
+Dialogue: 0,0:05:09.68,0:05:11.36,Sub,,0,0,0,,If this happens again,
+Dialogue: 0,0:05:11.44,0:05:12.36,Sub,,0,0,0,,you're dead.
+Dialogue: 0,0:05:13.08,0:05:14.00,Sub,,0,0,0,,Yes, yes, yes !
+Dialogue: 0,0:05:14.76,0:05:16.80,Sub,,0,0,0,,How is this guy not dead yet ?
+Dialogue: 0,0:05:17.08,0:05:20.68,Sub,,0,0,0,,Damn it ! And how did he find me ?
+Dialogue: 0,0:05:21.00,0:05:22.72,Sub,,0,0,0,,This is weird...
+Dialogue: 0,0:05:24.64,0:05:27.36,Asura,,0,0,0,,{\pos(394,223)\fad(300,000)}Great Freedom Asura Art
+Dialogue: 0,0:05:24.64,0:05:27.36,Earth,,0,0,0,,{\pos(957,266)\fad(300,000)}False Earth Escape Technique
+Dialogue: 0,0:05:25.28,0:05:28.32,Sub,,0,0,0,,The Great Freedom Asura Art has six layers.
+Dialogue: 0,0:05:29.00,0:05:30.84,Sub,,0,0,0,,Kill people to refine their heart
+Dialogue: 0,0:05:30.88,0:05:33.28,Sub,,0,0,0,,and use this experience to transform your own heart.
+Dialogue: 0,0:05:33.32,0:05:36.80,Sub,,0,0,0,,Immerse yourself in the path of ruthlessness to make an Asura Soul.
+Dialogue: 0,0:05:37.20,0:05:40.00,Sub,,0,0,0,,This soul can replace a Nascent Soul.
+Dialogue: 0,0:05:39.20,0:05:44.48,Asura,,0,0,0,,{\pos(733,229)}Great Freedom Asura Art
+Dialogue: 0,0:05:39.20,0:05:44.48,Earth,,0,0,0,,{\pos(1339,229)}False Earth Escape Technique
+Dialogue: 0,0:05:40.88,0:05:42.20,Sub,,0,0,0,,To cultivate this art,
+Dialogue: 0,0:05:42.28,0:05:44.28,Sub,,0,0,0,,kill one person per day.
+Dialogue: 0,0:05:44.28,0:05:45.72,Sub,,0,0,0,,One person per day ?
+Dialogue: 0,0:05:46.28,0:05:47.92,Sub,,0,0,0,,If he practices this technique,
+Dialogue: 0,0:05:48.08,0:05:50.72,Sub,,0,0,0,,won’t I have souls to devour every day ?
+Dialogue: 0,0:05:51.68,0:05:52.60,Sub,,0,0,0,,Congratulations Master,
+Dialogue: 0,0:05:52.60,0:05:54.00,Sub,,0,0,0,,congratulations.
+Dialogue: 0,0:05:54.00,0:05:55.48,Sub,,0,0,0,,With such a high-level technique,
+Dialogue: 0,0:05:55.48,0:05:58.20,Sub,,0,0,0,,your Nascent Soul breakthrough is within reach !
+Dialogue: 0,0:05:59.76,0:06:02.16,Sub,,0,0,0,,This jade slip came from Sun Youcai’s Senior Brother.
+Dialogue: 0,0:06:02.20,0:06:03.96,Sub,,0,0,0,,Since you already devoured him,
+Dialogue: 0,0:06:04.52,0:06:08.12,Sub,,0,0,0,,then this cultivation technique must be mediocre.
+Dialogue: 0,0:06:10.56,0:06:13.96,Asura,,0,0,0,,{\pos(351,169)}Great Freedom Asura Art
+Dialogue: 0,0:06:10.56,0:06:13.96,Earth,,0,0,0,,{\pos(992,166)}False Earth Escape Technique
+Dialogue: 0,0:06:14.12,0:06:16.12,Sub,,0,0,0,,This jade slip doesn't even contain a voice
+Dialogue: 0,0:06:16.12,0:06:18.48,Sub,,0,0,0,,and the technique’s name includes the word “false”.
+Dialogue: 0,0:06:18.76,0:06:20.00,Sub,,0,0,0,,I'm sure it's worthless.
+Dialogue: 0,0:06:22.24,0:06:26.84,Asura,,0,0,0,,{\pos(1370,151)}Great Freedom Asura Art
+Dialogue: 0,0:06:22.24,0:06:24.96,Earth,,0,0,0,,{\fad(000,300)\pos(481,161)}False Earth Escape Technique
+Dialogue: 0,0:06:20.08,0:06:24.40,Sub,,0,0,0,,Master, the Great Freedom Asura Art is far superior.
+Dialogue: 0,0:06:26.68,0:06:31.07,Sub,,0,0,0,,Senior Situ told me that the Earth Escape Technique is one of the elemental escapes.
+Dialogue: 0,0:06:31.12,0:06:33.64,Sub,,0,0,0,,They were famous in the ancient cultivation world.
+Dialogue: 0,0:06:33.68,0:06:35.76,Sub,,0,0,0,,Even if this one is an imitation,
+Dialogue: 0,0:06:35.80,0:06:39.40,Sub,,0,0,0,,it shouldn't be underestimated when compared to other spells.
+Dialogue: 0,0:06:37.76,0:06:43.00,Asura,,0,0,0,,{\pos(1226,196)}Great Freedom Asura Art
+Dialogue: 0,0:06:40.76,0:06:41.72,Sub,,0,0,0,,Master,
+Dialogue: 0,0:06:41.72,0:06:43.28,Sub,,0,0,0,,this technique is just for fleeing.
+Dialogue: 0,0:06:43.32,0:06:45.56,Sub,,0,0,0,,It’s nowhere near as strong as that killing technique...
+Dialogue: 0,0:07:28.96,0:07:32.00,Sub,,0,0,0,,Be it his talent or Spirit Root, Ma Liang's body
+Dialogue: 0,0:07:32.08,0:07:33.88,Sub,,0,0,0,,is far superior to my previous body.
+Dialogue: 0,0:07:34.28,0:07:37.68,Sub,,0,0,0,,Learning this False Earth Escape Technique felt effortless.
+Dialogue: 0,0:07:43.20,0:07:46.48,Sub,,0,0,0,,East, west, north, south...
+Dialogue: 0,0:07:46.60,0:07:48.60,Sub,,0,0,0,,Ice crystals, fall !
+Dialogue: 0,0:08:03.40,0:08:05.28,Sub,,0,0,0,,Formation, activate !
+Dialogue: 0,0:08:24.60,0:08:25.92,Sub,,0,0,0,,Senior Brother is amazing !
+Dialogue: 0,0:08:25.92,0:08:26.60,Sub,,0,0,0,,Indeed !
+Dialogue: 0,0:08:26.60,0:08:28.68,Sub,,0,0,0,,We couldn't fix the formation after half a month.
+Dialogue: 0,0:08:28.68,0:08:29.68,Sub,,0,0,0,,But with Senior Brother here,
+Dialogue: 0,0:08:29.68,0:08:31.16,Sub,,0,0,0,,those fire beasts are no big deal.
+Dialogue: 0,0:08:31.32,0:08:33.28,Sub,,0,0,0,,We're safe with this formation.
+Dialogue: 0,0:08:33.40,0:08:34.68,Sub,,0,0,0,,Right !
+Dialogue: 0,0:08:35.40,0:08:36.44,Sub,,0,0,0,,What’s happening ?!
+Dialogue: 0,0:08:37.12,0:08:39.08,Sub,,0,0,0,,How did the formation break ?
+Dialogue: 0,0:08:42.16,0:08:43.00,Sub,,0,0,0,,Senior Brother !
+Dialogue: 0,0:08:43.00,0:08:45.20,Sub,,0,0,0,,Senior brother has fallen ! Run !
+Dialogue: 0,0:08:45.20,0:08:47.12,Sub,,0,0,0,,Send a message to the sect !
+Dialogue: 0,0:09:04.20,0:09:05.00,Sub,,0,0,0,,Big brother,
+Dialogue: 0,0:09:05.72,0:09:08.12,Sub,,0,0,0,,the volcanoes are erupting one after another.
+Dialogue: 0,0:09:08.20,0:09:10.00,Sub,,0,0,0,,We cultivators can still evade them
+Dialogue: 0,0:09:10.40,0:09:13.24,Sub,,0,0,0,,but the mortals have no means to resist.
+Dialogue: 0,0:09:14.40,0:09:15.24,Sub,,0,0,0,,Wan’er,
+Dialogue: 0,0:09:15.60,0:09:17.29,Sub,,0,0,0,,now that the Burning Fire country
+Dialogue: 0,0:09:17.36,0:09:19.40,Sub,,0,0,0,,is filled with this violent fire spiritual energy.
+Dialogue: 0,0:09:19.88,0:09:22.08,Sub,,0,0,0,,If we cultivators absorb too much of it,
+Dialogue: 0,0:09:22.12,0:09:23.92,Sub,,0,0,0,,we can lose our minds
+Dialogue: 0,0:09:23.96,0:09:25.68,Sub,,0,0,0,,and at worst, burn to death.
+Dialogue: 0,0:09:26.48,0:09:29.48,Sub,,0,0,0,,Do you think we cultivators have anywhere to hide ?
+Dialogue: 0,0:09:30.60,0:09:31.68,Sub,,0,0,0,,Unless…
+Dialogue: 0,0:09:36.80,0:09:39.28,Sub,,0,0,0,,All disciples are to return to the sect at once.
+Dialogue: 0,0:09:50.20,0:09:52.08,Sub,,0,0,0,,I wonder why the Ancestors summoned us.
+Dialogue: 0,0:09:53.04,0:09:56.00,Card,,0,0,0,,{\pos(380,513)\fad(300,300)}Lan Ruo\NLuo River Sect Ancestor\NMiddle stage Nascent Soul
+Dialogue: 0,0:09:54.08,0:09:55.96,Sub,,0,0,0,,You were called here
+Dialogue: 0,0:09:55.96,0:09:58.80,Sub,,0,0,0,,because of the Fire Spirit Beasts' rampage.
+Dialogue: 0,0:09:59.20,0:10:00.72,Sub,,0,0,0,,The country is now in chaos.
+Dialogue: 0,0:10:01.68,0:10:04.80,Sub,,0,0,0,,The Luo River Sect, War God Shrine, Evil Devil Sect and Corpse Sect
+Dialogue: 0,0:10:04.96,0:10:06.92,Sub,,0,0,0,,have formed the Burning Fire Alliance.
+Dialogue: 0,0:10:07.12,0:10:08.12,Sub,,0,0,0,,And now,
+Dialogue: 0,0:10:08.20,0:10:11.28,Sub,,0,0,0,,the Burning Fire Alliance will migrate to the country of Xuanwu.
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(921,256)\fad(000,100)}Burning Fire country
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(813,39)\fad(00,100)}Evil Devil Sect
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(713,157)\fad(00,100)}War God Shrine
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(773,426)\fad(00,100)}Country of Chu
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(1128,441)\fad(00,100)}Country of Xuanwu
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(551,449)\fad(00,100)}Cloud Sky Sect
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(1134,229)\fad(00,100)}Luo River Sect
+Dialogue: 0,0:10:09.12,0:10:10.32,Map,,0,0,0,,{\pos(1040,62)\fad(00,100)}Corpse Sect
+Dialogue: 0,0:10:11.68,0:10:13.88,Sub,,0,0,0,,Xuanwu is crowded with sects.
+Dialogue: 0,0:10:13.88,0:10:15.16,Sub,,0,0,0,,Will they be willing
+Dialogue: 0,0:10:15.16,0:10:16.56,Sub,,0,0,0,,to share their resources with us ?
+Dialogue: 0,0:10:16.64,0:10:17.00,Sub,,0,0,0,,This…
+Dialogue: 0,0:10:17.56,0:10:19.20,Sub,,0,0,0,,This will likely lead to war.
+Dialogue: 0,0:10:19.20,0:10:20.16,Sub,,0,0,0,,Indeed.
+Dialogue: 0,0:10:22.16,0:10:25.64,Sub,,0,0,0,,Ancestor, if all the cultivators migrate
+Dialogue: 0,0:10:25.88,0:10:28.76,Sub,,0,0,0,,then how will the mortals survive the Fire Spirit Beasts ?
+Dialogue: 0,0:10:28.80,0:10:30.96,Sub,,0,0,0,,We’ve done our best to evacuate them.
+Dialogue: 0,0:10:31.32,0:10:32.52,Sub,,0,0,0,,The Dao is merciless
+Dialogue: 0,0:10:32.72,0:10:34.68,Sub,,0,0,0,,so we must prepare for the worst.
+Dialogue: 0,0:10:35.80,0:10:37.20,Sub,,0,0,0,,There is no room for debate.
+Dialogue: 0,0:10:37.32,0:10:38.80,Sub,,0,0,0,,Follow the orders
+Dialogue: 0,0:10:38.88,0:10:40.20,Sub,,0,0,0,,and prepare to migrate.
+Dialogue: 0,0:11:19.20,0:11:20.72,Sub,,0,0,0,,This flying sword is quite good.
+Dialogue: 0,0:11:21.56,0:11:23.40,Sub,,0,0,0,,It's much faster than that iron scrap.
+Dialogue: 0,0:11:28.96,0:11:30.40,Sub,,0,0,0,,The time has come.
+Dialogue: 0,0:11:34.96,0:11:35.76,Sub,,0,0,0,,Hide inside.
+Dialogue: 0,0:11:56.68,0:11:58.08,Sub,,0,0,0,,I can’t wait for Lin Tao anymore,
+Dialogue: 0,0:11:58.12,0:11:59.64,Sub,,0,0,0,,I need to reach the border.
+Dialogue: 0,0:11:59.68,0:12:02.08,Sub,,0,0,0,,The Burning Fire country is no longer safe.
+Dialogue: 0,0:12:03.32,0:12:04.88,Sub,,0,0,0,,Such a powerful Divine Sense !
+Dialogue: 0,0:12:10.68,0:12:12.68,Sub,,0,0,0,,Damn it, they found me !
+Dialogue: 0,0:12:22.28,0:12:24.52,Sub,,0,0,0,,These Fire Spirit Beasts resist Divine Sense attacks
+Dialogue: 0,0:12:24.56,0:12:27.28,Sub,,0,0,0,,and even my flying sword barely hurts them.
+Dialogue: 0,0:12:28.68,0:12:31.48,Sub,,0,0,0,,All things must have a weakness.
+Dialogue: 0,0:12:38.52,0:12:39.40,Sub,,0,0,0,,As expected.
+Dialogue: 0,0:12:44.24,0:12:45.44,Sub,,0,0,0,,I'm going to die !
+Dialogue: 0,0:12:45.44,0:12:46.00,Sub,,0,0,0,,Master,
+Dialogue: 0,0:12:46.00,0:12:47.96,Sub,,0,0,0,,this little sword won’t last long.
+Dialogue: 0,0:12:47.96,0:12:48.96,Sub,,0,0,0,,Calm down.
+Dialogue: 0,0:12:54.20,0:12:57.16,Sub,,0,0,0,,It seems that I’ll need the power of thousands of cultivators.
+Dialogue: 0,0:13:10.88,0:13:12.84,Sub,,0,0,0,,Follow me to flank the Fire Spirit Beasts !
+Dialogue: 0,0:13:12.88,0:13:13.68,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:13:23.68,0:13:24.72,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:13:24.76,0:13:26.08,Sub,,0,0,0,,State your name !
+Dialogue: 0,0:13:26.28,0:13:29.28,Sub,,0,0,0,,I am a War God Shrine disciple, Ma Liang.
+Dialogue: 0,0:13:32.12,0:13:35.48,Sub,,0,0,0,,Qing Xuan, take him to the War God Shrine to confirm.
+Dialogue: 0,0:13:36.08,0:13:37.84,Sub,,0,0,0,,If he’s not a War God Shrine disciple,
+Dialogue: 0,0:13:37.88,0:13:39.00,Sub,,0,0,0,,kill him.
+Dialogue: 0,0:13:39.04,0:13:39.72,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:13:46.28,0:13:48.08,Sub,,0,0,0,,Qing Xuan of Luo River Sect
+Dialogue: 0,0:13:48.20,0:13:50.68,Sub,,0,0,0,,escorts Ma Liang of the War God Shrine.
+Dialogue: 0,0:13:50.68,0:13:52.76,Sub,,0,0,0,,Fellow cultivators, please confirm his identity
+Dialogue: 0,0:13:52.92,0:13:54.56,Sub,,0,0,0,,so I may report back.
+Dialogue: 0,0:13:55.56,0:13:56.36,Sub,,0,0,0,,Follow me.
+Dialogue: 0,0:13:57.28,0:13:58.52,Sub,,0,0,0,,Where did this scoundrel come from ?
+Dialogue: 0,0:13:58.52,0:14:01.08,Sub,,0,0,0,,How dare you impersonate a War God Shrine disciple !
+Dialogue: 0,0:14:14.08,0:14:16.56,Sub,,0,0,0,,He destroyed my artifact so easily…
+Dialogue: 0,0:14:17.36,0:14:19.44,Sub,,0,0,0,,Thank you for your efforts, fellow cultivator Qing Xuan.
+Dialogue: 0,0:14:19.48,0:14:21.52,Sub,,0,0,0,,Ma Liang is indeed our disciple.
+Dialogue: 0,0:14:25.28,0:14:27.28,Sub,,0,0,0,,Thank you for escorting him.
+Dialogue: 0,0:14:35.28,0:14:37.80,Sub,,0,0,0,,Does Master know Ancestor Feng Luan ?
+Dialogue: 0,0:14:39.08,0:14:41.56,Sub,,0,0,0,,She sent me to bring you to her.
+Dialogue: 0,0:14:41.68,0:14:42.48,Sub,,0,0,0,,Lead the way.
+Dialogue: 0,0:14:48.88,0:14:52.12,Sub,,0,0,0,,Lin Tao was caught by Ancestor Feng Luan while copying the map.
+Dialogue: 0,0:14:52.20,0:14:53.88,Sub,,0,0,0,,The map is in her hands now
+Dialogue: 0,0:14:54.28,0:14:55.80,Sub,,0,0,0,,and Lin Tao was punished.
+Dialogue: 0,0:15:01.16,0:15:03.52,Sub,,0,0,0,,Wang Lin pays respects to Senior.
+Dialogue: 0,0:15:12.52,0:15:15.28,Sub,,0,0,0,,Is Wang Lin your real name ?
+Dialogue: 0,0:15:24.40,0:15:26.96,Sub,,0,0,0,,Not only did this brat steal a disciple's body
+Dialogue: 0,0:15:27.00,0:15:28.80,Sub,,0,0,0,,but he also lured the Fire Spirit Beasts here !
+Dialogue: 0,0:15:29.00,0:15:30.88,Sub,,0,0,0,,Do you know that in this battle,
+Dialogue: 0,0:15:30.92,0:15:33.08,Sub,,0,0,0,,over a thousand of us died !
+Dialogue: 0,0:15:33.68,0:15:35.88,Sub,,0,0,0,,I won’t allow you kill him !
+Dialogue: 0,0:15:43.88,0:15:45.28,Sub,,0,0,0,,I can spare him.
+Dialogue: 0,0:15:45.56,0:15:47.08,Sub,,0,0,0,,But since he’s not Ma Liang,
+Dialogue: 0,0:15:47.28,0:15:48.88,Sub,,0,0,0,,he’s no longer our disciple.
+Dialogue: 0,0:15:49.12,0:15:50.72,Sub,,0,0,0,,He cannot stay here !
+Dialogue: 0,0:15:51.88,0:15:55.00,Sub,,0,0,0,,Wang Lin, do you want to be my disciple ?
+Dialogue: 0,0:15:55.28,0:15:56.20,Sub,,0,0,0,,Disciple is willing.
+Dialogue: 0,0:15:57.92,0:16:00.28,Sub,,0,0,0,,Since Junior Sister Feng Luan is willing to take him as disciple,
+Dialogue: 0,0:16:00.36,0:16:01.88,Sub,,0,0,0,,I won't pursue this any further.
+Dialogue: 0,0:16:02.12,0:16:03.72,Sub,,0,0,0,,With the war coming up,
+Dialogue: 0,0:16:03.88,0:16:05.68,Sub,,0,0,0,,this Foundation Establishment cultivator
+Dialogue: 0,0:16:05.88,0:16:08.80,Sub,,0,0,0,,likely won't survive long on the battlefield.
+Dialogue: 0,0:16:11.92,0:16:14.20,Sub,,0,0,0,,Sister Luan, why are you doing this ?
+Dialogue: 0,0:16:14.76,0:16:17.08,Sub,,0,0,0,,You're the one that sent Hong'er to the Foreign Battlefield
+Dialogue: 0,0:16:17.36,0:16:19.28,Sub,,0,0,0,,but she encountered many dangers there.
+Dialogue: 0,0:16:19.48,0:16:21.16,Sub,,0,0,0,,If not for this little friend,
+Dialogue: 0,0:16:21.16,0:16:23.20,Sub,,0,0,0,,your daughter would have died there !
+Dialogue: 0,0:16:36.44,0:16:38.32,Jade,,0,0,0,,{\pos(965,235)\fad(300,000)}War God Shrine
+Dialogue: 0,0:16:38.88,0:16:42.08,Sub,,0,0,0,,This jade is a Nascent Soul-level artifact I crafted years ago.
+Dialogue: 0,0:16:42.16,0:16:44.04,Sub,,0,0,0,,I've already wiped my Divine Sense from it.
+Dialogue: 0,0:16:44.08,0:16:45.76,Sub,,0,0,0,,Refine it and use it.
+Dialogue: 0,0:16:45.88,0:16:48.60,Sub,,0,0,0,,It should protect your life in this war.
+Dialogue: 0,0:16:49.72,0:16:51.12,Sub,,0,0,0,,Thank you Senior.
+Dialogue: 0,0:16:52.60,0:16:54.96,Sub,,0,0,0,,After we escape the Burning Fire country
+Dialogue: 0,0:16:55.28,0:16:56.68,Sub,,0,0,0,,and reach the country of Xuanwu,
+Dialogue: 0,0:16:56.68,0:16:58.00,Sub,,0,0,0,,the war will be fierce.
+Dialogue: 0,0:16:58.96,0:17:01.48,Sub,,0,0,0,,We forgive your previous offences.
+Dialogue: 0,0:17:01.68,0:17:03.28,Sub,,0,0,0,,But I will only help you only once
+Dialogue: 0,0:17:03.60,0:17:06.32,Sub,,0,0,0,,to repay you for saving Zihong.
+Dialogue: 0,0:17:07.00,0:17:07.92,Sub,,0,0,0,,Dismissed.
+Dialogue: 0,0:17:14.88,0:17:16.68,Sub,,0,0,0,,When we reach the country of Xuanwu,
+Dialogue: 0,0:17:17.20,0:17:19.68,Sub,,0,0,0,,this person will be very useful.
+Dialogue: 0,0:17:31.05,0:17:36.69,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:17:33.35,0:17:36.69,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:17:37.33,0:17:42.29,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:17:39.17,0:17:42.29,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:17:42.45,0:17:48.21,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:17:48.33,0:17:53.93,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:17:54.21,0:17:59.53,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:17:56.09,0:17:59.53,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:17:59.81,0:18:05.13,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:18:01.71,0:18:05.13,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:18:05.17,0:18:10.85,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:18:08.05,0:18:10.85,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:18:11.29,0:18:15.49,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:18:13.45,0:18:15.49,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:18:15.57,0:18:18.81,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:18:18.85,0:18:21.89,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:18:22.02,0:18:27.45,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:18:23.71,0:18:27.45,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:18:27.45,0:18:30.57,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:18:30.57,0:18:33.61,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:18:33.61,0:18:38.97,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:18:35.49,0:18:38.97,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:18:38.97,0:18:41.93,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:18:41.93,0:18:44.73,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:18:44.73,0:18:50.21,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:18:46.77,0:18:50.21,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:18:50.41,0:18:53.57,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:18:53.57,0:18:56.61,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:18:56.61,0:19:02.29,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:18:58.93,0:19:02.29,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

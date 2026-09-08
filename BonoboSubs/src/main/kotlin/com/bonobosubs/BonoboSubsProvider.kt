@@ -21,6 +21,8 @@ import com.lagradost.cloudstream3.newMovieSearchResponse
 import com.lagradost.cloudstream3.newSubtitleFile
 import com.lagradost.cloudstream3.newTvSeriesLoadResponse
 import com.lagradost.cloudstream3.toNewSearchResponseList
+import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.Qualities
 import com.lagradost.cloudstream3.utils.newExtractorLink
@@ -40,8 +42,15 @@ class BonoboSubsProvider : MainAPI() {
     companion object {
         // Public Nextcloud share token: https://bonobosubs.ovh/s/download?dir=/4k
         private const val SHARE_TOKEN = "download"
-        private const val DAV_PATH = "/public.php/dav/files/$SHARE_TOKEN/4k/"
-        private const val SUBS_PATH = "/public.php/dav/files/$SHARE_TOKEN/Latest%20subtitle%20files/"
+        private const val PATH_4K = "/public.php/dav/files/$SHARE_TOKEN/4k/"
+        private const val PATH_1080 = "/public.php/dav/files/$SHARE_TOKEN/1080p/"
+        private const val PATH_SUBS = "/public.php/dav/files/$SHARE_TOKEN/Latest%20subtitle%20files/"
+
+        // Plain-ASCII mirrors of one subtitle per episode, committed to this repo.
+        private const val SUBS_RAW_BASE =
+            "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/subs/"
+        private const val BUNDLED_SUBS_MIN = 1
+        private const val BUNDLED_SUBS_MAX = 157
 
         // Internal slugs, never fetched as http
         private const val SERIES_URL = "/renegade-immortal"
@@ -66,16 +75,13 @@ class BonoboSubsProvider : MainAPI() {
 
         // [BonoboSubs][4k]Renegade Immortal - 仙逆 Xian Ni - 001.mkv  (v3 batches)
         // [BonoboSubs][4k]Renegade Immortal - 仙逆 Xian Ni - 147.mkv  (current releases)
-        // [BonoboSubs][4k]Renegade Immortal - Xian Ni Episode 077.mkv (older releases)
+        // [BonoboSubs][4k]Renegade Immortal - Xian Ni Episode 077.mkv (older releases / full 1080p dir)
         private val EPISODE_PATTERNS = listOf(
             Regex("""Xian Ni - (\d{1,4})\.mkv$""", RegexOption.IGNORE_CASE),
             Regex("""Xian Ni Episode (\d{1,4})\.mkv$""", RegexOption.IGNORE_CASE)
         )
 
-        // [BonoboSubs]Renegade Immortal - Xian Ni - 147.ass
-        // [Bonobosubs]Renegade Immortal - Xian Ni Episode 001.ass
-        // [BonoboSubs]Renegade Immortal - Xian Ni Episode 001_bis.ass
-        // [Bonobosubs]Renegade Immortal - Xian Ni Episode 001_uncut.ass
+        // Fallback subtitle names on the live share (future episodes only)
         private val SUBTITLE_PATTERNS = listOf(
             Regex("""Xian Ni - (\d{1,4})\.ass$""", RegexOption.IGNORE_CASE),
             Regex("""Xian Ni Episode (\d{1,4})(?:_uncut)?(?:_bis)?\.ass$""", RegexOption.IGNORE_CASE)
@@ -83,19 +89,19 @@ class BonoboSubsProvider : MainAPI() {
 
         private val MOVIE_PATTERN =
             Regex("""Renegade Immortal Movie.*\.mkv$""", RegexOption.IGNORE_CASE)
-
-        private val MOVIE_SUBTITLE_PATTERN =
-            Regex("""Renegade Immortal Movie.*\.ass$""", RegexOption.IGNORE_CASE)
     }
+
+    /** Episode/movie payload; serialized with Jackson and passed through loadLinks. */
+    data class EpisodeData(val ep: Int?, val movie: Boolean, val u4k: String?, val u1080: String?)
 
     private data class DavFile(val href: String, val fileName: String)
 
     private data class DavEntry(val href: String, val isCollection: Boolean, val fileName: String)
 
-    private data class SubtitleEntry(val href: String, val episode: Int?, val isMovie: Boolean, val lang: String)
+    private data class SubtitleEntry(val href: String, val episode: Int, val lang: String)
 
-    private var subtitleCache: List<SubtitleEntry>? = null
-    private var subtitleCacheAt = 0L
+    private var fallbackSubsCache: List<SubtitleEntry>? = null
+    private var fallbackSubsAt = 0L
 
     /** Depth-1 PROPFIND; returns every entry with its raw (still percent-encoded) href. */
     private suspend fun propfind(path: String): List<DavEntry> {
@@ -118,10 +124,11 @@ class BonoboSubsProvider : MainAPI() {
             }
     }
 
-    private suspend fun list4kFiles(): List<DavFile> {
+    private suspend fun listMkvFiles(path: String): List<DavFile> {
         return try {
-            propfind(DAV_PATH)
+            propfind(path)
                 .filterNot { it.isCollection }
+                .filter { it.fileName.endsWith(".mkv", true) }
                 .map { DavFile(it.href, it.fileName) }
         } catch (e: Exception) {
             logError(e)
@@ -129,14 +136,14 @@ class BonoboSubsProvider : MainAPI() {
         }
     }
 
-    /** Walks the subtitle share (folders nest one level for Uncut). */
-    private suspend fun listSubtitleFiles(): List<SubtitleEntry> {
-        subtitleCache?.let { cached ->
-            if (System.currentTimeMillis() - subtitleCacheAt < SUBS_CACHE_MS) return cached
+    /** Fallback for episodes not bundled in the repo: pick ONE file, Below > Above > Uncut. */
+    private suspend fun listFallbackSubs(): List<SubtitleEntry> {
+        fallbackSubsCache?.let { cached ->
+            if (System.currentTimeMillis() - fallbackSubsAt < SUBS_CACHE_MS) return cached
         }
         val entries = ArrayList<SubtitleEntry>()
         try {
-            val queue = ArrayDeque(listOf(SUBS_PATH))
+            val queue = ArrayDeque(listOf(PATH_SUBS))
             var depth = 0
             while (queue.isNotEmpty() && depth < 3) {
                 val folders = ArrayList<String>()
@@ -150,13 +157,11 @@ class BonoboSubsProvider : MainAPI() {
                                 val parent = segments.dropLast(1).lastOrNull() ?: ""
                                 val isUncut = segments.any { it.equals("Uncut", true) }
                                 val lang = if (isUncut) "English (Uncut - $parent)" else "English ($parent)"
-                                val isMovie = MOVIE_SUBTITLE_PATTERN.containsMatchIn(entry.fileName)
-                                val episode =
-                                    if (isMovie) null
-                                    else SUBTITLE_PATTERNS.firstNotNullOfOrNull {
-                                        it.find(entry.fileName)?.groupValues?.get(1)?.toIntOrNull()
-                                    }
-                                entries.add(SubtitleEntry(entry.href, episode, isMovie, lang))
+                                SUBTITLE_PATTERNS.firstNotNullOfOrNull {
+                                    it.find(entry.fileName)?.groupValues?.get(1)?.toIntOrNull()
+                                }?.let { ep ->
+                                    entries.add(SubtitleEntry(entry.href, ep, lang))
+                                }
                             }
                         }
                     }
@@ -168,9 +173,36 @@ class BonoboSubsProvider : MainAPI() {
         } catch (e: Exception) {
             logError(e)
         }
-        subtitleCache = entries
-        subtitleCacheAt = System.currentTimeMillis()
+        fallbackSubsCache = entries
+        fallbackSubsAt = System.currentTimeMillis()
         return entries
+    }
+
+    private suspend fun subtitleFor(episode: Int): SubtitleFile? {
+        // Bundled: plain-ASCII raw.githubusercontent URL, verified Content-Type text/plain,
+        // no percent-encoding traps — this is what makes subs load in mpv-based players.
+        if (episode in BUNDLED_SUBS_MIN..BUNDLED_SUBS_MAX) {
+            return newSubtitleFile("English", "$SUBS_RAW_BASE/ep%03d.ass".format(episode))
+        }
+        // Future episodes: pick a single best file from the live share.
+        val pick = listFallbackSubs()
+            .filter { it.episode == episode }
+            .minByOrNull { entry ->
+                when {
+                    !entry.href.contains("Uncut", true) && entry.href.contains("Below", true) -> 0
+                    !entry.href.contains("Uncut", true) && entry.href.contains("Above", true) -> 1
+                    entry.href.contains("Below", true) -> 2
+                    else -> 3
+                }
+            } ?: return null
+        return newSubtitleFile(pick.lang, "$mainUrl${pick.href}")
+    }
+
+    private fun link(url: String, label: String, quality: Int): ExtractorLink {
+        return newExtractorLink(this.name, label, url) {
+            this.quality = quality
+            this.referer = ""
+        }
     }
 
     private fun seriesEntry(): SearchResponse {
@@ -185,18 +217,35 @@ class BonoboSubsProvider : MainAPI() {
         }
     }
 
-    private fun buildEpisodes(files: List<DavFile>): List<Episode> {
-        return files.mapNotNull { file ->
-            val epNum = EPISODE_PATTERNS.firstNotNullOfOrNull { it.find(file.fileName) }
-                ?.groupValues?.get(1)?.toIntOrNull() ?: return@mapNotNull null
-            file to epNum
-        }
-            .sortedBy { it.second }
-            .distinctBy { it.second }
-            .map { (file, epNum) ->
-                newEpisode("$mainUrl${file.href}") {
-                    this.name = "Episode $epNum"
-                    this.episode = epNum
+    private fun episodeNumber(fileName: String): Int? {
+        return EPISODE_PATTERNS.firstNotNullOfOrNull { it.find(fileName) }
+            ?.groupValues?.get(1)?.toIntOrNull()
+    }
+
+    private fun buildEpisodes(
+        files4k: List<DavFile>,
+        files1080: List<DavFile>
+    ): List<Episode> {
+        val byEp4k = files4k.mapNotNull { file ->
+            episodeNumber(file.fileName)?.let { it to file }
+        }.toMap()
+        val byEp1080 = files1080.mapNotNull { file ->
+            episodeNumber(file.fileName)?.let { it to file }
+        }.toMap()
+
+        return (byEp4k.keys + byEp1080.keys)
+            .sorted()
+            .distinct()
+            .map { ep ->
+                val data = EpisodeData(
+                    ep = ep,
+                    movie = false,
+                    u4k = byEp4k[ep]?.let { "$mainUrl${it.href}" },
+                    u1080 = byEp1080[ep]?.let { "$mainUrl${it.href}" }
+                )
+                newEpisode(data.toJson()) {
+                    this.name = "Episode $ep"
+                    this.episode = ep
                     this.season = 1
                 }
             }
@@ -228,31 +277,37 @@ class BonoboSubsProvider : MainAPI() {
     }
 
     override suspend fun load(url: String): LoadResponse {
-        val files = list4kFiles()
+        val files4k = listMkvFiles(PATH_4K)
+        val files1080 = listMkvFiles(PATH_1080)
         return when {
             url.endsWith(SERIES_URL) -> newTvSeriesLoadResponse(
-                SERIES_TITLE, url, TvType.Anime, buildEpisodes(files)
+                SERIES_TITLE, url, TvType.Anime, buildEpisodes(files4k, files1080)
             ) {
                 this.posterUrl = POSTER_URL
                 this.plot =
                     "Wang Lin is a bright boy from a family shunned by their relatives. " +
                         "Granted one chance to walk the path of immortality with only mediocre talent, " +
                         "he takes step after bloody step to forge his own road to the heavens. " +
-                        "BonoboSubs 4K HEVC rips with external English subtitles."
+                        "BonoboSubs 4K and 1080p HEVC rips with English subtitles."
                 this.year = 2023
                 this.tags = listOf("Donghua", "Xianxia", "Cultivation")
             }
 
             url.endsWith(MOVIE_URL) -> {
-                val movieFile = files.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
+                val movie4k = files4k.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
                     ?: throw ErrorLoadingException("Movie file not found on BonoboSubs")
-                newMovieLoadResponse(
-                    MOVIE_TITLE, url, TvType.AnimeMovie, "$mainUrl${movieFile.href}"
-                ) {
+                val movie1080 = files1080.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
+                val data = EpisodeData(
+                    ep = null,
+                    movie = true,
+                    u4k = "$mainUrl${movie4k.href}",
+                    u1080 = movie1080?.let { "$mainUrl${it.href}" }
+                )
+                newMovieLoadResponse(MOVIE_TITLE, url, TvType.AnimeMovie, data.toJson()) {
                     this.posterUrl = POSTER_URL
                     this.plot =
                         "Renegade Immortal movie — Battle of the Gods. " +
-                            "Watch after episode 76. BonoboSubs 4K HEVC with external English subtitles."
+                            "Watch after episode 76. BonoboSubs 4K and 1080p HEVC with English subtitles."
                     this.year = 2025
                     this.tags = listOf("Donghua", "Xianxia", "Movie")
                 }
@@ -268,30 +323,22 @@ class BonoboSubsProvider : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ): Boolean {
-        val subs = listSubtitleFiles()
-        if (subs.isNotEmpty()) {
-            val videoName = URLDecoder.decode(data.substringAfterLast('/'), "UTF-8")
-            val isMovie = MOVIE_PATTERN.containsMatchIn(videoName)
-            val epNum = if (isMovie) null else
-                EPISODE_PATTERNS.firstNotNullOfOrNull { it.find(videoName) }?.groupValues?.get(1)?.toIntOrNull()
-            subs.filter { sub ->
-                if (isMovie) sub.isMovie else (!sub.isMovie && sub.episode == epNum)
-            }.forEach { sub ->
-                subtitleCallback(newSubtitleFile(sub.lang, "$mainUrl${sub.href}"))
+        val parsed = tryParseJson<EpisodeData>(data)
+        if (parsed != null && (parsed.u4k != null || parsed.u1080 != null)) {
+            parsed.u4k?.let {
+                callback(link(it, "$name 4K HEVC", Qualities.P2160.value))
             }
+            parsed.u1080?.let {
+                callback(link(it, "$name 1080p", Qualities.P1080.value))
+            }
+            val ep = parsed.ep
+            if (!parsed.movie && ep != null) {
+                subtitleFor(ep)?.let { subtitleCallback(it) }
+            }
+        } else if (data.startsWith("http")) {
+            // Legacy single-URL data
+            callback(link(data, "$name 4K HEVC", Qualities.P2160.value))
         }
-
-        // Direct WebDAV file URL, verified to support range requests (HTTP 206)
-        callback(
-            newExtractorLink(
-                this.name,
-                "$name 4K HEVC",
-                data
-            ) {
-                quality = Qualities.P2160.value
-                referer = ""
-            }
-        )
         return true
     }
 }

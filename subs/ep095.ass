@@ -1,0 +1,351 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 95_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:51.52,0:01:52.40,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:01:52.60,0:01:53.83,Sub,,0,0,0,,I'll fight you.
+Dialogue: 0,0:01:57.88,0:02:01.76,Sub,,0,0,0,,As expected of the one who killed Li Yuanfeng and the Giant Demon Clan Ancestor.
+Dialogue: 0,0:02:01.80,0:02:03.85,Sub,,0,0,0,,I look forward to learning from you
+Dialogue: 0,0:02:04.48,0:02:05.79,Sub,,0,0,0,,In this spar,
+Dialogue: 0,0:02:05.84,0:02:08.15,Sub,,0,0,0,,Brother Ceng doesn't need to hold back due to my status.
+Dialogue: 0,0:02:13.16,0:02:14.35,Sub,,0,0,0,,A celestial artifact !
+Dialogue: 0,0:02:16.08,0:02:18.15,Sub,,0,0,0,,Since Brother Ceng is using his trump cards,
+Dialogue: 0,0:02:18.48,0:02:19.75,Sub,,0,0,0,,then I, Qian Fe...
+Dialogue: 0,0:02:21.04,0:02:21.79,Sub,,0,0,0,,Devour !
+Dialogue: 0,0:02:22.16,0:02:24.95,Sub,,0,0,0,,This guy keeps attacking me
+Dialogue: 0,0:02:24.96,0:02:25.95,Sub,,0,0,0,,and interrupting me !
+Dialogue: 0,0:02:27.80,0:02:28.55,Sub,,0,0,0,,Cheap tricks !
+Dialogue: 0,0:02:29.12,0:02:32.32,Sub,,0,0,0,,Ceng Niu truly embodies the philosophy of our Soul Refining Sect.
+Dialogue: 0,0:02:32.36,0:02:34.27,Sub,,0,0,0,,Either you don't act
+Dialogue: 0,0:02:34.28,0:02:37.39,Sub,,0,0,0,,or you take the initiative.
+Dialogue: 0,0:02:38.48,0:02:40.15,Sub,,0,0,0,,Don't celebrate too soon !
+Dialogue: 0,0:02:41.68,0:02:44.28,Card,,0,0,0,,{\fad(300,300)\pos(1642,441)}Suzaku Awl
+Dialogue: 0,0:02:43.56,0:02:44.75,Sub,,0,0,0,,The Suzaku Awl...
+Dialogue: 0,0:02:45.56,0:02:47.55,Sub,,0,0,0,,It's Zhuque Zi's pseudo-celestial artifact.
+Dialogue: 0,0:02:47.88,0:02:49.15,Sub,,0,0,0,,It's extremely powerful.
+Dialogue: 0,0:02:49.96,0:02:50.75,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:02:52.80,0:02:54.01,Sub,,0,0,0,,Suzaku Formation,
+Dialogue: 0,0:02:54.12,0:02:54.98,Sub,,0,0,0,,gather !
+Dialogue: 0,0:03:03.40,0:03:05.87,Sub,,0,0,0,,It takes some guts to think of using
+Dialogue: 0,0:03:06.64,0:03:08.32,Sub,,0,0,0,,self-detonation tactics.
+Dialogue: 0,0:03:08.56,0:03:10.79,Sub,,0,0,0,,Fortunately, he's only using the sub-flag
+Dialogue: 0,0:03:10.84,0:03:13.03,Sub,,0,0,0,,so it's not a big deal.
+Dialogue: 0,0:03:13.76,0:03:16.15,Sub,,0,0,0,,Otherwise, I would have been heartbroken.
+Dialogue: 0,0:03:17.28,0:03:18.15,Sub,,0,0,0,,Thank you, Senior.
+Dialogue: 0,0:03:18.60,0:03:19.95,Sub,,0,0,0,,Junior will find opportunities
+Dialogue: 0,0:03:20.28,0:03:21.99,Sub,,0,0,0,,to replenish the Billion-Soul Flag.
+Dialogue: 0,0:03:23.16,0:03:24.75,Sub,,0,0,0,,Brother Ceng is really skilled,
+Dialogue: 0,0:03:25.56,0:03:27.35,Sub,,0,0,0,,I have learned much from this.
+Dialogue: 0,0:03:27.40,0:03:28.91,Sub,,0,0,0,,You talk too much.
+Dialogue: 0,0:03:29.44,0:03:30.31,Sub,,0,0,0,,Let's go !
+Dialogue: 0,0:03:38.76,0:03:39.67,Sub,,0,0,0,,Red Butterfly,
+Dialogue: 0,0:03:40.36,0:03:41.27,Sub,,0,0,0,,come out !
+Dialogue: 0,0:03:51.04,0:03:52.59,Sub,,0,0,0,,He really dared to hurt me ?
+Dialogue: 0,0:03:53.56,0:03:55.59,Sub,,0,0,0,,Your master is getting senile
+Dialogue: 0,0:03:56.68,0:03:58.55,Sub,,0,0,0,,so your domain will be mine.
+Dialogue: 0,0:03:59.36,0:04:00.83,Sub,,0,0,0,,Junior Sister's domain
+Dialogue: 0,0:04:01.20,0:04:02.75,Sub,,0,0,0,,will also be mine.
+Dialogue: 0,0:04:05.60,0:04:06.55,Sub,,0,0,0,,Lick it clean.
+Dialogue: 0,0:04:08.96,0:04:11.60,Sub,,0,0,0,,This Billion-Soul Flag is indeed powerful.
+Dialogue: 0,0:04:11.76,0:04:12.87,Sub,,0,0,0,,Unfortunately,
+Dialogue: 0,0:04:13.76,0:04:15.91,Sub,,0,0,0,,it will soon change owners.
+Dialogue: 0,0:04:24.80,0:04:26.24,Sub,,0,0,0,,Focus on cultivation
+Dialogue: 0,0:04:26.88,0:04:28.76,Sub,,0,0,0,,and you will reach Soul Transformation.
+Dialogue: 0,0:04:29.08,0:04:31.07,Sub,,0,0,0,,With this old man guarding you,
+Dialogue: 0,0:04:31.96,0:04:33.55,Sub,,0,0,0,,as long as I live,
+Dialogue: 0,0:04:34.00,0:04:36.39,Sub,,0,0,0,,no one will disturb you.
+Dialogue: 0,0:04:37.04,0:04:37.59,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:04:37.76,0:04:38.76,Sub,,0,0,0,,Don't thank me,
+Dialogue: 0,0:04:39.52,0:04:41.55,Sub,,0,0,0,,just remember our promise.
+Dialogue: 0,0:04:42.28,0:04:43.80,Sub,,0,0,0,,Senior can rest assured.
+Dialogue: 0,0:04:49.16,0:04:50.91,Sub,,0,0,0,,Soul Transformation has 3 steps.
+Dialogue: 0,0:04:51.48,0:04:52.31,Sub,,0,0,0,,The first step
+Dialogue: 0,0:04:52.64,0:04:53.95,Sub,,0,0,0,,is to cleanse the body.
+Dialogue: 0,0:04:54.76,0:04:57.15,Sub,,0,0,0,,When the Celestial Realm was intact,
+Dialogue: 0,0:04:57.24,0:04:59.55,Sub,,0,0,0,,cultivators just needed to enter it
+Dialogue: 0,0:04:59.60,0:05:02.15,Sub,,0,0,0,,and soak themselves in the Spirit Cleansing Pool.
+Dialogue: 0,0:05:03.44,0:05:06.55,Sub,,0,0,0,,But now, it requires celestial spiritual energy to cleanse the body
+Dialogue: 0,0:05:06.56,0:05:08.87,Sub,,0,0,0,,of its mortal roots.
+Dialogue: 0,0:05:09.08,0:05:12.75,Sub,,0,0,0,,Thus transforming the body completely.
+Dialogue: 0,0:05:16.68,0:05:17.75,Sub,,0,0,0,,My mortal roots
+Dialogue: 0,0:05:18.44,0:05:19.47,Sub,,0,0,0,,are gone.
+Dialogue: 0,0:05:20.68,0:05:22.83,Sub,,0,0,0,,The second step of Soul Transformation
+Dialogue: 0,0:05:23.16,0:05:24.79,Sub,,0,0,0,,is to refine a celestial body.
+Dialogue: 0,0:05:25.16,0:05:28.95,Sub,,0,0,0,,By using celestial spiritual energy to rebuild flesh and bones,
+Dialogue: 0,0:05:29.28,0:05:32.63,Sub,,0,0,0,,it makes the body compatible with celestial spiritual energy.
+Dialogue: 0,0:05:33.80,0:05:37.23,Sub,,0,0,0,,Although it's excruciatingly painful,
+Dialogue: 0,0:05:37.76,0:05:41.59,Sub,,0,0,0,,it transforms your body into that of a Celestial.
+Dialogue: 0,0:05:45.92,0:05:49.28,Sub,,0,0,0,,{\fad(000,700)\pos(186,482)}3 days later
+Dialogue: 0,0:05:58.48,0:05:59.67,Sub,,0,0,0,,Good.
+Dialogue: 0,0:06:00.04,0:06:02.63,Sub,,0,0,0,,Now, the final step is
+Dialogue: 0,0:06:03.00,0:06:04.71,Sub,,0,0,0,,to condense the Origin Soul
+Dialogue: 0,0:06:05.48,0:06:07.35,Sub,,0,0,0,,and make it corporeal.
+Dialogue: 0,0:06:07.64,0:06:09.75,Sub,,0,0,0,,Once the Origin Soul fully condenses,
+Dialogue: 0,0:06:10.20,0:06:12.23,Sub,,0,0,0,,it will merge with the body.
+Dialogue: 0,0:06:12.56,0:06:13.76,Sub,,0,0,0,,Only then
+Dialogue: 0,0:06:13.76,0:06:15.75,Sub,,0,0,0,,will Soul Transformation be complete.
+Dialogue: 0,0:06:17.36,0:06:18.79,Sub,,0,0,0,,What is this smell ?
+Dialogue: 0,0:06:19.40,0:06:21.59,Sub,,0,0,0,,The scent of your celestial body
+Dialogue: 0,0:06:21.80,0:06:25.79,Sub,,0,0,0,,will attract beasts and vengeful souls that want to possess it.
+Dialogue: 0,0:06:26.36,0:06:27.55,Sub,,0,0,0,,Young friend,
+Dialogue: 0,0:06:27.84,0:06:30.47,Sub,,0,0,0,,leave the outside to this old man.
+Dialogue: 0,0:06:30.76,0:06:32.63,Sub,,0,0,0,,No matter what happens,
+Dialogue: 0,0:06:32.76,0:06:34.03,Sub,,0,0,0,,you must stay focused
+Dialogue: 0,0:06:34.64,0:06:36.55,Sub,,0,0,0,,or your Origin Soul will scatter
+Dialogue: 0,0:06:36.56,0:06:38.04,Sub,,0,0,0,,and all will be lost.
+Dialogue: 0,0:06:38.24,0:06:39.47,Sub,,0,0,0,,Do you understand ?
+Dialogue: 0,0:06:39.84,0:06:40.55,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:06:52.96,0:06:54.50,Sub,,0,0,0,,I must stay focused
+Dialogue: 0,0:06:54.75,0:06:56.35,Sub,,0,0,0,,and keep it steady.
+Dialogue: 0,0:07:04.28,0:07:06.75,Sub,,0,0,0,,This war caused many deaths
+Dialogue: 0,0:07:07.36,0:07:10.31,Sub,,0,0,0,,and made these vengeful souls stronger.
+Dialogue: 0,0:07:53.20,0:07:54.15,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:07:55.16,0:07:57.43,Sub,,0,0,0,,I will give the Billion-Soul Flag to Ceng Niu.
+Dialogue: 0,0:07:58.00,0:08:00.19,Sub,,0,0,0,,I don't know if it's the right choice.
+Dialogue: 0,0:08:00.60,0:08:02.39,Sub,,0,0,0,,But with this war,
+Dialogue: 0,0:08:02.56,0:08:04.75,Sub,,0,0,0,,our sect may not survive.
+Dialogue: 0,0:08:06.00,0:08:07.79,Sub,,0,0,0,,No matter where he goes,
+Dialogue: 0,0:08:08.08,0:08:11.59,Sub,,0,0,0,,he will preserve our sect's legacy.
+Dialogue: 0,0:08:14.16,0:08:15.47,Sub,,0,0,0,,Maybe
+Dialogue: 0,0:08:16.28,0:08:19.35,Sub,,0,0,0,,this is what your domain foretold.
+Dialogue: 0,0:08:20.56,0:08:21.67,Sub,,0,0,0,,Soul Vortex !
+Dialogue: 0,0:08:23.48,0:08:24.99,Sub,,0,0,0,,In this life,
+Dialogue: 0,0:08:25.56,0:08:27.59,Sub,,0,0,0,,we don't seek immortality,
+Dialogue: 0,0:08:28.24,0:08:30.59,Sub,,0,0,0,,but a worthy way to die.
+Dialogue: 0,0:08:32.64,0:08:35.03,Sub,,0,0,0,,Our Soul Refining Sect Ancestors
+Dialogue: 0,0:08:35.48,0:08:38.15,Sub,,0,0,0,,all willingly erased their Divine Sense to become primary souls.
+Dialogue: 0,0:08:39.16,0:08:40.39,Sub,,0,0,0,,And I, Du Tian,
+Dialogue: 0,0:08:40.96,0:08:42.83,Sub,,0,0,0,,will not fall behind.
+Dialogue: 0,0:08:45.88,0:08:48.75,Sub,,0,0,0,,We will reunite soon.
+Dialogue: 0,0:08:55.44,0:08:58.24,Card,,0,0,0,,{\pos(1600,469)\fad(300,300)}West of the\NSuzaku Continent
+Dialogue: 0,0:09:01.16,0:09:04.04,Card,,0,0,0,,{\pos(1645,445)\fad(300,300)}Ancestral Spirit Seed
+Dialogue: 0,0:09:10.44,0:09:11.55,Sub,,0,0,0,,Fifth Ancestor,
+Dialogue: 0,0:09:11.80,0:09:13.11,Sub,,0,0,0,,the time has come.
+Dialogue: 0,0:09:30.16,0:09:34.95,Sub,,0,0,0,,This is the Giant Demon Clan's corpse we got from the Corpse Sect.
+Dialogue: 0,0:09:35.56,0:09:37.23,Sub,,0,0,0,,With this corpse's help,
+Dialogue: 0,0:09:37.44,0:09:38.47,Sub,,0,0,0,,the Reincarnation Tree
+Dialogue: 0,0:09:38.68,0:09:40.55,Sub,,0,0,0,,will surely grow successfully.
+Dialogue: 0,0:09:42.36,0:09:43.35,Sub,,0,0,0,,Ancestral Spirit,
+Dialogue: 0,0:09:43.60,0:09:44.39,Sub,,0,0,0,,awaken !
+Dialogue: 0,0:09:47.88,0:09:49.87,Sub,,0,0,0,,This Ancestral Spirit Seed
+Dialogue: 0,0:09:49.88,0:09:52.23,Sub,,0,0,0,,was cultivated by the Ancestor for 10 000 years
+Dialogue: 0,0:09:52.80,0:09:56.15,Sub,,0,0,0,,and released by breaking the 5 Sealing Swords.
+Dialogue: 0,0:09:57.96,0:10:02.43,Sub,,0,0,0,,If the 4 Reincarnation Trees can grow at the four cardinal points,
+Dialogue: 0,0:10:02.96,0:10:05.95,Sub,,0,0,0,,they can hatch four 10-Leaf powerhouses.
+Dialogue: 0,0:10:07.04,0:10:08.15,Sub,,0,0,0,,By then,
+Dialogue: 0,0:10:08.56,0:10:10.59,Sub,,0,0,0,,the country of Suzaku will be doomed !
+Dialogue: 0,0:10:11.00,0:10:11.71,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:10:12.16,0:10:14.43,Sub,,0,0,0,,I heard Zhuque Zi went to the Soul Refining Sect
+Dialogue: 0,0:10:14.68,0:10:17.15,Sub,,0,0,0,,to seize the Billion-Soul Flag.
+Dialogue: 0,0:10:18.40,0:10:20.67,Sub,,0,0,0,,This guy always has a plan.
+Dialogue: 0,0:10:22.28,0:10:24.15,Sub,,0,0,0,,We must be careful.
+Dialogue: 0,0:10:40.76,0:10:42.15,Sub,,0,0,0,,Zhuque Zi !
+Dialogue: 0,0:10:42.88,0:10:47.23,Sub,,0,0,0,,Long ago, Suzaku and the Soul Refining Sect made a deal.
+Dialogue: 0,0:10:47.48,0:10:49.43,Sub,,0,0,0,,In times of crisis
+Dialogue: 0,0:10:49.60,0:10:50.43,Sub,,0,0,0,,you
+Dialogue: 0,0:10:50.56,0:10:53.67,Sub,,0,0,0,,must lend the Billion-Soul Flag
+Dialogue: 0,0:10:53.88,0:10:57.23,Sub,,0,0,0,,to help planet Suzaku to survive.
+Dialogue: 0,0:10:58.08,0:11:01.95,Sub,,0,0,0,,Today is the day you fulfill that promise.
+Dialogue: 0,0:11:02.68,0:11:03.51,Sub,,0,0,0,,Du Tian,
+Dialogue: 0,0:11:04.36,0:11:05.11,Sub,,0,0,0,,give it to me.
+Dialogue: 0,0:11:05.68,0:11:06.51,Sub,,0,0,0,,Bullshit !
+Dialogue: 0,0:11:07.36,0:11:09.47,Sub,,0,0,0,,I’ve never heard of such a promise !
+Dialogue: 0,0:11:10.04,0:11:11.23,Sub,,0,0,0,,You old thief !
+Dialogue: 0,0:11:11.68,0:11:13.27,Sub,,0,0,0,,You’re clearly just robbing us !
+Dialogue: 0,0:11:14.08,0:11:16.27,Sub,,0,0,0,,The Soul Refining Sect was reduced to this state
+Dialogue: 0,0:11:16.96,0:11:19.35,Sub,,0,0,0,,because of generations of plotting by the previous Suzakus.
+Dialogue: 0,0:11:19.68,0:11:21.91,Sub,,0,0,0,,And now, for your own benefit,
+Dialogue: 0,0:11:22.08,0:11:23.67,Sub,,0,0,0,,you want the Soul Flag too !?
+Dialogue: 0,0:11:23.88,0:11:24.79,Sub,,0,0,0,,Never !
+Dialogue: 0,0:11:26.16,0:11:27.15,Sub,,0,0,0,,Du Tian,
+Dialogue: 0,0:11:27.96,0:11:29.51,Sub,,0,0,0,,in times of need,
+Dialogue: 0,0:11:29.88,0:11:31.99,Sub,,0,0,0,,we must stand united.
+Dialogue: 0,0:11:32.60,0:11:34.95,Sub,,0,0,0,,Now stop being delusional
+Dialogue: 0,0:11:36.28,0:11:37.47,Sub,,0,0,0,,and give it to me !
+Dialogue: 0,0:11:46.40,0:11:48.55,Sub,,0,0,0,,Our sect's ancestral saying is:
+Dialogue: 0,0:11:48.96,0:11:51.04,Sub,,0,0,0,,"As long as the flag exists, the sect lives"
+Dialogue: 0,0:11:58.36,0:12:01.55,Sub,,0,0,0,,Since you’re so stubborn,
+Dialogue: 0,0:12:01.96,0:12:08.15,Sub,,0,0,0,,I’ll teach you a lesson on behalf of the Soul Refining Sect Ancestors.
+Dialogue: 0,0:12:10.96,0:12:13.15,Sub,,0,0,0,,Suzaku Holy Flame...
+Dialogue: 0,0:12:13.60,0:12:14.56,Sub,,0,0,0,,Burn !
+Dialogue: 0,0:12:24.36,0:12:27.43,Sub,,0,0,0,,The Soul Flag can protect you
+Dialogue: 0,0:12:27.68,0:12:29.75,Sub,,0,0,0,,but not the entire sect.
+Dialogue: 0,0:12:30.36,0:12:31.07,Sub,,0,0,0,,Du Tian,
+Dialogue: 0,0:12:31.64,0:12:33.23,Sub,,0,0,0,,you are the one who doomed
+Dialogue: 0,0:12:33.40,0:12:36.07,Sub,,0,0,0,,the Soul Refining Sect.
+Dialogue: 0,0:12:37.40,0:12:38.39,Sub,,0,0,0,,Will you give me
+Dialogue: 0,0:12:39.04,0:12:40.71,Sub,,0,0,0,,this damn Soul Flag ?
+Dialogue: 0,0:12:41.16,0:12:42.75,Sub,,0,0,0,,Never !
+Dialogue: 0,0:12:43.68,0:12:44.63,Sub,,0,0,0,,Ceng Niu...
+Dialogue: 0,0:12:45.28,0:12:46.59,Sub,,0,0,0,,You must protect
+Dialogue: 0,0:12:47.20,0:12:49.12,Sub,,0,0,0,,this Soul Flag at all costs.
+Dialogue: 0,0:12:49.36,0:12:51.03,Sub,,0,0,0,,With my lifespan as sacrifice,
+Dialogue: 0,0:12:51.56,0:12:52.45,Sub,,0,0,0,,Primary souls,
+Dialogue: 0,0:12:52.52,0:12:53.41,Sub,,0,0,0,,come out !
+Dialogue: 0,0:12:59.84,0:13:00.75,Sub,,0,0,0,,Merge !
+Dialogue: 0,0:13:11.16,0:13:13.31,Sub,,0,0,0,,Great Merging Technique !
+Dialogue: 0,0:13:27.76,0:13:29.15,Sub,,0,0,0,,Zhuque Zi,
+Dialogue: 0,0:13:29.56,0:13:31.59,Sub,,0,0,0,,you annihilated my sect
+Dialogue: 0,0:13:31.96,0:13:34.51,Sub,,0,0,0,,but you won’t escape unscathed !
+Dialogue: 0,0:13:35.76,0:13:37.91,Sub,,0,0,0,,An ethereal body ?
+Dialogue: 0,0:13:38.56,0:13:39.80,Sub,,0,0,0,,Die !
+Dialogue: 0,0:13:39.88,0:13:42.35,Sub,,0,0,0,,You forced my hand !
+Dialogue: 0,0:13:43.56,0:13:45.44,Sub,,0,0,0,,Suzaku Seal !
+Dialogue: 0,0:13:48.80,0:13:51.11,Sub,,0,0,0,,I’ll say it one last time,
+Dialogue: 0,0:13:51.76,0:13:53.55,Sub,,0,0,0,,give me the Soul Flag
+Dialogue: 0,0:13:54.28,0:13:55.23,Sub,,0,0,0,,or else
+Dialogue: 0,0:13:55.40,0:13:57.36,Sub,,0,0,0,,everything you wish to protect
+Dialogue: 0,0:13:57.48,0:13:59.91,Sub,,0,0,0,,will be lost forever.
+Dialogue: 0,0:13:59.92,0:14:02.35,Sub,,0,0,0,,This seal was given by the Cultivation Alliance
+Dialogue: 0,0:14:03.04,0:14:05.35,Sub,,0,0,0,,but you use it against your own allies...
+Dialogue: 0,0:14:07.96,0:14:10.15,Sub,,0,0,0,,Just a little more...
+Dialogue: 0,0:14:11.36,0:14:12.47,Sub,,0,0,0,,Du Tian,
+Dialogue: 0,0:14:13.44,0:14:16.27,Sub,,0,0,0,,you cannot stop this power
+Dialogue: 0,0:14:17.00,0:14:18.52,Sub,,0,0,0,,bestowed to me
+Dialogue: 0,0:14:18.52,0:14:20.52,Sub,,0,0,0,,by the Cultivation Alliance.
+Dialogue: 0,0:14:21.56,0:14:22.63,Sub,,0,0,0,,Strike !
+Dialogue: 0,0:14:53.16,0:14:54.15,Sub,,0,0,0,,No...
+Dialogue: 0,0:14:55.76,0:14:56.55,Sub,,0,0,0,,No !
+Dialogue: 0,0:15:11.40,0:15:12.95,Sub,,0,0,0,,Remember this,
+Dialogue: 0,0:15:13.56,0:15:15.55,Sub,,0,0,0,,I, Zhuque Zi,
+Dialogue: 0,0:15:15.92,0:15:18.35,Sub,,0,0,0,,am the strongest on planet Suzaku.
+Dialogue: 0,0:15:19.16,0:15:21.47,Sub,,0,0,0,,You still don’t understand
+Dialogue: 0,0:15:21.96,0:15:23.82,Sub,,0,0,0,,that I can just kill you
+Dialogue: 0,0:15:23.88,0:15:25.61,Sub,,0,0,0,,and freely take
+Dialogue: 0,0:15:25.72,0:15:27.43,Sub,,0,0,0,,this Soul Flag.
+Dialogue: 0,0:15:28.52,0:15:30.15,Sub,,0,0,0,,Zhuque Zi,
+Dialogue: 0,0:15:31.00,0:15:33.15,Sub,,0,0,0,,you went too far !
+Dialogue: 0,0:15:34.16,0:15:35.95,Sub,,0,0,0,,You destroyed my sect
+Dialogue: 0,0:15:36.24,0:15:38.95,Sub,,0,0,0,,but you won’t leave unharmed !
+Dialogue: 0,0:15:45.28,0:15:46.31,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:15:46.48,0:15:49.23,Sub,,0,0,0,,disciple Du Tian offers all his remaining lifespan
+Dialogue: 0,0:15:51.16,0:15:53.55,Sub,,0,0,0,,to summon the Soul Flag’s 4th Soul !
+Dialogue: 0,0:15:54.08,0:15:55.83,Sub,,0,0,0,,Three Metal Soul,
+Dialogue: 0,0:15:56.36,0:15:57.12,Sub,,0,0,0,,come !
+Dialogue: 0,0:16:07.16,0:16:09.83,Sub,,0,0,0,,The 4th Ancestor of the Soul Refining Sect...
+Dialogue: 0,0:16:11.76,0:16:13.95,Sub,,0,0,0,,A Spirit Root with one element means you can cultivate,
+Dialogue: 0,0:16:14.36,0:16:16.27,Sub,,0,0,0,,two means you are smart,
+Dialogue: 0,0:16:16.68,0:16:18.75,Sub,,0,0,0,,three means you have talent,
+Dialogue: 0,0:16:18.76,0:16:20.75,Sub,,0,0,0,,four means heavenly talent
+Dialogue: 0,0:16:20.96,0:16:23.39,Sub,,0,0,0,,and five is perfection.
+Dialogue: 0,0:16:24.48,0:16:26.87,Sub,,0,0,0,,The 4th Ancestor of the Soul Refining Sect
+Dialogue: 0,0:16:26.88,0:16:29.63,Sub,,0,0,0,,possessed a rare triple metal Spirit Root.
+Dialogue: 0,0:16:30.36,0:16:31.47,Sub,,0,0,0,,After his death,
+Dialogue: 0,0:16:31.48,0:16:33.75,Sub,,0,0,0,,his soul entered the Soul Flag.
+Dialogue: 0,0:16:33.84,0:16:35.35,Sub,,0,0,0,,Through the sect's secret arts,
+Dialogue: 0,0:16:35.48,0:16:40.47,Sub,,0,0,0,,they made the 4th Soul strong enough to rival Late stage Ascendant cultivators,
+Dialogue: 0,0:16:40.88,0:16:42.87,Sub,,0,0,0,,the Three Metal Soul.
+Dialogue: 0,0:16:44.00,0:16:44.87,Sub,,0,0,0,,Today
+Dialogue: 0,0:16:45.76,0:16:48.59,Sub,,0,0,0,,I will make sure we both die !
+Dialogue: 0,0:16:54.40,0:16:56.83,Sub,,0,0,0,,The Three Metal Soul formed from our Ancestor
+Dialogue: 0,0:16:57.36,0:16:59.75,Sub,,0,0,0,,is the hardest substance under heaven.
+Dialogue: 0,0:17:05.08,0:17:07.35,Sub,,0,0,0,,Its soul energy crushes all defenses
+Dialogue: 0,0:17:07.84,0:17:09.55,Sub,,0,0,0,,and can wound the Origin Soul !
+Dialogue: 0,0:17:10.52,0:17:11.95,Sub,,0,0,0,,With this soul's speed,
+Dialogue: 0,0:17:12.56,0:17:13.79,Sub,,0,0,0,,you cannot dodge
+Dialogue: 0,0:17:14.04,0:17:15.59,Sub,,0,0,0,,nor escape !
+Dialogue: 0,0:17:15.96,0:17:18.03,Sub,,0,0,0,,Now die, old man !
+Dialogue: 0,0:17:30.00,0:17:32.67,Sub,,0,0,0,,The Three Metal Soul really is something,
+Dialogue: 0,0:17:33.00,0:17:34.75,Sub,,0,0,0,,the rumors didn't lie.
+Dialogue: 0,0:17:35.60,0:17:37.75,Sub,,0,0,0,,Then I'll first subdue this soul
+Dialogue: 0,0:17:37.80,0:17:40.59,Sub,,0,0,0,,and then take the Soul Flag.
+Dialogue: 0,0:17:41.36,0:17:44.47,Sub,,0,0,0,,I use my status as the 14th generation Suzaku
+Dialogue: 0,0:17:44.60,0:17:47.55,Sub,,0,0,0,,and sacrifice 90% of my remaining lifespan to open
+Dialogue: 0,0:17:48.04,0:17:49.44,Sub,,0,0,0,,the Cultivation Planet Crystal.
+Dialogue: 0,0:17:49.44,0:17:53.15,Sub,,0,0,0,,I want to use the "Stop Domain" that the Cultivation Alliance gifted to us !
+Dialogue: 0,0:18:19.96,0:18:21.35,Sub,,0,0,0,,Master...
+Dialogue: 0,0:18:21.80,0:18:23.27,Sub,,0,0,0,,Senior Brother...
+Dialogue: 0,0:18:24.76,0:18:25.99,Sub,,0,0,0,,Forgive me.
+Dialogue: 0,0:18:27.60,0:18:28.67,Sub,,0,0,0,,Du Tian
+Dialogue: 0,0:18:29.40,0:18:30.75,Sub,,0,0,0,,has done his best.
+Dialogue: 0,0:18:31.64,0:18:33.23,Sub,,0,0,0,,Now give me
+Dialogue: 0,0:18:33.96,0:18:35.11,Sub,,0,0,0,,the Soul Flag !
+Dialogue: 0,0:18:36.24,0:18:37.67,Sub,,0,0,0,,Give me a break.
+Dialogue: 0,0:18:38.28,0:18:39.19,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:18:45.12,0:18:48.20,Card,,0,0,0,,{\pos(1604,467)\fad(300,300)}Wang Lin's avatar\NEarly stage Soul Transformation
+Dialogue: 0,0:18:47.64,0:18:48.63,Sub,,0,0,0,,Ceng Niu !?
+Dialogue: 0,0:18:49.36,0:18:50.55,Sub,,0,0,0,,You're still alive !?
+Dialogue: 0,0:18:53.16,0:18:53.63,Sub,,0,0,0,,You...
+Dialogue: 0,0:18:54.36,0:18:55.59,Sub,,0,0,0,,You're not him !
+Dialogue: 0,0:18:56.28,0:18:58.15,Sub,,0,0,0,,Who the hell are you ?!
+Dialogue: 0,0:19:02.28,0:21:38.94,Note,,0,0,0,,{\fad(1000,1000)}When the Celestial Realm was intact, the cultivators ascended to it at Soul Formation. The lowest level in the Celestial Realm was Soul Formation and reaching Soul Transformation was trivial. One really became a Celestial only after reaching Soul Transformation (when one becomes able to use celestial spiritual energy). The method of breakthrough portrayed in the episode is what cultivators found to continue to cultivate after the collapse of the Celestial Realm. However, it's not the only method and it's actually not even the most common one. Most people will do a slow refinement of their body and soul by absorbing celestial spiritual energy over time. This results in a less powerful Soul Transformation but is less risky. Wang Lin doesn't have time for that and takes the risk.
+Dialogue: 0,0:19:19.88,0:19:23.18,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:19:23.18,0:19:24.90,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:19:24.94,0:19:26.84,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:19:27.72,0:19:34.32,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:19:30.56,0:19:34.32,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:19:34.32,0:19:41.92,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:19:37.56,0:19:41.92,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:19:42.36,0:19:49.48,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:19:45.12,0:19:49.48,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:19:49.80,0:19:52.80,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:19:51.08,0:19:52.80,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:19:53.09,0:19:56.52,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:19:54.92,0:19:56.52,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:19:57.08,0:20:00.60,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:20:00.60,0:20:03.92,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:20:04.68,0:20:07.88,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:20:08.24,0:20:12.08,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:20:10.08,0:20:12.08,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:20:12.24,0:20:17.04,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:20:13.80,0:20:17.04,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:20:17.05,0:20:19.76,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:20:19.80,0:20:23.08,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:20:23.08,0:20:27.72,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:20:27.72,0:20:31.12,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:20:31.16,0:20:35.80,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:20:36.25,0:20:41.48,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:20:41.60,0:20:45.40,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:20:45.40,0:20:50.04,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:20:47.08,0:20:50.04,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:20:50.20,0:20:53.12,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:20:53.12,0:20:58.00,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:20:58.01,0:21:01.28,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:21:01.44,0:21:06.00,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:21:06.00,0:21:09.96,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:21:09.96,0:21:12.76,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:21:12.84,0:21:16.64,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:21:16.72,0:21:20.00,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:21:20.28,0:21:25.24,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

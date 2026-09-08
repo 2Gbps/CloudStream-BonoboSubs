@@ -1,0 +1,334 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:52.52,0:01:54.52,Sub,,0,0,0,,Five Elements Sect's Zhou Yi ?
+Dialogue: 0,0:01:56.56,0:01:58.25,Sub,,0,0,0,,Junior Chi Hu of the Giant Demon Clan
+Dialogue: 0,0:01:58.28,0:01:59.12,Sub,,0,0,0,,greets Senior.
+Dialogue: 0,0:01:59.56,0:02:02.04,Sub,,0,0,0,,Junior has heard Senior's name since birth.
+Dialogue: 0,0:02:04.04,0:02:05.60,Sub,,0,0,0,,This little guy was very quick to react.
+Dialogue: 0,0:02:06.52,0:02:07.44,Sub,,0,0,0,,It seems that
+Dialogue: 0,0:02:07.88,0:02:09.96,Sub,,0,0,0,,you had already noticed me on your way here.
+Dialogue: 0,0:02:10.08,0:02:11.76,Sub,,0,0,0,,Junior only had a feeling
+Dialogue: 0,0:02:12.40,0:02:13.64,Sub,,0,0,0,,but I wasn’t sure.
+Dialogue: 0,0:02:14.60,0:02:15.85,Sub,,0,0,0,,I have already taken the coffin
+Dialogue: 0,0:02:15.88,0:02:17.44,Sub,,0,0,0,,1000 years ago.
+Dialogue: 0,0:02:18.36,0:02:19.56,Sub,,0,0,0,,The three of you
+Dialogue: 0,0:02:19.64,0:02:20.92,Sub,,0,0,0,,should leave now.
+Dialogue: 0,0:02:26.92,0:02:28.72,Sub,,0,0,0,,There is indeed a third layer.
+Dialogue: 0,0:02:29.28,0:02:30.44,Sub,,0,0,0,,The entrance
+Dialogue: 0,0:02:30.56,0:02:31.80,Sub,,0,0,0,,is this pool of water.
+Dialogue: 0,0:02:32.92,0:02:34.32,Sub,,0,0,0,,If you're not afraid of death,
+Dialogue: 0,0:02:34.44,0:02:35.88,Sub,,0,0,0,,you can try going in.
+Dialogue: 0,0:02:41.32,0:02:43.24,Sub,,0,0,0,,It's so crowded here !
+Dialogue: 0,0:02:43.48,0:02:44.80,Sub,,0,0,0,,What's your intention
+Dialogue: 0,0:02:45.64,0:02:46.88,Sub,,0,0,0,,in following me ?
+Dialogue: 0,0:02:48.80,0:02:50.24,Sub,,0,0,0,,I don’t have any intentions.
+Dialogue: 0,0:02:51.04,0:02:53.04,Sub,,0,0,0,,I’m just a bit interested
+Dialogue: 0,0:02:53.13,0:02:54.32,Sub,,0,0,0,,in the third layer.
+Dialogue: 0,0:02:55.08,0:02:55.60,Sub,,0,0,0,,What ?
+Dialogue: 0,0:02:55.80,0:02:57.28,Sub,,0,0,0,,will you not let me in ?
+Dialogue: 0,0:03:00.04,0:03:00.98,Sub,,0,0,0,,I'm afraid these two
+Dialogue: 0,0:03:01.04,0:03:03.00,Sub,,0,0,0,,are not Soul Formation cultivators.
+Dialogue: 0,0:03:17.92,0:03:19.40,Sub,,0,0,0,,My life artifact was damaged,
+Dialogue: 0,0:03:19.44,0:03:20.81,Sub,,0,0,0,,that was a big price.
+Dialogue: 0,0:03:21.04,0:03:23.00,Sub,,0,0,0,,I can't just return empty-handed.
+Dialogue: 0,0:03:26.08,0:03:26.60,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:03:27.20,0:03:28.48,Sub,,0,0,0,,do you intend to go in,
+Dialogue: 0,0:03:28.52,0:03:29.52,Sub,,0,0,0,,or will you leave ?
+Dialogue: 0,0:03:29.92,0:03:30.92,Sub,,0,0,0,,These two,
+Dialogue: 0,0:03:31.28,0:03:32.08,Sub,,0,0,0,,who are they ?
+Dialogue: 0,0:03:32.72,0:03:34.44,Sub,,0,0,0,,I don't know who the second one is,
+Dialogue: 0,0:03:35.16,0:03:36.88,Sub,,0,0,0,,maybe he's related to the Corpse Sect.
+Dialogue: 0,0:03:37.56,0:03:38.77,Sub,,0,0,0,,But this one is Zhou Yi,
+Dialogue: 0,0:03:38.88,0:03:42.00,Sub,,0,0,0,,he's one of the few Soul Transformation old monsters of planet Suzaku.
+Dialogue: 0,0:03:42.28,0:03:43.20,Sub,,0,0,0,,This guy
+Dialogue: 0,0:03:43.64,0:03:45.72,Sub,,0,0,0,,has a very strange nickname:
+Dialogue: 0,0:03:49.60,0:03:50.76,Sub,,0,0,0,,Corpse Lover.
+Dialogue: 0,0:03:51.72,0:03:52.64,Sub,,0,0,0,,Corpse Lover ?!
+Dialogue: 0,0:03:53.76,0:03:54.88,Sub,,0,0,0,,Don’t say it out loud
+Dialogue: 0,0:03:54.92,0:03:56.28,Sub,,0,0,0,,or he will kill you !
+Dialogue: 0,0:03:57.00,0:03:58.60,Sub,,0,0,0,,I’m going down to see.
+Dialogue: 0,0:03:58.68,0:03:59.80,Sub,,0,0,0,,How about we go together ?
+Dialogue: 0,0:04:01.52,0:04:04.12,Sub,,0,0,0,,If the two Soul Transformation deal with each other,
+Dialogue: 0,0:04:05.08,0:04:06.60,Sub,,0,0,0,,we might be able
+Dialogue: 0,0:04:06.72,0:04:08.18,Sub,,0,0,0,,to explore the third layer.
+Dialogue: 0,0:04:14.64,0:04:16.48,Card,,0,0,0,,{\pos(1565,543)\fad(300,300)}Third layer of the\Noverlapping fragments\NRain Celestial Realm
+Dialogue: 0,0:04:18.43,0:04:20.00,Card,,0,0,0,,{\fad(100,100)\pos(1661,485)}Red Butterfly's\NSpirit Gathering Gourd
+Dialogue: 0,0:04:32.96,0:04:35.40,Card,,0,0,0,,{\pos(507,507)\fad(300,300)}Chi Hu's\NSpirit Gathering Pouch
+Dialogue: 0,0:04:37.24,0:04:39.60,Sub,,0,0,0,,The celestial spiritual energy here is very dense.
+Dialogue: 0,0:04:40.92,0:04:43.04,Sub,,0,0,0,,It must be because of those crystals.
+Dialogue: 0,0:04:43.88,0:04:44.88,Sub,,0,0,0,,What are they ?
+Dialogue: 0,0:04:48.20,0:04:49.36,Sub,,0,0,0,,Even with my cultivation,
+Dialogue: 0,0:04:50.56,0:04:52.28,Sub,,0,0,0,,I can't move them at all.
+Dialogue: 0,0:04:53.36,0:04:54.12,Sub,,0,0,0,,Old man,
+Dialogue: 0,0:04:54.64,0:04:55.88,Sub,,0,0,0,,don’t push me too far !
+Dialogue: 0,0:04:56.60,0:04:58.40,Sub,,0,0,0,,There is a lot of celestial spiritual energy here.
+Dialogue: 0,0:04:58.56,0:04:59.96,Sub,,0,0,0,,Why are you still following me ?
+Dialogue: 0,0:05:00.08,0:05:01.96,Sub,,0,0,0,,You have the scent of death.
+Dialogue: 0,0:05:02.28,0:05:03.84,Sub,,0,0,0,,Of course I need to follow you.
+Dialogue: 0,0:05:06.00,0:05:07.00,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:05:13.20,0:05:14.52,Sub,,0,0,0,,Imperial Spirit Law ?
+Dialogue: 0,0:05:15.16,0:05:16.28,Sub,,0,0,0,,You're Zhou Yi !
+Dialogue: 0,0:05:18.56,0:05:19.82,Sub,,0,0,0,,I have heard about you.
+Dialogue: 0,0:05:20.36,0:05:21.64,Sub,,0,0,0,,I was wondering why
+Dialogue: 0,0:05:21.84,0:05:23.80,Sub,,0,0,0,,you had such a powerful scent of death.
+Dialogue: 0,0:05:31.36,0:05:33.12,Sub,,0,0,0,,If the two of us fight here,
+Dialogue: 0,0:05:33.48,0:05:34.96,Sub,,0,0,0,,this fragment will collapse.
+Dialogue: 0,0:05:35.44,0:05:36.86,Sub,,0,0,0,,You think you can escape
+Dialogue: 0,0:05:36.92,0:05:38.32,Sub,,0,0,0,,but let me tell you this.
+Dialogue: 0,0:05:38.40,0:05:40.40,Sub,,0,0,0,,There is a total of 6 fragments overlapping.
+Dialogue: 0,0:05:40.88,0:05:42.88,Sub,,0,0,0,,One collapses, they all collapse.
+Dialogue: 0,0:05:42.96,0:05:44.92,Sub,,0,0,0,,You must be the Corpse Sect’s Head Elder.
+Dialogue: 0,0:05:45.52,0:05:46.76,Sub,,0,0,0,,Even an Ascendant cultivator
+Dialogue: 0,0:05:47.28,0:05:48.56,Sub,,0,0,0,,wouldn't be able to escape.
+Dialogue: 0,0:05:49.24,0:05:50.20,Sub,,0,0,0,,Are you sure
+Dialogue: 0,0:05:51.12,0:05:52.08,Sub,,0,0,0,,we fight ?
+Dialogue: 0,0:05:54.32,0:05:56.12,Sub,,0,0,0,,If these two fight for real,
+Dialogue: 0,0:05:57.40,0:05:59.28,Sub,,0,0,0,,then the fragment will collapse for sure.
+Dialogue: 0,0:06:05.52,0:06:06.45,Sub,,0,0,0,,Little girl,
+Dialogue: 0,0:06:06.48,0:06:08.46,Sub,,0,0,0,,I’m going to borrow your body for a bit.
+Dialogue: 0,0:06:08.60,0:06:09.28,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:06:10.32,0:06:11.60,Sub,,0,0,0,,do you know this object ?
+Dialogue: 0,0:06:12.16,0:06:14.80,Sub,,0,0,0,,The symbol of the core disciples of Suzaku,
+Dialogue: 0,0:06:15.60,0:06:17.52,Sub,,0,0,0,,the Open Peace Bracelet.
+Dialogue: 0,0:06:18.80,0:06:20.28,Sub,,0,0,0,,This bracelet is linked to my soul.
+Dialogue: 0,0:06:20.96,0:06:21.80,Sub,,0,0,0,,If I were to die,
+Dialogue: 0,0:06:22.24,0:06:24.36,Sub,,0,0,0,,it will explode and destroy this fragment.
+Dialogue: 0,0:06:24.92,0:06:26.20,Sub,,0,0,0,,Even if you escape,
+Dialogue: 0,0:06:26.24,0:06:27.92,Sub,,0,0,0,,Suzaku will hunt you down.
+Dialogue: 0,0:06:28.72,0:06:30.40,Sub,,0,0,0,,You would have no place to live.
+Dialogue: 0,0:06:31.32,0:06:32.04,Sub,,0,0,0,,Little girl,
+Dialogue: 0,0:06:32.56,0:06:33.60,Sub,,0,0,0,,relax.
+Dialogue: 0,0:06:34.20,0:06:35.36,Sub,,0,0,0,,I won't kill you.
+Dialogue: 0,0:06:36.16,0:06:36.80,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:06:37.64,0:06:39.56,Sub,,0,0,0,,I’m going to borrow this girl’s body to fight you.
+Dialogue: 0,0:06:39.88,0:06:40.64,Sub,,0,0,0,,That way,
+Dialogue: 0,0:06:40.64,0:06:42.48,Sub,,0,0,0,,we won't destroy the fragment.
+Dialogue: 0,0:06:43.72,0:06:45.40,Sub,,0,0,0,,You should go choose someone as well.
+Dialogue: 0,0:06:45.64,0:06:47.52,Sub,,0,0,0,,Why should I fight you ?
+Dialogue: 0,0:06:48.48,0:06:49.48,Sub,,0,0,0,,Old man,
+Dialogue: 0,0:06:49.68,0:06:51.16,Sub,,0,0,0,,what exactly do you want ?
+Dialogue: 0,0:06:53.16,0:06:55.76,Sub,,0,0,0,,You have the corpse of a celestial on you.
+Dialogue: 0,0:06:55.96,0:06:57.60,Sub,,0,0,0,,My nose can’t be wrong.
+Dialogue: 0,0:06:58.68,0:07:00.80,Sub,,0,0,0,,I want that body !
+Dialogue: 0,0:07:05.08,0:07:06.04,Sub,,0,0,0,,You...
+Dialogue: 0,0:07:06.88,0:07:08.84,Sub,,0,0,0,,want to steal Ting'er !
+Dialogue: 0,0:07:10.48,0:07:13.08,Sub,,0,0,0,,Those who also want Ting'er
+Dialogue: 0,0:07:13.72,0:07:16.16,Sub,,0,0,0,,must die !
+Dialogue: 0,0:07:19.88,0:07:21.16,Sub,,0,0,0,,You, come here.
+Dialogue: 0,0:07:28.60,0:07:29.96,Sub,,0,0,0,,Become my avatar.
+Dialogue: 0,0:07:30.04,0:07:31.72,Sub,,0,0,0,,Not only will you not die,
+Dialogue: 0,0:07:32.48,0:07:34.48,Sub,,0,0,0,,but you will be able to experience my domain.
+Dialogue: 0,0:07:41.76,0:07:43.60,Sub,,0,0,0,,Among the 3 little fellows,
+Dialogue: 0,0:07:44.24,0:07:46.80,Sub,,0,0,0,,I chose the one with a five-element body
+Dialogue: 0,0:07:47.20,0:07:49.80,Sub,,0,0,0,,and you chose the one from the Giant Demon Clan.
+Dialogue: 0,0:07:50.48,0:07:52.88,Sub,,0,0,0,,The only one left is a useless normal person.
+Dialogue: 0,0:07:53.08,0:07:53.60,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:07:54.99,0:07:55.86,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:07:56.04,0:07:57.20,Sub,,0,0,0,,kill him.
+Dialogue: 0,0:07:57.32,0:07:58.56,Sub,,0,0,0,,If you kill him,
+Dialogue: 0,0:07:58.68,0:08:00.36,Sub,,0,0,0,,I’ll give up on resisting
+Dialogue: 0,0:08:00.44,0:08:02.28,Sub,,0,0,0,,and will fully support you !
+Dialogue: 0,0:08:12.16,0:08:14.07,Sub,,0,0,0,,if you wish for this place to collapse,
+Dialogue: 0,0:08:14.16,0:08:15.24,Sub,,0,0,0,,you can try !
+Dialogue: 0,0:08:18.04,0:08:19.04,Sub,,0,0,0,,A Restriction Flag ?
+Dialogue: 0,0:08:19.72,0:08:21.44,Sub,,0,0,0,,He isn't lying.
+Dialogue: 0,0:08:21.92,0:08:23.49,Sub,,0,0,0,,Once he places that last restriction
+Dialogue: 0,0:08:23.56,0:08:25.02,Sub,,0,0,0,,it will trigger a tribulation.
+Dialogue: 0,0:08:25.20,0:08:26.28,Sub,,0,0,0,,In the Celestial Realm,
+Dialogue: 0,0:08:26.56,0:08:28.48,Sub,,0,0,0,,this kind of Divine Retribution
+Dialogue: 0,0:08:28.80,0:08:31.32,Sub,,0,0,0,,will kill everyone.
+Dialogue: 0,0:08:36.40,0:08:37.40,Sub,,0,0,0,,Since I’m already here,
+Dialogue: 0,0:08:38.28,0:08:40.12,Sub,,0,0,0,,then I’m in no rush to leave.
+Dialogue: 0,0:08:40.64,0:08:44.22,Sub,,0,0,0,,Let's watch how Soul Transformation cultivators fight.
+Dialogue: 0,0:08:40.20,0:08:43.32,Card,,0,0,0,,{\pos(1604,475)\fad(300,300}Zhou Yi's\NOrigin Soul
+Dialogue: 0,0:08:50.08,0:08:51.16,Sub,,0,0,0,,The Origin Soul
+Dialogue: 0,0:08:51.19,0:08:53.64,Sub,,0,0,0,,can possess Soul Formation cultivators ?
+Dialogue: 0,0:08:54.68,0:08:56.93,Sub,,0,0,0,,That's a Soul Transformation level technique.
+Dialogue: 0,0:08:59.88,0:09:02.44,Card,,0,0,0,,{\pos(1534,487)\fad(300,300}Sun Tai's\NBlack Dragon Origin Soul
+Dialogue: 0,0:09:27.04,0:09:29.80,Sub,,0,0,0,,They suppressed their cultivation to peak Soul Formation
+Dialogue: 0,0:09:30.36,0:09:32.12,Sub,,0,0,0,,to avoid a fragment collapse.
+Dialogue: 0,0:09:39.60,0:09:41.23,Sub,,0,0,0,,My domain
+Dialogue: 0,0:09:41.36,0:09:42.92,Sub,,0,0,0,,is craze.
+Dialogue: 0,0:09:43.80,0:09:45.84,Sub,,0,0,0,,Because I have gone crazy for love,
+Dialogue: 0,0:09:45.96,0:09:47.92,Sub,,0,0,0,,I have reached the epitome of madness.
+Dialogue: 0,0:09:48.52,0:09:49.72,Sub,,0,0,0,,This obsession
+Dialogue: 0,0:09:50.56,0:09:53.52,Sub,,0,0,0,,can shake the heavens and the earth !
+Dialogue: 0,0:09:54.36,0:09:55.64,Sub,,0,0,0,,I will use your body
+Dialogue: 0,0:09:56.36,0:09:57.64,Sub,,0,0,0,,and let you feel
+Dialogue: 0,0:09:58.24,0:10:00.72,Sub,,0,0,0,,the domain I haven't shown in 1000 years !
+Dialogue: 0,0:10:02.48,0:10:04.40,Sub,,0,0,0,,Obsession isn't always for a person.
+Dialogue: 0,0:10:04.44,0:10:05.91,Sub,,0,0,0,,It can be for an object.
+Dialogue: 0,0:10:05.96,0:10:07.12,Sub,,0,0,0,,Your obsession
+Dialogue: 0,0:10:07.16,0:10:08.20,Sub,,0,0,0,,is this axe.
+Dialogue: 0,0:10:08.72,0:10:09.99,Sub,,0,0,0,,Your Dao Heart
+Dialogue: 0,0:10:10.12,0:10:11.46,Sub,,0,0,0,,is also this axe.
+Dialogue: 0,0:10:11.76,0:10:13.24,Sub,,0,0,0,,As long as it's intact,
+Dialogue: 0,0:10:13.32,0:10:15.32,Sub,,0,0,0,,your will to fight will persist !
+Dialogue: 0,0:10:14.64,0:10:15.97,Second,,0,0,0,,Fight !
+Dialogue: 0,0:10:17.60,0:10:19.08,Sub,,0,0,0,,Chi Hu is only at Soul Formation
+Dialogue: 0,0:10:19.92,0:10:22.56,Sub,,0,0,0,,but this fighting aura feels like it could slay Celestials.
+Dialogue: 0,0:10:24.28,0:10:25.32,Sub,,0,0,0,,Zhou Yi’s domain
+Dialogue: 0,0:10:26.04,0:10:27.08,Sub,,0,0,0,,is indeed strange.
+Dialogue: 0,0:10:28.20,0:10:29.68,Sub,,0,0,0,,So that's his Craze Domain.
+Dialogue: 0,0:10:45.80,0:10:47.88,Sub,,0,0,0,,How could she be missing an earth spirit ?
+Dialogue: 0,0:10:58.52,0:10:58.92,Sub,,0,0,0,,Fight !
+Dialogue: 0,0:11:01.52,0:11:03.52,Sub,,0,0,0,,Accept your death !
+Dialogue: 0,0:11:30.20,0:11:31.00,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:11:31.48,0:11:32.96,Sub,,0,0,0,,that's enough !
+Dialogue: 0,0:11:34.92,0:11:37.20,Sub,,0,0,0,,I am the Corpse Sect’s Head Elder,
+Dialogue: 0,0:11:37.92,0:11:40.16,Sub,,0,0,0,,it doesn't matter if your domain is strong.
+Dialogue: 0,0:11:40.76,0:11:43.20,Sub,,0,0,0,,With that Junior's Soul Formation body
+Dialogue: 0,0:11:43.84,0:11:46.32,Sub,,0,0,0,,can you destroy my Origin Soul ?
+Dialogue: 0,0:11:46.52,0:11:47.40,Sub,,0,0,0,,Fight !
+Dialogue: 0,0:11:48.44,0:11:50.32,Sub,,0,0,0,,With his fighting spirit,
+Dialogue: 0,0:11:50.40,0:11:51.64,Sub,,0,0,0,,Soul Transformation
+Dialogue: 0,0:11:52.64,0:11:54.01,Sub,,0,0,0,,can be defeated.
+Dialogue: 0,0:12:11.08,0:12:12.48,Sub,,0,0,0,,His Origin Soul
+Dialogue: 0,0:12:13.48,0:12:14.88,Sub,,0,0,0,,has been destroyed.
+Dialogue: 0,0:12:15.96,0:12:17.92,Sub,,0,0,0,,Sun Tai is dead.
+Dialogue: 0,0:12:19.84,0:12:21.54,Sub,,0,0,0,,With his Dao Heart,
+Dialogue: 0,0:12:22.12,0:12:23.80,Sub,,0,0,0,,he could slay Celestials.
+Dialogue: 0,0:12:24.80,0:12:26.60,Sub,,0,0,0,,What an incredible domain.
+Dialogue: 0,0:12:28.24,0:12:29.99,Sub,,0,0,0,,My Dao Heart...
+Dialogue: 0,0:12:30.32,0:12:31.60,Sub,,0,0,0,,what is it ?
+Dialogue: 0,0:12:43.72,0:12:44.84,Sub,,0,0,0,,No !!!
+Dialogue: 0,0:12:45.12,0:12:47.80,Sub,,0,0,0,,I won't allow anyone to steal my Ting'er !
+Dialogue: 0,0:12:47.92,0:12:48.52,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:12:48.88,0:12:50.64,Sub,,0,0,0,,your domain is exceptional.
+Dialogue: 0,0:12:51.15,0:12:53.15,Sub,,0,0,0,,You managed to kill one of my Origin Souls.
+Dialogue: 0,0:12:53.68,0:12:56.28,Sub,,0,0,0,,But as the Corpse Sect’s Head Elder,
+Dialogue: 0,0:12:54.44,0:12:55.60,Card,,0,0,0,,{\pos(407,484)\fad(150,150}Sun Tai's\NOrigin Soul
+Dialogue: 0,0:12:57.24,0:12:59.28,Sub,,0,0,0,,did you think I only had one Origin Soul ?
+Dialogue: 0,0:12:59.32,0:13:00.35,Sub,,0,0,0,,Give Ting'er
+Dialogue: 0,0:13:00.52,0:13:01.52,Sub,,0,0,0,,back to me !
+Dialogue: 0,0:13:02.08,0:13:03.00,Sub,,0,0,0,,Ting'er ?
+Dialogue: 0,0:13:06.12,0:13:06.88,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:13:07.24,0:13:09.76,Sub,,0,0,0,,you even gave the corpse a name.
+Dialogue: 0,0:13:08.16,0:13:12.48,Sub,,0,0,0,,{\fad(600,600)\pos(1754,666)}1000 years ago
+Dialogue: 0,0:13:08.72,0:13:11.68,Card,,0,0,0,,{\fad(300,300)\pos(272,445)}Five Elements Sect
+Dialogue: 0,0:13:13.20,0:13:14.68,Card,,0,0,0,,{\pos(1491,510)\fad(300,000)}Tang Xiong\NFive Elements Sect\NLate stage Soul Transformation
+Dialogue: 0,0:13:13.40,0:13:15.10,Sub,,0,0,0,,You made a mistake !
+Dialogue: 0,0:13:15.32,0:13:17.08,Sub,,0,0,0,,You were the next sect leader...
+Dialogue: 0,0:13:17.16,0:13:18.57,Sub,,0,0,0,,But you stole celestial jades
+Dialogue: 0,0:13:18.60,0:13:20.20,Sub,,0,0,0,,that belonged to the sect
+Dialogue: 0,0:13:20.24,0:13:21.32,Sub,,0,0,0,,just for a woman !
+Dialogue: 0,0:13:22.28,0:13:23.48,Sub,,0,0,0,,A dead woman !
+Dialogue: 0,0:13:24.00,0:13:24.72,Sub,,0,0,0,,Traitor !
+Dialogue: 0,0:13:25.28,0:13:26.48,Sub,,0,0,0,,You... you...
+Dialogue: 0,0:13:30.36,0:13:32.12,Second,,0,0,0,,That's right, he is Zhou Yi.
+Dialogue: 0,0:13:32.17,0:13:34.20,Second,,0,0,0,,He's a crazy disgusting corpse lover.
+Dialogue: 0,0:13:40.08,0:13:42.04,Sub,,0,0,0,,This is the corpse of a Celestial.
+Dialogue: 0,0:13:42.12,0:13:43.52,Sub,,0,0,0,,I’m afraid that when she was born,
+Dialogue: 0,0:13:43.64,0:13:45.60,Sub,,0,0,0,,you were still in the reincarnation cycle.
+Dialogue: 0,0:13:49.72,0:13:50.96,Sub,,0,0,0,,Give Ting'er
+Dialogue: 0,0:13:51.88,0:13:52.96,Sub,,0,0,0,,back to me !!!
+Dialogue: 0,0:14:04.20,0:14:04.76,Sub,,0,0,0,,No !
+Dialogue: 0,0:14:20.08,0:14:21.12,Sub,,0,0,0,,Ting'er...
+Dialogue: 0,0:14:22.48,0:14:24.36,Sub,,0,0,0,,They don't understand your beauty.
+Dialogue: 0,0:14:25.68,0:14:26.48,Sub,,0,0,0,,Don't worry.
+Dialogue: 0,0:14:27.64,0:14:29.20,Sub,,0,0,0,,I will always be with you,
+Dialogue: 0,0:14:30.28,0:14:32.00,Sub,,0,0,0,,forever.
+Dialogue: 0,0:14:50.72,0:14:52.04,Sub,,0,0,0,,Incredible...
+Dialogue: 0,0:14:52.92,0:14:54.60,Sub,,0,0,0,,This Celestial's corpse seems to have
+Dialogue: 0,0:14:54.64,0:14:56.00,Sub,,0,0,0,,a powerful attraction force.
+Dialogue: 0,0:14:57.32,0:14:58.64,Sub,,0,0,0,,How dangerous.
+Dialogue: 0,0:15:01.60,0:15:02.24,Sub,,0,0,0,,Good.
+Dialogue: 0,0:15:02.52,0:15:03.40,Sub,,0,0,0,,Good !
+Dialogue: 0,0:15:03.88,0:15:04.96,Sub,,0,0,0,,When she was alive,
+Dialogue: 0,0:15:05.36,0:15:07.92,Sub,,0,0,0,,she must have had a high status in the Celestial Realm.
+Dialogue: 0,0:15:08.00,0:15:08.68,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:15:09.60,0:15:11.16,Sub,,0,0,0,,I’m using the Corpse Sect’s treasure
+Dialogue: 0,0:15:11.64,0:15:14.84,Sub,,0,0,0,,which is made for sealing Origin Souls.
+Dialogue: 0,0:15:15.44,0:15:16.08,Sub,,0,0,0,,Now,
+Dialogue: 0,0:15:16.72,0:15:18.32,Sub,,0,0,0,,this corpse will definitely be mine !
+Dialogue: 0,0:15:19.88,0:15:21.12,Sub,,0,0,0,,I advise you
+Dialogue: 0,0:15:21.48,0:15:23.20,Sub,,0,0,0,,to return to your body.
+Dialogue: 0,0:15:24.48,0:15:26.92,Sub,,0,0,0,,Unless you want to die in the Celestial Realm.
+Dialogue: 0,0:15:32.96,0:15:34.24,Sub,,0,0,0,,You are a madman !
+Dialogue: 0,0:15:34.96,0:15:36.04,Sub,,0,0,0,,Give Ting'er
+Dialogue: 0,0:15:36.20,0:15:38.08,Sub,,0,0,0,,BACK TO ME !!!
+Dialogue: 0,0:15:38.92,0:15:40.75,Sub,,0,0,0,,Are you really burning your Origin Soul
+Dialogue: 0,0:15:40.80,0:15:42.35,Sub,,0,0,0,,just for a corpse ?
+Dialogue: 0,0:15:42.40,0:15:43.16,Sub,,0,0,0,,You...
+Dialogue: 0,0:15:46.64,0:15:48.16,Sub,,0,0,0,,You're a madman !
+Dialogue: 0,0:16:01.64,0:16:02.60,Sub,,0,0,0,,Madman !
+Dialogue: 0,0:16:03.16,0:16:05.27,Sub,,0,0,0,,If you are willing to die for a corpse,
+Dialogue: 0,0:16:05.32,0:16:06.68,Sub,,0,0,0,,I won't accompany you.
+Dialogue: 0,0:16:18.48,0:16:19.08,Sub,,0,0,0,,Ting'er,
+Dialogue: 0,0:16:19.96,0:16:21.60,Sub,,0,0,0,,no one can take you away,
+Dialogue: 0,0:16:23.24,0:16:24.64,Sub,,0,0,0,,no one…
+Dialogue: 0,0:16:32.20,0:16:33.88,Sub,,0,0,0,,I am out of spiritual energy and artifacts.
+Dialogue: 0,0:16:34.56,0:16:35.96,Sub,,0,0,0,,I have to get out as soon as possible.
+Dialogue: 0,0:16:36.00,0:16:38.28,Sub,,0,0,0,,This woman has tried to kill me 3 times.
+Dialogue: 0,0:16:39.80,0:16:41.40,Sub,,0,0,0,,If I don't deal with her now,
+Dialogue: 0,0:16:41.72,0:16:43.44,Sub,,0,0,0,,she'll be a problem in the future.
+Dialogue: 0,0:16:44.52,0:16:45.40,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:16:45.44,0:16:46.64,Sub,,0,0,0,,what are you doing !?
+Dialogue: 0,0:16:50.42,0:16:51.60,Sub,,0,0,0,,I'm killing you.
+Dialogue: 0,0:17:07.16,0:17:13.84,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:17:13.91,0:17:20.00,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:17:20.11,0:17:23.94,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:17:23.97,0:17:27.87,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:17:28.23,0:17:33.88,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:17:35.06,0:17:40.89,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:17:41.20,0:17:46.74,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:17:47.20,0:17:51.42,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:17:51.68,0:17:54.91,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:17:55.08,0:18:00.90,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:18:01.42,0:18:05.10,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:05.20,0:18:09.02,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:09.20,0:18:14.87,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:15.13,0:18:18.80,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:19.01,0:18:22.58,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:22.70,0:18:28.62,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:28.69,0:18:32.70,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:18:32.73,0:18:36.52,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:18:37.11,0:18:42.35,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:18:42.42,0:18:46.30,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:18:46.34,0:18:50.14,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:18:50.44,0:18:56.00,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:18:56.64,0:19:02.86,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:19:03.16,0:19:09.66,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:19:10.68,0:19:16.38,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:19:16.55,0:19:23.25,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

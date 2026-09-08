@@ -1,0 +1,274 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:52.72,0:01:54.60,Sub,,0,0,0,,This place is heaven for a devil like me.
+Dialogue: 0,0:01:55.20,0:01:57.08,Sub,,0,0,0,,That fiend definitely can’t get in.
+Dialogue: 0,0:01:57.56,0:02:00.64,Sub,,0,0,0,,Once I turn all these fools into my underlings,
+Dialogue: 0,0:02:00.68,0:02:02.24,Sub,,0,0,0,,I’ll strike back
+Dialogue: 0,0:02:02.48,0:02:03.60,Sub,,0,0,0,,and kill that fiend !
+Dialogue: 0,0:02:05.12,0:02:06.28,Sub,,0,0,0,,You ate my stuff
+Dialogue: 0,0:02:06.88,0:02:08.64,Sub,,0,0,0,,so from now on we’re brothers, right ?
+Dialogue: 0,0:02:08.96,0:02:11.24,Sub,,0,0,0,,You’ve gotta listen to me, understand ?
+Dialogue: 0,0:02:14.76,0:02:16.08,Sub,,0,0,0,,No ! Don’t fight over it !
+Dialogue: 0,0:02:18.40,0:02:20.84,Sub,,0,0,0,,You’re all my underlings now !
+Dialogue: 0,0:02:21.92,0:02:23.08,Sub,,0,0,0,,Respect me !
+Dialogue: 0,0:02:23.36,0:02:24.16,Sub,,0,0,0,,Go !
+Dialogue: 0,0:02:30.28,0:02:31.08,Sub,,0,0,0,,As I thought...
+Dialogue: 0,0:02:31.96,0:02:33.64,Sub,,0,0,0,,Even if I have a physical body,
+Dialogue: 0,0:02:33.64,0:02:36.44,Sub,,0,0,0,,I'm also a Soul Devourer when I'm in this Nirvana Space.
+Dialogue: 0,0:02:37.36,0:02:40.08,Sub,,0,0,0,,I can still devour and command wandering souls.
+Dialogue: 0,0:02:40.72,0:02:42.24,Sub,,0,0,0,,How can this be ?
+Dialogue: 0,0:02:42.24,0:02:43.40,Sub,,0,0,0,,My underlings !
+Dialogue: 0,0:02:43.40,0:02:45.20,Sub,,0,0,0,,My great ambitions !
+Dialogue: 0,0:02:45.96,0:02:48.80,Sub,,0,0,0,,The fiend is too terrifying...
+Dialogue: 0,0:02:53.68,0:02:56.64,Sub,,0,0,0,,Master, I knew you wanted to devour them
+Dialogue: 0,0:02:56.76,0:02:59.20,Sub,,0,0,0,,so I scattered some bait to lure them over.
+Dialogue: 0,0:03:06.44,0:03:08.56,Sub,,0,0,0,,There are many wandering souls in the trial
+Dialogue: 0,0:03:08.68,0:03:10.16,Sub,,0,0,0,,but no Soul Devourers.
+Dialogue: 0,0:03:10.84,0:03:13.52,Sub,,0,0,0,,That means no one can stop me in the third trial.
+Dialogue: 0,0:03:19.28,0:03:21.48,Sub,,0,0,0,,Find the Soul Formation cultivators that entered here.
+Dialogue: 0,0:03:22.36,0:03:24.00,Sub,,0,0,0,,I want them alive.
+Dialogue: 0,0:03:33.20,0:03:34.72,Sub,,0,0,0,,You’re pushing me too far...
+Dialogue: 0,0:03:35.40,0:03:36.76,Sub,,0,0,0,,Heaven-Slaying Demon Palm !
+Dialogue: 0,0:03:41.80,0:03:44.56,Sub,,0,0,0,,If it weren't for that brat causing my cultivation to plummet,
+Dialogue: 0,0:03:45.00,0:03:47.56,Sub,,0,0,0,,how could I have fallen to such a state ?
+Dialogue: 0,0:04:06.72,0:04:09.12,Sub,,0,0,0,,Now I'm even forced to use the Heaven Sealing Pagoda...
+Dialogue: 0,0:04:10.12,0:04:12.60,Sub,,0,0,0,,Do the heavens want me dead ?
+Dialogue: 0,0:04:19.60,0:04:20.52,Sub,,0,0,0,,Found him.
+Dialogue: 0,0:04:26.32,0:04:28.88,Sub,,0,0,0,,Hand over the inheritance treasure.
+Dialogue: 0,0:04:34.60,0:04:35.40,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:04:36.28,0:04:39.44,Sub,,0,0,0,,I don’t know what inheritance treasure you are talking about.
+Dialogue: 0,0:04:40.12,0:04:41.72,Sub,,0,0,0,,Without the inheritance treasure,
+Dialogue: 0,0:04:42.32,0:04:44.40,Sub,,0,0,0,,how did you enter
+Dialogue: 0,0:04:45.20,0:04:46.76,Sub,,0,0,0,,and how will you leave ?
+Dialogue: 0,0:04:49.80,0:04:51.16,Sub,,0,0,0,,With a set of hand seals.
+Dialogue: 0,0:04:51.64,0:04:53.52,Sub,,0,0,0,,When Junior last came here,
+Dialogue: 0,0:04:53.80,0:04:56.36,Sub,,0,0,0,,I found and memorized a set of hand seals.
+Dialogue: 0,0:04:57.20,0:04:58.20,Sub,,0,0,0,,This set of hand seals
+Dialogue: 0,0:04:58.52,0:05:01.76,Sub,,0,0,0,,can only be used next to the gate that the end of a trial.
+Dialogue: 0,0:05:02.16,0:05:05.04,Sub,,0,0,0,,Could you take me to that gate ?
+Dialogue: 0,0:05:05.20,0:05:08.64,Sub,,0,0,0,,I’ll give you the set of hand seals.
+Dialogue: 0,0:05:10.88,0:05:13.76,Sub,,0,0,0,,If you kill me, you’ll never get it !
+Dialogue: 0,0:05:16.44,0:05:17.28,Sub,,0,0,0,,It’s you !
+Dialogue: 0,0:05:23.00,0:05:26.80,Sub,,0,0,0,,Brat, what the hell did you find in the Land of the Ancient God
+Dialogue: 0,0:05:27.04,0:05:28.68,Sub,,0,0,0,,that turned you into this ?
+Dialogue: 0,0:05:43.28,0:05:45.08,Sub,,0,0,0,,Little friend, let’s talk !
+Dialogue: 0,0:05:45.08,0:05:46.88,Sub,,0,0,0,,We can leave together !
+Dialogue: 0,0:05:49.84,0:05:51.60,Sub,,0,0,0,,I'll give it to you !
+Dialogue: 0,0:06:05.28,0:06:06.04,Sub,,0,0,0,,Hunchback Meng ?
+Dialogue: 0,0:06:08.76,0:06:10.04,Sub,,0,0,0,,He actually didn’t die ?
+Dialogue: 0,0:06:10.60,0:06:12.00,Sub,,0,0,0,,Master said
+Dialogue: 0,0:06:12.44,0:06:15.48,Sub,,0,0,0,,that no one is allowed to live through the third trial !
+Dialogue: 0,0:06:32.08,0:06:33.92,Sub,,0,0,0,,Hunchback Meng actually came back from the dead.
+Dialogue: 0,0:06:34.08,0:06:35.96,Sub,,0,0,0,,This Land of the Ancient God is too weird.
+Dialogue: 0,0:06:44.12,0:06:45.64,Sub,,0,0,0,,The wandering souls’ attacks are useless...
+Dialogue: 0,0:07:00.92,0:07:01.60,Sub,,0,0,0,,Divine Sense,
+Dialogue: 0,0:07:02.48,0:07:02.88,Sub,,0,0,0,,explode !
+Dialogue: 0,0:07:14.60,0:07:16.40,Sub,,0,0,0,,Even my Divine Sense attack was useless...
+Dialogue: 0,0:07:16.60,0:07:17.92,Sub,,0,0,0,,Something's wrong with him.
+Dialogue: 0,0:07:18.64,0:07:20.92,Sub,,0,0,0,,I have no idea what that thing is
+Dialogue: 0,0:07:21.16,0:07:23.64,Sub,,0,0,0,,but it's even more terrifying than before.
+Dialogue: 0,0:07:24.04,0:07:25.64,Sub,,0,0,0,,It looks like he doesn't have a Divine Sense,
+Dialogue: 0,0:07:26.00,0:07:27.60,Sub,,0,0,0,,he’s no longer human !
+Dialogue: 0,0:07:28.28,0:07:30.60,Sub,,0,0,0,,Master, what should we do ?
+Dialogue: 0,0:07:36.44,0:07:37.88,Sub,,0,0,0,,Hunchback Meng killed Duanmu Ji.
+Dialogue: 0,0:07:38.20,0:07:41.04,Sub,,0,0,0,,It seems he wants to kill all the intruders in the third trial.
+Dialogue: 0,0:07:41.08,0:07:42.64,Sub,,0,0,0,,I cannot rely on Divine Sense attacks.
+Dialogue: 0,0:07:42.88,0:07:45.52,Sub,,0,0,0,,With my Core Formation cultivation, I have no chance.
+Dialogue: 0,0:07:45.92,0:07:48.68,Sub,,0,0,0,,It looks like I'll need to divert him with something else.
+Dialogue: 0,0:08:03.80,0:08:04.60,Sub,,0,0,0,,Anger !
+Dialogue: 0,0:08:09.40,0:08:10.80,Sub,,0,0,0,,My cultivation has fallen.
+Dialogue: 0,0:08:11.20,0:08:13.96,Sub,,0,0,0,,I need to completely rely on you for this third trial.
+Dialogue: 0,0:08:17.08,0:08:17.88,Sub,,0,0,0,,Return.
+Dialogue: 0,0:08:19.48,0:08:20.36,Sub,,0,0,0,,Very good,
+Dialogue: 0,0:08:20.84,0:08:24.80,Sub,,0,0,0,,I didn't waste 1000 years refining you into a puppet.
+Dialogue: 0,0:08:27.40,0:08:28.52,Sub,,0,0,0,,Cunning brat,
+Dialogue: 0,0:08:28.84,0:08:30.60,Sub,,0,0,0,,you dare to show yourself before me ?
+Dialogue: 0,0:08:30.76,0:08:32.76,Sub,,0,0,0,,Kill him ! Kill him now !
+Dialogue: 0,0:08:37.16,0:08:39.12,Sub,,0,0,0,,You can control the wandering souls !?
+Dialogue: 0,0:08:40.84,0:08:41.64,Sub,,0,0,0,,Anger !
+Dialogue: 0,0:08:46.08,0:08:47.20,Sub,,0,0,0,,You damn brat,
+Dialogue: 0,0:08:47.56,0:08:49.24,Sub,,0,0,0,,what the hell did you do ?
+Dialogue: 0,0:08:50.72,0:08:52.12,Sub,,0,0,0,,Once I catch you,
+Dialogue: 0,0:08:52.32,0:08:54.36,Sub,,0,0,0,,I’ll cast you into the hell of desires
+Dialogue: 0,0:08:54.36,0:08:55.44,Sub,,0,0,0,,never to be reborn !
+Dialogue: 0,0:08:56.40,0:08:57.72,Sub,,0,0,0,,Thank you, Senior.
+Dialogue: 0,0:09:06.24,0:09:08.00,Sub,,0,0,0,,There's another one !
+Dialogue: 0,0:09:08.80,0:09:10.60,Sub,,0,0,0,,That’s wonderful !
+Dialogue: 0,0:09:10.60,0:09:13.28,Sub,,0,0,0,,Hunchback Meng, why are you looking like a ghost ?
+Dialogue: 0,0:09:13.36,0:09:14.72,Sub,,0,0,0,,Master said
+Dialogue: 0,0:09:15.00,0:09:18.76,Sub,,0,0,0,,that I'll be rewarded for killing people in the third trial.
+Dialogue: 0,0:09:18.96,0:09:20.64,Sub,,0,0,0,,His Divine Sense is gone.
+Dialogue: 0,0:09:21.12,0:09:23.12,Sub,,0,0,0,,The old hunchback was refined into a high-level puppet.
+Dialogue: 0,0:09:23.20,0:09:24.80,Sub,,0,0,0,,You're in the way !
+Dialogue: 0,0:09:27.20,0:09:28.08,Sub,,0,0,0,,This cultivation...
+Dialogue: 0,0:09:28.36,0:09:30.48,Sub,,0,0,0,,You... you’re already Late stage Soul Formation ?
+Dialogue: 0,0:09:38.52,0:09:40.04,Sub,,0,0,0,,Desire Blood Escape Technique ?
+Dialogue: 0,0:09:40.72,0:09:41.76,Sub,,0,0,0,,Useless !
+Dialogue: 0,0:09:46.56,0:09:48.12,Sub,,0,0,0,,Six Desires, activate !
+Dialogue: 0,0:09:50.40,0:09:52.00,Sub,,0,0,0,,This Turtle Bone Puppet
+Dialogue: 0,0:09:52.68,0:09:53.72,Sub,,0,0,0,,is too weak !
+Dialogue: 0,0:09:54.68,0:09:56.04,Sub,,0,0,0,,How is this possible ?
+Dialogue: 0,0:09:56.20,0:09:57.00,Sub,,0,0,0,,How is this possible !?
+Dialogue: 0,0:09:57.00,0:09:58.20,Sub,,0,0,0,,Who the hell are you !?
+Dialogue: 0,0:10:04.40,0:10:06.20,Sub,,0,0,0,,Who dares to harm my disciple ?
+Dialogue: 0,0:10:14.68,0:10:16.84,Card,,0,0,0,,{\fad(300,000)\pos(1468,517)}Sky Devil Magician\NXuan Tian Sect Ancestor\NLate stage Soul Formation
+Dialogue: 0,0:10:17.40,0:10:18.48,Sub,,0,0,0,,Master !
+Dialogue: 0,0:10:19.16,0:10:21.72,Sub,,0,0,0,,Yi’er, do you still recognize me ?
+Dialogue: 0,0:10:22.28,0:10:23.12,Sub,,0,0,0,,Very good.
+Dialogue: 0,0:10:23.92,0:10:26.16,Sub,,0,0,0,,Master, it’s been 1000 years !
+Dialogue: 0,0:10:26.48,0:10:27.52,Sub,,0,0,0,,You’re still alive !
+Dialogue: 0,0:10:27.80,0:10:28.96,Sub,,0,0,0,,You’re really still alive !
+Dialogue: 0,0:10:29.68,0:10:33.72,Sub,,0,0,0,,How dare you defy Master’s orders ?
+Dialogue: 0,0:10:35.12,0:10:37.84,Sub,,0,0,0,,An insect that couldn't retain his consciousness
+Dialogue: 0,0:10:38.04,0:10:40.32,Sub,,0,0,0,,dares to lecture me ?
+Dialogue: 0,0:10:46.36,0:10:47.64,Sub,,0,0,0,,For harming Yi'er,
+Dialogue: 0,0:10:47.68,0:10:49.92,Sub,,0,0,0,,you deserve to die by a thousand cuts.
+Dialogue: 0,0:10:50.52,0:10:53.00,Sub,,0,0,0,,But you're already dead, it's all the same.
+Dialogue: 0,0:11:08.92,0:11:10.44,Sub,,0,0,0,,As Duanmu Ji said,
+Dialogue: 0,0:11:11.12,0:11:14.12,Sub,,0,0,0,,this set of hand seals can only be used at the gate.
+Dialogue: 0,0:11:46.20,0:11:47.08,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:11:47.28,0:11:48.52,Sub,,0,0,0,,The hand seals failed.
+Dialogue: 0,0:11:52.12,0:11:53.60,Sub,,0,0,0,,You are...
+Dialogue: 0,0:11:54.40,0:11:55.68,Sub,,0,0,0,,a Soul Devourer ?
+Dialogue: 0,0:11:56.60,0:11:57.80,Sub,,0,0,0,,Good.
+Dialogue: 0,0:12:16.80,0:12:19.88,Card,,0,0,0,,{\fad(300,300)\pos(1632,507)}Tuo Sen\NTu Si's demon\N8-stars Ancient God
+Dialogue: 0,0:12:45.00,0:12:46.92,Sub,,0,0,0,,My Demon Puppets,
+Dialogue: 0,0:12:48.28,0:12:50.08,Sub,,0,0,0,,capture this Soul Devourer.
+Dialogue: 0,0:12:51.60,0:12:52.60,Sub,,0,0,0,,Bring him here.
+Dialogue: 0,0:13:10.72,0:13:14.40,Sub,,0,0,0,,Weird... Where did that Soul Devourer go ?
+Dialogue: 0,0:13:19.44,0:13:20.40,Sub,,0,0,0,,Soul Devourer ?
+Dialogue: 0,0:13:20.72,0:13:22.68,Sub,,0,0,0,,These people are here to capture me.
+Dialogue: 0,0:13:23.00,0:13:24.08,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:13:24.24,0:13:26.00,Sub,,0,0,0,,What are you doing here ?
+Dialogue: 0,0:13:28.76,0:13:31.08,Sub,,0,0,0,,we are obeying Master's orders
+Dialogue: 0,0:13:31.28,0:13:33.40,Sub,,0,0,0,,to capture that Soul Devourer.
+Dialogue: 0,0:13:34.00,0:13:35.08,Sub,,0,0,0,,Did you get him ?
+Dialogue: 0,0:13:38.16,0:13:39.52,Sub,,0,0,0,,What are you standing there for ?
+Dialogue: 0,0:13:40.32,0:13:41.76,Sub,,0,0,0,,Who will take responsibility
+Dialogue: 0,0:13:41.80,0:13:43.28,Sub,,0,0,0,,if it takes too long ?
+Dialogue: 0,0:13:45.84,0:13:46.76,Sub,,0,0,0,,Master ?
+Dialogue: 0,0:13:47.68,0:13:50.08,Sub,,0,0,0,,Didn’t the Ancient God die long ago ?
+Dialogue: 0,0:13:50.36,0:13:51.64,Sub,,0,0,0,,Who is this Master ?
+Dialogue: 0,0:13:52.64,0:13:55.00,Sub,,0,0,0,,Everyone’s gone, come out.
+Dialogue: 0,0:13:57.92,0:14:01.08,Sub,,0,0,0,,Master, what’s going on ?
+Dialogue: 0,0:14:03.68,0:14:05.96,Sub,,0,0,0,,Six Desires Devil Lord’s Master isn’t dead either ?
+Dialogue: 0,0:14:06.16,0:14:10.52,Sub,,0,0,0,,Actually, there's no treasure to find in the Land of the Ancient God.
+Dialogue: 0,0:14:11.16,0:14:13.32,Sub,,0,0,0,,It’s been a trap from the very beginning.
+Dialogue: 0,0:14:13.56,0:14:15.28,Sub,,0,0,0,,What... what does this mean ?
+Dialogue: 0,0:14:15.96,0:14:17.32,Sub,,0,0,0,,After I died,
+Dialogue: 0,0:14:17.92,0:14:20.00,Sub,,0,0,0,,I woke up in the Blood Sea
+Dialogue: 0,0:14:20.00,0:14:21.68,Sub,,0,0,0,,and came back from the dead
+Dialogue: 0,0:14:21.68,0:14:23.08,Sub,,0,0,0,,with this appearance.
+Dialogue: 0,0:14:23.80,0:14:25.00,Sub,,0,0,0,,Only then
+Dialogue: 0,0:14:25.20,0:14:28.28,Sub,,0,0,0,,did I learn the truth of the Land of the Ancient God.
+Dialogue: 0,0:14:29.92,0:14:31.12,Sub,,0,0,0,,Long ago
+Dialogue: 0,0:14:31.32,0:14:33.44,Sub,,0,0,0,,A cultivator named Tuo Sen
+Dialogue: 0,0:14:33.64,0:14:36.08,Sub,,0,0,0,,fought a great battle against Ancient God Tu Si
+Dialogue: 0,0:14:36.32,0:14:38.04,Sub,,0,0,0,,to obtain his inheritance.
+Dialogue: 0,0:14:38.60,0:14:41.16,Sub,,0,0,0,,Using his last remaining strength,
+Dialogue: 0,0:14:41.40,0:14:45.28,Sub,,0,0,0,,Tu Si sealed Tuo Sen in the Blood Sea inside his Sea of Consciousness.
+Dialogue: 0,0:14:49.28,0:14:51.28,Sub,,0,0,0,,Tuo Sen was not willing to accept this
+Dialogue: 0,0:14:51.32,0:14:53.64,Sub,,0,0,0,,so he set a trap in the Land of the Ancient God
+Dialogue: 0,0:14:53.64,0:14:55.48,Sub,,0,0,0,,and spread rumors
+Dialogue: 0,0:14:55.80,0:14:57.88,Sub,,0,0,0,,to attract countless cultivators.
+Dialogue: 0,0:14:58.68,0:15:00.88,Sub,,0,0,0,,Anyone who dies in the Land of the Ancient God
+Dialogue: 0,0:15:01.20,0:15:03.12,Sub,,0,0,0,,will be reborn in the Blood Sea
+Dialogue: 0,0:15:03.52,0:15:05.04,Sub,,0,0,0,,and become his puppet.
+Dialogue: 0,0:15:06.32,0:15:08.12,Sub,,0,0,0,,The reason he's doing this
+Dialogue: 0,0:15:08.12,0:15:11.96,Sub,,0,0,0,,is to slowly expel the seal out of his body
+Dialogue: 0,0:15:12.48,0:15:14.04,Sub,,0,0,0,,and transfer it to others.
+Dialogue: 0,0:15:14.76,0:15:16.84,Sub,,0,0,0,,He is waiting for the day the seal loosens
+Dialogue: 0,0:15:16.84,0:15:17.92,Sub,,0,0,0,,to break free
+Dialogue: 0,0:15:19.12,0:15:20.52,Sub,,0,0,0,,and regain his freedom.
+Dialogue: 0,0:15:25.28,0:15:29.36,Sub,,0,0,0,,You didn’t die so you could've used the hand seals to escape.
+Dialogue: 0,0:15:30.28,0:15:33.52,Sub,,0,0,0,,But now, Tuo Sen has completely sealed the Land of the Ancient God.
+Dialogue: 0,0:15:34.48,0:15:37.68,Sub,,0,0,0,,To leave, you'll need to gamble.
+Dialogue: 0,0:15:39.04,0:15:40.28,Sub,,0,0,0,,Don’t be afraid my disciple,
+Dialogue: 0,0:15:40.32,0:15:41.12,Sub,,0,0,0,,Master is here.
+Dialogue: 0,0:15:41.88,0:15:43.88,Sub,,0,0,0,,Even if I have to risk my life,
+Dialogue: 0,0:15:44.40,0:15:46.68,Sub,,0,0,0,,I will definitely get you out of here.
+Dialogue: 0,0:15:47.56,0:15:48.36,Sub,,0,0,0,,Master...
+Dialogue: 0,0:15:49.12,0:15:50.40,Sub,,0,0,0,,Stay close to me.
+Dialogue: 0,0:16:12.08,0:16:13.56,Sub,,0,0,0,,With blood as the guide
+Dialogue: 0,0:16:14.20,0:16:15.76,Sub,,0,0,0,,and veins as the source.
+Dialogue: 0,0:16:16.76,0:16:17.56,Sub,,0,0,0,,Break !
+Dialogue: 0,0:16:26.96,0:16:28.28,Sub,,0,0,0,,This overwhelming desire...
+Dialogue: 0,0:16:29.64,0:16:30.92,Sub,,0,0,0,,What a sinister technique !
+Dialogue: 0,0:16:32.20,0:16:33.00,Sub,,0,0,0,,Follow me.
+Dialogue: 0,0:17:25.21,0:17:32.09,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:17:29.09,0:17:32.09,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:17:32.45,0:17:38.33,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:17:39.45,0:17:45.85,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:17:43.25,0:17:45.85,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:17:46.11,0:17:52.37,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:17:53.01,0:18:00.09,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:17:55.69,0:18:00.09,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:18:00.17,0:18:07.25,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:18:02.21,0:18:07.25,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:18:07.69,0:18:09.77,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:18:09.77,0:18:14.53,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:18:11.17,0:18:14.53,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:18:14.53,0:18:16.53,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:18:16.61,0:18:19.05,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:18:19.25,0:18:21.41,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:18:21.41,0:18:24.33,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:18:24.33,0:18:27.41,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:18:28.69,0:18:34.37,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:18:30.61,0:18:34.37,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:18:35.89,0:18:43.25,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:18:39.77,0:18:43.25,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:18:43.25,0:18:49.85,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:18:44.85,0:18:49.85,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:18:50.05,0:18:52.73,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:18:52.73,0:18:57.09,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:18:57.53,0:19:04.25,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:19:00.05,0:19:04.25,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:19:04.65,0:19:08.49,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:19:08.49,0:19:11.81,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:19:11.81,0:19:17.61,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:19:14.05,0:19:17.61,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:19:18.93,0:19:28.57,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:19:20.73,0:19:28.57,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

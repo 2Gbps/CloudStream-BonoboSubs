@@ -1,0 +1,354 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:25.76,0:02:26.56,Sub,,0,0,0,,Father...
+Dialogue: 0,0:02:33.91,0:02:36.09,Sub,,0,0,0,,Noooo !!!
+Dialogue: 0,0:03:25.99,0:03:27.58,Sub,,0,0,0,,It's time for dinner.
+Dialogue: 0,0:03:28.12,0:03:29.78,Sub,,0,0,0,,Hurry, let's eat.
+Dialogue: 0,0:03:40.75,0:03:41.43,Sub,,0,0,0,,Father,
+Dialogue: 0,0:03:41.92,0:03:42.62,Sub,,0,0,0,,Mother,
+Dialogue: 0,0:03:43.20,0:03:44.91,Sub,,0,0,0,,I miss you so much...
+Dialogue: 0,0:03:45.48,0:03:46.31,Sub,,0,0,0,,so much...
+Dialogue: 0,0:03:53.83,0:03:55.24,Sub,,0,0,0,,I didn't expect
+Dialogue: 0,0:03:55.52,0:03:56.98,Sub,,0,0,0,,that I would be able
+Dialogue: 0,0:03:57.92,0:04:00.60,Sub,,0,0,0,,to condense my killing intent even further.
+Dialogue: 0,0:04:00.60,0:04:03.06,Sub,,0,0,0,,My state of heart wasn't right before.
+Dialogue: 0,0:04:19.94,0:04:21.90,Card,,0,0,0,,{\pos(1651,435)\fad(300,300)}Ceng Da Niu
+Dialogue: 0,0:04:21.08,0:04:21.90,Sub,,0,0,0,,Woaaa !
+Dialogue: 0,0:04:27.91,0:04:29.25,Sub,,0,0,0,,Did Uncle make this ?
+Dialogue: 0,0:04:29.27,0:04:30.27,Sub,,0,0,0,,So cool.
+Dialogue: 0,0:04:31.47,0:04:32.26,Sub,,0,0,0,,What's the matter ?
+Dialogue: 0,0:04:32.52,0:04:33.30,Sub,,0,0,0,,Oh, right.
+Dialogue: 0,0:04:34.11,0:04:35.43,Sub,,0,0,0,,I came to give you this.
+Dialogue: 0,0:04:48.96,0:04:50.18,Sub,,0,0,0,,Now when a guest comes in,
+Dialogue: 0,0:04:50.19,0:04:51.14,Sub,,0,0,0,,you will know.
+Dialogue: 0,0:04:54.63,0:04:55.55,Sub,,0,0,0,,This is for you.
+Dialogue: 0,0:04:59.75,0:05:00.87,Sub,,0,0,0,,Thank you Uncle !
+Dialogue: 0,0:05:02.55,0:05:03.20,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:05:03.36,0:05:04.35,Sub,,0,0,0,,my name is Da Niu.
+Dialogue: 0,0:05:04.51,0:05:06.22,Sub,,0,0,0,,I'm from the blacksmith across the street.
+Dialogue: 0,0:05:06.76,0:05:07.99,Sub,,0,0,0,,Remember to come and play with me.
+Dialogue: 0,0:05:14.01,0:05:16.11,Card,,0,0,0,,{\pos(350,471)\fad(300,300)}Ceng Niu\NCeng Da Niu's father
+Dialogue: 0,0:05:12.23,0:05:13.55,Sub,,0,0,0,,Dad, Mom !
+Dialogue: 0,0:05:13.88,0:05:14.92,Sub,,0,0,0,,Look at this !
+Dialogue: 0,0:05:14.92,0:05:16.54,Sub,,0,0,0,,The uncle across the street gave it to me.
+Dialogue: 0,0:05:14.01,0:05:16.11,Card,,0,0,0,,{\pos(1695,523)\fad(300,300)}Ceng Si\NCeng Da Niu's mother
+Dialogue: 0,0:05:17.28,0:05:18.38,Sub,,0,0,0,,Here, let me see.
+Dialogue: 0,0:05:21.68,0:05:22.94,Sub,,0,0,0,,Such an exquisite wood carving !
+Dialogue: 0,0:05:25.60,0:05:27.42,Sub,,0,0,0,,You little ignorant rascal !
+Dialogue: 0,0:05:28.44,0:05:29.27,Sub,,0,0,0,,Ouch, it hurts.
+Dialogue: 0,0:05:33.54,0:05:34.08,Sub,,0,0,0,,Brother,
+Dialogue: 0,0:05:34.71,0:05:35.55,Sub,,0,0,0,,excuse him.
+Dialogue: 0,0:05:35.56,0:05:36.76,Sub,,0,0,0,,The kid doesn't understand.
+Dialogue: 0,0:05:37.00,0:05:38.12,Sub,,0,0,0,,How much does it cost ?
+Dialogue: 0,0:05:39.16,0:05:40.31,Sub,,0,0,0,,I gifted it to him,
+Dialogue: 0,0:05:40.35,0:05:42.01,Sub,,0,0,0,,it's just a piece of wood after all.
+Dialogue: 0,0:05:48.95,0:05:50.26,Sub,,0,0,0,,You just arrived, right ?
+Dialogue: 0,0:05:50.64,0:05:53.19,Sub,,0,0,0,,The shop across the street has been empty for years.
+Dialogue: 0,0:05:53.79,0:05:54.59,Sub,,0,0,0,,Brother,
+Dialogue: 0,0:05:54.72,0:05:55.78,Sub,,0,0,0,,if you don't mind,
+Dialogue: 0,0:05:56.07,0:05:57.27,Sub,,0,0,0,,come over for a meal.
+Dialogue: 0,0:05:58.16,0:05:59.75,Sub,,0,0,0,,I have homemade wine.
+Dialogue: 0,0:06:00.19,0:06:02.08,Sub,,0,0,0,,It's much better than the wine in restaurants !
+Dialogue: 0,0:06:04.40,0:06:05.18,Sub,,0,0,0,,Okay.
+Dialogue: 0,0:06:05.59,0:06:06.06,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:06:06.72,0:06:08.06,Sub,,0,0,0,,You're welcome.
+Dialogue: 0,0:06:08.38,0:06:10.46,Sub,,0,0,0,,We'll be neighbors from now on.
+Dialogue: 0,0:06:11.32,0:06:11.82,Sub,,0,0,0,,Let's go !
+Dialogue: 0,0:06:11.82,0:06:13.00,Sub,,0,0,0,,I'll show you around.
+Dialogue: 0,0:06:21.36,0:06:23.15,Sub,,0,0,0,,How long has it been since I last ate ?
+Dialogue: 0,0:06:24.03,0:06:26.22,Sub,,0,0,0,,I stopped eating at Foundation Establishment.
+Dialogue: 0,0:06:29.55,0:06:31.83,Sub,,0,0,0,,Does it not suit your taste ?
+Dialogue: 0,0:06:32.64,0:06:33.31,Sub,,0,0,0,,Brother,
+Dialogue: 0,0:06:33.76,0:06:35.28,Sub,,0,0,0,,We only have this simple food.
+Dialogue: 0,0:06:35.39,0:06:36.19,Sub,,0,0,0,,I'm sorry.
+Dialogue: 0,0:06:37.04,0:06:37.86,Sub,,0,0,0,,I like it.
+Dialogue: 0,0:06:41.24,0:06:42.70,Sub,,0,0,0,,Come on, eat this.
+Dialogue: 0,0:06:43.67,0:06:44.84,Sub,,0,0,0,,Since you just arrived here,
+Dialogue: 0,0:06:44.84,0:06:46.06,Sub,,0,0,0,,you aren't familiar with this place.
+Dialogue: 0,0:06:46.07,0:06:47.11,Sub,,0,0,0,,If you need anything,
+Dialogue: 0,0:06:47.12,0:06:48.23,Sub,,0,0,0,,let us know.
+Dialogue: 0,0:06:48.88,0:06:50.59,Sub,,0,0,0,,As neighbours, we should help each other.
+Dialogue: 0,0:06:51.27,0:06:52.46,Sub,,0,0,0,,If you need groceries,
+Dialogue: 0,0:06:52.60,0:06:53.92,Sub,,0,0,0,,go to the Li Family's shop,
+Dialogue: 0,0:06:54.31,0:06:56.14,Sub,,0,0,0,,it's good and affordable.
+Dialogue: 0,0:06:58.11,0:07:00.18,Sub,,0,0,0,,The Xu Family's shop is expensive
+Dialogue: 0,0:07:00.59,0:07:02.06,Sub,,0,0,0,,but the people are kind.
+Dialogue: 0,0:07:02.67,0:07:05.14,Sub,,0,0,0,,I heard that their young master is very successful.
+Dialogue: 0,0:07:05.59,0:07:06.84,Sub,,0,0,0,,He's following the Crown Prince.
+Dialogue: 0,0:07:08.50,0:07:10.74,Sub,,0,0,0,,The craft of brewing wine is passed down in our family.
+Dialogue: 0,0:07:10.90,0:07:11.59,Sub,,0,0,0,,Try it.
+Dialogue: 0,0:07:17.30,0:07:18.08,Sub,,0,0,0,,It's a good wine !
+Dialogue: 0,0:07:19.56,0:07:20.50,Sub,,0,0,0,,Come on, one more.
+Dialogue: 0,0:07:22.52,0:07:24.56,Sub,,0,0,0,,Come on, eat more. Cheers.
+Dialogue: 0,0:07:25.79,0:07:30.28,Sub,,0,0,0,,{\fad(300,300)\pos(256,571)}1 year later
+Dialogue: 0,0:07:35.56,0:07:36.55,Sub,,0,0,0,,Uncle Wang,
+Dialogue: 0,0:07:36.56,0:07:37.94,Sub,,0,0,0,,what kind of animal is this ?
+Dialogue: 0,0:07:38.56,0:07:39.96,Sub,,0,0,0,,It looks like a turtle
+Dialogue: 0,0:07:40.31,0:07:41.59,Sub,,0,0,0,,but its head is weird.
+Dialogue: 0,0:08:12.91,0:08:14.68,Sub,,0,0,0,,It's a kind of ancient creature.
+Dialogue: 0,0:08:15.16,0:08:16.59,Sub,,0,0,0,,Although it looks like this,
+Dialogue: 0,0:08:17.51,0:08:18.96,Sub,,0,0,0,,in reality it's fierce
+Dialogue: 0,0:08:19.20,0:08:20.36,Sub,,0,0,0,,and powerful.
+Dialogue: 0,0:08:22.30,0:08:23.94,Sub,,0,0,0,,It sounds so cool !
+Dialogue: 0,0:08:26.49,0:08:30.74,Sub,,0,0,0,,{\fad(300,300)\pos(249,573)}10 days later
+Dialogue: 0,0:08:31.91,0:08:32.66,Sub,,0,0,0,,Uncle Wang,
+Dialogue: 0,0:08:32.83,0:08:34.00,Sub,,0,0,0,,I'm here to deliver the wine.
+Dialogue: 0,0:09:08.11,0:09:09.12,Sub,,0,0,0,,This is a fire spider.
+Dialogue: 0,0:09:09.72,0:09:11.04,Sub,,0,0,0,,It has a violent temperament
+Dialogue: 0,0:09:11.12,0:09:12.68,Sub,,0,0,0,,and its 8 legs are very sharp.
+Dialogue: 0,0:09:13.07,0:09:14.36,Sub,,0,0,0,,Don't get hurt by one.
+Dialogue: 0,0:09:15.16,0:09:16.56,Sub,,0,0,0,,This is so interesting !
+Dialogue: 0,0:09:17.95,0:09:18.71,Sub,,0,0,0,,Dad !
+Dialogue: 0,0:09:18.80,0:09:20.23,Sub,,0,0,0,,I don't want to be a blacksmith.
+Dialogue: 0,0:09:20.28,0:09:21.80,Sub,,0,0,0,,I want to learn wood carving !
+Dialogue: 0,0:09:21.88,0:09:22.99,Sub,,0,0,0,,What the hell are you talking about ?
+Dialogue: 0,0:09:23.24,0:09:25.15,Sub,,0,0,0,,You cannot even hold a forge hammer properly,
+Dialogue: 0,0:09:25.19,0:09:26.94,Sub,,0,0,0,,yet you want to do fine work like Uncle Wang ?
+Dialogue: 0,0:09:27.00,0:09:28.26,Sub,,0,0,0,,You little rascal !
+Dialogue: 0,0:09:28.35,0:09:29.62,Sub,,0,0,0,,Ouch !
+Dialogue: 0,0:09:37.72,0:09:38.76,Sub,,0,0,0,,Like a breeze,
+Dialogue: 0,0:09:39.39,0:09:41.80,Sub,,0,0,0,,4 seasons have already gone by.
+Dialogue: 0,0:09:42.88,0:09:44.36,Sub,,0,0,0,,Because my cultivation is limited,
+Dialogue: 0,0:09:44.40,0:09:46.99,Sub,,0,0,0,,I cannot carve Soul Formation cultivators.
+Dialogue: 0,0:09:47.56,0:09:48.64,Sub,,0,0,0,,But it doesn't matter,
+Dialogue: 0,0:09:48.92,0:09:49.83,Sub,,0,0,0,,the journey is long.
+Dialogue: 0,0:09:50.80,0:09:52.66,Sub,,0,0,0,,I carved my memories,
+Dialogue: 0,0:09:53.24,0:09:54.60,Sub,,0,0,0,,the villagers of the Wang Family,
+Dialogue: 0,0:09:54.82,0:09:56.31,Sub,,0,0,0,,Spirit Beasts I have faced.
+Dialogue: 0,0:09:57.28,0:09:58.92,Sub,,0,0,0,,They seem to have been reborn
+Dialogue: 0,0:09:59.40,0:10:01.02,Sub,,0,0,0,,when I carve them this way.
+Dialogue: 0,0:10:11.36,0:10:13.32,Sub,,0,0,0,,When I condense a fourth bead,
+Dialogue: 0,0:10:14.20,0:10:16.04,Sub,,0,0,0,,the killing intent will disappear.
+Dialogue: 0,0:10:18.51,0:10:19.40,Second,,0,0,0,,Look at this !
+Dialogue: 0,0:10:20.32,0:10:21.57,Second,,0,0,0,,It's a great wood carving.
+Dialogue: 0,0:10:21.58,0:10:22.15,Second,,0,0,0,,Indeed !
+Dialogue: 0,0:10:22.16,0:10:23.31,Second,,0,0,0,,It's really good.
+Dialogue: 0,0:10:25.76,0:10:26.66,Second,,0,0,0,,Not bad...
+Dialogue: 0,0:10:28.44,0:10:29.35,Second,,0,0,0,,It's like a real one.
+Dialogue: 0,0:10:29.36,0:10:29.86,Second,,0,0,0,,Look at this one !
+Dialogue: 0,0:10:30.60,0:10:31.59,Second,,0,0,0,,Let's look at this one.
+Dialogue: 0,0:10:32.11,0:10:33.63,Sub,,0,0,0,,Everyone praises how good they are,
+Dialogue: 0,0:10:33.87,0:10:35.62,Sub,,0,0,0,,but no one buys them.
+Dialogue: 0,0:10:52.12,0:10:53.74,Sub,,0,0,0,,Master Xu is coming back.
+Dialogue: 0,0:10:53.84,0:10:55.05,Sub,,0,0,0,,Master Xu follows the Crown Prince
+Dialogue: 0,0:10:55.08,0:10:56.38,Sub,,0,0,0,,he's a great man now !
+Dialogue: 0,0:10:59.08,0:11:00.09,Sub,,0,0,0,,Come, have a look !
+Dialogue: 0,0:10:59.74,0:11:00.50,Second,,0,0,0,,Da Niu,
+Dialogue: 0,0:11:00.68,0:11:01.99,Sub,,0,0,0,,let go of me, okay ?
+Dialogue: 0,0:11:03.16,0:11:03.86,Sub,,0,0,0,,Master Xu,
+Dialogue: 0,0:11:04.08,0:11:05.23,Sub,,0,0,0,,look at these wood carvings.
+Dialogue: 0,0:11:05.24,0:11:06.90,Sub,,0,0,0,,They are better than those of the Zhou Family.
+Dialogue: 0,0:11:07.04,0:11:08.54,Sub,,0,0,0,,So... Will you buy one ?
+Dialogue: 0,0:11:09.02,0:11:11.02,Card,,0,0,0,,{\pos(534,444)\fad(300,000)}Xu Tao
+Dialogue: 0,0:11:12.30,0:11:13.80,Sub,,0,0,0,,Don't sell it too expensive.
+Dialogue: 0,0:11:33.28,0:11:34.73,Sub,,0,0,0,,When you touch these wood carvings,
+Dialogue: 0,0:11:34.74,0:11:36.56,Sub,,0,0,0,,it feels strange right ?
+Dialogue: 0,0:11:36.56,0:11:38.32,Sub,,0,0,0,,I usually just look at them.
+Dialogue: 0,0:11:39.54,0:11:40.24,Sub,,0,0,0,,I'm sorry.
+Dialogue: 0,0:11:41.92,0:11:42.69,Sub,,0,0,0,,It's okay.
+Dialogue: 0,0:11:43.10,0:11:45.86,Sub,,0,0,0,,Sir, what kind of animal is it ?
+Dialogue: 0,0:11:46.25,0:11:48.02,Sub,,0,0,0,,Why does it look like a snake to me ?
+Dialogue: 0,0:11:48.03,0:11:49.11,Sub,,0,0,0,,This is a Flood Dragon !
+Dialogue: 0,0:11:49.27,0:11:50.95,Sub,,0,0,0,,It's an immortal creature !
+Dialogue: 0,0:11:51.91,0:11:52.92,Sub,,0,0,0,,A Flood Dragon ?
+Dialogue: 0,0:11:53.80,0:11:55.39,Sub,,0,0,0,,How much does this carving cost ?
+Dialogue: 0,0:11:57.47,0:11:58.43,Sub,,0,0,0,,10 taels of gold.
+Dialogue: 0,0:12:01.64,0:12:02.76,Sub,,0,0,0,,No...
+Dialogue: 0,0:12:02.76,0:12:04.72,Sub,,0,0,0,,it's so over...
+Dialogue: 0,0:12:05.15,0:12:06.08,Sub,,0,0,0,,Thank you, sir.
+Dialogue: 0,0:12:06.43,0:12:07.51,Sub,,0,0,0,,I want this wood carving.
+Dialogue: 0,0:12:09.91,0:12:10.72,Sub,,0,0,0,,Goodbye.
+Dialogue: 0,0:12:11.72,0:12:14.66,Sub,,0,0,0,,10 taels of gold ?
+Dialogue: 0,0:12:19.59,0:12:21.18,Sub,,0,0,0,,His Highness loves beautiful carvings.
+Dialogue: 0,0:12:21.58,0:12:22.99,Sub,,0,0,0,,The Crown Prince is principled,
+Dialogue: 0,0:12:23.55,0:12:25.27,Sub,,0,0,0,,if I give him this carving
+Dialogue: 0,0:12:25.40,0:12:27.18,Sub,,0,0,0,,he will praise me for sure.
+Dialogue: 0,0:12:29.00,0:12:30.02,Sub,,0,0,0,,Your Highness,
+Dialogue: 0,0:12:30.04,0:12:31.55,Sub,,0,0,0,,Xu Tao wants to see you.
+Dialogue: 0,0:12:33.40,0:12:34.70,Sub,,0,0,0,,Thank you, your Highness.
+Dialogue: 0,0:12:35.16,0:12:36.45,Sub,,0,0,0,,What's going on ?
+Dialogue: 0,0:12:36.48,0:12:37.45,Sub,,0,0,0,,We can talk tomorrow.
+Dialogue: 0,0:12:37.48,0:12:38.50,Sub,,0,0,0,,Your Highness,
+Dialogue: 0,0:12:39.44,0:12:42.20,Sub,,0,0,0,,I found a wood carving I think you will like.
+Dialogue: 0,0:12:42.56,0:12:44.28,Sub,,0,0,0,,If his Highness sees it,
+Dialogue: 0,0:12:44.28,0:12:45.26,Sub,,0,0,0,,he will understand.
+Dialogue: 0,0:12:51.82,0:12:54.69,Card,,0,0,0,,{\pos(1548,452)\fad(300,000)}Crown Prince\N8th layer of Qi Condensation
+Dialogue: 0,0:12:58.00,0:12:59.33,Sub,,0,0,0,,Your Highness, don't touch it !
+Dialogue: 0,0:13:04.82,0:13:05.75,Sub,,0,0,0,,This is a treasure.
+Dialogue: 0,0:13:06.47,0:13:07.47,Sub,,0,0,0,,You have done a great service !
+Dialogue: 0,0:13:11.38,0:13:12.36,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:13:12.35,0:13:13.75,Sub,,0,0,0,,Come with me to see my father.
+Dialogue: 0,0:13:25.18,0:13:26.87,Card,,0,0,0,,{\fad(300,000)\pos(1592,446)}Mortal King
+Dialogue: 0,0:13:27.12,0:13:28.42,Card,,0,0,0,,{\pos(381,497)\fad(300,200)}Zhou Qiao\NWhite Could Sect disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:13:28.49,0:13:29.71,Card,,0,0,0,,{\pos(1445,503)\fad(300,000)}Weng Qi\NWhite Cloud Sect disciple\NEarly stage Core Formation
+Dialogue: 0,0:13:35.60,0:13:36.92,Sub,,0,0,0,,Why did you come to see me ?
+Dialogue: 0,0:13:36.92,0:13:38.32,Sub,,0,0,0,,Weren't you having fun ?
+Dialogue: 0,0:13:40.96,0:13:42.54,Sub,,0,0,0,,Father, look.
+Dialogue: 0,0:13:48.24,0:13:49.06,Sub,,0,0,0,,This is...
+Dialogue: 0,0:13:50.07,0:13:51.34,Sub,,0,0,0,,This is a wood carving.
+Dialogue: 0,0:13:51.36,0:13:53.71,Sub,,0,0,0,,Senior Brother, of course I know this is a wood carving !
+Dialogue: 0,0:13:53.86,0:13:56.15,Sub,,0,0,0,,I mean, what is this a carving of ?
+Dialogue: 0,0:13:57.52,0:13:58.76,Sub,,0,0,0,,I haven't seen it before.
+Dialogue: 0,0:13:59.54,0:14:00.43,Sub,,0,0,0,,Immortal Elders,
+Dialogue: 0,0:14:01.00,0:14:03.66,Sub,,0,0,0,,is there anything special about this carving ?
+Dialogue: 0,0:14:08.19,0:14:09.15,Sub,,0,0,0,,This wood carving...
+Dialogue: 0,0:14:09.35,0:14:10.73,Sub,,0,0,0,,the higher your cultivation
+Dialogue: 0,0:14:10.75,0:14:12.16,Sub,,0,0,0,,the more you are affected by it.
+Dialogue: 0,0:14:12.19,0:14:13.19,Sub,,0,0,0,,But for mortals,
+Dialogue: 0,0:14:13.20,0:14:14.51,Sub,,0,0,0,,the effect is small.
+Dialogue: 0,0:14:14.52,0:14:15.45,Sub,,0,0,0,,This object
+Dialogue: 0,0:14:15.48,0:14:17.31,Sub,,0,0,0,,is not a normal carving.
+Dialogue: 0,0:14:17.47,0:14:19.16,Sub,,0,0,0,,The creature that is carved is almost the same
+Dialogue: 0,0:14:19.16,0:14:22.20,Sub,,0,0,0,,as the Flood Dragon in the ancient records of our sect.
+Dialogue: 0,0:14:22.31,0:14:24.52,Sub,,0,0,0,,But you said you had not seen it before...
+Dialogue: 0,0:14:25.83,0:14:26.93,Sub,,0,0,0,,It doesn't mean
+Dialogue: 0,0:14:27.11,0:14:29.00,Sub,,0,0,0,,that I didn't recognize it.
+Dialogue: 0,0:14:30.60,0:14:31.53,Sub,,0,0,0,,This means...
+Dialogue: 0,0:14:31.75,0:14:33.57,Sub,,0,0,0,,this object is a real treasure !
+Dialogue: 0,0:14:33.71,0:14:34.38,Sub,,0,0,0,,Guards,
+Dialogue: 0,0:14:34.68,0:14:37.59,Sub,,0,0,0,,Reward the Crown Prince with gold, silver and jade.
+Dialogue: 0,0:14:38.96,0:14:40.08,Sub,,0,0,0,,Your Highness,
+Dialogue: 0,0:14:40.08,0:14:41.28,Sub,,0,0,0,,where did you
+Dialogue: 0,0:14:41.56,0:14:43.31,Sub,,0,0,0,,find this wood carving ?
+Dialogue: 0,0:15:02.11,0:15:02.76,Sub,,0,0,0,,This...
+Dialogue: 0,0:15:02.76,0:15:04.77,Sub,,0,0,0,,So many treasures...
+Dialogue: 0,0:15:05.24,0:15:06.15,Sub,,0,0,0,,We're rich !
+Dialogue: 0,0:15:06.23,0:15:07.11,Sub,,0,0,0,,Junior Brother,
+Dialogue: 0,0:15:07.12,0:15:08.51,Sub,,0,0,0,,we're rich !
+Dialogue: 0,0:15:12.14,0:15:12.95,Sub,,0,0,0,,What ?!
+Dialogue: 0,0:15:25.08,0:15:25.87,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:15:26.28,0:15:28.08,Sub,,0,0,0,,this place is terrifying.
+Dialogue: 0,0:15:29.52,0:15:30.63,Sub,,0,0,0,,The greater the risk,
+Dialogue: 0,0:15:30.64,0:15:31.65,Sub,,0,0,0,,the greater the gains.
+Dialogue: 0,0:15:32.16,0:15:32.75,Sub,,0,0,0,,Come on.
+Dialogue: 0,0:15:52.52,0:15:54.50,Sub,,0,0,0,,Teleportation !?
+Dialogue: 0,0:15:56.59,0:15:57.04,Sub,,0,0,0,,This...
+Dialogue: 0,0:15:57.04,0:15:58.80,Sub,,0,0,0,,Why is a Nascent Soul cultivator here !?
+Dialogue: 0,0:16:00.03,0:16:01.76,Sub,,0,0,0,,You dared provoke the fiend,
+Dialogue: 0,0:16:01.84,0:16:03.47,Sub,,0,0,0,,you're doomed !
+Dialogue: 0,0:16:03.68,0:16:06.42,Sub,,0,0,0,,And I am the one who will devour your souls !
+Dialogue: 0,0:16:06.55,0:16:07.07,Sub,,0,0,0,,Dead...
+Dialogue: 0,0:16:07.74,0:16:08.62,Sub,,0,0,0,,We're so dead...
+Dialogue: 0,0:16:23.24,0:16:25.02,Sub,,0,0,0,,That will be a total of 4500 taels of gold.
+Dialogue: 0,0:16:25.39,0:16:26.19,Sub,,0,0,0,,Pay up.
+Dialogue: 0,0:16:30.08,0:16:31.40,Sub,,0,0,0,,Paying respects to Senior,
+Dialogue: 0,0:16:31.47,0:16:33.24,Sub,,0,0,0,,Juniors are disciples of the White Cloud Sect.
+Dialogue: 0,0:16:33.30,0:16:35.44,Sub,,0,0,0,,We didn't know these carvings were Senior's.
+Dialogue: 0,0:16:35.95,0:16:37.17,Sub,,0,0,0,,We are sorry for what we did,
+Dialogue: 0,0:16:37.32,0:16:38.97,Sub,,0,0,0,,please forgive us.
+Dialogue: 0,0:16:40.76,0:16:42.07,Sub,,0,0,0,,4500 taels of gold...
+Dialogue: 0,0:16:42.74,0:16:43.74,Sub,,0,0,0,,Do you have enough ?
+Dialogue: 0,0:16:46.52,0:16:47.28,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:16:47.63,0:16:49.54,Sub,,0,0,0,,I have some spirit stones.
+Dialogue: 0,0:16:49.83,0:16:52.12,Sub,,0,0,0,,I don't have the gold mortals use.
+Dialogue: 0,0:17:03.07,0:17:04.07,Sub,,0,0,0,,He won't kill them ?
+Dialogue: 0,0:17:04.08,0:17:05.58,Sub,,0,0,0,,How unfortunate...
+Dialogue: 0,0:17:05.99,0:17:06.90,Sub,,0,0,0,,Get out.
+Dialogue: 0,0:17:07.24,0:17:08.03,Sub,,0,0,0,,Next time,
+Dialogue: 0,0:17:08.72,0:17:09.70,Sub,,0,0,0,,bring enough money.
+Dialogue: 0,0:17:11.10,0:17:12.10,Sub,,0,0,0,,Wait for me !
+Dialogue: 0,0:17:22.64,0:17:23.99,Sub,,0,0,0,,The killing intent is gone.
+Dialogue: 0,0:17:29.60,0:17:30.92,Sub,,0,0,0,,The Spring Festival is coming.
+Dialogue: 0,0:17:31.03,0:17:33.36,Sub,,0,0,0,,This is a token of goodwill from the Crown Prince.
+Dialogue: 0,0:17:33.68,0:17:34.75,Sub,,0,0,0,,His Highness said,
+Dialogue: 0,0:17:34.88,0:17:36.94,Sub,,0,0,0,,that if Master Immortal needs help in the future,
+Dialogue: 0,0:17:37.19,0:17:39.34,Sub,,0,0,0,,he's more than willing to help you out.
+Dialogue: 0,0:17:48.95,0:17:49.79,Sub,,0,0,0,,Happy New Year !
+Dialogue: 0,0:17:49.96,0:17:51.05,Sub,,0,0,0,,Happy New Year !
+Dialogue: 0,0:18:00.44,0:18:02.10,Sub,,0,0,0,,Happy New Year Brother Liu !
+Dialogue: 0,0:18:02.48,0:18:03.81,Sub,,0,0,0,,Happy New Year !
+Dialogue: 0,0:18:03.83,0:18:05.34,Sub,,0,0,0,,It's New Year already !
+Dialogue: 0,0:18:17.68,0:18:18.51,Sub,,0,0,0,,Uncle Wang,
+Dialogue: 0,0:18:18.72,0:18:21.11,Sub,,0,0,0,,why have I never seen these carvings before ?
+Dialogue: 0,0:18:21.28,0:18:22.71,Sub,,0,0,0,,Are they new ?
+Dialogue: 0,0:18:25.39,0:18:26.96,Sub,,0,0,0,,They are the first I made,
+Dialogue: 0,0:18:27.08,0:18:28.23,Sub,,0,0,0,,these carvings...
+Dialogue: 0,0:18:28.42,0:18:29.44,Sub,,0,0,0,,are my family.
+Dialogue: 0,0:18:40.68,0:18:41.51,Sub,,0,0,0,,Uncle Wang,
+Dialogue: 0,0:18:41.84,0:18:43.28,Sub,,0,0,0,,my father told me
+Dialogue: 0,0:18:43.28,0:18:45.78,Sub,,0,0,0,,that shopkeeper Lu tried to marry his daughter to you.
+Dialogue: 0,0:18:45.83,0:18:47.18,Sub,,0,0,0,,Why did you refuse ?
+Dialogue: 0,0:18:49.68,0:18:51.26,Sub,,0,0,0,,I have secretly spied on her
+Dialogue: 0,0:18:51.40,0:18:52.78,Sub,,0,0,0,,and she is gorgeous !
+Dialogue: 0,0:18:55.20,0:18:56.39,Sub,,0,0,0,,Uncle has a wife.
+Dialogue: 0,0:18:57.86,0:18:58.57,Sub,,0,0,0,,Really ?
+Dialogue: 0,0:18:59.32,0:19:01.98,Sub,,0,0,0,,How come I have never seen her ?
+Dialogue: 0,0:19:01.99,0:19:03.74,Sub,,0,0,0,,She's waiting for me in a far away place.
+Dialogue: 0,0:19:04.32,0:19:05.46,Sub,,0,0,0,,One day,
+Dialogue: 0,0:19:05.95,0:19:07.16,Sub,,0,0,0,,I'll go back to her.
+Dialogue: 0,0:19:14.29,0:19:15.12,Sub,,0,0,0,,Wow !
+Dialogue: 0,0:19:15.84,0:19:17.56,Sub,,0,0,0,,She's so pretty.
+Dialogue: 0,0:19:42.56,0:19:46.44,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:19:44.60,0:19:46.44,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:19:46.52,0:19:50.00,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:19:50.08,0:19:55.92,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:19:52.96,0:19:55.92,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:19:57.72,0:20:01.68,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:19:59.44,0:20:01.68,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:20:02.00,0:20:05.08,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:20:05.44,0:20:11.08,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:20:08.16,0:20:11.08,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:20:12.44,0:20:16.56,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:20:13.48,0:20:16.56,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:20:16.84,0:20:20.60,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:20:17.60,0:20:20.60,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:20:20.60,0:20:24.44,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:20:22.55,0:20:24.44,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:20:24.68,0:20:28.56,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:20:30.56,0:20:36.36,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:20:33.08,0:20:36.36,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:20:36.48,0:20:43.92,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:20:38.60,0:20:43.92,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:20:44.12,0:20:51.56,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:20:48.16,0:20:51.56,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:20:51.96,0:21:00.92,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:20:55.92,0:21:00.92,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:21:31.80,0:21:37.76,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:21:34.52,0:21:37.76,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:21:37.76,0:21:45.32,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:21:39.20,0:21:45.32,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:21:45.36,0:21:54.72,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:21:51.32,0:21:54.72,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:21:54.96,0:22:02.56,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:21:57.48,0:22:02.56,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

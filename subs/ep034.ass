@@ -1,0 +1,224 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,32,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:09.20,0:02:09.96,Sub,,0,0,0,,What's this ?
+Dialogue: 0,0:02:15.92,0:02:19.04,Sub,,0,0,0,,This is the Ancient God's Sea of Consciousness.
+Dialogue: 0,0:02:19.36,0:02:20.80,Sub,,0,0,0,,It's split in two.
+Dialogue: 0,0:02:21.48,0:02:23.32,Sub,,0,0,0,,The red side is the Blood Sea
+Dialogue: 0,0:02:23.36,0:02:25.40,Sub,,0,0,0,,used to seal Tuo Sen
+Dialogue: 0,0:02:25.44,0:02:27.40,Sub,,0,0,0,,and the dark side is the Dead Soul Sea
+Dialogue: 0,0:02:27.40,0:02:29.80,Sub,,0,0,0,,which is where the memory inheritance is hidden.
+Dialogue: 0,0:02:50.52,0:02:54.48,Sub,,0,0,0,,I sense strong fluctuations of desires coming from it.
+Dialogue: 0,0:03:04.28,0:03:06.76,Sub,,0,0,0,,This is... Fear ?
+Dialogue: 0,0:03:07.24,0:03:08.56,Sub,,0,0,0,,My disciple,
+Dialogue: 0,0:03:08.60,0:03:10.96,Sub,,0,0,0,,can you sense the Ancient God's Six Desires ?
+Dialogue: 0,0:03:12.48,0:03:14.04,Sub,,0,0,0,,The Ancient God's desires
+Dialogue: 0,0:03:14.28,0:03:16.32,Sub,,0,0,0,,are beyond what ordinary people can endure.
+Dialogue: 0,0:03:16.36,0:03:17.84,Sub,,0,0,0,,But your constitution is special,
+Dialogue: 0,0:03:18.12,0:03:19.64,Sub,,0,0,0,,as long as you absorb it
+Dialogue: 0,0:03:20.24,0:03:21.88,Sub,,0,0,0,,your cultivation method will be complete.
+Dialogue: 0,0:03:22.48,0:03:23.64,Sub,,0,0,0,,If I absorb it,
+Dialogue: 0,0:03:24.20,0:03:26.16,Sub,,0,0,0,,will I be able to take you away with me ?
+Dialogue: 0,0:03:29.68,0:03:30.36,Sub,,0,0,0,,Of course.
+Dialogue: 0,0:03:30.96,0:03:34.04,Sub,,0,0,0,,We will use the Ancient God's power to leave this place
+Dialogue: 0,0:03:34.36,0:03:36.08,Sub,,0,0,0,,and escape Tuo Sen's control.
+Dialogue: 0,0:03:37.04,0:03:41.20,Sub,,0,0,0,,But this process will subject you to excruciating pain.
+Dialogue: 0,0:03:41.28,0:03:42.60,Sub,,0,0,0,,Disciple is willing !
+Dialogue: 0,0:03:52.88,0:03:54.44,Sub,,0,0,0,,Ancient God's bones ?
+Dialogue: 0,0:04:12.08,0:04:14.92,Sub,,0,0,0,,Let's go, Master will protect you during the process.
+Dialogue: 0,0:04:25.52,0:04:26.68,Sub,,0,0,0,,Master, you mustn't !
+Dialogue: 0,0:04:26.72,0:04:29.08,Sub,,0,0,0,,Don't ignite your own Divine Sense like that !
+Dialogue: 0,0:04:29.68,0:04:31.00,Sub,,0,0,0,,We don't have much time,
+Dialogue: 0,0:04:31.56,0:04:34.48,Sub,,0,0,0,,this is the fastest way to draw out the Ancient God's desires.
+Dialogue: 0,0:04:34.48,0:04:37.44,Sub,,0,0,0,,Use the Ancient God's bones to help you absorb desires.
+Dialogue: 0,0:04:37.64,0:04:38.44,Sub,,0,0,0,,Quick !
+Dialogue: 0,0:04:42.00,0:04:42.80,Sub,,0,0,0,,Master...
+Dialogue: 0,0:04:45.96,0:04:50.04,Sub,,0,0,0,,Something's wrong with this formation.
+Dialogue: 0,0:04:53.24,0:04:54.44,Sub,,0,0,0,,The Ancient God's desires....
+Dialogue: 0,0:04:55.72,0:04:56.52,Sub,,0,0,0,,Absorb !
+Dialogue: 0,0:05:38.36,0:05:39.80,Sub,,0,0,0,,The Life and Death hexagram ?
+Dialogue: 0,0:05:40.16,0:05:42.40,Sub,,0,0,0,,Sky Devil Magician is feigning weakness
+Dialogue: 0,0:05:42.80,0:05:45.64,Sub,,0,0,0,,but it's Six Desires Demon Lord that's on the Death position !
+Dialogue: 0,0:05:46.32,0:05:47.12,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:06:07.04,0:06:08.12,Sub,,0,0,0,,Master, I...
+Dialogue: 0,0:06:09.80,0:06:11.48,Sub,,0,0,0,,I succeeded...
+Dialogue: 0,0:06:26.56,0:06:27.96,Sub,,0,0,0,,Use bones as the guide...
+Dialogue: 0,0:06:28.44,0:06:29.88,Sub,,0,0,0,,Use desires as the sword...
+Dialogue: 0,0:06:30.24,0:06:32.56,Sub,,0,0,0,,Use the six desires of the Ancient God as the medium...
+Dialogue: 0,0:06:32.84,0:06:35.24,Sub,,0,0,0,,I sacrifice this person’s flesh and blood
+Dialogue: 0,0:06:35.40,0:06:36.64,Sub,,0,0,0,,for my own sake !
+Dialogue: 0,0:07:01.28,0:07:03.00,Sub,,0,0,0,,M... Master...
+Dialogue: 0,0:07:03.72,0:07:08.00,Sub,,0,0,0,,My dear disciple, Master's efforts in raising you weren't wasted.
+Dialogue: 0,0:07:48.60,0:07:52.08,Sub,,0,0,0,,4000 years ago, I was just a rogue cultivator.
+Dialogue: 0,0:07:53.08,0:07:56.08,Sub,,0,0,0,,I reached the Dead Soul Sea by chance.
+Dialogue: 0,0:07:56.52,0:07:58.92,Sub,,0,0,0,,Thanks to my cultivation technique based on desires,
+Dialogue: 0,0:07:59.28,0:08:00.92,Sub,,0,0,0,,I discovered the secret hidden here.
+Dialogue: 0,0:08:02.12,0:08:03.76,Sub,,0,0,0,,The Ancient God's memories !
+Dialogue: 0,0:08:05.00,0:08:08.36,Sub,,0,0,0,,This is a priceless opportunity that can only be found by chance !
+Dialogue: 0,0:08:09.24,0:08:10.68,Sub,,0,0,0,,I came here multiple times
+Dialogue: 0,0:08:11.00,0:08:13.20,Sub,,0,0,0,,and created the Mystic Heavenly Devil Desire Method.
+Dialogue: 0,0:08:13.92,0:08:16.72,Sub,,0,0,0,,It can use Ancient God Tu Si's six desires
+Dialogue: 0,0:08:17.16,0:08:19.48,Sub,,0,0,0,,to refine a memory inheritance crystal
+Dialogue: 0,0:08:20.40,0:08:22.96,Sub,,0,0,0,,and extract the Ancient God's memories.
+Dialogue: 0,0:08:24.56,0:08:29.00,Sub,,0,0,0,,But absorbing the Ancient God's six desires requires a special constitution.
+Dialogue: 0,0:08:29.20,0:08:31.64,Sub,,0,0,0,,I desperately looked for a vessel
+Dialogue: 0,0:08:32.52,0:08:34.40,Sub,,0,0,0,,until I found you.
+Dialogue: 0,0:08:34.92,0:08:37.24,Sub,,0,0,0,,I named you the Six Desires Devil Lord
+Dialogue: 0,0:08:37.84,0:08:40.08,Sub,,0,0,0,,and raised you meticulously.
+Dialogue: 0,0:08:40.52,0:08:43.52,Sub,,0,0,0,,Thankfully, you didn't disappoint me.
+Dialogue: 0,0:08:45.64,0:08:49.84,Sub,,0,0,0,,When I entered the Land of the Ancient God with you, I was caught off guard
+Dialogue: 0,0:08:50.56,0:08:53.36,Sub,,0,0,0,,and I accidentally discovered Tuo Sen's secret.
+Dialogue: 0,0:08:54.32,0:08:55.60,Sub,,0,0,0,,With no other choice,
+Dialogue: 0,0:08:55.76,0:08:57.60,Sub,,0,0,0,,I had to submit, hide here,
+Dialogue: 0,0:08:58.04,0:09:00.36,Sub,,0,0,0,,and patiently wait for you.
+Dialogue: 0,0:09:01.00,0:09:04.72,Sub,,0,0,0,,You really didn't disappoint me.
+Dialogue: 0,0:09:08.16,0:09:12.20,Sub,,0,0,0,,I have waited far too long for this moment !
+Dialogue: 0,0:09:13.40,0:09:14.28,Sub,,0,0,0,,Why ?
+Dialogue: 0,0:09:15.00,0:09:16.92,Sub,,0,0,0,,From the beginning,
+Dialogue: 0,0:09:17.64,0:09:20.28,Sub,,0,0,0,,was I just a pawn in your plan ?
+Dialogue: 0,0:09:22.04,0:09:23.28,Sub,,0,0,0,,Why ?
+Dialogue: 0,0:09:24.76,0:09:25.96,Sub,,0,0,0,,I'll tell you.
+Dialogue: 0,0:09:26.60,0:09:30.68,Sub,,0,0,0,,Because only by obtaining the memory inheritance
+Dialogue: 0,0:09:30.80,0:09:33.12,Sub,,0,0,0,,can Master be reborn
+Dialogue: 0,0:09:33.36,0:09:35.56,Sub,,0,0,0,,and roam freely in this cultivation world !
+Dialogue: 0,0:09:35.88,0:09:40.40,Sub,,0,0,0,,And of course, because I'll be able to leave this place unharmed.
+Dialogue: 0,0:09:52.52,0:09:55.36,Sub,,0,0,0,,I, the Six Desires Devil Lord, call myself a Devil Lord.
+Dialogue: 0,0:09:56.72,0:09:59.16,Sub,,0,0,0,,In my life, I have refined countless puppets
+Dialogue: 0,0:09:59.32,0:10:01.20,Sub,,0,0,0,,and committed every conceivable evil.
+Dialogue: 0,0:10:01.56,0:10:02.56,Sub,,0,0,0,,It's ridiculous
+Dialogue: 0,0:10:03.68,0:10:09.44,Sub,,0,0,0,,that what made me fall was this poorly acted master-disciple relationship.
+Dialogue: 0,0:10:12.20,0:10:13.20,Sub,,0,0,0,,How pathetic...
+Dialogue: 0,0:10:14.88,0:10:16.72,Sub,,0,0,0,,How truly pathetic !
+Dialogue: 0,0:10:22.52,0:10:24.48,Sub,,0,0,0,,The Dao is merciless.
+Dialogue: 0,0:10:28.28,0:10:29.92,Sub,,0,0,0,,Obtaining the memory inheritance
+Dialogue: 0,0:10:29.96,0:10:31.16,Sub,,0,0,0,,is the only way out.
+Dialogue: 0,0:10:31.52,0:10:34.04,Sub,,0,0,0,,The gap in cultivation between me and the Sky Devil Magician is too wide,
+Dialogue: 0,0:10:34.52,0:10:36.00,Sub,,0,0,0,,I can't fight him head on.
+Dialogue: 0,0:10:37.12,0:10:38.44,Sub,,0,0,0,,I mustn't act recklessly...
+Dialogue: 0,0:10:47.08,0:10:48.84,Sub,,0,0,0,,Who is there ?
+Dialogue: 0,0:10:54.60,0:10:57.12,Card,,0,0,0,,{\fad(300,000)\pos(1429,464)}Duo Mu\NBlood Sea Warrior
+Dialogue: 0,0:10:58.60,0:11:00.76,Sub,,0,0,0,,Junior pay respects to Lord Duo Mu
+Dialogue: 0,0:11:01.00,0:11:02.24,Sub,,0,0,0,,and to the other Warriors.
+Dialogue: 0,0:11:08.92,0:11:10.40,Sub,,0,0,0,,What is this thing ?
+Dialogue: 0,0:11:12.04,0:11:14.12,Sub,,0,0,0,,This crystal was refined by my disciple.
+Dialogue: 0,0:11:14.60,0:11:16.40,Sub,,0,0,0,,I took him as my disciple back then
+Dialogue: 0,0:11:16.60,0:11:18.44,Sub,,0,0,0,,in order to refine this crystal
+Dialogue: 0,0:11:18.84,0:11:20.52,Sub,,0,0,0,,and increase my cultivation.
+Dialogue: 0,0:11:20.92,0:11:22.48,Sub,,0,0,0,,My Lord, if you like it
+Dialogue: 0,0:11:22.64,0:11:24.52,Sub,,0,0,0,,then consider it Junior's gift to you.
+Dialogue: 0,0:11:27.16,0:11:28.00,Sub,,0,0,0,,Is that so ?
+Dialogue: 0,0:11:34.64,0:11:36.00,Sub,,0,0,0,,Pathetic.
+Dialogue: 0,0:11:36.28,0:11:38.12,Sub,,0,0,0,,And I thought it was a real treasure.
+Dialogue: 0,0:11:39.00,0:11:39.60,Sub,,0,0,0,,This...
+Dialogue: 0,0:11:42.68,0:11:44.64,Sub,,0,0,0,,Fate really is unpredictable...
+Dialogue: 0,0:11:45.40,0:11:46.96,Sub,,0,0,0,,Since nothing's wrong here,
+Dialogue: 0,0:11:47.40,0:11:49.64,Sub,,0,0,0,,continue searching for the Soul Devourer.
+Dialogue: 0,0:11:53.88,0:11:55.76,Sub,,0,0,0,,A Soul Formation powerhouse
+Dialogue: 0,0:11:55.80,0:11:57.80,Sub,,0,0,0,,is nothing but an ant before him.
+Dialogue: 0,0:11:58.92,0:12:01.00,Sub,,0,0,0,,What level of cultivation does this person have ?
+Dialogue: 0,0:13:31.44,0:13:33.28,Sub,,0,0,0,,Members of the Ancient God Clan
+Dialogue: 0,0:13:33.28,0:13:35.40,Sub,,0,0,0,,are born from the stars.
+Dialogue: 0,0:13:35.52,0:13:38.12,Sub,,0,0,0,,The tradition of our clan
+Dialogue: 0,0:13:38.36,0:13:40.36,Sub,,0,0,0,,is to feed ourselves on planets.
+Dialogue: 0,0:13:40.76,0:13:43.44,Sub,,0,0,0,,We are the strongest race in the universe.
+Dialogue: 0,0:13:44.68,0:13:47.44,Sub,,0,0,0,,My name is Ancient God Tu Si.
+Dialogue: 0,0:13:48.68,0:13:50.08,Sub,,0,0,0,,Inheritor,
+Dialogue: 0,0:13:50.60,0:13:54.40,Sub,,0,0,0,,your memory inheritance is incomplete.
+Dialogue: 0,0:13:55.92,0:13:57.68,Sub,,0,0,0,,Even though Ancient Gods live long,
+Dialogue: 0,0:13:57.68,0:13:59.72,Sub,,0,0,0,,we can still run out of lifespan.
+Dialogue: 0,0:13:59.84,0:14:02.48,Sub,,0,0,0,,At the end of my life,
+Dialogue: 0,0:14:02.60,0:14:06.12,Sub,,0,0,0,,I used a technique to preserve my Divine Sense and continue to cultivate.
+Dialogue: 0,0:14:06.52,0:14:09.00,Sub,,0,0,0,,but I didn't expect to be attacked.
+Dialogue: 0,0:14:14.80,0:14:16.68,Sub,,0,0,0,,The demon Tuo Sen,
+Dialogue: 0,0:14:17.08,0:14:21.60,Sub,,0,0,0,,an inner demon I severed from my Sea of Consciousness in my youth,
+Dialogue: 0,0:14:22.24,0:14:25.20,Sub,,0,0,0,,obtained my inheritance of power.
+Dialogue: 0,0:14:27.84,0:14:30.76,Sub,,0,0,0,,I used my remaining Divine Sense to resist him
+Dialogue: 0,0:14:31.04,0:14:32.88,Sub,,0,0,0,,but I lost.
+Dialogue: 0,0:14:40.12,0:14:40.96,Sub,,0,0,0,,Tu Si,
+Dialogue: 0,0:14:41.60,0:14:43.48,Sub,,0,0,0,,now that you are dead,
+Dialogue: 0,0:14:43.60,0:14:44.52,Sub,,0,0,0,,I
+Dialogue: 0,0:14:45.08,0:14:46.32,Sub,,0,0,0,,am you !
+Dialogue: 0,0:14:49.08,0:14:51.52,Sub,,0,0,0,,Before I died and returned to the Dao,
+Dialogue: 0,0:14:51.96,0:14:54.32,Sub,,0,0,0,,I used the last of my strength
+Dialogue: 0,0:14:54.32,0:14:57.00,Sub,,0,0,0,,to split my Sea of Consciousness in two.
+Dialogue: 0,0:14:57.40,0:15:01.08,Sub,,0,0,0,,I used the Blood Sea's Divine Sense to seal Tuo Sen
+Dialogue: 0,0:15:01.64,0:15:03.92,Sub,,0,0,0,,And the Dead Soul Sea's Divine Sense
+Dialogue: 0,0:15:04.08,0:15:06.68,Sub,,0,0,0,,to save the memory inheritance.
+Dialogue: 0,0:15:22.08,0:15:23.32,Sub,,0,0,0,,Senior, do you know why
+Dialogue: 0,0:15:23.40,0:15:25.00,Sub,,0,0,0,,Tuo Sen wants to capture me ?
+Dialogue: 0,0:15:25.60,0:15:27.80,Sub,,0,0,0,,To borrow your Soul Devourer power
+Dialogue: 0,0:15:27.96,0:15:30.88,Sub,,0,0,0,,to break my Divine Sense seal.
+Dialogue: 0,0:15:32.16,0:15:33.64,Sub,,0,0,0,,So that's how it is...
+Dialogue: 0,0:15:34.88,0:15:37.20,Sub,,0,0,0,,How can I leave the Land of the Ancient God ?
+Dialogue: 0,0:15:37.28,0:15:40.24,Sub,,0,0,0,,Obtain the complete memory inheritance
+Dialogue: 0,0:15:40.68,0:15:44.00,Sub,,0,0,0,,in order to move as you please in my body.
+Dialogue: 0,0:15:44.68,0:15:45.84,Sub,,0,0,0,,Inheritor,
+Dialogue: 0,0:15:46.60,0:15:51.64,Sub,,0,0,0,,you must never let my memory inheritance fall in Tuo Sen's hands.
+Dialogue: 0,0:15:51.96,0:15:56.40,Sub,,0,0,0,,Otherwise, Tuo Sen will become a true Ancient God
+Dialogue: 0,0:15:57.00,0:16:00.56,Sub,,0,0,0,,and all living beings between heaven and earth shall suffer a calamity.
+Dialogue: 0,0:16:01.00,0:16:03.68,Sub,,0,0,0,,Remember... Remember...
+Dialogue: 0,0:16:16.68,0:16:17.84,Sub,,0,0,0,,Don't worry Senior,
+Dialogue: 0,0:16:18.52,0:16:19.96,Sub,,0,0,0,,I will remember your request.
+Dialogue: 0,0:16:26.52,0:16:28.44,Sub,,0,0,0,,According to Ancient God Tu Si,
+Dialogue: 0,0:16:29.08,0:16:33.00,Sub,,0,0,0,,the complete memory inheritance is buried within this Dead Soul Sea.
+Dialogue: 0,0:16:38.00,0:16:39.24,Sub,,0,0,0,,So fast, so fast !
+Dialogue: 0,0:16:39.60,0:16:42.20,Sub,,0,0,0,,Master, has your cultivation increased again ?
+Dialogue: 0,0:16:42.24,0:16:44.96,Sub,,0,0,0,,Why don't we go wipe out those old fools ?
+Dialogue: 0,0:16:45.24,0:16:46.72,Sub,,0,0,0,,I'll guard your back !
+Dialogue: 0,0:16:48.28,0:16:51.72,Sub,,0,0,0,,You're overthinking, I just obtained a part of the memory inheritance.
+Dialogue: 0,0:16:52.52,0:16:54.28,Sub,,0,0,0,,So we can't fight Soul Formation old monsters ?
+Dialogue: 0,0:16:57.96,0:16:59.08,Sub,,0,0,0,,Brat...
+Dialogue: 0,0:16:59.88,0:17:01.56,Sub,,0,0,0,,I've finally found you !
+Dialogue: 0,0:17:31.04,0:17:31.76,Sub,,0,0,0,,Master !
+Dialogue: 0,0:17:55.00,0:17:57.04,Sub,,0,0,0,,Master, what was that just now ?
+Dialogue: 0,0:17:57.20,0:17:59.20,Sub,,0,0,0,,How did you dodge that attack ?
+Dialogue: 0,0:18:14.88,0:18:18.48,Sub,,0,0,0,,Core Formation brat, you're looking for death !
+Dialogue: 0,0:18:22.56,0:18:26.60,Sub,,0,0,0,,Didn't you hear Master say he wants this Soul Devourer alive ?
+Dialogue: 0,0:18:26.96,0:18:28.28,Sub,,0,0,0,,Spare me my Lord...
+Dialogue: 0,0:18:28.68,0:18:30.28,Sub,,0,0,0,,Spare me my Lord !
+Dialogue: 0,0:18:33.72,0:18:34.88,Sub,,0,0,0,,Interesting...
+Dialogue: 0,0:18:39.28,0:21:01.32,Note,,0,0,0,,{\fad(1000,1000)}A constitution is an innate aptitude of a person's body. Typical constitutions are for example affinity with Yin or Yang, affinity with a particular element. Here the Six Desires Devil Lord had a constitution for desires.\N\NAn inner demon in cultivation is an inner entity that is born out of emotions and obsessions in contradiction with the cultivator's Dao Heart. The Dao Heart is the personal belief and interpretation of the Dao.\N\NAncient God inheritances are very rare because they can only form when an Ancient God pays his life as the price. Tu Si was a pretty "young" Ancient God and he tried to cultivate a spell by sacrificing all his lifespan and splitting his Divine Sense but he died and formed an inheritance. Tuo Sen was split from Tu Si during this process and he's the reason why Tu Si failed and died.\N\NAmong the memories Wang Lin inherited, there was a way to traverse the Ancient God's body through the meridians (as portrayed in the end of the episode).\N\NThe process of birth of Ancient Gods is also further explained in the novel (it's just lore, read it if you want):\N\NThe giant sat cross-legged on a star with his hands together, forming a seal. He moved his right hand and one of the stars in the distance exploded, releasing a terrifying blast.\NThe giant didn’t care at all. A stream of golden liquid flew from the exploded star to the giant’s right hand. Shortly after, the giant rubbed his chest and a colorful light came out. After the light disappeared, a normal sized baby appeared in the giant’s hand.\NHe gave the baby a cold look. His right hand pinched the golden liquid and dripped it onto the baby, then he stood up and threw the baby toward a planet.\NSuddenly, the golden liquid surrounded the baby. It moved like a golden meteor and quickly slammed into the planet. The speed was very fast and the impact was great. It wasn’t until it was close to the center of the planet that it slowed down.\NShortly after, the giant didn’t even give the baby other look and disappeared. But suddenly, one day, after countless years of slumber, the baby opened up his eyes. The golden liquid around him rapidly shrunk. The golden liquid was absorbed by the baby as it started to grow older.\NWhat happened next was a calamity. Wang Lin watched as the baby grew into a child. With one movement from the child, all the plants on the planet died and turned into green liquid that flew into the core of the planet to be absorbed by the child. All the spiritual energy was absorbed by the youth. His body grew a lot bigger.\NMany years later, the entire planet became a dead planet. Then, the youth suddenly moved and the entire planet exploded. In the middle of the exploded planet, the youth walked out. He was thousands of feet tall and his eyes were cold, without any emotion.\NThe child had his eyes closed. He seemed to be searching for something with his divine sense. After a long time, he muttered to himself “My name is Tu Si!”
+Dialogue: 0,0:21:01.52,0:21:11.16,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:21:03.32,0:21:11.16,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

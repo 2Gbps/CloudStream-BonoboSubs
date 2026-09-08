@@ -1,0 +1,380 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 92_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,37.5,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: River,Lucida Sans,47,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:58.12,0:01:59.63,Sub,,0,0,0,,You lied to me.
+Dialogue: 0,0:02:00.36,0:02:02.91,Sub,,0,0,0,,Why is the law of the heavens here ?
+Dialogue: 0,0:02:03.92,0:02:04.83,Sub,,0,0,0,,Don’t worry.
+Dialogue: 0,0:02:06.88,0:02:07.87,Sub,,0,0,0,,It will be alright.
+Dialogue: 0,0:02:20.36,0:02:21.24,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:02:49.80,0:02:50.87,Sub,,0,0,0,,This time
+Dialogue: 0,0:02:51.52,0:02:53.39,Sub,,0,0,0,,you will not take her from me !
+Dialogue: 0,0:03:08.64,0:03:09.48,Sub,,0,0,0,,Break !
+Dialogue: 0,0:03:14.32,0:03:17.92,Sub,,0,0,0,,I am here to exerce the law of the heavens.
+Dialogue: 0,0:03:18.24,0:03:21.39,Sub,,0,0,0,,How dare you defy the heavens ?
+Dialogue: 0,0:03:50.72,0:03:51.55,Sub,,0,0,0,,This is…
+Dialogue: 0,0:03:57.64,0:03:58.47,Sub,,0,0,0,,Go !
+Dialogue: 0,0:04:09.56,0:04:11.36,Sub,,0,0,0,,The power of reincarnation !
+Dialogue: 0,0:04:59.04,0:05:00.15,Sub,,0,0,0,,Senior, be careful !
+Dialogue: 0,0:05:00.44,0:05:01.68,Sub,,0,0,0,,Don’t come out !
+Dialogue: 0,0:05:10.68,0:05:11.75,Sub,,0,0,0,,Your opponent
+Dialogue: 0,0:05:12.52,0:05:13.67,Sub,,0,0,0,,is me !
+Dialogue: 0,0:05:15.48,0:05:16.35,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:05:16.84,0:05:20.23,Sub,,0,0,0,,You're unaware of your limits...
+Dialogue: 0,0:05:27.44,0:05:28.31,Sub,,0,0,0,,Senior !
+Dialogue: 0,0:05:41.32,0:05:42.27,Sub,,0,0,0,,I am right
+Dialogue: 0,0:05:42.76,0:05:43.75,Sub,,0,0,0,,and you are wrong.
+Dialogue: 0,0:05:44.68,0:05:46.59,Sub,,0,0,0,,I know little of you
+Dialogue: 0,0:05:47.08,0:05:48.07,Sub,,0,0,0,,But I know that
+Dialogue: 0,0:05:49.56,0:05:51.96,Sub,,0,0,0,,even if you're the law of the heavens,
+Dialogue: 0,0:05:52.36,0:05:54.83,Sub,,0,0,0,,you also live and die !
+Dialogue: 0,0:05:57.08,0:05:58.08,Sub,,0,0,0,,Go !
+Dialogue: 0,0:06:02.04,0:06:03.35,Sub,,0,0,0,,Law of the heavens,
+Dialogue: 0,0:06:04.44,0:06:06.39,Sub,,0,0,0,,show yourself !
+Dialogue: 0,0:06:19.44,0:06:20.51,Sub,,0,0,0,,An Ancient God ?!
+Dialogue: 0,0:06:28.84,0:06:31.15,Sub,,0,0,0,,Is he a messenger of the law of the heavens ?
+Dialogue: 0,0:06:40.32,0:06:42.15,Sub,,0,0,0,,Consume the Eight Desolations, devour the Sun and Moon.
+Dialogue: 0,0:06:42.16,0:06:44.39,Sub,,0,0,0,,The Divine Body appears to subdue the chaos.
+Dialogue: 0,0:06:44.68,0:06:46.95,Sub,,0,0,0,,Ten Directions of annihilation !
+Dialogue: 0,0:07:05.12,0:07:05.99,Sub,,0,0,0,,Die !
+Dialogue: 0,0:07:16.64,0:07:18.59,Sub,,0,0,0,,You are not of my clan...
+Dialogue: 0,0:07:19.60,0:07:21.59,Sub,,0,0,0,,Who are you ?!
+Dialogue: 0,0:07:23.72,0:07:24.87,Sub,,0,0,0,,It doesn't matter.
+Dialogue: 0,0:07:25.68,0:07:28.72,Sub,,0,0,0,,You are but an ant shaking a tree,
+Dialogue: 0,0:07:29.12,0:07:30.87,Sub,,0,0,0,,fighting in vain.
+Dialogue: 0,0:07:33.36,0:07:35.43,Sub,,0,0,0,,All water has a source,
+Dialogue: 0,0:07:35.96,0:07:37.60,Sub,,0,0,0,,all trees have roots.
+Dialogue: 0,0:07:37.96,0:07:40.44,Sub,,0,0,0,,The power of reincarnation comes from the heavens
+Dialogue: 0,0:07:40.52,0:07:42.40,Sub,,0,0,0,,but it must be finite.
+Dialogue: 0,0:07:42.44,0:07:43.99,Sub,,0,0,0,,There is a limit to it.
+Dialogue: 0,0:07:50.12,0:07:51.71,Sub,,0,0,0,,So what ?
+Dialogue: 0,0:07:52.80,0:07:53.99,Sub,,0,0,0,,You
+Dialogue: 0,0:07:55.20,0:07:58.11,Sub,,0,0,0,,cannot stop the law of the heavens.
+Dialogue: 0,0:08:23.92,0:08:26.56,Sub,,0,0,0,,Go to hell with your law of the heavens !
+Dialogue: 0,0:08:33.68,0:08:35.39,Sub,,0,0,0,,You're unreasonable
+Dialogue: 0,0:08:35.84,0:08:37.91,Sub,,0,0,0,,and are courting death !
+Dialogue: 0,0:09:00.88,0:09:02.15,Sub,,0,0,0,,Senior !
+Dialogue: 0,0:09:17.72,0:09:18.95,Sub,,0,0,0,,Senior !
+Dialogue: 0,0:09:34.16,0:09:35.08,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:09:35.08,0:09:35.95,Sub,,0,0,0,,stop !
+Dialogue: 0,0:09:46.72,0:09:47.63,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:09:48.72,0:09:49.99,Sub,,0,0,0,,If you keep this up
+Dialogue: 0,0:09:50.88,0:09:54.35,Sub,,0,0,0,,you will really die...
+Dialogue: 0,0:10:04.92,0:10:05.95,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:10:07.76,0:10:09.51,Sub,,0,0,0,,Wan’er stands by your side.
+Dialogue: 0,0:10:10.80,0:10:12.11,Sub,,0,0,0,,I know your past
+Dialogue: 0,0:10:12.80,0:10:14.15,Sub,,0,0,0,,is filled with suffering.
+Dialogue: 0,0:10:17.12,0:10:18.19,Sub,,0,0,0,,You became a disciple,
+Dialogue: 0,0:10:19.96,0:10:29.20,Music bis,,0,0,0,,{\fad(1000,1000)}One last glance, unable to forget
+Dialogue: 0,0:10:23.04,0:10:29.20,Music bis,,0,0,0,,{\fad(1000,1000)}the lingering ties in my heart
+Dialogue: 0,0:10:19.52,0:10:20.55,Sub,,0,0,0,,pursued the Dao,
+Dialogue: 0,0:10:21.32,0:10:22.19,Sub,,0,0,0,,protected yourself,
+Dialogue: 0,0:10:22.60,0:10:23.43,Sub,,0,0,0,,took revenge
+Dialogue: 0,0:10:23.44,0:10:24.47,Sub,,0,0,0,,by yourself.
+Dialogue: 0,0:10:26.16,0:10:28.59,Sub,,0,0,0,,Hundreds of years of Life and Death,
+Dialogue: 0,0:10:29.12,0:10:30.67,Sub,,0,0,0,,and Death and Life
+Dialogue: 0,0:10:30.00,0:10:39.24,Music bis,,0,0,0,,{\fad(1000,1000)}If the wind comes to a halt in your embrace,
+Dialogue: 0,0:10:32.08,0:10:33.83,Sub,,0,0,0,,have brought you to this day.
+Dialogue: 0,0:10:33.28,0:10:39.24,Music bis,,0,0,0,,{\fad(1000,1000)}my soul will shatter without noticing the cold.
+Dialogue: 0,0:10:39.72,0:10:47.96,Music bis,,0,0,0,,{\fad(1000,1000)}Evading the will of the heavens is hard,
+Dialogue: 0,0:10:40.00,0:10:42.24,Sub,,0,0,0,,My lifespan is gone
+Dialogue: 0,0:10:42.72,0:10:45.16,Sub,,0,0,0,,and the heavens won't accept me.
+Dialogue: 0,0:10:43.44,0:10:47.96,Music bis,,0,0,0,,{\fad(1000,1000)}who can escape this calamity ?
+Dialogue: 0,0:10:46.24,0:10:47.35,Sub,,0,0,0,,But she
+Dialogue: 0,0:10:47.96,0:10:57.60,Music bis,,0,0,0,,{\fad(1000,1000)}I know the road will be hard but I only wish to dispell
+Dialogue: 0,0:10:48.52,0:10:50.03,Sub,,0,0,0,,is innocent.
+Dialogue: 0,0:10:51.96,0:10:57.60,Music bis,,0,0,0,,{\fad(1000,1000)}this darkness between your eyebrows.
+Dialogue: 0,0:10:52.60,0:10:54.07,Sub,,0,0,0,,These 19 years,
+Dialogue: 0,0:10:54.60,0:10:57.35,Sub,,0,0,0,,I have felt the growth of this child.
+Dialogue: 0,0:10:57.80,0:11:03.40,Music bis,,0,0,0,,{\fad(1000,500)}We face this challenge in the midst of despair.
+Dialogue: 0,0:10:58.32,0:11:00.95,Sub,,0,0,0,,Stealing her body to revive me
+Dialogue: 0,0:10:59.36,0:11:03.40,Music bis,,0,0,0,,{\fad(1000,500)}But in this snowstorm, delusions become obsessions.
+Dialogue: 0,0:11:01.72,0:11:03.31,Sub,,0,0,0,,is too cruel.
+Dialogue: 0,0:11:03.72,0:11:07.72,Music,,0,0,0,,{\fad(500,500)}The heavens don't grant wishes, you need to defy them for that.
+Dialogue: 0,0:11:04.88,0:11:05.87,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:11:07.16,0:11:09.11,Sub,,0,0,0,,Wan’er has disappointed you.
+Dialogue: 0,0:11:07.72,0:11:15.88,Music bis,,0,0,0,,{\fad(1000,1000)}We can meet in our dreams
+Dialogue: 0,0:11:10.20,0:11:15.88,Music bis,,0,0,0,,{\fad(1000,1000)}even if they're illusory.
+Dialogue: 0,0:11:17.04,0:11:22.72,Music bis,,0,0,0,,{\fad(1000,500)}Let her live a full life
+Dialogue: 0,0:11:19.16,0:11:22.72,Music bis,,0,0,0,,{\fad(1000,500)}because even if it takes a thousand reincarnations, I will see her again.
+Dialogue: 0,0:11:22.72,0:11:27.16,Music bis,,0,0,0,,{\fad(1000,1000)}Mountains and rivers separate the world
+Dialogue: 0,0:11:24.36,0:11:27.16,Music bis,,0,0,0,,{\fad(1000,1000)}causing the people to gather and disperse.
+Dialogue: 0,0:11:27.24,0:11:28.23,Sub,,0,0,0,,Wan’er,
+Dialogue: 0,0:11:27.24,0:11:31.92,Music bis,,0,0,0,,{\fad(1000,500)}Looking back on this life,
+Dialogue: 0,0:11:28.56,0:11:29.47,Sub,,0,0,0,,go back.
+Dialogue: 0,0:11:29.32,0:11:31.92,Music bis,,0,0,0,,{\fad(1000,500)}it was you who ventured into danger alone.
+Dialogue: 0,0:11:30.04,0:11:31.15,Sub,,0,0,0,,Go back !!!
+Dialogue: 0,0:11:31.92,0:11:35.64,Music bis,,0,0,0,,{\fad(500,500)}In these countless memories,
+Dialogue: 0,0:11:32.96,0:11:35.64,Music bis,,0,0,0,,{\fad(500,500)}I always wanted to step in.
+Dialogue: 0,0:11:33.72,0:11:36.36,Sub,,0,0,0,,Wan’er won’t let you risk yourself any longer.
+Dialogue: 0,0:11:35.68,0:11:40.04,Music bis,,0,0,0,,{\fad(500,500)}The law of the heavens can be fought
+Dialogue: 0,0:11:36.68,0:11:37.55,Sub,,0,0,0,,This fight
+Dialogue: 0,0:11:37.28,0:11:40.04,Music bis,,0,0,0,,{\fad(500,500)}because the heavens are flawed.
+Dialogue: 0,0:11:39.12,0:11:41.07,Sub,,0,0,0,,will only scatter your soul.
+Dialogue: 0,0:11:40.08,0:11:45.20,Music bis,,0,0,0,,{\fad(500,500)}The flame in my heart, the thoughts in my eyes,
+Dialogue: 0,0:11:42.00,0:11:43.52,Sub,,0,0,0,,It would be pointless.
+Dialogue: 0,0:11:42.84,0:11:45.20,Music bis,,0,0,0,,{\fad(500,500)}scatter like the stars.
+Dialogue: 0,0:11:45.36,0:11:50.96,Music bis,,0,0,0,,{\fad(1000,500)}How can I bear to watch our past vows
+Dialogue: 0,0:11:48.04,0:11:50.96,Music bis,,0,0,0,,{\fad(1000,500)}trap you in the wind and the snow.
+Dialogue: 0,0:11:51.16,0:11:52.11,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:11:50.96,0:11:54.56,Music bis,,0,0,0,,{\fad(500,300)}Even if I don't want to,
+Dialogue: 0,0:11:52.20,0:11:54.56,Music bis,,0,0,0,,{\fad(500,300)}I am resolved to scatter my soul.
+Dialogue: 0,0:11:53.96,0:11:56.48,Sub,,0,0,0,,having loved you in this life
+Dialogue: 0,0:11:54.68,0:11:58.92,Music bis,,0,0,0,,{\fad(500,300)}This body may shake the heavens
+Dialogue: 0,0:11:56.80,0:11:59.36,Sub,,0,0,0,,is enough for Wan’er.
+Dialogue: 0,0:11:56.64,0:11:58.92,Music bis,,0,0,0,,{\fad(500,300)}but this love cannot be fulfilled.
+Dialogue: 0,0:11:59.04,0:12:04.32,Music bis,,0,0,0,,{\fad(500,300)}This unspoken love, this fate in the palm of my hand,
+Dialogue: 0,0:12:00.00,0:12:02.03,Sub,,0,0,0,,Seeing you once more today
+Dialogue: 0,0:12:01.40,0:12:04.32,Music bis,,0,0,0,,{\fad(500,300)}a sign I cannot hold.
+Dialogue: 0,0:12:03.00,0:12:04.71,Sub,,0,0,0,,was like a stolen blessing.
+Dialogue: 0,0:12:04.49,0:12:09.80,Music bis,,0,0,0,,{\fad(1000,300)}If only I could use the warmth of my fingers
+Dialogue: 0,0:12:05.68,0:12:07.03,Sub,,0,0,0,,I have no regrets,
+Dialogue: 0,0:12:07.20,0:12:09.80,Music bis,,0,0,0,,{\fad(500,300)}to warm your soul.
+Dialogue: 0,0:12:08.16,0:12:10.08,Sub,,0,0,0,,my love is fulfilled.
+Dialogue: 0,0:12:09.88,0:12:15.28,Music bis,,0,0,0,,{\fad(500,300)}This is what I want,
+Dialogue: 0,0:12:11.36,0:12:15.28,Music bis,,0,0,0,,{\fad(500,300)}this is my dying wish.
+Dialogue: 0,0:12:12.64,0:12:13.03,Sub,,0,0,0,,No...
+Dialogue: 0,0:12:13.04,0:12:13.71,Sub,,0,0,0,,This life
+Dialogue: 0,0:12:14.76,0:12:15.67,Sub,,0,0,0,,was not in vain.
+Dialogue: 0,0:12:15.28,0:12:24.20,Music bis,,0,0,0,,{\fad(1000,500)}Even if it doesn't shake the heavens,
+Dialogue: 0,0:12:16.44,0:12:17.55,Sub,,0,0,0,,Nooo !!!
+Dialogue: 0,0:12:19.64,0:12:24.20,Music bis,,0,0,0,,{\fad(1000,500)}I look forward to this final glance.
+Dialogue: 0,0:12:24.83,0:12:29.07,Music,,0,0,0,,{\fad(500,000)}But the will of the heavens isn't easily defied...
+Dialogue: 0,0:12:29.08,0:12:32.80,Music bis,,0,0,0,,{\fad(500,300)}Even if I'm reluctant,
+Dialogue: 0,0:12:30.64,0:12:32.80,Music bis,,0,0,0,,{\fad(500,300)}I have no regrets.
+Dialogue: 0,0:12:33.32,0:12:34.47,Sub,,0,0,0,,Wan’er !!!
+Dialogue: 0,0:12:32.92,0:12:37.24,Music bis,,0,0,0,,{\fad(500,300)}This body may shake the heavens
+Dialogue: 0,0:12:34.96,0:12:37.24,Music bis,,0,0,0,,{\fad(500,300)}but this love cannot be fulfilled.
+Dialogue: 0,0:12:37.36,0:12:42.64,Music bis,,0,0,0,,{\fad(500,300)}This unspoken love, this fate in the palm of my hand,
+Dialogue: 0,0:12:39.72,0:12:42.64,Music bis,,0,0,0,,{\fad(500,300)}a sign I cannot hold.
+Dialogue: 0,0:12:41.60,0:12:43.07,Sub,,0,0,0,,Don't you dare touch her !
+Dialogue: 0,0:12:42.92,0:12:48.12,Music bis,,0,0,0,,{\fad(500,300)}If only I could use the warmth of my fingers
+Dialogue: 0,0:12:45.52,0:12:48.12,Music bis,,0,0,0,,{\fad(500,300)}to warm your soul.
+Dialogue: 0,0:12:47.68,0:12:49.39,Sub,,0,0,0,,Life and Death Domain,
+Dialogue: 0,0:12:48.56,0:12:54.32,Music bis,,0,0,0,,{\fad(500,800)}This is what I want,
+Dialogue: 0,0:12:50.08,0:12:50.91,Sub,,0,0,0,,activate !
+Dialogue: 0,0:12:49.80,0:12:54.32,Music bis,,0,0,0,,{\fad(500,800)}this is my dying wish.
+Dialogue: 0,0:12:56.96,0:12:58.59,Sub,,0,0,0,,Who the hell is he ?
+Dialogue: 0,0:12:59.20,0:13:02.32,Sub,,0,0,0,,Throughout the history of Ancient Gods,
+Dialogue: 0,0:13:02.32,0:13:04.64,Sub,,0,0,0,,none ever had a domain.
+Dialogue: 0,0:13:48.60,0:13:52.80,Music bis,,0,0,0,,{\fad(500,500)}The law of the heavens can be fought
+Dialogue: 0,0:13:50.40,0:13:52.80,Music bis,,0,0,0,,{\fad(500,500)}because the heavens are flawed.
+Dialogue: 0,0:13:52.92,0:13:58.20,Music bis,,0,0,0,,{\fad(500,500)}The flame in my heart, the thoughts in my eyes,
+Dialogue: 0,0:13:55.04,0:13:58.20,Music bis,,0,0,0,,{\fad(500,500)}scatter like the stars.
+Dialogue: 0,0:13:55.96,0:13:56.91,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:13:58.76,0:13:59.95,Sub,,0,0,0,,promise me
+Dialogue: 0,0:13:58.44,0:14:03.96,Music bis,,0,0,0,,{\fad(500,500)}How can I bear to watch our past vows
+Dialogue: 0,0:14:00.96,0:14:03.96,Music bis,,0,0,0,,{\fad(500,500)}trap you in the wind and the snow.
+Dialogue: 0,0:14:02.12,0:14:04.56,Sub,,0,0,0,,you’ll take care of yourself.
+Dialogue: 0,0:14:03.96,0:14:08.04,Music bis,,0,0,0,,{\fad(500,500)}Even if I don't want to,
+Dialogue: 0,0:14:06.00,0:14:07.07,Sub,,0,0,0,,Don't go !!!
+Dialogue: 0,0:14:05.16,0:14:08.04,Music bis,,0,0,0,,{\fad(500,500)}I am resolved to scatter my soul.
+Dialogue: 0,0:14:08.04,0:14:12.00,Music bis,,0,0,0,,{\fad(500,500)}Even after countless years of cultivation,
+Dialogue: 0,0:14:09.36,0:14:12.00,Music bis,,0,0,0,,{\fad(500,500)}the hardest thing to let go is our bond.
+Dialogue: 0,0:14:12.00,0:14:13.19,Sub,,0,0,0,,Wan...er...
+Dialogue: 0,0:14:12.00,0:14:17.48,Music bis,,0,0,0,,{\fad(500,500)}The palm of my hand cannot draw a perfect circle,
+Dialogue: 0,0:14:14.32,0:14:17.48,Music bis,,0,0,0,,{\fad(500,500)}both joy and emptiness can leave regrets.
+Dialogue: 0,0:14:16.08,0:14:17.83,Sub,,0,0,0,,Wan...er...
+Dialogue: 0,0:14:17.76,0:14:23.28,Music bis,,0,0,0,,{\fad(500,500)}No longer sighing at the fleeting encounters of this life,
+Dialogue: 0,0:14:20.08,0:14:21.07,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:14:20.12,0:14:23.28,Music bis,,0,0,0,,{\fad(500,500)}I will carve our first meeting in my heart.
+Dialogue: 0,0:14:22.60,0:14:24.55,Sub,,0,0,0,,seeing you once more today
+Dialogue: 0,0:14:23.28,0:14:28.44,Music bis,,0,0,0,,{\fad(500,1000)}Just this one glance
+Dialogue: 0,0:14:25.40,0:14:27.07,Sub,,0,0,0,,was like a stolen blessing.
+Dialogue: 0,0:14:24.64,0:14:28.44,Music bis,,0,0,0,,{\fad(500,1000)}is enough to know my heart's longing.
+Dialogue: 0,0:14:27.88,0:14:29.55,Sub,,0,0,0,,Having loved you in this life
+Dialogue: 0,0:14:30.48,0:14:32.27,Sub,,0,0,0,,is enough for Wan’er.
+Dialogue: 0,0:14:33.08,0:14:34.07,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:14:35.12,0:14:36.11,Sub,,0,0,0,,promise me
+Dialogue: 0,0:14:36.68,0:14:38.55,Sub,,0,0,0,,you’ll take care of yourself.
+Dialogue: 0,0:14:38.56,0:14:42.12,River,,0,0,0,,{\pos(960,150)\fad(300,000)}Memories are like water in your palm.
+Dialogue: 0,0:14:40.20,0:14:42.12,River,,0,0,0,,{\pos(960,250)\fad(300,000)}You can't hold them but their coolness is unforgettable.
+Dialogue: 0,0:14:42.48,0:14:44.52,River,,0,0,0,,{\pos(960,150)\fad(300,300)}Love is like a river.
+Dialogue: 0,0:14:46.36,0:14:53.12,River,,0,0,0,,{\pos(960,150)\fad(300,300)}The left shore is the joyous laughter that can brighten up a thousand years of sadness.
+Dialogue: 0,0:14:47.88,0:14:53.12,River,,0,0,0,,{\pos(960,250)\fad(300,300)}The right shore is an eternal silence lingering under the candlelight.
+Dialogue: 0,0:14:49.56,0:14:53.12,River,,0,0,0,,{\pos(960,350)\fad(300,300)}What flows between them
+Dialogue: 0,0:14:50.92,0:14:53.12,River,,0,0,0,,{\pos(960,450)\fad(300,300)}is years of fading loneliness.
+Dialogue: 0,0:15:01.20,0:15:03.67,Sub,,0,0,0,,I cultivated for centuries,
+Dialogue: 0,0:15:04.88,0:15:06.67,Sub,,0,0,0,,stained my hands with blood,
+Dialogue: 0,0:15:07.24,0:15:09.36,Sub,,0,0,0,,stepped on the path of slaughter.
+Dialogue: 0,0:15:09.52,0:15:12.27,Sub,,0,0,0,,Why couldn't I protect you...
+Dialogue: 0,0:15:14.20,0:15:16.89,Sub,,0,0,0,,I, Wang Lin, have fought the heavens twice
+Dialogue: 0,0:15:17.64,0:15:20.16,Sub,,0,0,0,,and I defied the law of the heavens.
+Dialogue: 0,0:15:20.64,0:15:21.87,Sub,,0,0,0,,But in the end,
+Dialogue: 0,0:15:22.00,0:15:25.04,Sub,,0,0,0,,I lost to the will of the heavens !
+Dialogue: 0,0:15:32.20,0:15:34.63,Sub,,0,0,0,,The will of the heavens is cruel !
+Dialogue: 0,0:15:39.12,0:15:40.71,Sub,,0,0,0,,The will of the heavens...
+Dialogue: 0,0:15:42.32,0:15:45.04,Sub,,0,0,0,,What I defeated was the law of the heavens
+Dialogue: 0,0:15:45.32,0:15:47.95,Sub,,0,0,0,,but I was played by the will of the heavens.
+Dialogue: 0,0:15:48.00,0:15:52.96,Sub,,0,0,0,,{\fad(1000,1000)\pos(298,751)}3 years later
+Dialogue: 0,0:15:53.76,0:15:55.87,Sub,,0,0,0,,What is Life ?
+Dialogue: 0,0:15:57.12,0:15:58.91,Sub,,0,0,0,,What is Death ?
+Dialogue: 0,0:16:18.96,0:16:20.75,Sub,,0,0,0,,It's the will of the heavens !
+Dialogue: 0,0:16:21.60,0:16:24.23,Sub,,0,0,0,,All of it is the freaking will of the heavens !
+Dialogue: 0,0:16:32.20,0:16:36.03,Sub,,0,0,0,,When I turned mortal, I comprehended Life and Death
+Dialogue: 0,0:16:36.12,0:16:38.75,Sub,,0,0,0,,when I saw the rain fall from the sky.
+Dialogue: 0,0:16:38.84,0:16:40.39,Sub,,0,0,0,,A raindrop is born in the sky
+Dialogue: 0,0:16:41.48,0:16:42.91,Sub,,0,0,0,,and dies on the earth !
+Dialogue: 0,0:16:43.96,0:16:45.59,Sub,,0,0,0,,I saw life as Life
+Dialogue: 0,0:16:46.40,0:16:48.11,Sub,,0,0,0,,and death as Death.
+Dialogue: 0,0:16:49.08,0:16:52.27,Sub,,0,0,0,,Zhou Yi's obsession brought the celestial corpse to life.
+Dialogue: 0,0:16:53.44,0:16:55.15,Sub,,0,0,0,,If he lives she dies,
+Dialogue: 0,0:16:55.52,0:16:57.39,Sub,,0,0,0,,and if he dies she lives.
+Dialogue: 0,0:16:57.96,0:16:59.95,Sub,,0,0,0,,I realized life isn't always Life
+Dialogue: 0,0:17:00.64,0:17:02.43,Sub,,0,0,0,,and death isn't always Death !
+Dialogue: 0,0:17:03.88,0:17:05.95,Sub,,0,0,0,,But now thanks to the will of the heavens,
+Dialogue: 0,0:17:06.68,0:17:08.92,Sub,,0,0,0,,I can see Wan'er's Death in life
+Dialogue: 0,0:17:08.96,0:17:10.71,Sub,,0,0,0,,and Life in death.
+Dialogue: 0,0:17:14.76,0:17:16.27,Sub,,0,0,0,,I finally understand.
+Dialogue: 0,0:17:19.80,0:17:21.87,Sub,,0,0,0,,Life has always been Life.
+Dialogue: 0,0:17:23.16,0:17:23.99,Sub,,0,0,0,,And death
+Dialogue: 0,0:17:25.72,0:17:27.47,Sub,,0,0,0,,has always been Death.
+Dialogue: 0,0:17:28.16,0:17:30.64,Sub,,0,0,0,,The things that are lost to this world
+Dialogue: 0,0:17:30.72,0:17:32.71,Sub,,0,0,0,,stay lost
+Dialogue: 0,0:17:33.16,0:17:35.72,Sub,,0,0,0,,to allow what remains to exist.
+Dialogue: 0,0:17:36.12,0:17:37.79,Sub,,0,0,0,,This rain is born in the sky
+Dialogue: 0,0:17:38.48,0:17:40.11,Sub,,0,0,0,,but doesn't die on the earth.
+Dialogue: 0,0:17:41.44,0:17:43.64,Sub,,0,0,0,,When it hits the ground,
+Dialogue: 0,0:17:43.68,0:17:45.96,Sub,,0,0,0,,it gains a new life.
+Dialogue: 0,0:17:47.84,0:17:49.59,Sub,,0,0,0,,All of these things
+Dialogue: 0,0:17:52.52,0:17:53.71,Sub,,0,0,0,,are Death
+Dialogue: 0,0:17:55.52,0:17:57.19,Sub,,0,0,0,,and also Life.
+Dialogue: 0,0:17:57.92,0:17:58.87,Sub,,0,0,0,,Wan'er,
+Dialogue: 0,0:18:01.00,0:18:02.07,Sub,,0,0,0,,thank you.
+Dialogue: 0,0:18:10.68,0:18:11.35,Sub,,0,0,0,,Father,
+Dialogue: 0,0:18:12.28,0:18:13.11,Sub,,0,0,0,,Mother,
+Dialogue: 0,0:18:14.40,0:18:17.27,Sub,,0,0,0,,Tie Zhu failed to be filial when you were alive
+Dialogue: 0,0:18:18.28,0:18:20.91,Sub,,0,0,0,,and then stubbornly sought to revive you
+Dialogue: 0,0:18:22.76,0:18:24.99,Sub,,0,0,0,,while never considering what you wanted.
+Dialogue: 0,0:18:26.84,0:18:29.23,Sub,,0,0,0,,Now, your son understands Life and Death
+Dialogue: 0,0:18:30.04,0:18:32.08,Sub,,0,0,0,,and is free from this obsession.
+Dialogue: 0,0:18:32.84,0:18:35.28,Sub,,0,0,0,,Whether you stay or leave,
+Dialogue: 0,0:18:36.76,0:18:38.83,Sub,,0,0,0,,the choice is yours.
+Dialogue: 0,0:18:43.76,0:18:44.31,Sub,,0,0,0,,Here,
+Dialogue: 0,0:18:44.60,0:18:45.35,Sub,,0,0,0,,like this.
+Dialogue: 0,0:18:46.80,0:18:47.83,Sub,,0,0,0,,Eat more !
+Dialogue: 0,0:18:48.36,0:18:49.51,Sub,,0,0,0,,Whee !
+Dialogue: 0,0:18:53.16,0:18:54.72,Sub,,0,0,0,,Let's call him Tie Zhu.
+Dialogue: 0,0:20:02.28,0:20:04.68,Sub,,0,0,0,,Only by losing one's beloved
+Dialogue: 0,0:20:04.80,0:20:07.48,Sub,,0,0,0,,can one comprehend Life and Death.
+Dialogue: 0,0:20:08.72,0:20:10.96,Sub,,0,0,0,,Only through eternal farewells
+Dialogue: 0,0:20:11.20,0:20:14.51,Sub,,0,0,0,,can the Life and Death Domain be completed.
+Dialogue: 0,0:20:19.88,0:20:22.55,Sub,,0,0,0,,How utterly tragic...
+Dialogue: 0,0:20:27.44,0:20:29.76,Sub,,0,0,0,,I've returned Zhou Ru to Chu
+Dialogue: 0,0:20:29.76,0:20:31.63,Sub,,0,0,0,,and erased her memories of you.
+Dialogue: 0,0:20:32.60,0:20:34.67,Sub,,0,0,0,,That way, she may live a full life.
+Dialogue: 0,0:20:35.80,0:20:36.83,Sub,,0,0,0,,Wan'er,
+Dialogue: 0,0:20:37.52,0:20:39.52,Sub,,0,0,0,,you waited 300 years for me.
+Dialogue: 0,0:20:40.36,0:20:42.11,Sub,,0,0,0,,I, Wang Lin, can never repay you.
+Dialogue: 0,0:20:42.48,0:20:44.23,Sub,,0,0,0,,But I will do my utmost.
+Dialogue: 0,0:20:45.36,0:20:46.43,Sub,,0,0,0,,One year,
+Dialogue: 0,0:20:46.88,0:20:48.03,Sub,,0,0,0,,ten years,
+Dialogue: 0,0:20:48.52,0:20:49.07,Sub,,0,0,0,,a hundred years,
+Dialogue: 0,0:20:49.08,0:20:49.95,Sub,,0,0,0,,a thousand years !
+Dialogue: 0,0:20:51.08,0:20:53.04,Sub,,0,0,0,,Until the end of my life
+Dialogue: 0,0:20:53.08,0:20:54.39,Sub,,0,0,0,,when my soul scatters.
+Dialogue: 0,0:20:55.84,0:20:58.59,Sub,,0,0,0,,I will try the miracle of awakening you.
+Dialogue: 0,0:21:07.72,0:21:08.95,Sub,,0,0,0,,Wan'er...
+Dialogue: 0,0:21:13.68,0:21:15.28,Sub,,0,0,0,,Wait for me.
+Dialogue: 0,0:21:29.20,0:21:31.71,Sub,,0,0,0,,Only by becoming stronger than I am today
+Dialogue: 0,0:21:32.84,0:21:36.08,Sub,,0,0,0,,will I be able to protect the people that are important to me.
+Dialogue: 0,0:21:36.92,0:21:39.03,Sub,,0,0,0,,Now that I am half a step into Soul Transformation,
+Dialogue: 0,0:21:39.76,0:21:41.79,Sub,,0,0,0,,I must return to planet Suzaku
+Dialogue: 0,0:21:42.80,0:21:44.75,Sub,,0,0,0,,and breakthrough to Soul Transformation !
+Dialogue: 0,0:21:51.23,0:24:27.47,Note,,0,0,0,,{\fad(1000,1000)}The adaptation doesn't really emphasize Wang Lin's confusion about the messenger of the law of the heavens. The heavens should be etheral and shouldn't need to have a messenger. Also this messenger is supposedly a 7-star Ancient God but doesn't display the strength of one which confuses Wang Lin even more.\NWang Lin's "victory" can be attributed to the fact that he understood that he was facing a fake law of the heavens which can be defied by the Heaven Defying Bead.\N\N“Without my permission, forget the fact that you aren’t even the real law of the heavens, but even if you were, don’t think you can take her away !”\NThe heaven’s messenger shot a thoughtful look at Wang Lin. His eyes were filled with confusion. Then his body slowly disappeared, and in the blink of an eye, the clouds and the wheel also disappeared.\N\NIn a way, without ever wanting to, Wang Lin used Li Muwan as his cultivation furnace to cultivate the Life and Death Domain to completion.\N\NI invite you to reread the note of episode 72 if you don't remember it. See a mountain as a mountain and water as water...
+Dialogue: 0,0:22:08.41,0:22:11.71,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:22:11.71,0:22:13.43,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:22:13.47,0:22:15.37,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:22:16.25,0:22:22.85,Music bis,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:22:19.09,0:22:22.85,Music bis,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:22:22.85,0:22:30.45,Music bis,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:22:26.09,0:22:30.45,Music bis,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:22:30.89,0:22:38.01,Music bis,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:22:33.65,0:22:38.01,Music bis,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:22:38.33,0:22:41.33,Music bis,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:22:39.61,0:22:41.33,Music bis,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:22:41.62,0:22:45.05,Music bis,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:22:43.45,0:22:45.05,Music bis,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:22:45.61,0:22:49.13,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:22:49.13,0:22:52.45,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:22:53.21,0:22:56.41,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:22:56.77,0:23:00.61,Music bis,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:22:58.61,0:23:00.61,Music bis,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:23:00.77,0:23:05.57,Music bis,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:23:02.33,0:23:05.57,Music bis,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:23:05.58,0:23:08.29,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:23:08.33,0:23:11.61,Music,,0,0,0,,{\fad(300,300}I will fight the will of the heavens and the law of cause and effect
+Dialogue: 0,0:23:11.61,0:23:16.25,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:23:16.25,0:23:19.65,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:23:19.69,0:23:24.33,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:23:24.78,0:23:30.01,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:23:30.13,0:23:33.93,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:23:33.93,0:23:38.57,Music bis,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:23:35.61,0:23:38.57,Music bis,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:23:38.73,0:23:41.65,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:23:41.65,0:23:46.53,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:23:46.54,0:23:49.81,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:23:49.97,0:23:54.53,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:23:54.53,0:23:58.49,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:23:58.49,0:24:01.29,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:24:01.37,0:24:05.17,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:24:05.25,0:24:08.53,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:24:08.81,0:24:13.77,Music,,0,0,0,,{\fad(300,300}Even for a moment, it's worth it.
+Dialogue: 0,0:16:31.76,0:16:38.28,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:16:38.48,0:16:44.40,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:16:44.71,0:16:48.64,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:16:48.64,0:16:52.60,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:16:52.83,0:16:58.56,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:16:59.48,0:17:05.49,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:17:05.80,0:17:11.34,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:17:11.80,0:17:16.92,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:17:16.92,0:17:20.44,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:17:20.44,0:17:26.64,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:17:26.64,0:17:30.56,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:17:30.56,0:17:34.48,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:17:34.68,0:17:40.32,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:17:40.35,0:17:44.24,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:17:44.24,0:17:48.04,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:17:48.04,0:17:54.12,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:17:55.44,0:18:01.14,Music,,0,0,0,,{\fad(1000,500}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:18:01.31,0:18:07.96,Music,,0,0,0,,{\fad(1000,500}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

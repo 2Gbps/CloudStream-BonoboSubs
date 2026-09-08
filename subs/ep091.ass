@@ -1,0 +1,344 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 91_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,37.5,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:02.28,0:02:03.32,Sub,,0,0,0,,This blood contains
+Dialogue: 0,0:02:03.32,0:02:05.44,Sub,,0,0,0,,a hint of the bloodline of Ancient Gods.
+Dialogue: 0,0:02:05.52,0:02:07.55,Sub,,0,0,0,,I follow the path of the Ancient Gods
+Dialogue: 0,0:02:07.68,0:02:09.52,Sub,,0,0,0,,but I only obtained the memory inheritance.
+Dialogue: 0,0:02:09.60,0:02:11.75,Sub,,0,0,0,,But with this blood, I can use Ancient God spells.
+Dialogue: 0,0:02:12.40,0:02:14.60,Sub,,0,0,0,,But where did this blood come from ?
+Dialogue: 0,0:02:14.68,0:02:16.39,Sub,,0,0,0,,And how is it related to the Giant Demon Clan ?
+Dialogue: 0,0:02:25.12,0:02:28.24,Card,,0,0,0,,{\pos(1621,467)\fad(300,300)}Mei Ji\NSoul Fragment
+Dialogue: 0,0:02:38.08,0:02:39.43,Sub,,0,0,0,,Brother...
+Dialogue: 0,0:02:40.88,0:02:42.11,Sub,,0,0,0,,A seduction domain ?
+Dialogue: 0,0:02:49.80,0:02:50.60,Sub,,0,0,0,,Enough !
+Dialogue: 0,0:02:51.68,0:02:52.63,Sub,,0,0,0,,Spare me !
+Dialogue: 0,0:02:52.84,0:02:53.91,Sub,,0,0,0,,My name is Mei Ji.
+Dialogue: 0,0:02:54.12,0:02:56.36,Sub,,0,0,0,,I've been trapped in this wheel artifact for centuries,
+Dialogue: 0,0:02:56.36,0:02:57.79,Sub,,0,0,0,,I just want freedom.
+Dialogue: 0,0:02:58.08,0:02:59.76,Sub,,0,0,0,,I mean no harm.
+Dialogue: 0,0:03:01.16,0:03:03.11,Sub,,0,0,0,,This woman is just a soul fragment
+Dialogue: 0,0:03:03.12,0:03:05.07,Sub,,0,0,0,,split from a senior's Origin Soul.
+Dialogue: 0,0:03:05.88,0:03:07.92,Sub,,0,0,0,,It contains a trace of a seduction domain.
+Dialogue: 0,0:03:08.16,0:03:10.52,Sub,,0,0,0,,If just a soul fragment is this powerful,
+Dialogue: 0,0:03:10.56,0:03:12.35,Sub,,0,0,0,,how strong was that senior ?
+Dialogue: 0,0:03:13.28,0:03:14.92,Sub,,0,0,0,,But if I destroy the fragment,
+Dialogue: 0,0:03:14.96,0:03:16.92,Sub,,0,0,0,,it might alert that person.
+Dialogue: 0,0:03:18.92,0:03:20.16,Sub,,0,0,0,,The priority now
+Dialogue: 0,0:03:20.20,0:03:21.12,Sub,,0,0,0,,is Wan'er.
+Dialogue: 0,0:03:26.80,0:03:28.03,Sub,,0,0,0,,Charge !
+Dialogue: 0,0:03:31.20,0:03:32.82,Sub,,0,0,0,,Little White, quick, catch it !
+Dialogue: 0,0:03:47.08,0:03:48.39,Sub,,0,0,0,,Big guy,
+Dialogue: 0,0:03:48.76,0:03:49.95,Sub,,0,0,0,,you have nowhere to run now !
+Dialogue: 0,0:03:54.80,0:03:55.91,Sub,,0,0,0,,Miss Zhou Ru !
+Dialogue: 0,0:04:00.36,0:04:02.11,Sub,,0,0,0,,G...Grandpa Tie Yan,
+Dialogue: 0,0:04:03.32,0:04:04.79,Sub,,0,0,0,,look at my new mount !
+Dialogue: 0,0:04:05.08,0:04:06.47,Sub,,0,0,0,,When the Ancestor returns,
+Dialogue: 0,0:04:06.72,0:04:07.75,Sub,,0,0,0,,you can show it to him.
+Dialogue: 0,0:04:10.08,0:04:11.76,Sub,,0,0,0,,I don’t care if he comes back,
+Dialogue: 0,0:04:11.76,0:04:13.12,Sub,,0,0,0,,he forgot about me long ago.
+Dialogue: 0,0:04:13.12,0:04:14.27,Sub,,0,0,0,,He's a liar !
+Dialogue: 0,0:04:16.52,0:04:17.55,Sub,,0,0,0,,Who's there ?
+Dialogue: 0,0:04:23.60,0:04:24.47,Sub,,0,0,0,,Uncle !
+Dialogue: 0,0:04:25.40,0:04:27.03,Sub,,0,0,0,,You’re finally back !
+Dialogue: 0,0:04:40.92,0:04:42.23,Sub,,0,0,0,,Where’s my big tiger ?
+Dialogue: 0,0:04:43.68,0:04:44.31,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:04:44.88,0:04:46.08,Sub,,0,0,0,,before you left,
+Dialogue: 0,0:04:46.08,0:04:48.19,Sub,,0,0,0,,you promised to bring her an even bigger tiger.
+Dialogue: 0,0:04:50.20,0:04:50.67,Sub,,0,0,0,,Sorry,
+Dialogue: 0,0:04:51.24,0:04:52.23,Sub,,0,0,0,,Uncle forgot.
+Dialogue: 0,0:04:55.20,0:04:57.08,Sub,,0,0,0,,Uncle will take you to catch a tiger together,
+Dialogue: 0,0:04:57.08,0:04:58.08,Sub,,0,0,0,,what do you think ?
+Dialogue: 0,0:04:58.88,0:04:59.39,Sub,,0,0,0,,Really ?
+Dialogue: 0,0:05:01.80,0:05:03.19,Sub,,0,0,0,,Let’s go catch a tiger !
+Dialogue: 0,0:05:07.72,0:05:10.20,Sub,,0,0,0,,The deaths of Li Yuanfeng and the Giant Demon Clan Ancestor
+Dialogue: 0,0:05:10.28,0:05:11.92,Sub,,0,0,0,,will surely draw attention.
+Dialogue: 0,0:05:12.16,0:05:14.16,Sub,,0,0,0,,To ensure Wan'er’s revival goes smoothly
+Dialogue: 0,0:05:15.48,0:05:17.96,Sub,,0,0,0,,we will leave planet Suzaku for a few years.
+Dialogue: 0,0:05:18.16,0:05:20.35,Sub,,0,0,0,,We can return after everything is settled.
+Dialogue: 0,0:05:27.08,0:05:27.87,Sub,,0,0,0,,Uncle...
+Dialogue: 0,0:05:28.08,0:05:29.55,Sub,,0,0,0,,Where’s the big tiger ?
+Dialogue: 0,0:05:34.64,0:05:37.76,Card,,0,0,0,,{\pos(261,429)\fad(300,300)}Suzaku's moon
+Dialogue: 0,0:06:09.48,0:06:11.08,Card Hard,,0,0,0,,{\pos(257,435)\fad(300,000)}Desert cave\NSuzaku's moon
+Dialogue: 0,0:06:12.20,0:06:14.07,Sub,,0,0,0,,Is this our new home ?
+Dialogue: 0,0:06:14.68,0:06:15.28,Sub,,0,0,0,,Yes.
+Dialogue: 0,0:06:18.72,0:06:19.48,Sub,,0,0,0,,Little White,
+Dialogue: 0,0:06:19.48,0:06:20.67,Sub,,0,0,0,,run faster !
+Dialogue: 0,0:06:23.80,0:06:25.47,Sub,,0,0,0,,Such a beautiful new home !
+Dialogue: 0,0:06:27.24,0:06:27.95,Sub,,0,0,0,,Hurry !
+Dialogue: 0,0:06:50.52,0:06:52.64,Sub,,0,0,0,,When Zhou Ru turns 18,
+Dialogue: 0,0:06:52.80,0:06:54.88,Sub,,0,0,0,,Wan'er’s Nascent Soul will awaken
+Dialogue: 0,0:06:54.96,0:06:56.80,Sub,,0,0,0,,and her memories will return.
+Dialogue: 0,0:06:57.72,0:06:58.59,Sub,,0,0,0,,That's when
+Dialogue: 0,0:06:59.56,0:07:01.35,Sub,,0,0,0,,the law of the heavens will come back.
+Dialogue: 0,0:07:03.16,0:07:04.35,Sub,,0,0,0,,6 more years...
+Dialogue: 0,0:07:17.20,0:07:18.71,Sub,,0,0,0,,Little White, run faster !
+Dialogue: 0,0:07:21.52,0:07:22.75,Sub,,0,0,0,,He's so pretty !
+Dialogue: 0,0:07:36.56,0:07:37.19,Sub,,0,0,0,,Wan'er,
+Dialogue: 0,0:07:37.76,0:07:38.75,Sub,,0,0,0,,we're almost there...
+Dialogue: 0,0:07:41.08,0:07:42.19,Sub,,0,0,0,,13 years ago,
+Dialogue: 0,0:07:43.08,0:07:45.52,Sub,,0,0,0,,I tried to use many restrictions to fight the law of the heavens.
+Dialogue: 0,0:07:45.60,0:07:47.58,Sub,,0,0,0,,but they were instantly destroyed.
+Dialogue: 0,0:07:48.16,0:07:49.96,Sub,,0,0,0,,The tribulation was too strong.
+Dialogue: 0,0:07:50.92,0:07:53.48,Sub,,0,0,0,,Fighting the law of the heavens is impossible.
+Dialogue: 0,0:07:54.20,0:07:56.43,Sub,,0,0,0,,Only my original body was able to withstand it,
+Dialogue: 0,0:07:57.28,0:07:59.07,Sub,,0,0,0,,buying me the time to save Wan'er.
+Dialogue: 0,0:08:00.08,0:08:00.99,Sub,,0,0,0,,This time,
+Dialogue: 0,0:08:01.76,0:08:03.76,Sub,,0,0,0,,the law of the heavens will come prepared
+Dialogue: 0,0:08:04.00,0:08:05.55,Sub,,0,0,0,,to fight against me.
+Dialogue: 0,0:08:06.28,0:08:08.12,Sub,,0,0,0,,I must find another way...
+Dialogue: 0,0:08:06.28,0:08:08.12,Sub,,0,0,0,,{\pos(964,632)}We have overtaken you,
+Dialogue: 0,0:08:09.68,0:08:10.79,Sub,,0,0,0,,run faster Little White !
+Dialogue: 0,0:08:13.12,0:08:13.75,Sub,,0,0,0,,Slow down...
+Dialogue: 0,0:08:19.00,0:08:20.08,Sub,,0,0,0,,Uncle...
+Dialogue: 0,0:08:19.04,0:08:21.24,Card Hard,,0,0,0,,{\pos(1453,468)\fad(300,300)}Zhou Ru\N16 years old
+Dialogue: 0,0:08:22.92,0:08:25.80,Sub,,0,0,0,,{\pos(950,485)\fad(800,800)}4 years later
+Dialogue: 0,0:08:39.24,0:08:39.96,Sub,,0,0,0,,Who
+Dialogue: 0,0:08:40.04,0:08:40.99,Sub,,0,0,0,,are you ?
+Dialogue: 0,0:08:53.48,0:08:54.87,Sub,,0,0,0,,Who the hell are you !?
+Dialogue: 0,0:09:01.16,0:09:01.87,Sub,,0,0,0,,Wake up.
+Dialogue: 0,0:09:09.72,0:09:10.71,Sub,,0,0,0,,Uncle...
+Dialogue: 0,0:09:11.60,0:09:12.03,Sub,,0,0,0,,I...
+Dialogue: 0,0:09:12.92,0:09:15.11,Sub,,0,0,0,,Ru'er is a monster.
+Dialogue: 0,0:09:15.88,0:09:17.04,Sub,,0,0,0,,What's wrong ?
+Dialogue: 0,0:09:17.20,0:09:18.19,Sub,,0,0,0,,I can feel
+Dialogue: 0,0:09:19.00,0:09:20.51,Sub,,0,0,0,,another person
+Dialogue: 0,0:09:21.12,0:09:22.87,Sub,,0,0,0,,inside my body...
+Dialogue: 0,0:09:25.08,0:09:26.51,Sub,,0,0,0,,The past few months,
+Dialogue: 0,0:09:26.68,0:09:28.48,Sub,,0,0,0,,I’ve been dreaming
+Dialogue: 0,0:09:28.84,0:09:30.59,Sub,,0,0,0,,about a big sister.
+Dialogue: 0,0:09:31.20,0:09:33.28,Sub,,0,0,0,,She is slowly waking up
+Dialogue: 0,0:09:33.92,0:09:35.65,Sub,,0,0,0,,and when she awakens
+Dialogue: 0,0:09:36.60,0:09:37.75,Sub,,0,0,0,,I’ll...
+Dialogue: 0,0:09:38.76,0:09:39.75,Sub,,0,0,0,,disappear.
+Dialogue: 0,0:09:55.92,0:09:57.56,Sub,,0,0,0,,Her body has 2 souls...
+Dialogue: 0,0:09:57.80,0:09:59.52,Sub,,0,0,0,,How did it turn out like this ?
+Dialogue: 0,0:09:59.88,0:10:02.84,Sub,,0,0,0,,When I placed Wan'er’s Nascent Soul inside that pregnant lady
+Dialogue: 0,0:10:02.88,0:10:04.63,Sub,,0,0,0,,did the baby already have a soul !?
+Dialogue: 0,0:10:06.28,0:10:07.39,Sub,,0,0,0,,If this continues,
+Dialogue: 0,0:10:08.08,0:10:09.55,Sub,,0,0,0,,when Wan'er’s Nascent Soul awakens,
+Dialogue: 0,0:10:10.20,0:10:12.03,Sub,,0,0,0,,Zhou Ru’s soul will be devoured.
+Dialogue: 0,0:10:13.48,0:10:15.71,Sub,,0,0,0,,But extracting Wan'er’s Nascent Soul now
+Dialogue: 0,0:10:16.76,0:10:18.15,Sub,,0,0,0,,would ruin everything.
+Dialogue: 0,0:10:20.44,0:10:21.11,Sub,,0,0,0,,Do I need
+Dialogue: 0,0:10:22.24,0:10:24.31,Sub,,0,0,0,,to sacrifice this child ?
+Dialogue: 0,0:10:44.08,0:10:44.99,Sub,,0,0,0,,Uncle !
+Dialogue: 0,0:10:46.28,0:10:47.39,Sub,,0,0,0,,Strange...
+Dialogue: 0,0:10:48.28,0:10:49.27,Sub,,0,0,0,,Where is he ?
+Dialogue: 0,0:11:04.56,0:11:05.64,Sub,,0,0,0,,Found it !
+Dialogue: 0,0:11:18.68,0:11:19.27,Sub,,0,0,0,,Uncle !
+Dialogue: 0,0:11:19.64,0:11:20.67,Sub,,0,0,0,,Where have you been ?
+Dialogue: 0,0:11:20.68,0:11:21.06,Sub,,0,0,0,,Do you know...
+Dialogue: 0,0:11:21.08,0:11:21.80,Sub,,0,0,0,,Zhou Ru.
+Dialogue: 0,0:11:25.60,0:11:26.67,Sub,,0,0,0,,You’re not wrong.
+Dialogue: 0,0:11:28.32,0:11:30.28,Sub,,0,0,0,,There is another person inside you.
+Dialogue: 0,0:11:31.88,0:11:33.40,Sub,,0,0,0,,Her name is Li Muwan.
+Dialogue: 0,0:11:36.88,0:11:37.87,Sub,,0,0,0,,So...
+Dialogue: 0,0:11:38.68,0:11:39.63,Sub,,0,0,0,,inside me...
+Dialogue: 0,0:11:40.44,0:11:41.76,Sub,,0,0,0,,is your wife ?
+Dialogue: 0,0:11:44.08,0:11:44.95,Sub,,0,0,0,,I thought that
+Dialogue: 0,0:11:45.80,0:11:47.08,Sub,,0,0,0,,you were her
+Dialogue: 0,0:11:47.28,0:11:48.36,Sub,,0,0,0,,and she was you.
+Dialogue: 0,0:11:49.40,0:11:51.15,Sub,,0,0,0,,But it's not the case.
+Dialogue: 0,0:11:57.28,0:11:58.83,Sub,,0,0,0,,There is a way around this.
+Dialogue: 0,0:12:01.76,0:12:03.15,Sub,,0,0,0,,First, I will seal your soul
+Dialogue: 0,0:12:04.00,0:12:05.48,Sub,,0,0,0,,then when Wan'er awakens,
+Dialogue: 0,0:12:05.48,0:12:07.19,Sub,,0,0,0,,she will possess your body.
+Dialogue: 0,0:12:07.96,0:12:09.55,Sub,,0,0,0,,You will just sleep for a while.
+Dialogue: 0,0:12:10.96,0:12:11.95,Sub,,0,0,0,,When it's over,
+Dialogue: 0,0:12:12.80,0:12:14.95,Sub,,0,0,0,,Uncle will find you a better body.
+Dialogue: 0,0:12:24.88,0:12:25.63,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:12:26.28,0:12:27.19,Sub,,0,0,0,,since I was little,
+Dialogue: 0,0:12:27.60,0:12:29.27,Sub,,0,0,0,,I’ve always seen you as my family.
+Dialogue: 0,0:12:30.08,0:12:31.99,Sub,,0,0,0,,I can’t see her face in my dreams
+Dialogue: 0,0:12:33.32,0:12:34.23,Sub,,0,0,0,,but I feel like
+Dialogue: 0,0:12:35.00,0:12:36.95,Sub,,0,0,0,,I want to be like her.
+Dialogue: 0,0:12:38.88,0:12:39.88,Sub,,0,0,0,,You will.
+Dialogue: 0,0:12:40.00,0:12:41.95,Sub,,0,0,0,,You’ll be as beautiful as Wan'er ever was.
+Dialogue: 0,0:12:43.88,0:12:44.80,Sub,,0,0,0,,Little Ru'er,
+Dialogue: 0,0:12:44.84,0:12:46.04,Sub,,0,0,0,,you’re tired.
+Dialogue: 0,0:12:46.08,0:12:47.16,Sub,,0,0,0,,Get some rest.
+Dialogue: 0,0:12:54.00,0:12:56.51,Sub,,0,0,0,,This is the best solution I have.
+Dialogue: 0,0:12:58.52,0:12:59.07,Sub,,0,0,0,,Wan'er,
+Dialogue: 0,0:12:59.96,0:13:00.79,Sub,,0,0,0,,if it were you,
+Dialogue: 0,0:13:01.28,0:13:02.55,Sub,,0,0,0,,what would you do ?
+Dialogue: 0,0:13:07.68,0:13:09.59,Sub,,0,0,0,,It's just a body.
+Dialogue: 0,0:13:10.48,0:13:11.91,Sub,,0,0,0,,I'll sleep a few years
+Dialogue: 0,0:13:13.52,0:13:15.11,Sub,,0,0,0,,and get a better one.
+Dialogue: 0,0:13:17.28,0:13:18.27,Sub,,0,0,0,,What a deal...
+Dialogue: 0,0:13:21.08,0:13:22.11,Sub,,0,0,0,,Little White,
+Dialogue: 0,0:13:23.88,0:13:24.99,Sub,,0,0,0,,before I go,
+Dialogue: 0,0:13:25.44,0:13:27.67,Sub,,0,0,0,,I’ll ask Uncle to release you.
+Dialogue: 0,0:13:29.68,0:13:30.55,Sub,,0,0,0,,Little White...
+Dialogue: 0,0:13:31.80,0:13:32.67,Sub,,0,0,0,,Will you
+Dialogue: 0,0:13:32.68,0:13:34.35,Sub,,0,0,0,,miss me ?
+Dialogue: 0,0:13:57.48,0:14:00.12,Card,,0,0,0,,{\pos(1663,472)\fad(300,000)}Nascent Soul\NShattering Fruit
+Dialogue: 0,0:14:12.28,0:14:13.24,Sub,,0,0,0,,Little White,
+Dialogue: 0,0:14:13.24,0:14:14.44,Sub,,0,0,0,,what’s wrong ?
+Dialogue: 0,0:14:19.72,0:14:21.75,Sub,,0,0,0,,Do you want me to eat this ?
+Dialogue: 0,0:14:23.48,0:14:24.24,Sub,,0,0,0,,What is it ?
+Dialogue: 0,0:14:24.36,0:14:25.72,Sub,,0,0,0,,A Nascent Soul Shattering Fruit.
+Dialogue: 0,0:14:29.20,0:14:31.15,Sub,,0,0,0,,You really are a loyal tiger.
+Dialogue: 0,0:14:41.32,0:14:42.20,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:14:43.16,0:14:45.04,Sub,,0,0,0,,don’t hurt Little White.
+Dialogue: 0,0:14:45.08,0:14:46.04,Sub,,0,0,0,,Okay ?
+Dialogue: 0,0:14:56.12,0:14:56.84,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:14:56.92,0:14:57.80,Sub,,0,0,0,,don’t worry.
+Dialogue: 0,0:14:58.20,0:14:59.23,Sub,,0,0,0,,I know what to do.
+Dialogue: 0,0:15:03.76,0:15:04.75,Sub,,0,0,0,,Little White, run !
+Dialogue: 0,0:15:07.36,0:15:08.36,Sub,,0,0,0,,Catch it !
+Dialogue: 0,0:15:16.36,0:15:18.39,Sub,,0,0,0,,The more Wan'er awakens
+Dialogue: 0,0:15:19.48,0:15:20.72,Sub,,0,0,0,,the longer the periods
+Dialogue: 0,0:15:21.80,0:15:23.16,Sub,,0,0,0,,where Zhou Ru sleeps.
+Dialogue: 0,0:15:26.00,0:15:27.55,Sub,,0,0,0,,I've been racking my brain
+Dialogue: 0,0:15:28.56,0:15:29.87,Sub,,0,0,0,,as to how I will face
+Dialogue: 0,0:15:30.76,0:15:32.15,Sub,,0,0,0,,the law of the heavens.
+Dialogue: 0,0:15:33.72,0:15:35.32,Sub,,0,0,0,,My artifacts are strong
+Dialogue: 0,0:15:35.52,0:15:36.96,Sub,,0,0,0,,but they aren't perfect.
+Dialogue: 0,0:15:37.92,0:15:39.80,Sub,,0,0,0,,The law of the heavens is unfathomable.
+Dialogue: 0,0:15:40.28,0:15:41.23,Sub,,0,0,0,,One misstep,
+Dialogue: 0,0:15:41.68,0:15:43.19,Sub,,0,0,0,,and all is lost.
+Dialogue: 0,0:15:45.88,0:15:47.72,Sub,,0,0,0,,But I cannot afford to lose.
+Dialogue: 0,0:16:04.20,0:16:06.08,Sub,,0,0,0,,{\fad(500,500)\pos(958,484)}2 years later
+Dialogue: 0,0:16:15.40,0:16:16.35,Sub,,0,0,0,,Wan'er
+Dialogue: 0,0:16:18.08,0:16:18.91,Sub,,0,0,0,,is waking up.
+Dialogue: 0,0:16:21.88,0:16:22.67,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:16:27.04,0:16:27.95,Sub,,0,0,0,,keep this safe.
+Dialogue: 0,0:16:28.32,0:16:29.51,Sub,,0,0,0,,Give it back to me later.
+Dialogue: 0,0:16:30.80,0:16:32.36,Sub,,0,0,0,,I’ll keep my promise
+Dialogue: 0,0:16:32.56,0:16:34.11,Sub,,0,0,0,,and find you a better body.
+Dialogue: 0,0:16:38.60,0:16:39.19,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:16:39.76,0:16:40.63,Sub,,0,0,0,,tell me
+Dialogue: 0,0:16:41.08,0:16:42.39,Sub,,0,0,0,,about you and Wan'er.
+Dialogue: 0,0:16:48.68,0:16:49.63,Sub,,0,0,0,,Wan'er and I
+Dialogue: 0,0:16:50.48,0:16:51.87,Sub,,0,0,0,,met by chance.
+Dialogue: 0,0:16:53.48,0:16:54.27,Sub,,0,0,0,,But it all
+Dialogue: 0,0:16:55.44,0:16:57.47,Sub,,0,0,0,,felt like it was meant to be.
+Dialogue: 0,0:16:59.48,0:17:01.15,Sub,,0,0,0,,I was just a Foundation Establishment cultivator,
+Dialogue: 0,0:16:59.32,0:17:01.04,Music,,0,0,0,,{\fad(500,500)}I will ask the heavens who exactly
+Dialogue: 0,0:17:01.04,0:17:02.96,Music,,0,0,0,,{\fad(300,500)}split this world apart
+Dialogue: 0,0:17:02.48,0:17:05.07,Sub,,0,0,0,,but we ended up in the Sea of Devils.
+Dialogue: 0,0:17:02.96,0:17:05.68,Music,,0,0,0,,{\fad(500,1000)}to allow the rain to fall in.
+Dialogue: 0,0:17:08.08,0:17:10.40,Sub,,0,0,0,,She was the first person that ever protected me.
+Dialogue: 0,0:17:10.48,0:17:12.40,Music,,0,0,0,,{\fad(500,500)}Wield the fate of life and death.
+Dialogue: 0,0:17:14.88,0:17:16.47,Sub,,0,0,0,,And besides my parents,
+Dialogue: 0,0:17:17.60,0:17:20.80,Music,,0,0,0,,{\fad(500,1000)}Through heaven and earth.
+Dialogue: 0,0:17:18.12,0:17:20.11,Sub,,0,0,0,,she was the first person I wanted to protect.
+Dialogue: 0,0:17:22.60,0:17:26.64,Music,,0,0,0,,{\fad(500,1000)}I will even gather the clouds.
+Dialogue: 0,0:17:23.48,0:17:25.71,Sub,,0,0,0,,We parted ways when I went
+Dialogue: 0,0:17:26.32,0:17:27.88,Sub,,0,0,0,, to avenge my parents.
+Dialogue: 0,0:17:28.16,0:17:29.84,Sub,,0,0,0,,We were so far apart.
+Dialogue: 0,0:17:27.40,0:17:31.24,Music,,0,0,0,,{\fad(500,1000)}All this sadness was not meaningless.
+Dialogue: 0,0:17:31.24,0:17:34.56,Music,,0,0,0,,{\fad(500,1000)}How many lives and deaths have passed in the blink of an eye ?
+Dialogue: 0,0:17:32.96,0:17:34.03,Sub,,0,0,0,,But fate
+Dialogue: 0,0:17:34.56,0:17:36.80,Music,,0,0,0,,{\fad(500,1000)}I vow to break
+Dialogue: 0,0:17:34.92,0:17:37.35,Sub,,0,0,0,,brought me back to the Cloud Sky Sect.
+Dialogue: 0,0:17:36.80,0:17:41.48,Music,,0,0,0,,{\fad(500,1000)}this chess game of fate.
+Dialogue: 0,0:17:39.08,0:17:41.15,Sub,,0,0,0,,Wan'er and I vowed to never part ways again.
+Dialogue: 0,0:17:41.48,0:17:44.20,Music,,0,0,0,,{\fad(500,1000)}Walking off the beaten path
+Dialogue: 0,0:17:42.68,0:17:44.96,Sub,,0,0,0,,But fate played another trick on us.
+Dialogue: 0,0:17:44.20,0:17:48.24,Music,,0,0,0,,{\fad(500,1000)}through heaven and earth.
+Dialogue: 0,0:17:46.48,0:17:47.51,Sub,,0,0,0,,When I returned,
+Dialogue: 0,0:17:48.80,0:17:51.28,Music,,0,0,0,,{\fad(500,800)}Before returning to dust,
+Dialogue: 0,0:17:48.88,0:17:50.23,Sub,,0,0,0,,her lifespan had ended.
+Dialogue: 0,0:17:51.28,0:17:55.32,Music,,0,0,0,,{\fad(500,1000)}I will refine this mortal body.
+Dialogue: 0,0:17:51.52,0:17:53.51,Sub,,0,0,0,,People say the Dao is ruthless
+Dialogue: 0,0:17:55.88,0:17:59.88,Music,,0,0,0,,{\fad(500,800)}The left shore is the joyous laughter
+Dialogue: 0,0:17:56.28,0:17:58.67,Sub,,0,0,0,,but I still want to reunite with her.
+Dialogue: 0,0:17:59.88,0:18:03.20,Music,,0,0,0,,{\fad(500,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:18:03.20,0:18:05.44,Music,,0,0,0,,{\fad(500,800)}The right shore is an eternal silence
+Dialogue: 0,0:18:05.44,0:18:10.12,Music,,0,0,0,,{\fad(500,800)}lingering under the candlelight.
+Dialogue: 0,0:18:07.76,0:18:09.04,Sub,,0,0,0,,Wan'er,
+Dialogue: 0,0:18:09.12,0:18:09.92,Sub,,0,0,0,,come.
+Dialogue: 0,0:18:10.12,0:18:12.84,Music,,0,0,0,,{\fad(500,800)}To overturn this fate,
+Dialogue: 0,0:18:12.84,0:18:16.88,Music,,0,0,0,,{\fad(500,800)}I will walk against the heavens.
+Dialogue: 0,0:18:17.64,0:18:20.16,Music,,0,0,0,,{\fad(500,800)}I will even gather the clouds
+Dialogue: 0,0:18:20.16,0:18:24.20,Music,,0,0,0,,{\fad(500,800)}to illuminate the sky for you.
+Dialogue: 0,0:18:24.76,0:18:28.60,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:18:28.60,0:18:31.92,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths have passed in the blink of an eye ?
+Dialogue: 0,0:18:29.68,0:18:30.67,Sub,,0,0,0,,Wan'er...
+Dialogue: 0,0:18:31.92,0:18:34.16,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:18:34.16,0:18:38.84,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:18:37.12,0:18:37.87,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:18:46.16,0:18:47.87,Sub,,0,0,0,,You lied to me.
+Dialogue: 0,0:18:51.30,0:21:27.86,Note,,0,0,0,,{\fad(1000,1000)}Re-reading the chapters adapted in this episode broke my heart, the adaptation doesn't do it justice.\NIn the novel, Wang Lin never tells Zhou Ru about Li Muwan, she understands by herself. She even says "Wan'er" without having ever heard the name. Wang Lin doesn't negociate with her to have her transfer her soul to another body but with Wan'er to make her accept the fact she's highjacking a child's body, which is why Wan'er says Wang Lin lied at the end of the episode.\NMost of the interaction between them in this episode is donghua original.\N“Uncle, little Ru'er is a monster…”\N“Uncle, I can feel that the little person in my body is like… like the big sister in my dream. She is that little person. Uncle, little Ru'er is scared. Can you take her out…”\N“Uncle, little Ru'er is scared. Can you quickly take her out, please ?”\N“Little Ru'er, don’t be scared. Just pretend that the little person inside you is your big sister. Don’t worry.”\N“Really? Uncle isn’t lying to me?”\N“Really…”\N“Uncle, little Ru'er is already 13 years old. There are some things I already understand. You are different from Grandpa Tie Yan. When you look at me, you aren’t looking at me but at the little person inside me. Grandpa Tie Yan wasn’t the same. What he looked at was me…”\N“I know that when you saved me from that bad cultivator, it wasn’t for me but for the big sister inside me…”\N“The big sister I saw in my dreams is very pretty, but I believe that when I grow up, I’ll be even prettier, so Uncle, don’t leave me…”\N“Uncle, can you tell little Ru'er stories of you and big sister?”\N“Uncle, if I die early, does that mean big sister Wan'er won’t be able to wake up…”\N“Uncle, in your eyes, is little Ru'er only a body for big sister Wan'er to wake up in ?”\N“Uncle doesn’t want me anymore. Little White, you also left…”
+Dialogue: 0,0:19:08.80,0:19:12.10,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:19:12.10,0:19:13.82,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:19:13.86,0:19:15.76,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:19:16.64,0:19:23.24,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:19:19.48,0:19:23.24,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:19:23.24,0:19:30.84,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:19:26.48,0:19:30.84,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:19:31.28,0:19:38.40,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:19:34.04,0:19:38.40,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:19:38.72,0:19:41.72,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:19:40.00,0:19:41.72,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:19:42.01,0:19:45.44,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:19:43.84,0:19:45.44,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:19:46.00,0:19:49.52,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:19:49.52,0:19:52.84,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:19:53.60,0:19:56.80,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:19:57.16,0:20:01.00,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:19:59.00,0:20:01.00,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:20:01.16,0:20:05.96,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:20:02.72,0:20:05.96,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:20:05.97,0:20:08.68,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:20:08.72,0:20:12.00,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:20:12.00,0:20:16.64,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:20:16.64,0:20:20.04,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:20:20.08,0:20:24.72,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:20:25.17,0:20:30.40,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:20:30.52,0:20:34.32,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:20:34.32,0:20:38.96,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:20:36.00,0:20:38.96,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:20:39.12,0:20:42.04,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:20:42.04,0:20:46.92,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:20:46.93,0:20:50.20,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:20:50.36,0:20:54.92,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:20:54.92,0:20:58.88,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:20:58.88,0:21:01.68,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:21:01.76,0:21:05.56,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:21:05.64,0:21:08.92,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:21:09.20,0:21:14.16,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

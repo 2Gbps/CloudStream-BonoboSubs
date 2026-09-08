@@ -1,0 +1,321 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Intro,Roboto,55,&H0054A6CB,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:13.36,0:02:14.60,Sub,,0,0,0,,What is this ?
+Dialogue: 0,0:02:29.76,0:02:32.92,Card,,0,0,0,,{\pos(1595,481)\fad(300,300)}Heaven Defying Space\Ninside the Heaven Defying Bead
+Dialogue: 0,0:02:39.84,0:02:42.71,Sub,,0,0,0,,Where... am I ?
+Dialogue: 0,0:02:42.72,0:02:44.71,Sub,,0,0,0,,Finally...
+Dialogue: 0,0:02:46.04,0:02:47.43,Sub,,0,0,0,,This day
+Dialogue: 0,0:02:48.12,0:02:50.35,Sub,,0,0,0,,has arrived !
+Dialogue: 0,0:02:51.20,0:02:54.40,Card,,0,0,0,,{\pos(1412,459)\fad(300,300)}Situ Nan's\NOrigin Soul
+Dialogue: 0,0:02:54.52,0:02:56.83,Sub,,0,0,0,,My physical body was destroyed
+Dialogue: 0,0:02:56.84,0:03:00.27,Sub,,0,0,0,,and my Origin Soul has been trapped in here for thousands of years !
+Dialogue: 0,0:03:00.28,0:03:01.71,Sub,,0,0,0,,But now...
+Dialogue: 0,0:03:01.72,0:03:04.55,Sub,,0,0,0,,I'll finally regain my freedom !
+Dialogue: 0,0:03:05.36,0:03:05.83,Sub,,0,0,0,,You...
+Dialogue: 0,0:03:05.96,0:03:07.43,Sub,,0,0,0,,Your fate
+Dialogue: 0,0:03:07.44,0:03:09.71,Sub,,0,0,0,,is to become my new body !
+Dialogue: 0,0:03:27.44,0:03:29.04,Sub,,0,0,0,,How is this possible ?!
+Dialogue: 0,0:03:44.32,0:03:47.68,Sub,,0,0,0,,How long does this senior plan on trying ?
+Dialogue: 0,0:03:53.20,0:03:54.31,Sub,,0,0,0,,A mortal...
+Dialogue: 0,0:03:55.88,0:03:57.67,Sub,,0,0,0,,I waited thousands of years
+Dialogue: 0,0:03:57.68,0:04:00.24,Sub,,0,0,0,,for a mortal like you to find me !
+Dialogue: 0,0:04:00.28,0:04:02.80,Sub,,0,0,0,,I can't even possess you !
+Dialogue: 0,0:04:08.80,0:04:11.76,Sub,,0,0,0,,The Heaven Defying Bead really chose someone
+Dialogue: 0,0:04:11.76,0:04:13.31,Sub,,0,0,0,,with mediocre talent.
+Dialogue: 0,0:04:13.76,0:04:15.96,Sub,,0,0,0,,If I wait for him to be able to take me out,
+Dialogue: 0,0:04:15.96,0:04:18.36,Sub,,0,0,0,,planet Suzaku will already have returned to dust !
+Dialogue: 0,0:04:20.16,0:04:21.64,Sub,,0,0,0,,Junior's name is Wang Lin.
+Dialogue: 0,0:04:21.80,0:04:23.12,Sub,,0,0,0,,I want to become an Immortal.
+Dialogue: 0,0:04:23.16,0:04:24.80,Sub,,0,0,0,,Why doesn't Senior help me to cultivate
+Dialogue: 0,0:04:24.80,0:04:25.99,Sub,,0,0,0,,so I can help you to escape.
+Dialogue: 0,0:04:26.04,0:04:28.43,Sub,,0,0,0,,Your talent is mediocre !
+Dialogue: 0,0:04:29.20,0:04:30.23,Sub,,0,0,0,,Talent...
+Dialogue: 0,0:04:31.08,0:04:31.95,Sub,,0,0,0,,Talent...
+Dialogue: 0,0:04:32.68,0:04:34.20,Sub,,0,0,0,,I was born ordinary
+Dialogue: 0,0:04:34.40,0:04:36.00,Sub,,0,0,0,,but I am not fated to stay ordinary !
+Dialogue: 0,0:04:36.00,0:04:37.35,Sub,,0,0,0,,You don't know your limits.
+Dialogue: 0,0:04:38.28,0:04:47.78,Second,,0,0,0,,Note: Several days have passed, the sect thinks Wang Lin disappeared and made a suicide attempt after his failure.
+Dialogue: 0,0:04:40.04,0:04:41.40,Sub,,0,0,0,,Tie Zhu !
+Dialogue: 0,0:04:41.52,0:04:44.15,Sub,,0,0,0,,Where are you, Tie Zhu ?
+Dialogue: 0,0:04:51.76,0:04:52.63,Sub,,0,0,0,,Tie Zhu !
+Dialogue: 0,0:04:53.56,0:04:55.79,Sub,,0,0,0,,Why would you do something so foolish !?
+Dialogue: 0,0:04:55.84,0:04:56.75,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:04:57.00,0:04:59.31,Sub,,0,0,0,,the Sect Leader admires your perseverance
+Dialogue: 0,0:04:59.32,0:05:02.27,Sub,,0,0,0,,and made an exception to accept you as an outer disciple.
+Dialogue: 0,0:05:07.88,0:05:09.63,Sub,,0,0,0,,What ? Are you not willing ?
+Dialogue: 0,0:05:12.76,0:05:14.83,Sub,,0,0,0,,Disciple Wang Lin will follow your teachings
+Dialogue: 0,0:05:14.84,0:05:15.75,Sub,,0,0,0,,and cultivate diligently.
+Dialogue: 0,0:05:15.80,0:05:17.99,Sub,,0,0,0,,Zhang Kuang, take him back to the sect.
+Dialogue: 0,0:05:18.08,0:05:18.55,Sub,,0,0,0,,Sure.
+Dialogue: 0,0:05:20.56,0:05:21.47,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:05:33.88,0:05:34.75,Sub,,0,0,0,,Tie Zhu...
+Dialogue: 0,0:05:38.16,0:05:38.63,Sub,,0,0,0,,Father,
+Dialogue: 0,0:05:39.04,0:05:39.83,Sub,,0,0,0,,Tie Zhu...
+Dialogue: 0,0:05:39.84,0:05:40.43,Sub,,0,0,0,,Mother...
+Dialogue: 0,0:05:42.24,0:05:44.35,Sub,,0,0,0,,I won't disappoint you.
+Dialogue: 0,0:05:54.76,0:05:55.79,Sub,,0,0,0,,In our sect
+Dialogue: 0,0:05:56.16,0:05:57.55,Sub,,0,0,0,,the color of your robe
+Dialogue: 0,0:05:57.76,0:05:59.67,Sub,,0,0,0,,represents your status.
+Dialogue: 0,0:06:00.32,0:06:01.64,Sub,,0,0,0,,White is the highest
+Dialogue: 0,0:06:01.68,0:06:04.15,Sub,,0,0,0,,followed by red and yellow.
+Dialogue: 0,0:06:04.16,0:06:05.07,Sub,,0,0,0,,Senior Brother.
+Dialogue: 0,0:06:05.32,0:06:08.00,Card,,0,0,0,,{\pos(1608,477)\fad(300,300)}Outer Disciples Work Hall\NHeng Yue Sect
+Dialogue: 0,0:06:06.04,0:06:07.20,Sub,,0,0,0,,Then...
+Dialogue: 0,0:06:07.36,0:06:08.72,Sub,,0,0,0,,what rank are gray robes ?
+Dialogue: 0,0:06:08.80,0:06:10.55,Sub,,0,0,0,,They're outer disciples,
+Dialogue: 0,0:06:10.56,0:06:12.80,Sub,,0,0,0,,they aren't counted as inner sect disciples.
+Dialogue: 0,0:06:13.68,0:06:14.95,Sub,,0,0,0,,Brother Zhang !
+Dialogue: 0,0:06:14.96,0:06:16.92,Sub,,0,0,0,,What brings you here today ?
+Dialogue: 0,0:06:13.48,0:06:15.08,Card Hard,,0,0,0,,{\pos(1648,524)\fad(300,000)}Liu Shulang\NHeng Yue Sect disciple\N1st layer of Qi Condensation
+Dialogue: 0,0:06:19.48,0:06:21.03,Sub,,0,0,0,,Stay safe Brother Zhang !
+Dialogue: 0,0:06:28.96,0:06:30.55,Second,,0,0,0,,Just follow my lead and bet big !
+Dialogue: 0,0:06:30.76,0:06:31.67,Second,,0,0,0,,Go, go, go !
+Dialogue: 0,0:06:32.36,0:06:33.47,Second,,0,0,0,,Again, again, again !
+Dialogue: 0,0:06:34.44,0:06:35.23,Second,,0,0,0,,Bet big !
+Dialogue: 0,0:06:35.28,0:06:36.11,Sub,,0,0,0,,What ?
+Dialogue: 0,0:06:36.12,0:06:38.64,Sub,,0,0,0,,Do you expect me to fetch your bedding for you ?
+Dialogue: 0,0:06:38.76,0:06:39.40,Second,,0,0,0,,Yes, yes, yes !
+Dialogue: 0,0:06:39.80,0:06:41.27,Second,,0,0,0,,I told you to bet big !
+Dialogue: 0,0:06:41.52,0:06:42.19,Second,,0,0,0,,Ouch !
+Dialogue: 0,0:06:44.20,0:06:47.04,Sub,,0,0,0,,I heard you got in by attempting suicide.
+Dialogue: 0,0:06:47.16,0:06:48.75,Sub,,0,0,0,,You've got some nerve, kid.
+Dialogue: 0,0:06:51.56,0:06:52.43,Second,,0,0,0,,This round I bet big !
+Dialogue: 0,0:06:52.68,0:06:53.63,Second,,0,0,0,,It's either big or small anyway !
+Dialogue: 0,0:06:53.84,0:06:54.43,Sub,,0,0,0,,Senior Brother,
+Dialogue: 0,0:06:54.96,0:06:55.83,Sub,,0,0,0,,where do I live ?
+Dialogue: 0,0:06:57.76,0:06:59.03,Sub,,0,0,0,,It's just a place to sleep,
+Dialogue: 0,0:06:59.04,0:06:59.95,Sub,,0,0,0,,don't overthink.
+Dialogue: 0,0:07:00.44,0:07:00.95,Sub,,0,0,0,,Here.
+Dialogue: 0,0:07:03.04,0:07:06.00,Card,,0,0,0,,{\pos(288,433)\fad(300,300)}Zhang Hu\NHeng Yue Sect outer disciple
+Dialogue: 0,0:07:03.76,0:07:04.92,Sub,,0,0,0,,I'm Zhang Hu,
+Dialogue: 0,0:07:04.96,0:07:06.64,Sub,,0,0,0,,ask me if you have any questions.
+Dialogue: 0,0:07:09.32,0:07:10.43,Sub,,0,0,0,,Alright, hurry up !
+Dialogue: 0,0:07:10.76,0:07:12.11,Sub,,0,0,0,,These are tomorrow's tasks.
+Dialogue: 0,0:07:13.32,0:07:14.52,Sub,,0,0,0,,Finally, they're here !
+Dialogue: 0,0:07:15.16,0:07:16.19,Sub,,0,0,0,,This one's mine !
+Dialogue: 0,0:07:19.04,0:07:20.32,Sub,,0,0,0,,No switching !
+Dialogue: 0,0:07:20.76,0:07:21.51,Sub,,0,0,0,,Yours is so easy,
+Dialogue: 0,0:07:21.52,0:07:22.63,Sub,,0,0,0,,look at mine !
+Dialogue: 0,0:07:23.64,0:07:24.63,Sub,,0,0,0,,Same rules as always,
+Dialogue: 0,0:07:25.16,0:07:27.28,Sub,,0,0,0,,if you fail to finish the task in 7 days,
+Dialogue: 0,0:07:27.40,0:07:28.91,Sub,,0,0,0,,I'll report to the Elders
+Dialogue: 0,0:07:28.92,0:07:30.39,Sub,,0,0,0,,and you'll be expelled from the sect.
+Dialogue: 0,0:07:31.80,0:07:32.95,Sub,,0,0,0,,Yes, Senior Brother.
+Dialogue: 0,0:07:34.36,0:07:35.27,Sub,,0,0,0,,After I finish the task,
+Dialogue: 0,0:07:35.28,0:07:36.39,Sub,,0,0,0,,can I cultivate ?
+Dialogue: 0,0:07:37.60,0:07:38.55,Sub,,0,0,0,,Cultivate ?
+Dialogue: 0,0:07:39.56,0:07:40.47,Sub,,0,0,0,,Cultivate..?
+Dialogue: 0,0:07:41.20,0:07:42.79,Sub,,0,0,0,,You're better off sleeping.
+Dialogue: 0,0:07:42.80,0:07:44.64,Sub,,0,0,0,,He really thinks he will finish early ?
+Dialogue: 0,0:07:50.16,0:07:51.48,Sub,,0,0,0,,Senior Brother Zhang Hu,
+Dialogue: 0,0:07:51.76,0:07:53.75,Sub,,0,0,0,,why was the red task the last one left ?
+Dialogue: 0,0:07:54.48,0:07:56.44,Sub,,0,0,0,,Is fetching water that hard ?
+Dialogue: 0,0:07:57.12,0:07:58.31,Sub,,0,0,0,,You'll find out tomorrow.
+Dialogue: 0,0:08:00.12,0:08:03.32,Card,,0,0,0,,{\pos(1673,455)\fad(300,300)}Rear mountain of\Nthe Heng Yue Sect
+Dialogue: 0,0:08:40.24,0:08:41.07,Sub,,0,0,0,,It's alright,
+Dialogue: 0,0:08:41.72,0:08:42.63,Sub,,0,0,0,,I still have 6 days.
+Dialogue: 0,0:08:43.44,0:08:44.43,Sub,,0,0,0,,If I work harder,
+Dialogue: 0,0:08:44.44,0:08:45.51,Sub,,0,0,0,,I can do it.
+Dialogue: 0,0:09:00.76,0:09:03.16,Sub,,0,0,0,,Can it really heal injuries ?
+Dialogue: 0,0:09:31.76,0:09:33.40,Sub,,0,0,0,,I feel so light.
+Dialogue: 0,0:09:33.76,0:09:37.32,Sub,,0,0,0,,Even water the Heaven Defying Bead was soaked into has effects.
+Dialogue: 0,0:09:39.08,0:09:43.55,Sub,,0,0,0,,Although the outer disciples have low status,
+Dialogue: 0,0:09:43.56,0:09:47.23,Sub,,0,0,0,,they still roam these spiritual mountains all day.
+Dialogue: 0,0:09:47.24,0:09:49.27,Sub,,0,0,0,,Who knows what treasures they might find ?
+Dialogue: 0,0:09:50.04,0:09:52.87,Sub,,0,0,0,,It would be a waste to leave it to them.
+Dialogue: 0,0:09:53.68,0:09:56.35,Sub,,0,0,0,,We should take it for ourselves.
+Dialogue: 0,0:09:56.36,0:09:58.68,Sub,,0,0,0,,It's all for the Dao of immortality.
+Dialogue: 0,0:09:58.76,0:10:01.92,Sub,,0,0,0,,Don’t worry, I'll give you any treasure they find.
+Dialogue: 0,0:10:11.28,0:10:15.07,Sub,,0,0,0,,Dew is the essence of water, let’s try with it.
+Dialogue: 0,0:10:39.40,0:10:42.11,Sub,,0,0,0,,The effect of dew is even better !
+Dialogue: 0,0:10:44.80,0:10:46.15,Sub,,0,0,0,,Not bad.
+Dialogue: 0,0:10:46.16,0:10:49.48,Sub,,0,0,0,,This kid actually upgraded the water element of the Heaven Defying Bead.
+Dialogue: 0,0:11:10.44,0:11:12.39,Sub,,0,0,0,,It's only been 4 days
+Dialogue: 0,0:11:12.40,0:11:14.07,Sub,,0,0,0,,and he's almost done ?
+Dialogue: 0,0:11:14.08,0:11:16.52,Sub,,0,0,0,,This kid is definitely suspicious.
+Dialogue: 0,0:11:34.64,0:11:35.88,Sub,,0,0,0,,What’s going on ?
+Dialogue: 0,0:11:38.24,0:11:39.07,Sub,,0,0,0,,Senior Brother Liu...
+Dialogue: 0,0:11:39.80,0:11:42.35,Sub,,0,0,0,,Where have you hidden your treasure ?
+Dialogue: 0,0:11:43.08,0:11:44.47,Sub,,0,0,0,,What treasure ?
+Dialogue: 0,0:11:44.48,0:11:46.03,Sub,,0,0,0,,I don’t understand what you mean.
+Dialogue: 0,0:11:47.12,0:11:48.96,Sub,,0,0,0,,Don't you dare lie to me !
+Dialogue: 0,0:11:48.96,0:11:50.03,Sub,,0,0,0,,Remember
+Dialogue: 0,0:11:50.04,0:11:51.91,Sub,,0,0,0,,that as long as you’re in the Heng Yue Sect,
+Dialogue: 0,0:11:51.92,0:11:53.47,Sub,,0,0,0,,you’ll be beneath me !
+Dialogue: 0,0:11:53.92,0:11:55.87,Sub,,0,0,0,,Don't you dare hide treasures from me !
+Dialogue: 0,0:11:56.56,0:11:57.02,Sub,,0,0,0,,Hmph!
+Dialogue: 0,0:12:02.88,0:12:03.99,Sub,,0,0,0,,Wang Lin !
+Dialogue: 0,0:12:07.24,0:12:09.43,Sub,,0,0,0,,You fool ! Why didn’t you fight back !?
+Dialogue: 0,0:12:10.68,0:12:13.15,Sub,,0,0,0,,I remember everything he did to me.
+Dialogue: 0,0:12:14.04,0:12:15.96,Sub,,0,0,0,,As long as I become an Immortal,
+Dialogue: 0,0:12:16.24,0:12:17.11,Sub,,0,0,0,,I can wait.
+Dialogue: 0,0:12:17.32,0:12:18.35,Sub,,0,0,0,,But I can’t wait !
+Dialogue: 0,0:12:18.80,0:12:21.32,Sub,,0,0,0,,From now on, I’ll teach you cultivation.
+Dialogue: 0,0:12:22.16,0:12:23.56,Sub,,0,0,0,,Why are you laughing ?
+Dialogue: 0,0:12:23.76,0:12:24.75,Sub,,0,0,0,,It's nothing,
+Dialogue: 0,0:12:25.04,0:12:27.67,Sub,,0,0,0,,I was worried Senior would abandon me for someone else.
+Dialogue: 0,0:12:29.00,0:12:30.36,Sub,,0,0,0,,Do you think I don’t want to ?
+Dialogue: 0,0:12:30.36,0:12:32.88,Sub,,0,0,0,,But the damn Heaven Defying Bead chose you !
+Dialogue: 0,0:12:34.24,0:12:36.23,Sub,,0,0,0,,I’ll strengthen your Spirit Root first.
+Dialogue: 0,0:12:36.72,0:12:40.27,Sub,,0,0,0,,How many clouds are there on the Heaven Defying Bead ?
+Dialogue: 0,0:12:40.64,0:12:41.55,Sub,,0,0,0,,Nine.
+Dialogue: 0,0:12:41.96,0:12:43.47,Sub,,0,0,0,,So one more is missing
+Dialogue: 0,0:12:43.48,0:12:45.11,Sub,,0,0,0,,before you can start cultivating.
+Dialogue: 0,0:12:45.56,0:12:47.92,Sub,,0,0,0,,The Heng Yue Sect’s spiritual energy is thin,
+Dialogue: 0,0:12:48.00,0:12:49.52,Sub,,0,0,0,,but it's better than nothing.
+Dialogue: 0,0:12:49.56,0:12:51.23,Sub,,0,0,0,,Keep collecting dew
+Dialogue: 0,0:12:51.88,0:12:53.75,Sub,,0,0,0,,and upgrade the Heaven Defying Bead.
+Dialogue: 0,0:12:54.36,0:12:55.15,Sub,,0,0,0,,Senior Situ,
+Dialogue: 0,0:12:56.04,0:12:56.67,Sub,,0,0,0,,thank you.
+Dialogue: 0,0:12:58.69,0:13:29.63,Sub,,0,0,0,,Note: Cultivation is born from real Daoism, Buddhism and Confucianism. It's internal alchemy. Instead of swallowing mercury to try to become immortal, you breathe and meditate to absorb spiritual energy and use your own body as a furnace to create the true elixir of immortality: the Golden Core.
+Dialogue: 0,0:13:32.88,0:13:35.36,Sub,,0,0,0,,The realms of the first step of cultivation are:
+Dialogue: 0,0:13:35.40,0:13:36.76,Sub,,0,0,0,,Qi Condensation,
+Dialogue: 0,0:13:37.24,0:13:38.28,Sub,,0,0,0,,Foundation Establishment,
+Dialogue: 0,0:13:38.44,0:13:39.72,Sub,,0,0,0,,Core Formation,
+Dialogue: 0,0:13:39.96,0:13:41.08,Sub,,0,0,0,,Nascent Soul,
+Dialogue: 0,0:13:41.36,0:13:42.36,Sub,,0,0,0,,Soul Formation,
+Dialogue: 0,0:13:42.52,0:13:43.56,Sub,,0,0,0,,Soul Transformation,
+Dialogue: 0,0:13:43.72,0:13:45.71,Sub,,0,0,0,,and Ascendant.
+Dialogue: 0,0:13:35.40,0:13:45.72,Second,,0,0,0,,Note: Refer to the cultivation level cheat sheet if needed.
+Dialogue: 0,0:13:46.84,0:13:48.64,Sub,,0,0,0,,Let's start with the chants for the
+Dialogue: 0,0:13:48.68,0:13:50.60,Sub,,0,0,0,,first 3 layers of Qi Condensation.
+Dialogue: 0,0:13:57.52,0:13:59.11,Sub,,0,0,0,,Focus on your breathing !
+Dialogue: 0,0:14:02.04,0:14:04.96,Sub,,0,0,0,,10 hours inside the bead is only 1 hour outside.
+Dialogue: 0,0:14:05.27,0:14:08.19,Sub,,0,0,0,,Time in the Heaven Defying Space flows 10 times faster.
+Dialogue: 0,0:14:08.48,0:14:10.59,Sub,,0,0,0,,This will buy your mortal body
+Dialogue: 0,0:14:10.60,0:14:12.51,Sub,,0,0,0,,more time to cultivate.
+Dialogue: 0,0:14:15.20,0:14:17.52,Sub,,0,0,0,,{\fad(300,700)\pos(968,537)}6 months later
+Dialogue: 0,0:14:17.40,0:14:20.88,Sub,,0,0,0,,Senior Brother Liu has been preparing the Sect Competition
+Dialogue: 0,0:14:21.04,0:14:22.76,Sub,,0,0,0,,so he doesn't have time to harass us anymore.
+Dialogue: 0,0:14:22.88,0:14:25.91,Sub,,0,0,0,,The Xuan Dao Sect pretends to be friendly
+Dialogue: 0,0:14:25.92,0:14:27.83,Sub,,0,0,0,,but they’ve always been our rivals.
+Dialogue: 0,0:14:28.44,0:14:30.31,Sub,,0,0,0,,In the last few competitions,
+Dialogue: 0,0:14:30.32,0:14:31.71,Sub,,0,0,0,,they won every match.
+Dialogue: 0,0:14:31.72,0:14:33.19,Sub,,0,0,0,,We must be prepared.
+Dialogue: 0,0:14:37.04,0:14:39.47,Sub,,0,0,0,,The competition with the Xuan Dao Sect is coming.
+Dialogue: 0,0:14:39.92,0:14:42.75,Sub,,0,0,0,,Elder Sun will select one of you
+Dialogue: 0,0:14:42.76,0:14:44.63,Sub,,0,0,0,,to become an inner disciple.
+Dialogue: 0,0:14:45.40,0:14:46.19,Sub,,0,0,0,,Me ! Pick me !
+Dialogue: 0,0:14:46.76,0:14:47.72,Sub,,0,0,0,,Choose me !
+Dialogue: 0,0:14:51.52,0:14:53.07,Sub,,0,0,0,,Choose me !
+Dialogue: 0,0:14:54.88,0:14:55.67,Sub,,0,0,0,,Me ! Me !
+Dialogue: 0,0:14:59.76,0:15:00.63,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:15:01.08,0:15:02.27,Sub,,0,0,0,,although you lack talent,
+Dialogue: 0,0:15:02.80,0:15:04.67,Sub,,0,0,0,,your perseverance is exceptional.
+Dialogue: 0,0:15:05.32,0:15:07.23,Sub,,0,0,0,,Will you become my disciple ?
+Dialogue: 0,0:15:09.36,0:15:10.48,Sub,,0,0,0,,Why him !?
+Dialogue: 0,0:15:10.48,0:15:11.91,Sub,,0,0,0,,Why choose him ?
+Dialogue: 0,0:15:12.24,0:15:14.55,Sub,,0,0,0,,Whether it's talent, diligence or seniority,
+Dialogue: 0,0:15:14.56,0:15:15.95,Sub,,0,0,0,,he's not qualified !
+Dialogue: 0,0:15:16.84,0:15:18.20,Sub,,0,0,0,,What are you staring at ?
+Dialogue: 0,0:15:19.56,0:15:20.23,Sub,,0,0,0,,Master.
+Dialogue: 0,0:15:22.40,0:15:26.27,Sub,,0,0,0,,This pill and bag of holding are gifts for you, my disciple.
+Dialogue: 0,0:15:26.76,0:15:29.91,Sub,,0,0,0,,It’s the tradition of the Heng Yue Sect.
+Dialogue: 0,0:15:39.96,0:15:40.95,Sub,,0,0,0,,Move along,
+Dialogue: 0,0:15:40.96,0:15:41.91,Sub,,0,0,0,,let's go back to work.
+Dialogue: 0,0:15:41.92,0:15:43.71,Sub,,0,0,0,,Back to being lowly outer disciples...
+Dialogue: 0,0:15:49.52,0:15:50.56,Sub,,0,0,0,,Senior Situ,
+Dialogue: 0,0:15:50.68,0:15:51.64,Sub,,0,0,0,,I did it !
+Dialogue: 0,0:15:54.16,0:15:56.20,Card,,0,0,0,,{\pos(1602,503)\fad(300,000)}Wang Lin\NHeng Yue Sect disciple\N1st layer of Qi Condensation
+Dialogue: 0,0:15:54.40,0:15:56.36,Sub,,0,0,0,,I've mastered the Attraction technique !
+Dialogue: 0,0:15:56.64,0:15:58.03,Sub,,0,0,0,,Don't get cocky.
+Dialogue: 0,0:15:58.64,0:16:01.08,Sub,,0,0,0,,After cultivating in the Heaven Defying Bead for so long,
+Dialogue: 0,0:16:01.12,0:16:04.00,Sub,,0,0,0,,you’ve only barely reached the 1st layer of Qi Condensation.
+Dialogue: 0,0:16:04.12,0:16:06.16,Sub,,0,0,0,,Only your Attraction technique
+Dialogue: 0,0:16:06.28,0:16:07.12,Sub,,0,0,0,,is passable.
+Dialogue: 0,0:16:36.84,0:16:41.52,Second,,0,0,0,,Note: 1 jin = 500g
+Dialogue: 0,0:16:36.84,0:16:39.47,Sub,,0,0,0,,Senior Brother Liu, we agreed on 100 jin of firewood.
+Dialogue: 0,0:16:39.68,0:16:41.52,Sub,,0,0,0,,But now you’ve raised it to 1000 jin !
+Dialogue: 0,0:16:41.60,0:16:43.75,Sub,,0,0,0,,I, Zhang Hu, have bribed you well over these years.
+Dialogue: 0,0:16:43.76,0:16:45.23,Sub,,0,0,0,,Are you really trying to expel me !?
+Dialogue: 0,0:16:46.32,0:16:49.31,Sub,,0,0,0,,At least 30% of the wood you chop is water.
+Dialogue: 0,0:16:49.72,0:16:51.24,Sub,,0,0,0,,You’re slandering me !
+Dialogue: 0,0:16:51.52,0:16:52.51,Sub,,0,0,0,,Is it because
+Dialogue: 0,0:16:52.52,0:16:54.36,Sub,,0,0,0,,I saw Zhao Fugui gift you a talisman ?
+Dialogue: 0,0:16:54.44,0:16:57.11,Sub,,0,0,0,,Fine ! I’ll ask the Sect Leader about it !
+Dialogue: 0,0:16:58.24,0:16:59.31,Sub,,0,0,0,,Zhang Hu,
+Dialogue: 0,0:16:59.32,0:17:00.79,Sub,,0,0,0,,you forced me to do this !
+Dialogue: 0,0:17:08.00,0:17:12.11,Sub,,0,0,0,,Stupid mortal, do you think you’ll live to see the Sect Leader ?
+Dialogue: 0,0:17:27.72,0:17:30.03,Sub,,0,0,0,,You already learned the Attraction technique ?
+Dialogue: 0,0:17:30.60,0:17:32.83,Sub,,0,0,0,,We're disciples of the same sect so don’t go too far !
+Dialogue: 0,0:17:33.36,0:17:35.27,Sub,,0,0,0,,Are you lecturing me !?
+Dialogue: 0,0:17:35.96,0:17:37.20,Sub,,0,0,0,,Wang Lin, watch out !
+Dialogue: 0,0:17:43.96,0:17:45.55,Sub,,0,0,0,,Today is the day you die !
+Dialogue: 0,0:18:10.48,0:18:11.75,Sub,,0,0,0,,You humiliated and bullied me,
+Dialogue: 0,0:18:11.80,0:18:13.52,Sub,,0,0,0,,now you're trying to kill a disciple.
+Dialogue: 0,0:18:13.72,0:18:14.95,Sub,,0,0,0,,You must be punished !
+Dialogue: 0,0:18:22.40,0:18:26.55,Sub,,0,0,0,,You stupid ant, I’ll kill you !
+Dialogue: 0,0:18:55.38,0:20:57.33,Note,,0,0,0,,{\fad(1000,1000)}In the novel, Wang Lin returns home after failing the test. He then leaves during the night after writing a farewell letter to his parents and he tries to go back to the sect by himself. He then falls off a cliff and gets swallowed by the wind inside the cave where he finds the Heaven Defying Bead inside the stomach of a dead bird he was eating to survive. The suction force of the wind and his broken arm prevent him from escaping and he ends up staying there for multiple days. The whole part was cut but the consequences of it are still here with the characters thinking he attempted to kill himself.\N\NIt is important to understand that by soaking the Heaven Defying Bead in water, it absorbed spiritual energy of the water element and upgraded, thus allowing Wang Lin to cultivate inside it with the time acceleration.\NThe 5 elements of chinese feng shui are water, earth, fire, metal and wood. After seeing the bead absorb one element, Wang Lin guesses that he needs to complete all 5 to unlock the true power of the Heaven Defying Bead.\N\NSpirit Roots were mentionned in the first 2 episodes, think of them as someone's potential for cultivation. They also have properties of the 5 elements.\N\NThis is also a good time to learn the different ranks of sect members. There might be variations but the most common hierarchy is this one :\NAncestor > Sect Leader > core disciple > Elder > inner disciple > outer disciple\NThere are some sects like here in Heng Yue where outer disciples are mortals but in better sects the outer disciples will be cultivators of low level.
+Dialogue: 0,0:19:01.00,0:19:06.64,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:19:03.65,0:19:06.64,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:19:07.28,0:19:12.24,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:19:09.12,0:19:12.24,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:19:12.40,0:19:18.16,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:19:18.28,0:19:23.88,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:19:24.16,0:19:29.48,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:19:26.04,0:19:29.48,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:19:29.76,0:19:35.08,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:19:31.66,0:19:35.08,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:19:35.12,0:19:40.80,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:19:38.00,0:19:40.80,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:19:41.24,0:19:45.44,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:19:43.40,0:19:45.44,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:19:45.52,0:19:48.76,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:19:48.80,0:19:51.84,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:19:51.97,0:19:57.40,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:19:53.66,0:19:57.40,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:19:57.40,0:20:00.52,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:20:00.52,0:20:03.56,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:20:03.56,0:20:08.92,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:20:05.44,0:20:08.92,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:20:08.92,0:20:11.88,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:20:11.88,0:20:14.68,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:20:14.68,0:20:20.16,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:20:16.72,0:20:20.16,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:20:20.36,0:20:23.52,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:20:23.52,0:20:26.56,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:20:26.56,0:20:32.24,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:20:28.88,0:20:32.24,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

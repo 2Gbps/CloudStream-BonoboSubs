@@ -1,0 +1,336 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:58.20,0:01:58.92,Sub,,0,0,0,,Run !
+Dialogue: 0,0:02:06.48,0:02:07.44,Sub,,0,0,0,,Hold on tight !
+Dialogue: 0,0:02:09.04,0:02:10.00,Sub,,0,0,0,,Help me !
+Dialogue: 0,0:02:10.00,0:02:11.32,Sub,,0,0,0,,Save me !
+Dialogue: 0,0:02:27.12,0:02:27.80,Sub,,0,0,0,,What is this ?
+Dialogue: 0,0:02:27.80,0:02:29.76,Sub,,0,0,0,,Senior Brother, what do we do !?
+Dialogue: 0,0:02:30.52,0:02:31.92,Sub,,0,0,0,,The Foreign Battlefield is collapsing !
+Dialogue: 0,0:02:32.12,0:02:33.80,Sub,,0,0,0,,Hurry to the teleportation formation !
+Dialogue: 0,0:02:53.24,0:02:54.08,Sub,,0,0,0,,Ma Liang...
+Dialogue: 0,0:02:54.92,0:02:57.20,Sub,,0,0,0,,War God Shrine disciple from the Burning Fire country...
+Dialogue: 0,0:02:57.48,0:02:58.92,Sub,,0,0,0,,Teleportation formation...
+Dialogue: 0,0:02:59.16,0:03:00.32,Sub,,0,0,0,,I have 3 days...
+Dialogue: 0,0:03:02.56,0:03:03.56,Sub,,0,0,0,,You’re courting death !
+Dialogue: 0,0:03:10.72,0:03:11.88,Sub,,0,0,0,,So you guys
+Dialogue: 0,0:03:11.92,0:03:13.36,Sub,,0,0,0,,have also crossed the rift.
+Dialogue: 0,0:03:23.40,0:03:24.16,Sub,,0,0,0,,Little brother,
+Dialogue: 0,0:03:24.80,0:03:26.64,Sub,,0,0,0,,I never thought you’d actually do it.
+Dialogue: 0,0:03:27.16,0:03:28.32,Sub,,0,0,0,,Those two old fools
+Dialogue: 0,0:03:28.32,0:03:29.56,Sub,,0,0,0,,asked me to talk to you.
+Dialogue: 0,0:03:29.56,0:03:31.12,Sub,,0,0,0,,Since this space is collapsing,
+Dialogue: 0,0:03:31.12,0:03:32.56,Sub,,0,0,0,,what are your plans now ?
+Dialogue: 0,0:03:32.80,0:03:34.12,Sub,,0,0,0,,Will you stay here
+Dialogue: 0,0:03:34.12,0:03:36.16,Sub,,0,0,0,,and devour this place with us ?
+Dialogue: 0,0:03:37.12,0:03:39.96,Sub,,0,0,0,,I'll use the teleportation formation to return to the mortal world.
+Dialogue: 0,0:03:39.96,0:03:41.12,Sub,,0,0,0,,Th...that’s impossible !
+Dialogue: 0,0:03:41.12,0:03:42.56,Sub,,0,0,0,,Newborn Soul Devourer,
+Dialogue: 0,0:03:42.56,0:03:44.68,Sub,,0,0,0,,there’s something you don’t understand.
+Dialogue: 0,0:03:45.16,0:03:46.36,Sub,,0,0,0,,The souls here
+Dialogue: 0,0:03:46.52,0:03:48.48,Sub,,0,0,0,,cannot leave this place.
+Dialogue: 0,0:03:49.24,0:03:50.68,Sub,,0,0,0,,Cultivators stand no chance
+Dialogue: 0,0:03:50.68,0:03:53.56,Sub,,0,0,0,,against the power of the souls here.
+Dialogue: 0,0:03:53.56,0:03:56.64,Sub,,0,0,0,,If wandering souls enter the mortal world,
+Dialogue: 0,0:03:56.64,0:03:58.68,Sub,,0,0,0,,they’ll be called devils
+Dialogue: 0,0:03:58.68,0:04:01.40,Sub,,0,0,0,,and bring a catastrophe to the world.
+Dialogue: 0,0:04:01.40,0:04:04.60,Sub,,0,0,0,,That is why the law of the world
+Dialogue: 0,0:04:04.60,0:04:07.00,Sub,,0,0,0,,exists between the dead and the living.
+Dialogue: 0,0:04:07.28,0:04:09.48,Sub,,0,0,0,,Any who dare to cross it
+Dialogue: 0,0:04:09.48,0:04:11.52,Sub,,0,0,0,,will be erased.
+Dialogue: 0,0:04:11.52,0:04:14.76,Sub,,0,0,0,,Then what is the Foreign Battlefield ?
+Dialogue: 0,0:04:14.80,0:04:16.52,Sub,,0,0,0,,This chaotic place
+Dialogue: 0,0:04:16.52,0:04:18.96,Sub,,0,0,0,,was created by powerful beings of the mortal world
+Dialogue: 0,0:04:18.96,0:04:21.84,Sub,,0,0,0,,and exists between life and death.
+Dialogue: 0,0:04:23.04,0:04:24.36,Sub,,0,0,0,,That's why
+Dialogue: 0,0:04:24.36,0:04:26.64,Sub,,0,0,0,,Soul Devourers and wandering souls
+Dialogue: 0,0:04:26.64,0:04:29.64,Sub,,0,0,0,,were only able to enter this place when it started collapsing.
+Dialogue: 0,0:04:29.72,0:04:30.64,Sub,,0,0,0,,Still,
+Dialogue: 0,0:04:30.64,0:04:32.44,Sub,,0,0,0,,you won't be able to leave.
+Dialogue: 0,0:04:32.44,0:04:34.80,Sub,,0,0,0,,Let alone those wandering souls.
+Dialogue: 0,0:04:35.48,0:04:37.24,Sub,,0,0,0,,As long as this place doesn’t fully collapse
+Dialogue: 0,0:04:37.24,0:04:39.16,Sub,,0,0,0,,and I activate the teleportation formation,
+Dialogue: 0,0:04:39.16,0:04:41.12,Sub,,0,0,0,,what will stop me from leaving ?
+Dialogue: 0,0:04:42.88,0:04:43.68,Sub,,0,0,0,,Fine,
+Dialogue: 0,0:04:44.16,0:04:45.12,Sub,,0,0,0,,since we are friends,
+Dialogue: 0,0:04:45.72,0:04:48.28,Sub,,0,0,0,,I will try to slow down the collapse
+Dialogue: 0,0:04:48.76,0:04:50.36,Sub,,0,0,0,,but you can’t stop the wandering souls
+Dialogue: 0,0:04:50.36,0:04:51.64,Sub,,0,0,0,,from hunting.
+Dialogue: 0,0:04:53.36,0:04:54.36,Sub,,0,0,0,,One more thing.
+Dialogue: 0,0:04:55.80,0:04:57.16,Sub,,0,0,0,,I need your help.
+Dialogue: 0,0:05:01.48,0:05:02.76,Sub,,0,0,0,,We’ll be safe at the teleportation formation.
+Dialogue: 0,0:05:02.76,0:05:03.56,Sub,,0,0,0,,Keep going !
+Dialogue: 0,0:05:09.72,0:05:11.68,Sub,,0,0,0,,Junior Brother Ma Liang never returned
+Dialogue: 0,0:05:11.68,0:05:12.88,Sub,,0,0,0,,so he must be dead.
+Dialogue: 0,0:05:12.36,0:05:14.40,Card,,0,0,0,,{\pos(1515,462)\fad(300,000)}Lin Tao\NWar God Shrine disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:05:12.88,0:05:13.88,Sub,,0,0,0,,We're out of luck,
+Dialogue: 0,0:05:13.88,0:05:15.84,Sub,,0,0,0,,where did these monsters come from ?
+Dialogue: 0,0:05:16.48,0:05:19.32,Card,,0,0,0,,{\pos(340,465)\fad(300,300)}Yang Xiong\NWar God Shrine disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:05:17.84,0:05:18.56,Sub,,0,0,0,,Junior Brother Ma,
+Dialogue: 0,0:05:18.56,0:05:19.16,Sub,,0,0,0,,quick !
+Dialogue: 0,0:05:19.36,0:05:20.16,Sub,,0,0,0,,Everyone, I'm here,
+Dialogue: 0,0:05:20.16,0:05:20.84,Sub,,0,0,0,,wait for me !
+Dialogue: 0,0:05:22.92,0:05:23.76,Sub,,0,0,0,,Ma Liang...
+Dialogue: 0,0:05:24.88,0:05:25.88,Sub,,0,0,0,,I'm glad he's alive.
+Dialogue: 0,0:05:29.84,0:05:30.88,Sub,,0,0,0,,This time,
+Dialogue: 0,0:05:30.88,0:05:32.12,Sub,,0,0,0,,we’re done for !
+Dialogue: 0,0:05:35.88,0:05:36.68,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:05:40.00,0:05:41.44,Sub,,0,0,0,,The heavens are in our favor,
+Dialogue: 0,0:05:41.44,0:05:43.04,Sub,,0,0,0,,they want me to survive !
+Dialogue: 0,0:05:43.04,0:05:43.84,Sub,,0,0,0,,Junior Sister,
+Dialogue: 0,0:05:44.28,0:05:46.84,Sub,,0,0,0,,I don’t know why those monsters stopped attacking us
+Dialogue: 0,0:05:47.24,0:05:48.48,Sub,,0,0,0,,but we can’t stay here.
+Dialogue: 0,0:05:49.16,0:05:51.00,Sub,,0,0,0,,Let’s go to the teleportation formation
+Dialogue: 0,0:05:51.00,0:05:52.76,Sub,,0,0,0,,so we can leave the Foreign Battlefield.
+Dialogue: 0,0:05:53.16,0:05:53.96,Sub,,0,0,0,,Okay.
+Dialogue: 0,0:05:53.98,0:05:56.00,Sub,,0,0,0,,Junior Brother Ma, stay close to us
+Dialogue: 0,0:05:56.00,0:05:57.36,Sub,,0,0,0,,since you're the weakest.
+Dialogue: 0,0:05:57.56,0:05:58.64,Sub,,0,0,0,,Stop wasting time.
+Dialogue: 0,0:05:58.64,0:06:00.36,Sub,,0,0,0,,If you're not going, I'll go.
+Dialogue: 0,0:06:01.48,0:06:03.08,Sub,,0,0,0,,Stay close and be careful.
+Dialogue: 0,0:06:03.44,0:06:04.24,Sub,,0,0,0,,Okay.
+Dialogue: 0,0:06:04.44,0:06:06.12,Sub,,0,0,0,,Now I understand why Ma Liang
+Dialogue: 0,0:06:06.12,0:06:08.27,Sub,,0,0,0,,was grateful to Zhou Zihong in his memory.
+Dialogue: 0,0:06:08.27,0:06:10.24,Sub,,0,0,0,,Since I’ve taken his body,
+Dialogue: 0,0:06:10.24,0:06:12.08,Sub,,0,0,0,,I should fulfill some of his wishes
+Dialogue: 0,0:06:12.08,0:06:13.72,Sub,,0,0,0,,even if I have other plans for these three.
+Dialogue: 0,0:06:13.72,0:06:14.80,Sub,,0,0,0,,Thank you, Senior Sister.
+Dialogue: 0,0:06:17.72,0:06:19.56,Sub,,0,0,0,,This body has no spiritual energy,
+Dialogue: 0,0:06:20.00,0:06:21.56,Sub,,0,0,0,,I'm driving it with my Divine Sense.
+Dialogue: 0,0:06:21.56,0:06:23.44,Sub,,0,0,0,,Once I leave the Foreign Battlefield,
+Dialogue: 0,0:06:23.52,0:06:25.64,Sub,,0,0,0,,I need to find a place to cultivate.
+Dialogue: 0,0:06:27.96,0:06:31.84,Sub,,0,0,0,,{\fad(800,800)\pos(960,490)}2 days later
+Dialogue: 0,0:06:34.52,0:06:37.24,Sub,,0,0,0,,Where is the teleportation formation ? I still don't see it.
+Dialogue: 0,0:06:37.68,0:06:39.32,Sub,,0,0,0,,We chose the closest one to us.
+Dialogue: 0,0:06:39.56,0:06:41.80,Sub,,0,0,0,,Don't you feel like
+Dialogue: 0,0:06:41.80,0:06:44.24,Sub,,0,0,0,,the collapse has slowed down lately ?
+Dialogue: 0,0:06:44.48,0:06:45.52,Sub,,0,0,0,,Weird...
+Dialogue: 0,0:06:45.52,0:06:48.08,Sub,,0,0,0,,Logically, it should be accelerating.
+Dialogue: 0,0:06:50.32,0:06:51.64,Sub,,0,0,0,,It’s been 2 days.
+Dialogue: 0,0:06:52.40,0:06:54.28,Sub,,0,0,0,,They’re probably dead.
+Dialogue: 0,0:06:54.80,0:06:55.64,Sub,,0,0,0,,Keep looking.
+Dialogue: 0,0:06:56.36,0:06:59.08,Sub,,0,0,0,,Ge Yang and Xu Hao know the real Ma Liang is dead
+Dialogue: 0,0:06:59.08,0:07:00.64,Sub,,0,0,0,,so they must die.
+Dialogue: 0,0:07:01.28,0:07:03.20,Sub,,0,0,0,,The teleportation formation requires a token
+Dialogue: 0,0:07:03.56,0:07:06.00,Sub,,0,0,0,,but they also stole Ma Liang’s token.
+Dialogue: 0,0:07:06.72,0:07:08.14,Sub,,0,0,0,,I'd like to find it if possible.
+Dialogue: 0,0:07:08.20,0:07:09.44,Sub,,0,0,0,,If I can't find it,
+Dialogue: 0,0:07:09.68,0:07:13.00,Sub,,0,0,0,,I’ll need to steal a token from my fellow sect members.
+Dialogue: 0,0:07:14.16,0:07:16.48,Sub,,0,0,0,,You're really cunning for a Soul Devourer...
+Dialogue: 0,0:07:16.80,0:07:17.68,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:07:17.68,0:07:18.68,Sub,,0,0,0,,I’ll keep looking.
+Dialogue: 0,0:07:19.96,0:07:21.32,Sub,,0,0,0,,Zihong, be careful !
+Dialogue: 0,0:07:31.32,0:07:33.08,Sub,,0,0,0,,There’s something wrong with Ma Liang.
+Dialogue: 0,0:07:33.28,0:07:34.20,Sub,,0,0,0,,Our smooth journey
+Dialogue: 0,0:07:34.20,0:07:35.32,Sub,,0,0,0,,is not a coincidence.
+Dialogue: 0,0:07:35.48,0:07:37.16,Sub,,0,0,0,,Ever since Junior Brother Ma returned,
+Dialogue: 0,0:07:37.16,0:07:39.64,Sub,,0,0,0,,these creatures stopped attacking us.
+Dialogue: 0,0:07:39.96,0:07:41.72,Sub,,0,0,0,,If you want to live
+Dialogue: 0,0:07:41.72,0:07:43.20,Sub,,0,0,0,,don’t ask questions.
+Dialogue: 0,0:08:07.40,0:08:09.68,Sub,,0,0,0,,We found what you wanted.
+Dialogue: 0,0:08:09.68,0:08:10.40,Sub,,0,0,0,,Stop here.
+Dialogue: 0,0:08:12.88,0:08:15.00,Sub,,0,0,0,,He can control the wandering souls !?
+Dialogue: 0,0:08:17.20,0:08:18.88,Sub,,0,0,0,,According to the Soul Devourer,
+Dialogue: 0,0:08:19.24,0:08:22.32,Sub,,0,0,0,,wandering souls are beings made of Divine Sense.
+Dialogue: 0,0:08:22.60,0:08:24.80,Sub,,0,0,0,,They're driven by instinct to devour everything.
+Dialogue: 0,0:08:24.84,0:08:27.32,Sub,,0,0,0,,But this soul's ethereal body is weird.
+Dialogue: 0,0:08:27.32,0:08:29.24,Sub,,0,0,0,,It looks like devouring so much Divine Sense
+Dialogue: 0,0:08:29.24,0:08:31.04,Sub,,0,0,0,,can leave traces.
+Dialogue: 0,0:08:31.04,0:08:33.96,Sub,,0,0,0,,It must have mutated.
+Dialogue: 0,0:08:34.16,0:08:35.16,Sub,,0,0,0,,Kill him.
+Dialogue: 0,0:08:38.72,0:08:39.96,Sub,,0,0,0,,I bear no grudge against Ma Liang.
+Dialogue: 0,0:08:39.96,0:08:41.20,Sub,,0,0,0,,Senior, please spare me !
+Dialogue: 0,0:08:41.20,0:08:43.32,Sub,,0,0,0,,I... I'm willing to become your slave.
+Dialogue: 0,0:08:43.32,0:08:44.48,Sub,,0,0,0,,Please spare my life !
+Dialogue: 0,0:08:45.28,0:08:45.96,Sub,,0,0,0,,Stop.
+Dialogue: 0,0:08:50.60,0:08:51.44,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:08:51.43,0:08:53.87,Sub,,0,0,0,,I would be honored to become your slave
+Dialogue: 0,0:08:53.88,0:08:56.32,Sub,,0,0,0,,and return safely to the Burning Fire country.
+Dialogue: 0,0:08:56.32,0:09:00.24,Sub,,0,0,0,,Note: Lin Tao is giving his Soul Blood to Wang Lin here, he is willingly becoming a slave.
+Dialogue: 0,0:09:01.44,0:09:03.32,Sub,,0,0,0,,I’m not bloodthirsty by nature
+Dialogue: 0,0:09:03.32,0:09:05.52,Sub,,0,0,0,,but if you’re not smart...
+Dialogue: 0,0:09:06.20,0:09:07.84,Sub,,0,0,0,,I’ll have no choice but to be.
+Dialogue: 0,0:09:16.88,0:09:18.76,Sub,,0,0,0,,Junior Sister, you...
+Dialogue: 0,0:09:19.04,0:09:19.96,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:09:19.96,0:09:21.40,Sub,,0,0,0,,I’ve been meaning to ask.
+Dialogue: 0,0:09:21.56,0:09:23.88,Sub,,0,0,0,,When you possessed Ma Liang,
+Dialogue: 0,0:09:24.64,0:09:26.60,Sub,,0,0,0,,was he alive or dead ?
+Dialogue: 0,0:09:26.68,0:09:27.76,Sub,,0,0,0,,Dead.
+Dialogue: 0,0:09:42.36,0:09:43.68,Sub,,0,0,0,,This wandering soul
+Dialogue: 0,0:09:43.68,0:09:45.04,Sub,,0,0,0,,is now mine.
+Dialogue: 0,0:09:45.56,0:09:47.64,Sub,,0,0,0,,You sure don't hold back, do you ?
+Dialogue: 0,0:09:47.64,0:09:48.44,Sub,,0,0,0,,Fine,
+Dialogue: 0,0:09:48.44,0:09:49.64,Sub,,0,0,0,,you can have this wandering soul,
+Dialogue: 0,0:09:49.64,0:09:50.88,Sub,,0,0,0,,if you like it.
+Dialogue: 0,0:09:50.88,0:09:53.96,Sub,,0,0,0,,But I advise you to return to the Void with us.
+Dialogue: 0,0:09:54.04,0:09:56.24,Sub,,0,0,0,,This is the fate of a Soul Devourer.
+Dialogue: 0,0:09:56.68,0:09:58.56,Sub,,0,0,0,,What if I insist on leaving ?
+Dialogue: 0,0:09:59.84,0:10:01.16,Sub,,0,0,0,,You three go first.
+Dialogue: 0,0:10:01.16,0:10:03.12,Sub,,0,0,0,,Yes Master.
+Dialogue: 0,0:10:12.24,0:10:13.64,Sub,,0,0,0,,Why are there so many monsters ?
+Dialogue: 0,0:10:13.64,0:10:14.95,Second,,0,0,0,,There are too many !
+Dialogue: 0,0:10:14.12,0:10:15.84,Sub,,0,0,0,,When will the teleportation formation activate ?
+Dialogue: 0,0:10:16.00,0:10:17.44,Sub,,0,0,0,,This is terrifying, there're too many.
+Dialogue: 0,0:10:17.44,0:10:18.04,Sub,,0,0,0,,Don’t worry,
+Dialogue: 0,0:10:18.04,0:10:19.08,Sub,,0,0,0,,they can’t enter.
+Dialogue: 0,0:10:20.84,0:10:21.60,Sub,,0,0,0,,Junior Sister Li !
+Dialogue: 0,0:10:21.60,0:10:22.96,Sub,,0,0,0,,Hurry, Junior Sister !
+Dialogue: 0,0:10:22.96,0:10:23.96,Sub,,0,0,0,,Go faster !
+Dialogue: 0,0:10:32.64,0:10:33.60,Sub,,0,0,0,,We’re safe.
+Dialogue: 0,0:10:33.96,0:10:36.12,Sub,,0,0,0,,These wandering souls won’t touch the barrier.
+Dialogue: 0,0:10:34.44,0:10:36.12,Third,,0,0,0,,Why are there so many monsters ?
+Dialogue: 0,0:10:36.12,0:10:37.20,Sub,,0,0,0,,As long as we stay inside
+Dialogue: 0,0:10:37.20,0:10:38.24,Sub,,0,0,0,,they won’t dare to enter.
+Dialogue: 0,0:10:38.24,0:10:40.04,Sub,,0,0,0,,Can we really survive this ?
+Dialogue: 0,0:10:40.28,0:10:41.32,Sub,,0,0,0,,Is this barrier
+Dialogue: 0,0:10:41.64,0:10:45.08,Sub,,0,0,0,,the law of the world separating the dead from the living ?
+Dialogue: 0,0:10:51.40,0:10:52.20,Sub,,0,0,0,,Almost there,
+Dialogue: 0,0:10:52.20,0:10:53.60,Sub,,0,0,0,,the formation is about to activate.
+Dialogue: 0,0:10:55.44,0:10:56.60,Sub,,0,0,0,,Look over there,
+Dialogue: 0,0:10:57.20,0:10:58.36,Sub,,0,0,0,,there are 3 cultivators.
+Dialogue: 0,0:11:00.80,0:11:03.08,Sub,,0,0,0,,Why aren't the wandering souls attacking them ?
+Dialogue: 0,0:11:04.16,0:11:05.68,Sub,,0,0,0,,What’s happening ?
+Dialogue: 0,0:11:08.40,0:11:10.88,Sub,,0,0,0,,The monsters are making way for them !
+Dialogue: 0,0:11:22.04,0:11:23.36,Sub,,0,0,0,,Why are the monsters killing themselves ?
+Dialogue: 0,0:11:23.36,0:11:25.08,Sub,,0,0,0,,Is someone’s controlling them ?
+Dialogue: 0,0:11:25.68,0:11:26.36,Sub,,0,0,0,,Little brother,
+Dialogue: 0,0:11:26.36,0:11:27.40,Sub,,0,0,0,,it’s useless.
+Dialogue: 0,0:11:27.40,0:11:30.04,Sub,,0,0,0,,The teleportation formation is the entrance to the mortal world.
+Dialogue: 0,0:11:30.04,0:11:31.84,Sub,,0,0,0,,Any soul that touches it
+Dialogue: 0,0:11:31.84,0:11:33.32,Sub,,0,0,0,,will be erased instantly.
+Dialogue: 0,0:11:38.44,0:11:39.64,Sub,,0,0,0,,The monsters have gone mad,
+Dialogue: 0,0:11:39.64,0:11:41.44,Sub,,0,0,0,,they’re trying to break the barrier !
+Dialogue: 0,0:11:50.36,0:11:51.72,Sub,,0,0,0,,These black threads
+Dialogue: 0,0:11:52.04,0:11:54.52,Sub,,0,0,0,,must be the law of the world.
+Dialogue: 0,0:11:58.24,0:11:59.56,Sub,,0,0,0,,Let's try this.
+Dialogue: 0,0:12:11.64,0:12:13.84,Sub,,0,0,0,,They’ve all been erased.
+Dialogue: 0,0:12:14.16,0:12:17.04,Sub,,0,0,0,,Let’s see how many it can stop.
+Dialogue: 0,0:12:36.44,0:12:37.40,Sub,,0,0,0,,You go.
+Dialogue: 0,0:12:45.44,0:12:46.24,Sub,,0,0,0,,No way !
+Dialogue: 0,0:12:46.24,0:12:47.76,Sub,,0,0,0,,It’s broken through !
+Dialogue: 0,0:12:51.08,0:12:52.04,Sub,,0,0,0,,Junior Brother !
+Dialogue: 0,0:12:59.16,0:13:00.48,Sub,,0,0,0,,Could it be
+Dialogue: 0,0:13:00.48,0:13:03.60,Sub,,0,0,0,,that my Divine Sense can briefly resist the law of the world ?
+Dialogue: 0,0:13:11.88,0:13:13.20,Sub,,0,0,0,,These black threads seem designed
+Dialogue: 0,0:13:13.20,0:13:15.40,Sub,,0,0,0,,to annihilate souls.
+Dialogue: 0,0:13:15.72,0:13:17.44,Sub,,0,0,0,,The black threads are harmful to us,
+Dialogue: 0,0:13:17.44,0:13:18.56,Sub,,0,0,0,,are you okay ?
+Dialogue: 0,0:13:19.04,0:13:19.96,Sub,,0,0,0,,I'm okay.
+Dialogue: 0,0:13:20.64,0:13:22.72,Sub,,0,0,0,,But if there are too many threads,
+Dialogue: 0,0:13:22.72,0:13:24.36,Sub,,0,0,0,,I'll be in trouble.
+Dialogue: 0,0:13:24.60,0:13:27.24,Sub,,0,0,0,,Ge Yang and Xu Hao have looted people for 50 years,
+Dialogue: 0,0:13:27.88,0:13:29.64,Sub,,0,0,0,,they must have good artifacts.
+Dialogue: 0,0:13:32.84,0:13:36.12,Sub,,0,0,0,,This is perfect for the Turtle Shell Formation.
+Dialogue: 0,0:13:58.08,0:13:59.00,Sub,,0,0,0,,It’s open !
+Dialogue: 0,0:13:59.16,0:14:00.08,Sub,,0,0,0,,It’s open !
+Dialogue: 0,0:14:00.80,0:14:02.08,Sub,,0,0,0,,It’s finally open !
+Dialogue: 0,0:14:02.08,0:14:04.08,Sub,,0,0,0,,Finally, we can leave this hellhole.
+Dialogue: 0,0:14:04.12,0:14:05.40,Sub,,0,0,0,,Thank god !
+Dialogue: 0,0:14:05.44,0:14:06.68,Sub,,0,0,0,,I can finally leave.
+Dialogue: 0,0:14:10.08,0:14:11.60,Sub,,0,0,0,,You three go first,
+Dialogue: 0,0:14:11.80,0:14:13.12,Sub,,0,0,0,,wait for me outside.
+Dialogue: 0,0:14:13.12,0:14:14.28,Sub,,0,0,0,,Yes Master.
+Dialogue: 0,0:14:19.68,0:14:20.28,Sub,,0,0,0,,Are you leaving ?
+Dialogue: 0,0:14:20.28,0:14:21.16,Sub,,0,0,0,,Yes.
+Dialogue: 0,0:14:21.48,0:14:22.80,Sub,,0,0,0,,Thank you
+Dialogue: 0,0:14:23.00,0:14:24.52,Sub,,0,0,0,,for everything you did.
+Dialogue: 0,0:14:31.08,0:14:32.96,Sub,,0,0,0,,I underestimated these black threads.
+Dialogue: 0,0:14:33.24,0:14:35.52,Sub,,0,0,0,,The moment it saw a powerful Soul Devourer,
+Dialogue: 0,0:14:35.60,0:14:37.36,Sub,,0,0,0,,it took the initiative to attack...
+Dialogue: 0,0:15:22.12,0:15:23.64,Sub,,0,0,0,,I have no choice but to endure.
+Dialogue: 0,0:15:32.52,0:15:34.36,Sub,,0,0,0,,Is this the Ji Realm !?
+Dialogue: 0,0:15:38.88,0:15:41.32,Sub,,0,0,0,,I’ve already died once.
+Dialogue: 0,0:15:41.32,0:15:42.40,Sub,,0,0,0,,This time,
+Dialogue: 0,0:15:42.40,0:15:44.04,Sub,,0,0,0,,no one can stop me !
+Dialogue: 0,0:15:54.72,0:15:56.64,Sub,,0,0,0,,Can he survive this ?
+Dialogue: 0,0:16:03.20,0:16:04.40,Sub,,0,0,0,,The law of the world
+Dialogue: 0,0:16:04.40,0:16:07.40,Sub,,0,0,0,,is accidentally refining his soul with his Ji Realm.
+Dialogue: 0,0:16:11.88,0:16:13.92,Sub,,0,0,0,,Law of the world...
+Dialogue: 0,0:16:15.12,0:16:16.20,Sub,,0,0,0,,Come at me !
+Dialogue: 0,0:16:31.88,0:16:34.32,Sub,,0,0,0,,He really entered the mortal world...
+Dialogue: 0,0:16:34.32,0:16:37.12,Sub,,0,0,0,,Will he still be a Soul Devourer out there ?
+Dialogue: 0,0:16:37.48,0:16:39.72,Sub,,0,0,0,,His Soul Devourer essence will remain
+Dialogue: 0,0:16:39.88,0:16:41.48,Sub,,0,0,0,,but his Divine Sense
+Dialogue: 0,0:16:41.48,0:16:44.16,Sub,,0,0,0,,and his Ji Realm were merged by the law of the world.
+Dialogue: 0,0:16:44.32,0:16:45.48,Sub,,0,0,0,,That means,
+Dialogue: 0,0:16:45.48,0:16:46.92,Sub,,0,0,0,,his Ji Realm Divine Sense
+Dialogue: 0,0:16:46.92,0:16:48.04,Sub,,0,0,0,,will be able to
+Dialogue: 0,0:16:48.04,0:16:50.60,Sub,,0,0,0,,annihilate cultivators of the same level instantly.
+Dialogue: 0,0:16:51.08,0:16:52.76,Sub,,0,0,0,,Teng Huayuan...
+Dialogue: 0,0:16:53.08,0:16:55.00,Sub,,0,0,0,,I, Wang Lin, am coming back !
+Dialogue: 0,0:16:55.80,0:16:58.52,Sub,,0,0,0,,You and your Teng Family will pay.
+Dialogue: 0,0:16:58.52,0:17:00.52,Sub,,0,0,0,,Blood for blood.
+Dialogue: 0,0:17:03.37,0:19:05.52,Note,,0,0,0,,{\fad(1000,1000)}The Ji Realm was a very extraordinary realm. Normally, the Ji Realm comes from spiritual energy, however, Wang Lin currently didn’t have any spiritual energy, but his soul started to show signs of the Ji Realm.\N\N[...] Wang Lin’s soul collapsed the moment the giant hand touched him, but the moment it collapsed, it was put back together by the mysterious Ji Realm and continued resisting.\N\N[...] Each time, his Ji Realm got stronger, especially this time. Wang Lin’s soul charged toward the Ji Realm and was refined each time it was shattered. During this second, Wang Lin’s large soul underwent more than 10 000 reconstructions. His soul gradually shrunk and condensed, but its quality went through an earth shattering change.\N\NThe Ji Realm completely fused with his soul.\N\NNo one knows where the Ji Realm comes from, but it was certain that all of the cultivators that had the Ji Realm only had it in their spiritual energy. Only Wang Lin, through some fluke, had the Ji Realm imprinted to his soul.\N\NIn truth, the giant hand formed by the law of the world was the catalyst to allow Wang Lin’s soul to contain the power of the Ji Realm. After the Heaven Defying Bead fused with Wang Lin’s soul, there was a sliver of Ji Realm left in his soul. However, without these circumstances, once Wang Lin had regained his spiritual energy, this sliver of Ji Realm would've disappeared.\N\N[...] If there was no law of the world and Wang Lin had tried to form his Ji Realm Divine Sense himself, he wouldn’t have been able to do it in his lifetime, but now it was complete.
+Dialogue: 0,0:17:09.19,0:17:14.83,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:17:11.49,0:17:14.83,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:17:15.47,0:17:20.43,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:17:17.31,0:17:20.43,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:17:20.59,0:17:26.35,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:17:26.47,0:17:32.07,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:17:32.35,0:17:37.67,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:17:34.23,0:17:37.67,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:17:37.95,0:17:43.27,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:17:39.85,0:17:43.27,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:17:43.31,0:17:48.99,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:46.19,0:17:48.99,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:17:49.43,0:17:53.63,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:51.59,0:17:53.63,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:17:53.71,0:17:56.95,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:17:56.99,0:18:00.03,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:18:00.16,0:18:05.59,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:18:01.85,0:18:05.59,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:18:05.59,0:18:08.71,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:18:08.71,0:18:11.75,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:18:11.75,0:18:17.11,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:18:13.63,0:18:17.11,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:18:17.11,0:18:20.07,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:18:20.07,0:18:22.87,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:18:22.87,0:18:28.35,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:18:24.91,0:18:28.35,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:18:28.55,0:18:31.71,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:18:31.71,0:18:34.75,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:18:34.75,0:18:40.43,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:18:37.07,0:18:40.43,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

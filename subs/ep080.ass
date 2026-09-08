@@ -1,0 +1,354 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 80_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Soup,Lucida Sans,50,&H00000000,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.52,0:01:52.32,Sub,,0,0,0,,{\pos(965,505)\fad(300,300)}4 months later
+Dialogue: 0,0:01:51.20,0:01:54.32,Card,,0,0,0,,{\pos(1650,474)\fad(300,300)}Valley above the\NImmortal Graveyard
+Dialogue: 0,0:01:59.56,0:02:01.08,Sub,,0,0,0,,If I enter a spatial rift,
+Dialogue: 0,0:02:01.72,0:02:03.64,Sub,,0,0,0,,I will lose my anchor point to the outside.
+Dialogue: 0,0:02:04.48,0:02:05.64,Sub,,0,0,0,,But if I don't,
+Dialogue: 0,0:02:06.36,0:02:08.32,Sub,,0,0,0,,it will be difficult to find my avatar...
+Dialogue: 0,0:02:15.60,0:02:16.80,Sub,,0,0,0,,This person is bad news.
+Dialogue: 0,0:02:33.40,0:02:34.25,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:02:34.32,0:02:36.05,Sub,,0,0,0,,we don’t even know each other.
+Dialogue: 0,0:02:36.12,0:02:37.72,Sub,,0,0,0,,Why must you act like this ?!
+Dialogue: 0,0:02:38.20,0:02:40.31,Sub,,0,0,0,,There were 7 of you when you entered.
+Dialogue: 0,0:02:40.36,0:02:42.72,Sub,,0,0,0,,Why did only the two of you come out ?
+Dialogue: 0,0:02:44.08,0:02:45.48,Sub,,0,0,0,,I’ve never met him before
+Dialogue: 0,0:02:46.12,0:02:48.72,Sub,,0,0,0,,so why does he feel somewhat familiar ?
+Dialogue: 0,0:02:49.08,0:02:49.92,Sub,,0,0,0,,No answer ?
+Dialogue: 0,0:02:50.40,0:02:51.40,Sub,,0,0,0,,You can die then.
+Dialogue: 0,0:02:51.88,0:02:52.60,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:02:53.12,0:02:55.56,Sub,,0,0,0,,among the other 5, there must be someone you know.
+Dialogue: 0,0:02:56.32,0:02:57.80,Sub,,0,0,0,,Junior admits her mistake.
+Dialogue: 0,0:02:58.32,0:03:00.96,Sub,,0,0,0,,After my father disappeared in the Immortal Graveyard
+Dialogue: 0,0:03:01.40,0:03:03.08,Sub,,0,0,0,,I was sold to the country of Suzaku.
+Dialogue: 0,0:03:03.64,0:03:05.19,Sub,,0,0,0,,I became a cultivation furnace,
+Dialogue: 0,0:03:05.24,0:03:06.92,Sub,,0,0,0,,living a life worse than death.
+Dialogue: 0,0:03:07.72,0:03:08.89,Sub,,0,0,0,,I refused to accept it
+Dialogue: 0,0:03:08.92,0:03:10.20,Sub,,0,0,0,,and luckily managed to escape.
+Dialogue: 0,0:03:10.44,0:03:12.28,Sub,,0,0,0,,That's when I met Elder Gongsun.
+Dialogue: 0,0:03:13.24,0:03:14.51,Sub,,0,0,0,,He didn’t abandon me
+Dialogue: 0,0:03:14.60,0:03:16.15,Sub,,0,0,0,,and has protected me ever since.
+Dialogue: 0,0:03:16.40,0:03:18.20,Sub,,0,0,0,,He was even willing to accompany me to the Immortal Graveyard
+Dialogue: 0,0:03:18.20,0:03:19.96,Sub,,0,0,0,,to search for traces of my father.
+Dialogue: 0,0:03:20.68,0:03:22.94,Sub,,0,0,0,,To divert the attention of the Forsaken Immortal Clan,
+Dialogue: 0,0:03:23.00,0:03:24.60,Sub,,0,0,0,,I used the Reincarnation Fruits as bait.
+Dialogue: 0,0:03:24.68,0:03:26.20,Sub,,0,0,0,,and invited 5 others to join me.
+Dialogue: 0,0:03:26.88,0:03:28.40,Sub,,0,0,0,,But I failed to find my father
+Dialogue: 0,0:03:29.04,0:03:30.60,Sub,,0,0,0,,so I had no choice but to leave.
+Dialogue: 0,0:03:50.68,0:03:51.32,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:03:51.52,0:03:53.24,Sub,,0,0,0,,I was the one who hid the truth.
+Dialogue: 0,0:03:54.00,0:03:55.00,Sub,,0,0,0,,If Senior wants to kill someone,
+Dialogue: 0,0:03:55.76,0:03:56.92,Sub,,0,0,0,,then kill this Junior.
+Dialogue: 0,0:03:57.28,0:03:58.80,Sub,,0,0,0,,Don’t hurt Elder Gongsun.
+Dialogue: 0,0:03:59.28,0:04:00.52,Sub,,0,0,0,,Miss,
+Dialogue: 0,0:04:00.68,0:04:02.08,Sub,,0,0,0,,let him kill me.
+Dialogue: 0,0:04:03.00,0:04:05.68,Sub,,0,0,0,,I would rather die now
+Dialogue: 0,0:04:06.28,0:04:09.24,Sub,,0,0,0,,than live as someone's tattoo puppet.
+Dialogue: 0,0:04:17.80,0:04:18.88,Sub,,0,0,0,,Find Wang Lin
+Dialogue: 0,0:04:19.56,0:04:21.32,Sub,,0,0,0,,and I'll let you two live.
+Dialogue: 0,0:04:29.96,0:04:30.64,Sub,,0,0,0,,Impossible,
+Dialogue: 0,0:04:31.16,0:04:33.12,Sub,,0,0,0,,how could a furnace chosen by Suzaku
+Dialogue: 0,0:04:33.20,0:04:34.80,Sub,,0,0,0,,have escaped so easily ?
+Dialogue: 0,0:04:35.88,0:04:38.26,Sub,,0,0,0,,Gongsun Fan was clearly marked by a tattoo seed
+Dialogue: 0,0:04:38.36,0:04:39.76,Sub,,0,0,0,,yet he’s different from the others,
+Dialogue: 0,0:04:40.24,0:04:42.44,Sub,,0,0,0,,and they managed to escape unscathed.
+Dialogue: 0,0:04:42.96,0:04:43.92,Sub,,0,0,0,,There must be
+Dialogue: 0,0:04:44.24,0:04:46.40,Sub,,0,0,0,,someone else backing them.
+Dialogue: 0,0:04:49.28,0:04:51.40,Sub,,0,0,0,,I left drops of blood within their bodies
+Dialogue: 0,0:04:52.12,0:04:54.80,Sub,,0,0,0,,so that I can find my way.
+Dialogue: 0,0:04:55.64,0:04:57.92,Sub,,0,0,0,,{\pos(955,513)\fad(300,300)}A few days later
+Dialogue: 0,0:05:05.60,0:05:06.40,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:05:07.04,0:05:07.84,Sub,,0,0,0,,I...
+Dialogue: 0,0:05:21.52,0:05:22.32,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:05:22.68,0:05:23.68,Sub,,0,0,0,,The thing is,
+Dialogue: 0,0:05:24.40,0:05:26.24,Sub,,0,0,0,,this was all your fault.
+Dialogue: 0,0:05:26.68,0:05:27.16,Sub,,0,0,0,,Wait !
+Dialogue: 0,0:05:28.56,0:05:32.22,Sub,,0,0,0,,This trip to the Immortal Graveyard was truly perilous.
+Dialogue: 0,0:05:32.48,0:05:33.32,Sub,,0,0,0,,Fortunately,
+Dialogue: 0,0:05:33.84,0:05:36.52,Sub,,0,0,0,,I obtained a Reincarnation Fruit needed for my body cleansing.
+Dialogue: 0,0:05:43.72,0:05:52.92,Music,,0,0,0,,{\fad(800,800}Life and death trials temper me, I am not afraid of losing my soul.\NEven if there are countless tribulations and hardships.
+Dialogue: 0,0:05:53.08,0:06:00.66,Music,,0,0,0,,{\fad(800,800}Overcome this fate, smash through the obstacles,\Nlike the descent of a god.
+Dialogue: 0,0:06:09.84,0:06:11.36,Sub,,0,0,0,,I have finally become
+Dialogue: 0,0:06:11.64,0:06:13.52,Sub,,0,0,0,,a true Ancient God.
+Dialogue: 0,0:06:14.44,0:06:16.64,Sub,,0,0,0,,{\pos(957,497)\fad(500,500)}3 years later
+Dialogue: 0,0:06:18.44,0:06:19.32,Sub,,0,0,0,,Our Apricot Village
+Dialogue: 0,0:06:19.64,0:06:22.44,Sub,,0,0,0,,is undergoing the Heaven's Path Sect's recruitment.
+Dialogue: 0,0:06:23.44,0:06:25.28,Sub,,0,0,0,,Son, listen carefully to what they say.
+Dialogue: 0,0:06:25.28,0:06:26.92,Sub,,0,0,0,,If any child is chosen
+Dialogue: 0,0:06:26.96,0:06:29.04,Sub,,0,0,0,,it will be a great honor for its family.
+Dialogue: 0,0:06:29.24,0:06:30.04,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:06:29.68,0:06:31.52,Card Hard,,0,0,0,,{\pos(1246,459)\fad(300,000)}Zhou Ru\N5 years old
+Dialogue: 0,0:06:34.64,0:06:35.60,Sub,,0,0,0,,Next
+Dialogue: 0,0:06:38.72,0:06:40.44,Sub,,0,0,0,,None of them have Spirit Roots...
+Dialogue: 0,0:06:49.64,0:06:50.64,Sub,,0,0,0,,This kid,
+Dialogue: 0,0:06:51.04,0:06:52.00,Sub,,0,0,0,,I’ll take her.
+Dialogue: 0,0:06:53.24,0:06:54.08,Sub,,0,0,0,,Immortal,
+Dialogue: 0,0:06:54.40,0:06:57.28,Sub,,0,0,0,,this child is born mute.
+Dialogue: 0,0:06:58.20,0:06:59.00,Sub,,0,0,0,,No problem.
+Dialogue: 0,0:07:02.32,0:07:03.12,Sub,,0,0,0,,Thank you, Immortal
+Dialogue: 0,0:07:03.48,0:07:04.08,Sub,,0,0,0,,Ru’er,
+Dialogue: 0,0:07:04.32,0:07:05.88,Sub,,0,0,0,,bow to your master.
+Dialogue: 0,0:07:05.16,0:07:05.88,Second,,0,0,0,,Hurry...
+Dialogue: 0,0:07:06.88,0:07:08.16,Sub,,0,0,0,,This child is so fortunate !
+Dialogue: 0,0:07:17.48,0:07:19.16,Sub,,0,0,0,,Innate spiritual energy,
+Dialogue: 0,0:07:20.20,0:07:22.04,Sub,,0,0,0,,all her meridians are opened,
+Dialogue: 0,0:07:22.80,0:07:24.60,Sub,,0,0,0,,and a purple aura.
+Dialogue: 0,0:07:28.84,0:07:30.16,Sub,,0,0,0,,Move faster, damn it !
+Dialogue: 0,0:07:37.16,0:07:39.36,Sub,,0,0,0,,If I miss the spirit stone exchange,
+Dialogue: 0,0:07:39.72,0:07:40.72,Sub,,0,0,0,,you’ll regret it !
+Dialogue: 0,0:07:45.64,0:07:46.60,Sub,,0,0,0,,Stupid girl !
+Dialogue: 0,0:07:47.52,0:07:48.52,Sub,,0,0,0,,I’ll beat you to death.
+Dialogue: 0,0:07:52.36,0:07:53.08,Sub,,0,0,0,,Do you dare ?
+Dialogue: 0,0:07:58.96,0:07:59.88,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:08:00.12,0:08:00.60,Sub,,0,0,0,,I...
+Dialogue: 0,0:08:25.60,0:08:26.64,Sub,,0,0,0,,Wan’er...
+Dialogue: 0,0:08:30.20,0:08:32.44,Sub,,0,0,0,,Uncle
+Dialogue: 0,0:08:36.20,0:08:37.40,Sub,,0,0,0,,Can you speak ?
+Dialogue: 0,0:08:43.80,0:08:46.76,Sub,,0,0,0,,Would you like to cultivate with me ?
+Dialogue: 0,0:08:55.76,0:08:58.36,Sub,,0,0,0,,She will eventually step into cultivation world.
+Dialogue: 0,0:08:58.84,0:09:00.60,Sub,,0,0,0,,Since her parents can’t protect her,
+Dialogue: 0,0:09:01.52,0:09:03.86,Sub,,0,0,0,,I might as well take her with me
+Dialogue: 0,0:09:04.12,0:09:05.44,Sub,,0,0,0,,to ensure her safety.
+Dialogue: 0,0:09:09.48,0:09:10.04,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:09:10.24,0:09:11.04,Sub,,0,0,0,,come out and fight me !
+Dialogue: 0,0:09:11.20,0:09:11.76,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:09:12.40,0:09:13.96,Sub,,0,0,0,,you have such a reputation
+Dialogue: 0,0:09:14.04,0:09:15.60,Sub,,0,0,0,,yet you hide in the valley, afraid to fight ?
+Dialogue: 0,0:09:15.72,0:09:17.44,Sub,,0,0,0,,Are you afraid of losing ?
+Dialogue: 0,0:09:22.40,0:09:23.20,Sub,,0,0,0,,We’re home.
+Dialogue: 0,0:09:31.68,0:09:32.24,Sub,,0,0,0,,Hungry ?
+Dialogue: 0,0:10:10.32,0:10:11.92,Sub,,0,0,0,,The chopsticks are flying !
+Dialogue: 0,0:10:13.88,0:10:14.68,Sub,,0,0,0,,Go ahead.
+Dialogue: 0,0:10:18.80,0:10:20.48,Sub,,0,0,0,,Why don't you eat ?
+Dialogue: 0,0:10:22.20,0:10:23.82,Sub,,0,0,0,,Once you reach a certain level of cultivation
+Dialogue: 0,0:10:23.88,0:10:25.56,Sub,,0,0,0,,you no longer need to eat.
+Dialogue: 0,0:10:33.52,0:10:36.68,Sub,,0,0,0,,I dreamed that my parents were gone.
+Dialogue: 0,0:10:37.52,0:10:39.80,Sub,,0,0,0,,Everything around me was pitch black.
+Dialogue: 0,0:10:40.20,0:10:40.72,Sub,,0,0,0,,Only...
+Dialogue: 0,0:10:41.28,0:10:43.80,Sub,,0,0,0,,Only I was left.
+Dialogue: 0,0:10:44.24,0:10:45.04,Sub,,0,0,0,,I’m here,
+Dialogue: 0,0:10:45.48,0:10:46.08,Sub,,0,0,0,,don’t be afraid.
+Dialogue: 0,0:10:47.60,0:10:51.16,Sub,,0,0,0,,What if you’re not here in the future ?
+Dialogue: 0,0:10:54.32,0:10:55.88,Sub,,0,0,0,,So shiny...
+Dialogue: 0,0:10:56.72,0:10:58.00,Sub,,0,0,0,,This is for you.
+Dialogue: 0,0:10:58.44,0:10:59.68,Sub,,0,0,0,,If you ever need me,
+Dialogue: 0,0:11:00.12,0:11:01.04,Sub,,0,0,0,,just shake it
+Dialogue: 0,0:11:01.76,0:11:02.76,Sub,,0,0,0,,and I’ll appear.
+Dialogue: 0,0:11:14.80,0:11:15.84,Sub,,0,0,0,,Wan’er...
+Dialogue: 0,0:11:17.12,0:11:17.84,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:11:17.84,0:11:19.12,Sub,,0,0,0,,you coward !
+Dialogue: 0,0:11:19.28,0:11:20.36,Sub,,0,0,0,,Do you dare to come out and fight ?
+Dialogue: 0,0:11:21.28,0:11:22.04,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:11:22.04,0:11:22.76,Sub,,0,0,0,,come out and fight me !
+Dialogue: 0,0:11:23.12,0:11:25.56,Sub,,0,0,0,,I’ll let you take one of my arms.
+Dialogue: 0,0:11:24.34,0:11:25.56,Second,,0,0,0,,I’ll let you take both of my arms !
+Dialogue: 0,0:11:34.36,0:11:34.84,Sub,,0,0,0,,Attack !
+Dialogue: 0,0:11:51.28,0:11:52.08,Sub,,0,0,0,,You're noisy.
+Dialogue: 0,0:12:07.64,0:12:10.16,Soup,,0,0,0,,{\pos(905,164)\frz355\fad(300,800)}10-ingredients tonic soup
+Dialogue: 0,0:12:08.52,0:12:09.60,Sub,,0,0,0,,Come and take a look !
+Dialogue: 0,0:12:18.72,0:12:19.56,Sub,,0,0,0,,Do you like it ?
+Dialogue: 0,0:12:19.56,0:12:20.96,Sub,,0,0,0,,Dad, I want this !
+Dialogue: 0,0:12:21.16,0:12:21.64,Sub,,0,0,0,,Alright
+Dialogue: 0,0:12:26.71,0:12:27.44,Sub,,0,0,0,,It's delicious !
+Dialogue: 0,0:12:30.00,0:12:30.84,Sub,,0,0,0,,Slow down !
+Dialogue: 0,0:13:10.80,0:13:11.52,Sub,,0,0,0,,Uncle,
+Dialogue: 0,0:13:11.54,0:13:13.82,Sub,,0,0,0,,help me to capture this little pet.
+Dialogue: 0,0:13:26.20,0:13:28.71,Sub,,0,0,0,,If I hadn’t seen it with my own eyes,
+Dialogue: 0,0:13:28.76,0:13:31.56,Sub,,0,0,0,,I wouldn’t have believed Wan’er was like this.
+Dialogue: 0,0:13:38.48,0:13:41.36,Sub,,0,0,0,,{\fad(300,300)\pos(209,570)}5 years later
+Dialogue: 0,0:13:40.32,0:13:41.12,Sub,,0,0,0,,Uncle !
+Dialogue: 0,0:13:42.20,0:13:42.88,Sub,,0,0,0,,What's the matter ?
+Dialogue: 0,0:13:39.72,0:13:42.36,Card Hard,,0,0,0,,{\pos(1378,465)\fad(300,300)}Wang Lin's avatar\NMiddle stage Soul Formation
+Dialogue: 0,0:13:43.40,0:13:45.96,Card,,0,0,0,,{\pos(1432,464)\fad(300,000)}Zhou Ru\N10 years old
+Dialogue: 0,0:13:44.60,0:13:45.28,Sub,,0,0,0,,Nothing.
+Dialogue: 0,0:13:49.88,0:13:50.56,Sub,,0,0,0,,Little Ru'er,
+Dialogue: 0,0:13:51.00,0:13:51.64,Sub,,0,0,0,,hide in the pagoda.
+Dialogue: 0,0:13:54.56,0:13:55.64,Sub,,0,0,0,,Ceng Niu, come out !
+Dialogue: 0,0:13:55.88,0:13:57.45,Sub,,0,0,0,,Xue Ye’s Liao Fen is here
+Dialogue: 0,0:13:57.52,0:13:59.28,Sub,,0,0,0,,to ask for the feather fan back.
+Dialogue: 0,0:14:01.36,0:14:03.00,Card,,0,0,0,,{\pos(1610,508)\fad(100,000)}Liao Fan\NCountry of Xue Yue\NLate stage Soul Formation
+Dialogue: 0,0:14:01.44,0:14:02.16,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:14:02.48,0:14:04.12,Sub,,0,0,0,,I am here to settle the grudge
+Dialogue: 0,0:14:04.44,0:14:05.04,Sub,,0,0,0,,between you
+Dialogue: 0,0:14:05.32,0:14:06.44,Sub,,0,0,0,,and Xue Yue !
+Dialogue: 0,0:14:10.24,0:14:11.04,Sub,,0,0,0,,Kill !
+Dialogue: 0,0:14:17.40,0:14:18.88,Sub,,0,0,0,,If you are only this strong,
+Dialogue: 0,0:14:19.40,0:14:20.21,Sub,,0,0,0,,then you will
+Dialogue: 0,0:14:20.28,0:14:21.36,Sub,,0,0,0,,meet your end.
+Dialogue: 0,0:14:23.96,0:14:26.36,Sub,,0,0,0,,Today is the 17th of March.
+Dialogue: 0,0:14:26.92,0:14:27.52,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:14:28.08,0:14:29.52,Sub,,0,0,0,,this is the day you die !
+Dialogue: 0,0:14:40.56,0:14:41.72,Sub,,0,0,0,,Sonic Wave Spirit Armor !
+Dialogue: 0,0:15:02.12,0:15:05.08,Sub,,0,0,0,,Which one of you bastards dared to hurt me ?
+Dialogue: 0,0:15:05.40,0:15:06.20,Sub,,0,0,0,,This voice...
+Dialogue: 0,0:15:07.64,0:15:08.44,Sub,,0,0,0,,Is this...
+Dialogue: 0,0:15:09.32,0:15:11.80,Sub,,0,0,0,,the chilling aura of the Underworld Ascension Method ?
+Dialogue: 0,0:15:13.68,0:15:16.57,Sub,,0,0,0,,Quickly find a Yin energy gathering location
+Dialogue: 0,0:15:16.76,0:15:19.28,Sub,,0,0,0,,to cultivate the Underworld Ascension Method.
+Dialogue: 0,0:15:32.16,0:15:33.44,Sub,,0,0,0,,Underworld Ice Flame ?
+Dialogue: 0,0:15:34.08,0:15:35.52,Sub,,0,0,0,,How do you know this technique ?
+Dialogue: 0,0:15:37.24,0:15:38.52,Sub,,0,0,0,,Who the hell are you ?
+Dialogue: 0,0:15:38.92,0:15:40.73,Sub,,0,0,0,,It wouldn't hurt to tell you,
+Dialogue: 0,0:15:40.80,0:15:41.72,Sub,,0,0,0,,my name is
+Dialogue: 0,0:15:42.24,0:15:43.12,Sub,,0,0,0,,Situ Nan !
+Dialogue: 0,0:16:02.12,0:16:02.72,Sub,,0,0,0,,Go away !
+Dialogue: 0,0:16:26.08,0:16:27.04,Sub,,0,0,0,,Situ Nan...
+Dialogue: 0,0:16:28.12,0:16:29.36,Sub,,0,0,0,,How could this be ?
+Dialogue: 0,0:16:29.96,0:16:30.76,Sub,,0,0,0,,Impossible...
+Dialogue: 0,0:16:31.92,0:16:32.72,Sub,,0,0,0,,Impossible !
+Dialogue: 0,0:16:37.64,0:16:38.56,Sub,,0,0,0,,Senior Situ,
+Dialogue: 0,0:16:39.64,0:16:42.00,Sub,,0,0,0,,if that really was your severed arm,
+Dialogue: 0,0:16:42.16,0:16:44.60,Sub,,0,0,0,,then I kind of believe what you said back then.
+Dialogue: 0,0:16:50.04,0:17:02.67,Sub,,0,0,0,,{\an8}Note: "Suzaku" is the name of the country and planet\N"the Suzaku" is the title of strongest individual on planet Suzaku
+Dialogue: 0,0:16:50.04,0:16:52.16,Sub,,0,0,0,,But the title of Suzaku's strongest person
+Dialogue: 0,0:16:53.12,0:16:55.12,Sub,,0,0,0,,is held by the one and only Suzaku.
+Dialogue: 0,0:16:56.92,0:16:57.76,Sub,,0,0,0,,Were you
+Dialogue: 0,0:16:58.16,0:16:59.88,Sub,,0,0,0,,really the Suzaku ?
+Dialogue: 0,0:17:02.72,0:17:03.56,Sub,,0,0,0,,Senior Situ,
+Dialogue: 0,0:17:04.72,0:17:06.04,Sub,,0,0,0,,the 10-year agreement is near.
+Dialogue: 0,0:17:06.96,0:17:08.84,Sub,,0,0,0,,My chances of winning this battle are slim
+Dialogue: 0,0:17:09.88,0:17:11.44,Sub,,0,0,0,,but there’s no avoiding it.
+Dialogue: 0,0:17:13.92,0:17:14.64,Sub,,0,0,0,,Little White,
+Dialogue: 0,0:17:14.80,0:17:15.36,Sub,,0,0,0,,look up !
+Dialogue: 0,0:17:16.92,0:17:17.48,Sub,,0,0,0,,Look down !
+Dialogue: 0,0:17:20.44,0:17:21.88,Sub,,0,0,0,,Fellow cultivator Ceng Niu,
+Dialogue: 0,0:17:23.48,0:17:24.76,Sub,,0,0,0,,The 10-year agreement is up.
+Dialogue: 0,0:17:25.60,0:17:27.48,Sub,,0,0,0,,Mount Suzaku ordered me
+Dialogue: 0,0:17:28.08,0:17:29.64,Sub,,0,0,0,,to escort you.
+Dialogue: 0,0:17:35.64,0:17:36.36,Sub,,0,0,0,,Tie Yan,
+Dialogue: 0,0:17:36.68,0:17:37.16,Sub,,0,0,0,,Yes ?
+Dialogue: 0,0:17:37.48,0:17:38.80,Sub,,0,0,0,,The Thunder Frog and the pagoda
+Dialogue: 0,0:17:38.92,0:17:39.80,Sub,,0,0,0,,will stay here.
+Dialogue: 0,0:17:40.40,0:17:42.44,Sub,,0,0,0,,No one can enter within a 100 li radius.
+Dialogue: 0,0:17:42.68,0:17:43.76,Sub,,0,0,0,,While I’m gone,
+Dialogue: 0,0:17:44.44,0:17:45.92,Sub,,0,0,0,,take good care of Little Ru’er for me.
+Dialogue: 0,0:17:46.32,0:17:47.32,Sub,,0,0,0,,Benefactor, don’t worry.
+Dialogue: 0,0:17:48.12,0:17:49.52,Sub,,0,0,0,,This old man will ensure the safety
+Dialogue: 0,0:17:50.08,0:17:51.36,Sub,,0,0,0,,of lady Ru’er.
+Dialogue: 0,0:17:53.44,0:17:54.16,Sub,,0,0,0,,Little Ru’er,
+Dialogue: 0,0:17:55.20,0:17:55.68,Sub,,0,0,0,,come here.
+Dialogue: 0,0:17:56.24,0:17:57.32,Sub,,0,0,0,,Bad Uncle !
+Dialogue: 0,0:17:57.56,0:18:00.08,Sub,,0,0,0,,You go out to play by yourself without taking Little Ru'er.
+Dialogue: 0,0:18:07.12,0:18:08.28,Sub,,0,0,0,,While I’m away,
+Dialogue: 0,0:18:08.56,0:18:10.12,Sub,,0,0,0,,listen to Uncle Tie Yan.
+Dialogue: 0,0:18:10.60,0:18:11.51,Sub,,0,0,0,,When I come back,
+Dialogue: 0,0:18:11.56,0:18:13.16,Sub,,0,0,0,,I’ll catch an even bigger tiger for you.
+Dialogue: 0,0:18:15.12,0:18:15.72,Sub,,0,0,0,,Really ?
+Dialogue: 0,0:18:15.96,0:18:17.28,Sub,,0,0,0,,Even bigger than Little White ?
+Dialogue: 0,0:18:18.44,0:18:19.92,Sub,,0,0,0,,Even bigger than Little White.
+Dialogue: 0,0:18:21.40,0:18:22.64,Sub,,0,0,0,,Okay,
+Dialogue: 0,0:18:23.24,0:18:25.16,Sub,,0,0,0,,but you have to come back quickly.
+Dialogue: 0,0:18:40.08,0:18:41.00,Sub,,0,0,0,,Uncle !
+Dialogue: 0,0:18:45.00,0:18:45.84,Sub,,0,0,0,,Uncle...
+Dialogue: 0,0:18:46.72,0:18:49.36,Sub,,0,0,0,,You must return safely...
+Dialogue: 0,0:18:51.56,0:18:52.20,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:18:52.88,0:18:54.48,Sub,,0,0,0,,you also take care of yourself.
+Dialogue: 0,0:19:21.44,0:19:22.24,Sub,,0,0,0,,Master !
+Dialogue: 0,0:19:23.64,0:19:25.40,Sub,,0,0,0,,I’ve thoroughly investigated Ceng Niu’s strength
+Dialogue: 0,0:19:26.24,0:19:27.04,Sub,,0,0,0,,Tell me.
+Dialogue: 0,0:19:27.77,0:19:28.60,Sub,,0,0,0,,This Ceng Niu
+Dialogue: 0,0:19:28.96,0:19:30.68,Sub,,0,0,0,,is now at Middle stage Soul Formation.
+Dialogue: 0,0:19:30.92,0:19:31.82,Sub,,0,0,0,,His domain
+Dialogue: 0,0:19:31.88,0:19:34.53,Sub,,0,0,0,,seems to be the Life and Death reincarnation cycle.
+Dialogue: 0,0:19:34.56,0:19:36.55,Sub,,0,0,0,,He has a flying sword that can chop anything
+Dialogue: 0,0:19:31.00,0:19:33.84,Card,,0,0,0,,{\pos(1581,505)\fad(300,000)}Li Yuanfeng\NXue Yue's Suzerain\NEarly stage Soul Transformation
+Dialogue: 0,0:19:36.64,0:19:37.88,Sub,,0,0,0,,and a mysterious pagoda.
+Dialogue: 0,0:19:38.68,0:19:39.56,Sub,,0,0,0,,Not only that
+Dialogue: 0,0:19:39.88,0:19:42.24,Sub,,0,0,0,,but I used the treasure you gave me to test him
+Dialogue: 0,0:19:42.40,0:19:43.16,Sub,,0,0,0,,and he...
+Dialogue: 0,0:19:44.00,0:19:46.32,Sub,,0,0,0,,also masters the Underworld Ascension Method.
+Dialogue: 0,0:19:46.68,0:19:47.52,Sub,,0,0,0,,In the past,
+Dialogue: 0,0:19:47.84,0:19:49.48,Sub,,0,0,0,,he severed Red Butterfly’s arm.
+Dialogue: 0,0:19:50.08,0:19:51.04,Sub,,0,0,0,,And now,
+Dialogue: 0,0:19:51.04,0:19:53.12,Sub,,0,0,0,,he caught the attention of the Suzaku.
+Dialogue: 0,0:19:53.68,0:19:56.04,Sub,,0,0,0,,How could he be an ordinary person ?
+Dialogue: 0,0:19:56.64,0:19:58.00,Sub,,0,0,0,,So what you told me before,
+Dialogue: 0,0:19:58.08,0:19:59.59,Sub,,0,0,0,,do we forget about it ?
+Dialogue: 0,0:20:01.00,0:20:02.92,Sub,,0,0,0,,It’s not the right time yet,
+Dialogue: 0,0:20:03.48,0:20:05.44,Sub,,0,0,0,,I’ve already set up the trap.
+Dialogue: 0,0:20:06.16,0:20:08.04,Sub,,0,0,0,,After he fights Red Butterfly,
+Dialogue: 0,0:20:08.60,0:20:10.16,Sub,,0,0,0,,I’ll make my move.
+Dialogue: 0,0:20:14.00,0:20:16.48,Sub,,0,0,0,,Regardless of the outcome,
+Dialogue: 0,0:20:17.08,0:20:18.12,Sub,,0,0,0,,Ceng Niu
+Dialogue: 0,0:20:18.60,0:20:20.48,Sub,,0,0,0,,will die for sure.
+Dialogue: 0,0:20:57.43,0:21:00.73,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:21:00.73,0:21:02.45,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:21:02.49,0:21:04.39,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:21:05.27,0:21:11.87,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:21:08.11,0:21:11.87,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:21:11.87,0:21:19.47,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:21:15.11,0:21:19.47,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:21:19.91,0:21:27.03,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:21:22.67,0:21:27.03,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:21:27.35,0:21:30.35,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:21:28.63,0:21:30.35,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:21:30.64,0:21:34.07,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:21:32.47,0:21:34.07,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:21:34.63,0:21:38.15,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:21:38.15,0:21:41.47,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:21:42.23,0:21:45.43,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:21:45.79,0:21:49.63,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:21:47.63,0:21:49.63,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:21:49.79,0:21:54.59,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:21:51.35,0:21:54.59,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:21:54.60,0:21:57.31,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:21:57.35,0:22:00.63,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:22:00.63,0:22:05.27,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:22:05.27,0:22:08.67,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:22:08.71,0:22:13.35,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:22:13.80,0:22:19.03,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:22:19.15,0:22:22.95,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:22:22.95,0:22:27.59,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:22:24.63,0:22:27.59,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:22:27.75,0:22:30.67,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:22:30.67,0:22:35.55,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:22:35.56,0:22:38.83,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:22:38.99,0:22:43.55,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:22:43.55,0:22:47.51,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:22:47.51,0:22:50.31,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:22:50.39,0:22:54.19,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:22:54.27,0:22:57.55,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:22:57.83,0:23:02.79,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

@@ -1,0 +1,361 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 118
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,30,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: City,Lucida Sans,115,&H006BC7DE,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.36,0:00:07.13,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.13,0:00:11.08,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.56,0:00:15.81,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.81,0:00:20.97,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.24,0:00:24.96,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.36,0:00:28.21,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.21,0:00:33.48,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.68,0:00:37.44,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.80,0:00:40.44,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.84,0:00:44.81,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.81,0:00:47.80,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:47.96,0:00:50.65,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.67,0:00:54.00,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.24,0:00:57.17,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.17,0:01:00.25,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.41,0:01:03.13,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.13,0:01:06.57,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.65,0:01:19.01,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.17,0:01:22.09,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.25,0:01:25.21,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.33,0:01:28.17,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.17,0:01:32.81,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.56,0:01:43.44,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:57.75,0:01:58.38,Sub,,0,0,0,,Enough.
+Dialogue: 0,0:01:57.99,0:01:59.75,Card,,0,0,0,,{\fad(300,000)\pos(391,541)}Gu Yundun\NSky Demon Country's Demon Emperor\NRank 3 000 000 Demonic Energy\N(Illusory Yin)
+Dialogue: 0,0:02:03.55,0:02:04.38,Sub,,0,0,0,,If you continue,
+Dialogue: 0,0:02:05.23,0:02:07.58,Sub,,0,0,0,,I'll throw you in the Dragon Pool to feed the Old Jiao.
+Dialogue: 0,0:02:11.75,0:02:12.78,Sub,,0,0,0,,You're playing favorites !
+Dialogue: 0,0:02:12.79,0:02:14.58,Sub,,0,0,0,,He's the one who bullied me first !
+Dialogue: 0,0:02:12.03,0:02:15.19,Card,,0,0,0,,{\pos(380,458)\fad(300,300)}Demon Emperor Sword's\NSword Spirit
+Dialogue: 0,0:02:16.31,0:02:18.46,Sub,,0,0,0,,You were about to level my entire Sky Demon City...
+Dialogue: 0,0:02:19.03,0:02:21.15,Sub,,0,0,0,,Moreover, he left the Hong Prison with his own skill.
+Dialogue: 0,0:02:21.15,0:02:22.75,Sub,,0,0,0,,How does that count as bullying you ?
+Dialogue: 0,0:02:25.03,0:02:25.94,Sub,,0,0,0,,You...
+Dialogue: 0,0:02:26.23,0:02:27.50,Sub,,0,0,0,,are too spoiled.
+Dialogue: 0,0:02:27.83,0:02:28.66,Sub,,0,0,0,,I don't care.
+Dialogue: 0,0:02:28.99,0:02:29.74,Sub,,0,0,0,,This isn't over.
+Dialogue: 0,0:02:31.59,0:02:32.71,Sub,,0,0,0,,Where are you going !?
+Dialogue: 0,0:02:32.83,0:02:34.15,Sub,,0,0,0,,Let me out first !
+Dialogue: 0,0:02:39.95,0:02:41.38,Sub,,0,0,0,,This Demon General Competition
+Dialogue: 0,0:02:42.23,0:02:43.98,Sub,,0,0,0,,is getting more and more interesting...
+Dialogue: 0,0:02:49.79,0:02:50.26,Sub,,0,0,0,,Look,
+Dialogue: 0,0:02:50.99,0:02:52.10,Sub,,0,0,0,,your hair is all messy.
+Dialogue: 0,0:02:53.35,0:02:53.90,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:02:54.79,0:02:55.94,Sub,,0,0,0,,I want to go over there.
+Dialogue: 0,0:02:56.03,0:02:56.74,Sub,,0,0,0,,Let's go see the front.
+Dialogue: 0,0:02:56.83,0:02:57.75,Sub,,0,0,0,,Let's go, let's go.
+Dialogue: 0,0:02:57.75,0:02:58.86,Sub,,0,0,0,,I'm sure you'll like it.
+Dialogue: 0,0:02:59.15,0:02:59.50,Sub,,0,0,0,,Alright.
+Dialogue: 0,0:03:17.51,0:03:18.38,Sub,,0,0,0,,Wan'er...
+Dialogue: 0,0:03:30.43,0:03:32.31,Sub,,0,0,0,,This sorrowful melody is bone-chilling...
+Dialogue: 0,0:03:32.59,0:03:33.86,Sub,,0,0,0,,How fitting...
+Dialogue: 0,0:03:35.19,0:03:37.42,Sub,,0,0,0,,Cultivators who defy the heavens
+Dialogue: 0,0:03:39.15,0:03:40.94,Sub,,0,0,0,,are destined to be forever lonely...
+Dialogue: 0,0:03:43.15,0:03:44.58,Sub,,0,0,0,,Under the starlight and moonlight,
+Dialogue: 0,0:03:45.35,0:03:47.31,Sub,,0,0,0,,a solitary shadow sipping wine
+Dialogue: 0,0:03:48.23,0:03:50.02,Sub,,0,0,0,,listens to the zither, savoring life.
+Dialogue: 0,0:03:51.67,0:03:54.07,Sub,,0,0,0,,I don't know how the cultivators who cultivated
+Dialogue: 0,0:03:54.07,0:03:56.18,Sub,,0,0,0,,for tens of thousands of years endured this loneliness.
+Dialogue: 0,0:03:57.43,0:03:58.50,Sub,,0,0,0,,But I know
+Dialogue: 0,0:03:59.67,0:04:02.47,Sub,,0,0,0,,that if one doesn't have at least a tiny bit of emotion,
+Dialogue: 0,0:04:02.95,0:04:05.99,Sub,,0,0,0,,they are only cultivating their self-created Dao
+Dialogue: 0,0:04:06.63,0:04:08.35,Sub,,0,0,0,,and not the Dao of the heavens.
+Dialogue: 0,0:04:09.95,0:04:11.14,Sub,,0,0,0,,Heaven and earth are inhumane.
+Dialogue: 0,0:04:11.83,0:04:13.87,Sub,,0,0,0,,Cultivating is about defying the heavens,
+Dialogue: 0,0:04:13.95,0:04:15.66,Sub,,0,0,0,,but if a cultivator is heartless,
+Dialogue: 0,0:04:16.55,0:04:17.86,Sub,,0,0,0,,they are also inhumane.
+Dialogue: 0,0:04:19.59,0:04:22.75,Sub,,0,0,0,,Using an inhumane heart to cultivate the heaven's inhumane Dao...
+Dialogue: 0,0:04:22.95,0:04:25.22,Sub,,0,0,0,,How can that be called defying the heavens ?
+Dialogue: 0,0:04:26.47,0:04:27.94,Sub,,0,0,0,,What does "defying" even mean ?
+Dialogue: 0,0:04:29.43,0:04:32.35,Sub,,0,0,0,,That is merely following the will of the heavens.
+Dialogue: 0,0:04:44.79,0:04:46.95,Sub,,0,0,0,,Since ancient times, those who followed the will of the heavens
+Dialogue: 0,0:04:46.95,0:04:48.54,Sub,,0,0,0,,were favored by the heavens.
+Dialogue: 0,0:04:49.79,0:04:52.74,Sub,,0,0,0,,But in reality they were merely insects.
+Dialogue: 0,0:04:54.27,0:04:55.82,Sub,,0,0,0,,The heavens can only be defied
+Dialogue: 0,0:04:56.23,0:04:57.34,Sub,,0,0,0,,through emotions.
+Dialogue: 0,0:04:58.23,0:04:59.87,Sub,,0,0,0,,Cultivating to defy the heavens
+Dialogue: 0,0:05:01.59,0:05:03.31,Sub,,0,0,0,,doesn't mean seeking to be immortal,
+Dialogue: 0,0:05:03.55,0:05:05.86,Sub,,0,0,0,,but seeking to get rid of my status as an insect !
+Dialogue: 0,0:05:06.67,0:05:08.06,Sub,,0,0,0,,That is what it means to rebel !
+Dialogue: 0,0:05:08.40,0:05:11.67,Sub,,0,0,0,,Note: 逆 rebel / defy here is the same character used in the title Renegade Immortal.
+Dialogue: 0,0:05:12.55,0:05:13.14,Sub,,0,0,0,,Wan'er...
+Dialogue: 0,0:05:14.75,0:05:15.94,Sub,,0,0,0,,We will meet again.
+Dialogue: 0,0:05:18.55,0:05:20.18,Sub,,0,0,0,,This is my promise to you.
+Dialogue: 0,0:05:29.83,0:05:31.70,Sub,,0,0,0,,So he also is a heartbroken man...
+Dialogue: 0,0:05:41.55,0:05:42.42,Sub,,0,0,0,,Interesting...
+Dialogue: 0,0:05:50.95,0:05:52.15,Sub,,0,0,0,,Have you found him ?
+Dialogue: 0,0:05:52.79,0:05:54.07,Sub,,0,0,0,,I'm sorry for my incompetence...
+Dialogue: 0,0:05:54.67,0:05:55.90,Sub,,0,0,0,,Where could he have gone ?
+Dialogue: 0,0:05:57.03,0:05:57.74,Sub,,0,0,0,,It can't be...
+Dialogue: 0,0:06:03.43,0:06:04.07,Sub,,0,0,0,,Brother Wang !
+Dialogue: 0,0:06:04.39,0:06:05.54,Sub,,0,0,0,,Where have you been ?
+Dialogue: 0,0:06:06.55,0:06:07.79,Sub,,0,0,0,,I just went out for a stroll
+Dialogue: 0,0:06:07.87,0:06:08.87,Sub,,0,0,0,,to clear my mind.
+Dialogue: 0,0:06:09.43,0:06:10.79,Sub,,0,0,0,,Were you afraid I had left ?
+Dialogue: 0,0:06:13.27,0:06:14.26,Sub,,0,0,0,,Of course not !
+Dialogue: 0,0:06:15.03,0:06:16.70,Sub,,0,0,0,,I have important matters to discuss with you.
+Dialogue: 0,0:06:17.27,0:06:18.11,Sub,,0,0,0,,Attendant,
+Dialogue: 0,0:06:18.27,0:06:19.87,Sub,,0,0,0,,brew some tea for Brother Wang.
+Dialogue: 0,0:06:20.19,0:06:20.87,Sub,,0,0,0,,Right away.
+Dialogue: 0,0:06:23.83,0:06:26.10,Sub,,0,0,0,,Brother Wang, after your experience in the Hong Prison,
+Dialogue: 0,0:06:26.35,0:06:27.90,Sub,,0,0,0,,what's your strength level ?
+Dialogue: 0,0:06:30.15,0:06:31.43,Sub,,0,0,0,,Even without that palm strike,
+Dialogue: 0,0:06:31.75,0:06:32.82,Sub,,0,0,0,,I can defeat you.
+Dialogue: 0,0:06:35.99,0:06:36.46,Sub,,0,0,0,,Good.
+Dialogue: 0,0:06:36.83,0:06:37.54,Sub,,0,0,0,,Very good !
+Dialogue: 0,0:06:38.15,0:06:39.34,Sub,,0,0,0,,My efforts were worth it
+Dialogue: 0,0:06:39.75,0:06:41.38,Sub,,0,0,0,,if you've improved that much !
+Dialogue: 0,0:06:42.35,0:06:45.10,Sub,,0,0,0,,If you can truly help me win the Demon General Competition,
+Dialogue: 0,0:06:45.55,0:06:47.94,Sub,,0,0,0,,I will personally recommend you to the Demon Emperor
+Dialogue: 0,0:06:48.47,0:06:50.18,Sub,,0,0,0,,to secure a Demon General position for you.
+Dialogue: 0,0:06:55.39,0:06:56.30,Sub,,0,0,0,,There's one more thing.
+Dialogue: 0,0:06:57.43,0:07:00.47,Sub,,0,0,0,,Vice Commander-in-Chief Xuan has accumulated a lot of military merits over the years.
+Dialogue: 0,0:07:00.59,0:07:02.55,Sub,,0,0,0,,Now that Commander-in-Chief Xuan is dead,
+Dialogue: 0,0:07:02.83,0:07:05.46,Sub,,0,0,0,,he's sure to take that position.
+Dialogue: 0,0:07:06.35,0:07:07.18,Sub,,0,0,0,,Most importantly,
+Dialogue: 0,0:07:07.75,0:07:09.78,Sub,,0,0,0,,he's favored by the Demon Emperor.
+Dialogue: 0,0:07:11.23,0:07:13.90,Sub,,0,0,0,,If he can recommend us to the Demon Emperor,
+Dialogue: 0,0:07:14.55,0:07:17.74,Sub,,0,0,0,,our road ahead will be way easier.
+Dialogue: 0,0:07:18.75,0:07:19.34,Sub,,0,0,0,,Tomorrow,
+Dialogue: 0,0:07:19.91,0:07:21.42,Sub,,0,0,0,,I want to take you to visit him.
+Dialogue: 0,0:07:22.11,0:07:23.19,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:07:24.35,0:07:25.87,Sub,,0,0,0,,I'll follow Brother Mo's plan.
+Dialogue: 0,0:07:29.47,0:07:30.98,Sub,,0,0,0,,There are many visitors at the residence today.
+Dialogue: 0,0:07:29.71,0:07:32.83,Card,,0,0,0,,{\fad(300,300)\pos(383,469)}Xuan Residence\NSky Demon City
+Dialogue: 0,0:07:31.27,0:07:32.75,Sub,,0,0,0,,Master is already seeing someone.
+Dialogue: 0,0:07:33.31,0:07:35.47,Sub,,0,0,0,,General Mo, please follow me to the side courtyard
+Dialogue: 0,0:07:35.51,0:07:36.79,Sub,,0,0,0,,and wait for a while.
+Dialogue: 0,0:07:38.15,0:07:41.18,Sub,,0,0,0,,I wonder who Vice-Commander-in-chief Xuan is receiving.
+Dialogue: 0,0:07:45.11,0:07:48.43,Card,,0,0,0,,{\fad(300,300)\pos(388,498)}Vice Commander-in-Chief Xuan\NRank 300 000 Demonic Energy\N(Early stage Ascendant)
+Dialogue: 0,0:07:49.15,0:07:51.06,Sub,,0,0,0,,You're not the first to come here.
+Dialogue: 0,0:07:52.35,0:07:53.47,Sub,,0,0,0,,I'm aware
+Dialogue: 0,0:07:53.91,0:07:54.95,Sub,,0,0,0,,of your request.
+Dialogue: 0,0:07:56.83,0:07:57.54,Sub,,0,0,0,,However,
+Dialogue: 0,0:07:58.23,0:07:59.34,Sub,,0,0,0,,your mediocre gift
+Dialogue: 0,0:07:59.99,0:08:00.98,Sub,,0,0,0,,doesn't impress me !
+Dialogue: 0,0:08:13.43,0:08:15.31,Sub,,0,0,0,,General Mo's Great Rotating Disk
+Dialogue: 0,0:08:15.67,0:08:17.35,Sub,,0,0,0,,has already reached the 18th layer.
+Dialogue: 0,0:08:18.27,0:08:19.02,Sub,,0,0,0,,Not bad.
+Dialogue: 0,0:08:20.75,0:08:22.07,Sub,,0,0,0,,If Vice Commander-in-chief favors me,
+Dialogue: 0,0:08:22.11,0:08:22.95,Sub,,0,0,0,,once I'm appointed,
+Dialogue: 0,0:08:23.03,0:08:24.66,Sub,,0,0,0,,I'll do everything I can to help you.
+Dialogue: 0,0:08:25.79,0:08:27.58,Sub,,0,0,0,,We are all soldiers of the Sky Demon Country.
+Dialogue: 0,0:08:28.27,0:08:29.70,Sub,,0,0,0,,Our loyalty is to His Majesty.
+Dialogue: 0,0:08:32.75,0:08:33.50,Sub,,0,0,0,,However,
+Dialogue: 0,0:08:34.23,0:08:35.54,Sub,,0,0,0,,I will remember
+Dialogue: 0,0:08:36.35,0:08:37.22,Sub,,0,0,0,,what you said.
+Dialogue: 0,0:08:38.83,0:08:40.11,Sub,,0,0,0,,Thank you, Vice Commander-in-chief !
+Dialogue: 0,0:09:01.47,0:09:02.30,Sub,,0,0,0,,This aura...
+Dialogue: 0,0:09:03.51,0:09:04.86,Sub,,0,0,0,,feels familiar.
+Dialogue: 0,0:09:06.75,0:09:08.14,Sub,,0,0,0,,That was Mo Fei.
+Dialogue: 0,0:09:09.63,0:09:11.50,Sub,,0,0,0,,He was faster than us.
+Dialogue: 0,0:09:18.27,0:09:19.67,Sub,,0,0,0,,I pay respects to V...
+Dialogue: 0,0:09:29.07,0:09:30.75,Sub,,0,0,0,,You're not kneeling before me ?
+Dialogue: 0,0:09:31.03,0:09:32.46,Sub,,0,0,0,,You have some guts.
+Dialogue: 0,0:09:34.79,0:09:36.14,Sub,,0,0,0,,However, in this competition,
+Dialogue: 0,0:09:37.03,0:09:39.11,Sub,,0,0,0,,you have at most 40% chance of winning.
+Dialogue: 0,0:09:40.15,0:09:41.18,Sub,,0,0,0,,Adding this person,
+Dialogue: 0,0:09:41.95,0:09:43.03,Sub,,0,0,0,,I'm 90% confident !
+Dialogue: 0,0:09:45.55,0:09:46.74,Sub,,0,0,0,,Use your full strength.
+Dialogue: 0,0:09:47.27,0:09:48.46,Sub,,0,0,0,,Let me see what you're worth.
+Dialogue: 0,0:10:06.95,0:10:08.03,Sub,,0,0,0,,Forgive me.
+Dialogue: 0,0:10:13.07,0:10:13.82,Sub,,0,0,0,,What's your name ?
+Dialogue: 0,0:10:14.27,0:10:14.86,Sub,,0,0,0,,Wang Lin.
+Dialogue: 0,0:10:17.27,0:10:19.11,Sub,,0,0,0,,General Mo has gained a fine subordinate.
+Dialogue: 0,0:10:19.39,0:10:20.62,Sub,,0,0,0,,It's hard to predict
+Dialogue: 0,0:10:21.39,0:10:23.02,Sub,,0,0,0,,who will win the competition now...
+Dialogue: 0,0:10:24.55,0:10:26.35,Sub,,0,0,0,,We hope for Vice-Commander-in-chief's favor.
+Dialogue: 0,0:10:26.55,0:10:29.22,Sub,,0,0,0,,I, Mo Lihai, vow to repay you in the future.
+Dialogue: 0,0:10:30.95,0:10:31.86,Sub,,0,0,0,,In this competition,
+Dialogue: 0,0:10:31.87,0:10:33.47,Sub,,0,0,0,,you'll have to rely on your own strength.
+Dialogue: 0,0:10:33.75,0:10:34.26,Sub,,0,0,0,,You both...
+Dialogue: 0,0:10:35.07,0:10:35.94,Sub,,0,0,0,,are dismissed.
+Dialogue: 0,0:10:36.94,0:10:37.70,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:10:46.83,0:10:48.94,Sub,,0,0,0,,This guy's strength is unfathomable...
+Dialogue: 0,0:10:50.87,0:10:51.91,Sub,,0,0,0,,This is an order:
+Dialogue: 0,0:10:52.35,0:10:53.22,Sub,,0,0,0,,from now on,
+Dialogue: 0,0:10:54.15,0:10:55.31,Sub,,0,0,0,,the residence is closed !
+Dialogue: 0,0:10:59.63,0:11:00.18,Sub,,0,0,0,,Demon General...
+Dialogue: 0,0:11:04.15,0:11:05.62,Sub,,0,0,0,,Rely on their own strength ?
+Dialogue: 0,0:11:21.23,0:11:21.90,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:11:22.51,0:11:23.82,Sub,,0,0,0,,I must tell you something.
+Dialogue: 0,0:11:24.71,0:11:27.62,Sub,,0,0,0,,There is a lot of scheming before the Demon General Competition.
+Dialogue: 0,0:11:29.15,0:11:31.07,Sub,,0,0,0,,Demon Generals are protected by imperial decree
+Dialogue: 0,0:11:31.27,0:11:32.22,Sub,,0,0,0,,but their helpers
+Dialogue: 0,0:11:32.75,0:11:34.14,Sub,,0,0,0,,often die mysteriously.
+Dialogue: 0,0:11:35.91,0:11:36.42,Sub,,0,0,0,,Mo Fei ?
+Dialogue: 0,0:11:40.39,0:11:42.22,Sub,,0,0,0,,The details of what happened today
+Dialogue: 0,0:11:42.55,0:11:44.22,Sub,,0,0,0,,have probably already reached his ears.
+Dialogue: 0,0:11:45.07,0:11:45.78,Sub,,0,0,0,,This man
+Dialogue: 0,0:11:46.43,0:11:48.47,Sub,,0,0,0,,is no stranger to stabbing in the back.
+Dialogue: 0,0:11:49.19,0:11:50.19,Sub,,0,0,0,,Before the competition,
+Dialogue: 0,0:11:50.19,0:11:51.46,Sub,,0,0,0,,I need to cultivate in seclusion.
+Dialogue: 0,0:11:52.59,0:11:54.51,Sub,,0,0,0,,You must be careful, Brother Wang.
+Dialogue: 0,0:11:55.55,0:11:56.51,Sub,,0,0,0,,Don't worry.
+Dialogue: 0,0:12:12.47,0:12:13.42,Sub,,0,0,0,,A spy reported that
+Dialogue: 0,0:12:13.99,0:12:15.03,Sub,,0,0,0,,Mo Lihai is in seclusion
+Dialogue: 0,0:12:15.07,0:12:16.47,Sub,,0,0,0,,and this man is alone outside.
+Dialogue: 0,0:12:17.35,0:12:19.26,Sub,,0,0,0,,That saves us the trouble of looking for him.
+Dialogue: 0,0:12:20.75,0:12:22.54,Sub,,0,0,0,,He didn't even set up a defensive restriction ?
+Dialogue: 0,0:12:23.15,0:12:24.34,Sub,,0,0,0,,He's not afraid of death at all.
+Dialogue: 0,0:12:25.59,0:12:26.34,Sub,,0,0,0,,Maybe...
+Dialogue: 0,0:12:27.55,0:12:29.06,Sub,,0,0,0,,he thinks no one will dare to attack him ?
+Dialogue: 0,0:12:29.87,0:12:30.95,Sub,,0,0,0,,Proceed as planned.
+Dialogue: 0,0:12:31.35,0:12:32.50,Sub,,0,0,0,,Since Master has requested it,
+Dialogue: 0,0:12:32.87,0:12:33.94,Sub,,0,0,0,,we must ensure
+Dialogue: 0,0:12:34.39,0:12:35.43,Sub,,0,0,0,,that he dies !
+Dialogue: 0,0:12:57.71,0:12:58.34,Sub,,0,0,0,,Ink-Tip Spear,
+Dialogue: 0,0:12:58.51,0:12:58.94,Sub,,0,0,0,,attack !
+Dialogue: 0,0:12:59.95,0:13:00.70,Sub,,0,0,0,,Primordial Heaven Seal,
+Dialogue: 0,0:13:01.11,0:13:01.58,Sub,,0,0,0,,fall !
+Dialogue: 0,0:13:04.75,0:13:06.62,Sub,,0,0,0,,His finger spell is powerful
+Dialogue: 0,0:13:07.35,0:13:09.19,Sub,,0,0,0,,but with the Primordial Heaven Seal suppressing him
+Dialogue: 0,0:13:09.35,0:13:10.67,Sub,,0,0,0,,and with the Ink-Tip Spear,
+Dialogue: 0,0:13:10.75,0:13:11.78,Sub,,0,0,0,,there's no way he can survive.
+Dialogue: 0,0:13:27.91,0:13:29.38,Sub,,0,0,0,,What the hell is this spell !?
+Dialogue: 0,0:13:39.83,0:13:41.54,Sub,,0,0,0,,How many people has this person killed ?!
+Dialogue: 0,0:13:42.03,0:13:45.30,Sub,,0,0,0,,Could he be cultivating the legendary Dao of slaughter ?
+Dialogue: 0,0:13:46.11,0:13:47.54,Sub,,0,0,0,,Since you've come here,
+Dialogue: 0,0:13:47.55,0:13:49.46,Sub,,0,0,0,,why are you already leaving ?
+Dialogue: 0,0:14:05.79,0:14:07.27,Sub,,0,0,0,,The competition hasn't even started
+Dialogue: 0,0:14:07.27,0:14:08.74,Sub,,0,0,0,,but blood has already been spilled.
+Dialogue: 0,0:14:10.07,0:14:10.94,Sub,,0,0,0,,Interesting...
+Dialogue: 0,0:14:13.15,0:14:14.30,Sub,,0,0,0,,The assassination failed
+Dialogue: 0,0:14:15.47,0:14:17.62,Sub,,0,0,0,,but this is far from over.
+Dialogue: 0,0:14:22.79,0:14:25.95,Card,,0,0,0,,{\fad(300,300)\pos(373,458)}Main Hall\NSky Demon City
+Dialogue: 0,0:14:24.75,0:14:26.34,Sub,,0,0,0,,So your fighting spirit is high
+Dialogue: 0,0:14:27.03,0:14:30.02,Sub,,0,0,0,,and you wish to have a preemptive duel with Mo Lihai ?
+Dialogue: 0,0:14:31.07,0:14:32.22,Sub,,0,0,0,,This isn't a bad idea.
+Dialogue: 0,0:14:33.35,0:14:34.38,Sub,,0,0,0,,Granted.
+Dialogue: 0,0:14:35.15,0:14:36.38,Sub,,0,0,0,,Thank you, Your Majesty !
+Dialogue: 0,0:14:39.35,0:14:40.10,Sub,,0,0,0,,Your Majesty,
+Dialogue: 0,0:14:40.39,0:14:42.42,Sub,,0,0,0,,the Demon General Competition is an ancestral tradition.
+Dialogue: 0,0:14:42.59,0:14:45.54,Sub,,0,0,0,,If we allow these two to set a precedent for private duels,
+Dialogue: 0,0:14:45.95,0:14:47.66,Sub,,0,0,0,,I'm afraid in the future...
+Dialogue: 0,0:14:50.27,0:14:53.63,Sub,,0,0,0,,If in the future, someone can be like Mo Fei and earn millions of military merits
+Dialogue: 0,0:14:53.75,0:14:55.75,Sub,,0,0,0,,by killing in the Fire Demon Country.
+Dialogue: 0,0:14:56.35,0:14:56.94,Sub,,0,0,0,,Then I...
+Dialogue: 0,0:14:57.71,0:14:59.14,Sub,,0,0,0,,will grant it to them as well.
+Dialogue: 0,0:15:08.47,0:15:10.46,Sub,,0,0,0,,His Majesty has allowed my private duel with Mo Lihai.
+Dialogue: 0,0:15:11.39,0:15:12.34,Sub,,0,0,0,,You will deliver
+Dialogue: 0,0:15:12.79,0:15:13.58,Sub,,0,0,0,,this challenge letter.
+Dialogue: 0,0:15:16.55,0:15:17.63,Sub,,0,0,0,,The Demon General Competition
+Dialogue: 0,0:15:17.63,0:15:18.98,Sub,,0,0,0,,is none of my business.
+Dialogue: 0,0:15:20.19,0:15:22.02,Sub,,0,0,0,,But this Seventh Purple Disciple...
+Dialogue: 0,0:15:29.35,0:15:30.35,Sub,,0,0,0,,Stop right there !
+Dialogue: 0,0:15:40.23,0:15:42.66,Sub,,0,0,0,,This person's cultivation is not beneath mine.
+Dialogue: 0,0:15:43.15,0:15:45.66,Sub,,0,0,0,,His sword intent is astonishing.
+Dialogue: 0,0:15:49.59,0:15:50.78,Sub,,0,0,0,,General Mo Fei
+Dialogue: 0,0:15:51.35,0:15:52.94,Sub,,0,0,0,,challenges you to a duel
+Dialogue: 0,0:15:53.75,0:15:54.66,Sub,,0,0,0,,3 days from now
+Dialogue: 0,0:15:55.15,0:15:56.34,Sub,,0,0,0,,at the Ancient Pavilion.
+Dialogue: 0,0:15:56.95,0:15:57.70,Sub,,0,0,0,,We hope
+Dialogue: 0,0:15:58.19,0:15:59.34,Sub,,0,0,0,,that General Mo
+Dialogue: 0,0:15:59.87,0:16:01.15,Sub,,0,0,0,,will not avoid this duel.
+Dialogue: 0,0:16:01.63,0:16:02.59,Sub,,0,0,0,,He's here !
+Dialogue: 0,0:16:03.15,0:16:05.78,Sub,,0,0,0,,I heard the All-Seer is quite proud of this disciple.
+Dialogue: 0,0:16:06.23,0:16:07.58,Sub,,0,0,0,,If I kill him,
+Dialogue: 0,0:16:07.59,0:16:08.74,Sub,,0,0,0,,I'll be heavily rewarded.
+Dialogue: 0,0:16:11.03,0:16:12.38,Sub,,0,0,0,,Seventh Purple Disciple,
+Dialogue: 0,0:16:13.03,0:16:15.30,Sub,,0,0,0,,would you like to spar with me ?
+Dialogue: 0,0:16:28.35,0:16:30.66,Sub,,0,0,0,,How could my Da Lou Sword Qi shatter upon impact ?!
+Dialogue: 0,0:16:31.35,0:16:33.18,Sub,,0,0,0,,What kind of spell did he cultivate ?!
+Dialogue: 0,0:16:57.95,0:16:59.46,Sub,,0,0,0,,Wei Yang Sword Slash !
+Dialogue: 0,0:17:07.15,0:17:08.83,Sub,,0,0,0,,What a waste of a good sword.
+Dialogue: 0,0:17:14.63,0:17:15.58,Sub,,0,0,0,,Damn Beast !
+Dialogue: 0,0:17:27.35,0:17:28.03,Sub,,0,0,0,,You...
+Dialogue: 0,0:17:28.19,0:17:29.94,Sub,,0,0,0,,I have no grudge with the Da Lou Sword Sect.
+Dialogue: 0,0:17:30.79,0:17:32.95,Sub,,0,0,0,,Sect rivalries are for our elders to decide.
+Dialogue: 0,0:17:33.55,0:17:35.03,Sub,,0,0,0,,We don't have to be enemies
+Dialogue: 0,0:17:35.43,0:17:36.70,Sub,,0,0,0,,within the Demon Spirit Land.
+Dialogue: 0,0:17:50.47,0:17:51.82,Sub,,0,0,0,,This man is no joke,
+Dialogue: 0,0:17:52.27,0:17:53.46,Sub,,0,0,0,,letting him go is unwise !
+Dialogue: 0,0:18:01.03,0:18:02.22,Sub,,0,0,0,,He broke my sword intent
+Dialogue: 0,0:18:02.23,0:18:03.35,Sub,,0,0,0,,and my sword slash...
+Dialogue: 0,0:18:03.95,0:18:05.34,Sub,,0,0,0,,He's stronger than me...
+Dialogue: 0,0:18:06.07,0:18:08.98,Sub,,0,0,0,,He will definitely become a serious threat to our Da Lou Sword Sect !
+Dialogue: 0,0:18:09.43,0:18:10.06,Sub,,0,0,0,,This man...
+Dialogue: 0,0:18:10.67,0:18:11.50,Sub,,0,0,0,,must die !
+Dialogue: 0,0:18:16.95,0:18:20.78,Sub,,0,0,0,,I use my Soul Blood to awaken Master's Sword Qi !
+Dialogue: 0,0:18:34.55,0:18:35.34,Sub,,0,0,0,,Slash !
+Dialogue: 0,0:18:44.03,0:18:45.58,Sub,,0,0,0,,Wang... Lin...
+Dialogue: 0,0:19:00.55,0:19:02.98,Sub,,0,0,0,,Ling Tianhou's Sword Qi is very powerful.
+Dialogue: 0,0:19:04.23,0:19:06.98,Sub,,0,0,0,,If he had succeeded in using this Sword Qi,
+Dialogue: 0,0:19:07.75,0:19:09.38,Sub,,0,0,0,,even with my Life Seals,
+Dialogue: 0,0:19:10.23,0:19:11.54,Sub,,0,0,0,,I would've died for sure.
+Dialogue: 0,0:19:14.75,0:19:16.15,Sub,,0,0,0,,A cornered beast is hard to fight,
+Dialogue: 0,0:19:16.15,0:19:17.71,Sub,,0,0,0,,always give the enemy a way out.
+Dialogue: 0,0:19:17.75,0:19:19.74,Sub,,0,0,0,,Brother Wang, what excellent scheming !
+Dialogue: 0,0:19:31.39,0:19:33.98,Sub,,0,0,0,,So this is the life-saving Sword Qi
+Dialogue: 0,0:19:35.15,0:19:38.34,Sub,,0,0,0,,that Ling Tianhou gave to his 12 disciples before they entered.
+Dialogue: 0,0:19:45.67,0:19:47.06,Sub,,0,0,0,,It seems to obtain the Sword Qi,
+Dialogue: 0,0:19:47.83,0:19:49.58,Sub,,0,0,0,,I must first refine the Origin Soul.
+Dialogue: 0,0:19:58.75,0:20:00.59,Sub,,0,0,0,,{\pos(970,521)\fad(300,300)}3 days later
+Dialogue: 0,0:20:53.31,0:20:55.59,Sub,,0,0,0,,This Sword Qi's power is earth-shattering.
+Dialogue: 0,0:20:56.15,0:20:58.42,Sub,,0,0,0,,Wei Yang really gave me a great gift.
+Dialogue: 0,0:21:05.75,0:21:06.87,Sub,,0,0,0,,He's badly injured.
+Dialogue: 0,0:21:07.75,0:21:09.71,Sub,,0,0,0,,Mo Fei's Great Rotating Disk
+Dialogue: 0,0:21:09.95,0:21:12.91,Sub,,0,0,0,,even broke the Hundred Waves Demon Sea that His Majesty taught me.
+Dialogue: 0,0:21:15.23,0:21:16.11,Sub,,0,0,0,,I lost...
+Dialogue: 0,0:21:17.95,0:21:19.75,Sub,,0,0,0,,I made an agreement with Mo Fei before the duel.
+Dialogue: 0,0:21:19.75,0:21:21.31,Sub,,0,0,0,,The loser will not participate.
+Dialogue: 0,0:21:21.67,0:21:22.62,Sub,,0,0,0,,Now,
+Dialogue: 0,0:21:23.51,0:21:26.03,Sub,,0,0,0,,whether I can obtain the Vice Commander-in-chief position
+Dialogue: 0,0:21:26.23,0:21:27.54,Sub,,0,0,0,,entirely depends on Brother Wang !
+Dialogue: 0,0:21:28.87,0:21:29.95,Sub,,0,0,0,,I will accomplish
+Dialogue: 0,0:21:30.47,0:21:31.83,Sub,,0,0,0,,what I promised you.
+Dialogue: 0,0:21:42.67,0:21:48.31,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:21:44.97,0:21:48.31,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:21:48.95,0:21:53.91,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:21:50.79,0:21:53.91,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:21:54.07,0:21:59.83,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:21:59.95,0:22:05.55,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:22:05.83,0:22:11.15,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:22:07.71,0:22:11.15,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:22:11.43,0:22:16.75,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:22:13.33,0:22:16.75,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:22:16.79,0:22:22.47,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:22:19.67,0:22:22.47,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:22:22.91,0:22:27.11,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:22:25.07,0:22:27.11,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:22:27.19,0:22:30.43,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:22:30.47,0:22:33.51,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:22:33.64,0:22:39.07,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:22:35.33,0:22:39.07,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:22:39.07,0:22:42.19,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:22:42.19,0:22:45.23,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:22:45.23,0:22:50.59,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:22:47.11,0:22:50.59,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:22:50.59,0:22:53.55,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:22:53.55,0:22:56.35,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:22:56.35,0:23:01.83,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:22:58.39,0:23:01.83,Music,,0,0,0,,{\fad(1500,700)}I'll still fight.
+Dialogue: 0,0:23:02.03,0:23:05.19,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:23:05.19,0:23:08.23,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:23:08.23,0:23:13.91,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:23:10.55,0:23:13.91,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

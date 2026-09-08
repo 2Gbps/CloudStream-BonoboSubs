@@ -1,0 +1,324 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 156
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100.0,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Stamp,Lucida Sans,100,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Opening2,Lucida Sans,38,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,90,0,0,1,0.5,2,2,10,10,5,1
+Style: Map,Lucida Sans,80,&H003C6F9B,&HFF000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,95,0,0,1,2,1,2,10,10,3,1
+Style: Spells,Lucida Sans,80,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Spells2,Lucida Sans,80,&H00ECF8FB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Pavilion,Lucida Sans,120,&H0050C3E7,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.24,0:00:35.24,Opening2,,0,0,0,,{\fad(1000,1000)}The rules keep changing.
+Dialogue: 0,0:00:39.08,0:00:44.08,Opening2,,0,0,0,,{\fad(1000,1000)}I've been rehearsing every possible outcome.
+Dialogue: 0,0:00:48.24,0:00:54.52,Opening2,,0,0,0,,{\fad(1000,1000)}Once this thought arises, there is no more room for right or wrong.
+Dialogue: 0,0:00:57.68,0:01:03.16,Opening2,,0,0,0,,{\fad(1000,1000)}I am resolved to sever this flood
+Dialogue: 0,0:01:05.28,0:01:09.52,Opening2,,0,0,0,,{\fad(1000,1000)}so that my soul can break free from mediocrity,
+Dialogue: 0,0:01:09.76,0:01:13.88,Opening2,,0,0,0,,{\fad(1000,1000)}from loneliness and distinction.
+Dialogue: 0,0:01:14.36,0:01:18.84,Opening2,,0,0,0,,{\fad(1000,800)}One more step and you'll fall into madness.
+Dialogue: 0,0:01:19.04,0:01:23.84,Opening2,,0,0,0,,{\fad(1000,1000)}Don't fall down.
+Dialogue: 0,0:01:25.48,0:01:27.04,Opening2,,0,0,0,,{\fad(1000,150)}I look towards the top.
+Dialogue: 0,0:01:27.12,0:01:29.68,Opening2,,0,0,0,,{\fad(300,500)}Chase !
+Dialogue: 0,0:01:29.88,0:01:32.88,Opening2,,0,0,0,,{\fad(600,600)}Refined to perfection.
+Dialogue: 0,0:01:34.44,0:01:38.80,Opening2,,0,0,0,,{\fad(600,600)}Never retreat, no matter the danger.
+Dialogue: 0,0:01:38.92,0:01:41.84,Opening2,,0,0,0,,{\fad(300,300)}I dare to defy the heavens !
+Dialogue: 0,0:01:42.32,0:01:45.68,Opening2,,0,0,0,,{\fad(600,600)}Always overcome the obstacles,
+Dialogue: 0,0:01:45.87,0:01:48.04,Opening2,,0,0,0,,{\fad(300,300)}ignite the seas with blood,
+Dialogue: 0,0:01:48.20,0:01:52.48,Opening2,,0,0,0,,{\fad(600,600)}bloom through trials and tribulations.
+Dialogue: 0,0:01:52.64,0:01:57.12,Opening2,,0,0,0,,{\fad(600,600)}Even the sharpest thorns
+Dialogue: 0,0:01:57.24,0:02:01.68,Opening2,,0,0,0,,{\fad(600,1000)}will be reduced into ashes.
+Dialogue: 0,0:02:01.72,0:02:06.00,Opening2,,0,0,0,,{\fad(800,800)}What is there to fear ?
+Dialogue: 0,0:02:11.00,0:02:15.64,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:03:24.28,0:03:25.79,Sub,,0,0,0,,Let me see
+Dialogue: 0,0:03:26.32,0:03:28.95,Sub,,0,0,0,,how you will escape this time.
+Dialogue: 0,0:03:29.64,0:03:30.43,Sub,,0,0,0,,Master !
+Dialogue: 0,0:03:31.96,0:03:33.31,Sub,,0,0,0,,Bunch of fools...
+Dialogue: 0,0:03:34.00,0:03:35.27,Sub,,0,0,0,,Xu Mu may be strong,
+Dialogue: 0,0:03:35.48,0:03:36.95,Sub,,0,0,0,,but he's only at Corporeal Yang.
+Dialogue: 0,0:03:37.44,0:03:39.19,Sub,,0,0,0,,How could he possibly defeat this person ?
+Dialogue: 0,0:03:39.96,0:03:40.76,Sub,,0,0,0,,You
+Dialogue: 0,0:03:41.00,0:03:42.35,Sub,,0,0,0,,can't escape.
+Dialogue: 0,0:03:47.04,0:03:48.56,Sub,,0,0,0,,A physical form of Divine Sense
+Dialogue: 0,0:03:48.84,0:03:50.28,Sub,,0,0,0,,to trap me in a cage ?
+Dialogue: 0,0:03:52.04,0:03:52.99,Sub,,0,0,0,,I can't teleport !?
+Dialogue: 0,0:04:00.28,0:04:01.08,Sub,,0,0,0,,Wind !
+Dialogue: 0,0:04:07.68,0:04:09.79,Sub,,0,0,0,,Call the Wind ?
+Dialogue: 0,0:04:11.00,0:04:13.87,Sub,,0,0,0,,What's your relationship with Celestial Emperor Bai Fan !?
+Dialogue: 0,0:04:19.80,0:04:20.99,Sub,,0,0,0,,Lands Collapse !
+Dialogue: 0,0:04:38.12,0:04:40.11,Sub,,0,0,0,,This is one of my strands of Ji Realm ?
+Dialogue: 0,0:04:40.88,0:04:43.27,Sub,,0,0,0,,So you really were able to subdue it.
+Dialogue: 0,0:05:01.24,0:05:01.91,Sub,,0,0,0,,Go !
+Dialogue: 0,0:05:06.40,0:05:09.51,Sub,,0,0,0,,Master Carefree's Withered Dao Pair ?
+Dialogue: 0,0:05:12.00,0:05:13.71,Sub,,0,0,0,,Let me see
+Dialogue: 0,0:05:13.72,0:05:15.67,Sub,,0,0,0,,what else you've got.
+Dialogue: 0,0:05:27.80,0:05:29.35,Sub,,0,0,0,,A Rain Celestial Sword !
+Dialogue: 0,0:05:31.52,0:05:34.55,Sub,,0,0,0,,You're a very interesting Qi Refiner.
+Dialogue: 0,0:05:36.12,0:05:37.75,Sub,,0,0,0,,This man can brush off my attacks
+Dialogue: 0,0:05:38.04,0:05:39.19,Sub,,0,0,0,,as if they were nothing.
+Dialogue: 0,0:05:40.88,0:05:41.67,Sub,,0,0,0,,Now,
+Dialogue: 0,0:05:42.16,0:05:44.52,Sub,,0,0,0,,I have to use the Blood Ancestor's blood body's origin energy.
+Dialogue: 0,0:05:44.80,0:05:45.99,Sub,,0,0,0,,It's all or nothing.
+Dialogue: 0,0:05:51.56,0:05:52.19,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:05:56.08,0:05:57.03,Sub,,0,0,0,,Call the Wind !
+Dialogue: 0,0:06:05.84,0:06:06.87,Sub,,0,0,0,,Not enough !
+Dialogue: 0,0:06:14.48,0:06:15.71,Sub,,0,0,0,,It's still...
+Dialogue: 0,0:06:16.08,0:06:17.35,Sub,,0,0,0,,not enough !
+Dialogue: 0,0:06:40.24,0:06:42.51,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:06:47.64,0:06:49.47,Sub,,0,0,0,,Thankfully, I didn't make a move that day.
+Dialogue: 0,0:06:50.00,0:06:51.71,Sub,,0,0,0,,If I had, I wouldn't have lasted an instant
+Dialogue: 0,0:06:52.00,0:06:53.23,Sub,,0,0,0,,against this black wind.
+Dialogue: 0,0:06:54.60,0:06:55.39,Sub,,0,0,0,,Master...
+Dialogue: 0,0:06:56.08,0:06:56.99,Sub,,0,0,0,,Did you win ?
+Dialogue: 0,0:07:02.92,0:07:05.00,Sub,,0,0,0,,There's no way he was defeated just like that.
+Dialogue: 0,0:07:23.12,0:07:23.87,Sub,,0,0,0,,Not dead ?
+Dialogue: 0,0:07:23.88,0:07:24.75,Sub,,0,0,0,,He's not dead !
+Dialogue: 0,0:07:26.84,0:07:28.23,Sub,,0,0,0,,Bai Fan's celestial spell,
+Dialogue: 0,0:07:28.84,0:07:30.47,Sub,,0,0,0,,Qing Shuang's celestial sword,
+Dialogue: 0,0:07:30.76,0:07:32.47,Sub,,0,0,0,,Master Carefree's artifact...
+Dialogue: 0,0:07:33.36,0:07:34.79,Sub,,0,0,0,,Tell me your name.
+Dialogue: 0,0:07:35.92,0:07:36.63,Sub,,0,0,0,,You
+Dialogue: 0,0:07:36.96,0:07:39.43,Sub,,0,0,0,,are worthy being remembered.
+Dialogue: 0,0:07:54.40,0:07:56.03,Sub,,0,0,0,,Little guy fated with me,
+Dialogue: 0,0:07:56.16,0:07:57.39,Sub,,0,0,0,,don't be in such a hurry.
+Dialogue: 0,0:07:57.88,0:07:59.95,Sub,,0,0,0,,This old man can't come here right now,
+Dialogue: 0,0:08:00.36,0:08:01.87,Sub,,0,0,0,,so let me borrow your body.
+Dialogue: 0,0:08:03.16,0:08:03.95,Sub,,0,0,0,,It's him !
+Dialogue: 0,0:08:06.72,0:08:07.79,Sub,,0,0,0,,This old man
+Dialogue: 0,0:08:08.00,0:08:09.99,Sub,,0,0,0,,will treat you to a good show.
+Dialogue: 0,0:08:29.76,0:08:31.59,Sub,,0,0,0,,Enough with the nonsense.
+Dialogue: 0,0:08:31.88,0:08:33.47,Sub,,0,0,0,,So what if you're a Celestial Lord ?
+Dialogue: 0,0:08:34.16,0:08:35.27,Sub,,0,0,0,,Also,
+Dialogue: 0,0:08:35.88,0:08:37.43,Sub,,0,0,0,,your current cultivation
+Dialogue: 0,0:08:38.60,0:08:40.51,Sub,,0,0,0,,isn't even on par with a Celestial King.
+Dialogue: 0,0:08:43.16,0:08:45.07,Sub,,0,0,0,,You can use the power of the world ?
+Dialogue: 0,0:08:45.72,0:08:47.75,Sub,,0,0,0,,You're not that Qi Refiner from before !
+Dialogue: 0,0:08:55.64,0:08:56.28,Sub,,0,0,0,,Who
+Dialogue: 0,0:08:57.20,0:08:58.19,Sub,,0,0,0,,are you !?
+Dialogue: 0,0:09:08.88,0:09:10.71,Sub,,0,0,0,,You don't know who I am.
+Dialogue: 0,0:09:11.16,0:09:12.11,Sub,,0,0,0,,But I
+Dialogue: 0,0:09:12.40,0:09:14.47,Sub,,0,0,0,,know exactly who you are.
+Dialogue: 0,0:09:19.60,0:09:20.39,Sub,,0,0,0,,I...
+Dialogue: 0,0:09:21.12,0:09:22.51,Sub,,0,0,0,,Who am I ?
+Dialogue: 0,0:09:23.52,0:09:24.99,Sub,,0,0,0,,Celestial Burning Flame,
+Dialogue: 0,0:09:25.52,0:09:26.03,Sub,,0,0,0,,rise !
+Dialogue: 0,0:09:34.44,0:09:35.24,Sub,,0,0,0,,Blaze !
+Dialogue: 0,0:09:44.68,0:09:47.12,Card Hard,,0,0,0,,{\fad(300,300)\pos(1647,488)}Wang Lin's\NSea of Consciousness
+Dialogue: 0,0:09:45.36,0:09:47.72,Sub,,0,0,0,,A single thought can draw upon the power of the world ?
+Dialogue: 0,0:09:59.60,0:10:00.47,Sub,,0,0,0,,Not bad.
+Dialogue: 0,0:10:01.32,0:10:03.07,Sub,,0,0,0,,Among the later generations of Qi Refiners,
+Dialogue: 0,0:10:03.32,0:10:05.75,Sub,,0,0,0,,someone has actually reached this level.
+Dialogue: 0,0:10:06.60,0:10:07.20,Sub,,0,0,0,,Refine !
+Dialogue: 0,0:10:15.00,0:10:16.71,Sub,,0,0,0,,Ji... Realm !
+Dialogue: 0,0:10:33.96,0:10:34.72,Sub,,0,0,0,,This is bad,
+Dialogue: 0,0:10:35.16,0:10:37.27,Sub,,0,0,0,,if his Origin Soul gets scattered
+Dialogue: 0,0:10:38.12,0:10:38.99,Sub,,0,0,0,,and he flees,
+Dialogue: 0,0:10:39.56,0:10:40.59,Sub,,0,0,0,,I'll die for sure.
+Dialogue: 0,0:10:57.16,0:10:59.00,Sub,,0,0,0,,That's some serious strength.
+Dialogue: 0,0:10:59.28,0:11:00.27,Sub,,0,0,0,,This Ji Realm
+Dialogue: 0,0:11:00.72,0:11:02.79,Sub,,0,0,0,,is way stronger than the previous one.
+Dialogue: 0,0:11:10.32,0:11:11.07,Sub,,0,0,0,,That was close.
+Dialogue: 0,0:11:12.04,0:11:13.55,Sub,,0,0,0,,This Ji Realm is indeed astounding.
+Dialogue: 0,0:11:14.04,0:11:16.27,Sub,,0,0,0,,I didn't expect that after being sealed for so many years,
+Dialogue: 0,0:11:16.60,0:11:18.39,Sub,,0,0,0,,he would still be this strong.
+Dialogue: 0,0:11:19.08,0:11:19.95,Sub,,0,0,0,,However,
+Dialogue: 0,0:11:20.56,0:11:22.95,Sub,,0,0,0,,I didn't make all those preparations in vain.
+Dialogue: 0,0:11:23.56,0:11:24.75,Sub,,0,0,0,,Little one,
+Dialogue: 0,0:11:25.20,0:11:26.27,Sub,,0,0,0,,you're not bad at all.
+Dialogue: 0,0:11:50.84,0:11:53.07,Sub,,0,0,0,,So this is Master's true power !
+Dialogue: 0,0:11:53.76,0:11:54.28,Sub,,0,0,0,,Who...
+Dialogue: 0,0:11:55.16,0:11:56.59,Sub,,0,0,0,,Who the hell is he exactly ?
+Dialogue: 0,0:12:38.04,0:12:38.83,Sub,,0,0,0,,You
+Dialogue: 0,0:12:39.80,0:12:40.79,Sub,,0,0,0,,are strong.
+Dialogue: 0,0:12:41.48,0:12:43.15,Sub,,0,0,0,,However, right now,
+Dialogue: 0,0:12:44.20,0:12:46.51,Sub,,0,0,0,,I need to replenish my strength.
+Dialogue: 0,0:12:54.64,0:12:55.47,Sub,,0,0,0,,Run away !
+Dialogue: 0,0:13:02.80,0:13:04.31,Sub,,0,0,0,,I won't let you devour anymore.
+Dialogue: 0,0:13:09.44,0:13:10.15,Sub,,0,0,0,,Gather !
+Dialogue: 0,0:13:10.68,0:13:11.55,Sub,,0,0,0,,Get away from here !
+Dialogue: 0,0:13:13.20,0:13:13.79,Sub,,0,0,0,,Scatter !
+Dialogue: 0,0:13:16.32,0:13:17.27,Sub,,0,0,0,,Power of the world ?
+Dialogue: 0,0:13:19.60,0:13:20.59,Sub,,0,0,0,,I'm not dead ?
+Dialogue: 0,0:13:25.36,0:13:26.47,Sub,,0,0,0,,You're so annoying !
+Dialogue: 0,0:13:28.00,0:13:29.15,Sub,,0,0,0,,Aren't you ashamed ?
+Dialogue: 0,0:13:29.36,0:13:32.23,Sub,,0,0,0,,To have fallen so low as to devour juniors to recover your cultivation...
+Dialogue: 0,0:13:33.00,0:13:34.67,Sub,,0,0,0,,If you have even a shred of pride,
+Dialogue: 0,0:13:34.92,0:13:36.95,Sub,,0,0,0,,then face me in an honorable battle,
+Dialogue: 0,0:13:37.32,0:13:38.95,Sub,,0,0,0,,Celestial Lord Qing Shui !
+Dialogue: 0,0:13:41.20,0:13:41.95,Sub,,0,0,0,,You...
+Dialogue: 0,0:13:42.52,0:13:43.79,Sub,,0,0,0,,What did you say ?!
+Dialogue: 0,0:13:44.32,0:13:45.31,Sub,,0,0,0,,I said that
+Dialogue: 0,0:13:45.84,0:13:47.80,Sub,,0,0,0,,you are the crown prince of the Clear Water State,
+Dialogue: 0,0:13:48.12,0:13:49.87,Sub,,0,0,0,,the disciple of Celestial Emperor Bai Fan,
+Dialogue: 0,0:13:50.12,0:13:51.71,Sub,,0,0,0,,Celestial Lord Qing Shui !
+Dialogue: 0,0:13:54.32,0:13:54.99,Sub,,0,0,0,,It's him !
+Dialogue: 0,0:13:56.96,0:13:57.31,Sub,,0,0,0,,Impossible...
+Dialogue: 0,0:13:57.84,0:13:58.39,Sub,,0,0,0,,Impossible !
+Dialogue: 0,0:13:59.80,0:14:00.55,Sub,,0,0,0,,Impossible !
+Dialogue: 0,0:14:03.56,0:14:05.63,Sub,,0,0,0,,Qing Shui is my enemy !
+Dialogue: 0,0:14:09.00,0:14:11.19,Sub,,0,0,0,,The heir of the Clear Water State
+Dialogue: 0,0:14:11.20,0:14:13.43,Sub,,0,0,0,,can't even remember his own name,
+Dialogue: 0,0:14:13.72,0:14:14.91,Sub,,0,0,0,,it really is sad.
+Dialogue: 0,0:14:16.32,0:14:17.19,Sub,,0,0,0,,I...
+Dialogue: 0,0:14:17.48,0:14:18.63,Sub,,0,0,0,,am not Qing Shui !
+Dialogue: 0,0:14:22.32,0:14:24.20,Sub,,0,0,0,,No wonder he knows the Lands Collapse spell.
+Dialogue: 0,0:14:25.44,0:14:27.03,Sub,,0,0,0,,How did he end up like this ?
+Dialogue: 0,0:14:29.28,0:14:31.39,Sub,,0,0,0,,You want to devour but I won't let you !
+Dialogue: 0,0:14:38.20,0:14:38.99,Sub,,0,0,0,,Help me !
+Dialogue: 0,0:14:39.20,0:14:39.99,Sub,,0,0,0,,You can go.
+Dialogue: 0,0:14:41.00,0:14:41.79,Sub,,0,0,0,,Wait for me !
+Dialogue: 0,0:14:52.52,0:14:53.55,Sub,,0,0,0,,Go home !
+Dialogue: 0,0:15:03.76,0:15:05.27,Sub,,0,0,0,,Back then, after being enlightened by Master,
+Dialogue: 0,0:15:05.44,0:15:07.56,Sub,,0,0,0,,I condensed all my lifetime of insights into this thunder bolt
+Dialogue: 0,0:15:07.68,0:15:08.47,Sub,,0,0,0,,for this moment !
+Dialogue: 0,0:15:13.48,0:15:14.27,Sub,,0,0,0,,Save him !
+Dialogue: 0,0:15:18.20,0:15:18.99,Sub,,0,0,0,,Master !
+Dialogue: 0,0:15:30.64,0:15:32.48,Sub,,0,0,0,,Are you ever going to stop !?
+Dialogue: 0,0:15:34.92,0:15:35.99,Sub,,0,0,0,,Celestial spell...
+Dialogue: 0,0:15:36.64,0:15:37.72,Sub,,0,0,0,,Disappear...
+Dialogue: 0,0:15:40.80,0:15:41.59,Sub,,0,0,0,,Scatter !
+Dialogue: 0,0:15:51.24,0:15:52.15,Sub,,0,0,0,,Damn it...
+Dialogue: 0,0:15:52.68,0:15:53.59,Sub,,0,0,0,,That was a huge loss.
+Dialogue: 0,0:15:54.56,0:15:56.91,Sub,,0,0,0,,I really messed up this time...
+Dialogue: 0,0:15:58.52,0:15:59.35,Sub,,0,0,0,,You
+Dialogue: 0,0:16:00.04,0:16:01.19,Sub,,0,0,0,,are courting death !
+Dialogue: 0,0:16:03.20,0:16:04.95,Sub,,0,0,0,,I'm not fighting you anymore,
+Dialogue: 0,0:16:05.04,0:16:06.39,Sub,,0,0,0,,catch me if you can !
+Dialogue: 0,0:16:08.24,0:16:09.75,Sub,,0,0,0,,So you are luring me ?
+Dialogue: 0,0:16:10.84,0:16:11.71,Sub,,0,0,0,,Very well.
+Dialogue: 0,0:16:12.56,0:16:14.11,Sub,,0,0,0,,Once I find your true body,
+Dialogue: 0,0:16:14.44,0:16:15.51,Sub,,0,0,0,,I'll use you
+Dialogue: 0,0:16:15.96,0:16:19.16,Sub,,0,0,0,,to make up for the origin energy of those thousands of cultivators !
+Dialogue: 0,0:16:34.36,0:16:36.60,Sub,,0,0,0,,He's using such a massive amount of origin energy
+Dialogue: 0,0:16:36.64,0:16:37.92,Sub,,0,0,0,,but not running out ?
+Dialogue: 0,0:16:39.16,0:16:42.00,Sub,,0,0,0,,It turns out he's only using a tiny bit from his own Origin Soul,
+Dialogue: 0,0:16:42.52,0:16:44.96,Sub,,0,0,0,,and is constantly drawing upon the energy of the world.
+Dialogue: 0,0:16:46.20,0:16:47.15,Sub,,0,0,0,,Spatial Bending...
+Dialogue: 0,0:16:48.32,0:16:49.71,Sub,,0,0,0,,Although I understand the basics,
+Dialogue: 0,0:16:50.08,0:16:52.27,Sub,,0,0,0,,I'm far from being able to do it as naturally as breathing
+Dialogue: 0,0:16:52.92,0:16:54.11,Sub,,0,0,0,,without any effort.
+Dialogue: 0,0:16:54.88,0:16:56.75,Sub,,0,0,0,,Only by merging deeply with the world
+Dialogue: 0,0:16:57.52,0:16:58.91,Sub,,0,0,0,,can one truly glimpse
+Dialogue: 0,0:16:59.28,0:17:00.27,Sub,,0,0,0,,and even wield
+Dialogue: 0,0:17:01.00,0:17:02.91,Sub,,0,0,0,,the power of the laws of the world.
+Dialogue: 0,0:17:04.52,0:17:06.92,Card,,0,0,0,,{\fad(300,300)\pos(1653,485)}Celestial Descent Platform\NThunder Celestial Realm
+Dialogue: 0,0:17:09.76,0:17:11.46,Sub,,0,0,0,,Celestial Descent Platform ?
+Dialogue: 0,0:17:12.32,0:17:14.47,Sub,,0,0,0,,It's the former capital of the Thunder Celestial Realm,
+Dialogue: 0,0:17:15.28,0:17:18.43,Sub,,0,0,0,,and where the Ancient Celestials would descend.
+Dialogue: 0,0:17:19.96,0:17:21.27,Sub,,0,0,0,,What's his purpose
+Dialogue: 0,0:17:22.08,0:17:23.75,Sub,,0,0,0,,in leading me here ?
+Dialogue: 0,0:17:28.40,0:17:30.03,Sub,,0,0,0,,Every time Qing Shui takes a heavy blow,
+Dialogue: 0,0:17:30.56,0:17:33.03,Sub,,0,0,0,,his form shifts closer to his peak
+Dialogue: 0,0:17:33.16,0:17:34.64,Sub,,0,0,0,,and he gets stronger.
+Dialogue: 0,0:17:35.64,0:17:37.40,Sub,,0,0,0,,The old man is clearly aware of it
+Dialogue: 0,0:17:37.44,0:17:39.44,Sub,,0,0,0,,but seems to be deliberately facilitating it.
+Dialogue: 0,0:17:40.68,0:17:41.48,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:17:42.00,0:17:44.52,Sub,,0,0,0,,that he actually intends to guide Qing Shui back to his peak ?
+Dialogue: 0,0:17:46.96,0:17:47.88,Sub,,0,0,0,,Little one,
+Dialogue: 0,0:17:47.96,0:17:49.47,Sub,,0,0,0,,I'm going ahead of you.
+Dialogue: 0,0:17:50.68,0:17:52.15,Sub,,0,0,0,,Whatever he's plotting,
+Dialogue: 0,0:17:52.52,0:17:53.67,Sub,,0,0,0,,he'll certainly return.
+Dialogue: 0,0:17:54.68,0:17:55.75,Sub,,0,0,0,,I need to hold on.
+Dialogue: 0,0:18:11.04,0:18:12.39,Sub,,0,0,0,,Heavenly Chop !
+Dialogue: 0,0:18:26.48,0:18:28.27,Sub,,0,0,0,,If that junior doesn't show up,
+Dialogue: 0,0:18:29.08,0:18:31.15,Sub,,0,0,0,,then I'll just have to devour you first !
+Dialogue: 0,0:18:37.40,0:18:39.63,Sub,,0,0,0,,I already used half of the Blood Ancestor's blood body.
+Dialogue: 0,0:18:40.48,0:18:41.91,Sub,,0,0,0,,There's no way to retreat.
+Dialogue: 0,0:18:53.80,0:18:54.99,Sub,,0,0,0,,You want to kill me
+Dialogue: 0,0:18:55.60,0:18:56.79,Sub,,0,0,0,,but it won't be that easy !
+Dialogue: 0,0:19:00.12,0:19:01.84,Sub,,0,0,0,,The Mountains and Rivers Painting ?
+Dialogue: 0,0:19:02.88,0:19:04.83,Sub,,0,0,0,,It's nothing but an imitation.
+Dialogue: 0,0:19:05.88,0:19:07.07,Sub,,0,0,0,,I spent 1000 years
+Dialogue: 0,0:19:07.44,0:19:09.43,Sub,,0,0,0,,comprehending the real painting.
+Dialogue: 0,0:19:10.76,0:19:11.91,Sub,,0,0,0,,With your cultivation,
+Dialogue: 0,0:19:12.44,0:19:13.99,Sub,,0,0,0,,even with the true painting in hand,
+Dialogue: 0,0:19:14.52,0:19:15.35,Sub,,0,0,0,,breaking it
+Dialogue: 0,0:19:15.80,0:19:17.15,Sub,,0,0,0,,would still be just as easy.
+Dialogue: 0,0:19:55.00,0:19:55.60,Sub,,0,0,0,,This is...
+Dialogue: 0,0:19:56.12,0:19:57.39,Sub,,0,0,0,,What an incredible formation !
+Dialogue: 0,0:20:01.72,0:20:02.43,Sub,,0,0,0,,Save me !
+Dialogue: 0,0:20:21.68,0:20:23.55,Sub,,0,0,0,,He's going to refine the entire Thunder Celestial Realm
+Dialogue: 0,0:20:24.12,0:20:25.23,Sub,,0,0,0,,into an artifact ?
+Dialogue: 0,0:20:36.24,0:20:38.15,Sub,,0,0,0,,After tens of thousands of years of planning
+Dialogue: 0,0:20:38.16,0:20:39.79,Sub,,0,0,0,,and countless trips in and out,
+Dialogue: 0,0:20:40.32,0:20:42.19,Sub,,0,0,0,,I finally refined the Thunder Celestial Realm
+Dialogue: 0,0:20:42.20,0:20:44.39,Sub,,0,0,0,,into an artifact !
+Dialogue: 0,0:20:46.68,0:20:48.35,Sub,,0,0,0,,Cultivators of the world,
+Dialogue: 0,0:20:48.60,0:20:51.24,Sub,,0,0,0,,who among you can be as bold as me !?
+Dialogue: 0,0:20:53.12,0:20:56.79,Sub,,0,0,0,,We cultivators of Allheaven will cross the barrier between Star Systems !
+Dialogue: 0,0:20:57.40,0:20:59.83,Sub,,0,0,0,,We will no longer be bound by Allheaven Stones !
+Dialogue: 0,0:21:01.68,0:21:03.31,Sub,,0,0,0,,Master Zhongxuan,
+Dialogue: 0,0:21:04.24,0:21:06.83,Sub,,0,0,0,,when you forced me to leave back then,
+Dialogue: 0,0:21:07.20,0:21:08.71,Sub,,0,0,0,,I told you
+Dialogue: 0,0:21:09.44,0:21:10.92,Sub,,0,0,0,,that one day
+Dialogue: 0,0:21:11.20,0:21:14.95,Sub,,0,0,0,,I would lead millions of cultivators from the Allheaven Star System
+Dialogue: 0,0:21:14.96,0:21:16.71,Sub,,0,0,0,,to crush the Cultivation Alliance !
+Dialogue: 0,0:22:14.97,0:24:49.00,Note,,0,0,0,,{\fad(1000,000)}He technically isn't refining the "entire" Thunder Celestial Realm but half of it.
+Dialogue: 0,0:22:36.04,0:22:41.52,Music,,0,0,0,,{\fad(600,600)}Ask
+Dialogue: 0,0:22:37.64,0:22:39.44,Stamp,,0,0,0,,{\pos(1514,677)}Qi Condensation
+Dialogue: 0,0:22:38.56,0:22:41.60,Music,,0,0,0,,{\fad(600,600)}the perilous path filled with countless blades.
+Dialogue: 0,0:22:41.08,0:22:42.72,Stamp,,0,0,0,,{\pos(1299,685)}Foundation Establishment
+Dialogue: 0,0:22:42.24,0:22:48.40,Music,,0,0,0,,{\fad(600,600)}Can the mundane world be shattered
+Dialogue: 0,0:22:43.60,0:22:46.04,Stamp,,0,0,0,,{\pos(1557,705)\fad(800,000)}Core Formation
+Dialogue: 0,0:22:46.80,0:22:49.48,Stamp,,0,0,0,,{\fad(800,000)\pos(1557,705)}Nascent Soul
+Dialogue: 0,0:22:45.04,0:22:48.40,Music,,0,0,0,,{\fad(600,600)}by a child's steadfast heart ?
+Dialogue: 0,0:22:48.52,0:22:54.64,Music,,0,0,0,,{\fad(600,600)}If the laws of this world
+Dialogue: 0,0:22:50.36,0:22:52.92,Stamp,,0,0,0,,{\pos(368,638)\fad(800,300)}Soul Formation
+Dialogue: 0,0:22:53.24,0:22:56.12,Stamp,,0,0,0,,{\pos(1445,688)\fad(800,000)}Soul Transformation
+Dialogue: 0,0:22:51.32,0:22:54.64,Music,,0,0,0,,{\fad(600,600)}stand in the way,
+Dialogue: 0,0:22:55.60,0:23:01.44,Music,,0,0,0,,{\fad(600,600)}I'll defy the universe to tread the heavens
+Dialogue: 0,0:22:59.44,0:23:02.40,Stamp,,0,0,0,,{\pos(1574,688)\fad(800,000)}Ascendant
+Dialogue: 0,0:22:57.80,0:23:01.44,Music,,0,0,0,,{\fad(600,600)}and ask this question to the sky.
+Dialogue: 0,0:23:01.88,0:23:07.32,Music,,0,0,0,,{\fad(600,600)}My heart's deepest wish
+Dialogue: 0,0:23:04.26,0:23:07.32,Music,,0,0,0,,{\fad(600,600)}is to not kneel before these mountains and rivers.
+Dialogue: 0,0:23:08.48,0:23:14.40,Music,,0,0,0,,{\fad(600,600)}Don't accept your doomed fate,
+Dialogue: 0,0:23:11.04,0:23:14.40,Music,,0,0,0,,{\fad(600,600)}karma can be changed.
+Dialogue: 0,0:23:14.80,0:23:20.16,Music,,0,0,0,,{\fad(600,600)}Unwilling to let go,
+Dialogue: 0,0:23:17.32,0:23:20.16,Music,,0,0,0,,{\fad(600,600)}my obsessions propel me forward.
+Dialogue: 0,0:23:20.16,0:23:27.68,Music,,0,0,0,,{\fad(600,600)}Don't be afraid.
+Dialogue: 0,0:23:22.48,0:23:27.68,Music,,0,0,0,,{\fad(600,600)}Thunder rumbles as I dare to tread through the reincarnation cycle.
+Dialogue: 0,0:23:28.64,0:23:32.08,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:23:30.08,0:23:32.08,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:23:32.20,0:23:35.92,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:23:33.52,0:23:35.92,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:23:36.00,0:23:41.64,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:23:37.60,0:23:41.64,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:23:41.96,0:23:45.48,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:23:43.32,0:23:45.48,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:23:45.48,0:23:49.04,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:23:46.52,0:23:49.04,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:23:49.12,0:23:54.44,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:23:50.88,0:23:54.44,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:23:55.80,0:24:00.68,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:23:57.12,0:24:00.68,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.
+Dialogue: 0,0:24:15.24,0:24:18.92,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:24:16.88,0:24:18.92,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:24:19.00,0:24:22.76,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:24:20.28,0:24:22.76,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:24:22.76,0:24:28.44,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:24:24.44,0:24:28.44,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:24:28.72,0:24:32.28,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:24:30.08,0:24:32.28,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:24:32.27,0:24:35.88,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:24:33.24,0:24:35.88,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:24:35.88,0:24:41.48,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:24:37.84,0:24:41.48,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:24:42.20,0:24:47.56,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:24:43.04,0:24:47.56,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.

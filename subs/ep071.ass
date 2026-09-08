@@ -1,0 +1,332 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:50.04,0:01:51.96,Sub,,0,0,0,,You protected me for more than 2000 years,
+Dialogue: 0,0:01:53.16,0:01:53.96,Sub,,0,0,0,,you...
+Dialogue: 0,0:01:54.36,0:01:55.24,Sub,,0,0,0,,worked hard.
+Dialogue: 0,0:01:56.12,0:01:58.80,Sub,,0,0,0,,I will make you the Sword Spirit of this celestial sword.
+Dialogue: 0,0:01:58.88,0:02:00.20,Sub,,0,0,0,,In 10 000 years,
+Dialogue: 0,0:02:00.80,0:02:02.24,Sub,,0,0,0,,you will become a Celestial Saint.
+Dialogue: 0,0:02:31.20,0:02:34.28,Card,,0,0,0,,{\pos(202,497)\fad(300,300)}Central Fragment\NRain Celestial Realm
+Dialogue: 0,0:02:33.12,0:02:35.48,Sub,,0,0,0,,A Rain Celestial Sword appeared.
+Dialogue: 0,0:02:35.56,0:02:36.44,Sub,,0,0,0,,If I get it,
+Dialogue: 0,0:02:36.48,0:02:38.64,Sub,,0,0,0,,it will improve the strength of planet Tian Mo.
+Dialogue: 0,0:02:36.32,0:02:39.56,Card Hard,,0,0,0,,{\pos(1495,531)\fad(300,300)}Tian Mozi\NMiddle stage Nirvana Scryer\NPlanet Tian Mo
+Dialogue: 0,0:02:38.84,0:02:41.72,Sub,,0,0,0,,I just don't know which Rain Celestial Sword it is...
+Dialogue: 0,0:02:42.24,0:02:44.36,Card,,0,0,0,,{\pos(1521,507)\fad(300,000)}Southwest Fragment\NRain Celestial Realm
+Dialogue: 0,0:02:45.64,0:02:46.88,Sub,,0,0,0,,A celestial sword ?
+Dialogue: 0,0:02:47.72,0:02:51.42,Sub,,0,0,0,,My beast is able to control the Sword Spirit within the sword.
+Dialogue: 0,0:02:47.16,0:02:50.48,Card Hard,,0,0,0,,{\pos(1425,560)\fad(300,300)}Ling Tianhou\NLate stage Nirvana Cleanser\NDa Lou Sword Sect Leader
+Dialogue: 0,0:02:51.52,0:02:55.00,Sub,,0,0,0,,With it, planet Tian Yun will finally be mine.
+Dialogue: 0,0:03:18.36,0:03:19.28,Sub,,0,0,0,,Brother Chi Hu,
+Dialogue: 0,0:03:19.32,0:03:20.52,Sub,,0,0,0,,star compass !
+Dialogue: 0,0:03:31.60,0:03:33.36,Sub,,0,0,0,,Thanks to Brother Ceng,
+Dialogue: 0,0:03:33.40,0:03:35.36,Sub,,0,0,0,,we are out of danger for now.
+Dialogue: 0,0:03:35.40,0:03:37.36,Sub,,0,0,0,,But the star compass is still damaged.
+Dialogue: 0,0:03:37.40,0:03:39.72,Sub,,0,0,0,,I'm afraid it won't take us far enough to cross the void.
+Dialogue: 0,0:03:40.32,0:03:41.76,Sub,,0,0,0,,The star compass,
+Dialogue: 0,0:03:42.28,0:03:43.84,Sub,,0,0,0,,the treasure of the Giant Demon Clan.
+Dialogue: 0,0:03:45.52,0:03:46.64,Sub,,0,0,0,,Sadly,
+Dialogue: 0,0:03:47.08,0:03:48.88,Sub,,0,0,0,,it's only an imitation.
+Dialogue: 0,0:03:51.20,0:03:52.00,Sub,,0,0,0,,Ceng Niu,
+Dialogue: 0,0:03:52.54,0:03:54.68,Sub,,0,0,0,,if you agree to release the seal,
+Dialogue: 0,0:03:54.84,0:03:57.48,Sub,,0,0,0,,I can promise to safely return you to planet Suzaku.
+Dialogue: 0,0:03:58.48,0:03:59.80,Sub,,0,0,0,,How does it sound ?
+Dialogue: 0,0:04:08.12,0:04:11.24,Sub,,0,0,0,,I don't just have 3 souls, but a fourth one as well.
+Dialogue: 0,0:04:11.32,0:04:13.84,Sub,,0,0,0,,The fourth one is inside the body in the coffin.
+Dialogue: 0,0:04:15.80,0:04:18.04,Sub,,0,0,0,,Senior Zhou Yi never mentioned a fourth soul.
+Dialogue: 0,0:04:18.68,0:04:20.20,Sub,,0,0,0,,He might be lying
+Dialogue: 0,0:04:20.32,0:04:21.44,Sub,,0,0,0,,so let's probe him.
+Dialogue: 0,0:04:22.36,0:04:23.88,Sub,,0,0,0,,I'm afraid Senior's words
+Dialogue: 0,0:04:23.96,0:04:25.52,Sub,,0,0,0,,must have some other meaning.
+Dialogue: 0,0:04:25.72,0:04:27.20,Sub,,0,0,0,,Besides, you must already know
+Dialogue: 0,0:04:27.64,0:04:29.12,Sub,,0,0,0,,that I cannot break
+Dialogue: 0,0:04:29.44,0:04:31.32,Sub,,0,0,0,,the seal of an Ascendant cultivator.
+Dialogue: 0,0:04:39.28,0:04:40.24,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:04:40.52,0:04:41.92,Sub,,0,0,0,,you have some guts.
+Dialogue: 0,0:04:42.24,0:04:44.48,Sub,,0,0,0,,No wonder you are the one Zhou Yi chose.
+Dialogue: 0,0:04:44.68,0:04:46.72,Sub,,0,0,0,,Now come with me right now !
+Dialogue: 0,0:04:47.32,0:04:48.60,Sub,,0,0,0,,The slave seal is unstable.
+Dialogue: 0,0:04:48.61,0:04:49.96,Sub,,0,0,0,,Use the pagoda to protect yourself.
+Dialogue: 0,0:04:53.08,0:04:53.88,Sub,,0,0,0,,Sun Tai,
+Dialogue: 0,0:04:54.44,0:04:56.84,Sub,,0,0,0,,Senior Zhou Yi specifically made this pagoda
+Dialogue: 0,0:04:57.32,0:04:59.04,Sub,,0,0,0,,so that it could kill you.
+Dialogue: 0,0:05:01.48,0:05:02.68,Sub,,0,0,0,,Zhou Yi...
+Dialogue: 0,0:05:02.92,0:05:04.08,Sub,,0,0,0,,I know a little bit
+Dialogue: 0,0:05:04.32,0:05:05.80,Sub,,0,0,0,,about your Corpse Sect.
+Dialogue: 0,0:05:06.52,0:05:08.08,Sub,,0,0,0,,The corpse inside the coffin
+Dialogue: 0,0:05:08.72,0:05:10.64,Sub,,0,0,0,,most likely contains someone else's soul.
+Dialogue: 0,0:05:12.08,0:05:13.72,Sub,,0,0,0,,Even if it's your fourth soul,
+Dialogue: 0,0:05:13.96,0:05:15.56,Sub,,0,0,0,,it's a broken soul !
+Dialogue: 0,0:05:16.64,0:05:19.44,Sub,,0,0,0,,I won’t lower myself to deal with a Junior like you !
+Dialogue: 0,0:05:22.04,0:05:23.12,Sub,,0,0,0,,Since he retreated,
+Dialogue: 0,0:05:23.96,0:05:26.04,Sub,,0,0,0,,the fourth soul must be a lie.
+Dialogue: 0,0:05:26.56,0:05:28.04,Sub,,0,0,0,,He can't take this risk.
+Dialogue: 0,0:05:31.00,0:05:31.76,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:05:32.24,0:05:33.64,Sub,,0,0,0,,Sun Tai's cultivation is very high.
+Dialogue: 0,0:05:34.04,0:05:35.64,Sub,,0,0,0,,You have to be careful in the future.
+Dialogue: 0,0:05:36.84,0:05:37.64,Sub,,0,0,0,,Don't worry,
+Dialogue: 0,0:05:38.12,0:05:39.84,Sub,,0,0,0,,Senior Zhou Yi told me that keeping him alive
+Dialogue: 0,0:05:40.24,0:05:41.84,Sub,,0,0,0,,serves a greater purpose.
+Dialogue: 0,0:05:41.88,0:05:45.40,Sub,,0,0,0,,Otherwise I would have already killed him and his fourth soul.
+Dialogue: 0,0:05:51.12,0:05:53.16,Sub,,0,0,0,,I can't kill him, I can't trap him...
+Dialogue: 0,0:05:53.48,0:05:55.16,Sub,,0,0,0,,He's really troublesome...
+Dialogue: 0,0:05:57.12,0:05:59.48,Sub,,0,0,0,,It seems Zhou Yi intends to use me for something,
+Dialogue: 0,0:05:59.77,0:06:01.76,Sub,,0,0,0,,I have to find out what it is.
+Dialogue: 0,0:06:08.84,0:06:09.80,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:06:09.84,0:06:11.80,Sub,,0,0,0,,this star compass can no longer fly.
+Dialogue: 0,0:06:12.04,0:06:13.64,Sub,,0,0,0,,We will have to fly on our own.
+Dialogue: 0,0:06:14.00,0:06:14.80,Sub,,0,0,0,,Brother Chi Hu,
+Dialogue: 0,0:06:15.36,0:06:17.36,Sub,,0,0,0,,you only brought one star compass ?
+Dialogue: 0,0:06:18.24,0:06:19.32,Sub,,0,0,0,,This treasure
+Dialogue: 0,0:06:19.72,0:06:21.04,Sub,,0,0,0,,was brought by my clan
+Dialogue: 0,0:06:21.32,0:06:23.56,Sub,,0,0,0,,when we migrated to Suzaku countless years ago.
+Dialogue: 0,0:06:23.96,0:06:25.44,Sub,,0,0,0,,But now that it's broken,
+Dialogue: 0,0:06:26.04,0:06:27.40,Sub,,0,0,0,,I’ll be punished for sure
+Dialogue: 0,0:06:27.68,0:06:28.84,Sub,,0,0,0,,when I get back.
+Dialogue: 0,0:06:30.84,0:06:31.64,Sub,,0,0,0,,Brother Chi Hu,
+Dialogue: 0,0:06:32.24,0:06:33.63,Sub,,0,0,0,,I won’t lie to you,
+Dialogue: 0,0:06:33.72,0:06:35.16,Sub,,0,0,0,,I can repair this star compass.
+Dialogue: 0,0:06:37.24,0:06:39.44,Sub,,0,0,0,,But the material to repair it is too precious.
+Dialogue: 0,0:06:40.00,0:06:41.24,Sub,,0,0,0,,If I repair it
+Dialogue: 0,0:06:41.80,0:06:43.52,Sub,,0,0,0,,then it must belong to me.
+Dialogue: 0,0:06:44.64,0:06:45.76,Sub,,0,0,0,,This...
+Dialogue: 0,0:06:47.72,0:06:48.52,Sub,,0,0,0,,Forget it,
+Dialogue: 0,0:06:49.24,0:06:50.96,Sub,,0,0,0,,if it is too difficult for Brother Chi Hu,
+Dialogue: 0,0:06:51.00,0:06:52.20,Sub,,0,0,0,,I’m still willing to fix it for you
+Dialogue: 0,0:06:52.68,0:06:54.60,Sub,,0,0,0,,as a token of our friendship.
+Dialogue: 0,0:06:55.00,0:06:56.40,Sub,,0,0,0,,Is what you’re saying true ?
+Dialogue: 0,0:06:56.48,0:06:57.52,Sub,,0,0,0,,It is true.
+Dialogue: 0,0:06:58.40,0:07:01.12,Sub,,0,0,0,,However, I will need this star compass for something in the future,
+Dialogue: 0,0:07:01.16,0:07:03.68,Sub,,0,0,0,,so when I need to borrow it, don’t reject me.
+Dialogue: 0,0:07:05.84,0:07:08.04,Sub,,0,0,0,,With the temperament of my clan's Elders,
+Dialogue: 0,0:07:08.20,0:07:10.12,Sub,,0,0,0,,there's no way they would lend it to you.
+Dialogue: 0,0:07:10.56,0:07:11.81,Sub,,0,0,0,,That's why
+Dialogue: 0,0:07:11.92,0:07:13.96,Sub,,0,0,0,,I might as well gift it to you !
+Dialogue: 0,0:07:18.92,0:07:19.60,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:07:20.00,0:07:22.12,Sub,,0,0,0,,this star compass is now yours.
+Dialogue: 0,0:07:24.04,0:07:25.04,Sub,,0,0,0,,Thank you very much.
+Dialogue: 0,0:07:30.44,0:07:32.36,Sub,,0,0,0,,I will have to ask Brother Chi Hu to protect me.
+Dialogue: 0,0:07:44.00,0:07:45.96,Sub,,0,0,0,,According to Tu Si's memory,
+Dialogue: 0,0:07:46.04,0:07:48.60,Sub,,0,0,0,,a star compass is made of this material.
+Dialogue: 0,0:08:00.36,0:08:01.44,Sub,,0,0,0,,This Ceng Niu
+Dialogue: 0,0:08:01.56,0:08:03.84,Sub,,0,0,0,,has a shocking cultivation and courage.
+Dialogue: 0,0:08:04.04,0:08:06.36,Sub,,0,0,0,,He also obtained Zhou Yi's Ascendant Crystal.
+Dialogue: 0,0:08:06.72,0:08:08.24,Sub,,0,0,0,,If he becomes a true friend,
+Dialogue: 0,0:08:08.72,0:08:11.56,Sub,,0,0,0,,it will benefit the clan in the future.
+Dialogue: 0,0:08:27.84,0:08:28.52,Sub,,0,0,0,,Brother Ceng,
+Dialogue: 0,0:08:28.88,0:08:30.28,Sub,,0,0,0,,are you done repairing it ?
+Dialogue: 0,0:08:30.96,0:08:33.32,Sub,,0,0,0,,There should be no problems leaving this void.
+Dialogue: 0,0:08:35.12,0:08:38.24,Card,,0,0,0,,{\pos(1515,528)\fad(300,300)}Central Fragment\NRain Celestial Realm
+Dialogue: 0,0:08:40.44,0:08:41.80,Sub,,0,0,0,,Second Rain Celestial Sword,
+Dialogue: 0,0:08:41.84,0:08:42.96,Sub,,0,0,0,,appear !
+Dialogue: 0,0:08:45.32,0:08:46.68,Card,,0,0,0,,{\fad(300,000)\pos(1525,491)}Second Rain Celestial Sword
+Dialogue: 0,0:08:50.00,0:08:52.00,Sub,,0,0,0,,If the Celestial Realm was still intact,
+Dialogue: 0,0:08:52.04,0:08:53.92,Sub,,0,0,0,,I would just throw your soul
+Dialogue: 0,0:08:53.96,0:08:55.92,Sub,,0,0,0,, in the Celestial Purification Pond.
+Dialogue: 0,0:08:57.20,0:08:59.60,Sub,,0,0,0,,But now that it's gone, to restore your Origin Soul,
+Dialogue: 0,0:09:00.16,0:09:01.88,Sub,,0,0,0,,one Rain Celestial Sword
+Dialogue: 0,0:09:02.52,0:09:03.28,Sub,,0,0,0,,is too slow.
+Dialogue: 0,0:09:04.80,0:09:05.60,Sub,,0,0,0,,Ting'er,
+Dialogue: 0,0:09:06.08,0:09:07.68,Sub,,0,0,0,,why are you doing all of this ?
+Dialogue: 0,0:09:07.92,0:09:09.76,Sub,,0,0,0,,Do you want to waste the celestial spiritual energy
+Dialogue: 0,0:09:09.80,0:09:11.60,Sub,,0,0,0,,I have gathered for you during thousands of years ?
+Dialogue: 0,0:09:09.44,0:09:11.60,Card,,0,0,0,,{\pos(1704,500)\fad(300,000}Zhou Yi\NSword Spirit
+Dialogue: 0,0:09:12.32,0:09:13.60,Sub,,0,0,0,,I refuse to let you die,
+Dialogue: 0,0:09:13.84,0:09:15.08,Sub,,0,0,0,,so you will not die.
+Dialogue: 0,0:09:15.92,0:09:17.08,Sub,,0,0,0,,And my name
+Dialogue: 0,0:09:18.08,0:09:19.48,Sub,,0,0,0,,is not Ting'er.
+Dialogue: 0,0:09:22.52,0:09:23.52,Sub,,0,0,0,,Sure...
+Dialogue: 0,0:09:24.52,0:09:26.08,Sub,,0,0,0,,you are not called Ting'er…
+Dialogue: 0,0:09:27.40,0:09:29.48,Sub,,0,0,0,,I have already remembered everything…
+Dialogue: 0,0:09:31.24,0:09:32.04,Sub,,0,0,0,,However,
+Dialogue: 0,0:09:34.24,0:09:35.44,Sub,,0,0,0,,this name, Ting'er…
+Dialogue: 0,0:09:36.12,0:09:37.34,Sub,,0,0,0,,I like it
+Dialogue: 0,0:09:37.44,0:09:38.44,Sub,,0,0,0,,very much.
+Dialogue: 0,0:09:50.28,0:09:51.48,Sub,,0,0,0,,They're coming.
+Dialogue: 0,0:09:57.96,0:09:58.76,Sub,,0,0,0,,That's...
+Dialogue: 0,0:10:00.52,0:10:01.52,Sub,,0,0,0,,celestial swords ?
+Dialogue: 0,0:10:08.60,0:10:09.80,Sub,,0,0,0,,Where are they coming from ?
+Dialogue: 0,0:10:40.24,0:10:43.44,Card,,0,0,0,,{\pos(1516,478)\fad(300,300}Third Rain Celestial Sword
+Dialogue: 0,0:10:45.96,0:10:46.64,Sub,,0,0,0,,Celestial swords !
+Dialogue: 0,0:10:51.00,0:10:52.68,Sub,,0,0,0,,They really are celestial swords !
+Dialogue: 0,0:10:57.68,0:10:58.28,Sub,,0,0,0,,Ting'er,
+Dialogue: 0,0:10:58.44,0:11:00.20,Sub,,0,0,0,,are 3 Rain Celestial Swords not enough ?
+Dialogue: 0,0:11:00.84,0:11:01.88,Sub,,0,0,0,,It's not enough,
+Dialogue: 0,0:11:01.96,0:11:05.16,Sub,,0,0,0,,the Fourth Rain Celestial Sword will soon take form.
+Dialogue: 0,0:11:25.56,0:11:26.96,Sub,,0,0,0,,A celestial Qilin...
+Dialogue: 0,0:11:27.04,0:11:28.92,Sub,,0,0,0,,The Da Lou Sword Sect’s guardian beast !
+Dialogue: 0,0:11:29.84,0:11:31.88,Sub,,0,0,0,,This beast belongs to Sword Saint Ling Tianhou !
+Dialogue: 0,0:11:31.88,0:11:32.76,Sub,,0,0,0,,Is he...
+Dialogue: 0,0:11:33.00,0:11:34.44,Sub,,0,0,0,,Welcome Master.
+Dialogue: 0,0:11:49.84,0:11:51.12,Sub,,0,0,0,,A single glance was enough
+Dialogue: 0,0:11:51.12,0:11:52.44,Sub,,0,0,0,,to be injured by his sword intent.
+Dialogue: 0,0:11:53.04,0:11:54.36,Sub,,0,0,0,,This old man's cultivation
+Dialogue: 0,0:11:54.76,0:11:55.92,Sub,,0,0,0,,is terrifying.
+Dialogue: 0,0:11:56.84,0:11:59.52,Sub,,0,0,0,,Are you a Celestial ?
+Dialogue: 0,0:11:59.68,0:12:00.80,Sub,,0,0,0,,A Celestial ?!
+Dialogue: 0,0:12:00.84,0:12:01.72,Sub,,0,0,0,,How can this be ?
+Dialogue: 0,0:12:02.96,0:12:04.32,Sub,,0,0,0,,Even if she is a Celestial,
+Dialogue: 0,0:12:04.60,0:12:06.40,Sub,,0,0,0,,there is no way she can match Ling Tianhou.
+Dialogue: 0,0:12:07.64,0:12:08.36,Sub,,0,0,0,,Stand down !
+Dialogue: 0,0:12:10.76,0:12:12.64,Sub,,0,0,0,,The Celestial Realm has already collapsed.
+Dialogue: 0,0:12:12.76,0:12:14.44,Sub,,0,0,0,,If you really are a surviving Celestial,
+Dialogue: 0,0:12:14.60,0:12:17.68,Sub,,0,0,0,,then this old man wants to try killing a Celestial !
+Dialogue: 0,0:12:20.84,0:12:21.72,Sub,,0,0,0,,You evil creature,
+Dialogue: 0,0:12:22.20,0:12:23.41,Sub,,0,0,0,,even your ancestors back then
+Dialogue: 0,0:12:23.64,0:12:26.32,Sub,,0,0,0,,didn’t dare to act like this before me.
+Dialogue: 0,0:12:26.68,0:12:28.40,Sub,,0,0,0,,Could it be that you lost
+Dialogue: 0,0:12:28.52,0:12:31.36,Sub,,0,0,0,,your memory inheritance after the Celestial Realm collapsed ?
+Dialogue: 0,0:12:42.40,0:12:45.20,Sub,,0,0,0,,So you are a fake beast that never received an inheritance.
+Dialogue: 0,0:12:51.56,0:12:52.68,Sub,,0,0,0,,You remember now ?
+Dialogue: 0,0:12:55.52,0:12:56.32,Sub,,0,0,0,,Forget it,
+Dialogue: 0,0:12:56.88,0:12:58.48,Sub,,0,0,0,,the Celestial Realm is no more
+Dialogue: 0,0:12:58.52,0:13:00.68,Sub,,0,0,0,,so there is no point in me punishing you.
+Dialogue: 0,0:13:55.76,0:13:56.60,Second,,0,0,0,,A single strike
+Dialogue: 0,0:13:56.64,0:13:58.16,Second,,0,0,0,,destroyed 2 swords of the Sword Saint.
+Dialogue: 0,0:13:58.88,0:14:00.24,Second,,0,0,0,,This Celestial is impressive !
+Dialogue: 0,0:14:00.44,0:14:02.44,Second,,0,0,0,,So that's the power of a Celestial.
+Dialogue: 0,0:14:01.60,0:14:03.32,Sub,,0,0,0,,A single strike destroyed both my swords.
+Dialogue: 0,0:14:03.68,0:14:05.76,Sub,,0,0,0,,Not even the All-Seer could do this.
+Dialogue: 0,0:14:06.56,0:14:08.28,Sub,,0,0,0,,This woman is not a normal Celestial.
+Dialogue: 0,0:14:08.88,0:14:11.36,Sub,,0,0,0,,Could she be a Celestial King ?
+Dialogue: 0,0:14:11.92,0:14:15.60,Sub,,0,0,0,,I won't be able to get a celestial sword today.
+Dialogue: 0,0:14:18.20,0:14:18.84,Sub,,0,0,0,,Wait...
+Dialogue: 0,0:14:19.36,0:14:20.88,Sub,,0,0,0,,According to the celestial law,
+Dialogue: 0,0:14:20.99,0:14:23.24,Sub,,0,0,0,,my crime is worthy of destroying my Origin Soul.
+Dialogue: 0,0:14:23.28,0:14:24.64,Sub,,0,0,0,,But she didn't kill me.
+Dialogue: 0,0:14:25.24,0:14:27.08,Sub,,0,0,0,,It's not that she doesn’t want to kill me,
+Dialogue: 0,0:14:27.12,0:14:28.56,Sub,,0,0,0,,she wants to scare me away !
+Dialogue: 0,0:14:38.84,0:14:40.24,Sub,,0,0,0,,Celestial King,
+Dialogue: 0,0:14:40.52,0:14:43.36,Sub,,0,0,0,,I want to see how powerful you are !
+Dialogue: 0,0:14:48.16,0:14:48.96,Sub,,0,0,0,,Ting'er !
+Dialogue: 0,0:15:20.00,0:15:20.84,Sub,,0,0,0,,A Celestial
+Dialogue: 0,0:15:20.84,0:15:22.24,Sub,,0,0,0,,is only this strong ?
+Dialogue: 0,0:15:25.24,0:15:26.24,Sub,,0,0,0,,A death aura ?
+Dialogue: 0,0:15:26.84,0:15:28.96,Sub,,0,0,0,,She doesn't have much time left.
+Dialogue: 0,0:15:31.44,0:15:35.28,Sub,,0,0,0,,You should give me the celestial swords !
+Dialogue: 0,0:15:46.16,0:15:47.16,Sub,,0,0,0,,Ting'er !
+Dialogue: 0,0:15:47.24,0:15:48.36,Sub,,0,0,0,,Let me out of here !
+Dialogue: 0,0:15:48.64,0:15:50.12,Sub,,0,0,0,,If you use up all your celestial spiritual energy,
+Dialogue: 0,0:15:50.12,0:15:51.84,Sub,,0,0,0,,you will never wake up again !
+Dialogue: 0,0:15:53.16,0:15:54.40,Sub,,0,0,0,,You can't leave yet.
+Dialogue: 0,0:16:13.72,0:16:14.44,Sub,,0,0,0,,Sword Spirit,
+Dialogue: 0,0:16:14.64,0:16:15.16,Sub,,0,0,0,,go !
+Dialogue: 0,0:16:38.00,0:16:39.32,Sub,,0,0,0,,All-Seer,
+Dialogue: 0,0:16:39.60,0:16:41.52,Sub,,0,0,0,,if you keep me from taking the celestial sword,
+Dialogue: 0,0:16:41.56,0:16:43.04,Sub,,0,0,0,,when I get back
+Dialogue: 0,0:16:43.44,0:16:45.64,Sub,,0,0,0,,our sects will fight for 1000 years !
+Dialogue: 0,0:16:45.68,0:16:46.76,Sub,,0,0,0,,The All-Seer ?!
+Dialogue: 0,0:16:47.28,0:16:49.20,Sub,,0,0,0,,I am the All-Seer.
+Dialogue: 0,0:16:50.12,0:16:51.80,Sub,,0,0,0,,Since we met, let's make a deal.
+Dialogue: 0,0:16:52.84,0:16:55.52,Sub,,0,0,0,,The celestial sword belongs to those who are fated to have it.
+Dialogue: 0,0:16:55.56,0:16:56.84,Sub,,0,0,0,,If you can get it,
+Dialogue: 0,0:16:57.24,0:16:58.72,Sub,,0,0,0,,then you are fated.
+Dialogue: 0,0:17:02.80,0:17:03.76,Sub,,0,0,0,,Tian Mozi !
+Dialogue: 0,0:17:13.72,0:17:14.76,Sub,,0,0,0,,I'm not greedy.
+Dialogue: 0,0:17:14.76,0:17:16.24,Sub,,0,0,0,,Of the 4 celestial swords,
+Dialogue: 0,0:17:16.36,0:17:17.36,Sub,,0,0,0,,I’ll only take one.
+Dialogue: 0,0:17:17.64,0:17:18.36,Sub,,0,0,0,,Goodbye.
+Dialogue: 0,0:17:19.88,0:17:21.96,Sub,,0,0,0,,You dare to steal from me ?
+Dialogue: 0,0:17:22.24,0:17:24.28,Sub,,0,0,0,,My Da Lou Sword Sect will wipe your planet Tian Mo !
+Dialogue: 0,0:17:24.32,0:17:25.64,Sub,,0,0,0,,Sure, I'll be waiting for you.
+Dialogue: 0,0:17:41.24,0:17:43.20,Sub,,0,0,0,,You can have this sword
+Dialogue: 0,0:17:43.36,0:17:45.40,Sub,,0,0,0,,but the Sword Spirit is mine.
+Dialogue: 0,0:17:52.44,0:17:54.12,Sub,,0,0,0,,This sword belongs to me !
+Dialogue: 0,0:17:55.44,0:17:57.28,Sub,,0,0,0,,This celestial sword lost its Sword Spirit
+Dialogue: 0,0:17:57.64,0:17:59.88,Sub,,0,0,0,,so it cannot use any of its spells anymore...
+Dialogue: 0,0:18:00.52,0:18:02.00,Sub,,0,0,0,,Ling Tianhou,
+Dialogue: 0,0:18:02.16,0:18:04.80,Sub,,0,0,0,,you obtaining this sword is heavenly fate
+Dialogue: 0,0:18:04.88,0:18:06.64,Sub,,0,0,0,,so I won’t stop you.
+Dialogue: 0,0:18:06.84,0:18:08.72,Sub,,0,0,0,,But know your own limits…
+Dialogue: 0,0:18:13.88,0:18:15.76,Sub,,0,0,0,,You don't have much life left in you.
+Dialogue: 0,0:18:16.32,0:18:18.24,Sub,,0,0,0,,Since you're a Celestial,
+Dialogue: 0,0:18:18.36,0:18:19.80,Sub,,0,0,0,,I won't kill you.
+Dialogue: 0,0:18:20.16,0:18:23.00,Sub,,0,0,0,,But I will take the Sword Spirits of the remaining 2 swords !
+Dialogue: 0,0:18:48.92,0:18:49.72,Sub,,0,0,0,,Ting'er !
+Dialogue: 0,0:18:49.84,0:18:50.68,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:18:57.08,0:18:57.92,Sub,,0,0,0,,Ting'er !
+Dialogue: 0,0:19:27.68,0:19:29.40,Sub,,0,0,0,,Break for me !
+Dialogue: 0,0:19:40.04,0:19:41.52,Sub,,0,0,0,,Ting'er !!!
+Dialogue: 0,0:19:41.72,0:19:45.16,Sub,,0,0,0,,I am not the true soul of a Celestial King.
+Dialogue: 0,0:19:46.32,0:19:50.00,Sub,,0,0,0,,I am a remnant of a soul that was condensed somehow.
+Dialogue: 0,0:19:51.24,0:19:53.72,Sub,,0,0,0,,But when you ignited your Origin Soul,
+Dialogue: 0,0:19:54.20,0:19:55.56,Sub,,0,0,0,,I understood.
+Dialogue: 0,0:19:56.68,0:19:59.12,Sub,,0,0,0,,I was born out of your obsession for me…
+Dialogue: 0,0:20:00.68,0:20:01.76,Sub,,0,0,0,,Zhou Yi,
+Dialogue: 0,0:20:02.84,0:20:03.64,Sub,,0,0,0,,thank you.
+Dialogue: 0,0:20:04.80,0:20:06.16,Sub,,0,0,0,,If there is another life,
+Dialogue: 0,0:20:06.80,0:20:08.88,Sub,,0,0,0,,I hope that I’m not a remnant of a soul
+Dialogue: 0,0:20:09.88,0:20:10.80,Sub,,0,0,0,,and that you
+Dialogue: 0,0:20:12.12,0:20:14.60,Sub,,0,0,0,,will still be by my side...
+Dialogue: 0,0:20:17.40,0:20:19.40,Sub,,0,0,0,,Ting'er !!!
+Dialogue: 0,0:20:25.04,0:20:28.24,Card,,0,0,0,,{\pos(1529,472)\fad(300,300}Fourth Rain Celestial Sword
+Dialogue: 0,0:20:45.84,0:20:48.52,Sub,,0,0,0,,Nooooo !!!
+Dialogue: 0,0:20:57.31,0:23:26.99,Note,,0,0,0,,{\fad(1000,1000}We just encountered some new cultivation levels. They will be explained later. You will find the updated cultivation level cheat sheet below.\N\NQi Condensation\NFoundation Establishment\NCore Formation\NNascent Soul\NSoul Formation\NSoul Transformation\NAscendant\N??\N??\NNirvana Scryer\NNirvana Cleanser
+Dialogue: 0,0:21:08.87,0:21:15.55,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:21:15.62,0:21:21.71,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:21:21.82,0:21:25.65,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:21:25.68,0:21:29.58,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:21:29.94,0:21:35.59,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:21:36.77,0:21:42.60,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:21:42.91,0:21:48.45,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:21:48.91,0:21:53.13,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:21:53.39,0:21:56.62,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:21:56.79,0:22:02.61,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:22:03.13,0:22:06.81,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:22:06.91,0:22:10.73,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:22:10.91,0:22:16.58,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:22:16.84,0:22:20.51,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:22:20.72,0:22:24.29,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:22:24.41,0:22:30.33,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:22:30.40,0:22:34.41,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:22:34.44,0:22:38.23,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:22:38.82,0:22:44.06,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:22:44.13,0:22:48.01,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:22:48.05,0:22:51.85,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:22:52.15,0:22:57.71,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:22:58.35,0:23:04.57,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:23:04.87,0:23:11.37,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:23:12.39,0:23:18.09,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:23:18.26,0:23:24.96,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

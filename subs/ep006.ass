@@ -1,0 +1,236 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Intro,Roboto,55,&H0054A6CB,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.20,0:01:50.71,Sub,,0,0,0,,Who would like to buy this artifact ?
+Dialogue: 0,0:01:51.68,0:01:53.67,Sub,,0,0,0,,The City Lord's mansion is hiring a steward. Want to try ?
+Dialogue: 0,0:01:56.12,0:02:00.19,Sub,,0,0,0,,250 low quality spirit stones and not one more !
+Dialogue: 0,0:02:01.48,0:02:02.51,Sub,,0,0,0,,Don't try to scam me !
+Dialogue: 0,0:02:03.12,0:02:04.27,Sub,,0,0,0,,The other shop
+Dialogue: 0,0:02:04.36,0:02:05.35,Sub,,0,0,0,,offered 300.
+Dialogue: 0,0:02:06.80,0:02:08.19,Sub,,0,0,0,,Don't be ungrateful !
+Dialogue: 0,0:02:08.64,0:02:09.83,Sub,,0,0,0,,It's just a ginseng !
+Dialogue: 0,0:02:09.84,0:02:10.71,Sub,,0,0,0,,In our Teng Family City...
+Dialogue: 0,0:02:11.80,0:02:12.75,Sub,,0,0,0,,Shut up !
+Dialogue: 0,0:02:13.16,0:02:14.96,Sub,,0,0,0,,That's a thousand years old blood ginseng
+Dialogue: 0,0:02:14.96,0:02:16.43,Sub,,0,0,0,,worth at least 1 000 spirit stones !
+Dialogue: 0,0:02:17.96,0:02:18.79,Sub,,0,0,0,,Little Brother,
+Dialogue: 0,0:02:18.92,0:02:21.03,Sub,,0,0,0,,come back ! We can negotiate !
+Dialogue: 0,0:02:23.72,0:02:24.79,Sub,,0,0,0,,At least 1 000 ?
+Dialogue: 0,0:02:25.04,0:02:26.95,Sub,,0,0,0,,I've never seen so many spirit stones in my life.
+Dialogue: 0,0:02:27.28,0:02:28.67,Sub,,0,0,0,,Let alone that Wang Lin kid.
+Dialogue: 0,0:02:30.12,0:02:32.16,Sub,,0,0,0,,Once I manage to sell this,
+Dialogue: 0,0:02:32.48,0:02:34.08,Sub,,0,0,0,,I bet he'll be shocked.
+Dialogue: 0,0:02:40.36,0:02:41.31,Sub,,0,0,0,,Hurry, let's go !
+Dialogue: 0,0:02:47.28,0:02:48.36,Sub,,0,0,0,,What do you want !?
+Dialogue: 0,0:02:48.36,0:02:50.04,Sub,,0,0,0,,Fighting is forbidden here !
+Dialogue: 0,0:02:59.36,0:03:02.11,Sub,,0,0,0,,Flying is forbidden in Teng Family City.
+Dialogue: 0,0:03:02.44,0:03:03.99,Sub,,0,0,0,,Didn't you know that ?
+Dialogue: 0,0:03:04.52,0:03:05.31,Sub,,0,0,0,,Who...
+Dialogue: 0,0:03:05.76,0:03:07.55,Sub,,0,0,0,,Are you the one that killed Bai Zhan ?
+Dialogue: 0,0:03:19.52,0:03:21.08,Sub,,0,0,0,,Thankfully, I reacted fast.
+Dialogue: 0,0:03:23.48,0:03:25.20,Sub,,0,0,0,,You're too slow.
+Dialogue: 0,0:03:31.64,0:03:34.87,Sub,,0,0,0,,So it was just an ambush to lure me here ?
+Dialogue: 0,0:03:36.08,0:03:37.36,Sub,,0,0,0,,How stupid of me
+Dialogue: 0,0:03:37.40,0:03:38.83,Sub,,0,0,0,,to only realize this now...
+Dialogue: 0,0:03:39.64,0:03:43.24,Sub,,0,0,0,,You're not worth all the trouble I went through to trap you.
+Dialogue: 0,0:03:48.16,0:03:49.19,Sub,,0,0,0,,Who are you !?
+Dialogue: 0,0:03:50.52,0:03:52.07,Sub,,0,0,0,,The one who'll kill you.
+Dialogue: 0,0:04:50.32,0:04:53.03,Sub,,0,0,0,,Is this sword a Core Formation artifact now ?
+Dialogue: 0,0:04:53.92,0:04:54.87,Sub,,0,0,0,,Of course,
+Dialogue: 0,0:04:54.88,0:04:57.00,Sub,,0,0,0,,a top-quality Core Formation artifact.
+Dialogue: 0,0:04:57.12,0:04:59.35,Sub,,0,0,0,,But you must be careful,
+Dialogue: 0,0:04:59.68,0:05:02.84,Sub,,0,0,0,,Blood Refining binds your life to this artifact.
+Dialogue: 0,0:05:03.40,0:05:04.87,Sub,,0,0,0,,If the sword is damaged,
+Dialogue: 0,0:05:05.04,0:05:06.88,Sub,,0,0,0,,you'll suffer a severe backlash.
+Dialogue: 0,0:05:08.08,0:05:10.03,Sub,,0,0,0,,What brings you here ?
+Dialogue: 0,0:05:10.76,0:05:11.19,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:05:13.08,0:05:13.75,Sub,,0,0,0,,Excuse me...
+Dialogue: 0,0:05:20.24,0:05:21.56,Sub,,0,0,0,,Chase him !
+Dialogue: 0,0:05:27.24,0:05:30.15,Sub,,0,0,0,,Why are so many Teng Family disciples chasing me ?
+Dialogue: 0,0:05:36.12,0:05:37.27,Sub,,0,0,0,,You go this way,
+Dialogue: 0,0:05:37.52,0:05:38.27,Sub,,0,0,0,,I'll go that way.
+Dialogue: 0,0:05:38.52,0:05:38.95,Sub,,0,0,0,,Okay !
+Dialogue: 0,0:05:44.28,0:05:44.91,Sub,,0,0,0,,Wait,
+Dialogue: 0,0:05:44.92,0:05:45.71,Sub,,0,0,0,,something's wrong.
+Dialogue: 0,0:05:46.72,0:05:48.67,Sub,,0,0,0,,There's a flight suppression formation...
+Dialogue: 0,0:05:50.20,0:05:51.11,Sub,,0,0,0,,The gate is the other way.
+Dialogue: 0,0:05:51.12,0:05:52.68,Sub,,0,0,0,,Zhang Hu is still in the market...
+Dialogue: 0,0:06:03.20,0:06:04.35,Sub,,0,0,0,,Why is there no one here ?
+Dialogue: 0,0:06:05.04,0:06:06.40,Sub,,0,0,0,,No, it's not right.
+Dialogue: 0,0:06:07.72,0:06:08.88,Sub,,0,0,0,,Something's wrong,
+Dialogue: 0,0:06:08.92,0:06:10.88,Sub,,0,0,0,,I must quickly find Zhang Hu.
+Dialogue: 0,0:06:26.52,0:06:28.00,Sub,,0,0,0,,Late stage Foundation Establishment !
+Dialogue: 0,0:06:31.76,0:06:33.55,Sub,,0,0,0,,Smart people are troublesome,
+Dialogue: 0,0:06:33.56,0:06:35.75,Sub,,0,0,0,,I need to catch you myself.
+Dialogue: 0,0:06:37.72,0:06:38.56,Sub,,0,0,0,,Be careful !
+Dialogue: 0,0:06:51.64,0:06:53.52,Sub,,0,0,0,,Were you looking for your friend ?
+Dialogue: 0,0:06:55.24,0:06:56.03,Sub,,0,0,0,,Zhang...
+Dialogue: 0,0:06:57.00,0:06:57.79,Sub,,0,0,0,,Zhang Hu !
+Dialogue: 0,0:06:59.88,0:07:01.43,Sub,,0,0,0,,There is no grudge between us,
+Dialogue: 0,0:07:01.56,0:07:03.19,Sub,,0,0,0,,why are you so cruel ?
+Dialogue: 0,0:07:04.04,0:07:05.87,Sub,,0,0,0,,I was entrusted with this task
+Dialogue: 0,0:07:06.16,0:07:07.39,Sub,,0,0,0,,so I had to do it.
+Dialogue: 0,0:07:08.12,0:07:09.67,Sub,,0,0,0,,Is this Old Man Ji Mo's doing ?
+Dialogue: 0,0:07:13.36,0:07:14.03,Sub,,0,0,0,,Sorry...
+Dialogue: 0,0:07:14.92,0:07:16.03,Sub,,0,0,0,,Don't worry,
+Dialogue: 0,0:07:17.24,0:07:19.59,Sub,,0,0,0,,you'll meet him again soon.
+Dialogue: 0,0:07:24.52,0:07:26.87,Sub,,0,0,0,,You actually have a top quality Core Formation artifact ?
+Dialogue: 0,0:07:27.32,0:07:30.11,Sub,,0,0,0,,That little sword will be mine !
+Dialogue: 0,0:07:37.84,0:07:39.72,Sub,,0,0,0,,If you were Foundation Establishment,
+Dialogue: 0,0:07:39.72,0:07:41.59,Sub,,0,0,0,,we could've dueled.
+Dialogue: 0,0:07:41.60,0:07:44.47,Sub,,0,0,0,,It's a pity you're just a Qi Condensation brat.
+Dialogue: 0,0:08:04.16,0:08:06.48,Card,,0,0,0,,{\pos(1763,449)\fad(300,300)}Movement speed\Ntalisman
+Dialogue: 0,0:08:13.92,0:08:15.15,Sub,,0,0,0,,You're dead !
+Dialogue: 0,0:08:19.60,0:08:21.76,Sub,,0,0,0,,So only the Teng Family can fly here !
+Dialogue: 0,0:08:40.64,0:08:41.47,Sub,,0,0,0,,That bastard
+Dialogue: 0,0:08:41.56,0:08:43.28,Sub,,0,0,0,,is clearly just playing with his prey.
+Dialogue: 0,0:08:47.08,0:08:48.63,Sub,,0,0,0,,He's got some good items.
+Dialogue: 0,0:08:48.76,0:08:50.87,Sub,,0,0,0,,This kid is getting interesting.
+Dialogue: 0,0:09:09.32,0:09:10.07,Sub,,0,0,0,,Shit,
+Dialogue: 0,0:09:10.12,0:09:11.51,Sub,,0,0,0,,my movement speed talisman is ending !
+Dialogue: 0,0:09:11.52,0:09:12.95,Sub,,0,0,0,,In Teng Family City,
+Dialogue: 0,0:09:13.12,0:09:15.99,Sub,,0,0,0,,even Core Formation cultivators can't escape me,
+Dialogue: 0,0:09:16.40,0:09:17.55,Sub,,0,0,0,,let alone you !
+Dialogue: 0,0:09:21.44,0:09:22.23,Sub,,0,0,0,,Go !
+Dialogue: 0,0:09:50.76,0:09:51.91,Sub,,0,0,0,,It looks like these lanterns
+Dialogue: 0,0:09:52.12,0:09:54.15,Sub,,0,0,0,,are the secret of Teng Family City's formation.
+Dialogue: 0,0:10:03.56,0:10:05.39,Sub,,0,0,0,,You dare to break our formation !?
+Dialogue: 0,0:10:16.28,0:10:17.07,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:10:17.32,0:10:18.91,Sub,,0,0,0,,the young master can't handle this guy.
+Dialogue: 0,0:10:19.12,0:10:20.83,Sub,,0,0,0,,Junior fears he might lose this fight.
+Dialogue: 0,0:10:20.88,0:10:24.67,Sub,,0,0,0,,What cultivation does Li'er's target have ?
+Dialogue: 0,0:10:25.12,0:10:27.15,Sub,,0,0,0,,Ancestor, he is Qi Condensation.
+Dialogue: 0,0:10:27.84,0:10:30.43,Sub,,0,0,0,,And what is Li'er's cultivation ?
+Dialogue: 0,0:10:30.56,0:10:33.07,Sub,,0,0,0,,The young master is at Late stage Foundation Establishment.
+Dialogue: 0,0:10:34.76,0:10:36.87,Sub,,0,0,0,,Li'er lacks mental fortitude.
+Dialogue: 0,0:10:37.08,0:10:39.36,Sub,,0,0,0,,If this fight can temper him,
+Dialogue: 0,0:10:39.52,0:10:40.91,Sub,,0,0,0,,repairing this city
+Dialogue: 0,0:10:41.00,0:10:42.71,Sub,,0,0,0,,is a small price to pay.
+Dialogue: 0,0:11:02.28,0:11:04.60,Card,,0,0,0,,{\pos(1608,435)\fad(300,300)}Thunder talisman
+Dialogue: 0,0:11:13.72,0:11:14.71,Sub,,0,0,0,,Little ant,
+Dialogue: 0,0:11:15.04,0:11:17.15,Sub,,0,0,0,,being killed by my divine sword
+Dialogue: 0,0:11:17.20,0:11:18.55,Sub,,0,0,0,,is an honor !
+Dialogue: 0,0:11:23.16,0:11:23.99,Sub,,0,0,0,,This is bad !
+Dialogue: 0,0:12:18.32,0:12:21.11,Sub,,0,0,0,,He also has a teleportation artifact ?
+Dialogue: 0,0:12:24.00,0:12:26.56,Sub,,0,0,0,,That one will also be mine !
+Dialogue: 0,0:12:33.16,0:12:35.43,Sub,,0,0,0,,That sword is a Nascent Soul artifact,
+Dialogue: 0,0:12:36.00,0:12:37.99,Sub,,0,0,0,,I had to teleport you.
+Dialogue: 0,0:12:38.36,0:12:40.15,Sub,,0,0,0,,Senior, are you alright ?
+Dialogue: 0,0:12:40.60,0:12:42.16,Sub,,0,0,0,,I'm hanging on.
+Dialogue: 0,0:13:03.60,0:13:05.03,Sub,,0,0,0,,You're dead !
+Dialogue: 0,0:13:05.36,0:13:06.95,Sub,,0,0,0,,A defensive mirror ?
+Dialogue: 0,0:13:07.28,0:13:09.23,Sub,,0,0,0,,He also has a Nascent Soul defensive artifact !?
+Dialogue: 0,0:13:42.72,0:13:44.59,Sub,,0,0,0,,Damn it, he's doing it again !
+Dialogue: 0,0:14:03.72,0:14:05.95,Sub,,0,0,0,,Let's see how many times you can teleport !
+Dialogue: 0,0:14:07.16,0:14:09.52,Sub,,0,0,0,,{\fad(500,500)\pos(960,515)}3 days later
+Dialogue: 0,0:14:13.40,0:14:14.88,Sub,,0,0,0,,I'm out of spirit liquid,
+Dialogue: 0,0:14:15.00,0:14:16.03,Sub,,0,0,0,,I need to get some more.
+Dialogue: 0,0:14:19.80,0:14:23.35,Sub,,0,0,0,,Little Lin, my Origin Soul's power is fading
+Dialogue: 0,0:14:24.52,0:14:26.63,Sub,,0,0,0,,I can only teleport you a few more times.
+Dialogue: 0,0:14:27.48,0:14:28.31,Sub,,0,0,0,,Hold on Senior !
+Dialogue: 0,0:14:31.52,0:14:34.12,Card,,0,0,0,,{\pos(1618,428)\fad(300,300)}Misty Forest
+Dialogue: 0,0:14:33.40,0:14:35.19,Sub,,0,0,0,,This forest is strange...
+Dialogue: 0,0:14:37.04,0:14:38.07,Sub,,0,0,0,,He's catching up.
+Dialogue: 0,0:14:41.48,0:14:45.23,Sub,,0,0,0,,500 li to the south is the Misty Forest.
+Dialogue: 0,0:14:41.48,0:14:45.23,Second,,0,0,0,,Note: 1 li = 500m
+Dialogue: 0,0:14:45.76,0:14:48.31,Sub,,0,0,0,,The forest is shrouded in a fog
+Dialogue: 0,0:14:48.48,0:14:50.35,Sub,,0,0,0,,that blocks Divine Sense.
+Dialogue: 0,0:14:50.56,0:14:53.27,Sub,,0,0,0,,It's also filled with deadly beasts.
+Dialogue: 0,0:14:53.44,0:14:54.55,Sub,,0,0,0,,But the worst of all
+Dialogue: 0,0:14:54.56,0:14:57.07,Sub,,0,0,0,,are the Blue Thread Vines.
+Dialogue: 0,0:14:57.52,0:15:01.31,Sub,,0,0,0,,Don't enter it before Core Formation.
+Dialogue: 0,0:15:03.04,0:15:05.31,Sub,,0,0,0,,I have a Nascent Soul artifact,
+Dialogue: 0,0:15:05.76,0:15:08.07,Sub,,0,0,0,,what can this forest do to me ?
+Dialogue: 0,0:15:11.60,0:15:14.51,Sub,,0,0,0,,Even that Qi Condensation brat dared to enter it.
+Dialogue: 0,0:15:14.72,0:15:16.43,Sub,,0,0,0,,Why should I be afraid of it ?
+Dialogue: 0,0:15:17.00,0:15:19.67,Sub,,0,0,0,,I will kill him today !
+Dialogue: 0,0:15:42.32,0:15:43.31,Sub,,0,0,0,,Blue Thread Vines !
+Dialogue: 0,0:15:48.12,0:15:49.63,Sub,,0,0,0,,Little Lin, stop !
+Dialogue: 0,0:15:50.40,0:15:51.19,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:15:51.32,0:15:52.47,Sub,,0,0,0,,You must resist your instincts
+Dialogue: 0,0:15:52.56,0:15:54.36,Sub,,0,0,0,,and avoid fighting it with spiritual energy !
+Dialogue: 0,0:16:12.92,0:16:15.07,Sub,,0,0,0,,These vines drain spiritual energy
+Dialogue: 0,0:16:15.20,0:16:17.23,Sub,,0,0,0,,and are extremely sensitive to blood.
+Dialogue: 0,0:16:17.36,0:16:19.43,Sub,,0,0,0,,If you fight back, they will tighten their grip
+Dialogue: 0,0:16:19.52,0:16:21.35,Sub,,0,0,0,,until they consume you.
+Dialogue: 0,0:16:24.52,0:16:26.15,Sub,,0,0,0,,Fighting them head on
+Dialogue: 0,0:16:26.68,0:16:28.39,Sub,,0,0,0,,is suicide.
+Dialogue: 0,0:16:36.28,0:16:39.07,Sub,,0,0,0,,I will get you out of here while I can still
+Dialogue: 0,0:16:39.68,0:16:40.75,Sub,,0,0,0,,do some teleports.
+Dialogue: 0,0:16:42.60,0:16:43.67,Sub,,0,0,0,,I won't run away.
+Dialogue: 0,0:16:46.36,0:16:47.55,Sub,,0,0,0,,If you offend me once,
+Dialogue: 0,0:16:48.00,0:16:49.35,Sub,,0,0,0,,I will accept it.
+Dialogue: 0,0:16:50.64,0:16:52.60,Sub,,0,0,0,,But if you offend me a second time
+Dialogue: 0,0:16:52.80,0:16:54.19,Sub,,0,0,0,,I'll exterminate you !
+Dialogue: 0,0:17:14.61,0:17:20.25,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:17:17.26,0:17:20.25,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:17:20.89,0:17:25.85,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:17:22.73,0:17:25.85,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:17:26.01,0:17:31.77,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:17:31.89,0:17:37.49,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:17:37.77,0:17:43.09,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:17:39.65,0:17:43.09,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:17:43.37,0:17:48.69,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:17:45.27,0:17:48.69,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:17:48.73,0:17:54.41,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:51.61,0:17:54.41,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:17:54.85,0:17:59.05,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:57.01,0:17:59.05,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:17:59.13,0:18:02.37,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:18:02.41,0:18:05.45,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:18:05.58,0:18:11.01,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:18:07.27,0:18:11.01,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:18:11.01,0:18:14.13,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:18:14.13,0:18:17.17,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:18:17.17,0:18:22.53,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:18:19.05,0:18:22.53,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:18:22.53,0:18:25.49,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:18:25.49,0:18:28.29,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:18:28.29,0:18:33.77,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:18:30.33,0:18:33.77,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:18:33.97,0:18:37.13,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:18:37.13,0:18:40.17,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:18:40.17,0:18:45.85,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:18:42.49,0:18:45.85,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

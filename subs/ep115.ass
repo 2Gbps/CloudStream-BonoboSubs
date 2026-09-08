@@ -1,0 +1,397 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 115_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.16,0:01:53.44,Sub,,0,0,0,,{\fad(500,500)\pos(189,574)}6 months ago
+Dialogue: 0,0:02:00.84,0:02:01.99,Sub,,0,0,0,,I can't wait any longer.
+Dialogue: 0,0:02:02.44,0:02:03.75,Sub,,0,0,0,,The Ancestor should already be back !
+Dialogue: 0,0:02:03.96,0:02:05.51,Sub,,0,0,0,,Sima Yan's underlings
+Dialogue: 0,0:02:05.60,0:02:07.12,Sub,,0,0,0,,are getting more and more restless.
+Dialogue: 0,0:02:07.24,0:02:08.87,Sub,,0,0,0,,It's only a matter of time before they make their move.
+Dialogue: 0,0:02:09.84,0:02:10.60,Sub,,0,0,0,,Thirteen,
+Dialogue: 0,0:02:10.72,0:02:11.95,Sub,,0,0,0,,I'll ask you one last time.
+Dialogue: 0,0:02:12.28,0:02:13.35,Sub,,0,0,0,,Are you coming with me ?
+Dialogue: 0,0:02:13.88,0:02:15.12,Sub,,0,0,0,,The Ancestor's order
+Dialogue: 0,0:02:15.24,0:02:16.75,Sub,,0,0,0,,was to wait for his return here.
+Dialogue: 0,0:02:17.56,0:02:18.52,Sub,,0,0,0,,Stubborn fool !
+Dialogue: 0,0:02:18.64,0:02:20.52,Sub,,0,0,0,,You can stay here and wait for your end,
+Dialogue: 0,0:02:20.56,0:02:21.51,Sub,,0,0,0,,I'm not staying !
+Dialogue: 0,0:02:37.36,0:02:39.87,Sub,,0,0,0,,Sky Demon Country's Military Law, Article 1.
+Dialogue: 0,0:02:40.36,0:02:42.15,Sub,,0,0,0,,Those who desert shall be...
+Dialogue: 0,0:02:42.72,0:02:43.63,Sub,,0,0,0,,beheaded.
+Dialogue: 0,0:02:43.96,0:02:45.68,Sub,,0,0,0,,I'm not a soldier under your command !
+Dialogue: 0,0:02:45.68,0:02:48.07,Sub,,0,0,0,,You can't stop me from returning to my tribe !
+Dialogue: 0,0:02:50.76,0:02:51.63,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:02:58.04,0:03:00.35,Sub,,0,0,0,,Sky Demon Country's Military Law, Article 8.
+Dialogue: 0,0:03:01.24,0:03:03.72,Sub,,0,0,0,,Those who revolt against their superior shall be...
+Dialogue: 0,0:03:03.88,0:03:04.80,Sub,,0,0,0,,beheaded !
+Dialogue: 0,0:03:06.16,0:03:07.95,Sub,,0,0,0,,The Ancestor is your Commander !
+Dialogue: 0,0:03:08.28,0:03:09.35,Sub,,0,0,0,,When he returns,
+Dialogue: 0,0:03:09.60,0:03:11.47,Sub,,0,0,0,,he will deal with you !
+Dialogue: 0,0:03:12.96,0:03:15.35,Sub,,0,0,0,,What a loyal dog you are.
+Dialogue: 0,0:03:15.96,0:03:19.19,Sub,,0,0,0,,It's a pity your useless master has been dismissed from his post.
+Dialogue: 0,0:03:19.80,0:03:21.47,Sub,,0,0,0,,He won't come to save you !
+Dialogue: 0,0:03:28.88,0:03:30.11,Sub,,0,0,0,,Bastard !
+Dialogue: 0,0:03:30.72,0:03:31.79,Sub,,0,0,0,,You can kill me,
+Dialogue: 0,0:03:32.44,0:03:34.11,Sub,,0,0,0,,but you can't insult the Ancestor !
+Dialogue: 0,0:03:42.36,0:03:43.75,Sub,,0,0,0,,You're courting death...
+Dialogue: 0,0:03:46.84,0:03:47.95,Sub,,0,0,0,,Sima Yan,
+Dialogue: 0,0:03:48.56,0:03:49.55,Sub,,0,0,0,,stop this.
+Dialogue: 0,0:03:51.04,0:03:53.04,Card Hard,,0,0,0,,{\fad(300,300)\pos(1535,587)}He Kun\NNew Commander of the Black Armor Army\NRank 100 000 demonic energy\N(Early stage Soul Transformation)
+Dialogue: 0,0:04:02.36,0:04:03.95,Sub,,0,0,0,,How could I get drunk ?
+Dialogue: 0,0:04:05.84,0:04:07.55,Sub,,0,0,0,,I don't know how long I've slept...
+Dialogue: 0,0:04:17.24,0:04:20.40,Card,,0,0,0,,{\pos(1708,567)\fad(300,300)}Wang Lin's avatar\NPeak Late stage\NSoul Transformation
+Dialogue: 0,0:04:22.44,0:04:23.59,Sub,,0,0,0,,My cultivation...
+Dialogue: 0,0:04:26.24,0:04:28.07,Sub,,0,0,0,,A single drop of this celestial wine
+Dialogue: 0,0:04:28.68,0:04:30.99,Sub,,0,0,0,,made me reach Peak Late stage Soul Transformation...
+Dialogue: 0,0:04:31.64,0:04:33.03,Sub,,0,0,0,,I must carefully keep
+Dialogue: 0,0:04:33.24,0:04:34.87,Sub,,0,0,0,,the remaining 9 drops.
+Dialogue: 0,0:04:40.44,0:04:42.20,Sub,,0,0,0,,I became the master of the celestial cave,
+Dialogue: 0,0:04:42.20,0:04:43.88,Sub,,0,0,0,,had a breakthrough in my cultivation,
+Dialogue: 0,0:04:44.32,0:04:46.19,Sub,,0,0,0,,and obtained Yao Xixue's bags of holding...
+Dialogue: 0,0:04:46.96,0:04:48.24,Sub,,0,0,0,,I obtained a lot
+Dialogue: 0,0:04:48.56,0:04:50.43,Sub,,0,0,0,,in this risky trip.
+Dialogue: 0,0:04:51.08,0:04:52.55,Sub,,0,0,0,,With my former cultivation,
+Dialogue: 0,0:04:52.76,0:04:55.39,Sub,,0,0,0,,I wouldn't have been able to break Yao Xixue's Divine Sense so easily.
+Dialogue: 0,0:04:57.08,0:04:57.95,Sub,,0,0,0,,This is...
+Dialogue: 0,0:04:59.28,0:05:00.95,Sub,,0,0,0,,They're all celestial jades !
+Dialogue: 0,0:05:02.08,0:05:03.23,Sub,,0,0,0,,These celestial jades
+Dialogue: 0,0:05:03.88,0:05:06.15,Sub,,0,0,0,,are enough for me to reach Ascendant in a single try.
+Dialogue: 0,0:05:10.68,0:05:13.72,Sub,,0,0,0,,{\fad(500,500)\pos(184,537)}30 minutes later
+Dialogue: 0,0:05:12.44,0:05:13.75,Sub,,0,0,0,,In these 3 bags of holding,
+Dialogue: 0,0:05:14.20,0:05:16.23,Sub,,0,0,0,,besides the thousands of defensive Blood Jades,
+Dialogue: 0,0:05:16.68,0:05:18.67,Sub,,0,0,0,,and several Blood Soul Pills that might be fake,
+Dialogue: 0,0:05:19.60,0:05:21.99,Sub,,0,0,0,,there's also a Compass to enter and exit this place.
+Dialogue: 0,0:05:27.48,0:05:28.95,Sub,,0,0,0,,Such a powerful killing intent !
+Dialogue: 0,0:05:30.56,0:05:31.35,Sub,,0,0,0,,Wait...
+Dialogue: 0,0:05:31.88,0:05:33.35,Sub,,0,0,0,,On this bag's restriction,
+Dialogue: 0,0:05:33.68,0:05:35.87,Sub,,0,0,0,,there might be some Divine Sense left by her father.
+Dialogue: 0,0:05:36.80,0:05:38.27,Sub,,0,0,0,,If an outsider opens it,
+Dialogue: 0,0:05:38.48,0:05:40.59,Sub,,0,0,0,,they will be annihilated by the Divine Sense.
+Dialogue: 0,0:05:41.36,0:05:42.43,Sub,,0,0,0,,The Blood Ancestor
+Dialogue: 0,0:05:42.96,0:05:44.47,Sub,,0,0,0,,is very skilled.
+Dialogue: 0,0:05:45.04,0:05:48.07,Sub,,0,0,0,,This teleportation formation looks new,
+Dialogue: 0,0:05:48.64,0:05:50.79,Sub,,0,0,0,,Yao Xixue must have made it recently.
+Dialogue: 0,0:05:51.84,0:05:55.15,Sub,,0,0,0,,If the Blood Ancestor sent her here to leave a teleportation formation
+Dialogue: 0,0:05:55.96,0:05:57.75,Sub,,0,0,0,,that means reinforcements will come later...
+Dialogue: 0,0:05:58.48,0:05:59.99,Sub,,0,0,0,,If I erase the formation now,
+Dialogue: 0,0:06:00.36,0:06:01.68,Sub,,0,0,0,,it might be detected.
+Dialogue: 0,0:06:02.40,0:06:03.47,Sub,,0,0,0,,Then why don't I...
+Dialogue: 0,0:06:13.24,0:06:15.55,Sub,,0,0,0,,If someone really teleports here from the Blood Planet
+Dialogue: 0,0:06:16.40,0:06:17.55,Sub,,0,0,0,,these restrictions
+Dialogue: 0,0:06:18.20,0:06:20.19,Sub,,0,0,0,,will give them a surprise.
+Dialogue: 0,0:06:23.36,0:06:25.00,Sub,,0,0,0,,Master is skilled at commanding the army.
+Dialogue: 0,0:06:25.04,0:06:26.39,Sub,,0,0,0,,Over the past 6 months
+Dialogue: 0,0:06:26.48,0:06:28.99,Sub,,0,0,0,,you convinced the whole Black Armor Army.
+Dialogue: 0,0:06:35.24,0:06:36.87,Sub,,0,0,0,,It seems my army
+Dialogue: 0,0:06:37.68,0:06:39.23,Sub,,0,0,0,,has changed owners.
+Dialogue: 0,0:06:40.68,0:06:41.35,Sub,,0,0,0,,Wang Lin !?
+Dialogue: 0,0:06:41.76,0:06:42.48,Sub,,0,0,0,,How...
+Dialogue: 0,0:06:42.88,0:06:44.23,Sub,,0,0,0,,How can he be back ?
+Dialogue: 0,0:06:44.68,0:06:46.35,Sub,,0,0,0,,Those who dare to charge in my barracks
+Dialogue: 0,0:06:46.96,0:06:48.19,Sub,,0,0,0,,shall be killed on sight !
+Dialogue: 0,0:06:51.88,0:06:52.95,Sub,,0,0,0,,First Regiment ready !
+Dialogue: 0,0:06:53.36,0:06:54.39,Sub,,0,0,0,,Second Regiment ready !
+Dialogue: 0,0:06:54.96,0:06:55.91,Sub,,0,0,0,,Third Regiment ready !
+Dialogue: 0,0:06:56.16,0:06:57.23,Sub,,0,0,0,,Fourth Regiment ready !
+Dialogue: 0,0:07:07.24,0:07:08.03,Sub,,0,0,0,,Back down.
+Dialogue: 0,0:07:21.00,0:07:23.59,Sub,,0,0,0,,What level is this person's cultivation ?
+Dialogue: 0,0:07:24.24,0:07:26.35,Sub,,0,0,0,,Only when facing the Demon General himself
+Dialogue: 0,0:07:26.36,0:07:28.23,Sub,,0,0,0,,did I feel such pressure.
+Dialogue: 0,0:07:29.40,0:07:31.23,Sub,,0,0,0,,What exactly are your intentions ?
+Dialogue: 0,0:07:32.56,0:07:33.95,Sub,,0,0,0,,These are my barracks.
+Dialogue: 0,0:07:34.36,0:07:36.35,Sub,,0,0,0,,What do you think my intentions are ?
+Dialogue: 0,0:07:36.76,0:07:38.39,Sub,,0,0,0,,You've been missing for over a year,
+Dialogue: 0,0:07:38.56,0:07:40.99,Sub,,0,0,0,,the Demon General has long since dismissed you from your post !
+Dialogue: 0,0:07:41.76,0:07:43.59,Sub,,0,0,0,,So I spent a whole year
+Dialogue: 0,0:07:44.12,0:07:45.63,Sub,,0,0,0,,in that celestial cave.
+Dialogue: 0,0:07:47.96,0:07:49.63,Sub,,0,0,0,,Where are my disciples ?
+Dialogue: 0,0:07:51.04,0:07:52.43,Sub,,0,0,0,,If I don't hold my ground now,
+Dialogue: 0,0:07:52.56,0:07:54.43,Sub,,0,0,0,,I will lose my Commander position.
+Dialogue: 0,0:08:08.84,0:08:10.23,Sub,,0,0,0,,Your turtle shell...
+Dialogue: 0,0:08:11.00,0:08:12.19,Sub,,0,0,0,,isn't hard enough.
+Dialogue: 0,0:08:16.00,0:08:16.91,Sub,,0,0,0,,Soul Transformation...
+Dialogue: 0,0:08:17.48,0:08:18.59,Sub,,0,0,0,,Peak Late stage !
+Dialogue: 0,0:08:19.36,0:08:20.55,Sub,,0,0,0,,Now answer me.
+Dialogue: 0,0:08:23.80,0:08:25.15,Sub,,0,0,0,,6 months after you left,
+Dialogue: 0,0:08:25.36,0:08:26.51,Sub,,0,0,0,,they both disappeared.
+Dialogue: 0,0:08:27.08,0:08:29.35,Sub,,0,0,0,,I don't know where they went !
+Dialogue: 0,0:08:31.68,0:08:32.67,Sub,,0,0,0,,Stop this.
+Dialogue: 0,0:08:33.20,0:08:34.91,Sub,,0,0,0,,This person is a body cultivator,
+Dialogue: 0,0:08:35.32,0:08:37.79,Sub,,0,0,0,,maybe the Demon General has a use for him.
+Dialogue: 0,0:08:38.80,0:08:39.54,Sub,,0,0,0,,Master,
+Dialogue: 0,0:08:39.56,0:08:41.55,Sub,,0,0,0,,Hu Pao went missing today.
+Dialogue: 0,0:08:42.56,0:08:43.87,Sub,,0,0,0,,Fine...
+Dialogue: 0,0:08:44.96,0:08:46.23,Sub,,0,0,0,,Fine !
+Dialogue: 0,0:08:52.76,0:08:54.55,Sub,,0,0,0,,Where is Thirteen imprisoned ?
+Dialogue: 0,0:08:55.20,0:08:58.03,Sub,,0,0,0,,You mean that savage body cultivator ?
+Dialogue: 0,0:08:59.76,0:09:01.19,Sub,,0,0,0,,The Demon General has ordered
+Dialogue: 0,0:09:01.64,0:09:04.15,Sub,,0,0,0,,to find some people with strong physical bodies.
+Dialogue: 0,0:09:04.76,0:09:06.95,Sub,,0,0,0,,I thought that savage met the criteria
+Dialogue: 0,0:09:07.76,0:09:09.55,Sub,,0,0,0,,so I sent him to the Demon General's manor.
+Dialogue: 0,0:09:10.76,0:09:11.43,Sub,,0,0,0,,Commander Wang,
+Dialogue: 0,0:09:12.36,0:09:13.48,Sub,,0,0,0,,you can kill me if you want.
+Dialogue: 0,0:09:13.80,0:09:15.55,Sub,,0,0,0,,I, He Kun, will not even blink.
+Dialogue: 0,0:09:16.08,0:09:17.47,Sub,,0,0,0,,But if you want that person,
+Dialogue: 0,0:09:18.00,0:09:20.35,Sub,,0,0,0,,you will have to ask the Demon General directly.
+Dialogue: 0,0:09:27.24,0:09:28.51,Sub,,0,0,0,,You saved Thirteen's life
+Dialogue: 0,0:09:29.08,0:09:30.47,Sub,,0,0,0,,then gave him to the Demon General.
+Dialogue: 0,0:09:31.08,0:09:32.40,Sub,,0,0,0,,Your actions balanced each other out
+Dialogue: 0,0:09:32.60,0:09:33.79,Sub,,0,0,0,,so I won't kill you.
+Dialogue: 0,0:09:35.04,0:09:36.99,Sub,,0,0,0,,The Demon General went into seclusion half a year ago,
+Dialogue: 0,0:09:37.20,0:09:38.23,Sub,,0,0,0,,he won't receive you !
+Dialogue: 0,0:09:38.76,0:09:39.79,Sub,,0,0,0,,If you force your way in,
+Dialogue: 0,0:09:39.88,0:09:41.03,Sub,,0,0,0,,you will die for sure !
+Dialogue: 0,0:09:50.60,0:09:51.47,Sub,,0,0,0,,As expected,
+Dialogue: 0,0:09:52.16,0:09:54.75,Sub,,0,0,0,,the teleportation formations to the Demon General's manor are all closed.
+Dialogue: 0,0:09:55.64,0:09:57.03,Sub,,0,0,0,,To rescue Thirteen,
+Dialogue: 0,0:09:57.80,0:10:00.55,Sub,,0,0,0,,I must force open the 6 gates of Ancient Demon City.
+Dialogue: 0,0:10:02.16,0:10:03.63,Sub,,0,0,0,,The Demon General is in seclusion.
+Dialogue: 0,0:10:03.96,0:10:05.15,Sub,,0,0,0,,This gate is under strict guard.
+Dialogue: 0,0:10:05.36,0:10:06.83,Sub,,0,0,0,,If you take half a step,
+Dialogue: 0,0:10:07.40,0:10:08.92,Sub,,0,0,0,,you will be killed mercilessly !
+Dialogue: 0,0:10:09.92,0:10:10.99,Sub,,0,0,0,,Demon General,
+Dialogue: 0,0:10:11.60,0:10:12.79,Sub,,0,0,0,,Wang Lin requests an audience.
+Dialogue: 0,0:10:24.40,0:10:27.75,Sub,,0,0,0,,I was the one who brought Thirteen and Hu Pao to this Ancient Demon City.
+Dialogue: 0,0:10:28.64,0:10:31.59,Sub,,0,0,0,,My accidental slumber in the celestial cave caused them trouble...
+Dialogue: 0,0:10:32.24,0:10:34.35,Sub,,0,0,0,,It may have already cost them their lives.
+Dialogue: 0,0:10:35.76,0:10:36.99,Sub,,0,0,0,,A cultivator
+Dialogue: 0,0:10:37.60,0:10:38.83,Sub,,0,0,0,,should avoid conflict
+Dialogue: 0,0:10:39.00,0:10:40.28,Sub,,0,0,0,,and embrace the heavens.
+Dialogue: 0,0:10:41.16,0:10:43.67,Sub,,0,0,0,,Killing my way through, forcing the gates open,
+Dialogue: 0,0:10:44.08,0:10:45.15,Sub,,0,0,0,,defying the Demon General,
+Dialogue: 0,0:10:45.52,0:10:47.60,Sub,,0,0,0,,and breaking the Military Law for someone I barely know
+Dialogue: 0,0:10:48.36,0:10:49.23,Sub,,0,0,0,,isn't worth it...
+Dialogue: 0,0:10:50.88,0:10:52.35,Sub,,0,0,0,,But when feelings are implicated,
+Dialogue: 0,0:10:53.16,0:10:54.47,Sub,,0,0,0,,things that aren't worth it...
+Dialogue: 0,0:10:55.36,0:10:56.79,Sub,,0,0,0,,are worth it.
+Dialogue: 0,0:11:01.44,0:11:02.15,Sub,,0,0,0,,Fire arrows !
+Dialogue: 0,0:11:02.48,0:11:04.64,Sub,,0,0,0,,I, Wang Lin, walk between heaven and earth
+Dialogue: 0,0:11:04.80,0:11:06.35,Sub,,0,0,0,,neither seeking to follow rules
+Dialogue: 0,0:11:06.68,0:11:08.47,Sub,,0,0,0,,nor seeking to follow the Dao.
+Dialogue: 0,0:11:09.08,0:11:10.23,Sub,,0,0,0,,I only seek a life
+Dialogue: 0,0:11:10.84,0:11:12.39,Sub,,0,0,0,,where I don't have regrets !
+Dialogue: 0,0:11:13.36,0:11:14.60,Sub,,0,0,0,,Someone is forcing their way in !
+Dialogue: 0,0:11:14.60,0:11:16.15,Sub,,0,0,0,,Quick, inform the Commanders !
+Dialogue: 0,0:11:16.44,0:11:18.63,Sub,,0,0,0,,This is the Demon Spirit Crystal Junior found in the other tribe.
+Dialogue: 0,0:11:19.08,0:11:20.11,Sub,,0,0,0,,I offer it to you, Celestial.
+Dialogue: 0,0:11:22.08,0:11:23.24,Sub,,0,0,0,,Anyone who disrespects the Ancestor
+Dialogue: 0,0:11:23.24,0:11:23.87,Sub,,0,0,0,,is an enemy.
+Dialogue: 0,0:11:24.60,0:11:25.67,Sub,,0,0,0,,You can kill me,
+Dialogue: 0,0:11:26.52,0:11:27.87,Sub,,0,0,0,,but you can't insult the Ancestor !
+Dialogue: 0,0:11:28.36,0:11:29.79,Sub,,0,0,0,,Bound by human emotions...
+Dialogue: 0,0:11:30.36,0:11:31.55,Sub,,0,0,0,,Bound by obsessions...
+Dialogue: 0,0:11:32.40,0:11:34.95,Sub,,0,0,0,,Perhaps I'm not suited for cultivation.
+Dialogue: 0,0:11:36.36,0:11:37.79,Sub,,0,0,0,,But since this obsession is here,
+Dialogue: 0,0:11:38.32,0:11:39.75,Sub,,0,0,0,,I must deal with it.
+Dialogue: 0,0:11:43.64,0:11:45.19,Sub,,0,0,0,,If I don't save Thirteen now,
+Dialogue: 0,0:11:46.36,0:11:48.72,Sub,,0,0,0,,then everything I, Wang Lin, have sought all my life
+Dialogue: 0,0:11:49.40,0:11:51.15,Sub,,0,0,0,,will become meaningless.
+Dialogue: 0,0:11:57.64,0:11:58.67,Sub,,0,0,0,,Charge !
+Dialogue: 0,0:12:09.28,0:12:10.15,Sub,,0,0,0,,Audacious !
+Dialogue: 0,0:12:10.88,0:12:12.59,Sub,,0,0,0,,The Demon General is in seclusion !
+Dialogue: 0,0:12:12.96,0:12:13.55,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:12:13.96,0:12:15.35,Sub,,0,0,0,,what exactly are you doing !?
+Dialogue: 0,0:12:15.84,0:12:17.15,Sub,,0,0,0,,I want to see the Demon General
+Dialogue: 0,0:12:17.56,0:12:19.76,Sub,,0,0,0,,to demand an explanation for Thirteen.
+Dialogue: 0,0:12:20.96,0:12:22.03,Sub,,0,0,0,,Are you insane !?
+Dialogue: 0,0:12:22.88,0:12:24.23,Sub,,0,0,0,,Destroying our city gates,
+Dialogue: 0,0:12:24.48,0:12:25.79,Sub,,0,0,0,,breaking our Military Law,
+Dialogue: 0,0:12:26.36,0:12:28.64,Sub,,0,0,0,,making an enemy of the entire Ancient Demon City...
+Dialogue: 0,0:12:28.88,0:12:31.63,Sub,,0,0,0,,for an ant-like follower !?
+Dialogue: 0,0:12:32.16,0:12:33.79,Sub,,0,0,0,,You've got some nerve !
+Dialogue: 0,0:12:34.08,0:12:37.32,Card,,0,0,0,,{\fad(300,300)\pos(1512,610)}Li Tao\NFirst Commander of Ancient Demon City\NRank 150 000 Demonic Energy \N(Late stage Soul Transformation)
+Dialogue: 0,0:12:34.44,0:12:36.35,Sub,,0,0,0,,Since you remain so stubborn,
+Dialogue: 0,0:12:36.64,0:12:37.79,Sub,,0,0,0,,then today
+Dialogue: 0,0:12:38.60,0:12:40.35,Sub,,0,0,0,,will be your last day !
+Dialogue: 0,0:12:47.96,0:12:48.87,Sub,,0,0,0,,Die !
+Dialogue: 0,0:12:50.96,0:12:51.91,Sub,,0,0,0,,Underworld Finger !
+Dialogue: 0,0:13:22.08,0:13:22.95,Sub,,0,0,0,,He's here.
+Dialogue: 0,0:13:25.40,0:13:27.19,Sub,,0,0,0,,Peak Late stage Soul Transformation ?
+Dialogue: 0,0:13:27.48,0:13:28.95,Sub,,0,0,0,,Your finger spell
+Dialogue: 0,0:13:29.48,0:13:30.39,Sub,,0,0,0,,isn't bad.
+Dialogue: 0,0:13:31.20,0:13:33.12,Sub,,0,0,0,,But it's not enough to absolve you
+Dialogue: 0,0:13:33.12,0:13:34.23,Sub,,0,0,0,,of the death penalty !
+Dialogue: 0,0:13:36.56,0:13:37.59,Sub,,0,0,0,,Demon General,
+Dialogue: 0,0:13:38.28,0:13:39.51,Sub,,0,0,0,,long time no see.
+Dialogue: 0,0:13:59.76,0:14:02.15,Sub,,0,0,0,,Withstand my Hundred Waves Demon Sea
+Dialogue: 0,0:14:03.16,0:14:06.87,Sub,,0,0,0,,and then you'll be qualified to talk with me !
+Dialogue: 0,0:14:13.56,0:14:15.27,Sub,,0,0,0,,The power of this Hundred Waves Demon Sea
+Dialogue: 0,0:14:15.88,0:14:17.99,Sub,,0,0,0,,far surpasses the Ten Collapse Battle Intent.
+Dialogue: 0,0:14:18.16,0:14:19.83,Sub,,0,0,0,,Can you withstand it ?
+Dialogue: 0,0:14:20.24,0:14:22.07,Sub,,0,0,0,,Show me your true strength !
+Dialogue: 0,0:14:33.24,0:14:33.83,Sub,,0,0,0,,This is...
+Dialogue: 0,0:14:34.64,0:14:35.55,Sub,,0,0,0,,the golden symbol ?
+Dialogue: 0,0:14:36.68,0:14:38.35,Sub,,0,0,0,,Why does my soul shake so violently
+Dialogue: 0,0:14:38.96,0:14:40.87,Sub,,0,0,0,,as is if it were about to burst out of my body ?
+Dialogue: 0,0:14:41.88,0:14:43.63,Sub,,0,0,0,,The golden symbol activating on its own now
+Dialogue: 0,0:14:43.96,0:14:45.75,Sub,,0,0,0,,must be some kind of life-protecting spell.
+Dialogue: 0,0:14:46.48,0:14:48.19,Sub,,0,0,0,,This spell comes from the celestial cave...
+Dialogue: 0,0:14:48.68,0:14:50.95,Sub,,0,0,0,,Why don't I let it free ?
+Dialogue: 0,0:14:51.44,0:14:53.47,Sub,,0,0,0,,It might be able to resist the Hundred Waves Demon Sea.
+Dialogue: 0,0:15:08.36,0:15:10.79,Sub,,0,0,0,,This move consumes too much of the Life Seals,
+Dialogue: 0,0:15:11.36,0:15:12.95,Sub,,0,0,0,,it's difficult to use continuously.
+Dialogue: 0,0:15:15.96,0:15:16.59,Sub,,0,0,0,,Good !
+Dialogue: 0,0:15:17.36,0:15:18.15,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:15:18.80,0:15:20.15,Sub,,0,0,0,,I underestimated you.
+Dialogue: 0,0:15:21.08,0:15:23.83,Sub,,0,0,0,,It seems this golden symbol still has many variations.
+Dialogue: 0,0:15:24.76,0:15:26.47,Sub,,0,0,0,,Use them all now !
+Dialogue: 0,0:15:26.96,0:15:28.59,Sub,,0,0,0,,Let us have a hearty battle !
+Dialogue: 0,0:15:29.24,0:15:30.07,Sub,,0,0,0,,Thirteen...
+Dialogue: 0,0:15:30.80,0:15:31.88,Sub,,0,0,0,,Where is he !?
+Dialogue: 0,0:15:33.68,0:15:34.95,Sub,,0,0,0,,We'll talk after this !
+Dialogue: 0,0:15:35.48,0:15:36.95,Sub,,0,0,0,,Hundred Waves, Rumbling Thunder,
+Dialogue: 0,0:15:37.40,0:15:38.63,Sub,,0,0,0,,Raging Tides !
+Dialogue: 0,0:15:39.24,0:15:39.95,Sub,,0,0,0,,Attack !
+Dialogue: 0,0:15:56.04,0:15:58.75,Sub,,0,0,0,,Whether it's the Ten Collapse Battle Intent or the Hundred Waves Demon Sea,
+Dialogue: 0,0:15:59.56,0:16:00.75,Sub,,0,0,0,,this person's spells
+Dialogue: 0,0:16:01.24,0:16:03.75,Sub,,0,0,0,,are all based on that unyielding faith in his battle intent.
+Dialogue: 0,0:16:05.56,0:16:07.39,Sub,,0,0,0,,It will be hard to win with my spells.
+Dialogue: 0,0:16:08.20,0:16:09.15,Sub,,0,0,0,,It seems...
+Dialogue: 0,0:16:10.16,0:16:11.88,Sub,,0,0,0,,I only have a single move to gamble on.
+Dialogue: 0,0:16:14.96,0:16:16.55,Sub,,0,0,0,,Since you pushed me this far,
+Dialogue: 0,0:16:16.76,0:16:18.39,Sub,,0,0,0,,once I use my final ace,
+Dialogue: 0,0:16:18.60,0:16:19.99,Sub,,0,0,0,,you will die for sure.
+Dialogue: 0,0:16:20.24,0:16:21.79,Sub,,0,0,0,,If you can really kill me,
+Dialogue: 0,0:16:21.96,0:16:23.95,Sub,,0,0,0,,then I will be satisfied !
+Dialogue: 0,0:16:25.56,0:16:27.35,Sub,,0,0,0,,I have cultivated for many years,
+Dialogue: 0,0:16:27.76,0:16:31.15,Sub,,0,0,0,,but I've never seen anyone who could withstand this move.
+Dialogue: 0,0:16:32.36,0:16:35.95,Sub,,0,0,0,,It's unfortunate for this talented young man...
+Dialogue: 0,0:16:37.08,0:16:39.64,Sub,,0,0,0,,He thought he could force his way with just his cultivation.
+Dialogue: 0,0:16:39.64,0:16:42.15,Sub,,0,0,0,,Little does he know that the Demon General's power
+Dialogue: 0,0:16:42.24,0:16:44.35,Sub,,0,0,0,,is far more than just cultivation.
+Dialogue: 0,0:16:44.56,0:16:45.63,Sub,,0,0,0,,This kid...
+Dialogue: 0,0:16:46.20,0:16:48.15,Sub,,0,0,0,,has brought this upon himself.
+Dialogue: 0,0:17:01.28,0:17:01.99,Sub,,0,0,0,,This is...
+Dialogue: 0,0:17:06.76,0:17:08.79,Sub,,0,0,0,,Using the power of the Celestial Realm's palmprint,
+Dialogue: 0,0:17:09.96,0:17:12.07,Sub,,0,0,0,,I will break your unyielding faith !
+Dialogue: 0,0:17:30.64,0:17:32.43,Sub,,0,0,0,,This spell...
+Dialogue: 0,0:17:33.36,0:17:35.84,Sub,,0,0,0,,you haven't mastered it completely, have you ?
+Dialogue: 0,0:17:37.36,0:17:38.35,Sub,,0,0,0,,Do you...
+Dialogue: 0,0:17:39.04,0:17:40.87,Sub,,0,0,0,,want to try again ?
+Dialogue: 0,0:17:44.56,0:17:45.87,Sub,,0,0,0,,If a spell like this
+Dialogue: 0,0:17:46.24,0:17:48.95,Sub,,0,0,0,,were used by a Soul Transformation cultivator,
+Dialogue: 0,0:17:49.28,0:17:51.47,Sub,,0,0,0,,it would definitely cause an immense backlash.
+Dialogue: 0,0:17:52.16,0:17:54.79,Sub,,0,0,0,,That's the reason he only manifested an illusory palm.
+Dialogue: 0,0:17:56.04,0:17:57.75,Sub,,0,0,0,,In just a single year,
+Dialogue: 0,0:17:57.76,0:18:00.35,Sub,,0,0,0,,this guy's cultivation can already rival mine.
+Dialogue: 0,0:18:00.88,0:18:03.35,Sub,,0,0,0,,His spells are even more unfathomable.
+Dialogue: 0,0:18:04.40,0:18:05.27,Sub,,0,0,0,,Demon General Mo,
+Dialogue: 0,0:18:06.24,0:18:07.79,Sub,,0,0,0,,can you tell me now
+Dialogue: 0,0:18:08.36,0:18:10.67,Sub,,0,0,0,,where Thirteen is ?
+Dialogue: 0,0:18:12.44,0:18:14.15,Sub,,0,0,0,,No need to be so distant.
+Dialogue: 0,0:18:14.56,0:18:15.39,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:18:15.80,0:18:18.03,Sub,,0,0,0,,from now on we will call each other brothers.
+Dialogue: 0,0:18:18.16,0:18:19.55,Sub,,0,0,0,,I was in seclusion
+Dialogue: 0,0:18:19.64,0:18:22.15,Sub,,0,0,0,,in order to refine people with strong physical bodies.
+Dialogue: 0,0:18:22.56,0:18:24.23,Sub,,0,0,0,,Your follower was scheduled for later
+Dialogue: 0,0:18:24.48,0:18:25.63,Sub,,0,0,0,,and hasn't been refined yet.
+Dialogue: 0,0:18:26.16,0:18:28.07,Sub,,0,0,0,,I can return him to you
+Dialogue: 0,0:18:28.44,0:18:30.07,Sub,,0,0,0,,but I can't overlook what you did today
+Dialogue: 0,0:18:30.36,0:18:32.03,Sub,,0,0,0,,by destroying the city
+Dialogue: 0,0:18:32.68,0:18:34.27,Sub,,0,0,0,,and killing my soldiers.
+Dialogue: 0,0:18:35.84,0:18:37.15,Sub,,0,0,0,,What do you want ?
+Dialogue: 0,0:18:37.36,0:18:38.75,Sub,,0,0,0,,In 3 months,
+Dialogue: 0,0:18:38.88,0:18:41.15,Sub,,0,0,0,,in Sky Demon City, the capital of the Sky Demon Country,
+Dialogue: 0,0:18:41.76,0:18:43.43,Sub,,0,0,0,,there will be a competition
+Dialogue: 0,0:18:43.44,0:18:45.55,Sub,,0,0,0,,between all the Demon Generals.
+Dialogue: 0,0:18:46.20,0:18:47.07,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:18:47.76,0:18:48.95,Sub,,0,0,0,,I want you to assist me.
+Dialogue: 0,0:18:50.88,0:18:52.67,Sub,,0,0,0,,Although this person is domineering,
+Dialogue: 0,0:18:53.44,0:18:55.35,Sub,,0,0,0,,I can feel he's genuine.
+Dialogue: 0,0:18:56.40,0:18:57.19,Sub,,0,0,0,,Agreed.
+Dialogue: 0,0:18:59.44,0:19:00.59,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:19:01.20,0:19:02.07,Sub,,0,0,0,,Wang Lin
+Dialogue: 0,0:19:02.08,0:19:04.55,Sub,,0,0,0,,is my, Mo Lihai's, First Vice-General !
+Dialogue: 0,0:19:06.20,0:19:09.59,Sub,,0,0,0,,If I win the Demon General Competition,
+Dialogue: 0,0:19:10.60,0:19:12.79,Sub,,0,0,0,,I will ask the Demon Emperor to name you his General !
+Dialogue: 0,0:19:13.36,0:19:14.95,Sub,,0,0,0,,You will command hundreds of thousands
+Dialogue: 0,0:19:15.16,0:19:16.35,Sub,,0,0,0,,and rule a city !
+Dialogue: 0,0:19:21.12,0:21:25.36,Note,,0,0,0,,{\fad(300,300)}"This move consumes too much of the Life Seals, it's difficult to use continuously."\NThis phrase is donghua original and makes very little sense. The Life Seals of the Celestial Slaughter Art have nothing to do with the golden symbols from the celestial cave.
+Dialogue: 0,0:19:26.72,0:19:32.36,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:19:29.02,0:19:32.36,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:19:33.00,0:19:37.96,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:19:34.84,0:19:37.96,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:19:38.12,0:19:43.88,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:19:44.00,0:19:49.60,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:19:49.88,0:19:55.20,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:19:51.76,0:19:55.20,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:19:55.48,0:20:00.80,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:19:57.38,0:20:00.80,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:20:00.84,0:20:06.52,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:03.72,0:20:06.52,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:20:06.96,0:20:11.16,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:09.12,0:20:11.16,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:20:11.24,0:20:14.48,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:20:14.52,0:20:17.56,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:20:17.69,0:20:23.12,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:20:19.38,0:20:23.12,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:20:23.12,0:20:26.24,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:20:26.24,0:20:29.28,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:20:29.28,0:20:34.64,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:20:31.16,0:20:34.64,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:20:34.64,0:20:37.60,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:20:37.60,0:20:40.40,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:20:40.40,0:20:45.88,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:20:42.44,0:20:45.88,Music,,0,0,0,,{\fad(1500,700)}I'll still fight.
+Dialogue: 0,0:20:46.08,0:20:49.24,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:20:49.24,0:20:52.28,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:20:52.28,0:20:57.96,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:20:54.60,0:20:57.96,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?
+Dialogue: 0,0:11:00.68,0:11:04.04,Music,,0,0,0,,{\fad(300,500)}Just a thought separates mortal from immortal.
+Dialogue: 0,0:11:04.04,0:11:06.76,Music,,0,0,0,,{\fad(300,500)}I've been thinking about life and death in my dreams.
+Dialogue: 0,0:11:07.12,0:11:10.16,Music,,0,0,0,,{\fad(300,500)}I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:11:10.16,0:11:12.96,Music,,0,0,0,,{\fad(300,500)}why the world is a-changing.
+Dialogue: 0,0:11:13.12,0:11:16.36,Music,,0,0,0,,{\fad(300,500)}Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:11:16.68,0:11:19.88,Music,,0,0,0,,{\fad(300,500)}Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:11:19.88,0:11:23.04,Music,,0,0,0,,{\fad(300,500)}experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:11:23.08,0:11:25.84,Music,,0,0,0,,{\fad(300,500)}I will defy the light in the sky
+Dialogue: 0,0:11:25.84,0:11:29.56,Music,,0,0,0,,{\fad(300,500)}to continue to write a new chapter\Nfor all things in the three realms of existence.
+Dialogue: 0,0:11:38.16,0:11:41.48,Music,,0,0,0,,{\fad(300,500)}Just a thought separates mortal from immortal.
+Dialogue: 0,0:11:41.48,0:11:44.68,Music,,0,0,0,,{\fad(300,500)}Transform your insignificant body into light.
+Dialogue: 0,0:11:44.68,0:11:47.88,Music,,0,0,0,,{\fad(300,500)}The hardships of the journey
+Dialogue: 0,0:11:47.88,0:11:50.64,Music,,0,0,0,,{\fad(300,500)}will temper this young man's heart.
+Dialogue: 0,0:11:50.64,0:11:54.36,Music,,0,0,0,,{\fad(300,500)}The path to immortality is rugged and arduous,\Nyet I cling to dreams of the past.
+Dialogue: 0,0:12:03.00,0:12:06.60,Music,,0,0,0,,{\fad(300,500)}If I become a Renegade Immortal,\Nwill I hesitate to fight the heavens ?

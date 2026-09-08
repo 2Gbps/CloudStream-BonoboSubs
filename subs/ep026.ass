@@ -1,0 +1,300 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Chong,Lucida Sans,50,&H00E0FBFD,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:53.48,0:01:55.40,Sub,,0,0,0,,Such abundant spiritual energy !
+Dialogue: 0,0:01:55.52,0:01:56.92,Sub,,0,0,0,,This cave is extraordinary.
+Dialogue: 0,0:01:58.04,0:02:01.12,Sub,,0,0,0,,The Divine Path is the treasure of our War God Shrine.
+Dialogue: 0,0:02:01.84,0:02:05.00,Sub,,0,0,0,,It can greatly increase a cultivator's success rate in forming a Nascent Soul.
+Dialogue: 0,0:02:05.00,0:02:06.32,Sub,,0,0,0,,The original Divine Path
+Dialogue: 0,0:02:06.32,0:02:09.28,Sub,,0,0,0,,was stolen by a high rank cultivation country long ago.
+Dialogue: 0,0:02:10.12,0:02:11.68,Sub,,0,0,0,,The Divine Path is extremely profound
+Dialogue: 0,0:02:11.92,0:02:13.36,Sub,,0,0,0,,and almost impossible to memorize
+Dialogue: 0,0:02:13.60,0:02:15.12,Sub,,0,0,0,,or write down.
+Dialogue: 0,0:02:18.72,0:02:21.20,Sub,,0,0,0,,But Founder Chen Chong, relied on his memory back then
+Dialogue: 0,0:02:21.20,0:02:24.04,Sub,,0,0,0,,to forcibly engrave the Divine Path onto this stone tablet
+Dialogue: 0,0:02:24.84,0:02:27.36,Sub,,0,0,0,,and died of exhaustion by doing it.
+Dialogue: 0,0:02:32.80,0:02:36.04,Sub,,0,0,0,,Disciple Chen Chong is engraving by memory.
+Dialogue: 0,0:02:36.48,0:02:40.68,Sub,,0,0,0,,Future cultivators must be extremely cautious.
+Dialogue: 0,0:02:42.24,0:02:44.80,Sub,,0,0,0,,How can a few thousand characters be hard to write down ?
+Dialogue: 0,0:02:45.32,0:02:47.08,Sub,,0,0,0,,The Divine Path is unfathomable.
+Dialogue: 0,0:02:47.84,0:02:49.16,Sub,,0,0,0,,See for yourself.
+Dialogue: 0,0:02:54.52,0:02:56.68,Sub,,0,0,0,,As long as it helps me form my Nascent Soul,
+Dialogue: 0,0:02:56.84,0:02:58.28,Sub,,0,0,0,,it's worth it.
+Dialogue: 0,0:03:03.08,0:03:03.96,Sub,,0,0,0,,What's happening !?
+Dialogue: 0,0:03:09.48,0:03:11.96,Sub,,0,0,0,,The Divine Path really can't be memorized !
+Dialogue: 0,0:03:13.44,0:03:16.20,Sub,,0,0,0,,No, it's a restriction that prevents memorization.
+Dialogue: 0,0:03:16.56,0:03:19.36,Sub,,0,0,0,,That's why it's possible to understand but not memorize.
+Dialogue: 0,0:03:19.60,0:03:21.64,Sub,,0,0,0,,Founder Chen Chong actually managed to memorize it by force
+Dialogue: 0,0:03:21.64,0:03:22.80,Sub,,0,0,0,,and write it down.
+Dialogue: 0,0:03:23.56,0:03:25.68,Sub,,0,0,0,,His perseverance was truly astonishing.
+Dialogue: 0,0:03:26.28,0:03:27.92,Sub,,0,0,0,,The fiend is in trouble !
+Dialogue: 0,0:03:28.52,0:03:31.16,Sub,,0,0,0,,Isn't this a great opportunity to finish him off ?
+Dialogue: 0,0:03:33.12,0:03:34.96,Sub,,0,0,0,,I can only use this once !
+Dialogue: 0,0:03:35.36,0:03:37.16,Sub,,0,0,0,,Fellow Corpse Sect disciples,
+Dialogue: 0,0:03:37.40,0:03:39.04,Sub,,0,0,0,,come save me !
+Dialogue: 0,0:03:44.44,0:03:45.24,Sub,,0,0,0,,Master,
+Dialogue: 0,0:03:46.28,0:03:49.56,Card,,0,0,0,,{\fad(300,300)\pos(1492,563)}Zhao Chuanliang\NBurning Fire Alliance's Corpse Sect Leader\NEarly stage Nascent Soul
+Dialogue: 0,0:03:45.84,0:03:47.92,Sub,,0,0,0,,please give me 10 more days.
+Dialogue: 0,0:03:48.36,0:03:50.28,Sub,,0,0,0,,I will definitely bring Xu Liguo back !
+Dialogue: 0,0:03:51.36,0:03:54.60,Card,,0,0,0,,{\fad(300,300)\pos(487,546)}Chen Bai\NTian Gang country's Corpse Sect Leader\NEarly stage Soul Formation
+Dialogue: 0,0:03:51.24,0:03:56.28,Sub,,0,0,0,,If I give you more time, I'm the one that will have to explain them.
+Dialogue: 0,0:03:56.84,0:04:00.20,Sub,,0,0,0,,Xu Liguo is a disciple of the Tian Gang Sect
+Dialogue: 0,0:04:00.20,0:04:02.12,Sub,,0,0,0,,the leader of the country of Tian Gang.
+Dialogue: 0,0:04:02.44,0:04:04.68,Sub,,0,0,0,,What am I going to tell them ?
+Dialogue: 0,0:04:04.68,0:04:05.40,Sub,,0,0,0,,Master,
+Dialogue: 0,0:04:05.84,0:04:07.92,Sub,,0,0,0,,Xu Liguo sent a distress signal 2 days ago.
+Dialogue: 0,0:04:08.20,0:04:09.76,Sub,,0,0,0,,We have already located him.
+Dialogue: 0,0:04:10.32,0:04:12.72,Sub,,0,0,0,,He was captured by a War God Shrine disciple named Ma Liang.
+Dialogue: 0,0:04:13.52,0:04:15.04,Sub,,0,0,0,,Just give me some time
+Dialogue: 0,0:04:15.56,0:04:17.32,Sub,,0,0,0,,and I will bring him back !
+Dialogue: 0,0:04:19.12,0:04:21.08,Sub,,0,0,0,,For the sake of our relation,
+Dialogue: 0,0:04:21.08,0:04:22.76,Sub,,0,0,0,,I'll give you 10 days.
+Dialogue: 0,0:04:23.96,0:04:26.12,Sub,,0,0,0,,But if you don't have him in 10 days,
+Dialogue: 0,0:04:26.56,0:04:29.40,Sub,,0,0,0,,don't blame me for being ruthless.
+Dialogue: 0,0:04:38.68,0:04:40.36,Sub,,0,0,0,,The soul lamp is still lit,
+Dialogue: 0,0:04:40.72,0:04:42.08,Sub,,0,0,0,,it's not too late.
+Dialogue: 0,0:04:43.24,0:04:45.28,Sub,,0,0,0,,Corpse Sect disciples, heed my order !
+Dialogue: 0,0:04:45.60,0:04:48.12,Sub,,0,0,0,,Ma Liang of the War God Shrine attacked one of us
+Dialogue: 0,0:04:48.56,0:04:50.76,Sub,,0,0,0,,and extracted the soul of our disciple !
+Dialogue: 0,0:04:50.84,0:04:51.68,Sub,,0,0,0,,It's a crime !
+Dialogue: 0,0:04:52.72,0:04:54.48,Sub,,0,0,0,,All Core Formation disciples and above
+Dialogue: 0,0:04:54.48,0:04:56.36,Sub,,0,0,0,,will follow me to the Burning Fire Alliance
+Dialogue: 0,0:04:56.64,0:04:57.72,Sub,,0,0,0,,to seek justice !
+Dialogue: 0,0:04:57.72,0:04:58.32,Sub,,0,0,0,,Understood !
+Dialogue: 0,0:05:34.56,0:05:35.80,Sub,,0,0,0,,The Divine Path...
+Dialogue: 0,0:05:36.92,0:05:38.44,Sub,,0,0,0,,So this is the Divine Path...
+Dialogue: 0,0:05:39.16,0:05:41.80,Sub,,0,0,0,,Create an avatar to cultivate simultaneously with the main body
+Dialogue: 0,0:05:41.80,0:05:44.20,Sub,,0,0,0,,and merge the two bodies to form a Nascent Soul.
+Dialogue: 0,0:05:44.92,0:05:46.68,Sub,,0,0,0,,Of course it would increase the success chance.
+Dialogue: 0,0:05:47.48,0:05:50.56,Sub,,0,0,0,,But I don't even have enough artifacts and pills to cultivate my main body.
+Dialogue: 0,0:05:50.72,0:05:52.84,Sub,,0,0,0,,How could I possibly cultivate an avatar ?
+Dialogue: 0,0:05:53.40,0:05:55.44,Sub,,0,0,0,,I probably can't follow that path.
+Dialogue: 0,0:06:08.68,0:06:12.28,Chong,,0,0,0,,{\fad(300,000)\pos(982,556)}Chong
+Dialogue: 0,0:06:17.32,0:06:18.44,Sub,,0,0,0,,Founder Chen Chong,
+Dialogue: 0,0:06:18.44,0:06:20.44,Sub,,0,0,0,,esteemed Ancestors of the War God Shrine,
+Dialogue: 0,0:06:20.44,0:06:22.60,Sub,,0,0,0,,thank you for your guidance and kindness.
+Dialogue: 0,0:06:25.92,0:06:27.72,Sub,,0,0,0,,My matters with the War God Shrine are settled.
+Dialogue: 0,0:06:29.16,0:06:30.24,Sub,,0,0,0,,Next up is...
+Dialogue: 0,0:06:38.88,0:06:39.84,Sub,,0,0,0,,Senior.
+Dialogue: 0,0:06:41.12,0:06:43.16,Sub,,0,0,0,,If you took more time to come out,
+Dialogue: 0,0:06:43.20,0:06:45.20,Sub,,0,0,0,,I would've come in to find you.
+Dialogue: 0,0:06:56.28,0:06:57.84,Sub,,0,0,0,,I pray to heaven and earth !
+Dialogue: 0,0:06:58.00,0:07:00.16,Sub,,0,0,0,,Please come and find me...
+Dialogue: 0,0:07:00.40,0:07:02.32,Sub,,0,0,0,,If they don't come now,
+Dialogue: 0,0:07:02.32,0:07:05.52,Sub,,0,0,0,,I'll never escape these two devils !
+Dialogue: 0,0:07:06.92,0:07:08.00,Sub,,0,0,0,,What are you doing ?
+Dialogue: 0,0:07:08.00,0:07:10.24,Sub,,0,0,0,,N-Nothing, nothing !
+Dialogue: 0,0:07:10.84,0:07:14.00,Sub,,0,0,0,,I was praying for Master's long life.
+Dialogue: 0,0:07:35.96,0:07:37.32,Sub,,0,0,0,,They're really here.
+Dialogue: 0,0:07:55.76,0:07:59.56,Sub,,0,0,0,,My saviors ! You've finally come to save me !
+Dialogue: 0,0:08:01.04,0:08:01.84,Sub,,0,0,0,,Ma Liang,
+Dialogue: 0,0:08:02.64,0:08:04.40,Sub,,0,0,0,,do you know what crime you commited ?
+Dialogue: 0,0:08:04.52,0:08:05.32,Sub,,0,0,0,,I don't.
+Dialogue: 0,0:08:07.64,0:08:09.28,Sub,,0,0,0,,Of course you don't !
+Dialogue: 0,0:08:26.44,0:08:27.88,Sub,,0,0,0,,Corpse Sect...
+Dialogue: 0,0:08:28.56,0:08:31.12,Sub,,0,0,0,,You half-human half-ghost freaks,
+Dialogue: 0,0:08:31.76,0:08:32.96,Sub,,0,0,0,,what are you here for ?
+Dialogue: 0,0:08:36.28,0:08:38.80,Sub,,0,0,0,,Senior, Ma Liang killed a disciple of the Corpse Sect
+Dialogue: 0,0:08:39.36,0:08:41.52,Sub,,0,0,0,,and extracted the soul of Xu Liguo.
+Dialogue: 0,0:08:42.04,0:08:44.44,Sub,,0,0,0,,I will now take Ma Liang away
+Dialogue: 0,0:08:44.44,0:08:45.52,Sub,,0,0,0,,to punish him.
+Dialogue: 0,0:08:46.72,0:08:48.12,Sub,,0,0,0,,Did you really do it ?
+Dialogue: 0,0:08:48.68,0:08:50.20,Sub,,0,0,0,,They're framing me.
+Dialogue: 0,0:08:50.48,0:08:51.60,Sub,,0,0,0,,It's bullshit !
+Dialogue: 0,0:08:51.84,0:08:53.72,Sub,,0,0,0,,You're the one framing me !
+Dialogue: 0,0:08:53.72,0:08:55.60,Sub,,0,0,0,,You're the one bullshitting !
+Dialogue: 0,0:08:55.60,0:08:57.40,Sub,,0,0,0,,Then let us pass.
+Dialogue: 0,0:08:57.80,0:08:59.48,Sub,,0,0,0,,I'm in a hurry.
+Dialogue: 0,0:09:08.36,0:09:10.40,Sub,,0,0,0,,Senior's cultivation is profound
+Dialogue: 0,0:09:10.40,0:09:12.44,Sub,,0,0,0,,but making an enemy of the Corpse Sect
+Dialogue: 0,0:09:12.44,0:09:14.12,Sub,,0,0,0,,is not wise.
+Dialogue: 0,0:09:14.44,0:09:16.84,Sub,,0,0,0,,The Corpse Sect is the largest sect in the Burning Fire Alliance !
+Dialogue: 0,0:09:17.32,0:09:19.80,Sub,,0,0,0,,There are 8 Nascent Soul cultivators here today.
+Dialogue: 0,0:09:20.48,0:09:21.72,Sub,,0,0,0,,Think carefully.
+Dialogue: 0,0:09:21.96,0:09:24.88,Sub,,0,0,0,,Are you sure you want to protect this brat ?
+Dialogue: 0,0:09:25.36,0:09:28.16,Sub,,0,0,0,,Are you threatening me ?
+Dialogue: 0,0:09:29.88,0:09:30.68,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:09:31.64,0:09:34.08,Sub,,0,0,0,,I don't feel like killing today.
+Dialogue: 0,0:09:34.72,0:09:35.68,Sub,,0,0,0,,Arrogant !
+Dialogue: 0,0:09:55.28,0:09:56.96,Sub,,0,0,0,,Underworld Mystic Ice Formation !
+Dialogue: 0,0:09:57.72,0:09:58.28,Sub,,0,0,0,,Fall !
+Dialogue: 0,0:10:01.08,0:10:02.28,Sub,,0,0,0,,They're doing it !
+Dialogue: 0,0:10:02.60,0:10:05.68,Sub,,0,0,0,,You little fiend, you'll finally be punished !
+Dialogue: 0,0:10:05.84,0:10:07.96,Sub,,0,0,0,,Grandpa Xu is going to be free !
+Dialogue: 0,0:10:20.20,0:10:23.12,Sub,,0,0,0,,I have some ties with your sect.
+Dialogue: 0,0:10:24.12,0:10:26.76,Sub,,0,0,0,,I originally didn't want to offend the Corpse Sect
+Dialogue: 0,0:10:26.76,0:10:28.16,Sub,,0,0,0,,but...
+Dialogue: 0,0:10:28.16,0:10:31.60,Sub,,0,0,0,,I, the Eight Extremes Devil Lord, haven't killed for a long time...
+Dialogue: 0,0:10:32.20,0:10:34.20,Sub,,0,0,0,,A few Early stage Nascent Soul cultivators
+Dialogue: 0,0:10:35.08,0:10:37.96,Sub,,0,0,0,,dare to act recklessly before me !?
+Dialogue: 0,0:10:47.72,0:10:49.20,Sub,,0,0,0,,A Soul Formation cultivator !
+Dialogue: 0,0:10:49.52,0:10:51.52,Sub,,0,0,0,,Quick, activate the teleportation formation !
+Dialogue: 0,0:11:12.68,0:11:13.48,Sub,,0,0,0,,This...
+Dialogue: 0,0:11:14.04,0:11:15.56,Sub,,0,0,0,,is the power of Soul Formation...
+Dialogue: 0,0:11:15.76,0:11:17.12,Sub,,0,0,0,,Now scram.
+Dialogue: 0,0:11:18.40,0:11:20.88,Sub,,0,0,0,,Nascent Soul brats, I won't kill you
+Dialogue: 0,0:11:21.48,0:11:23.60,Sub,,0,0,0,,to give some face to the Corpse Sect.
+Dialogue: 0,0:11:28.88,0:11:30.24,Sub,,0,0,0,,Ma Liang !
+Dialogue: 0,0:11:33.12,0:11:34.52,Sub,,0,0,0,,Impossible ! Impossible !
+Dialogue: 0,0:11:34.52,0:11:36.28,Sub,,0,0,0,,How could this have happened ?
+Dialogue: 0,0:11:36.68,0:11:38.92,Sub,,0,0,0,,You little fiend !
+Dialogue: 0,0:11:43.56,0:11:44.84,Sub,,0,0,0,,No, Master !
+Dialogue: 0,0:11:45.72,0:11:47.08,Sub,,0,0,0,,Let me explain.
+Dialogue: 0,0:11:47.76,0:11:49.56,Sub,,0,0,0,,I was momentarily possessed.
+Dialogue: 0,0:11:49.60,0:11:53.32,Sub,,0,0,0,,It was my fault, I'm terribly sorry...
+Dialogue: 0,0:11:53.32,0:11:55.96,Sub,,0,0,0,,What other methods do you have to contact the Corpse Sect ?
+Dialogue: 0,0:11:56.08,0:11:57.52,Sub,,0,0,0,,Use them all now.
+Dialogue: 0,0:11:58.40,0:12:00.48,Sub,,0,0,0,,He actually knew all along...
+Dialogue: 0,0:12:01.28,0:12:02.28,Sub,,0,0,0,,No way...
+Dialogue: 0,0:12:02.44,0:12:04.88,Sub,,0,0,0,,He let me do it on purpose !
+Dialogue: 0,0:12:13.00,0:12:13.88,Sub,,0,0,0,,Little guy,
+Dialogue: 0,0:12:14.72,0:12:16.84,Sub,,0,0,0,,this is the second time I've helped you.
+Dialogue: 0,0:12:17.44,0:12:21.04,Sub,,0,0,0,,No matter what misunderstanding we have, we're even now.
+Dialogue: 0,0:12:22.36,0:12:24.68,Sub,,0,0,0,,I advise you stay put now.
+Dialogue: 0,0:12:25.44,0:12:26.96,Sub,,0,0,0,,You cannot escape
+Dialogue: 0,0:12:27.68,0:12:28.92,Sub,,0,0,0,,before me.
+Dialogue: 0,0:12:30.36,0:12:32.12,Sub,,0,0,0,,Junior wouldn't dare.
+Dialogue: 0,0:12:33.80,0:12:36.48,Sub,,0,0,0,,This kid deliberately lured the Corpse Sect here
+Dialogue: 0,0:12:36.76,0:12:39.48,Sub,,0,0,0,,to use me to eliminate them
+Dialogue: 0,0:12:40.12,0:12:41.76,Sub,,0,0,0,,or to try to escape in the chaos.
+Dialogue: 0,0:12:42.76,0:12:44.04,Sub,,0,0,0,,He's bold
+Dialogue: 0,0:12:44.04,0:12:45.32,Sub,,0,0,0,,and very cunning.
+Dialogue: 0,0:12:45.80,0:12:48.08,Sub,,0,0,0,,He has good potential for a demonic cultivation.
+Dialogue: 0,0:12:49.40,0:12:51.64,Sub,,0,0,0,,If I could take him as a disciple...
+Dialogue: 0,0:12:53.56,0:12:54.56,Sub,,0,0,0,,Too bad...
+Dialogue: 0,0:12:55.12,0:12:58.16,Sub,,0,0,0,,I can't let him return alive from that place.
+Dialogue: 0,0:13:04.28,0:13:07.36,Card,,0,0,0,,{\fad(300,300)\pos(1462,465)}Chaotic Broken Stars\NSea of Devils
+Dialogue: 0,0:13:10.56,0:13:12.52,Sub,,0,0,0,,This is the Chaotic Broken Stars.
+Dialogue: 0,0:13:15.96,0:13:18.16,Sub,,0,0,0,,To enter the place we're going to
+Dialogue: 0,0:13:18.52,0:13:20.60,Sub,,0,0,0,,we need to use this ancient teleportation formation.
+Dialogue: 0,0:13:21.40,0:13:23.56,Sub,,0,0,0,,We found this place with some friends
+Dialogue: 0,0:13:23.56,0:13:25.88,Sub,,0,0,0,,after looking through ancient records.
+Dialogue: 0,0:13:26.44,0:13:28.52,Sub,,0,0,0,,It nearly took 1000 years.
+Dialogue: 0,0:13:32.32,0:13:33.48,Sub,,0,0,0,,The Chaotic Broken Stars
+Dialogue: 0,0:13:33.48,0:13:35.04,Sub,,0,0,0,,is already such a weird place.
+Dialogue: 0,0:13:37.08,0:13:38.88,Sub,,0,0,0,,Where does the formation lead to ?
+Dialogue: 0,0:13:42.28,0:13:45.52,Sub,,0,0,0,,It's a passage connected to the corpse of an Ancient God.
+Dialogue: 0,0:13:46.76,0:13:47.56,Sub,,0,0,0,,An Ancient God ?
+Dialogue: 0,0:13:47.56,0:13:51.56,Sub,,0,0,0,,They're beings from ancient times comparable to Ancient Immortals.
+Dialogue: 0,0:13:51.56,0:13:55.56,Sub,,0,0,0,,Their power reached an unimaginable level.
+Dialogue: 0,0:13:54.20,0:13:57.44,Card,,0,0,0,,{\fad(300,300)\pos(438,492)}Gun Lan\NAncient Emperor\NEarly stage Soul Formation
+Dialogue: 0,0:13:56.44,0:13:59.88,Sub,,0,0,0,,It's normal for a Core Formation brat to be unaware.
+Dialogue: 0,0:14:01.44,0:14:05.28,Sub,,0,0,0,,This person, Ancient Emperor, looks righteous
+Dialogue: 0,0:14:05.32,0:14:07.56,Sub,,0,0,0,,but has actually slaughtered countless cities.
+Dialogue: 0,0:14:07.56,0:14:10.36,Sub,,0,0,0,,He's a famous Devil Lord of the Sea of Devils.
+Dialogue: 0,0:14:34.04,0:14:35.36,Sub,,0,0,0,,Ancient Emperor,
+Dialogue: 0,0:14:35.52,0:14:38.28,Sub,,0,0,0,,this Junior is crucial for passing the third trial.
+Dialogue: 0,0:14:38.72,0:14:39.80,Sub,,0,0,0,,Don't act recklessly.
+Dialogue: 0,0:14:39.96,0:14:40.36,Sub,,0,0,0,,Oh ?
+Dialogue: 0,0:14:41.28,0:14:42.24,Sub,,0,0,0,,Are you sure ?
+Dialogue: 0,0:14:42.64,0:14:44.48,Sub,,0,0,0,,I also want to know
+Dialogue: 0,0:14:45.04,0:14:48.52,Sub,,0,0,0,,why you're bringing a Core Formation brat to the Land of the Ancient God.
+Dialogue: 0,0:14:49.12,0:14:50.80,Sub,,0,0,0,,What's the meaning of this farce ?
+Dialogue: 0,0:14:51.48,0:14:53.32,Sub,,0,0,0,,Six Desires Devil Lord,
+Dialogue: 0,0:14:53.40,0:14:56.00,Sub,,0,0,0,,one of the 7 Devil Lords of the inner Sea of Devils.
+Dialogue: 0,0:14:56.72,0:14:59.32,Sub,,0,0,0,,He can manipulate people's minds with desires
+Dialogue: 0,0:14:57.00,0:15:00.28,Card,,0,0,0,,{\fad(300,300)\pos(1542,500)}Six Desires Devil Lord\NXuan Tian Sect Leader\NMiddle stage Soul Formation
+Dialogue: 0,0:15:00.00,0:15:02.64,Sub,,0,0,0,,and has refined countless living puppets.
+Dialogue: 0,0:15:04.36,0:15:06.24,Sub,,0,0,0,,He knows the Death Spell.
+Dialogue: 0,0:15:08.76,0:15:09.64,Sub,,0,0,0,,Little brat,
+Dialogue: 0,0:15:10.40,0:15:12.92,Sub,,0,0,0,,if you can really help us in the third trial,
+Dialogue: 0,0:15:13.44,0:15:16.96,Sub,,0,0,0,,I wouldn't mind keeping you by my side forever.
+Dialogue: 0,0:15:16.96,0:15:18.76,Sub,,0,0,0,,Thank you Senior for your kindness.
+Dialogue: 0,0:15:22.12,0:15:23.96,Sub,,0,0,0,,Only Hunchback Meng is missing.
+Dialogue: 0,0:15:24.88,0:15:28.64,Sub,,0,0,0,,He was being pursued by the Giant Demon Clan. I wonder if he died.
+Dialogue: 0,0:15:30.16,0:15:31.88,Sub,,0,0,0,,Even if I were to die,
+Dialogue: 0,0:15:31.88,0:15:34.44,Sub,,0,0,0,,I would've dragged the Giant Demon Clan down with me !
+Dialogue: 0,0:15:47.92,0:15:51.32,Sub,,0,0,0,,You said this little brat knows the Death Spell ?
+Dialogue: 0,0:15:54.40,0:15:57.68,Card,,0,0,0,,{\pos(314,553)\fad(300,300)}Meng Qingfan\NHunchback Meng\NPoison Devil City Lord\NMiddle stage Soul Formation
+Dialogue: 0,0:15:57.04,0:15:59.16,Sub,,0,0,0,,Good ! Very good !
+Dialogue: 0,0:15:59.52,0:16:01.52,Sub,,0,0,0,,I wonder what effect it would have
+Dialogue: 0,0:16:01.52,0:16:03.68,Sub,,0,0,0,,if Li Tian devoured him...
+Dialogue: 0,0:16:03.68,0:16:07.56,Sub,,0,0,0,,It seems most of the Devil Lords of the Sea of Devils have come to this trip.
+Dialogue: 0,0:16:07.80,0:16:09.12,Sub,,0,0,0,,Everyone is here,
+Dialogue: 0,0:16:09.12,0:16:10.40,Sub,,0,0,0,,let's begin.
+Dialogue: 0,0:16:14.32,0:16:16.48,Sub,,0,0,0,,Take out your top-quality spirit stones.
+Dialogue: 0,0:16:18.16,0:16:20.08,Sub,,0,0,0,,Top-quality spirit stones ?
+Dialogue: 0,0:16:21.28,0:16:24.80,Sub,,0,0,0,,Top-quality spirit stones are very rare on planet Suzaku.
+Dialogue: 0,0:16:25.44,0:16:29.56,Sub,,0,0,0,,It's no wonder a Core Formation brat like you never saw one before.
+Dialogue: 0,0:16:29.92,0:16:31.12,Sub,,0,0,0,,As agreed,
+Dialogue: 0,0:16:31.48,0:16:33.56,Sub,,0,0,0,,I will provide 4 spirit stones this time.
+Dialogue: 0,0:16:35.00,0:16:36.32,Sub,,0,0,0,,Damn formation,
+Dialogue: 0,0:16:36.84,0:16:39.20,Sub,,0,0,0,,for devouring my 4 top-quality spirit stones.
+Dialogue: 0,0:17:18.30,0:19:40.36,Note,,0,0,0,,{\fad(1000,1000)}It might not be clear why the Corpse Sect would go to such lengths to save Xu Liguo. Xu Liguo comes from a rank 4 country and belonged to the sect that controls that country. He had lost his body so his sect bought a new body for him through the Corpse Sect. Since he should've possessed the body by now, the customer (Xu Liguo's sect) is asking for what they paid for. The desperate attack of the Corpse Sect is just a tentative to not lose face and keep its reputation.\N\NThe Six Desires Devil Lord is named after the six desires and seven emotions found in The Book of Rites and The Spring and Autumn Annals (ancient chinese texts). There are multiple other variations of these two concept but I'll focus on what's used in Renegade Immortal.\N\NThe six desires are lust, greed, vanity, pleasant sounds, having a good life / death, sensual pleasures (pleasures related to the 5 senses: hearing / touch / sight / smell / taste).\N\NThe seven emotions are joy, anger, sorrow, fear, love, hatred and affection.\N\NIn Renegade Immortal, both the six desires and seven emotions are used interchangeably but will always be named "six desires" which makes it a total of 13 theorical "six desires". For some reason, the first six emotions (excluding affection) are the main "six desires". I don't know why, I hope you're not confused.\N\NIt will make sense later why cultivators at Soul Formation are so different from cultivators below that.
+Dialogue: 0,0:17:46.84,0:17:53.72,Music,,0,0,0,,{\fad(1000,500)}Count the specks of time
+Dialogue: 0,0:17:50.72,0:17:53.72,Music,,0,0,0,,{\fad(1000,500)}floating down gently.
+Dialogue: 0,0:17:54.08,0:17:59.96,Music,,0,0,0,,{\fad(1000,500)}The carving knife in your hands etches out destiny.
+Dialogue: 0,0:18:01.08,0:18:07.48,Music,,0,0,0,,{\fad(500,500)}Forever lock away the scars
+Dialogue: 0,0:18:04.88,0:18:07.48,Music,,0,0,0,,{\fad(500,500)}of this mortal life.
+Dialogue: 0,0:18:07.74,0:18:14.00,Music,,0,0,0,,{\fad(1000,500)}This fleeting youth is a thing of the past.
+Dialogue: 0,0:18:14.64,0:18:21.72,Music,,0,0,0,,{\fad(1000,1000)}The flying bird could not escape the twilight
+Dialogue: 0,0:18:17.32,0:18:21.72,Music,,0,0,0,,{\fad(1000,1000)}that fills the sky with a myriad of colors.
+Dialogue: 0,0:18:21.80,0:18:28.88,Music,,0,0,0,,{\fad(1000,500)}The night-blooming flower cannot drink
+Dialogue: 0,0:18:23.84,0:18:28.88,Music,,0,0,0,,{\fad(1000,500)}the crystalization of the golden wind and the jade dew.
+Dialogue: 0,0:18:29.32,0:18:31.40,Music,,0,0,0,,{\fad(300,300)}I will ask the heavens who exactly
+Dialogue: 0,0:18:31.40,0:18:36.16,Music,,0,0,0,,{\fad(300,500)}sliced open this world
+Dialogue: 0,0:18:32.80,0:18:36.16,Music,,0,0,0,,{\fad(500,500)}to let the rain fall in.
+Dialogue: 0,0:18:36.16,0:18:38.16,Music,,0,0,0,,{\fad(300,300)}I will refine the world
+Dialogue: 0,0:18:38.24,0:18:40.68,Music,,0,0,0,,{\fad(300,500)}to make our palm lines say
+Dialogue: 0,0:18:40.88,0:18:43.04,Music,,0,0,0,,{\fad(500,500)}that we will live forever.
+Dialogue: 0,0:18:43.04,0:18:45.96,Music,,0,0,0,,{\fad(1000,500)}Walking off the beaten path
+Dialogue: 0,0:18:45.96,0:18:49.04,Music,,0,0,0,,{\fad(500,500)}through heaven and earth.
+Dialogue: 0,0:18:50.32,0:18:56.00,Music,,0,0,0,,{\fad(1000,500)}Before returning to dust,
+Dialogue: 0,0:18:52.24,0:18:56.00,Music,,0,0,0,,{\fad(1000,500)}I will refine this mortal body.
+Dialogue: 0,0:18:57.52,0:19:04.88,Music,,0,0,0,,{\fad(1000,800)}The left shore is the joyous laughter
+Dialogue: 0,0:19:01.40,0:19:04.88,Music,,0,0,0,,{\fad(1000,800)}that can brighten up a thousand years of sadness.
+Dialogue: 0,0:19:04.88,0:19:11.48,Music,,0,0,0,,{\fad(500,500)}The right shore is an eternal silence
+Dialogue: 0,0:19:06.48,0:19:11.48,Music,,0,0,0,,{\fad(500,500)}lingering under the candlelight.
+Dialogue: 0,0:19:11.68,0:19:14.36,Music,,0,0,0,,{\fad(500,500)}To overturn this fate,
+Dialogue: 0,0:19:14.36,0:19:18.72,Music,,0,0,0,,{\fad(500,500)}I will walk against the heavens.
+Dialogue: 0,0:19:19.16,0:19:25.88,Music,,0,0,0,,{\fad(1000,800)}I will even gather the clouds
+Dialogue: 0,0:19:21.68,0:19:25.88,Music,,0,0,0,,{\fad(1000,800)}to illuminate the sky for you.
+Dialogue: 0,0:19:26.28,0:19:30.12,Music,,0,0,0,,{\fad(500,800)}All this sadness was not meaningless.
+Dialogue: 0,0:19:30.12,0:19:33.44,Music,,0,0,0,,{\fad(500,800)}How many lives and deaths\Nhave passed in the blink of an eye ?
+Dialogue: 0,0:19:33.44,0:19:39.24,Music,,0,0,0,,{\fad(500,800)}I vow to break
+Dialogue: 0,0:19:35.68,0:19:39.24,Music,,0,0,0,,{\fad(500,800)}this chess game of fate.
+Dialogue: 0,0:19:40.56,0:19:50.20,Music,,0,0,0,,{\fad(800,1500)}I vow to break
+Dialogue: 0,0:19:42.36,0:19:50.20,Music,,0,0,0,,{\fad(800,1500)}this chess game of fate.

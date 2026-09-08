@@ -1,0 +1,375 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 128
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,38,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Stamp,Lucida Sans,100,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Pavilion,Lucida Sans,100,&H007EC7F0,&H0000FFFF,&H002E457B,&H002E457B,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.36,0:00:07.13,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.13,0:00:11.08,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.56,0:00:15.81,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.81,0:00:20.97,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.24,0:00:24.96,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.36,0:00:28.21,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.21,0:00:33.48,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.68,0:00:37.44,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.80,0:00:40.44,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.84,0:00:44.81,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.81,0:00:47.80,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:47.96,0:00:50.65,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.67,0:00:54.00,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.24,0:00:57.17,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.17,0:01:00.25,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.41,0:01:03.13,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.13,0:01:06.57,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.65,0:01:19.01,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.17,0:01:22.09,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.25,0:01:25.21,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.33,0:01:28.17,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.17,0:01:32.81,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.56,0:01:43.44,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.78,0:01:52.87,Card,,0,0,0,,{\fad(300,300)\pos(321,435)}Depths of the Tide Abyss
+Dialogue: 0,0:01:58.67,0:02:00.95,Card,,0,0,0,,{\fad(300,000)\pos(331,518)}Si She\NDa Lou Sword Sect disciple\NLate stage Soul Transformation
+Dialogue: 0,0:02:01.27,0:02:04.19,Card,,0,0,0,,{\fad(300,300)\pos(331,518)}Xu Gou\NDa Lou Sword Sect disciple\NLate stage Soul Transformation
+Dialogue: 0,0:02:06.19,0:02:09.11,Card,,0,0,0,,{\fad(300,300)\fad(300,300)\pos(331,518)}You Ji\NDa Lou Sword Sect disciple\NLate stage Soul Transformation
+Dialogue: 0,0:02:15.91,0:02:16.34,Sub,,0,0,0,,Senior Brother !
+Dialogue: 0,0:02:16.47,0:02:16.94,Sub,,0,0,0,,Senior Brother !
+Dialogue: 0,0:02:18.19,0:02:18.82,Sub,,0,0,0,,Senior Brother...
+Dialogue: 0,0:02:21.91,0:02:22.99,Sub,,0,0,0,,Senior Greed,
+Dialogue: 0,0:02:21.75,0:02:24.15,Card,,0,0,0,,{\fad(300,000)\pos(1418,510)}Chen Long\NDa Lou Sword Sect disciple\NEarly stage Ascendant
+Dialogue: 0,0:02:23.15,0:02:24.47,Sub,,0,0,0,,it's impossible to drive away
+Dialogue: 0,0:02:24.67,0:02:27.22,Sub,,0,0,0,,these demonic beasts with my limited strength.
+Dialogue: 0,0:02:28.19,0:02:29.54,Sub,,0,0,0,,Junior beg you to do something
+Dialogue: 0,0:02:30.31,0:02:31.91,Sub,,0,0,0,,to get us out of this place !
+Dialogue: 0,0:02:32.19,0:02:34.39,Card,,0,0,0,,{\fad(300,00)\pos(438,510)}Greed\NPeak Late stage Ascendant\N(Originally Illusory Yin)
+Dialogue: 0,0:02:37.75,0:02:38.90,Sub,,0,0,0,,Junior Brother Shen Hou
+Dialogue: 0,0:02:39.47,0:02:41.46,Sub,,0,0,0,,was killed by those beasts the day before yesterday.
+Dialogue: 0,0:02:42.43,0:02:44.14,Sub,,0,0,0,,Since Senior remains so unmoved...
+Dialogue: 0,0:02:45.39,0:02:46.67,Sub,,0,0,0,,Is it possible that...
+Dialogue: 0,0:02:47.11,0:02:49.06,Sub,,0,0,0,,you're unafraid of betraying Master's trust !?
+Dialogue: 0,0:02:57.83,0:02:59.22,Sub,,0,0,0,,Little brats...
+Dialogue: 0,0:02:59.99,0:03:02.54,Sub,,0,0,0,,For the sake of your Master,
+Dialogue: 0,0:03:03.03,0:03:05.14,Sub,,0,0,0,,this old man will forgive your disrespect.
+Dialogue: 0,0:03:05.87,0:03:07.78,Sub,,0,0,0,,But if you do it again...
+Dialogue: 0,0:03:10.67,0:03:12.10,Sub,,0,0,0,,The Tide Abyss
+Dialogue: 0,0:03:12.63,0:03:16.82,Sub,,0,0,0,,doesn't only pull in artifacts from the starry sky.
+Dialogue: 0,0:03:17.71,0:03:19.71,Sub,,0,0,0,,All kinds of ferocious demonic beasts
+Dialogue: 0,0:03:19.71,0:03:21.58,Sub,,0,0,0,,were also pulled in here.
+Dialogue: 0,0:03:22.31,0:03:23.82,Sub,,0,0,0,,At the bottom of this abyss,
+Dialogue: 0,0:03:24.19,0:03:27.07,Sub,,0,0,0,,the beasts that were able to survive that environment
+Dialogue: 0,0:03:27.11,0:03:29.02,Sub,,0,0,0,,are entities even I am unwilling to provoke.
+Dialogue: 0,0:03:28.79,0:03:30.35,Card,,0,0,0,,{\fad(300,000)\pos(352,508)}Wu Ma\NDa Lou Sword Sect disciple\NPeak Late stage Soul Transformation
+Dialogue: 0,0:03:30.23,0:03:32.86,Sub,,0,0,0,,If you guys dare to rush in blindly,
+Dialogue: 0,0:03:33.27,0:03:35.34,Sub,,0,0,0,,it's a direct path to your deaths.
+Dialogue: 0,0:03:43.03,0:03:44.27,Sub,,0,0,0,,Forgive us, Senior.
+Dialogue: 0,0:03:44.59,0:03:46.54,Sub,,0,0,0,,But we have been trapped here by these beasts
+Dialogue: 0,0:03:47.15,0:03:48.43,Sub,,0,0,0,,for 100 years already.
+Dialogue: 0,0:03:50.27,0:03:51.54,Sub,,0,0,0,,Are you in a rush ?
+Dialogue: 0,0:03:52.19,0:03:53.58,Sub,,0,0,0,,In another 100 years,
+Dialogue: 0,0:03:53.79,0:03:56.02,Sub,,0,0,0,,Ling Tianhou will personally come to save us.
+Dialogue: 0,0:03:57.19,0:03:58.30,Sub,,0,0,0,,This journey is secret
+Dialogue: 0,0:03:58.87,0:04:01.78,Sub,,0,0,0,,so no one in the Demon Spirit Land knows our whereabouts.
+Dialogue: 0,0:04:02.27,0:04:05.78,Sub,,0,0,0,,The safest place to wait is right here.
+Dialogue: 0,0:04:10.51,0:04:11.66,Sub,,0,0,0,,6 entrances
+Dialogue: 0,0:04:12.59,0:04:14.38,Sub,,0,0,0,,but only a single exit.
+Dialogue: 0,0:04:13.47,0:04:16.59,Card,,0,0,0,,{\fad(300,300)\pos(320,505)}Tide Abyss Exit\NFire Demon Country
+Dialogue: 0,0:04:15.79,0:04:16.82,Sub,,0,0,0,,Senior Zhou Yi
+Dialogue: 0,0:04:17.95,0:04:19.98,Sub,,0,0,0,,is beneath this Tide Abyss.
+Dialogue: 0,0:04:24.19,0:04:25.54,Sub,,0,0,0,,This restriction isn't for killing
+Dialogue: 0,0:04:26.27,0:04:27.71,Sub,,0,0,0,,but for gathering information.
+Dialogue: 0,0:04:28.79,0:04:30.64,Sub,,0,0,0,,Greed has a profound cultivation,
+Dialogue: 0,0:04:30.79,0:04:31.58,Sub,,0,0,0,,I must stay on guard.
+Dialogue: 0,0:04:41.35,0:04:43.99,Card,,0,0,0,,{\fad(300,300)\pos(320,505)}Tide Abyss Entrance\NWater Demon Country
+Dialogue: 0,0:04:45.59,0:04:46.31,Sub,,0,0,0,,Brother Murong,
+Dialogue: 0,0:04:46.31,0:04:47.35,Sub,,0,0,0,,Junior Sisters,
+Dialogue: 0,0:04:47.55,0:04:49.75,Card,,0,0,0,, {\fad(300,300)\pos(493,570)}Du Jian\NHeavenly Fate Sect Red Division disciple\NPeak Late stage Soul Transformation
+Dialogue: 0,0:04:47.67,0:04:48.79,Sub,,0,0,0,,this is the place.
+Dialogue: 0,0:04:49.67,0:04:51.71,Sub,,0,0,0,,I've studied the Tide Abyss for decades
+Dialogue: 0,0:04:51.71,0:04:53.19,Sub,,0,0,0,,to finally find this entrance.
+Dialogue: 0,0:04:53.71,0:04:54.74,Sub,,0,0,0,,If we enter together,
+Dialogue: 0,0:04:55.19,0:04:56.71,Sub,,0,0,0,,we're sure to have a great harvest.
+Dialogue: 0,0:04:57.19,0:04:59.51,Card,,0,0,0,,{\pos(310,563)\fad(300,000)}Murong Zhuo\NPlanet Tian Yun's Ink Sect disciple\NEarly stage Ascendant
+Dialogue: 0,0:04:57.91,0:04:58.79,Sub,,0,0,0,,The person arriving
+Dialogue: 0,0:04:58.99,0:04:59.79,Sub,,0,0,0,,is very strong.
+Dialogue: 0,0:05:08.63,0:05:09.95,Sub,,0,0,0,,Junior Brother Wang, please wait !
+Dialogue: 0,0:05:15.83,0:05:16.83,Sub,,0,0,0,,Junior Brother Wang,
+Dialogue: 0,0:05:16.95,0:05:18.02,Sub,,0,0,0,,I am Du Jian of the Red Division.
+Dialogue: 0,0:05:19.59,0:05:21.78,Sub,,0,0,0,,This is Murong Zhuo from the Ink Sect.
+Dialogue: 0,0:05:23.51,0:05:25.54,Sub,,0,0,0,,These two are from the Floating Cloud Sect.
+Dialogue: 0,0:05:26.63,0:05:27.30,Sub,,0,0,0,,Senior Brother Wang,
+Dialogue: 0,0:05:26.91,0:05:29.63,Card,,0,0,0,,{\fad(300,300)\pos(476,526)}Zhao Yixuan\NFloating Cloud Sect disciple\NLate stage Soul Transformation
+Dialogue: 0,0:05:27.67,0:05:28.74,Sub,,0,0,0,,I am Zhao Yixuan.
+Dialogue: 0,0:05:29.63,0:05:31.82,Sub,,0,0,0,,This is my Junior Sister, Xu Fei.
+Dialogue: 0,0:05:31.07,0:05:33.39,Card,,0,0,0,,{\pos(1638,537)\fad(300,000)}Xu Fei\NFloating Cloud Sect disciple\NLate stage Soul Transformation
+Dialogue: 0,0:05:34.03,0:05:34.98,Sub,,0,0,0,,Xu Fei ?
+Dialogue: 0,0:05:35.29,0:05:38.59,Sub,,0,0,0,,Note: Xu Fei was a disciple of the Heng Yue Sect we only saw in episode 4.
+Dialogue: 0,0:05:41.51,0:05:42.63,Sub,,0,0,0,,Junior Brother Wang,
+Dialogue: 0,0:05:42.63,0:05:44.71,Sub,,0,0,0,,is it possible that you have a history with Junior Sister Xu ?
+Dialogue: 0,0:05:44.79,0:05:45.75,Sub,,0,0,0,,I don't know her.
+Dialogue: 0,0:05:46.43,0:05:48.27,Sub,,0,0,0,,It's just that Junior Sister Xu
+Dialogue: 0,0:05:48.55,0:05:50.17,Sub,,0,0,0,,has the same name
+Dialogue: 0,0:05:50.19,0:05:51.82,Sub,,0,0,0,,as someone I knew in my youth.
+Dialogue: 0,0:05:53.11,0:05:56.34,Sub,,0,0,0,,So Junior Brother Wang is also here for the Tide Abyss.
+Dialogue: 0,0:05:57.11,0:05:58.59,Sub,,0,0,0,,Why don't we travel together
+Dialogue: 0,0:05:58.63,0:06:00.19,Sub,,0,0,0,,to face the dangers together ?
+Dialogue: 0,0:06:00.35,0:06:01.35,Sub,,0,0,0,,What do you think ?
+Dialogue: 0,0:06:01.99,0:06:04.90,Sub,,0,0,0,,He's merely native from a wasted cultivation planet.
+Dialogue: 0,0:06:05.67,0:06:06.42,Sub,,0,0,0,,But back then,
+Dialogue: 0,0:06:06.75,0:06:09.07,Sub,,0,0,0,,he almost became one of the Seven Sons of Tian Yun.
+Dialogue: 0,0:06:09.19,0:06:10.46,Sub,,0,0,0,,If we let him grow,
+Dialogue: 0,0:06:10.87,0:06:12.63,Sub,,0,0,0,,I'm afraid that we, his Senior Brothers,
+Dialogue: 0,0:06:12.75,0:06:14.74,Sub,,0,0,0,,will never have a chance to rise again.
+Dialogue: 0,0:06:18.11,0:06:20.42,Sub,,0,0,0,,This person was able to detect me in advance.
+Dialogue: 0,0:06:21.79,0:06:22.68,Sub,,0,0,0,,He is not simple.
+Dialogue: 0,0:06:23.59,0:06:24.86,Sub,,0,0,0,,These women from the Floating Cloud Sect
+Dialogue: 0,0:06:24.87,0:06:27.31,Sub,,0,0,0,,also have something indescribably wrong about them.
+Dialogue: 0,0:06:27.83,0:06:28.62,Sub,,0,0,0,,Agreed.
+Dialogue: 0,0:06:30.19,0:06:31.18,Sub,,0,0,0,,Then let's go.
+Dialogue: 0,0:06:35.67,0:06:37.22,Sub,,0,0,0,,The abyss is filled with danger
+Dialogue: 0,0:06:37.79,0:06:39.31,Sub,,0,0,0,,but I can use their strength
+Dialogue: 0,0:06:39.39,0:06:40.95,Sub,,0,0,0,,to scout this place.
+Dialogue: 0,0:06:42.07,0:06:43.54,Sub,,0,0,0,,If they have ill-intent,
+Dialogue: 0,0:06:44.59,0:06:45.74,Sub,,0,0,0,,I'll just kill them.
+Dialogue: 0,0:06:58.31,0:06:58.98,Sub,,0,0,0,,Everyone,
+Dialogue: 0,0:06:59.39,0:07:00.91,Sub,,0,0,0,,there are treasures all around the place.
+Dialogue: 0,0:07:01.11,0:07:02.35,Sub,,0,0,0,,We shall each rely on our own abilities
+Dialogue: 0,0:07:02.35,0:07:03.55,Sub,,0,0,0,,to search for them.
+Dialogue: 0,0:07:03.59,0:07:04.83,Sub,,0,0,0,,Call for help when in danger.
+Dialogue: 0,0:07:17.63,0:07:19.22,Sub,,0,0,0,,As expected, it's a one-way restriction.
+Dialogue: 0,0:07:20.07,0:07:21.22,Sub,,0,0,0,,If someone were to force it,
+Dialogue: 0,0:07:22.23,0:07:24.75,Sub,,0,0,0,,I'm afraid they would be crushed by the laws of this place.
+Dialogue: 0,0:07:25.83,0:07:29.11,Sub,,0,0,0,,It seems the only way to leave is indeed through the exit in the Fire Demon Country.
+Dialogue: 0,0:07:42.03,0:07:43.43,Sub,,0,0,0,,Demonic beasts all around...
+Dialogue: 0,0:07:43.51,0:07:44.54,Sub,,0,0,0,,Interconnected caves...
+Dialogue: 0,0:07:45.83,0:07:48.39,Sub,,0,0,0,,Truly worthy of being a thousands of years old treasure abyss.
+Dialogue: 0,0:07:49.19,0:07:51.39,Sub,,0,0,0,,Fortunately, I have the jade slip gifted by the Ancient Demon
+Dialogue: 0,0:07:51.43,0:07:52.62,Sub,,0,0,0,,to help me find my way.
+Dialogue: 0,0:07:53.67,0:07:54.82,Sub,,0,0,0,,To rescue Senior Zhou Yi,
+Dialogue: 0,0:07:55.11,0:07:56.02,Sub,,0,0,0,,I need to take my time
+Dialogue: 0,0:07:56.51,0:07:57.82,Sub,,0,0,0,,and plan accordingly.
+Dialogue: 0,0:08:00.71,0:08:03.51,Sub,,0,0,0,,{\fad(300,300)\pos(970,536)}1 day later
+Dialogue: 0,0:08:02.23,0:08:02.87,Sub,,0,0,0,,Everyone,
+Dialogue: 0,0:08:02.87,0:08:03.50,Sub,,0,0,0,,follow me.
+Dialogue: 0,0:08:04.39,0:08:06.99,Card,,0,0,0,,{\fad(300,300)\pos(467,465)}Ancient Tree\NTide Abyss
+Dialogue: 0,0:08:09.55,0:08:10.34,Sub,,0,0,0,,It's right there.
+Dialogue: 0,0:08:11.07,0:08:12.18,Sub,,0,0,0,,The Tian Yun Sword !
+Dialogue: 0,0:08:13.59,0:08:14.34,Sub,,0,0,0,,This sword
+Dialogue: 0,0:08:14.99,0:08:17.18,Sub,,0,0,0,,is one of the 7 swords of Master All-Seer.
+Dialogue: 0,0:08:18.11,0:08:20.38,Sub,,0,0,0,,They were given to the Seven Sons of Tian Yun as guardian artifacts.
+Dialogue: 0,0:08:21.47,0:08:22.94,Sub,,0,0,0,,However, over the countless years,
+Dialogue: 0,0:08:23.51,0:08:25.50,Sub,,0,0,0,,3 of them went missing with their owners.
+Dialogue: 0,0:08:27.47,0:08:29.07,Sub,,0,0,0,,Junior Brother Sun Yun of the Purple Division
+Dialogue: 0,0:08:29.47,0:08:31.67,Sub,,0,0,0,,disappeared back then while carrying this sword.
+Dialogue: 0,0:08:32.19,0:08:32.98,Sub,,0,0,0,,Brother Murong,
+Dialogue: 0,0:08:33.63,0:08:34.26,Sub,,0,0,0,,Junior Sister Zhao,
+Dialogue: 0,0:08:34.95,0:08:35.58,Sub,,0,0,0,,Junior Sister Xu,
+Dialogue: 0,0:08:36.19,0:08:38.38,Sub,,0,0,0,,this sword belongs to the Heavenly Fate Sect.
+Dialogue: 0,0:08:39.11,0:08:39.70,Sub,,0,0,0,,Today,
+Dialogue: 0,0:08:39.99,0:08:40.70,Sub,,0,0,0,,I, Du Jian,
+Dialogue: 0,0:08:40.99,0:08:41.90,Sub,,0,0,0,,need to ask you a favor.
+Dialogue: 0,0:08:42.59,0:08:43.34,Sub,,0,0,0,,How about
+Dialogue: 0,0:08:43.39,0:08:45.19,Sub,,0,0,0,,we let Junior Brother Wang take this sword ?
+Dialogue: 0,0:08:45.39,0:08:47.48,Sub,,0,0,0,,He's a disciple of the Purple Division of our Heavenly Fate Sect.
+Dialogue: 0,0:08:47.59,0:08:48.87,Sub,,0,0,0,,Giving him the sword
+Dialogue: 0,0:08:48.99,0:08:50.83,Sub,,0,0,0,,is like returning it to its original owner.
+Dialogue: 0,0:08:53.07,0:08:53.66,Sub,,0,0,0,,Junior Brother Wang,
+Dialogue: 0,0:08:54.35,0:08:54.98,Sub,,0,0,0,,this sword
+Dialogue: 0,0:08:55.43,0:08:56.87,Sub,,0,0,0,,originally belonged to your Purple Division.
+Dialogue: 0,0:08:57.07,0:08:58.06,Sub,,0,0,0,,Senior Brother won't steal it
+Dialogue: 0,0:08:58.71,0:09:00.22,Sub,,0,0,0,,and I won't let anyone else steal it either !
+Dialogue: 0,0:09:01.63,0:09:03.19,Sub,,0,0,0,,Senior Brother Du is very virtuous.
+Dialogue: 0,0:09:09.31,0:09:10.55,Sub,,0,0,0,,This tree isn't normal.
+Dialogue: 0,0:09:10.59,0:09:11.83,Sub,,0,0,0,,Fellow cultivator Wang, be careful.
+Dialogue: 0,0:09:11.99,0:09:13.02,Sub,,0,0,0,,This Murong Zhuo
+Dialogue: 0,0:09:13.79,0:09:15.42,Sub,,0,0,0,,does have some skill.
+Dialogue: 0,0:09:20.03,0:09:20.98,Sub,,0,0,0,,Charge !
+Dialogue: 0,0:09:30.51,0:09:32.26,Sub,,0,0,0,,Is the Tian Yun Sword Senior Brother spoke of
+Dialogue: 0,0:09:33.23,0:09:34.78,Sub,,0,0,0,,this pile of scrap iron ?
+Dialogue: 0,0:09:35.87,0:09:36.30,Sub,,0,0,0,,I...
+Dialogue: 0,0:09:36.67,0:09:37.90,Sub,,0,0,0,,I was mistaken.
+Dialogue: 0,0:09:38.71,0:09:41.96,Sub,,0,0,0,,How could Senior Brother Du, who has studied the Tide Abyss for decades
+Dialogue: 0,0:09:42.07,0:09:43.78,Sub,,0,0,0,,be mistaken ?
+Dialogue: 0,0:09:54.19,0:09:55.82,Sub,,0,0,0,,Do you see clearly now ?
+Dialogue: 0,0:09:56.39,0:09:58.50,Sub,,0,0,0,,This tree is an illusion of poisonous insects.
+Dialogue: 0,0:10:01.63,0:10:02.10,Sub,,0,0,0,,You...
+Dialogue: 0,0:10:02.51,0:10:04.34,Sub,,0,0,0,,how did you see through it !?
+Dialogue: 0,0:10:05.71,0:10:06.58,Sub,,0,0,0,,We've only just met
+Dialogue: 0,0:10:07.59,0:10:09.75,Sub,,0,0,0,,but Senior Brother Du turns out to be an hypocrite.
+Dialogue: 0,0:10:10.67,0:10:11.99,Sub,,0,0,0,,Given our relationship,
+Dialogue: 0,0:10:12.03,0:10:13.95,Sub,,0,0,0,,how can we even be called brothers ?
+Dialogue: 0,0:10:14.39,0:10:15.83,Sub,,0,0,0,,Since you tried to trap me,
+Dialogue: 0,0:10:16.31,0:10:18.78,Sub,,0,0,0,,you should've expected the consequences as well.
+Dialogue: 0,0:10:21.79,0:10:22.26,Sub,,0,0,0,,Everyone,
+Dialogue: 0,0:10:23.59,0:10:24.30,Sub,,0,0,0,,let's continue.
+Dialogue: 0,0:10:25.03,0:10:27.67,Card,,0,0,0,,{\fad(300,300)\pos(279,462)}Cliff\NTide Abyss
+Dialogue: 0,0:10:39.79,0:10:41.79,Sub,,0,0,0,,This is the 37th type of beast we encountered.
+Dialogue: 0,0:10:42.43,0:10:43.63,Sub,,0,0,0,,This poison is already 3 times
+Dialogue: 0,0:10:43.67,0:10:45.47,Sub,,0,0,0,,more concentrated than at the entrance.
+Dialogue: 0,0:11:16.15,0:11:17.78,Sub,,0,0,0,,So that's how it is...
+Dialogue: 0,0:11:24.19,0:11:25.79,Sub,,0,0,0,,I have private matters to attend to
+Dialogue: 0,0:11:26.03,0:11:27.51,Sub,,0,0,0,,so I won't be going down with you.
+Dialogue: 0,0:11:28.23,0:11:28.78,Sub,,0,0,0,,Brother Murong,
+Dialogue: 0,0:11:29.71,0:11:31.30,Sub,,0,0,0,,if you ever need me in the future,
+Dialogue: 0,0:11:31.87,0:11:32.74,Sub,,0,0,0,,don't hesitate.
+Dialogue: 0,0:11:33.83,0:11:35.30,Sub,,0,0,0,,Brother Wang, if you need anything in the future,
+Dialogue: 0,0:11:35.99,0:11:36.78,Sub,,0,0,0,,please do the same.
+Dialogue: 0,0:11:40.43,0:11:42.23,Sub,,0,0,0,,Be careful of the two women beside you.
+Dialogue: 0,0:11:42.75,0:11:43.90,Sub,,0,0,0,,If I'm not mistaken,
+Dialogue: 0,0:11:44.63,0:11:46.30,Sub,,0,0,0,,they should be from the Corpse Sect.
+Dialogue: 0,0:11:47.63,0:11:49.26,Sub,,0,0,0,,One is the Corpse Puppet
+Dialogue: 0,0:11:50.39,0:11:51.79,Sub,,0,0,0,,and the other is the true body.
+Dialogue: 0,0:12:00.15,0:12:03.27,Card,,0,0,0,,{\fad(300,300)\pos(467,481)}Cliff\NTide Abyss
+Dialogue: 0,0:12:05.87,0:12:07.31,Sub,,0,0,0,,The place Bei Luo pointed me to
+Dialogue: 0,0:12:07.63,0:12:08.87,Sub,,0,0,0,,is right here.
+Dialogue: 0,0:12:10.23,0:12:12.66,Sub,,0,0,0,,But why isn't there any trace of Senior Zhou Yi
+Dialogue: 0,0:12:12.67,0:12:14.46,Sub,,0,0,0,,or of Ling Tianhou here ?
+Dialogue: 0,0:12:23.63,0:12:26.22,Sub,,0,0,0,,I'm pretty sure Bei Luo didn't lie to me.
+Dialogue: 0,0:12:27.35,0:12:28.42,Sub,,0,0,0,,If he wanted to harm me,
+Dialogue: 0,0:12:28.99,0:12:30.18,Sub,,0,0,0,,he could have just done so.
+Dialogue: 0,0:12:31.59,0:12:32.94,Sub,,0,0,0,,Even if he wanted to kill me,
+Dialogue: 0,0:12:33.63,0:12:36.27,Sub,,0,0,0,,he should have tricked me into going to the bottom of the abyss instead.
+Dialogue: 0,0:12:36.79,0:12:38.38,Sub,,0,0,0,,Where exactly did I go wrong ?
+Dialogue: 0,0:12:39.79,0:12:41.50,Sub,,0,0,0,,If I were Ling Tianhou...
+Dialogue: 0,0:12:42.31,0:12:44.10,Sub,,0,0,0,,What would I have done ?
+Dialogue: 0,0:12:45.79,0:12:48.18,Sub,,0,0,0,,If I wanted to seal a Sword Spirit that was haunting me,
+Dialogue: 0,0:12:49.03,0:12:50.62,Sub,,0,0,0,,I wouldn’t simply seal it.
+Dialogue: 0,0:12:50.91,0:12:53.04,Sub,,0,0,0,,I'd restrict it for thousands of years
+Dialogue: 0,0:12:53.36,0:12:55.01,Sub,,0,0,0,,to make it yield
+Dialogue: 0,0:12:55.03,0:12:56.58,Sub,,0,0,0,,and submit to my tyranny.
+Dialogue: 0,0:12:57.04,0:12:58.59,Sub,,0,0,0,,Such a seal would've been
+Dialogue: 0,0:12:59.47,0:13:01.30,Sub,,0,0,0,, impossible on the surface.
+Dialogue: 0,0:13:18.67,0:13:19.54,Sub,,0,0,0,,I found it.
+Dialogue: 0,0:13:32.67,0:13:35.10,Sub,,0,0,0,,Ling Tianhou is a powerful rival of the All-Seer
+Dialogue: 0,0:13:36.59,0:13:38.66,Sub,,0,0,0,,so he must be at least Late stage Nirvana Cleanser.
+Dialogue: 0,0:13:58.71,0:13:59.90,Sub,,0,0,0,,Billion-Soul Flag !
+Dialogue: 0,0:14:14.07,0:14:14.66,Sub,,0,0,0,,Master,
+Dialogue: 0,0:14:15.03,0:14:16.54,Sub,,0,0,0,,that thing is too strong !
+Dialogue: 0,0:14:19.19,0:14:19.70,Sub,,0,0,0,,I won't...
+Dialogue: 0,0:14:20.15,0:14:22.18,Sub,,0,0,0,,be able to hold on !
+Dialogue: 0,0:14:23.59,0:14:24.02,Sub,,0,0,0,,Go !
+Dialogue: 0,0:14:31.71,0:14:34.38,Sub,,0,0,0,,Even the Scattered Devil soul couldn't last for a single breath !
+Dialogue: 0,0:14:36.71,0:14:37.78,Sub,,0,0,0,,God-Slaying Chariot,
+Dialogue: 0,0:14:38.27,0:14:38.75,Sub,,0,0,0,,activate !
+Dialogue: 0,0:14:48.19,0:14:48.90,Sub,,0,0,0,,This aura...
+Dialogue: 0,0:14:49.95,0:14:50.75,Sub,,0,0,0,,could it be ...?
+Dialogue: 0,0:14:53.27,0:14:54.18,Sub,,0,0,0,,This is...
+Dialogue: 0,0:14:55.23,0:14:56.94,Sub,,0,0,0,,Ling Tianhou's aura.
+Dialogue: 0,0:15:00.71,0:15:02.86,Sub,,0,0,0,,The Sword Spirit's seal is well hidden.
+Dialogue: 0,0:15:03.31,0:15:05.27,Sub,,0,0,0,,How could it have been discovered ?
+Dialogue: 0,0:15:06.99,0:15:07.62,Sub,,0,0,0,,It's alright.
+Dialogue: 0,0:15:08.67,0:15:10.41,Sub,,0,0,0,,It's just an ant trying to shake a tree.
+Dialogue: 0,0:15:10.55,0:15:12.10,Sub,,0,0,0,,It's courting its own death.
+Dialogue: 0,0:15:33.39,0:15:34.94,Sub,,0,0,0,,A single strike from a strand of his Divine Sense
+Dialogue: 0,0:15:35.75,0:15:37.10,Sub,,0,0,0,,is actually this powerful...
+Dialogue: 0,0:15:38.67,0:15:40.02,Sub,,0,0,0,,With my own strength,
+Dialogue: 0,0:15:41.15,0:15:43.75,Sub,,0,0,0,,it's absolutely impossible to beat with this Divine Sense.
+Dialogue: 0,0:15:44.67,0:15:45.71,Sub,,0,0,0,,Master, please think twice !
+Dialogue: 0,0:15:45.91,0:15:47.63,Sub,,0,0,0,,That old ghost is not to be messed with !
+Dialogue: 0,0:16:04.35,0:16:05.70,Sub,,0,0,0,,I have fought all my life
+Dialogue: 0,0:16:06.43,0:16:08.06,Sub,,0,0,0,,and seen too much deception.
+Dialogue: 0,0:16:09.59,0:16:11.87,Sub,,0,0,0,,But one of the only sincere people I met
+Dialogue: 0,0:16:12.59,0:16:14.34,Sub,,0,0,0,,has instead left me with an obsession
+Dialogue: 0,0:16:15.11,0:16:16.54,Sub,,0,0,0,,within my Dao.
+Dialogue: 0,0:16:19.91,0:16:20.62,Sub,,0,0,0,,Back then,
+Dialogue: 0,0:16:21.79,0:16:23.94,Sub,,0,0,0,,his infatuation made him breakthough to Ascendant.
+Dialogue: 0,0:16:25.43,0:16:26.22,Sub,,0,0,0,,And I
+Dialogue: 0,0:16:26.59,0:16:28.58,Sub,,0,0,0,,was just a Soul Formation Junior.
+Dialogue: 0,0:16:30.55,0:16:31.18,Sub,,0,0,0,,But now,
+Dialogue: 0,0:16:32.23,0:16:33.98,Sub,,0,0,0,,I have also reached Ascendant.
+Dialogue: 0,0:16:34.87,0:16:36.10,Sub,,0,0,0,,Because of this karma,
+Dialogue: 0,0:16:36.11,0:16:37.86,Sub,,0,0,0,,I have charged into this Tide Abyss.
+Dialogue: 0,0:16:39.64,0:16:40.26,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:16:43.87,0:16:44.86,Sub,,0,0,0,,Underworld...
+Dialogue: 0,0:16:45.39,0:16:46.18,Sub,,0,0,0,,River !
+Dialogue: 0,0:16:51.51,0:16:53.26,Sub,,0,0,0,,I, Wang Lin, live between the heavens and the earth
+Dialogue: 0,0:16:54.23,0:16:56.02,Sub,,0,0,0,,with an unforgettable obsession.
+Dialogue: 0,0:16:57.03,0:16:58.50,Sub,,0,0,0,,So what if there are powerful foes ?
+Dialogue: 0,0:16:58.91,0:17:00.22,Sub,,0,0,0,,So what if I live or die ?
+Dialogue: 0,0:17:00.91,0:17:03.15,Sub,,0,0,0,,If I were to stay hesitant and overly cautious,
+Dialogue: 0,0:17:03.51,0:17:04.98,Sub,,0,0,0,,even if I live for 10 000 years,
+Dialogue: 0,0:17:05.91,0:17:08.94,Sub,,0,0,0,,that life would be in vain ! A meaningless existence !
+Dialogue: 0,0:17:15.55,0:17:16.14,Sub,,0,0,0,,Now,
+Dialogue: 0,0:17:17.19,0:17:18.70,Sub,,0,0,0,,I shall use the Celestial Symbols as the foundation
+Dialogue: 0,0:17:19.51,0:17:21.22,Sub,,0,0,0,,and my Origin Soul as the guide
+Dialogue: 0,0:17:22.27,0:17:24.58,Sub,,0,0,0,,to seal your Divine Sense, Ling Tianhou !
+Dialogue: 0,0:17:40.03,0:17:41.06,Sub,,0,0,0,,Master, you mustn't !
+Dialogue: 0,0:17:41.63,0:17:42.50,Sub,,0,0,0,,If the seal is broken,
+Dialogue: 0,0:17:43.03,0:17:44.54,Sub,,0,0,0,,your Origin Soul will be heavily injured !
+Dialogue: 0,0:17:45.11,0:17:47.10,Sub,,0,0,0,,Weighing the pros and cons
+Dialogue: 0,0:17:47.99,0:17:49.26,Sub,,0,0,0,,is what everyone does.
+Dialogue: 0,0:17:50.03,0:17:51.91,Sub,,0,0,0,,It's also something I'm very good at.
+Dialogue: 0,0:17:53.03,0:17:54.74,Sub,,0,0,0,,But this battle is an exception !
+Dialogue: 0,0:18:14.39,0:18:15.70,Sub,,0,0,0,,No, Master !
+Dialogue: 0,0:18:15.99,0:18:17.42,Sub,,0,0,0,,Golden Symbol...
+Dialogue: 0,0:18:19.63,0:18:20.30,Sub,,0,0,0,,Seal !
+Dialogue: 0,0:18:30.87,0:18:31.70,Sub,,0,0,0,,Now or never !
+Dialogue: 0,0:18:51.59,0:18:52.18,Sub,,0,0,0,,Senior !
+Dialogue: 0,0:19:29.74,0:19:35.22,Music,,0,0,0,,{\fad(600,600)}Ask
+Dialogue: 0,0:19:31.26,0:19:33.06,Stamp,,0,0,0,,{\pos(1514,677)}Qi Condensation
+Dialogue: 0,0:19:32.18,0:19:35.22,Music,,0,0,0,,{\fad(600,600)}the perilous path filled with countless blades.
+Dialogue: 0,0:19:34.70,0:19:36.34,Stamp,,0,0,0,,{\pos(1299,685)}Foundation Establishment
+Dialogue: 0,0:19:35.86,0:19:42.02,Music,,0,0,0,,{\fad(600,600)}Can the mundane world be shattered
+Dialogue: 0,0:19:37.22,0:19:39.66,Stamp,,0,0,0,,{\pos(1557,705)\fad(800,000)}Core Formation
+Dialogue: 0,0:19:40.42,0:19:43.10,Stamp,,0,0,0,,{\fad(800,000)\pos(1557,705)}Nascent Soul
+Dialogue: 0,0:19:38.66,0:19:42.02,Music,,0,0,0,,{\fad(600,600)}by a child's steadfast heart ?
+Dialogue: 0,0:19:42.14,0:19:48.26,Music,,0,0,0,,{\fad(600,600)}If the laws of this world
+Dialogue: 0,0:19:43.98,0:19:46.54,Stamp,,0,0,0,,{\pos(368,638)\fad(800,300)}Soul Formation
+Dialogue: 0,0:19:46.86,0:19:49.74,Stamp,,0,0,0,,{\pos(1445,688)\fad(800,000)}Soul Transformation
+Dialogue: 0,0:19:44.94,0:19:48.26,Music,,0,0,0,,{\fad(600,600)}stand in the way,
+Dialogue: 0,0:19:49.22,0:19:55.06,Music,,0,0,0,,{\fad(600,600)}I'll defy the universe to tread the heavens
+Dialogue: 0,0:19:53.06,0:19:56.02,Stamp,,0,0,0,,{\pos(1574,688)\fad(800,000)}Ascendant
+Dialogue: 0,0:19:51.42,0:19:55.06,Music,,0,0,0,,{\fad(600,600)}and ask this question to the sky.
+Dialogue: 0,0:19:55.50,0:20:00.94,Music,,0,0,0,,{\fad(600,600)}My heart's deepest wish
+Dialogue: 0,0:19:57.88,0:20:00.94,Music,,0,0,0,,{\fad(600,600)}is to not kneel before these mountains and rivers.
+Dialogue: 0,0:20:02.10,0:20:08.02,Music,,0,0,0,,{\fad(600,600)}Don't accept your doomed fate,
+Dialogue: 0,0:20:04.66,0:20:08.02,Music,,0,0,0,,{\fad(600,600)}karma can be changed.
+Dialogue: 0,0:20:08.42,0:20:13.78,Music,,0,0,0,,{\fad(600,600)}Unwilling to let go,
+Dialogue: 0,0:20:10.94,0:20:13.78,Music,,0,0,0,,{\fad(600,600)}my obsessions propel me forward.
+Dialogue: 0,0:20:13.78,0:20:21.30,Music,,0,0,0,,{\fad(600,600)}Don't be afraid.
+Dialogue: 0,0:20:16.10,0:20:21.30,Music,,0,0,0,,{\fad(600,600)}Thunder rumbles as I dare to tread through the reincarnation cycle.
+Dialogue: 0,0:20:22.26,0:20:25.70,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:20:23.70,0:20:25.70,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:20:25.82,0:20:29.54,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:20:27.14,0:20:29.54,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:20:29.62,0:20:35.26,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:20:31.22,0:20:35.26,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:20:35.58,0:20:39.10,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:20:36.94,0:20:39.10,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:20:39.10,0:20:42.66,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:20:40.14,0:20:42.66,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:20:42.74,0:20:48.06,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:20:44.50,0:20:48.06,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:20:49.42,0:20:54.30,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:20:50.74,0:20:54.30,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.
+Dialogue: 0,0:21:08.86,0:21:12.54,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:21:10.50,0:21:12.54,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:21:12.62,0:21:16.38,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:21:13.90,0:21:16.38,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:21:16.38,0:21:22.06,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:21:18.06,0:21:22.06,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:21:22.34,0:21:25.90,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:21:23.70,0:21:25.90,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:21:25.89,0:21:29.50,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:21:26.86,0:21:29.50,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:21:29.50,0:21:35.10,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:21:31.46,0:21:35.10,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:21:35.82,0:21:41.18,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:21:36.66,0:21:41.18,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.

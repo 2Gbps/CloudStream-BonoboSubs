@@ -1,0 +1,344 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 78_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:50.68,0:01:52.24,Sub,,0,0,0,,A real savage
+Dialogue: 0,0:01:52.72,0:01:54.12,Sub,,0,0,0,,with Nascent Soul cultivation !
+Dialogue: 0,0:01:54.20,0:01:55.04,Sub,,0,0,0,,Go,
+Dialogue: 0,0:01:55.28,0:01:56.88,Sub,,0,0,0,,kill them all !
+Dialogue: 0,0:02:13.44,0:02:14.40,Sub,,0,0,0,,Die !
+Dialogue: 0,0:02:25.48,0:02:27.00,Sub,,0,0,0,,How is that possible ?!
+Dialogue: 0,0:02:34.08,0:02:34.60,Sub,,0,0,0,,This is...
+Dialogue: 0,0:02:36.52,0:02:36.84,Sub,,0,0,0,,It's...
+Dialogue: 0,0:02:36.92,0:02:38.20,Sub,,0,0,0,,a real savage.
+Dialogue: 0,0:02:38.32,0:02:40.16,Sub,,0,0,0,,You seem to know about the savage's ranks.
+Dialogue: 0,0:02:40.52,0:02:42.24,Sub,,0,0,0,,I'd appreciate it if you could
+Dialogue: 0,0:02:42.84,0:02:44.36,Sub,,0,0,0,,tell me what you know.
+Dialogue: 0,0:02:46.12,0:02:47.12,Sub,,0,0,0,,These savages
+Dialogue: 0,0:02:47.64,0:02:48.98,Sub,,0,0,0,,are known as the Forsaken Immortal Clan.
+Dialogue: 0,0:02:49.04,0:02:50.53,Sub,,0,0,0,,They are split into two types:
+Dialogue: 0,0:02:50.56,0:02:51.80,Sub,,0,0,0,,Shamans
+Dialogue: 0,0:02:52.04,0:02:53.16,Sub,,0,0,0,,and Warriors.
+Dialogue: 0,0:02:53.79,0:02:54.87,Sub,,0,0,0,,Their power comes from
+Dialogue: 0,0:02:55.12,0:02:56.48,Sub,,0,0,0,,the tattoos on their bodies.
+Dialogue: 0,0:02:57.08,0:02:58.26,Sub,,0,0,0,,This method is what allows them
+Dialogue: 0,0:02:58.28,0:03:00.28,Sub,,0,0,0,,to use spells and raise their cultivation.
+Dialogue: 0,0:03:00.88,0:03:02.45,Sub,,0,0,0,,The greater the number of leaves,
+Dialogue: 0,0:03:02.52,0:03:04.00,Sub,,0,0,0,,the stronger they are.
+Dialogue: 0,0:03:04.40,0:03:07.19,Sub,,0,0,0,,So this is how the Forsaken Immortal Clan cultivates.
+Dialogue: 0,0:03:07.24,0:03:09.16,Sub,,0,0,0,,It's very different from us.
+Dialogue: 0,0:03:16.40,0:03:17.84,Sub,,0,0,0,,A 5-leaf Shaman...
+Dialogue: 0,0:03:18.20,0:03:19.48,Sub,,0,0,0,,Soul Formation !
+Dialogue: 0,0:03:17.96,0:03:19.48,Card,,0,0,0,,{\pos(1600,524)\fad(100,50}Forsaken Immortal Clan\N5-leaf Shaman
+Dialogue: 0,0:03:21.88,0:03:24.72,Sub,,0,0,0,,They can feed on the tattoos to enhance their cultivation.
+Dialogue: 0,0:03:25.00,0:03:26.47,Sub,,0,0,0,,This cultivation method
+Dialogue: 0,0:03:26.56,0:03:28.09,Sub,,0,0,0,,is unheard of.
+Dialogue: 0,0:03:28.52,0:03:29.84,Sub,,0,0,0,,It's really weird.
+Dialogue: 0,0:03:32.04,0:03:32.64,Sub,,0,0,0,,Split up !
+Dialogue: 0,0:03:33.36,0:03:35.20,Sub,,0,0,0,,Go towards the north,
+Dialogue: 0,0:03:35.48,0:03:37.28,Sub,,0,0,0,,we will meet at the third floor entrance.
+Dialogue: 0,0:03:37.36,0:03:37.79,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:03:37.80,0:03:39.68,Card,,0,0,0,,{\pos(1654,564)\fad(300,300)}Second floor of the\NImmortal Graveyard
+Dialogue: 0,0:03:48.20,0:03:49.44,Sub,,0,0,0,,If you want to fight,
+Dialogue: 0,0:03:50.28,0:03:51.76,Sub,,0,0,0,,I'll accept the duel.
+Dialogue: 0,0:03:52.72,0:03:54.44,Sub,,0,0,0,,I'd like to learn how you did
+Dialogue: 0,0:03:55.20,0:03:56.43,Sub,,0,0,0,,to absorb your comrade.
+Dialogue: 0,0:04:11.20,0:04:13.80,Sub,,0,0,0,,There's no spiritual energy in his body.
+Dialogue: 0,0:04:13.88,0:04:15.60,Sub,,0,0,0,,But the tattoos
+Dialogue: 0,0:04:15.68,0:04:17.48,Sub,,0,0,0,,contain a mysterious power.
+Dialogue: 0,0:04:17.24,0:04:18.88,Card,,0,0,0,,{\pos(342,540)\fad(300,000}Mo Mo\NForsaken Immortal Clan\N5-leaf Shaman
+Dialogue: 0,0:04:18.21,0:04:21.13,Sub,,0,0,0,,Invaders of this planet,
+Dialogue: 0,0:04:21.68,0:04:23.56,Sub,,0,0,0,,you guys broke the agreement !
+Dialogue: 0,0:04:24.92,0:04:27.04,Sub,,0,0,0,,100 years haven’t passed yet,
+Dialogue: 0,0:04:27.48,0:04:29.76,Sub,,0,0,0,,so anyone who enters will
+Dialogue: 0,0:04:30.64,0:04:31.84,Sub,,0,0,0,,die !
+Dialogue: 0,0:04:39.28,0:04:41.36,Sub,,0,0,0,,This savage's tattoo power
+Dialogue: 0,0:04:41.40,0:04:43.40,Sub,,0,0,0,,is really overbearing.
+Dialogue: 0,0:04:55.56,0:04:56.36,Sub,,0,0,0,,Chop !
+Dialogue: 0,0:04:59.12,0:05:01.24,Sub,,0,0,0,,You will eat Grandpa Xu's sword !
+Dialogue: 0,0:05:04.52,0:05:06.04,Sub,,0,0,0,,Restriction wall !
+Dialogue: 0,0:05:15.32,0:05:16.68,Sub,,0,0,0,,Each time I use it
+Dialogue: 0,0:05:17.16,0:05:19.68,Sub,,0,0,0,,I need to consume a top quality spirit stone.
+Dialogue: 0,0:05:20.32,0:05:21.36,Sub,,0,0,0,,The price is too high...
+Dialogue: 0,0:05:21.72,0:05:23.19,Sub,,0,0,0,,You were presumptuous
+Dialogue: 0,0:05:23.24,0:05:25.08,Sub,,0,0,0,,so Grandpa Xu chopped you !
+Dialogue: 0,0:05:25.48,0:05:27.35,Sub,,0,0,0,,Their cultivation method
+Dialogue: 0,0:05:27.64,0:05:29.28,Sub,,0,0,0,,cannot be underestimated.
+Dialogue: 0,0:05:50.52,0:05:51.40,Sub,,0,0,0,,6-leaf...
+Dialogue: 0,0:06:06.84,0:06:09.04,Card,,0,0,0,,{\pos(241,540)\fad(300,100}Ka Mo\NForsaken Immortal Clan\N6-leaf Shaman
+Dialogue: 0,0:06:07.12,0:06:07.64,Sub,,0,0,0,,Master...
+Dialogue: 0,0:06:08.40,0:06:09.56,Sub,,0,0,0,,Get ready
+Dialogue: 0,0:06:10.40,0:06:11.37,Sub,,0,0,0,,Okay.
+Dialogue: 0,0:06:09.94,0:06:11.48,Card,,0,0,0,,{\pos(357,546)\fad(300,000}Tai Zhou\NKa Mo's disciple\NForsaken Immortal Clan
+Dialogue: 0,0:06:11.68,0:06:12.92,Sub,,0,0,0,,This beast
+Dialogue: 0,0:06:12.96,0:06:14.16,Sub,,0,0,0,,will die !
+Dialogue: 0,0:06:45.68,0:06:48.04,Sub,,0,0,0,,Looks like it turned out well.
+Dialogue: 0,0:06:49.36,0:06:50.92,Sub,,0,0,0,,This is savage's language...
+Dialogue: 0,0:06:52.24,0:06:53.00,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:06:54.00,0:06:55.55,Sub,,0,0,0,,If you leave now
+Dialogue: 0,0:06:55.60,0:06:56.88,Sub,,0,0,0,,and don't disturb my cultivation again
+Dialogue: 0,0:06:56.92,0:06:58.72,Sub,,0,0,0,,I won't pursue today's matter.
+Dialogue: 0,0:07:01.08,0:07:02.79,Sub,,0,0,0,,When I entered the cultivation world
+Dialogue: 0,0:07:02.96,0:07:05.20,Sub,,0,0,0,,I met a weirdo named Adai.
+Dialogue: 0,0:07:05.72,0:07:07.81,Sub,,0,0,0,,Was he related to the Forsaken Immortal Clan ?
+Dialogue: 0,0:07:08.08,0:07:09.16,Sub,,0,0,0,,Invader,
+Dialogue: 0,0:07:09.72,0:07:11.88,Sub,,0,0,0,,it's time for you to show yourself.
+Dialogue: 0,0:07:17.56,0:07:18.36,Sub,,0,0,0,,Hello,
+Dialogue: 0,0:07:19.32,0:07:21.80,Sub,,0,0,0,,I'm Ka Mo of the Forsaken Immortal Clan,
+Dialogue: 0,0:07:22.36,0:07:24.00,Sub,,0,0,0,,6-leaf Shaman.
+Dialogue: 0,0:07:25.12,0:07:25.96,Sub,,0,0,0,,I'm Wang Lin,
+Dialogue: 0,0:07:26.68,0:07:28.08,Sub,,0,0,0,,Soul Formation cultivator.
+Dialogue: 0,0:07:28.40,0:07:30.89,Sub,,0,0,0,,It is not yet time for the 100 year agreement.
+Dialogue: 0,0:07:30.96,0:07:33.60,Sub,,0,0,0,,Every cultivators who trespasses
+Dialogue: 0,0:07:33.72,0:07:35.00,Sub,,0,0,0,,must die.
+Dialogue: 0,0:07:36.80,0:07:40.85,Sub,,0,0,0,,Since you let my disciple absorb the beast blood,
+Dialogue: 0,0:07:40.91,0:07:42.67,Sub,,0,0,0,,I won’t make it hard on you.
+Dialogue: 0,0:07:44.24,0:07:46.36,Sub,,0,0,0,,He used the blood from the beast
+Dialogue: 0,0:07:46.40,0:07:48.40,Sub,,0,0,0,,to make tattoos just now.
+Dialogue: 0,0:07:49.12,0:07:51.64,Sub,,0,0,0,,Is that a secret technique of your Forsaken Immortal Clan ?
+Dialogue: 0,0:07:53.44,0:07:56.08,Sub,,0,0,0,,My Forsaken Immortal Clan uses tattoos
+Dialogue: 0,0:07:56.48,0:07:58.76,Sub,,0,0,0,,to absorb the powers from these beasts.
+Dialogue: 0,0:07:58.88,0:08:00.97,Sub,,0,0,0,,The stronger the beast,
+Dialogue: 0,0:08:01.08,0:08:03.84,Sub,,0,0,0,,the more power we gain.
+Dialogue: 0,0:08:04.68,0:08:05.92,Sub,,0,0,0,,If this technique
+Dialogue: 0,0:08:06.00,0:08:07.53,Sub,,0,0,0,,is so domineering,
+Dialogue: 0,0:08:07.64,0:08:09.10,Sub,,0,0,0,,why does your clan
+Dialogue: 0,0:08:09.20,0:08:11.64,Sub,,0,0,0,,live in this barren underground ?
+Dialogue: 0,0:08:13.00,0:08:14.32,Sub,,0,0,0,,Planet Suzaku
+Dialogue: 0,0:08:15.24,0:08:17.12,Sub,,0,0,0,,was originally our home.
+Dialogue: 0,0:08:17.36,0:08:18.20,Sub,,0,0,0,,Back then,
+Dialogue: 0,0:08:18.83,0:08:21.47,Sub,,0,0,0,,when the country of Suzaku reached rank 6
+Dialogue: 0,0:08:22.36,0:08:25.92,Sub,,0,0,0,,this planet was given to them by the Cultivation Alliance.
+Dialogue: 0,0:08:26.32,0:08:28.35,Sub,,0,0,0,,To obtain this planet,
+Dialogue: 0,0:08:28.52,0:08:30.60,Sub,,0,0,0,,they fought a war.
+Dialogue: 0,0:08:32.04,0:08:35.00,Sub,,0,0,0,,The Forsaken Immortal Clan lost 90% of their people.
+Dialogue: 0,0:08:35.68,0:08:37.16,Sub,,0,0,0,,The few survivors
+Dialogue: 0,0:08:37.36,0:08:39.16,Sub,,0,0,0,,hid in the Immortal Graveyard
+Dialogue: 0,0:08:40.00,0:08:41.92,Sub,,0,0,0,,and cannot leave it anymore.
+Dialogue: 0,0:08:44.08,0:08:45.64,Sub,,0,0,0,,Do not enter the third floor.
+Dialogue: 0,0:08:46.44,0:08:47.48,Sub,,0,0,0,,In the third floor,
+Dialogue: 0,0:08:48.00,0:08:50.68,Sub,,0,0,0,,there is a 7-leaf shaman from my tribe,
+Dialogue: 0,0:08:51.60,0:08:55.76,Sub,,0,0,0,,the equivalent to a Soul Transformation cultivator.
+Dialogue: 0,0:08:56.08,0:08:57.36,Sub,,0,0,0,,If you leave now,
+Dialogue: 0,0:08:58.12,0:09:00.20,Sub,,0,0,0,,there is still a chance for you to live.
+Dialogue: 0,0:09:01.36,0:09:03.04,Sub,,0,0,0,,Thanks for the heads up.
+Dialogue: 0,0:09:09.08,0:09:09.88,Sub,,0,0,0,,Master,
+Dialogue: 0,0:09:10.56,0:09:12.40,Sub,,0,0,0,,why didn't you capture him
+Dialogue: 0,0:09:12.48,0:09:13.77,Sub,,0,0,0,,and turn him in to the chief ?
+Dialogue: 0,0:09:13.84,0:09:15.36,Sub,,0,0,0,,If I'm not mistaken
+Dialogue: 0,0:09:16.32,0:09:18.48,Sub,,0,0,0,,the tattoo soul behind him
+Dialogue: 0,0:09:19.16,0:09:20.68,Sub,,0,0,0,,belongs to Mo Mo.
+Dialogue: 0,0:09:21.80,0:09:24.64,Sub,,0,0,0,,Someone who can kill a 5-leaf shaman
+Dialogue: 0,0:09:24.84,0:09:26.36,Sub,,0,0,0,,without getting hurt
+Dialogue: 0,0:09:27.72,0:09:31.32,Sub,,0,0,0,,is not someone I have confidence in capturing.
+Dialogue: 0,0:09:32.44,0:09:33.12,Sub,,0,0,0,,Also,
+Dialogue: 0,0:09:34.08,0:09:35.80,Sub,,0,0,0,,you would be in danger.
+Dialogue: 0,0:09:36.20,0:09:39.44,Card,,0,0,0,,{\pos(1535,549)\fad(300,300}Far North of the\Nsecond floor of the Immortal Graveyard
+Dialogue: 0,0:09:41.08,0:09:42.96,Card,,0,0,0,,{\pos(1549,456)\fad(300,000)}Turtle beast
+Dialogue: 0,0:09:41.92,0:09:43.53,Sub,,0,0,0,,If it weren't for saving us,
+Dialogue: 0,0:09:43.64,0:09:45.36,Sub,,0,0,0,,he wouldn't have been hurt.
+Dialogue: 0,0:09:47.64,0:09:49.84,Sub,,0,0,0,,It's just that we have limited talent,
+Dialogue: 0,0:09:49.96,0:09:52.05,Sub,,0,0,0,,that's why we're dragging Master down.
+Dialogue: 0,0:09:52.80,0:09:55.19,Sub,,0,0,0,,Master Sun has suffered a great misfortune.
+Dialogue: 0,0:09:55.24,0:09:57.62,Sub,,0,0,0,,No one has heard from Brother Wang.
+Dialogue: 0,0:09:57.68,0:10:00.44,Sub,,0,0,0,,Only these two idiots are left...
+Dialogue: 0,0:10:01.12,0:10:03.68,Sub,,0,0,0,,If we meet a tough opponent again...
+Dialogue: 0,0:10:12.96,0:10:14.24,Sub,,0,0,0,,You're stupid,
+Dialogue: 0,0:10:14.84,0:10:16.64,Sub,,0,0,0,,but you know how to protect your master.
+Dialogue: 0,0:10:19.48,0:10:20.24,Sub,,0,0,0,,Brother Wang !
+Dialogue: 0,0:10:21.20,0:10:22.04,Sub,,0,0,0,,What's the matter ?
+Dialogue: 0,0:10:22.96,0:10:25.24,Sub,,0,0,0,,Master Sun led us all the way
+Dialogue: 0,0:10:25.64,0:10:26.80,Sub,,0,0,0,,to the entrance.
+Dialogue: 0,0:10:27.28,0:10:29.64,Sub,,0,0,0,,But we met a shaman that used a strange technique
+Dialogue: 0,0:10:30.64,0:10:32.48,Sub,,0,0,0,,to injure Master Sun
+Dialogue: 0,0:10:32.84,0:10:34.83,Sub,,0,0,0,,and cloud his mind.
+Dialogue: 0,0:10:39.08,0:10:39.80,Sub,,0,0,0,,Kneel !
+Dialogue: 0,0:10:46.40,0:10:46.91,Sub,,0,0,0,,Master !
+Dialogue: 0,0:10:46.96,0:10:47.62,Sub,,0,0,0,,Master !
+Dialogue: 0,0:10:49.24,0:10:50.68,Sub,,0,0,0,,What's going on here ?
+Dialogue: 0,0:10:51.00,0:10:51.60,Sub,,0,0,0,,Trap !
+Dialogue: 0,0:11:02.08,0:11:04.16,Sub,,0,0,0,,Fellow cultivator Sun, still not sober yet ?!
+Dialogue: 0,0:11:11.28,0:11:12.24,Sub,,0,0,0,,The savage
+Dialogue: 0,0:11:12.48,0:11:16.64,Sub,,0,0,0,,broke through to 6-leaf before he died
+Dialogue: 0,0:11:16.88,0:11:18.92,Sub,,0,0,0,,and tried to turn me into a puppet.
+Dialogue: 0,0:11:18.95,0:11:21.52,Sub,,0,0,0,,This technique is very tyrannical,
+Dialogue: 0,0:11:21.52,0:11:24.12,Sub,,0,0,0,,I can't calm down to disperse the curse.
+Dialogue: 0,0:11:25.24,0:11:26.12,Sub,,0,0,0,,Brother Wang...
+Dialogue: 0,0:11:26.48,0:11:27.60,Sub,,0,0,0,,Brother Wang...
+Dialogue: 0,0:11:28.00,0:11:30.44,Sub,,0,0,0,,Help me !
+Dialogue: 0,0:11:39.00,0:11:40.48,Sub,,0,0,0,,Senior, don't act hastily.
+Dialogue: 0,0:11:49.08,0:11:49.68,Sub,,0,0,0,,Master !
+Dialogue: 0,0:11:55.48,0:11:57.76,Sub,,0,0,0,,Only a life or death crisis
+Dialogue: 0,0:11:58.36,0:12:00.72,Sub,,0,0,0,,could have broken this curse.
+Dialogue: 0,0:12:01.80,0:12:04.28,Sub,,0,0,0,,This man's reputation isn't baseless.
+Dialogue: 0,0:12:04.96,0:12:05.60,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:12:06.12,0:12:06.84,Sub,,0,0,0,,thank you.
+Dialogue: 0,0:12:15.40,0:12:15.92,Sub,,0,0,0,,Master !
+Dialogue: 0,0:12:16.72,0:12:17.16,Sub,,0,0,0,,Master !
+Dialogue: 0,0:12:22.08,0:12:24.20,Sub,,0,0,0,,Thank you again Brother Wang.
+Dialogue: 0,0:12:24.84,0:12:25.76,Sub,,0,0,0,,No problem.
+Dialogue: 0,0:12:25.80,0:12:27.28,Sub,,0,0,0,,This is a very dangerous place.
+Dialogue: 0,0:12:27.96,0:12:29.02,Sub,,0,0,0,,Still no signs
+Dialogue: 0,0:12:29.04,0:12:30.20,Sub,,0,0,0,,of the Zhi Xin duo.
+Dialogue: 0,0:12:31.24,0:12:35.04,Sub,,0,0,0,,All I know is that the Reincarnation Tree is on the west of the third floor.
+Dialogue: 0,0:12:35.40,0:12:37.91,Sub,,0,0,0,,Why don't we go first
+Dialogue: 0,0:12:38.04,0:12:39.54,Sub,,0,0,0,,and wait for them there.
+Dialogue: 0,0:12:41.08,0:12:42.88,Sub,,0,0,0,,To tell you the truth,
+Dialogue: 0,0:12:43.08,0:12:46.32,Sub,,0,0,0,,my two disciples have more than 100 years of lifespan.
+Dialogue: 0,0:12:46.92,0:12:48.56,Sub,,0,0,0,,They will each sacrifice 60 years
+Dialogue: 0,0:12:48.76,0:12:50.88,Sub,,0,0,0,,to make the Reincarnation Fruits grow.
+Dialogue: 0,0:12:51.60,0:12:53.20,Sub,,0,0,0,,That's why they're here.
+Dialogue: 0,0:12:53.25,0:12:54.37,Sub,,0,0,0,,each one of us
+Dialogue: 0,0:12:54.44,0:12:55.64,Sub,,0,0,0,,will take one fruit.
+Dialogue: 0,0:13:07.88,0:13:08.56,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:13:08.56,0:13:09.64,Sub,,0,0,0,,help me out.
+Dialogue: 0,0:13:09.84,0:13:11.24,Sub,,0,0,0,,I’m willing to give you artifacts in exchange !
+Dialogue: 0,0:13:12.84,0:13:14.88,Card,,0,0,0,,{\pos(335,465)\fad(300,000}Ancient Bell
+Dialogue: 0,0:13:13.32,0:13:17.16,Sub,,0,0,0,,I obtained this object inside the belly of a beast.
+Dialogue: 0,0:13:19.80,0:13:22.80,Sub,,0,0,0,,My cultivation is limited so I cannot see through it.
+Dialogue: 0,0:13:17.48,0:13:19.44,Sub,,0,0,0,,It should be an ancient artifact.
+Dialogue: 0,0:13:22.84,0:13:24.48,Sub,,0,0,0,,It's for you Brother Wang.
+Dialogue: 0,0:13:24.64,0:13:26.62,Sub,,0,0,0,,I hope you can take me with you
+Dialogue: 0,0:13:26.80,0:13:28.19,Sub,,0,0,0,,to give me a chance
+Dialogue: 0,0:13:28.28,0:13:30.52,Sub,,0,0,0,,to cultivate under the Reincarnation Tree.
+Dialogue: 0,0:13:39.48,0:13:42.20,Card,,0,0,0,,{\pos(1697,553)\fad(300,000}Third floor of the\NImmortal Graveyard
+Dialogue: 0,0:14:00.48,0:14:03.56,Card,,0,0,0,,{\pos(1565,551)\fad(300,000}Za Gu\NForsaken Immortal Clan\N6-leaf Shaman
+Dialogue: 0,0:14:01.88,0:14:03.56,Sub,,0,0,0,,Injured but not dead ?
+Dialogue: 0,0:14:03.96,0:14:05.16,Sub,,0,0,0,,A 6-leaf Shaman !
+Dialogue: 0,0:14:11.12,0:14:12.56,Sub,,0,0,0,,A Turtle beast !
+Dialogue: 0,0:14:19.20,0:14:21.23,Card,,0,0,0,,{\pos(1538,540)\fad(300,000}Di Ya\NForsaken Immortal Clan\N6-leaf Shaman
+Dialogue: 0,0:14:32.52,0:14:33.80,Sub,,0,0,0,,Fellow cultivator Sun,
+Dialogue: 0,0:14:34.00,0:14:35.60,Sub,,0,0,0,,they aren't interested in you.
+Dialogue: 0,0:14:36.24,0:14:38.56,Sub,,0,0,0,,They just want your Spirit Beast's blood to make tattoos.
+Dialogue: 0,0:14:40.24,0:14:41.95,Sub,,0,0,0,,This beast has been with Master for 100 years...
+Dialogue: 0,0:14:42.04,0:14:44.68,Sub,,0,0,0,,If we fight to the death, we may be able to save it.
+Dialogue: 0,0:15:18.04,0:15:21.28,Sub,,0,0,0,,In a emergency, one must be decisive.
+Dialogue: 0,0:15:21.64,0:15:24.00,Sub,,0,0,0,,I had no choice but to do it.
+Dialogue: 0,0:15:27.40,0:15:27.88,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:15:28.24,0:15:28.64,Sub,,0,0,0,,it's there !
+Dialogue: 0,0:15:35.40,0:15:38.12,Card,,0,0,0,,{\pos(1525,465)\fad(300,000}Reincarnation Tree
+Dialogue: 0,0:15:45.32,0:15:47.04,Sub,,0,0,0,,Cultivation is a heaven defying act.
+Dialogue: 0,0:15:47.88,0:15:49.36,Sub,,0,0,0,,Since he had the fate to arrive here,
+Dialogue: 0,0:15:49.44,0:15:50.84,Sub,,0,0,0,,we should not interfere.
+Dialogue: 0,0:15:55.92,0:15:57.36,Sub,,0,0,0,,We'll do the rest.
+Dialogue: 0,0:15:58.16,0:15:59.54,Sub,,0,0,0,,I'd like to ask the Master and Senior
+Dialogue: 0,0:15:59.60,0:16:00.44,Sub,,0,0,0,,to protect us.
+Dialogue: 0,0:16:09.16,0:16:11.44,Sub,,0,0,0,,How many fruits do you think will grow ?
+Dialogue: 0,0:16:12.00,0:16:12.88,Sub,,0,0,0,,At least
+Dialogue: 0,0:16:13.28,0:16:14.84,Sub,,0,0,0,,2 Reincarnation Fruits.
+Dialogue: 0,0:16:15.08,0:16:16.48,Sub,,0,0,0,,One for you and one for me.
+Dialogue: 0,0:16:16.92,0:16:17.80,Sub,,0,0,0,,If there are 3,
+Dialogue: 0,0:16:18.08,0:16:19.64,Sub,,0,0,0,,I'll take the extra one.
+Dialogue: 0,0:16:20.44,0:16:23.96,Sub,,0,0,0,,After all, it's my disciples that are sacrificing their lifespan.
+Dialogue: 0,0:16:25.24,0:16:26.72,Sub,,0,0,0,,I hope Brother Wang understands.
+Dialogue: 0,0:16:27.68,0:16:28.96,Sub,,0,0,0,,That's fine.
+Dialogue: 0,0:16:29.12,0:16:31.07,Sub,,0,0,0,,But the branches of this Reincarnation Tree
+Dialogue: 0,0:16:31.16,0:16:31.92,Sub,,0,0,0,,belong to me.
+Dialogue: 0,0:16:39.16,0:16:40.68,Sub,,0,0,0,,3 Reincarnation Fruits !
+Dialogue: 0,0:16:48.04,0:16:49.20,Sub,,0,0,0,,Kill them all.
+Dialogue: 0,0:16:55.36,0:16:55.88,Sub,,0,0,0,,Damn it !
+Dialogue: 0,0:16:56.88,0:16:57.56,Sub,,0,0,0,,How much longer ?
+Dialogue: 0,0:16:57.84,0:16:58.64,Sub,,0,0,0,,3 hours
+Dialogue: 0,0:17:14.72,0:17:15.96,Sub,,0,0,0,,Fantastic !
+Dialogue: 0,0:17:27.84,0:17:28.64,Sub,,0,0,0,,Attack together !
+Dialogue: 0,0:17:44.04,0:17:45.26,Sub,,0,0,0,,What's this ?!
+Dialogue: 0,0:17:45.32,0:17:46.57,Sub,,0,0,0,,Get out of the way !
+Dialogue: 0,0:17:47.56,0:17:48.24,Sub,,0,0,0,,Explode !
+Dialogue: 0,0:17:51.12,0:17:53.80,Sub,,0,0,0,,These are just 4 or 5-leaf Shamans.
+Dialogue: 0,0:17:54.44,0:17:56.76,Sub,,0,0,0,,If there are two or more 6-leaf Shamans,
+Dialogue: 0,0:17:56.96,0:17:58.56,Sub,,0,0,0,,then there's nothing I can do.
+Dialogue: 0,0:17:58.72,0:17:59.94,Sub,,0,0,0,,Besides, on this floor
+Dialogue: 0,0:18:00.00,0:18:01.72,Sub,,0,0,0,,there is a Shaman equivalent to Soul Transformation,
+Dialogue: 0,0:18:01.88,0:18:03.36,Sub,,0,0,0,,a 7-leaf Shaman.
+Dialogue: 0,0:18:11.44,0:18:12.56,Sub,,0,0,0,,It's too slow.
+Dialogue: 0,0:18:14.52,0:18:15.16,Sub,,0,0,0,,Mast...
+Dialogue: 0,0:18:15.64,0:18:16.76,Sub,,0,0,0,,Master !
+Dialogue: 0,0:18:18.12,0:18:22.04,Sub,,0,0,0,,You were good disciples, consider it your reward.
+Dialogue: 0,0:18:22.68,0:18:24.64,Sub,,0,0,0,,Sacrificing their entire lifespan
+Dialogue: 0,0:18:25.28,0:18:26.84,Sub,,0,0,0,,to accelerate the growth of the Reincarnation Fruits...
+Dialogue: 0,0:18:25.80,0:18:28.44,Card Hard,,0,0,0,,{\pos(1597,454)\fad(300,300}Reincarnation Fruits
+Dialogue: 0,0:18:28.20,0:18:29.00,Sub,,0,0,0,,This Sun guy
+Dialogue: 0,0:18:29.64,0:18:31.36,Sub,,0,0,0,,is really ruthless.
+Dialogue: 0,0:18:32.16,0:18:33.20,Sub,,0,0,0,,This is it !
+Dialogue: 0,0:18:35.40,0:18:36.04,Sub,,0,0,0,,Attack !
+Dialogue: 0,0:18:48.16,0:18:49.92,Sub,,0,0,0,,Restriction Spears !
+Dialogue: 0,0:19:08.04,0:19:10.56,Card Hard,,0,0,0,,{\pos(1548,541)\fad(300,300}Chi Mu\NForsaken Immortal Clan\N6-leaf Warrior
+Dialogue: 0,0:19:11.40,0:19:12.56,Sub,,0,0,0,,A Warrior...
+Dialogue: 0,0:19:32.61,0:19:35.91,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:19:35.91,0:19:37.63,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:19:37.67,0:19:39.57,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:19:40.45,0:19:47.05,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:19:43.29,0:19:47.05,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:19:47.05,0:19:54.65,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:19:50.29,0:19:54.65,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:19:55.09,0:20:02.21,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:19:57.85,0:20:02.21,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:20:02.53,0:20:05.53,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:20:03.81,0:20:05.53,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:20:05.82,0:20:09.25,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:20:07.65,0:20:09.25,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:20:09.81,0:20:13.33,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:20:13.33,0:20:16.65,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:20:17.41,0:20:20.61,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:20:20.97,0:20:24.81,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:20:22.81,0:20:24.81,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:20:24.97,0:20:29.77,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:20:26.53,0:20:29.77,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:20:29.78,0:20:32.49,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:20:32.53,0:20:35.81,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:20:35.81,0:20:40.45,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:20:40.45,0:20:43.85,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:20:43.89,0:20:48.53,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:20:48.98,0:20:54.21,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:20:54.33,0:20:58.13,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:20:58.13,0:21:02.77,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:20:59.81,0:21:02.77,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:21:02.93,0:21:05.85,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:21:05.85,0:21:10.73,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:21:10.74,0:21:14.01,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:21:14.17,0:21:18.73,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:21:18.73,0:21:22.69,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:21:22.69,0:21:25.49,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:21:25.57,0:21:29.37,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:21:29.45,0:21:32.73,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:21:33.01,0:21:37.97,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

@@ -1,0 +1,269 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:49.56,0:01:52.40,Sub,,0,0,0,,{\fad(1000,500)\pos(960,487)}500 years ago
+Dialogue: 0,0:02:24.96,0:02:26.28,Sub,,0,0,0,,That bastard Lin Yi
+Dialogue: 0,0:02:26.76,0:02:28.32,Sub,,0,0,0,,sent us here to die.
+Dialogue: 0,0:02:28.56,0:02:31.84,Card,,0,0,0,,{\pos(1677,458)\fad(300,300)}Heng Yuezi\NHeng Yue Sect Founder\NLate stage Nascent Soul
+Dialogue: 0,0:02:29.36,0:02:30.36,Sub,,0,0,0,,Stop complaining
+Dialogue: 0,0:02:30.72,0:02:32.40,Sub,,0,0,0,,and focus on finding a way out.
+Dialogue: 0,0:02:51.64,0:02:52.52,Sub,,0,0,0,,A spatial rift !
+Dialogue: 0,0:02:52.52,0:02:53.52,Sub,,0,0,0,,That was close !
+Dialogue: 0,0:02:55.72,0:02:56.52,Sub,,0,0,0,,Go !
+Dialogue: 0,0:03:00.24,0:03:01.04,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:03:01.04,0:03:03.20,Sub,,0,0,0,,I, Piao Nanzi, will repay this debt.
+Dialogue: 0,0:03:03.92,0:03:07.32,Sub,,0,0,0,,Brother, you don't need to worry about such small matters.
+Dialogue: 0,0:03:09.00,0:03:11.44,Sub,,0,0,0,,These spatial rifts are unpredictable.
+Dialogue: 0,0:03:11.88,0:03:13.04,Sub,,0,0,0,,Their suction force
+Dialogue: 0,0:03:13.24,0:03:16.00,Sub,,0,0,0,,can overpower even a Giant Demon Clan's Nascent Soul.
+Dialogue: 0,0:03:17.28,0:03:19.24,Sub,,0,0,0,,I heard that those spatial rifts
+Dialogue: 0,0:03:19.56,0:03:22.00,Sub,,0,0,0,,can forcibly extract the spiritual energy from your body.
+Dialogue: 0,0:03:22.56,0:03:27.24,Sub,,0,0,0,,Who knows what lies beyond them in the void ?
+Dialogue: 0,0:03:27.52,0:03:28.60,Sub,,0,0,0,,Save me !
+Dialogue: 0,0:03:25.32,0:03:27.24,Third,,0,0,0,,{\pos(960,635)}Please, someone help me !
+Dialogue: 0,0:03:30.88,0:03:34.16,Sub,,0,0,0,,{\fad(500,500)\pos(960,487)}500 years later
+Dialogue: 0,0:03:41.68,0:03:44.20,Card,,0,0,0,,{\pos(1701,392)\fad(300,300)}Wandering soul
+Dialogue: 0,0:04:38.56,0:04:41.32,Sub,,0,0,0,,{\fad(500,300)\pos(960,501)}700 years later
+Dialogue: 0,0:05:13.16,0:05:14.24,Sub,,0,0,0,,My Divine Sense
+Dialogue: 0,0:05:14.64,0:05:16.00,Sub,,0,0,0,,needs to get stronger.
+Dialogue: 0,0:05:37.76,0:05:38.80,Sub,,0,0,0,,Still not enough...
+Dialogue: 0,0:05:40.76,0:05:42.84,Sub,,0,0,0,,You’ve crossed the line.
+Dialogue: 0,0:05:42.84,0:05:43.96,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:05:52.12,0:05:55.12,Card,,0,0,0,,{\fad(300,300)\pos(1668,413)}Soul Devourer
+Dialogue: 0,0:05:53.04,0:05:55.20,Sub,,0,0,0,,You... You’re a new Soul Devourer ?
+Dialogue: 0,0:05:56.16,0:05:57.04,Sub,,0,0,0,,Soul Devourer ?
+Dialogue: 0,0:05:58.08,0:05:59.24,Sub,,0,0,0,,After so many years
+Dialogue: 0,0:05:59.24,0:06:01.52,Sub,,0,0,0,,I finally have a new companion !
+Dialogue: 0,0:06:01.96,0:06:03.36,Sub,,0,0,0,,We are Soul Devourers
+Dialogue: 0,0:06:03.40,0:06:04.84,Sub,,0,0,0,,but what does it mean ?
+Dialogue: 0,0:06:04.88,0:06:06.84,Sub,,0,0,0,,Those twin-horned creatures are wandering souls,
+Dialogue: 0,0:06:07.00,0:06:07.84,Sub,,0,0,0,,they’re our prey.
+Dialogue: 0,0:06:07.84,0:06:09.08,Sub,,0,0,0,,How do I leave this place ?
+Dialogue: 0,0:06:09.20,0:06:10.00,Sub,,0,0,0,,Leave ?
+Dialogue: 0,0:06:10.00,0:06:10.87,Sub,,0,0,0,,Why do you want to leave ?
+Dialogue: 0,0:06:10.88,0:06:12.16,Sub,,0,0,0,,There’s no way to leave.
+Dialogue: 0,0:06:12.72,0:06:15.16,Sub,,0,0,0,,Can’t we tear a spatial rift to try to leave ?
+Dialogue: 0,0:06:16.12,0:06:17.92,Sub,,0,0,0,,Smashing it from the inside won’t work.
+Dialogue: 0,0:06:17.92,0:06:20.04,Sub,,0,0,0,,The spatial rifts only open from outside.
+Dialogue: 0,0:06:20.20,0:06:21.68,Sub,,0,0,0,,The cultivators outside fight for treasures
+Dialogue: 0,0:06:21.68,0:06:22.80,Sub,,0,0,0,,and kill each other
+Dialogue: 0,0:06:22.80,0:06:23.72,Sub,,0,0,0,,in brutal battles...
+Dialogue: 0,0:06:23.72,0:06:25.16,Sub,,0,0,0,,Get to the point.
+Dialogue: 0,0:06:26.44,0:06:27.56,Sub,,0,0,0,,We must wait
+Dialogue: 0,0:06:28.16,0:06:30.24,Sub,,0,0,0,,about 40 000 years.
+Dialogue: 0,0:06:30.24,0:06:32.72,Sub,,0,0,0,,No... 42 000...?
+Dialogue: 0,0:06:37.08,0:06:38.96,Sub,,0,0,0,,You said the cultivators outside cause spatial rifts
+Dialogue: 0,0:06:39.00,0:06:41.20,Sub,,0,0,0,,when they fight each other for treasures.
+Dialogue: 0,0:06:43.48,0:06:45.28,Sub,,0,0,0,,Will it work with Divine Sense ?
+Dialogue: 0,0:06:53.08,0:06:54.48,Sub,,0,0,0,,Go northwest,
+Dialogue: 0,0:06:54.48,0:06:56.60,Sub,,0,0,0,,a strange empty Divine Sense appeared there.
+Dialogue: 0,0:06:55.28,0:06:58.52,Card,,0,0,0,,{\pos(1535,462)\fad(300,300)}Xu Hao\NLingwu Sect disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:07:15.56,0:07:16.44,Sub,,0,0,0,,Little brother,
+Dialogue: 0,0:07:17.40,0:07:18.72,Sub,,0,0,0,,you need to eat.
+Dialogue: 0,0:07:22.80,0:07:24.76,Sub,,0,0,0,,You’ll die if you keep using your energy.
+Dialogue: 0,0:07:24.80,0:07:26.16,Sub,,0,0,0,,Even if it's been 300 years here
+Dialogue: 0,0:07:26.28,0:07:28.84,Sub,,0,0,0,,only 3 years have gone by outside the spatial rift.
+Dialogue: 0,0:07:30.12,0:07:31.76,Sub,,0,0,0,,I know you want to leave
+Dialogue: 0,0:07:31.76,0:07:33.36,Sub,,0,0,0,,but your method will not work.
+Dialogue: 0,0:07:34.04,0:07:36.64,Sub,,0,0,0,,Even if your Divine Sense is able to cross the rift,
+Dialogue: 0,0:07:36.92,0:07:39.04,Sub,,0,0,0,,as long as your soul and body aren't in the same place
+Dialogue: 0,0:07:39.04,0:07:40.88,Sub,,0,0,0,,you won't be able to recover your body.
+Dialogue: 0,0:07:51.44,0:07:52.64,Sub,,0,0,0,,This is a treasure
+Dialogue: 0,0:07:52.80,0:07:54.32,Sub,,0,0,0,,that was fated to be mine !
+Dialogue: 0,0:07:52.24,0:07:54.32,Card,,0,0,0,,{\pos(1574,410)\fad(300,000)}Kun Bu\NPosuo Sect disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:08:00.24,0:08:02.16,Sub,,0,0,0,,There really is some Divine Sense here.
+Dialogue: 0,0:08:08.96,0:08:12.68,Sub,,0,0,0,,Junior Brother, what you're doing is inappropriate.
+Dialogue: 0,0:08:14.00,0:08:17.43,Card,,0,0,0,,{\pos(1584,458)\fad(300,300)}Ge Yang\NLingwu Sect disciple\NLate stage Foundation Establishment
+Dialogue: 0,0:08:16.76,0:08:17.48,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:08:17.48,0:08:19.00,Sub,,0,0,0,,what do you mean by this ?
+Dialogue: 0,0:08:19.44,0:08:21.96,Sub,,0,0,0,,And what do YOU mean by not letting go ?
+Dialogue: 0,0:08:23.36,0:08:24.16,Sub,,0,0,0,,Junior Brother,
+Dialogue: 0,0:08:24.72,0:08:27.36,Sub,,0,0,0,,he found that Divine Sense first.
+Dialogue: 0,0:08:27.44,0:08:28.52,Sub,,0,0,0,,Don't fight for it.
+Dialogue: 0,0:08:31.04,0:08:33.12,Sub,,0,0,0,,At least your Senior Brother is reasonable.
+Dialogue: 0,0:08:33.16,0:08:34.61,Sub,,0,0,0,,If you don’t let go now,
+Dialogue: 0,0:08:34.64,0:08:36.68,Sub,,0,0,0,,don’t blame me for being ruthless !
+Dialogue: 0,0:09:00.76,0:09:02.09,Sub,,0,0,0,,Unreasonable arrogance
+Dialogue: 0,0:09:02.12,0:09:03.52,Sub,,0,0,0,,is the root of your defeat.
+Dialogue: 0,0:09:03.72,0:09:05.04,Sub,,0,0,0,,I’ll teach you
+Dialogue: 0,0:09:05.04,0:09:06.80,Sub,,0,0,0,,what your Senior Brother failed to !
+Dialogue: 0,0:09:20.80,0:09:24.08,Sub,,0,0,0,,How long will you keep watching ?
+Dialogue: 0,0:09:29.24,0:09:31.72,Sub,,0,0,0,,I only just got a chance to act.
+Dialogue: 0,0:09:41.28,0:09:43.16,Sub,,0,0,0,,You must always be careful.
+Dialogue: 0,0:09:43.60,0:09:44.96,Sub,,0,0,0,,Consider your bag of holding
+Dialogue: 0,0:09:44.96,0:09:47.00,Sub,,0,0,0,,the payment for this lesson.
+Dialogue: 0,0:09:53.04,0:09:54.72,Sub,,0,0,0,,This thing is really weird.
+Dialogue: 0,0:09:55.48,0:09:56.24,Sub,,0,0,0,,What is it ?
+Dialogue: 0,0:09:56.28,0:09:58.40,Sub,,0,0,0,,There too much empty Divine Sense here.
+Dialogue: 0,0:09:58.88,0:10:00.64,Sub,,0,0,0,,The more treasures, the better.
+Dialogue: 0,0:10:00.76,0:10:03.08,Sub,,0,0,0,,But it would make sense
+Dialogue: 0,0:10:03.60,0:10:06.20,Sub,,0,0,0,,if a high rank country had sent someone to investigate this matter.
+Dialogue: 0,0:10:07.20,0:10:09.60,Sub,,0,0,0,,Why haven't they made their move already ?
+Dialogue: 0,0:10:11.92,0:10:13.08,Sub,,0,0,0,,Let's keep searching.
+Dialogue: 0,0:10:21.57,0:10:31.54,Sub,,0,0,0,,{\an8}Note: The appearance of these characters is the same as the ones attacking Situ Nan in episode 1. These are just reused assets and not the same characters.
+Dialogue: 0,0:10:25.52,0:10:28.64,Sub,,0,0,0,,The Foreign Battlefield has been unstable lately.
+Dialogue: 0,0:10:31.64,0:10:33.04,Sub,,0,0,0,,How odd,
+Dialogue: 0,0:10:33.60,0:10:35.92,Sub,,0,0,0,,it was fine when I last went.
+Dialogue: 0,0:10:36.36,0:10:38.36,Sub,,0,0,0,,It's only been 50 years,
+Dialogue: 0,0:10:38.36,0:10:40.04,Sub,,0,0,0,,how could it suddenly be unstable ?
+Dialogue: 0,0:10:40.04,0:10:41.44,Sub,,0,0,0,,The thing is,
+Dialogue: 0,0:10:41.76,0:10:44.60,Sub,,0,0,0,,only Foundation Establishment cultivators can enter.
+Dialogue: 0,0:10:44.60,0:10:46.92,Sub,,0,0,0,,So it's more likely that a Soul Transformation like you
+Dialogue: 0,0:10:46.92,0:10:48.48,Sub,,0,0,0,,did something.
+Dialogue: 0,0:10:48.48,0:10:49.44,Sub,,0,0,0,,What did you say !?
+Dialogue: 0,0:10:49.72,0:10:51.24,Sub,,0,0,0,,Enough, enough.
+Dialogue: 0,0:10:51.56,0:10:54.44,Sub,,0,0,0,,All the cultivators cleaning the battlefield
+Dialogue: 0,0:10:54.44,0:10:55.72,Sub,,0,0,0,,are obsessed with
+Dialogue: 0,0:10:56.04,0:10:58.56,Sub,,0,0,0,,the regular appearance of an empty Divine Sense.
+Dialogue: 0,0:10:59.32,0:11:02.72,Sub,,0,0,0,,There’s an unknown variable at play here.
+Dialogue: 0,0:11:03.56,0:11:05.56,Sub,,0,0,0,,I saw no Divine Sense back then.
+Dialogue: 0,0:11:05.56,0:11:06.76,Sub,,0,0,0,,No one accused you.
+Dialogue: 0,0:11:08.60,0:11:11.04,Sub,,0,0,0,,The Foreign Battlefield is unstable by nature.
+Dialogue: 0,0:11:11.16,0:11:12.64,Sub,,0,0,0,,No one inside can leave
+Dialogue: 0,0:11:12.76,0:11:14.16,Sub,,0,0,0,,and no one outside can enter.
+Dialogue: 0,0:11:14.76,0:11:16.20,Sub,,0,0,0,,Let’s hear your suggestions.
+Dialogue: 0,0:11:17.12,0:11:19.60,Sub,,0,0,0,,We ask our rank 6 country for help.
+Dialogue: 0,0:11:19.84,0:11:20.88,Sub,,0,0,0,,You're crazy !
+Dialogue: 0,0:11:20.88,0:11:22.36,Sub,,0,0,0,,They're too expensive.
+Dialogue: 0,0:11:23.56,0:11:25.32,Sub,,0,0,0,,If we don't have a solution,
+Dialogue: 0,0:11:25.44,0:11:27.76,Sub,,0,0,0,,then we let the Foundation Establishment cultivators
+Dialogue: 0,0:11:27.92,0:11:30.08,Sub,,0,0,0,,fend for themselves.
+Dialogue: 0,0:11:33.44,0:11:36.16,Sub,,0,0,0,,By the way, I revoked Zhao's qualifications.
+Dialogue: 0,0:11:38.08,0:11:39.36,Sub,,0,0,0,,No objections ?
+Dialogue: 0,0:11:44.16,0:11:45.36,Sub,,0,0,0,,I have an idea.
+Dialogue: 0,0:11:47.48,0:11:48.96,Sub,,0,0,0,,Send them a message:
+Dialogue: 0,0:11:48.96,0:11:50.84,Sub,,0,0,0,,"The cleanup is cancelled.
+Dialogue: 0,0:11:50.84,0:11:52.52,Sub,,0,0,0,,Focus on finding the Divine Sense.
+Dialogue: 0,0:11:52.68,0:11:53.96,Sub,,0,0,0,,In 3 days,
+Dialogue: 0,0:11:53.96,0:11:55.56,Sub,,0,0,0,,we will activate the teleportation formation
+Dialogue: 0,0:11:55.56,0:11:56.92,Sub,,0,0,0,,and evacuate everyone."
+Dialogue: 0,0:11:57.08,0:11:58.44,Sub,,0,0,0,,At worst,
+Dialogue: 0,0:11:58.44,0:12:01.64,Sub,,0,0,0,,we can pretend this cleanup never happened.
+Dialogue: 0,0:12:02.00,0:12:03.80,Sub,,0,0,0,,Alright, let's do that.
+Dialogue: 0,0:12:17.64,0:12:18.64,Sub,,0,0,0,,Finally...
+Dialogue: 0,0:12:22.64,0:12:23.56,Sub,,0,0,0,,3 days !
+Dialogue: 0,0:12:23.80,0:12:24.92,Sub,,0,0,0,,I’ve chased you for 3 days.
+Dialogue: 0,0:12:25.88,0:12:27.10,Sub,,0,0,0,,Once I get you,
+Dialogue: 0,0:12:27.12,0:12:28.92,Sub,,0,0,0,,I’ll return to the rally point.
+Dialogue: 0,0:12:29.16,0:12:31.00,Sub,,0,0,0,,Of all the disciples from the War God Shrine,
+Dialogue: 0,0:12:31.00,0:12:32.76,Sub,,0,0,0,,less than 10 survived.
+Dialogue: 0,0:12:32.84,0:12:35.84,Sub,,0,0,0,,The Sect Leader will surely favor me now
+Dialogue: 0,0:12:35.84,0:12:37.80,Sub,,0,0,0,,and make me a core disciple !
+Dialogue: 0,0:12:38.08,0:12:39.20,Sub,,0,0,0,,When that happens,
+Dialogue: 0,0:12:39.24,0:12:41.44,Sub,,0,0,0,,even Junior Sister will look at me differently !
+Dialogue: 0,0:12:48.88,0:12:49.76,Sub,,0,0,0,,Xu Hao ?
+Dialogue: 0,0:12:51.16,0:12:52.08,Sub,,0,0,0,,Ge Yang ?
+Dialogue: 0,0:12:53.04,0:12:55.40,Sub,,0,0,0,,These two are famous for murdering
+Dialogue: 0,0:12:55.40,0:12:56.96,Sub,,0,0,0,,and stealing treasures.
+Dialogue: 0,0:12:57.56,0:12:59.44,Sub,,0,0,0,,It looks like I’ll either die
+Dialogue: 0,0:12:59.44,0:13:01.36,Sub,,0,0,0,,or be skinned alive.
+Dialogue: 0,0:13:01.36,0:13:04.28,Sub,,0,0,0,,How dare you address us by name ?
+Dialogue: 0,0:13:05.24,0:13:06.08,Sub,,0,0,0,,Senior Brother Ge.
+Dialogue: 0,0:13:07.72,0:13:08.68,Sub,,0,0,0,,Senior Brother Xu.
+Dialogue: 0,0:13:09.56,0:13:10.72,Sub,,0,0,0,,So...
+Dialogue: 0,0:13:10.72,0:13:12.60,Sub,,0,0,0,,Is this yours ?
+Dialogue: 0,0:13:12.76,0:13:13.56,Sub,,0,0,0,,Not at all.
+Dialogue: 0,0:13:13.76,0:13:15.36,Sub,,0,0,0,,This empty Divine Sense
+Dialogue: 0,0:13:15.40,0:13:17.21,Sub,,0,0,0,,belongs to whoever claims it first.
+Dialogue: 0,0:13:26.08,0:13:27.20,Sub,,0,0,0,,Trash...
+Dialogue: 0,0:13:27.88,0:13:29.36,Sub,,0,0,0,,What else do you have ?
+Dialogue: 0,0:13:37.72,0:13:38.84,Sub,,0,0,0,,Senior Brothers,
+Dialogue: 0,0:13:39.00,0:13:41.76,Sub,,0,0,0,,these are all the treasures I found here.
+Dialogue: 0,0:13:42.64,0:13:43.92,Sub,,0,0,0,,You can take them all
+Dialogue: 0,0:13:44.16,0:13:45.76,Sub,,0,0,0,,but just spare my life
+Dialogue: 0,0:13:45.76,0:13:47.96,Sub,,0,0,0,,and let me return to the Burning Fire country.
+Dialogue: 0,0:13:49.52,0:13:52.72,Sub,,0,0,0,,You’re the most spineless person I have ever met
+Dialogue: 0,0:13:52.88,0:13:55.00,Sub,,0,0,0,,but also the smartest.
+Dialogue: 0,0:13:55.84,0:13:56.96,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:13:57.12,0:13:58.72,Sub,,0,0,0,,I’ll let you go this time.
+Dialogue: 0,0:13:58.84,0:13:59.92,Sub,,0,0,0,,Now scram.
+Dialogue: 0,0:14:16.20,0:14:17.08,Sub,,0,0,0,,You...
+Dialogue: 0,0:14:17.32,0:14:18.88,Sub,,0,0,0,,I never said I'd let you go.
+Dialogue: 0,0:14:26.36,0:14:27.88,Sub,,0,0,0,,How kind of you.
+Dialogue: 0,0:14:28.72,0:14:30.56,Sub,,0,0,0,,Next time, I'll kill him myself.
+Dialogue: 0,0:14:30.56,0:14:32.64,Sub,,0,0,0,,You won't have to trouble yourself, Senior Brother.
+Dialogue: 0,0:14:53.44,0:14:55.36,Sub,,0,0,0,,I want your body,
+Dialogue: 0,0:14:56.00,0:14:57.16,Sub,,0,0,0,,dead man.
+Dialogue: 0,0:14:58.88,0:15:00.60,Sub,,0,0,0,,I’ll give you everything.
+Dialogue: 0,0:15:01.00,0:15:02.96,Sub,,0,0,0,,I just want
+Dialogue: 0,0:15:03.00,0:15:05.48,Sub,,0,0,0,,you to kill them for me.
+Dialogue: 0,0:15:06.28,0:15:07.24,Sub,,0,0,0,,Deal.
+Dialogue: 0,0:16:31.28,0:16:34.44,Card,,0,0,0,,{\pos(1568,399)\fad(300,300)}Wang Lin\NLate stage Foundation Establishment
+Dialogue: 0,0:16:44.16,0:16:45.92,Sub,,0,0,0,,Teng Huayuan...
+Dialogue: 0,0:16:45.92,0:16:47.68,Sub,,0,0,0,,I, Wang Lin,
+Dialogue: 0,0:16:47.68,0:16:49.16,Sub,,0,0,0,,am coming back.
+Dialogue: 0,0:16:52.80,0:16:54.04,Sub,,0,0,0,,Divine Sense,
+Dialogue: 0,0:16:54.48,0:16:55.12,Sub,,0,0,0,,return !
+Dialogue: 0,0:17:12.51,0:19:14.31,Note,,0,0,0,,{\fad(1000,1000)}There are multiple instances of Foreign Battlefields. Rank 4 countries compete with eachother regularly and low level countries cleanup after them. That is why only Foundation Establishment cultivators can enter the cleanup but in the flashback we see the Nascent Soul Ancestors of Xuan Dao and Heng Yue, Lin Yi had sent them in his stead.\N\NThe adaptation really messed up here because the amount of time skips is inconsistent. 50 years have passed which should've been 5000 years in the void of the spatial rift.
+Dialogue: 0,0:17:17.98,0:17:23.62,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:17:20.28,0:17:23.62,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:17:24.26,0:17:29.22,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:17:26.10,0:17:29.22,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:17:29.38,0:17:35.14,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:17:35.26,0:17:40.86,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:17:41.14,0:17:46.46,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:17:43.02,0:17:46.46,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:17:46.74,0:17:52.06,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:17:48.64,0:17:52.06,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:17:52.10,0:17:57.78,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:17:54.98,0:17:57.78,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:17:58.22,0:18:02.42,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:18:00.38,0:18:02.42,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:18:02.50,0:18:05.74,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:18:05.78,0:18:08.82,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:18:08.95,0:18:14.38,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:18:10.64,0:18:14.38,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:18:14.38,0:18:17.50,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:18:17.50,0:18:20.54,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:18:20.54,0:18:25.90,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:18:22.42,0:18:25.90,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:18:25.90,0:18:28.86,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:18:28.86,0:18:31.66,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:18:31.66,0:18:37.14,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:18:33.70,0:18:37.14,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:18:37.34,0:18:40.50,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:18:40.50,0:18:43.54,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:18:43.54,0:18:49.22,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:18:45.86,0:18:49.22,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

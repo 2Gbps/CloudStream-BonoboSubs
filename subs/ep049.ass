@@ -1,0 +1,309 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Note,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:48.60,0:01:51.72,Card,,0,0,0,,{\pos(1485,426)\fad(300,300)}Tianyin City
+Dialogue: 0,0:01:49.04,0:01:50.28,Sub,,0,0,0,,Hurry up !
+Dialogue: 0,0:01:50.68,0:01:52.00,Sub,,0,0,0,,By orders of Teng Three
+Dialogue: 0,0:01:52.44,0:01:54.16,Sub,,0,0,0,,all cultivators must gather.
+Dialogue: 0,0:01:54.47,0:01:56.32,Sub,,0,0,0,,Protect the city and you will be rewarded !
+Dialogue: 0,0:01:56.60,0:01:58.20,Sub,,0,0,0,,By orders of Teng Three
+Dialogue: 0,0:01:58.48,0:02:00.28,Sub,,0,0,0,,all cultivators must gather.
+Dialogue: 0,0:02:00.61,0:02:02.52,Sub,,0,0,0,,Protect the city and you will be rewarded !
+Dialogue: 0,0:02:08.60,0:02:09.81,Sub,,0,0,0,,Dear,
+Dialogue: 0,0:02:09.24,0:02:12.44,Card,,0,0,0,,{\pos(1499,475)\fad(300,300)}Teng Xiuxiu\NEarly stage Core Formation
+Dialogue: 0,0:02:10.04,0:02:11.04,Sub,,0,0,0,,I head my father say
+Dialogue: 0,0:02:11.12,0:02:13.52,Sub,,0,0,0,,that Teng Nine was killed by someone of unknown origin.
+Dialogue: 0,0:02:14.76,0:02:15.44,Sub,,0,0,0,,Should we
+Dialogue: 0,0:02:15.59,0:02:17.00,Sub,,0,0,0,,also defend the city ?
+Dialogue: 0,0:02:18.96,0:02:20.00,Sub,,0,0,0,,This doesn't concern me.
+Dialogue: 0,0:02:20.96,0:02:23.56,Sub,,0,0,0,,In fact, I'd prefer if this slaughter continues.
+Dialogue: 0,0:02:24.12,0:02:26.76,Sub,,0,0,0,,So that the whole Teng Family gets killed,
+Dialogue: 0,0:02:26.81,0:02:28.48,Sub,,0,0,0,,to the very last one.
+Dialogue: 0,0:02:31.96,0:02:32.68,Sub,,0,0,0,,Dear,
+Dialogue: 0,0:02:33.72,0:02:36.12,Sub,,0,0,0,,it is indeed I that fell in love with you.
+Dialogue: 0,0:02:36.12,0:02:38.00,Sub,,0,0,0,,Because of the Ancestor's power,
+Dialogue: 0,0:02:38.00,0:02:41.56,Sub,,0,0,0,,to protect your life, you were forced to marry me.
+Dialogue: 0,0:02:43.28,0:02:44.92,Sub,,0,0,0,,But in our 200 years of Dual Cultivation,
+Dialogue: 0,0:02:44.92,0:02:46.76,Sub,,0,0,0,,I've always taken care of you, with all my love.
+Dialogue: 0,0:02:57.00,0:02:59.84,Sub,,0,0,0,,Teng Nine was a barely qualified to be a Core Member,
+Dialogue: 0,0:02:59.84,0:03:02.08,Sub,,0,0,0,,his seat wasn't even warm yet.
+Dialogue: 0,0:03:02.52,0:03:05.00,Sub,,0,0,0,,His death... doesn't mean anything.
+Dialogue: 0,0:03:02.72,0:03:05.20,Card,,0,0,0,,{\pos(340,497)\fad(300,000)}Teng Two\NTeng Family Core Member\NLate stage Nascent Soul
+Dialogue: 0,0:03:05.52,0:03:08.48,Card,,0,0,0,,{\fad(300,300)\pos(335,533)}Teng Three\NTeng Family Core Member\NLate stage Nascent Soul
+Dialogue: 0,0:03:06.46,0:03:08.64,Sub,,0,0,0,,Hmm... It doesn't matter who he is.
+Dialogue: 0,0:03:08.92,0:03:11.08,Sub,,0,0,0,,He dares to wreck havoc in our Teng Family's land
+Dialogue: 0,0:03:11.08,0:03:13.16,Sub,,0,0,0,,so I will definitely give him a proper welcome !
+Dialogue: 0,0:03:10.96,0:03:13.56,Card,,0,0,0,,{\pos(446,504)\fad(300,000)}Teng Four\NTeng Family Core Member\NLate Stage Nascent Soul
+Dialogue: 0,0:03:15.20,0:03:16.16,Sub,,0,0,0,,Don't rush,
+Dialogue: 0,0:03:17.00,0:03:19.44,Sub,,0,0,0,,if we catch him too easily,
+Dialogue: 0,0:03:19.79,0:03:22.28,Sub,,0,0,0,,will it help to display our strength ?
+Dialogue: 0,0:03:23.16,0:03:26.44,Sub,,0,0,0,,Let's first catch these criminals in Tianyin City
+Dialogue: 0,0:03:26.88,0:03:29.96,Sub,,0,0,0,,and then display our achievements to the Ancestor.
+Dialogue: 0,0:03:33.28,0:03:36.76,Sub,,0,0,0,,You always find the benefits, no matter the situation.
+Dialogue: 0,0:03:41.03,0:03:41.52,Sub,,0,0,0,,It's him !
+Dialogue: 0,0:03:42.24,0:03:43.20,Sub,,0,0,0,,What beast is he riding ?
+Dialogue: 0,0:03:43.64,0:03:45.24,Sub,,0,0,0,,He is really alone ?
+Dialogue: 0,0:03:45.48,0:03:47.24,Sub,,0,0,0,,Is he the one who killed Teng Nine ?
+Dialogue: 0,0:03:49.16,0:03:50.24,Sub,,0,0,0,,Teng Family Core Members,
+Dialogue: 0,0:03:51.16,0:03:52.84,Sub,,0,0,0,,are you not greeting me ?
+Dialogue: 0,0:03:55.14,0:03:56.96,Sub,,0,0,0,,You arrogant little criminal.
+Dialogue: 0,0:03:56.96,0:03:58.80,Sub,,0,0,0,,You have quite the nerve.
+Dialogue: 0,0:03:59.80,0:04:01.52,Sub,,0,0,0,,There are three of us
+Dialogue: 0,0:04:01.72,0:04:03.68,Sub,,0,0,0,,yet you still walked in our trap.
+Dialogue: 0,0:04:03.68,0:04:05.80,Sub,,0,0,0,,You will not leave this place alive !
+Dialogue: 0,0:04:06.97,0:04:08.83,Sub,,0,0,0,,So there are 3 of you here,
+Dialogue: 0,0:04:09.24,0:04:10.48,Sub,,0,0,0,,spares me some trouble.
+Dialogue: 0,0:04:10.48,0:04:11.81,Sub,,0,0,0,,You're too arrogant !
+Dialogue: 0,0:04:18.80,0:04:20.56,Sub,,0,0,0,,You should attack all at once.
+Dialogue: 0,0:04:24.96,0:04:26.04,Sub,,0,0,0,,Be careful.
+Dialogue: 0,0:04:26.72,0:04:27.72,Sub,,0,0,0,,At the time,
+Dialogue: 0,0:04:27.72,0:04:30.04,Sub,,0,0,0,,when we entered Nascent Soul,
+Dialogue: 0,0:04:30.40,0:04:32.88,Sub,,0,0,0,,we were kicked out of the Core Family.
+Dialogue: 0,0:04:33.47,0:04:35.64,Sub,,0,0,0,,Do you know how we the situation turned around ?
+Dialogue: 0,0:04:35.86,0:04:38.24,Sub,,0,0,0,,How did we keep our place for 100 years ?
+Dialogue: 0,0:04:40.28,0:04:41.24,Sub,,0,0,0,,Freedom Stone Bowl,
+Dialogue: 0,0:04:41.76,0:04:42.68,Sub,,0,0,0,,capture him
+Dialogue: 0,0:04:43.16,0:04:44.92,Sub,,0,0,0,,and devour him !
+Dialogue: 0,0:04:52.08,0:04:53.04,Sub,,0,0,0,,A devouring spell...
+Dialogue: 0,0:05:05.60,0:05:06.40,Sub,,0,0,0,,Third Brother !
+Dialogue: 0,0:05:07.52,0:05:08.44,Sub,,0,0,0,,Meteor Swords,
+Dialogue: 0,0:05:08.84,0:05:10.04,Sub,,0,0,0,,Meteor shower !
+Dialogue: 0,0:05:10.44,0:05:11.84,Sub,,0,0,0,,Get rid of him !
+Dialogue: 0,0:05:26.67,0:05:27.68,Sub,,0,0,0,,Still alive ?
+Dialogue: 0,0:05:29.44,0:05:31.08,Sub,,0,0,0,,Mystic Nether Hammer
+Dialogue: 0,0:05:31.44,0:05:32.32,Sub,,0,0,0,,Rise...
+Dialogue: 0,0:05:33.04,0:05:33.92,Sub,,0,0,0,,and fall !
+Dialogue: 0,0:05:48.08,0:05:50.00,Sub,,0,0,0,,The Masters are strong.
+Dialogue: 0,0:05:51.04,0:05:52.56,Sub,,0,0,0,,Our weapons
+Dialogue: 0,0:05:52.84,0:05:55.04,Sub,,0,0,0,,were forged in the Chaotic Broken Stars
+Dialogue: 0,0:05:55.04,0:05:56.48,Sub,,0,0,0,,from ancient Artifacts.
+Dialogue: 0,0:05:57.52,0:05:59.68,Sub,,0,0,0,,How was it little brat ?
+Dialogue: 0,0:06:00.20,0:06:01.52,Sub,,0,0,0,,Are you still breathing ?
+Dialogue: 0,0:06:01.56,0:06:03.92,Sub,,0,0,0,,I'm afraid his soul has dissipated.
+Dialogue: 0,0:06:05.52,0:06:07.84,Sub,,0,0,0,,If all the Core Members are at this level...
+Dialogue: 0,0:06:09.12,0:06:10.44,Sub,,0,0,0,,Teng Huayuan...
+Dialogue: 0,0:06:10.44,0:06:12.84,Sub,,0,0,0,,I must thank you
+Dialogue: 0,0:06:12.84,0:06:15.92,Sub,,0,0,0,,for raising such quality devil candidates for me.
+Dialogue: 0,0:06:37.08,0:06:38.24,Sub,,0,0,0,,Extract !
+Dialogue: 0,0:06:38.64,0:06:41.00,Sub,,0,0,0,,I will make devils of the Teng Family.
+Dialogue: 0,0:06:42.68,0:06:43.92,Sub,,0,0,0,,Ironic...
+Dialogue: 0,0:06:45.66,0:06:46.63,Sub,,0,0,0,,Running away ?
+Dialogue: 0,0:06:56.16,0:06:56.96,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:06:56.96,0:06:58.64,Sub,,0,0,0,,I am willing to serve you.
+Dialogue: 0,0:06:58.64,0:07:00.28,Sub,,0,0,0,,I will give you my Soul Blood,
+Dialogue: 0,0:07:00.28,0:07:02.69,Sub,,0,0,0,,so that I cannot ever betray you.
+Dialogue: 0,0:07:05.08,0:07:07.00,Sub,,0,0,0,,The Teng Family Core Members
+Dialogue: 0,0:07:07.08,0:07:08.04,Sub,,0,0,0,,must die !
+Dialogue: 0,0:07:21.00,0:07:23.32,Sub,,0,0,0,,What kind of monster is this ?
+Dialogue: 0,0:07:23.76,0:07:24.88,Sub,,0,0,0,,One more to go.
+Dialogue: 0,0:07:25.72,0:07:27.56,Sub,,0,0,0,,Everyone, attack him !
+Dialogue: 0,0:07:28.32,0:07:30.52,Sub,,0,0,0,,Those who don't will have their family killed !
+Dialogue: 0,0:07:35.32,0:07:36.44,Sub,,0,0,0,,A suicidal charge ?
+Dialogue: 0,0:07:54.00,0:07:54.80,Sub,,0,0,0,,Dear,
+Dialogue: 0,0:07:55.32,0:07:58.24,Sub,,0,0,0,,It's getting louder outside.
+Dialogue: 0,0:08:03.15,0:08:03.96,Sub,,0,0,0,,Father !
+Dialogue: 0,0:08:11.28,0:08:13.64,Sub,,0,0,0,,Father, don't waste your Nascent Soul Blood,
+Dialogue: 0,0:08:13.64,0:08:14.88,Sub,,0,0,0,,your cultivation will take a toll.
+Dialogue: 0,0:08:16.42,0:08:17.31,Sub,,0,0,0,,Hurry, leave.
+Dialogue: 0,0:08:17.39,0:08:19.36,Sub,,0,0,0,,I can't escape death this time.
+Dialogue: 0,0:08:19.40,0:08:20.92,Sub,,0,0,0,,Forget about going to Teng Family City.
+Dialogue: 0,0:08:20.92,0:08:22.44,Sub,,0,0,0,,Leave the country of Zhao immediately !
+Dialogue: 0,0:08:22.44,0:08:24.08,Sub,,0,0,0,,Go as far as you can !
+Dialogue: 0,0:08:24.40,0:08:26.00,Sub,,0,0,0,,Leave with us.
+Dialogue: 0,0:08:30.84,0:08:32.64,Sub,,0,0,0,,Under the Teng Family's reign,
+Dialogue: 0,0:08:32.68,0:08:36.00,Sub,,0,0,0,,I had control over his life and death.
+Dialogue: 0,0:08:36.88,0:08:38.16,Sub,,0,0,0,,But now...
+Dialogue: 0,0:08:39.16,0:08:41.64,Sub,,0,0,0,,I have a bad feeling about him.
+Dialogue: 0,0:08:42.36,0:08:44.12,Sub,,0,0,0,,If Wang Zhuo doesn't die,
+Dialogue: 0,0:08:44.50,0:08:46.56,Sub,,0,0,0,,Xiuxiu will be in danger.
+Dialogue: 0,0:08:50.42,0:08:51.20,Sub,,0,0,0,,No !
+Dialogue: 0,0:09:00.36,0:09:01.19,Sub,,0,0,0,,You...
+Dialogue: 0,0:09:01.51,0:09:02.36,Sub,,0,0,0,,Father...
+Dialogue: 0,0:09:03.28,0:09:04.40,Sub,,0,0,0,,Don't do this.
+Dialogue: 0,0:09:13.16,0:09:15.24,Sub,,0,0,0,,Because of Xiuxiu's love,
+Dialogue: 0,0:09:15.64,0:09:17.16,Sub,,0,0,0,,I will let you live.
+Dialogue: 0,0:09:17.33,0:09:18.16,Sub,,0,0,0,,Scram !
+Dialogue: 0,0:09:19.07,0:09:20.40,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:09:20.68,0:09:23.84,Sub,,0,0,0,,Teng Xiuxiu has nothing to do with you !
+Dialogue: 0,0:09:38.44,0:09:39.28,Sub,,0,0,0,,Dear !
+Dialogue: 0,0:09:48.14,0:09:48.96,Sub,,0,0,0,,Wang Zhuo,
+Dialogue: 0,0:09:49.68,0:09:53.24,Sub,,0,0,0,,even though the Teng Family killed your family,
+Dialogue: 0,0:09:54.40,0:09:58.16,Sub,,0,0,0,,I hope you won’t do anything to harm Xiuxiu.
+Dialogue: 0,0:09:58.62,0:09:59.72,Sub,,0,0,0,,You two...
+Dialogue: 0,0:10:00.00,0:10:02.24,Sub,,0,0,0,,are a cultivation couple, after all.
+Dialogue: 0,0:10:03.96,0:10:04.92,Sub,,0,0,0,,Father,
+Dialogue: 0,0:10:05.05,0:10:07.64,Sub,,0,0,0,,Wang Zhuo won't... he won't.
+Dialogue: 0,0:10:12.56,0:10:13.61,Sub,,0,0,0,,Hurry, leave !
+Dialogue: 0,0:10:13.26,0:10:14.16,Second,,0,0,0,,Father !
+Dialogue: 0,0:10:33.73,0:10:34.56,Sub,,0,0,0,,You
+Dialogue: 0,0:10:35.12,0:10:36.56,Sub,,0,0,0,,have lost your chance to live.
+Dialogue: 0,0:11:00.68,0:11:01.48,Sub,,0,0,0,,You can leave.
+Dialogue: 0,0:11:02.40,0:11:03.63,Sub,,0,0,0,,As he said,
+Dialogue: 0,0:11:04.04,0:11:06.02,Sub,,0,0,0,,we now have nothing to do with each other.
+Dialogue: 0,0:11:08.70,0:11:09.71,Sub,,0,0,0,,Dear...
+Dialogue: 0,0:11:10.44,0:11:11.68,Sub,,0,0,0,,You won't leave ?
+Dialogue: 0,0:11:12.08,0:11:13.16,Sub,,0,0,0,,Then I will.
+Dialogue: 0,0:11:18.12,0:11:18.84,Sub,,0,0,0,,Dear...
+Dialogue: 0,0:11:19.68,0:11:20.56,Sub,,0,0,0,,Don’t go…
+Dialogue: 0,0:11:43.23,0:11:44.24,Sub,,0,0,0,,Unfilial child,
+Dialogue: 0,0:11:44.24,0:11:46.08,Sub,,0,0,0,,you have fallen in love with a Teng Family member !
+Dialogue: 0,0:11:46.56,0:11:47.36,Sub,,0,0,0,,Zhuo'er,
+Dialogue: 0,0:11:47.36,0:11:49.56,Sub,,0,0,0,,did you forget who killed us ?
+Dialogue: 0,0:11:50.12,0:11:51.28,Sub,,0,0,0,,Teng's dog !
+Dialogue: 0,0:11:51.28,0:11:52.12,Sub,,0,0,0,,Traitor !
+Dialogue: 0,0:11:52.12,0:11:53.12,Sub,,0,0,0,,You betrayed us !
+Dialogue: 0,0:11:55.48,0:11:56.88,Sub,,0,0,0,,But in our 200 years of Dual Cultivation,
+Dialogue: 0,0:11:57.72,0:11:59.84,Sub,,0,0,0,,I've always taken care of you, with all my love.
+Dialogue: 0,0:12:00.20,0:12:00.76,Sub,,0,0,0,,Father,
+Dialogue: 0,0:12:01.80,0:12:02.28,Sub,,0,0,0,,Mother,
+Dialogue: 0,0:12:03.80,0:12:04.64,Sub,,0,0,0,,your son is…
+Dialogue: 0,0:12:05.28,0:12:06.24,Sub,,0,0,0,,unfilial.
+Dialogue: 0,0:12:19.89,0:12:20.68,Sub,,0,0,0,,Xiuxiu,
+Dialogue: 0,0:12:21.37,0:12:24.12,Sub,,0,0,0,,let's wipe the grudges of the past
+Dialogue: 0,0:12:24.88,0:12:26.12,Sub,,0,0,0,,and start anew.
+Dialogue: 0,0:12:26.92,0:12:27.72,Sub,,0,0,0,,Okay ?
+Dialogue: 0,0:12:30.36,0:12:31.16,Sub,,0,0,0,,Dear,
+Dialogue: 0,0:12:32.96,0:12:34.80,Sub,,0,0,0,,this is the first time
+Dialogue: 0,0:12:35.29,0:12:36.68,Sub,,0,0,0,,you ever called me Xiuxiu.
+Dialogue: 0,0:12:57.84,0:12:58.40,Sub,,0,0,0,,You ?
+Dialogue: 0,0:12:59.08,0:12:59.96,Sub,,0,0,0,,Are you Wang Lin ?
+Dialogue: 0,0:13:05.32,0:13:06.84,Sub,,0,0,0,,I should have already guessed
+Dialogue: 0,0:13:07.76,0:13:09.00,Sub,,0,0,0,,that only you
+Dialogue: 0,0:13:09.16,0:13:11.64,Sub,,0,0,0,,would have the power to avenge our family.
+Dialogue: 0,0:13:12.24,0:13:13.04,Sub,,0,0,0,,Wang Zhuo,
+Dialogue: 0,0:13:14.24,0:13:15.04,Sub,,0,0,0,,I'm sorry.
+Dialogue: 0,0:13:16.96,0:13:18.96,Sub,,0,0,0,,If you had said that to me back then,
+Dialogue: 0,0:13:19.52,0:13:21.04,Sub,,0,0,0,,I wouldn’t have forgiven you.
+Dialogue: 0,0:13:21.64,0:13:22.64,Sub,,0,0,0,,But right now,
+Dialogue: 0,0:13:23.36,0:13:25.00,Sub,,0,0,0,,we only have one enemy
+Dialogue: 0,0:13:25.44,0:13:26.84,Sub,,0,0,0,,and that is Teng Huayuan.
+Dialogue: 0,0:13:27.16,0:13:28.08,Sub,,0,0,0,,Teng Huayuan
+Dialogue: 0,0:13:28.92,0:13:29.92,Sub,,0,0,0,,won’t escape this.
+Dialogue: 0,0:13:30.44,0:13:31.56,Sub,,0,0,0,,The entire Teng Family
+Dialogue: 0,0:13:32.32,0:13:33.64,Sub,,0,0,0,,won’t escape either !
+Dialogue: 0,0:13:35.92,0:13:36.72,Sub,,0,0,0,,My…
+Dialogue: 0,0:13:37.91,0:13:39.28,Sub,,0,0,0,,My father he…
+Dialogue: 0,0:13:39.32,0:13:41.12,Sub,,0,0,0,,He shouldn't have been named Teng.
+Dialogue: 0,0:13:45.56,0:13:46.24,Sub,,0,0,0,,You...
+Dialogue: 0,0:13:51.64,0:13:52.16,Sub,,0,0,0,,Fine,
+Dialogue: 0,0:13:52.74,0:13:53.48,Sub,,0,0,0,,both of you
+Dialogue: 0,0:13:54.70,0:13:55.72,Sub,,0,0,0,,should leave Zhao.
+Dialogue: 0,0:14:04.64,0:14:06.20,Sub,,0,0,0,,He killed my father...
+Dialogue: 0,0:14:09.80,0:14:11.24,Sub,,0,0,0,,Of course she wants revenge.
+Dialogue: 0,0:14:12.28,0:14:13.52,Sub,,0,0,0,,It looks like
+Dialogue: 0,0:14:13.88,0:14:15.44,Sub,,0,0,0,,I was too naive.
+Dialogue: 0,0:14:16.26,0:14:17.96,Sub,,0,0,0,,Now that the Teng Family is done for,
+Dialogue: 0,0:14:18.78,0:14:20.96,Sub,,0,0,0,,my hatred will dim.
+Dialogue: 0,0:14:21.64,0:14:23.20,Sub,,0,0,0,,But her hatred
+Dialogue: 0,0:14:23.76,0:14:25.84,Sub,,0,0,0,,can only grow...
+Dialogue: 0,0:14:27.32,0:14:29.48,Sub,,0,0,0,,This cycle of hatred...
+Dialogue: 0,0:14:29.74,0:14:31.16,Sub,,0,0,0,,There is only one way
+Dialogue: 0,0:14:32.44,0:14:33.68,Sub,,0,0,0,,to end it.
+Dialogue: 0,0:14:44.72,0:14:45.36,Sub,,0,0,0,,Xiuxiu,
+Dialogue: 0,0:14:46.32,0:14:47.16,Sub,,0,0,0,,forgive me.
+Dialogue: 0,0:14:54.88,0:14:56.72,Sub,,0,0,0,,We can't start over.
+Dialogue: 0,0:14:58.15,0:14:59.28,Sub,,0,0,0,,Forgive me Xiuxiu.
+Dialogue: 0,0:15:00.72,0:15:02.44,Sub,,0,0,0,,I won’t betray the Wang Family.
+Dialogue: 0,0:15:20.67,0:15:22.20,Sub,,0,0,0,,Xiuxiu, don’t be scared,
+Dialogue: 0,0:15:23.44,0:15:24.60,Sub,,0,0,0,,I will accompany you.
+Dialogue: 0,0:15:46.16,0:15:48.64,Sub,,0,0,0,,Between your family and your loved one,
+Dialogue: 0,0:15:48.64,0:15:51.44,Sub,,0,0,0,,you chose to kill your love with your own hands
+Dialogue: 0,0:15:51.44,0:15:53.64,Sub,,0,0,0,,to atone for your guilt towards your family.
+Dialogue: 0,0:16:00.46,0:16:01.72,Sub,,0,0,0,,Milady,
+Dialogue: 0,0:16:01.72,0:16:02.84,Sub,,0,0,0,,hold on a little longer.
+Dialogue: 0,0:16:04.64,0:16:05.36,Sub,,0,0,0,,Wang Zhuo,
+Dialogue: 0,0:16:07.07,0:16:08.48,Sub,,0,0,0,,in this next life,
+Dialogue: 0,0:16:08.52,0:16:10.68,Sub,,0,0,0,,you must step into the cultivation world again.
+Dialogue: 0,0:16:10.95,0:16:12.12,Sub,,0,0,0,,You have talent.
+Dialogue: 0,0:16:13.10,0:16:14.68,Sub,,0,0,0,,Maybe we will have another chance
+Dialogue: 0,0:16:14.68,0:16:16.73,Sub,,0,0,0,,to meet in the future.
+Dialogue: 0,0:16:16.23,0:16:17.88,Second,,0,0,0,,It's born !
+Dialogue: 0,0:16:23.16,0:16:27.16,Sub,,0,0,0,,That year, your soul was sucked away in the Foreign Battlefield.
+Dialogue: 0,0:16:27.80,0:16:30.47,Sub,,0,0,0,,It turns out you found a great fortune there,
+Dialogue: 0,0:16:31.52,0:16:33.16,Sub,,0,0,0,,Wang Lin...
+Dialogue: 0,0:16:33.44,0:16:34.84,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:16:35.13,0:16:36.68,Sub,,0,0,0,,Teng Family City is sealed.
+Dialogue: 0,0:16:36.68,0:16:37.72,Sub,,0,0,0,,What ?
+Dialogue: 0,0:16:37.76,0:16:39.36,Sub,,0,0,0,,Someone put a restriction over the city,
+Dialogue: 0,0:16:39.36,0:16:41.52,Sub,,0,0,0,,people can enter but no one can leave.
+Dialogue: 0,0:16:46.08,0:16:46.88,Sub,,0,0,0,,I order you
+Dialogue: 0,0:16:47.40,0:16:49.00,Sub,,0,0,0,,to wake up Teng One !
+Dialogue: 0,0:17:00.44,0:17:03.76,Sub,,0,0,0,,Not only did they take the spiritual energy from the mortal's Spirit Roots,
+Dialogue: 0,0:17:05.16,0:17:06.92,Sub,,0,0,0,,but the Spirit Roots themselves are missing...
+Dialogue: 0,0:17:08.20,0:17:10.40,Sub,,0,0,0,,The millions of Spirit Roots...
+Dialogue: 0,0:17:11.60,0:17:12.64,Sub,,0,0,0,,Where are they ?
+Dialogue: 0,0:17:38.59,0:19:54.09,Note,,0,0,0,,{\fad(1000,1000)}Here is Teng Three's backstory. It's not important to the plot so read it if you want.\NTeng Three’s eyes seemed to be able to see through one’s heart as he looked at Wang Zhuo. His expression didn’t change, so no one knew if he was happy or angry. Waves of emotions surged in his heart as he rubbed Teng Xiuxiu’s hair.\NHe knew that ever since he was forced by the Ancestor to separate from his wife all those years ago, he will forever live under the shadow of the Ancestor. All of this was because his wife was a mortal and because he was the great great grandson of the Ancestor. An important Teng Family member couldn’t take a mortal as his wife because his descendants must have the qualifications to cultivate.\N[...] To a certain extent, Teng Xiuxiu, who looked the most like Teng Three’s wife, received all of the love he had for her. That was why he wouldn’t let Teng Xiuxiu receive any kind of harm or let anyone cause her any grievance.\N[...] This flying sword was built by himself. It was named Dao Yun, because his wife’s name contained the word Yun.\NEvery day, he cleansed the sword with his own spiritual energy. He didn’t let anyone touch this sword, not even Teng Huayuan. He also never used this sword when he fought with others. The degree of adoration he had for this sword wasn’t any lower than what he had for Teng Xiuxiu, because when this sword was made, his wife left a drop of her blood in it.\NIt was because of this drop of mortal blood that this sword’s power weakened drastically. But Teng Three didn’t care, because as long as this sword was here, his wife was present. If the sword was broken, his wife was dead.\N[...] Teng Three quickly jumped up and followed behind the flying sword. He used all of the spiritual energy in his body and moved like a shooting star with the flying sword toward the black cloud.\NIn the midst of his shooting star-like movement, he could see his wife smiling at him and calling him.\N[...] Wang Lin pondered for a long time, but he didn’t take out his soul even though this person would have made an excellent devil. He didn’t think that there would be someone who cared about his loved one so much in the Teng Family. However, he still had to die.\NHe shouldn’t have been named Teng.
+Dialogue: 0,0:17:46.80,0:17:50.68,Music,,0,0,0,,{\fad(300,300}I've had my share of wounds,
+Dialogue: 0,0:17:48.84,0:17:50.68,Music,,0,0,0,,{\fad(300,300}now I want to fight back.
+Dialogue: 0,0:17:50.76,0:17:54.24,Music,,0,0,0,,{\fad(300,300}Is my destiny a wall of restrictions
+Dialogue: 0,0:17:54.32,0:18:00.16,Music,,0,0,0,,{\fad(300,300}that's blocking all my hopes
+Dialogue: 0,0:17:57.20,0:18:00.16,Music,,0,0,0,,{\fad(300,300}for life ?
+Dialogue: 0,0:18:01.96,0:18:05.92,Music,,0,0,0,,{\fad(300,300}My flesh and blood witnessed the past,
+Dialogue: 0,0:18:03.68,0:18:05.92,Music,,0,0,0,,{\fad(300,300}my adversity pushed me to brave the waves.
+Dialogue: 0,0:18:06.24,0:18:09.32,Music,,0,0,0,,{\fad(300,300}How do you navigate through the years passing by ?
+Dialogue: 0,0:18:09.68,0:18:15.32,Music,,0,0,0,,{\fad(300,300}Nirvana and rebirth are no longer
+Dialogue: 0,0:18:12.40,0:18:15.32,Music,,0,0,0,,{\fad(300,300}out of reach.
+Dialogue: 0,0:18:16.68,0:18:20.80,Music,,0,0,0,,{\fad(300,300}Immortals
+Dialogue: 0,0:18:17.72,0:18:20.80,Music,,0,0,0,,{\fad(300,300}are obsessed with delusions of grandeur.
+Dialogue: 0,0:18:21.08,0:18:24.84,Music,,0,0,0,,{\fad(300,300}Renegades
+Dialogue: 0,0:18:21.84,0:18:24.84,Music,,0,0,0,,{\fad(300,300}seek to crush the impermanence of the heavens.
+Dialogue: 0,0:18:24.84,0:18:28.68,Music,,0,0,0,,{\fad(300,300}Don't tell me that I overestimate myself
+Dialogue: 0,0:18:26.79,0:18:28.68,Music,,0,0,0,,{\fad(300,300}and that the path to revenge leads to hell
+Dialogue: 0,0:18:28.92,0:18:32.80,Music,,0,0,0,,{\fad(600,600}because I don't see the harm in that.
+Dialogue: 0,0:18:34.80,0:18:40.60,Music,,0,0,0,,{\fad(300,600}My new body opens its eyes
+Dialogue: 0,0:18:37.32,0:18:40.60,Music,,0,0,0,,{\fad(300,600}and awakens from its dream.
+Dialogue: 0,0:18:40.72,0:18:48.16,Music,,0,0,0,,{\fad(300,600}I have overcome many trials
+Dialogue: 0,0:18:42.84,0:18:48.16,Music,,0,0,0,,{\fad(300,600}to get this body back.
+Dialogue: 0,0:18:48.36,0:18:55.80,Music,,0,0,0,,{\fad(600,600}No matter how many endless dark nights go by,
+Dialogue: 0,0:18:52.40,0:18:55.80,Music,,0,0,0,,{\fad(600,600}I can still see.
+Dialogue: 0,0:18:56.20,0:19:05.16,Music,,0,0,0,,{\fad(600,600}By sticking to this thought, I will get it done
+Dialogue: 0,0:19:00.16,0:19:05.16,Music,,0,0,0,,{\fad(600,600}by my own hands.
+Dialogue: 0,0:19:20.60,0:19:26.56,Music,,0,0,0,,{\fad(300,600}Returning to my body opened my eyes,
+Dialogue: 0,0:19:23.32,0:19:26.56,Music,,0,0,0,,{\fad(300,600}I need to continue my Immortal journey.
+Dialogue: 0,0:19:26.56,0:19:34.12,Music,,0,0,0,,{\fad(300,600}With a flick of a finger,
+Dialogue: 0,0:19:28.00,0:19:34.12,Music,,0,0,0,,{\fad(300,600}only my indomitable heart remains.
+Dialogue: 0,0:19:34.16,0:19:43.52,Music,,0,0,0,,{\fad(300,600}Life and death trials temper me, I am not afraid of losing my soul.
+Dialogue: 0,0:19:40.12,0:19:43.52,Music,,0,0,0,,{\fad(300,600}Even if there are countless tribulations and hardships.
+Dialogue: 0,0:19:43.76,0:19:51.36,Music,,0,0,0,,{\fad(600,600}Overcome this fate, smash through the obstacles,
+Dialogue: 0,0:19:46.28,0:19:51.36,Music,,0,0,0,,{\fad(600,600}like the descent of a god.

@@ -1,0 +1,451 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 107_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Pavilion,Lucida Sans,80,&H00083390,&H0000FFFF,&H00000000,&H00062053,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:51.44,0:01:54.04,Sub,,0,0,0,,Among my 7 divisions of the Heavenly Fate Sect,
+Dialogue: 0,0:01:54.24,0:01:55.84,Sub,,0,0,0,,the Yellow and Violet divisions
+Dialogue: 0,0:01:55.84,0:01:58.64,Sub,,0,0,0,,still don't have Sons of Tian Yun.
+Dialogue: 0,0:01:59.64,0:02:02.72,Sub,,0,0,0,,Today is the day of the competition
+Dialogue: 0,0:02:02.96,0:02:06.36,Sub,,0,0,0,,for the Seven Sons of Tian Yun.
+Dialogue: 0,0:02:08.88,0:02:10.08,Sub,,0,0,0,,Are you all
+Dialogue: 0,0:02:10.28,0:02:11.96,Sub,,0,0,0,,ready to begin ?
+Dialogue: 0,0:02:13.12,0:02:14.44,Sub,,0,0,0,,The sect is flourishing
+Dialogue: 0,0:02:14.72,0:02:15.76,Sub,,0,0,0,,and its disciples are powerful.
+Dialogue: 0,0:02:16.64,0:02:18.60,Sub,,0,0,0,,But with the Heavenly Fate Sect's heritage,
+Dialogue: 0,0:02:18.64,0:02:21.68,Sub,,0,0,0,,how is it possible that not a single disciple has surpassed Ascendant ?
+Dialogue: 0,0:02:23.24,0:02:25.04,Sub,,0,0,0,,Disciple' cultivation is too shallow
+Dialogue: 0,0:02:25.24,0:02:27.08,Sub,,0,0,0,,and insufficient to compete with my Senior Brothers for the title.
+Dialogue: 0,0:02:27.52,0:02:28.44,Sub,,0,0,0,,Disciple gives up.
+Dialogue: 0,0:02:28.96,0:02:30.48,Sub,,0,0,0,,Disciple still needs to cultivate diligently.
+Dialogue: 0,0:02:30.76,0:02:31.96,Sub,,0,0,0,,Disciple is ashamed to give up.
+Dialogue: 0,0:02:31.96,0:02:33.24,Sub,,0,0,0,,Disciple forfeits.
+Dialogue: 0,0:02:33.24,0:02:34.52,Sub,,0,0,0,,Disciple isn't strong enough to compete.
+Dialogue: 0,0:02:34.52,0:02:36.96,Sub,,0,0,0,,Thanks to all my previous efforts
+Dialogue: 0,0:02:37.08,0:02:39.44,Sub,,0,0,0,,building relationships with other fellow disciples,
+Dialogue: 0,0:02:39.64,0:02:42.44,Sub,,0,0,0,,even Senior Brother agreed to yield to me.
+Dialogue: 0,0:02:42.56,0:02:44.16,Sub,,0,0,0,,Today, I will finally become
+Dialogue: 0,0:02:44.68,0:02:46.72,Sub,,0,0,0,,a Son of Tian Yun.
+Dialogue: 0,0:02:47.64,0:02:49.64,Sub,,0,0,0,,The Seven Sons of Tian Yun's status is sky high,
+Dialogue: 0,0:02:49.96,0:02:51.72,Sub,,0,0,0,,they even have a chance to receive a celestial spell.
+Dialogue: 0,0:02:53.28,0:02:56.44,Sub,,0,0,0,,Why would these disciples give up so easily ?
+Dialogue: 0,0:02:57.24,0:02:58.64,Sub,,0,0,0,,Yun Daozi ?
+Dialogue: 0,0:02:59.52,0:03:00.96,Sub,,0,0,0,,Master,
+Dialogue: 0,0:03:01.24,0:03:03.44,Sub,,0,0,0,,Second Junior Brother’s cultivation is profound
+Dialogue: 0,0:03:03.44,0:03:05.64,Sub,,0,0,0,,and he was just given a celestial artifact by Master.
+Dialogue: 0,0:03:05.96,0:03:10.36,Sub,,0,0,0,,He rightfully should become the Yellow Division's Son of Tian Yun.
+Dialogue: 0,0:03:10.72,0:03:12.52,Sub,,0,0,0,,Disciple wishes to forfeit
+Dialogue: 0,0:03:12.52,0:03:14.96,Sub,,0,0,0,,to protect my Second Junior Brother's Dao.
+Dialogue: 0,0:03:16.84,0:03:18.64,Sub,,0,0,0,,The Seven Sons of Tian Yun
+Dialogue: 0,0:03:18.88,0:03:21.76,Sub,,0,0,0,,are titles within our Heavenly Fate Sect
+Dialogue: 0,0:03:22.44,0:03:26.56,Sub,,0,0,0,,and also the name of my true direct disciples.
+Dialogue: 0,0:03:27.08,0:03:29.64,Sub,,0,0,0,,If you can maintain the title for a 1000 years,
+Dialogue: 0,0:03:29.84,0:03:30.84,Sub,,0,0,0,,Master
+Dialogue: 0,0:03:31.08,0:03:33.32,Sub,,0,0,0,,will teach you a celestial spell.
+Dialogue: 0,0:03:34.04,0:03:35.32,Sub,,0,0,0,,Kunpeng Zi,
+Dialogue: 0,0:03:35.76,0:03:36.72,Sub,,0,0,0,,you
+Dialogue: 0,0:03:37.12,0:03:38.88,Sub,,0,0,0,,should prepare yourself.
+Dialogue: 0,0:03:39.96,0:03:41.68,Sub,,0,0,0,,Disciple humbly follows your teachings.
+Dialogue: 0,0:03:41.76,0:03:43.68,Sub,,0,0,0,,I will not disgrace the name of Tian Yun.
+Dialogue: 0,0:03:45.64,0:03:47.36,Sub,,0,0,0,,Cultivate in seclusion
+Dialogue: 0,0:03:47.68,0:03:49.76,Sub,,0,0,0,,to understand this item.
+Dialogue: 0,0:03:51.76,0:03:54.52,Sub,,0,0,0,,Those with formidable strength don’t compete for the title.
+Dialogue: 0,0:03:54.56,0:03:56.24,Sub,,0,0,0,,They make everyone else fear them.
+Dialogue: 0,0:03:59.24,0:04:00.28,Sub,,0,0,0,,Thank you, Master.
+Dialogue: 0,0:04:01.08,0:04:02.92,Sub,,0,0,0,,Is there more than meets the eye
+Dialogue: 0,0:04:03.28,0:04:04.84,Sub,,0,0,0,,to this Son of Tian Yun title ?
+Dialogue: 0,0:04:05.32,0:04:06.48,Sub,,0,0,0,,Next up
+Dialogue: 0,0:04:06.84,0:04:09.44,Sub,,0,0,0,,is our Purple Division's
+Dialogue: 0,0:04:09.44,0:04:12.04,Sub,,0,0,0,,competition to decide the Son of Tian Yun.
+Dialogue: 0,0:04:12.52,0:04:13.48,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:04:13.92,0:04:14.92,Sub,,0,0,0,,Zhao Xinmeng,
+Dialogue: 0,0:04:15.24,0:04:16.12,Sub,,0,0,0,,Bai Wei,
+Dialogue: 0,0:04:17.08,0:04:18.44,Sub,,0,0,0,,are you three
+Dialogue: 0,0:04:19.12,0:04:21.04,Sub,,0,0,0,,ready to begin ?
+Dialogue: 0,0:04:26.44,0:04:28.04,Sub,,0,0,0,,Disciple gives up.
+Dialogue: 0,0:04:30.84,0:04:31.64,Sub,,0,0,0,,Seventh Brother...
+Dialogue: 0,0:04:32.12,0:04:33.64,Sub,,0,0,0,,If I give up too,
+Dialogue: 0,0:04:33.88,0:04:36.72,Sub,,0,0,0,,it would be too easy for you to obtain the title.
+Dialogue: 0,0:04:37.52,0:04:38.64,Sub,,0,0,0,,You and I shall fight
+Dialogue: 0,0:04:38.96,0:04:40.08,Sub,,0,0,0,,right here, right now.
+Dialogue: 0,0:04:41.84,0:04:44.68,Sub,,0,0,0,,Fourth Senior Sister never competed for the title before.
+Dialogue: 0,0:04:46.04,0:04:47.92,Sub,,0,0,0,,Why is she now challenging me now ?
+Dialogue: 0,0:04:49.32,0:04:52.00,Sub,,0,0,0,,If I have doubts about the Seven Sons of Tian Yun,
+Dialogue: 0,0:04:52.12,0:04:54.55,Sub,,0,0,0,,she must also have the same doubts.
+Dialogue: 0,0:04:58.36,0:04:59.20,Sub,,0,0,0,,Disciple
+Dialogue: 0,0:04:59.40,0:05:00.16,Sub,,0,0,0,,gives up.
+Dialogue: 0,0:05:00.96,0:05:02.84,Sub,,0,0,0,,Why are you giving up ?
+Dialogue: 0,0:05:05.72,0:05:07.04,Sub,,0,0,0,,Disciple’s cultivation is too low.
+Dialogue: 0,0:05:07.44,0:05:09.08,Sub,,0,0,0,,I'm unable to compete with Fourth Senior Sister.
+Dialogue: 0,0:05:09.28,0:05:10.44,Sub,,0,0,0,,Wang Lin !
+Dialogue: 0,0:05:15.72,0:05:17.44,Sub,,0,0,0,,Disciple' cultivation is too shallow
+Dialogue: 0,0:05:17.44,0:05:19.08,Sub,,0,0,0,,and insufficient to compete with my Senior Brothers for the title.
+Dialogue: 0,0:05:17.03,0:05:19.08,Second,,0,0,0,,Disciple isn't strong enough to compete.
+Dialogue: 0,0:05:19.08,0:05:21.08,Second,,0,0,0,,Disciple is ashamed to give up.
+Dialogue: 0,0:05:19.08,0:05:21.08,Sub,,0,0,0,,...to protect my Second Junior Brother's Dao.
+Dialogue: 0,0:05:24.44,0:05:25.76,Sub,,0,0,0,,That feeling just now
+Dialogue: 0,0:05:26.64,0:05:28.24,Sub,,0,0,0,,was as if everything about me
+Dialogue: 0,0:05:28.64,0:05:30.04,Sub,,0,0,0,,was laid bare before him.
+Dialogue: 0,0:05:32.32,0:05:33.92,Sub,,0,0,0,,My disciples
+Dialogue: 0,0:05:34.24,0:05:36.44,Sub,,0,0,0,,shouldn't be cowards.
+Dialogue: 0,0:05:37.24,0:05:38.92,Sub,,0,0,0,,You shouldn't be bewitched by others
+Dialogue: 0,0:05:38.92,0:05:40.88,Sub,,0,0,0,,and should follow your desires.
+Dialogue: 0,0:05:41.76,0:05:44.08,Sub,,0,0,0,,I'll give you half an incense stick of time
+Dialogue: 0,0:05:44.52,0:05:46.32,Sub,,0,0,0,,to think about it carefully.
+Dialogue: 0,0:05:46.96,0:05:48.72,Sub,,0,0,0,,If you still decide to give up,
+Dialogue: 0,0:05:49.36,0:05:51.44,Sub,,0,0,0,,I won't stop you.
+Dialogue: 0,0:05:53.76,0:05:55.52,Sub,,0,0,0,,Master always lets disciples choose.
+Dialogue: 0,0:05:55.52,0:05:57.08,Sub,,0,0,0,,Why is he advising him today ?
+Dialogue: 0,0:05:57.96,0:05:59.88,Sub,,0,0,0,,Since Sun Yun,
+Dialogue: 0,0:05:59.88,0:06:02.64,Sub,,0,0,0,,the only disciple Master advised
+Dialogue: 0,0:06:02.92,0:06:04.68,Sub,,0,0,0,,is this Wang Lin.
+Dialogue: 0,0:06:06.44,0:06:08.72,Sub,,0,0,0,,Defying the All-Seer now is unwise.
+Dialogue: 0,0:06:09.72,0:06:12.36,Sub,,0,0,0,,Even if something's wrong about the Seven Sons of Tian Yun,
+Dialogue: 0,0:06:12.56,0:06:13.52,Sub,,0,0,0,,this duel
+Dialogue: 0,0:06:14.04,0:06:15.80,Sub,,0,0,0,,is unavoidable.
+Dialogue: 0,0:06:17.04,0:06:17.76,Sub,,0,0,0,,Disciple
+Dialogue: 0,0:06:17.92,0:06:19.24,Sub,,0,0,0,,will try his best.
+Dialogue: 0,0:06:29.48,0:06:30.44,Sub,,0,0,0,,Seventh Brother,
+Dialogue: 0,0:06:30.88,0:06:31.96,Sub,,0,0,0,,let's begin.
+Dialogue: 0,0:06:34.24,0:06:35.48,Sub,,0,0,0,,My Dao is
+Dialogue: 0,0:06:35.92,0:06:37.28,Sub,,0,0,0,,the Demon's Shadow.
+Dialogue: 0,0:06:37.84,0:06:39.04,Sub,,0,0,0,,As long as I see a spell once
+Dialogue: 0,0:06:39.16,0:06:40.84,Sub,,0,0,0,,and its requirements are not beyond my cultivation,
+Dialogue: 0,0:06:40.84,0:06:43.04,Sub,,0,0,0,,I can imitate a weaker version of it.
+Dialogue: 0,0:06:43.72,0:06:44.68,Sub,,0,0,0,,This spell
+Dialogue: 0,0:06:44.88,0:06:45.96,Sub,,0,0,0,,is my imitation of
+Dialogue: 0,0:06:45.96,0:06:48.20,Sub,,0,0,0,,the Demonic Finger you used before.
+Dialogue: 0,0:06:48.88,0:06:50.12,Sub,,0,0,0,,I call it
+Dialogue: 0,0:06:50.56,0:06:51.76,Sub,,0,0,0,,the Purple Demonic Hand !
+Dialogue: 0,0:06:54.52,0:06:55.76,Sub,,0,0,0,,Demonic Finger !
+Dialogue: 0,0:07:00.08,0:07:01.68,Sub,,0,0,0,,What an amazing demonic energy !
+Dialogue: 0,0:07:02.52,0:07:05.32,Sub,,0,0,0,,My Demon's Shadow imitation is still somewhat lacking.
+Dialogue: 0,0:07:07.04,0:07:07.96,Sub,,0,0,0,,Seventh Brother,
+Dialogue: 0,0:07:08.32,0:07:11.16,Sub,,0,0,0,,I won’t compete with you for the Son of Tian Yun title.
+Dialogue: 0,0:07:11.88,0:07:14.04,Sub,,0,0,0,,But this demonic energy
+Dialogue: 0,0:07:14.48,0:07:16.04,Sub,,0,0,0,,must be mine.
+Dialogue: 0,0:07:17.04,0:07:18.68,Sub,,0,0,0,,Senior Sister went to such lengths
+Dialogue: 0,0:07:18.92,0:07:20.92,Sub,,0,0,0,,to lure me into using the Demonic Finger
+Dialogue: 0,0:07:20.96,0:07:22.84,Sub,,0,0,0,,just to obtain its demonic energy.
+Dialogue: 0,0:07:23.28,0:07:24.76,Sub,,0,0,0,,If you had asked me directly,
+Dialogue: 0,0:07:25.08,0:07:26.92,Sub,,0,0,0,,Junior Brother might not have minded.
+Dialogue: 0,0:07:27.44,0:07:28.76,Sub,,0,0,0,,But now,
+Dialogue: 0,0:07:29.36,0:07:31.08,Sub,,0,0,0,,I won't let you
+Dialogue: 0,0:07:31.56,0:07:32.36,Sub,,0,0,0,,steal it !
+Dialogue: 0,0:07:37.72,0:07:38.52,Sub,,0,0,0,,Seventh Brother,
+Dialogue: 0,0:07:38.84,0:07:40.44,Sub,,0,0,0,,I just want a bit of your demonic energy.
+Dialogue: 0,0:07:40.84,0:07:42.24,Sub,,0,0,0,,This is very important for me.
+Dialogue: 0,0:07:42.44,0:07:43.48,Sub,,0,0,0,,If you agree,
+Dialogue: 0,0:07:43.64,0:07:45.04,Sub,,0,0,0,,I’ll give up immediately.
+Dialogue: 0,0:07:46.04,0:07:47.44,Sub,,0,0,0,,Otherwise...
+Dialogue: 0,0:07:48.16,0:07:49.16,Sub,,0,0,0,,I can't grant you
+Dialogue: 0,0:07:49.76,0:07:50.76,Sub,,0,0,0,,this favor.
+Dialogue: 0,0:07:54.52,0:07:55.28,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:07:55.76,0:07:57.28,Sub,,0,0,0,,if you don’t use your Demonic Finger,
+Dialogue: 0,0:07:57.72,0:07:59.32,Sub,,0,0,0,,I wonder how long you'll last.
+Dialogue: 0,0:08:02.24,0:08:03.64,Sub,,0,0,0,,The Nine Cycle Celestial Refining Tactic ?
+Dialogue: 0,0:08:04.56,0:08:06.16,Sub,,0,0,0,,This spell is extremely difficult to cultivate
+Dialogue: 0,0:08:06.56,0:08:08.24,Sub,,0,0,0,,and I just gave him the jade slip.
+Dialogue: 0,0:08:08.64,0:08:09.88,Sub,,0,0,0,,How could he possibly
+Dialogue: 0,0:08:10.64,0:08:11.84,Sub,,0,0,0,,have already mastered it !?
+Dialogue: 0,0:08:15.08,0:08:16.00,Sub,,0,0,0,,Junior Brother,
+Dialogue: 0,0:08:16.44,0:08:17.72,Sub,,0,0,0,,your three cycles
+Dialogue: 0,0:08:18.28,0:08:19.32,Sub,,0,0,0,,are useless against me !
+Dialogue: 0,0:08:19.84,0:08:20.92,Sub,,0,0,0,,Now...
+Dialogue: 0,0:08:21.52,0:08:23.04,Sub,,0,0,0,,it’s five cycles !
+Dialogue: 0,0:08:30.84,0:08:32.04,Sub,,0,0,0,,This child...
+Dialogue: 0,0:08:32.04,0:08:35.64,Sub,,0,0,0,,Is he really a fit for my Dao ?
+Dialogue: 0,0:08:36.64,0:08:37.72,Sub,,0,0,0,,Back then,
+Dialogue: 0,0:08:37.72,0:08:39.80,Sub,,0,0,0,,he left me with a single phrase.
+Dialogue: 0,0:08:40.56,0:08:41.76,Sub,,0,0,0,,"My Dao
+Dialogue: 0,0:08:41.88,0:08:43.48,Sub,,0,0,0,,is the Dao of Heavenly Fate."
+Dialogue: 0,0:08:44.68,0:08:47.52,Sub,,0,0,0,,Only by finding people who fit my Dao
+Dialogue: 0,0:08:47.84,0:08:50.88,Sub,,0,0,0,,will I have a chance to enter the third step.
+Dialogue: 0,0:08:52.88,0:08:54.48,Sub,,0,0,0,,It's been more than 30 000 years
+Dialogue: 0,0:08:54.64,0:08:56.84,Sub,,0,0,0,,and I’ve already failed countless times.
+Dialogue: 0,0:08:57.76,0:08:59.04,Sub,,0,0,0,,Am I
+Dialogue: 0,0:08:59.04,0:09:00.68,Sub,,0,0,0,,doing it right ?
+Dialogue: 0,0:09:01.64,0:09:03.16,Sub,,0,0,0,,Am I wrong ?
+Dialogue: 0,0:09:06.04,0:09:07.76,Sub,,0,0,0,,Do you still want to see
+Dialogue: 0,0:09:08.44,0:09:10.84,Sub,,0,0,0,,my Nine Cycle Celestial Refining Tactic's strength ?
+Dialogue: 0,0:09:15.24,0:09:16.64,Sub,,0,0,0,,I really underestimated you.
+Dialogue: 0,0:09:17.20,0:09:18.04,Sub,,0,0,0,,Seventh Brother,
+Dialogue: 0,0:09:18.76,0:09:20.04,Sub,,0,0,0,,I give up.
+Dialogue: 0,0:09:20.96,0:09:22.96,Sub,,0,0,0,,Even Senior Sister Xinmeng couldn’t defeat him ?
+Dialogue: 0,0:09:23.36,0:09:24.96,Sub,,0,0,0,,Wang Lin is exceptionally talented.
+Dialogue: 0,0:09:25.28,0:09:26.40,Sub,,0,0,0,,The Son of Tian Yun
+Dialogue: 0,0:09:26.96,0:09:28.92,Sub,,0,0,0,,will be given to the new disciple ?
+Dialogue: 0,0:09:29.28,0:09:29.96,Sub,,0,0,0,,Indeed...
+Dialogue: 0,0:09:30.24,0:09:31.24,Sub,,0,0,0,,I'm so jealous !
+Dialogue: 0,0:09:31.48,0:09:34.16,Sub,,0,0,0,,When will we become Sons of Tian Yun ?
+Dialogue: 0,0:09:40.96,0:09:41.92,Sub,,0,0,0,,Such momentum...
+Dialogue: 0,0:09:42.92,0:09:44.16,Sub,,0,0,0,,This person’s cultivation
+Dialogue: 0,0:09:44.48,0:09:45.84,Sub,,0,0,0,,must be Ascendant.
+Dialogue: 0,0:09:46.64,0:09:47.80,Sub,,0,0,0,,Disciple Chen Tao
+Dialogue: 0,0:09:48.04,0:09:49.28,Sub,,0,0,0,,pays respects to Master.
+Dialogue: 0,0:09:46.12,0:09:49.28,Card,,0,0,0,,{\fad(300,300)\pos(1585,538)}Chen Tao\NHeavenly Fate Sect\NPurple Division disciple\NMiddle stage Ascendant
+Dialogue: 0,0:09:51.92,0:09:53.40,Sub,,0,0,0,,Chen Tao ?
+Dialogue: 0,0:09:54.68,0:09:57.24,Sub,,0,0,0,,If Sun Yun hadn't suddenly emerged back then,
+Dialogue: 0,0:09:57.64,0:09:59.64,Sub,,0,0,0,,the Purple Division's Son of Tian Yun
+Dialogue: 0,0:10:00.16,0:10:02.72,Sub,,0,0,0,,would likely still be Chen Tao.
+Dialogue: 0,0:10:05.12,0:10:06.72,Sub,,0,0,0,,You made it back in time,
+Dialogue: 0,0:10:07.04,0:10:08.24,Sub,,0,0,0,,very good !
+Dialogue: 0,0:10:09.00,0:10:11.24,Sub,,0,0,0,,Disciple originally wasn't going to be late
+Dialogue: 0,0:10:11.28,0:10:13.24,Sub,,0,0,0,,but when I passed planet Black Ink,
+Dialogue: 0,0:10:13.28,0:10:15.04,Sub,,0,0,0,,I saw a rare treasure there.
+Dialogue: 0,0:10:15.44,0:10:16.96,Sub,,0,0,0,,Disciple took a liking to it
+Dialogue: 0,0:10:17.16,0:10:18.64,Sub,,0,0,0,,and wished to gift it to Master.
+Dialogue: 0,0:10:19.04,0:10:20.52,Sub,,0,0,0,,That's why I was delayed.
+Dialogue: 0,0:10:21.04,0:10:22.64,Sub,,0,0,0,,What kind of treasure
+Dialogue: 0,0:10:22.76,0:10:24.44,Sub,,0,0,0,,caught your eye ?
+Dialogue: 0,0:10:25.04,0:10:26.64,Sub,,0,0,0,,Disciple found this on planet Black Ink,
+Dialogue: 0,0:10:26.64,0:10:29.04,Sub,,0,0,0,,3 high-quality Desolate Beasts were fighting over it.
+Dialogue: 0,0:10:29.44,0:10:31.08,Sub,,0,0,0,,Disciple was curious, so I took it.
+Dialogue: 0,0:10:32.48,0:10:34.16,Sub,,0,0,0,,Unfortunately, my knowledge is limited.
+Dialogue: 0,0:10:34.64,0:10:35.32,Sub,,0,0,0,,I don't know
+Dialogue: 0,0:10:35.44,0:10:36.96,Sub,,0,0,0,,what it is exactly.
+Dialogue: 0,0:10:39.24,0:10:42.32,Sub,,0,0,0,,This flower is called the Seven-Colored Glaze.
+Dialogue: 0,0:10:42.84,0:10:44.24,Sub,,0,0,0,,It takes 10 years to take root,
+Dialogue: 0,0:10:44.36,0:10:45.68,Sub,,0,0,0,,100 years to make leaves,
+Dialogue: 0,0:10:46.04,0:10:47.84,Sub,,0,0,0,,1000 years to make a bud,
+Dialogue: 0,0:10:48.76,0:10:49.80,Sub,,0,0,0,,10 000 years
+Dialogue: 0,0:10:50.16,0:10:52.32,Sub,,0,0,0,,for it to bloom.
+Dialogue: 0,0:10:53.36,0:10:55.08,Sub,,0,0,0,,After it blooms 7 times,
+Dialogue: 0,0:10:55.32,0:10:58.12,Sub,,0,0,0,,it releases a 7-colored light.
+Dialogue: 0,0:10:59.52,0:11:01.24,Sub,,0,0,0,,The Cultivation Alliance
+Dialogue: 0,0:11:01.76,0:11:02.64,Sub,,0,0,0,,ranks this item
+Dialogue: 0,0:11:02.80,0:11:05.96,Sub,,0,0,0,,as the 93rd heavenly treasure.
+Dialogue: 0,0:11:07.56,0:11:08.92,Sub,,0,0,0,,Elder Sun,
+Dialogue: 0,0:11:09.24,0:11:11.36,Sub,,0,0,0,,is this old man correct ?
+Dialogue: 0,0:11:12.60,0:11:13.48,Sub,,0,0,0,,That is correct.
+Dialogue: 0,0:11:14.24,0:11:17.60,Sub,,0,0,0,,This is indeed a Seven-Colored Glaze.
+Dialogue: 0,0:11:17.84,0:11:20.12,Sub,,0,0,0,,Senior All-Seer’s outstanding disciples
+Dialogue: 0,0:11:20.12,0:11:22.64,Sub,,0,0,0,,are truly a breath of fresh air.
+Dialogue: 0,0:11:23.44,0:11:24.44,Sub,,0,0,0,,Good...
+Dialogue: 0,0:11:24.84,0:11:25.88,Sub,,0,0,0,,I will
+Dialogue: 0,0:11:26.28,0:11:28.28,Sub,,0,0,0,,accept your gift.
+Dialogue: 0,0:11:28.88,0:11:29.64,Sub,,0,0,0,,Master,
+Dialogue: 0,0:11:30.12,0:11:31.72,Sub,,0,0,0,,disciple has returned
+Dialogue: 0,0:11:31.84,0:11:34.32,Sub,,0,0,0,,to reclaim the title of Son of Tian Yun.
+Dialogue: 0,0:11:35.08,0:11:37.28,Sub,,0,0,0,,I humbly ask for Master’s blessing.
+Dialogue: 0,0:11:37.84,0:11:39.80,Sub,,0,0,0,,The victor between you two
+Dialogue: 0,0:11:40.12,0:11:43.56,Sub,,0,0,0,,shall be the Purple Division's Son of Tian Yun.
+Dialogue: 0,0:11:48.48,0:11:49.44,Sub,,0,0,0,,You
+Dialogue: 0,0:11:50.12,0:11:51.60,Sub,,0,0,0,,should give up !
+Dialogue: 0,0:12:08.44,0:12:09.92,Sub,,0,0,0,,This isn't how
+Dialogue: 0,0:12:10.32,0:12:11.76,Sub,,0,0,0,,this spell should be used.
+Dialogue: 0,0:12:12.84,0:12:14.44,Sub,,0,0,0,,Only in the hands of an Ascendant cultivator
+Dialogue: 0,0:12:15.08,0:12:17.00,Sub,,0,0,0,,can this spell truly be called
+Dialogue: 0,0:12:17.96,0:12:19.64,Sub,,0,0,0,,the Nine Cycle Celestial Refining Tactic.
+Dialogue: 0,0:12:21.88,0:12:23.16,Sub,,0,0,0,,With such a low cultivation,
+Dialogue: 0,0:12:23.64,0:12:26.12,Sub,,0,0,0,,you're unworthy of being my Seventh Junior Brother !
+Dialogue: 0,0:12:28.12,0:12:29.12,Sub,,0,0,0,,Teleportation !
+Dialogue: 0,0:12:37.24,0:12:38.68,Sub,,0,0,0,,Teleportation
+Dialogue: 0,0:12:38.92,0:12:40.44,Sub,,0,0,0,,to turn his spell against him ?
+Dialogue: 0,0:12:41.04,0:12:43.44,Sub,,0,0,0,,That's a clever way to fight an Ascendant.
+Dialogue: 0,0:12:43.44,0:12:46.64,Sub,,0,0,0,,Those kinds of tricks won't change anything.
+Dialogue: 0,0:12:47.04,0:12:49.20,Sub,,0,0,0,,Are you trying to outsmart me ?
+Dialogue: 0,0:12:49.56,0:12:50.36,Sub,,0,0,0,,It's useless !
+Dialogue: 0,0:12:52.16,0:12:53.12,Sub,,0,0,0,,Beast Soul,
+Dialogue: 0,0:12:53.24,0:12:54.04,Sub,,0,0,0,,come out !
+Dialogue: 0,0:12:54.92,0:12:55.96,Sub,,0,0,0,,Devour him !
+Dialogue: 0,0:12:57.48,0:12:59.24,Sub,,0,0,0,,You snarling beast,
+Dialogue: 0,0:12:59.76,0:13:01.08,Sub,,0,0,0,,come and play with me !
+Dialogue: 0,0:13:02.68,0:13:04.16,Sub,,0,0,0,,God Slaying Chariot,
+Dialogue: 0,0:13:05.00,0:13:06.24,Sub,,0,0,0,,fifth seal,
+Dialogue: 0,0:13:06.72,0:13:07.44,Sub,,0,0,0,,release !
+Dialogue: 0,0:13:11.28,0:13:12.12,Sub,,0,0,0,,This is...
+Dialogue: 0,0:13:17.68,0:13:19.24,Sub,,0,0,0,,Interesting...
+Dialogue: 0,0:13:20.28,0:13:22.36,Sub,,0,0,0,,This fight against an Ascendant allows me
+Dialogue: 0,0:13:22.36,0:13:25.04,Sub,,0,0,0,,to use Chen Tao's strength to fight the Beast Soul
+Dialogue: 0,0:13:25.04,0:13:26.64,Sub,,0,0,0,,and lessens the backlash from undoing the seal.
+Dialogue: 0,0:13:26.84,0:13:28.96,Sub,,0,0,0,,That was my best opportunity to open the seal.
+Dialogue: 0,0:13:30.32,0:13:31.44,Sub,,0,0,0,,When I release
+Dialogue: 0,0:13:31.84,0:13:33.84,Sub,,0,0,0,,all 5 seals on this beast,
+Dialogue: 0,0:13:34.44,0:13:36.16,Sub,,0,0,0,,I wonder how powerful
+Dialogue: 0,0:13:36.16,0:13:37.88,Sub,,0,0,0,,the God Slaying Chariot will be.
+Dialogue: 0,0:13:39.24,0:13:40.00,Sub,,0,0,0,,Good !
+Dialogue: 0,0:13:40.12,0:13:40.92,Sub,,0,0,0,,Very good !
+Dialogue: 0,0:13:41.44,0:13:42.84,Sub,,0,0,0,,If you can subdue this beast,
+Dialogue: 0,0:13:43.56,0:13:46.16,Sub,,0,0,0,,then you're qualified to be my Junior Brother !
+Dialogue: 0,0:13:46.16,0:13:46.84,Sub,,0,0,0,,You
+Dialogue: 0,0:13:47.24,0:13:49.84,Sub,,0,0,0,,are not yet qualified to be my Senior Brother.
+Dialogue: 0,0:13:50.24,0:13:52.36,Sub,,0,0,0,,I'll take the time to fight this beast
+Dialogue: 0,0:13:52.84,0:13:54.56,Sub,,0,0,0,,and then I'll deal with you.
+Dialogue: 0,0:13:54.72,0:13:56.16,Sub,,0,0,0,,It doesn't change anything.
+Dialogue: 0,0:13:56.44,0:13:57.48,Sub,,0,0,0,,We will see
+Dialogue: 0,0:13:58.16,0:13:59.92,Sub,,0,0,0,,if I’m qualified !
+Dialogue: 0,0:14:06.16,0:14:07.20,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:14:07.72,0:14:09.88,Sub,,0,0,0,,do you dare to take my strike ?
+Dialogue: 0,0:14:11.92,0:14:13.24,Sub,,0,0,0,,Why would I not ?
+Dialogue: 0,0:14:14.84,0:14:17.28,Sub,,0,0,0,,This final killing spell has immense backlash.
+Dialogue: 0,0:14:17.84,0:14:19.28,Sub,,0,0,0,,Use it responsibly
+Dialogue: 0,0:14:19.80,0:14:21.64,Sub,,0,0,0,,before Late stage Soul Transformation.
+Dialogue: 0,0:14:22.24,0:14:24.36,Sub,,0,0,0,,You must wait until Ascendant
+Dialogue: 0,0:14:24.88,0:14:27.04,Sub,,0,0,0,,before you can use it freely.
+Dialogue: 0,0:14:27.36,0:14:28.16,Sub,,0,0,0,,Under...
+Dialogue: 0,0:14:28.44,0:14:29.44,Sub,,0,0,0,,world...
+Dialogue: 0,0:14:29.76,0:14:30.64,Sub,,0,0,0,,Finger !
+Dialogue: 0,0:14:37.36,0:14:38.64,Sub,,0,0,0,,This finger...
+Dialogue: 0,0:14:38.84,0:14:41.52,Sub,,0,0,0,,Why is it the same as that madman's
+Dialogue: 0,0:14:41.84,0:14:43.76,Sub,,0,0,0,,that I met earlier ?
+Dialogue: 0,0:14:47.84,0:14:50.32,Sub,,0,0,0,,The Life and Death Reincarnation Cycle Domain....
+Dialogue: 0,0:14:59.84,0:15:01.04,Sub,,0,0,0,,Here it comes !
+Dialogue: 0,0:15:09.48,0:15:11.04,Sub,,0,0,0,,He's only Soul Transformation
+Dialogue: 0,0:15:11.16,0:15:13.32,Sub,,0,0,0,,and he's able to push an Ascendant this far !
+Dialogue: 0,0:15:23.48,0:15:24.52,Sub,,0,0,0,,That's enough.
+Dialogue: 0,0:15:25.64,0:15:26.44,Sub,,0,0,0,,Master,
+Dialogue: 0,0:15:26.60,0:15:27.60,Sub,,0,0,0,,disciple gives up.
+Dialogue: 0,0:15:34.84,0:15:36.44,Sub,,0,0,0,,When you reach Ascendant,
+Dialogue: 0,0:15:36.72,0:15:37.92,Sub,,0,0,0,,we shall fight again,
+Dialogue: 0,0:15:38.28,0:15:39.24,Sub,,0,0,0,,Seventh Brother.
+Dialogue: 0,0:15:40.44,0:15:43.04,Sub,,0,0,0,,You are both my disciples,
+Dialogue: 0,0:15:43.04,0:15:45.48,Sub,,0,0,0,,don't be jealous of each other.
+Dialogue: 0,0:15:46.32,0:15:47.28,Sub,,0,0,0,,Chen Tao,
+Dialogue: 0,0:15:47.96,0:15:49.48,Sub,,0,0,0,,since you won
+Dialogue: 0,0:15:49.92,0:15:51.72,Sub,,0,0,0,,you shall be once more
+Dialogue: 0,0:15:51.72,0:15:54.32,Sub,,0,0,0,,the Purple Division's Son of Tian Yun.
+Dialogue: 0,0:15:55.76,0:15:58.24,Sub,,0,0,0,,This is not your first time receiving the title,
+Dialogue: 0,0:15:58.64,0:16:00.52,Sub,,0,0,0,,take your time to comprehend it.
+Dialogue: 0,0:16:01.56,0:16:02.68,Sub,,0,0,0,,Thank you, Master.
+Dialogue: 0,0:16:03.24,0:16:05.04,Sub,,0,0,0,,Now I'm sure that there is something else
+Dialogue: 0,0:16:05.04,0:16:06.44,Sub,,0,0,0,,to the Seven Sons of Tian Yun.
+Dialogue: 0,0:16:07.04,0:16:09.36,Sub,,0,0,0,,Before I learn what that crystal is,
+Dialogue: 0,0:16:09.76,0:16:11.16,Sub,,0,0,0,,I mustn't become one.
+Dialogue: 0,0:16:12.44,0:16:14.04,Sub,,0,0,0,,Fortunately, Chen Tao returned.
+Dialogue: 0,0:16:14.76,0:16:17.08,Sub,,0,0,0,,Since I fought an Ascendant with all I have,
+Dialogue: 0,0:16:18.24,0:16:20.04,Sub,,0,0,0,,I avoided offending the All-Seer
+Dialogue: 0,0:16:20.84,0:16:23.00,Sub,,0,0,0,,and avoided becoming a Son of Tian Yun.
+Dialogue: 0,0:16:26.04,0:16:27.04,Sub,,0,0,0,,Esteemed guests,
+Dialogue: 0,0:16:27.44,0:16:31.04,Sub,,0,0,0,,this is the end of this old man's birthday.
+Dialogue: 0,0:16:31.76,0:16:33.68,Sub,,0,0,0,,Fellow cultivators, if you don't have urgent matters,
+Dialogue: 0,0:16:34.04,0:16:36.88,Sub,,0,0,0,,please stay at my Heavenly Fate Sect for a few more days
+Dialogue: 0,0:16:37.84,0:16:39.56,Sub,,0,0,0,,to discuss the Dao
+Dialogue: 0,0:16:39.96,0:16:42.36,Sub,,0,0,0,,and share our enlightenments.
+Dialogue: 0,0:16:42.36,0:16:45.44,Sub,,0,0,0,,Farewell, Senior All-Seer.
+Dialogue: 0,0:16:45.76,0:16:46.60,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:16:47.48,0:16:49.92,Sub,,0,0,0,,come with me to pay respects to the Ancestral Spirit.
+Dialogue: 0,0:16:50.00,0:16:54.24,Sub,,0,0,0,,Afterward, I will teach you a forbidden spell and give you a life-saving artifact.
+Dialogue: 0,0:16:55.24,0:16:56.28,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:16:56.88,0:16:59.24,Sub,,0,0,0,,you officially become
+Dialogue: 0,0:16:59.80,0:17:01.76,Sub,,0,0,0,,my disciple.
+Dialogue: 0,0:17:02.52,0:17:03.48,Sub,,0,0,0,,Thank you, Master.
+Dialogue: 0,0:17:04.21,0:17:13.52,Sub,,0,0,0,,{\an1\fad(1000,1000)}"I always decide which\Nforbidden spell each student will learn, but if you can see through\Nthe mysteries of this mountain, Master will break the rules and\Nlet you choose whichever spell you want."
+Dialogue: 0,0:17:07.80,0:17:10.68,Card,,0,0,0,,{\fad(300,300)\pos(1617,467)}Three Black and White Peaks\NHeavenly Fate Sect
+Dialogue: 0,0:17:14.48,0:17:15.56,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:17:15.84,0:17:17.56,Sub,,0,0,0,,what do you think of this place ?
+Dialogue: 0,0:17:18.44,0:17:19.88,Sub,,0,0,0,,This place is rich in cold Yin energy.
+Dialogue: 0,0:17:20.44,0:17:23.52,Sub,,0,0,0,,It's a great place to cultivate cold-type techniques.
+Dialogue: 0,0:17:25.44,0:17:26.60,Sub,,0,0,0,,Is that all ?
+Dialogue: 0,0:17:29.88,0:17:31.44,Sub,,0,0,0,,This mountain is completely black.
+Dialogue: 0,0:17:32.08,0:17:34.08,Sub,,0,0,0,,Even the snow falling on it is black.
+Dialogue: 0,0:17:34.84,0:17:37.36,Sub,,0,0,0,,However, this black snow isn't cold, it gives off a strange aura.
+Dialogue: 0,0:17:37.64,0:17:39.60,Sub,,0,0,0,,The central mountain's aura
+Dialogue: 0,0:17:39.84,0:17:40.84,Sub,,0,0,0,,is even stranger.
+Dialogue: 0,0:17:42.32,0:17:43.28,Sub,,0,0,0,,Oh ?
+Dialogue: 0,0:17:44.04,0:17:45.04,Sub,,0,0,0,,Continue.
+Dialogue: 0,0:17:46.44,0:17:47.88,Sub,,0,0,0,,This mountain is so strange
+Dialogue: 0,0:17:48.64,0:17:49.80,Sub,,0,0,0,,because I can sense
+Dialogue: 0,0:17:49.80,0:17:51.52,Sub,,0,0,0,,a hint of Life from it.
+Dialogue: 0,0:17:53.08,0:17:55.24,Sub,,0,0,0,,Although all beings possess Life energy,
+Dialogue: 0,0:17:56.04,0:17:57.16,Sub,,0,0,0,,it's the first time
+Dialogue: 0,0:17:57.16,0:17:59.04,Sub,,0,0,0,,that I have seen a mountain
+Dialogue: 0,0:17:59.88,0:18:01.12,Sub,,0,0,0,,with Life energy.
+Dialogue: 0,0:18:03.56,0:18:05.40,Sub,,0,0,0,,Is that all ?
+Dialogue: 0,0:18:05.92,0:18:07.16,Sub,,0,0,0,,It's not enough.
+Dialogue: 0,0:18:10.16,0:18:11.08,Sub,,0,0,0,,Master,
+Dialogue: 0,0:18:11.80,0:18:13.72,Sub,,0,0,0,,those two side mountains are fake.
+Dialogue: 0,0:18:20.84,0:18:23.24,Sub,,0,0,0,,This child's intellect is exceptional
+Dialogue: 0,0:18:23.36,0:18:25.44,Sub,,0,0,0,,and his domain is quite interesting.
+Dialogue: 0,0:18:26.16,0:18:27.84,Sub,,0,0,0,,He was able to use his domain
+Dialogue: 0,0:18:27.84,0:18:29.84,Sub,,0,0,0,,to see through my spell.
+Dialogue: 0,0:18:29.92,0:18:32.68,Sub,,0,0,0,,Detecting such clues with his Soul Transformation cultivation
+Dialogue: 0,0:18:33.48,0:18:35.28,Sub,,0,0,0,,is pretty impressive.
+Dialogue: 0,0:18:38.12,0:18:39.88,Sub,,0,0,0,,The All-Seer's cultivation is heavenly.
+Dialogue: 0,0:18:40.84,0:18:42.64,Sub,,0,0,0,,If not for Tu Si's memories
+Dialogue: 0,0:18:42.64,0:18:45.04,Sub,,0,0,0,,I wouldn't have seen the truth behind these mountains.
+Dialogue: 0,0:18:51.84,0:18:53.72,Sub,,0,0,0,,Judging from the All-Seer's reaction,
+Dialogue: 0,0:18:54.64,0:18:55.80,Sub,,0,0,0,,maybe...
+Dialogue: 0,0:18:56.68,0:18:59.88,Sub,,0,0,0,,he doesn't know that I have memories of an Ancient God.
+Dialogue: 0,0:19:05.56,0:19:06.80,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:19:07.24,0:19:09.44,Sub,,0,0,0,,Master will wait for you at the summit.
+Dialogue: 0,0:19:10.56,0:19:12.64,Sub,,0,0,0,,The first 100 steps will be easy
+Dialogue: 0,0:19:12.64,0:19:15.44,Sub,,0,0,0,,with your Soul Transformation cultivation.
+Dialogue: 0,0:19:16.28,0:19:18.24,Sub,,0,0,0,,But the final 100 steps to the summit
+Dialogue: 0,0:19:18.24,0:19:20.56,Sub,,0,0,0,,will depend on your fate.
+Dialogue: 0,0:19:23.44,0:19:25.28,Sub,,0,0,0,,Those final 100 steps
+Dialogue: 0,0:19:26.00,0:19:28.00,Sub,,0,0,0,,are what Master calls
+Dialogue: 0,0:19:28.44,0:19:30.56,Sub,,0,0,0,,the Shattered Land of the Celestials.
+Dialogue: 0,0:19:41.00,0:19:46.64,Music,,0,0,0,,{\fad(1000,700)}I've been walking this path for endless years
+Dialogue: 0,0:19:43.30,0:19:46.64,Music,,0,0,0,,{\fad(1000,700)}just to catch a glimpse of your silhouette.
+Dialogue: 0,0:19:47.28,0:19:52.24,Music,,0,0,0,,{\fad(1000,700)}Is it the compass of fate
+Dialogue: 0,0:19:49.12,0:19:52.24,Music,,0,0,0,,{\fad(1000,700)}that wrote this outcome for us ?
+Dialogue: 0,0:19:52.40,0:19:58.16,Music,,0,0,0,,{\fad(1000,700)}The heavens want to erase your existence,
+Dialogue: 0,0:19:58.28,0:20:03.88,Music,,0,0,0,,{\fad(1000,700)}that's the obsession guiding me.
+Dialogue: 0,0:20:04.16,0:20:09.48,Music,,0,0,0,,{\fad(1000,700)}Is this the path to uncover
+Dialogue: 0,0:20:06.04,0:20:09.48,Music,,0,0,0,,{\fad(1000,700)}truths from falsehoods ?
+Dialogue: 0,0:20:09.76,0:20:15.08,Music,,0,0,0,,{\fad(1000,700)}In a world of murk and shadow,
+Dialogue: 0,0:20:11.66,0:20:15.08,Music,,0,0,0,,{\fad(1000,700)}only the flame of truth can light the way.
+Dialogue: 0,0:20:15.12,0:20:20.80,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:18.00,0:20:20.80,Music,,0,0,0,,{\fad(1000,500)}being carried by the waves.
+Dialogue: 0,0:20:21.24,0:20:25.44,Music,,0,0,0,,{\fad(1000,500)}Look at them all,
+Dialogue: 0,0:20:23.40,0:20:25.44,Music,,0,0,0,,{\fad(500,500)}being drowned.
+Dialogue: 0,0:20:25.52,0:20:28.76,Music,,0,0,0,,{\fad(800,500)}I don't want to believe in whoever decides fate,
+Dialogue: 0,0:20:28.80,0:20:31.84,Music,,0,0,0,,{\fad(800,300)}I will let the world refine my soul.
+Dialogue: 0,0:20:31.97,0:20:37.40,Music,,0,0,0,,{\fad(800,500)}So what if I become an Immortal and defy the heavens ?
+Dialogue: 0,0:20:33.66,0:20:37.40,Music,,0,0,0,,{\fad(1000,500)}I will fight.
+Dialogue: 0,0:20:37.40,0:20:40.52,Music,,0,0,0,,{\fad(500,500)}I'll break through the abyss of despair
+Dialogue: 0,0:20:40.52,0:20:43.56,Music,,0,0,0,,{\fad(500,500)}to finally learn who I really am.
+Dialogue: 0,0:20:43.56,0:20:48.92,Music,,0,0,0,,{\fad(500,300)}My body is stained by the bloody color of slaughter,
+Dialogue: 0,0:20:45.44,0:20:48.92,Music,,0,0,0,,{\fad(800,300)}I embrace this obsession.
+Dialogue: 0,0:20:48.92,0:20:51.88,Music,,0,0,0,,{\fad(500,300)}I won't glance back at the wasteland I left behind.
+Dialogue: 0,0:20:51.88,0:20:54.68,Music,,0,0,0,,{\fad(300,100)}Even if this suffering shatters my soul
+Dialogue: 0,0:20:54.68,0:21:00.16,Music,,0,0,0,,{\fad(500,700)}and I'm reborn countless times in hell,
+Dialogue: 0,0:20:56.72,0:21:00.16,Music,,0,0,0,,{\fad(500,700)}I'll still fight.
+Dialogue: 0,0:21:00.36,0:21:03.52,Music,,0,0,0,,{\fad(500,500)}It's hard to avoid loneliness
+Dialogue: 0,0:21:03.52,0:21:06.56,Music,,0,0,0,,{\fad(500,500)}when you are above everyone else.
+Dialogue: 0,0:21:06.56,0:21:12.24,Music,,0,0,0,,{\fad(500,500)}Can a moth that has witnessed the flames of a Suzaku
+Dialogue: 0,0:21:08.88,0:21:12.24,Music,,0,0,0,,{\fad(500,500)}be afraid of a firefly ?

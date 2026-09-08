@@ -1,0 +1,340 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 116_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,30,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: City,Lucida Sans,115,&H006BC7DE,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:52.68,0:01:54.31,Sub,,0,0,0,,One of the 9 countries of Demon Spirit Land,
+Dialogue: 0,0:01:54.44,0:01:55.35,Sub,,0,0,0,,the Sky Demon Country,
+Dialogue: 0,0:01:56.28,0:01:59.47,Sub,,0,0,0,,holds a competition between the Demon Generals every 300 years.
+Dialogue: 0,0:02:00.08,0:02:01.11,Sub,,0,0,0,,The victor
+Dialogue: 0,0:02:01.36,0:02:04.39,Sub,,0,0,0,,is given treasures and spells by the Demon Emperor.
+Dialogue: 0,0:02:05.88,0:02:07.31,Sub,,0,0,0,,But this competition
+Dialogue: 0,0:02:07.84,0:02:09.27,Sub,,0,0,0,,is different from before.
+Dialogue: 0,0:02:10.80,0:02:12.07,Sub,,0,0,0,,200 years ago,
+Dialogue: 0,0:02:12.24,0:02:14.96,Sub,,0,0,0,,the war between the Sky Demon Country and the Fire Demon Country
+Dialogue: 0,0:02:14.96,0:02:16.79,Sub,,0,0,0,,caused heavy casualties on both sides.
+Dialogue: 0,0:02:18.08,0:02:20.15,Sub,,0,0,0,,Our side even lost a Demon Commander-in-Chief
+Dialogue: 0,0:02:20.28,0:02:21.88,Sub,,0,0,0,,and a Vice Commander-in-Chief.
+Dialogue: 0,0:02:22.40,0:02:25.76,Sub,,0,0,0,,One of the Vice Commander-in-Chief filled the position of Commander-in-Chief.
+Dialogue: 0,0:02:26.12,0:02:26.99,Sub,,0,0,0,,For this reason,
+Dialogue: 0,0:02:27.60,0:02:31.32,Sub,,0,0,0,,there are currently 2 vacant Vice Commander-in-Chief positions.
+Dialogue: 0,0:02:31.88,0:02:34.19,Sub,,0,0,0,,Besides the rewards, this competition
+Dialogue: 0,0:02:35.00,0:02:37.34,Sub,,0,0,0,,is also a Vice Commander-in-Chief selection.
+Dialogue: 0,0:02:38.68,0:02:41.56,Sub,,0,0,0,,All the Demon Generals are eyeing these positions.
+Dialogue: 0,0:02:41.80,0:02:44.35,Sub,,0,0,0,,I needed 18 people with strong bodies
+Dialogue: 0,0:02:45.08,0:02:46.67,Sub,,0,0,0,,to refine the Eighteen Demonic Bodies.
+Dialogue: 0,0:02:47.80,0:02:49.11,Sub,,0,0,0,,Since you took Thirteen back,
+Dialogue: 0,0:02:49.80,0:02:51.31,Sub,,0,0,0,,I no longer have enough.
+Dialogue: 0,0:02:54.76,0:02:55.75,Sub,,0,0,0,,But I believe
+Dialogue: 0,0:02:56.40,0:02:57.67,Sub,,0,0,0,,that with your help,
+Dialogue: 0,0:02:58.40,0:03:00.35,Sub,,0,0,0,,I can become a Vice Commander-in-Chief
+Dialogue: 0,0:03:00.92,0:03:03.63,Sub,,0,0,0,,even without the Eighteen Demonic Bodies.
+Dialogue: 0,0:03:04.56,0:03:05.64,Sub,,0,0,0,,Since I've agreed,
+Dialogue: 0,0:03:05.68,0:03:07.40,Sub,,0,0,0,,I will help you with all my strength.
+Dialogue: 0,0:03:07.68,0:03:09.36,Sub,,0,0,0,,But I have an urgent matter to deal with before.
+Dialogue: 0,0:03:09.48,0:03:10.27,Sub,,0,0,0,,I'll come back
+Dialogue: 0,0:03:10.44,0:03:11.39,Sub,,0,0,0,,in 2 months.
+Dialogue: 0,0:03:12.52,0:03:13.07,Sub,,0,0,0,,Fine,
+Dialogue: 0,0:03:13.80,0:03:14.83,Sub,,0,0,0,,it's settled then.
+Dialogue: 0,0:03:19.68,0:03:20.32,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:03:20.36,0:03:21.47,Sub,,0,0,0,,The Ancestor is back !
+Dialogue: 0,0:03:23.84,0:03:24.51,Sub,,0,0,0,,It's the Ancestor !
+Dialogue: 0,0:03:25.12,0:03:25.91,Sub,,0,0,0,,The Ancestor has returned !
+Dialogue: 0,0:03:26.56,0:03:27.15,Sub,,0,0,0,,Ancestor !
+Dialogue: 0,0:03:27.16,0:03:28.47,Sub,,0,0,0,,The Ancestor is back !
+Dialogue: 0,0:03:29.76,0:03:32.07,Sub,,0,0,0,,We welcome back the Ancestor.
+Dialogue: 0,0:03:32.28,0:03:34.59,Sub,,0,0,0,,We welcome back the Ancestor !
+Dialogue: 0,0:03:35.32,0:03:36.39,Sub,,0,0,0,,This sight
+Dialogue: 0,0:03:37.16,0:03:39.55,Sub,,0,0,0,,reminds me of the old Soul Refining Sect.
+Dialogue: 0,0:03:40.96,0:03:42.07,Sub,,0,0,0,,Ancestor,
+Dialogue: 0,0:03:42.08,0:03:43.07,Sub,,0,0,0,,in your absence,
+Dialogue: 0,0:03:43.60,0:03:46.80,Sub,,0,0,0,,all disciples have been cultivating diligently as you instructed.
+Dialogue: 0,0:03:47.08,0:03:49.75,Sub,,0,0,0,,We released our souls into the black clouds every day
+Dialogue: 0,0:03:49.88,0:03:51.20,Sub,,0,0,0,,to temper them.
+Dialogue: 0,0:03:51.72,0:03:54.59,Sub,,0,0,0,,Now, we have both mastered Soul Flags and the spells you taught us.
+Dialogue: 0,0:03:55.20,0:03:55.67,Sub,,0,0,0,,Not bad.
+Dialogue: 0,0:04:09.76,0:04:11.63,Sub,,0,0,0,,Thirteen, you're awake !
+Dialogue: 0,0:04:16.48,0:04:17.99,Sub,,0,0,0,,Ancestor ?! You're safe !
+Dialogue: 0,0:04:19.68,0:04:21.59,Sub,,0,0,0,,Thirteen thanks the Ancestor for saving my life !
+Dialogue: 0,0:04:25.76,0:04:27.04,Sub,,0,0,0,,I know what happened.
+Dialogue: 0,0:04:27.64,0:04:28.56,Sub,,0,0,0,,This past year,
+Dialogue: 0,0:04:28.64,0:04:29.56,Sub,,0,0,0,,you've worked hard.
+Dialogue: 0,0:04:31.92,0:04:33.59,Sub,,0,0,0,,When the Ancestor left and didn't return...
+Dialogue: 0,0:04:34.28,0:04:35.56,Sub,,0,0,0,,I thought that as long as you're safe
+Dialogue: 0,0:04:35.56,0:04:36.95,Sub,,0,0,0,,I could die without regrets !
+Dialogue: 0,0:04:37.68,0:04:39.04,Sub,,0,0,0,,I don't have much time.
+Dialogue: 0,0:04:39.72,0:04:41.51,Sub,,0,0,0,,I must go to Sky Demon City in 2 months.
+Dialogue: 0,0:04:42.60,0:04:44.32,Sub,,0,0,0,,Since both of you are here today,
+Dialogue: 0,0:04:44.60,0:04:46.16,Sub,,0,0,0,,I have important things to teach you.
+Dialogue: 0,0:04:46.72,0:04:47.95,Sub,,0,0,0,,Soul Refining has 2 parts
+Dialogue: 0,0:04:48.87,0:04:50.63,Sub,,0,0,0,,and Soul Refining was just the first one.
+Dialogue: 0,0:04:50.68,0:04:52.68,Sub,,0,0,0,,The second part is called Soul Extracting.
+Dialogue: 0,0:04:53.32,0:04:53.87,Sub,,0,0,0,,Ouyang Hua,
+Dialogue: 0,0:04:54.88,0:04:57.60,Sub,,0,0,0,,you will now continue to lead everyone in cultivating spells.
+Dialogue: 0,0:04:58.28,0:04:59.07,Sub,,0,0,0,,But remember,
+Dialogue: 0,0:04:59.64,0:05:01.52,Sub,,0,0,0,,you can only impart this one to direct disciples.
+Dialogue: 0,0:05:01.68,0:05:02.83,Sub,,0,0,0,,Disciple will remember.
+Dialogue: 0,0:05:03.20,0:05:03.71,Sub,,0,0,0,,Thirteen,
+Dialogue: 0,0:05:05.20,0:05:06.87,Sub,,0,0,0,,your cultivation is different from others.
+Dialogue: 0,0:05:07.64,0:05:10.20,Sub,,0,0,0,,This is the next part of the Giant Demon Clan's body cultivation method.
+Dialogue: 0,0:05:10.36,0:05:11.75,Sub,,0,0,0,,Continue to cultivate it.
+Dialogue: 0,0:05:12.20,0:05:12.91,Sub,,0,0,0,,Thank you, Ancestor !
+Dialogue: 0,0:05:14.36,0:05:15.47,Sub,,0,0,0,,Ouyang Hua, Thirteen...
+Dialogue: 0,0:05:16.48,0:05:17.59,Sub,,0,0,0,,Disciples are listening.
+Dialogue: 0,0:05:18.08,0:05:18.99,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:05:19.68,0:05:21.56,Sub,,0,0,0,,the Soul Refining Tribe will no longer lie low.
+Dialogue: 0,0:05:21.88,0:05:23.24,Sub,,0,0,0,,We will expand at full strength.
+Dialogue: 0,0:05:23.56,0:05:25.08,Sub,,0,0,0,,The next time I come back,
+Dialogue: 0,0:05:25.32,0:05:27.56,Sub,,0,0,0,,I want a tribe with at least a million members.
+Dialogue: 0,0:05:30.16,0:05:31.32,Sub,,0,0,0,,Disciples will obey !
+Dialogue: 0,0:05:31.36,0:05:32.87,Sub,,0,0,0,,We will not disappoint the Ancestor !
+Dialogue: 0,0:05:34.28,0:05:36.47,Sub,,0,0,0,,This trip to Sky Demon City will be dangerous.
+Dialogue: 0,0:05:37.28,0:05:39.27,Sub,,0,0,0,,Although the Billion-Soul Flag isn't fully refilled yet,
+Dialogue: 0,0:05:40.32,0:05:41.60,Sub,,0,0,0,,I can still use it.
+Dialogue: 0,0:05:52.56,0:05:53.63,Sub,,0,0,0,,The Soul Refining Tribe
+Dialogue: 0,0:05:54.36,0:05:56.88,Sub,,0,0,0,,will have to rely on these other Soul Flags for protection.
+Dialogue: 0,0:06:06.88,0:06:08.11,Sub,,0,0,0,,Take care of the tribe.
+Dialogue: 0,0:06:08.88,0:06:09.68,Sub,,0,0,0,,Dismissed.
+Dialogue: 0,0:06:09.76,0:06:10.60,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:06:13.12,0:06:13.63,Sub,,0,0,0,,Ancestor...
+Dialogue: 0,0:06:14.88,0:06:16.27,Sub,,0,0,0,,Hu Pao, he...
+Dialogue: 0,0:06:17.40,0:06:18.47,Sub,,0,0,0,,He might already be...
+Dialogue: 0,0:06:18.88,0:06:20.04,Sub,,0,0,0,,He's still alive.
+Dialogue: 0,0:06:20.12,0:06:20.63,Sub,,0,0,0,,What !?
+Dialogue: 0,0:06:21.08,0:06:22.11,Sub,,0,0,0,,If Hu Pao had died,
+Dialogue: 0,0:06:22.88,0:06:25.19,Sub,,0,0,0,,I would have sensed the souls of his Soul Flags.
+Dialogue: 0,0:06:26.56,0:06:29.16,Sub,,0,0,0,,I also swept Ancient Demon City with my Divine Sense
+Dialogue: 0,0:06:29.16,0:06:30.71,Sub,,0,0,0,,but didn't find a trace of him.
+Dialogue: 0,0:06:32.68,0:06:35.07,Sub,,0,0,0,,That must mean he's in some mysterious place.
+Dialogue: 0,0:06:36.08,0:06:37.44,Sub,,0,0,0,,With my current cultivation,
+Dialogue: 0,0:06:37.80,0:06:39.20,Sub,,0,0,0,,I'm unable to find him.
+Dialogue: 0,0:06:40.40,0:06:43.56,Card,,0,0,0,,{\fad(300,300)\pos(241,528)}Demon Tower\NAncient Battleground\NSky Demon Country
+Dialogue: 0,0:06:42.76,0:06:43.43,Sub,,0,0,0,,Master,
+Dialogue: 0,0:06:44.20,0:06:45.39,Sub,,0,0,0,,I have learned that
+Dialogue: 0,0:06:46.08,0:06:48.51,Sub,,0,0,0,,he has reached Peak Late stage Soul Transformation
+Dialogue: 0,0:06:49.40,0:06:51.23,Sub,,0,0,0,,and will participate in the Demon General competition
+Dialogue: 0,0:06:51.28,0:06:53.55,Sub,,0,0,0,,alongside the Demon General of Ancient Demon City.
+Dialogue: 0,0:06:54.64,0:06:57.64,Card,,0,0,0,,{\fad(300,300)\pos(242,444)}Ta Jia's Scattered Devil
+Dialogue: 0,0:06:55.12,0:06:58.27,Sub,,0,0,0,,He actually cultivates pretty fast.
+Dialogue: 0,0:06:59.00,0:07:00.71,Sub,,0,0,0,,Keep an eye on him
+Dialogue: 0,0:07:01.28,0:07:03.15,Sub,,0,0,0,,but don't alert him.
+Dialogue: 0,0:07:05.56,0:07:07.23,Sub,,0,0,0,,How about the other candidates ?
+Dialogue: 0,0:07:08.48,0:07:11.11,Sub,,0,0,0,,None have shown signs of breakthroughs yet.
+Dialogue: 0,0:07:12.00,0:07:14.87,Sub,,0,0,0,,However, I have been training a new batch of demon guards.
+Dialogue: 0,0:07:15.56,0:07:16.83,Sub,,0,0,0,,Once they are fully trained,
+Dialogue: 0,0:07:17.16,0:07:19.39,Sub,,0,0,0,,they will assist in Master's return.
+Dialogue: 0,0:07:20.28,0:07:22.20,Sub,,0,0,0,,Hu Pao pays respects to Benefactor !
+Dialogue: 0,0:07:22.56,0:07:24.15,Sub,,0,0,0,,You've made good progress lately.
+Dialogue: 0,0:07:24.92,0:07:27.95,Sub,,0,0,0,,Once you refine all the souls of this ancient battleground,
+Dialogue: 0,0:07:28.40,0:07:30.87,Sub,,0,0,0,,you will be strong enough to become Master's demon guard.
+Dialogue: 0,0:07:31.88,0:07:33.39,Sub,,0,0,0,,This is all thanks to Benefactor !
+Dialogue: 0,0:07:33.96,0:07:34.92,Sub,,0,0,0,,You saved my life,
+Dialogue: 0,0:07:34.92,0:07:35.75,Sub,,0,0,0,,taught me spells,
+Dialogue: 0,0:07:36.40,0:07:37.84,Sub,,0,0,0,,and brought me here to cultivate.
+Dialogue: 0,0:07:38.16,0:07:39.68,Sub,,0,0,0,,Hu Pao will remember your kindness !
+Dialogue: 0,0:07:48.00,0:07:50.00,Sub,,0,0,0,,{\fad(800,800)\pos(960,520)}2 months later
+Dialogue: 0,0:08:03.88,0:08:04.88,Sub,,0,0,0,,Wang Lin...
+Dialogue: 0,0:08:06.08,0:08:07.08,Sub,,0,0,0,,Now tell me
+Dialogue: 0,0:08:07.28,0:08:08.95,Sub,,0,0,0,,the real way to use the Blood Soul Pill.
+Dialogue: 0,0:08:10.88,0:08:12.43,Sub,,0,0,0,,I will never tell you.
+Dialogue: 0,0:08:13.12,0:08:15.35,Sub,,0,0,0,,Now go ahead and kill me if you dare !
+Dialogue: 0,0:08:17.48,0:08:19.47,Sub,,0,0,0,,My cultivation hasn't reached Ascendant yet.
+Dialogue: 0,0:08:19.68,0:08:21.59,Sub,,0,0,0,,If I forcibly Soul Search her,
+Dialogue: 0,0:08:21.88,0:08:24.27,Sub,,0,0,0,,the slightest mistake might kill her.
+Dialogue: 0,0:08:25.48,0:08:26.87,Sub,,0,0,0,,If you refuse to speak,
+Dialogue: 0,0:08:27.28,0:08:30.55,Sub,,0,0,0,,I can use restrictions to make you disappear from this world.
+Dialogue: 0,0:08:31.88,0:08:33.68,Sub,,0,0,0,,It's a fate worse than death.
+Dialogue: 0,0:08:34.64,0:08:35.31,Sub,,0,0,0,,Wang Lin,
+Dialogue: 0,0:08:35.68,0:08:36.91,Sub,,0,0,0,,sooner or later,
+Dialogue: 0,0:08:37.20,0:08:39.15,Sub,,0,0,0,,my father will kill you, extract your soul,
+Dialogue: 0,0:08:39.16,0:08:40.59,Sub,,0,0,0,,and imprison you in the Underworld !
+Dialogue: 0,0:08:41.08,0:08:43.87,Sub,,0,0,0,,At that time you'll know what it means to be better off dead !
+Dialogue: 0,0:08:47.36,0:08:49.83,Sub,,0,0,0,,Agreeing to help Mo Lihai in the Demon General competition
+Dialogue: 0,0:08:50.28,0:08:51.91,Sub,,0,0,0,,was to rescue Thirteen
+Dialogue: 0,0:08:52.28,0:08:55.40,Sub,,0,0,0,,but it's also the fastest way for me to become a Demon General.
+Dialogue: 0,0:08:56.28,0:08:58.19,Sub,,0,0,0,,But the Billion-Soul Flag is weakened,
+Dialogue: 0,0:08:58.88,0:09:00.07,Sub,,0,0,0,,the Blood Soul Pills are useless,
+Dialogue: 0,0:09:00.76,0:09:03.16,Sub,,0,0,0,,and Situ's 3 killing spells need to be used sparingly...
+Dialogue: 0,0:09:04.08,0:09:06.76,Sub,,0,0,0,,That means I need to rely on the Celestial Slaughter Art.
+Dialogue: 0,0:09:07.68,0:09:10.27,Sub,,0,0,0,,The Life Seals refined by the Celestial Slaughter Art
+Dialogue: 0,0:09:10.60,0:09:12.35,Sub,,0,0,0,,can be used offensively.
+Dialogue: 0,0:09:12.68,0:09:14.44,Sub,,0,0,0,,They're hard to defend against.
+Dialogue: 0,0:09:15.20,0:09:17.11,Sub,,0,0,0,,I have killed many living beings
+Dialogue: 0,0:09:17.36,0:09:19.67,Sub,,0,0,0,,but I have only refined a couple Life Seals.
+Dialogue: 0,0:09:20.40,0:09:22.39,Sub,,0,0,0,,The few times I refined a Life Seal
+Dialogue: 0,0:09:22.40,0:09:24.35,Sub,,0,0,0,,appear to be random.
+Dialogue: 0,0:09:24.72,0:09:26.99,Sub,,0,0,0,,What's the logic behind them ?
+Dialogue: 0,0:09:27.88,0:09:28.67,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:09:29.76,0:09:30.87,Sub,,0,0,0,,the time has come.
+Dialogue: 0,0:09:31.28,0:09:32.27,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:09:32.96,0:09:35.92,Card,,0,0,0,,{\fad(300,300)\pos(242,432)}Sky Demon City
+Dialogue: 0,0:09:37.28,0:09:39.40,City,,0,0,0,,{\frx3\pos(957,361)}Sky Demon City
+Dialogue: 0,0:09:49.68,0:09:51.15,Sub,,0,0,0,,Welcome, Demon General Mo !
+Dialogue: 0,0:09:51.48,0:09:52.67,Sub,,0,0,0,,After 30 years...
+Dialogue: 0,0:09:53.28,0:09:54.43,Sub,,0,0,0,,I'm finally back.
+Dialogue: 0,0:10:08.64,0:10:10.35,Sub,,0,0,0,,We pay respects to the Demon General.
+Dialogue: 0,0:10:11.84,0:10:12.79,Sub,,0,0,0,,Stand up !
+Dialogue: 0,0:10:13.96,0:10:16.55,Sub,,0,0,0,,This is my good friend, Vice-General Wang.
+Dialogue: 0,0:10:16.56,0:10:17.79,Sub,,0,0,0,,When you meet him,
+Dialogue: 0,0:10:18.20,0:10:19.39,Sub,,0,0,0,,treat him like me.
+Dialogue: 0,0:10:19.40,0:10:20.63,Sub,,0,0,0,,We pay respects to Vice-General Wang !
+Dialogue: 0,0:10:21.76,0:10:22.43,Sub,,0,0,0,,Brother Wang,
+Dialogue: 0,0:10:22.44,0:10:23.19,Sub,,0,0,0,,please.
+Dialogue: 0,0:10:26.28,0:10:28.92,Card,,0,0,0,,{\fad(300,000)\pos(242,487)}Imperial Capital\NSky Demon City
+Dialogue: 0,0:10:26.36,0:10:28.63,Sub,,0,0,0,,Blood Demon Wine, come take a look !
+Dialogue: 0,0:10:28.96,0:10:30.15,Sub,,0,0,0,,This thing looks beautiful.
+Dialogue: 0,0:10:30.16,0:10:30.99,Sub,,0,0,0,,Let's go take a look !
+Dialogue: 0,0:10:31.40,0:10:32.31,Sub,,0,0,0,,Blood Demon Wine !
+Dialogue: 0,0:10:32.88,0:10:34.03,Sub,,0,0,0,,So many river lanterns !
+Dialogue: 0,0:10:36.80,0:10:37.71,Sub,,0,0,0,,Take care.
+Dialogue: 0,0:10:58.68,0:11:00.92,Sub,,0,0,0,,Isn't this the renowned Demon General Mo ?
+Dialogue: 0,0:11:01.00,0:11:02.88,Sub,,0,0,0,,Who is that person beside him ?
+Dialogue: 0,0:11:02.96,0:11:03.95,Sub,,0,0,0,,I don't know.
+Dialogue: 0,0:11:04.36,0:11:05.51,Sub,,0,0,0,,But in previous competitions
+Dialogue: 0,0:11:05.60,0:11:08.07,Sub,,0,0,0,,each Demon General was able to have one helper.
+Dialogue: 0,0:11:09.44,0:11:11.23,Sub,,0,0,0,,Since Demon General Mo chose him,
+Dialogue: 0,0:11:11.36,0:11:12.99,Sub,,0,0,0,,he must be special.
+Dialogue: 0,0:11:13.36,0:11:14.39,Sub,,0,0,0,,He is no ordinary soldier.
+Dialogue: 0,0:11:15.24,0:11:18.39,Sub,,0,0,0,,The capital, Sky Demon City, is divided into inner and outer city.
+Dialogue: 0,0:11:18.84,0:11:22.47,Sub,,0,0,0,,The Tian, De, Xuan, and Huang districts form the inner city.
+Dialogue: 0,0:11:23.56,0:11:26.95,Sub,,0,0,0,,The Yu, Zhou, Hong, and Huãng districts form the outer city.
+Dialogue: 0,0:11:27.56,0:11:29.03,Sub,,0,0,0,,The inner city is for officials
+Dialogue: 0,0:11:29.08,0:11:30.55,Sub,,0,0,0,,and the outer city for the military.
+Dialogue: 0,0:11:31.20,0:11:34.67,Sub,,0,0,0,,I live in the Hong district.
+Dialogue: 0,0:11:35.24,0:11:37.28,Sub,,0,0,0,,If Brother Wang doesn't mind,
+Dialogue: 0,0:11:37.40,0:11:39.03,Sub,,0,0,0,,please stay at my residence.
+Dialogue: 0,0:11:39.68,0:11:41.44,Sub,,0,0,0,,I'll follow what you've arranged for me.
+Dialogue: 0,0:11:41.76,0:11:43.68,Sub,,0,0,0,,It's been a while since I was last here
+Dialogue: 0,0:11:43.96,0:11:46.79,Sub,,0,0,0,,but the capital is as bustling as ever.
+Dialogue: 0,0:12:10.84,0:12:13.15,Sub,,0,0,0,,If I want to become a Vice Commander-in-Chief,
+Dialogue: 0,0:12:13.44,0:12:15.35,Sub,,0,0,0,,we need to be wary of 2 people.
+Dialogue: 0,0:12:16.96,0:12:17.99,Sub,,0,0,0,,The first
+Dialogue: 0,0:12:18.36,0:12:21.56,Sub,,0,0,0,,is Mo Fei, the one who guards our border with the Fire Demon Country.
+Dialogue: 0,0:12:21.68,0:12:23.35,Sub,,0,0,0,,This person is famous on the battlefields
+Dialogue: 0,0:12:23.60,0:12:25.83,Sub,,0,0,0,,and is the strongest among the Demon Generals.
+Dialogue: 0,0:12:27.96,0:12:28.92,Sub,,0,0,0,,The second person
+Dialogue: 0,0:12:29.16,0:12:30.15,Sub,,0,0,0,,is named Shi Xiao.
+Dialogue: 0,0:12:30.76,0:12:32.15,Sub,,0,0,0,,He also guards the border.
+Dialogue: 0,0:12:32.88,0:12:35.20,Sub,,0,0,0,,We've been at odds with each other for years.
+Dialogue: 0,0:12:35.28,0:12:37.12,Sub,,0,0,0,,His spell, the Six Finger Demon Sword,
+Dialogue: 0,0:12:37.20,0:12:38.39,Sub,,0,0,0,,is unpredictable.
+Dialogue: 0,0:12:47.84,0:12:49.35,Sub,,0,0,0,,Speak of the devil.
+Dialogue: 0,0:12:51.48,0:12:53.32,Card,,0,0,0,,{\fad(300,000)\pos(417,553)}Shi Xiao\NDemon General\NRank 200 000 Demonic Energy\N(Peak Late stage Soul Transformation)
+Dialogue: 0,0:13:28.32,0:13:29.03,Sub,,0,0,0,,Thank you.
+Dialogue: 0,0:13:30.56,0:13:32.28,Sub,,0,0,0,,Guarding the border for 100 years
+Dialogue: 0,0:13:32.48,0:13:34.48,Sub,,0,0,0,,doesn't seem to have made you any stronger.
+Dialogue: 0,0:13:37.76,0:13:38.75,Sub,,0,0,0,,Outsider,
+Dialogue: 0,0:13:39.08,0:13:40.03,Sub,,0,0,0,,what's your name ?
+Dialogue: 0,0:13:40.68,0:13:41.80,Sub,,0,0,0,,His name is Wang Lin,
+Dialogue: 0,0:13:41.80,0:13:42.95,Sub,,0,0,0,,he's my Junior Brother.
+Dialogue: 0,0:13:44.28,0:13:45.91,Sub,,0,0,0,,It seems Junior Brother had good fortune,
+Dialogue: 0,0:13:46.44,0:13:47.99,Sub,,0,0,0,,your cultivation has improved.
+Dialogue: 0,0:13:51.84,0:13:54.23,Sub,,0,0,0,,Back then, Master helped Chen Tao conceal his Ascendant cultivation
+Dialogue: 0,0:13:54.76,0:13:56.52,Sub,,0,0,0,,in order to enter this place.
+Dialogue: 0,0:13:57.48,0:13:58.56,Sub,,0,0,0,,With his strength,
+Dialogue: 0,0:13:58.68,0:14:00.40,Sub,,0,0,0,,how could he be so severely injured ?
+Dialogue: 0,0:14:00.56,0:14:02.51,Sub,,0,0,0,,He even fell out of Ascendant.
+Dialogue: 0,0:14:02.96,0:14:04.80,Sub,,0,0,0,,Be careful of the Da Lou Sword Sect.
+Dialogue: 0,0:14:05.00,0:14:05.75,Sub,,0,0,0,,They're the ones
+Dialogue: 0,0:14:06.16,0:14:07.31,Sub,,0,0,0,,that injured me.
+Dialogue: 0,0:14:29.95,0:14:31.54,Sub,,0,0,0,,This person is named Mo Lihai
+Dialogue: 0,0:14:31.84,0:14:33.15,Sub,,0,0,0,,and has 3 powerful spells.
+Dialogue: 0,0:14:33.60,0:14:35.59,Sub,,0,0,0,,The first is the Ten Collapse Battle Intent,
+Dialogue: 0,0:14:36.36,0:14:38.19,Sub,,0,0,0,,the second is the Hundred Waves Demon Sea,
+Dialogue: 0,0:14:39.56,0:14:40.55,Sub,,0,0,0,,and the third...
+Dialogue: 0,0:14:40.92,0:14:42.76,Sub,,0,0,0,,was personally taught by the Demon Emperor
+Dialogue: 0,0:14:42.88,0:14:44.60,Sub,,0,0,0,,and is immeasurably powerful.
+Dialogue: 0,0:14:45.16,0:14:46.72,Sub,,0,0,0,,If I were at my prime,
+Dialogue: 0,0:14:46.72,0:14:47.72,Sub,,0,0,0,,I could've killed him.
+Dialogue: 0,0:14:48.96,0:14:50.56,Sub,,0,0,0,,What about your Junior Brother ?
+Dialogue: 0,0:14:51.96,0:14:52.59,Sub,,0,0,0,,He's strong.
+Dialogue: 0,0:14:53.64,0:14:55.15,Sub,,0,0,0,,At Middle stage Soul Transformation
+Dialogue: 0,0:14:55.60,0:14:57.56,Sub,,0,0,0,,he was able to fight Ascendant cultivators.
+Dialogue: 0,0:14:57.88,0:14:59.36,Sub,,0,0,0,,Now that his cultivation has increased,
+Dialogue: 0,0:15:00.04,0:15:01.63,Sub,,0,0,0,,I'd rather not provoke him.
+Dialogue: 0,0:15:02.88,0:15:04.76,Sub,,0,0,0,,We've known each other for a while now
+Dialogue: 0,0:15:05.08,0:15:07.56,Sub,,0,0,0,,but this is the first time I've heard you say something like this.
+Dialogue: 0,0:15:08.76,0:15:10.15,Sub,,0,0,0,,But even so,
+Dialogue: 0,0:15:11.28,0:15:13.19,Sub,,0,0,0,,they're no match for us.
+Dialogue: 0,0:15:20.68,0:15:22.76,Card Hard,,0,0,0,,{\pos(251,523)\fad(300,000)}Mo's Residence\NSky Demon City
+Dialogue: 0,0:15:21.36,0:15:24.15,Sub,,0,0,0,,You want a place where you can slaughter
+Dialogue: 0,0:15:24.76,0:15:26.63,Sub,,0,0,0,,that wouldn't cause trouble ?
+Dialogue: 0,0:15:27.68,0:15:29.24,Sub,,0,0,0,,What do you intend to do ?
+Dialogue: 0,0:15:35.44,0:15:36.91,Sub,,0,0,0,,I've seen this spell of yours before !
+Dialogue: 0,0:15:48.96,0:15:50.55,Sub,,0,0,0,,What exactly is this thing !?
+Dialogue: 0,0:15:51.20,0:15:52.47,Sub,,0,0,0,,It can actually shake my armor,
+Dialogue: 0,0:15:53.04,0:15:54.91,Sub,,0,0,0,,drain the vitality out of my body,
+Dialogue: 0,0:15:55.28,0:15:56.56,Sub,,0,0,0,,and disturb my soul !
+Dialogue: 0,0:16:00.76,0:16:03.60,Sub,,0,0,0,,5 strands of slaughter energy can already shake your soul.
+Dialogue: 0,0:16:04.76,0:16:05.95,Sub,,0,0,0,,If I master this spell,
+Dialogue: 0,0:16:06.64,0:16:08.27,Sub,,0,0,0,,and have 1000 strands,
+Dialogue: 0,0:16:09.36,0:16:11.44,Sub,,0,0,0,,how powerful do you think it will be ?
+Dialogue: 0,0:16:15.60,0:16:18.03,Sub,,0,0,0,,A place where you can slaughter...
+Dialogue: 0,0:16:19.00,0:16:20.23,Sub,,0,0,0,,I do have an idea !
+Dialogue: 0,0:16:21.32,0:16:24.08,Card,,0,0,0,,{\fad(300,000)\pos(248,492)}Hong Prison\NSky Demon City
+Dialogue: 0,0:16:21.60,0:16:22.35,Sub,,0,0,0,,The Hong Prison,
+Dialogue: 0,0:16:23.36,0:16:25.15,Sub,,0,0,0,,one of the capital's 4 great prisons
+Dialogue: 0,0:16:25.96,0:16:28.36,Sub,,0,0,0,,used to imprison felons and those sentenced to death.
+Dialogue: 0,0:16:28.76,0:16:30.59,Sub,,0,0,0,,But its guard is extremely strict,
+Dialogue: 0,0:16:31.00,0:16:33.99,Sub,,0,0,0,,I can only try to give you 7 days inside.
+Dialogue: 0,0:16:35.36,0:16:36.55,Sub,,0,0,0,,Tonight at midnight,
+Dialogue: 0,0:16:37.08,0:16:38.67,Sub,,0,0,0,,go to the entrance of the Hong Prison.
+Dialogue: 0,0:16:39.44,0:16:41.27,Sub,,0,0,0,,Someone will take you in.
+Dialogue: 0,0:16:44.20,0:16:44.79,Sub,,0,0,0,,General,
+Dialogue: 0,0:16:45.24,0:16:46.68,Sub,,0,0,0,,everything has been arranged.
+Dialogue: 0,0:16:46.96,0:16:48.99,Sub,,0,0,0,,Vice-General Wang will be able to enter the prison.
+Dialogue: 0,0:16:51.16,0:16:51.92,Sub,,0,0,0,,General...
+Dialogue: 0,0:16:52.36,0:16:54.27,Sub,,0,0,0,,The Hong prison is a really weird place.
+Dialogue: 0,0:16:55.28,0:16:57.00,Sub,,0,0,0,,Isn't sending Vice-General Wang
+Dialogue: 0,0:16:57.12,0:16:58.31,Sub,,0,0,0,,a bit too risky ?
+Dialogue: 0,0:16:59.56,0:17:01.19,Sub,,0,0,0,,Whether he can use this opportunity or not
+Dialogue: 0,0:17:01.76,0:17:03.07,Sub,,0,0,0,,depends on his fate.
+Dialogue: 0,0:17:04.56,0:17:07.40,Sub,,0,0,0,,The Demon General competition is too important.
+Dialogue: 0,0:17:07.64,0:17:09.48,Sub,,0,0,0,,I must gamble on this !
+Dialogue: 0,0:17:38.64,0:17:41.79,Sub,,0,0,0,,Are you the person Mo Lihai spoke of ?
+Dialogue: 0,0:17:38.72,0:17:41.68,Card,,0,0,0,,{\pos(384,497)\fad(300,300)}Xu Huichuan\NHuang Prison Warden\NRank 200 000 Demonic Energy\N(Peak Late stage Soul Transformation)
+Dialogue: 0,0:17:43.88,0:17:44.75,Sub,,0,0,0,,Yes I am.
+Dialogue: 0,0:17:47.48,0:17:49.87,Sub,,0,0,0,,Follow me.
+Dialogue: 0,0:18:03.66,0:20:07.96,Note,,0,0,0,,{\fad(1000,1000)}The Celestial Slaughter Art has 2 functions: both offensive and defensive. By killing and refining strands of slaughter energy, Wang Lin can create Life Seals that he can use defensively. The Life Seals can be converted at anytime into strands of slaughter energy to be used offensively.\N\N2 things were cut in the episode: some unnecessary details from Yao Xixue's interrogation and Wang Lin's infatuation with the zither music on the boat.\N\NDuring the interrogation, Wang Lin saw through Yao Xixue's suicide attempt. She had used life energy to form a needle in her throat to kill herself. He opens her mouth and takes the needle out.\NYao Xixue's hatred makes her enter a state of understanding of the Dao. To prevent her from having a breakthrough, Wang Lin removes her clothes and uses restrictions to stimulate her body and prevent her from having a clear mind.\N\NLater in the episode Wang Lin originally had 3 days to kill before entering the prison so he goes by the river and listens to the zither music of the woman on the boat and remembers Li Muwan.\NHe then drinks while staring at the night sky. I hope this part gets adapted later.\N\NA jar of high quality wine from Ancient Demon City was placed next to Wang Lin. He would occasionally pick up the jar and take a drink. The bleakness of his shadow gradually affected his body, and his loneliness seemed to fuse with the moonlight that imprinted on his body and soul…\N“I, Wang Lin, began learning the Dao at the age of 16, but I have long forgotten exactly how long I have cultivated for…” Wang Lin picked up the jar and took a big gulp. The wine leaked out from the corner of his mouth and dripped on his clothes.\NWang Lin looked at the starlight in the sky and revealed a hint of loneliness.\N“Cultivators walk against the heavens and are destined to be forever lonely…”\NThere were no sounds, but Wang Lin could still faintly hear the zither music. He wiped the wine from the corner of his mouth and muttered, “Being lonely for life gives one the heart to seek the Dao… But then how many people can truly savor this feeling of loneliness? Just like this wine, it is spicy when it enters the mouth, but then it turns into warmth once it enters the body…”\NUnder the starlight and moonlight, a solitary shadow was drinking wine and contemplating life…\N“I don’t know how those cultivators who have cultivated for over ten thousand years endured those ten thousand years. But I know that if one doesn’t have at least a tiny bit of emotion, they are only cultivating their self-created Dao and not the Dao of the heavens!”\N“The heavens and earth are inhumane. Cultivating is about going against the heavens, but if a cultivator is also heartless, than they are also inhumane. Using an inhumane heart to cultivate the heaven’s inhumane Dao, how can that be considered going against the heavens? That is merely following the will of the heavens.\N“Since ancient times, those that followed the will of the heavens were favored by the heavens, but in truth they were merely insects! My Dao doesn’t follow the will of the heavens, I follow my heart to walk against the heavens. I don’t seek to be immortal, I seek to get rid of my status as an insect. That is what it means to rebel!”

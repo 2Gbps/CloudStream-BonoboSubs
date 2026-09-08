@@ -1,0 +1,383 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Raw]Renegade Immortal - Xian Ni Episode 84_4k
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Ending77,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:01:57.92,0:01:58.75,Sub,,0,0,0,,Boss !
+Dialogue: 0,0:01:58.80,0:01:59.76,Sub,,0,0,0,,What is that ?
+Dialogue: 0,0:02:29.68,0:02:30.47,Sub,,0,0,0,,Boss,
+Dialogue: 0,0:02:30.59,0:02:32.04,Sub,,0,0,0,,I found a money tree !
+Dialogue: 0,0:02:32.55,0:02:34.15,Sub,,0,0,0,,What an ugly kid...
+Dialogue: 0,0:02:34.24,0:02:35.36,Sub,,0,0,0,,If we break his legs,
+Dialogue: 0,0:02:35.40,0:02:37.48,Sub,,0,0,0,,we can use him as bait for the Heavenly Power Escort.
+Dialogue: 0,0:02:37.52,0:02:39.11,Sub,,0,0,0,,It’s better than using our own brother !
+Dialogue: 0,0:02:40.52,0:02:41.52,Sub,,0,0,0,,Take him.
+Dialogue: 0,0:03:01.40,0:03:04.52,Card,,0,0,0,,{\pos(1684,468)\fad(300,300)}Street\NCountry of Suzaku
+Dialogue: 0,0:03:02.12,0:03:03.24,Sub,,0,0,0,,At that moment
+Dialogue: 0,0:03:03.28,0:03:05.18,Sub,,0,0,0,,Ceng Niu raised two fingers,
+Dialogue: 0,0:03:05.72,0:03:09.81,Sub,,0,0,0,,ready to perish together with Red Butterfly.
+Dialogue: 0,0:03:11.60,0:03:12.68,Third,,0,0,0,,After hearing about the duel...
+Dialogue: 0,0:03:10.60,0:03:12.68,Sub,,0,0,0,,Red Butterfly refused to back down.
+Dialogue: 0,0:03:12.84,0:03:14.71,Sub,,0,0,0,,Red Butterfly also made a breakthrough,
+Dialogue: 0,0:03:14.72,0:03:16.12,Sub,,0,0,0,,she's now trying to reach Soul Transformation.
+Dialogue: 0,0:03:16.15,0:03:18.56,Sub,,0,0,0,,She's the proud daughter of Xue Yue,
+Dialogue: 0,0:03:19.20,0:03:20.58,Sub,,0,0,0,,to make her submit back then
+Dialogue: 0,0:03:20.92,0:03:22.75,Sub,,0,0,0,,the country of Suzaku paid a hefty price.
+Dialogue: 0,0:03:30.72,0:03:33.16,Sub,,0,0,0,,I know you hid a tiny bit of your Origin Soul somewhere.
+Dialogue: 0,0:03:34.56,0:03:35.28,Sub,,0,0,0,,Heartless,
+Dialogue: 0,0:03:36.04,0:03:38.80,Sub,,0,0,0,,I won’t allow a second cauldron to escape.
+Dialogue: 0,0:03:48.84,0:03:52.08,Sub,,0,0,0,,Ceng Niu's duel with Red Butterfly made him famous,
+Dialogue: 0,0:03:52.12,0:03:56.36,Sub,,0,0,0,,solidifying his title as the strongest person under Soul Transformation.
+Dialogue: 0,0:03:56.92,0:03:58.21,Sub,,0,0,0,,But who would’ve thought
+Dialogue: 0,0:03:58.32,0:03:59.91,Sub,,0,0,0,,that the very next day
+Dialogue: 0,0:04:00.02,0:04:02.91,Sub,,0,0,0,,Ceng Niu would vanish.
+Dialogue: 0,0:04:02.92,0:04:03.53,Sub,,0,0,0,,What ?
+Dialogue: 0,0:04:03.72,0:04:05.18,Sub,,0,0,0,,Ceng Niu’s gone ?
+Dialogue: 0,0:04:05.18,0:04:05.91,Sub,,0,0,0,,Is it true ?
+Dialogue: 0,0:04:04.95,0:04:07.63,Card,,0,0,0,,{\pos(1687,513)\fad(300,300)}Cave at the top of\NMount Suzaku\NCountry of Suzaku
+Dialogue: 0,0:04:08.38,0:04:10.44,Sub,,0,0,0,,Disciple humbly requests that Master comes out.
+Dialogue: 0,0:04:12.15,0:04:13.91,Sub,,0,0,0,,I have heard.
+Dialogue: 0,0:04:14.72,0:04:15.71,Sub,,0,0,0,,That brat
+Dialogue: 0,0:04:16.38,0:04:18.92,Sub,,0,0,0,,disappeared suddenly.
+Dialogue: 0,0:04:19.56,0:04:21.03,Sub,,0,0,0,,Disciple is sorry
+Dialogue: 0,0:04:21.12,0:04:22.44,Sub,,0,0,0,,for interrupting Master's seclusion.
+Dialogue: 0,0:04:22.75,0:04:23.55,Sub,,0,0,0,,Don't worry,
+Dialogue: 0,0:04:24.35,0:04:26.41,Sub,,0,0,0,,he is the cauldron I chose for you.
+Dialogue: 0,0:04:27.35,0:04:28.57,Sub,,0,0,0,,It's not a big deal
+Dialogue: 0,0:04:28.72,0:04:29.92,Sub,,0,0,0,,but...
+Dialogue: 0,0:04:30.02,0:04:31.80,Sub,,0,0,0,,Well, it kind of is...
+Dialogue: 0,0:04:32.35,0:04:33.98,Sub,,0,0,0,,Yesterday, I sensed a surge
+Dialogue: 0,0:04:34.38,0:04:36.84,Sub,,0,0,0,,of celestial spiritual energy in the far north.
+Dialogue: 0,0:04:36.98,0:04:39.65,Sub,,0,0,0,,It most likely was Soul Transformation cultivators fighting.
+Dialogue: 0,0:04:40.52,0:04:41.58,Sub,,0,0,0,,I found that
+Dialogue: 0,0:04:42.12,0:04:43.52,Sub,,0,0,0,,Wang Lin’s disappearance
+Dialogue: 0,0:04:44.12,0:04:45.48,Sub,,0,0,0,,is because of Xue Yue
+Dialogue: 0,0:04:45.52,0:04:47.11,Sub,,0,0,0,,and the Giant Demon Clan.
+Dialogue: 0,0:04:48.48,0:04:50.31,Sub,,0,0,0,,This jade slip can track him.
+Dialogue: 0,0:04:50.92,0:04:52.48,Sub,,0,0,0,,He’s gravely injured,
+Dialogue: 0,0:04:52.52,0:04:54.16,Sub,,0,0,0,,his Origin Soul collapsed.
+Dialogue: 0,0:04:54.58,0:04:55.95,Sub,,0,0,0,,I can only sense
+Dialogue: 0,0:04:56.72,0:04:59.38,Sub,,0,0,0,,that he’s in the north of the Suzaku continent.
+Dialogue: 0,0:05:00.64,0:05:03.84,Card,,0,0,0,,{\pos(1681,469)\fad(300,300)}Abandonned temple\NCountry of Pilu
+Dialogue: 0,0:05:14.32,0:05:16.24,Sub,,0,0,0,,I cultivated for 500 years
+Dialogue: 0,0:05:17.44,0:05:19.12,Sub,,0,0,0,,just to become mortal again.
+Dialogue: 0,0:05:20.60,0:05:21.65,Sub,,0,0,0,,But in 8 years,
+Dialogue: 0,0:05:22.52,0:05:25.16,Sub,,0,0,0,,Wan’er will face the law of the heavens again.
+Dialogue: 0,0:05:26.44,0:05:27.40,Sub,,0,0,0,,8 years...
+Dialogue: 0,0:05:28.40,0:05:30.52,Sub,,0,0,0,,If my original body was here,
+Dialogue: 0,0:05:30.56,0:05:33.59,Sub,,0,0,0,,I would find a place rich in spiritual energy
+Dialogue: 0,0:05:33.72,0:05:34.92,Sub,,0,0,0,,to cultivate again.
+Dialogue: 0,0:05:35.40,0:05:37.24,Sub,,0,0,0,,I would've been able to recover.
+Dialogue: 0,0:05:37.76,0:05:39.28,Sub,,0,0,0,,But my original body
+Dialogue: 0,0:05:39.32,0:05:41.72,Sub,,0,0,0,,was also affected by the collapse of my Origin Soul.
+Dialogue: 0,0:05:42.24,0:05:44.84,Sub,,0,0,0,,It fell into a deep sleep under the country of Chu.
+Dialogue: 0,0:05:44.92,0:05:46.24,Sub,,0,0,0,,Maybe
+Dialogue: 0,0:05:46.72,0:05:48.76,Sub,,0,0,0,,I can find a local cultivation sect
+Dialogue: 0,0:05:49.52,0:05:52.36,Sub,,0,0,0,,and they will have places with dense spiritual energy.
+Dialogue: 0,0:05:53.52,0:05:54.32,Sub,,0,0,0,,But...
+Dialogue: 0,0:05:55.04,0:05:56.80,Sub,,0,0,0,,in my current state...
+Dialogue: 0,0:05:57.72,0:06:00.04,Sub,,0,0,0,,how could I even enter a sect ?
+Dialogue: 0,0:06:03.17,0:06:04.77,Sub,,0,0,0,,What must I do
+Dialogue: 0,0:06:05.28,0:06:07.04,Sub,,0,0,0,,to break the seal and domain
+Dialogue: 0,0:06:07.60,0:06:09.48,Sub,,0,0,0,,restriction on my body ?
+Dialogue: 0,0:06:11.32,0:06:12.92,Sub,,0,0,0,,Within 100 li,
+Dialogue: 0,0:06:12.96,0:06:14.48,Sub,,0,0,0,,we can’t afford to offend Immortals.
+Dialogue: 0,0:06:15.16,0:06:16.62,Sub,,0,0,0,,But in mortal territory,
+Dialogue: 0,0:06:16.92,0:06:18.52,Sub,,0,0,0,,even the officials need to respect us !
+Dialogue: 0,0:06:16.96,0:06:19.32,Card,,0,0,0,,{\pos(1675,474)\fad(300,300)}Village chief\NFire Cloud Village
+Dialogue: 0,0:06:19.59,0:06:22.10,Sub,,0,0,0,,Yet the Heavenly Power Escort dares to ignore us.
+Dialogue: 0,0:06:22.16,0:06:23.62,Sub,,0,0,0,,They think they can take a detour.
+Dialogue: 0,0:06:23.82,0:06:24.39,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:06:24.99,0:06:26.56,Sub,,0,0,0,,let’s teach them a lesson !
+Dialogue: 0,0:06:26.56,0:06:27.65,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:06:29.56,0:06:31.56,Sub,,0,0,0,,The Heavenly Power Escort would never expect
+Dialogue: 0,0:06:31.92,0:06:33.42,Sub,,0,0,0,,that we’d ambush them here.
+Dialogue: 0,0:06:33.99,0:06:34.58,Sub,,0,0,0,,Boss,
+Dialogue: 0,0:06:34.79,0:06:36.12,Sub,,0,0,0,,you're brilliant !
+Dialogue: 0,0:06:36.69,0:06:37.61,Sub,,0,0,0,,It's genius !
+Dialogue: 0,0:06:38.29,0:06:39.78,Sub,,0,0,0,,The time is about right,
+Dialogue: 0,0:06:40.22,0:06:41.12,Sub,,0,0,0,,get ready.
+Dialogue: 0,0:06:41.52,0:06:42.12,Sub,,0,0,0,,Got it !
+Dialogue: 0,0:06:52.19,0:06:53.45,Sub,,0,0,0,,This ugly face
+Dialogue: 0,0:06:53.62,0:06:56.32,Sub,,0,0,0,,makes the perfect bait.
+Dialogue: 0,0:07:07.72,0:07:08.56,Sub,,0,0,0,,Little brat,
+Dialogue: 0,0:07:08.99,0:07:10.76,Sub,,0,0,0,,consider yourself unlucky.
+Dialogue: 0,0:07:12.42,0:07:13.60,Sub,,0,0,0,,What's this look ?
+Dialogue: 0,0:07:23.09,0:07:23.92,Sub,,0,0,0,,Let’s go.
+Dialogue: 0,0:07:25.62,0:07:26.87,Sub,,0,0,0,,On my way !
+Dialogue: 0,0:07:54.92,0:07:55.96,Sub,,0,0,0,,Fire...
+Dialogue: 0,0:07:59.75,0:08:00.92,Sub,,0,0,0,,Fire Cloud Poison !
+Dialogue: 0,0:08:00.92,0:08:02.26,Sub,,0,0,0,,It's activated by fire.
+Dialogue: 0,0:08:02.32,0:08:02.86,Sub,,0,0,0,,Shit !
+Dialogue: 0,0:08:02.88,0:08:03.74,Sub,,0,0,0,,Fire Cloud Poison !
+Dialogue: 0,0:08:03.81,0:08:04.76,Sub,,0,0,0,,Cover your mouths !
+Dialogue: 0,0:08:04.80,0:08:05.68,Sub,,0,0,0,,Retreat !
+Dialogue: 0,0:08:13.24,0:08:14.16,Sub,,0,0,0,,Charge in !
+Dialogue: 0,0:08:14.92,0:08:15.54,Sub,,0,0,0,,Go !
+Dialogue: 0,0:08:16.56,0:08:17.64,Sub,,0,0,0,,Give me that !
+Dialogue: 0,0:08:18.52,0:08:19.61,Sub,,0,0,0,,Trying to flee ?
+Dialogue: 0,0:08:20.64,0:08:21.72,Sub,,0,0,0,,Loot them !
+Dialogue: 0,0:08:25.16,0:08:26.72,Sub,,0,0,0,,Everyone has returned !
+Dialogue: 0,0:08:27.08,0:08:28.20,Sub,,0,0,0,,Open the gates !
+Dialogue: 0,0:08:26.52,0:08:29.68,Card Hard,,0,0,0,,{\pos(1680,468)\fad(300,300)}Fire Cloud Village\NCountry of Pilu
+Dialogue: 0,0:08:32.04,0:08:33.14,Sub,,0,0,0,,The boss is back !
+Dialogue: 0,0:08:33.72,0:08:34.40,Sub,,0,0,0,,Hurry !
+Dialogue: 0,0:08:34.91,0:08:36.40,Sub,,0,0,0,,With the boss leading us
+Dialogue: 0,0:08:36.40,0:08:37.74,Sub,,0,0,0,,the haul is always different.
+Dialogue: 0,0:08:37.96,0:08:39.30,Sub,,0,0,0,,It should be enough to enjoy for a while.
+Dialogue: 0,0:08:39.84,0:08:41.30,Sub,,0,0,0,,Fetch some good wine
+Dialogue: 0,0:08:41.71,0:08:42.57,Sub,,0,0,0,,and let the brothers
+Dialogue: 0,0:08:42.71,0:08:43.90,Sub,,0,0,0,,drink their fill tonight !
+Dialogue: 0,0:08:43.91,0:08:44.64,Sub,,0,0,0,,Got it !
+Dialogue: 0,0:08:46.60,0:08:48.20,Sub,,0,0,0,,Be careful with him,
+Dialogue: 0,0:08:48.60,0:08:50.20,Sub,,0,0,0,,throw him in the water prison.
+Dialogue: 0,0:08:50.87,0:08:51.84,Sub,,0,0,0,,Let's keep him
+Dialogue: 0,0:08:51.84,0:08:52.84,Sub,,0,0,0,,for next time.
+Dialogue: 0,0:08:53.56,0:08:54.16,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:09:03.52,0:09:04.52,Sub,,0,0,0,,It seems that
+Dialogue: 0,0:09:05.28,0:09:07.31,Sub,,0,0,0,,a cultivator that has lost everything
+Dialogue: 0,0:09:08.31,0:09:10.14,Sub,,0,0,0,,is even worse than a mortal…
+Dialogue: 0,0:09:12.20,0:09:12.73,Sub,,0,0,0,,Wan’er,
+Dialogue: 0,0:09:13.84,0:09:14.67,Sub,,0,0,0,,this time
+Dialogue: 0,0:09:15.09,0:09:16.32,Sub,,0,0,0,,it's going to be hard.
+Dialogue: 0,0:09:17.92,0:09:20.48,Sub,,0,0,0,,But I will brave these obstacles
+Dialogue: 0,0:09:21.36,0:09:22.72,Sub,,0,0,0,,and return to you.
+Dialogue: 0,0:09:39.36,0:09:41.35,Sub,,0,0,0,,I need spiritual energy to break the chains
+Dialogue: 0,0:09:42.36,0:09:43.79,Sub,,0,0,0,,and to restore my cultivation.
+Dialogue: 0,0:09:47.39,0:09:48.54,Sub,,0,0,0,,Isn't this...
+Dialogue: 0,0:09:53.80,0:09:55.49,Sub,,0,0,0,,It’s really spiritual energy !
+Dialogue: 0,0:09:56.10,0:09:58.00,Sub,,0,0,0,,This water contains spiritual energy !
+Dialogue: 0,0:09:59.00,0:10:00.50,Sub,,0,0,0,,If I can absorb it,
+Dialogue: 0,0:10:01.10,0:10:02.30,Sub,,0,0,0,,I can escape this place.
+Dialogue: 0,0:10:04.10,0:10:05.32,Sub,,0,0,0,,Enter my body...
+Dialogue: 0,0:10:06.20,0:10:07.60,Sub,,0,0,0,,Return to the origin...
+Dialogue: 0,0:10:32.34,0:10:33.57,Sub,,0,0,0,,Good haul today !
+Dialogue: 0,0:10:33.70,0:10:34.27,Sub,,0,0,0,,Indeed !
+Dialogue: 0,0:10:34.64,0:10:35.84,Sub,,0,0,0,,We slaughtered a fat sheep.
+Dialogue: 0,0:10:47.36,0:10:48.36,Sub,,0,0,0,,What’s this ?
+Dialogue: 0,0:10:49.64,0:10:50.40,Sub,,0,0,0,,Boss,
+Dialogue: 0,0:10:50.68,0:10:53.28,Sub,,0,0,0,,I took this off that ugly brat.
+Dialogue: 0,0:10:58.40,0:10:59.28,Sub,,0,0,0,,Isn't this
+Dialogue: 0,0:10:59.32,0:11:00.87,Sub,,0,0,0,,Heavenly Silkworm Thread ?
+Dialogue: 0,0:11:05.92,0:11:07.28,Sub,,0,0,0,,I don’t believe it !
+Dialogue: 0,0:11:13.48,0:11:14.54,Sub,,0,0,0,,A treasure...
+Dialogue: 0,0:11:15.08,0:11:17.04,Sub,,0,0,0,,This is a real treasure !
+Dialogue: 0,0:11:17.04,0:11:17.92,Sub,,0,0,0,,Yes, yes!
+Dialogue: 0,0:11:18.51,0:11:20.60,Sub,,0,0,0,,If we can get more of these
+Dialogue: 0,0:11:20.60,0:11:21.98,Sub,,0,0,0,,and weave them into armor,
+Dialogue: 0,0:11:22.20,0:11:23.34,Sub,,0,0,0,,we’d be invincible !
+Dialogue: 0,0:11:24.38,0:11:26.94,Sub,,0,0,0,,I wonder where that ugly brat got it.
+Dialogue: 0,0:11:28.11,0:11:29.51,Sub,,0,0,0,,I’ll ask him.
+Dialogue: 0,0:11:35.92,0:11:36.92,Sub,,0,0,0,,Boss, he's here.
+Dialogue: 0,0:11:44.40,0:11:45.40,Sub,,0,0,0,,Boss, the water...
+Dialogue: 0,0:11:45.44,0:11:46.91,Sub,,0,0,0,,Something’s in the water !
+Dialogue: 0,0:11:48.80,0:11:49.92,Sub,,0,0,0,,Bullshit !
+Dialogue: 0,0:11:50.24,0:11:51.24,Sub,,0,0,0,,Drag him out now !
+Dialogue: 0,0:12:04.91,0:12:05.31,Sub,,0,0,0,,You...
+Dialogue: 0,0:12:05.95,0:12:07.31,Sub,,0,0,0,,Who are you ?!
+Dialogue: 0,0:12:07.75,0:12:08.31,Sub,,0,0,0,,That day,
+Dialogue: 0,0:12:09.68,0:12:11.41,Sub,,0,0,0,,you broke my limbs.
+Dialogue: 0,0:12:11.58,0:12:12.28,Sub,,0,0,0,,N-no !
+Dialogue: 0,0:12:12.31,0:12:13.56,Sub,,0,0,0,,It wasn't me !
+Dialogue: 0,0:12:15.72,0:12:16.76,Sub,,0,0,0,,It's... him!
+Dialogue: 0,0:12:16.80,0:12:18.60,Sub,,0,0,0,,He told me to do it !
+Dialogue: 0,0:12:21.92,0:12:23.52,Sub,,0,0,0,,Please spare me !
+Dialogue: 0,0:12:23.72,0:12:24.44,Sub,,0,0,0,,I was
+Dialogue: 0,0:12:24.64,0:12:26.76,Sub,,0,0,0,,blind to your greatness !
+Dialogue: 0,0:12:27.08,0:12:27.92,Sub,,0,0,0,,Shut up.
+Dialogue: 0,0:12:33.36,0:12:33.99,Sub,,0,0,0,,Immortal !
+Dialogue: 0,0:12:34.20,0:12:34.93,Sub,,0,0,0,,I was wrong !
+Dialogue: 0,0:12:35.00,0:12:35.59,Sub,,0,0,0,,I was wrong !
+Dialogue: 0,0:12:35.76,0:12:36.76,Sub,,0,0,0,,Let me go !
+Dialogue: 0,0:12:37.03,0:12:37.63,Sub,,0,0,0,,The treasures,
+Dialogue: 0,0:12:37.73,0:12:38.36,Sub,,0,0,0,,my village,
+Dialogue: 0,0:12:38.48,0:12:39.49,Sub,,0,0,0,,they're all yours !
+Dialogue: 0,0:12:40.36,0:12:41.59,Sub,,0,0,0,,Spare me, Immortal !
+Dialogue: 0,0:12:41.72,0:12:42.39,Sub,,0,0,0,,Please spare me !
+Dialogue: 0,0:12:42.40,0:12:43.59,Sub,,0,0,0,,My spiritual energy
+Dialogue: 0,0:12:44.66,0:12:45.72,Sub,,0,0,0,,isn't enough
+Dialogue: 0,0:12:46.12,0:12:47.08,Sub,,0,0,0,,to kill him.
+Dialogue: 0,0:12:48.50,0:12:50.72,Sub,,0,0,0,,But I can open my bag of holding...
+Dialogue: 0,0:12:51.80,0:12:52.49,Sub,,0,0,0,,Mosquito Beast !
+Dialogue: 0,0:12:55.84,0:12:57.00,Sub,,0,0,0,,Demon Beast...
+Dialogue: 0,0:12:57.04,0:12:58.08,Sub,,0,0,0,,A Demon Beast !
+Dialogue: 0,0:12:58.20,0:12:59.13,Sub,,0,0,0,,Kill him.
+Dialogue: 0,0:13:07.56,0:13:08.28,Sub,,0,0,0,,A monster !
+Dialogue: 0,0:13:08.28,0:13:09.88,Sub,,0,0,0,,A Demon Beast !
+Dialogue: 0,0:13:09.88,0:13:10.92,Sub,,0,0,0,,Spare me !
+Dialogue: 0,0:13:11.72,0:13:12.60,Sub,,0,0,0,,Immortal, spare me !
+Dialogue: 0,0:13:17.12,0:13:18.42,Sub,,0,0,0,,Spare me, Immortal !
+Dialogue: 0,0:13:17.76,0:13:18.76,Second,,0,0,0,,Paying respects to Immortal !
+Dialogue: 0,0:13:18.76,0:13:19.88,Sub,,0,0,0,,Where am I ?
+Dialogue: 0,0:13:22.52,0:13:23.44,Sub,,0,0,0,,Immortal,
+Dialogue: 0,0:13:23.48,0:13:25.40,Sub,,0,0,0,,this is Fire Cloud Village of the country of Pilu.
+Dialogue: 0,0:13:26.00,0:13:27.16,Sub,,0,0,0,,How long will it take
+Dialogue: 0,0:13:27.72,0:13:29.64,Sub,,0,0,0,,to dig out this prison ?
+Dialogue: 0,0:13:29.64,0:13:32.08,Sub,,0,0,0,,th.. th.. thr..
+Dialogue: 0,0:13:32.12,0:13:32.76,Sub,,0,0,0,,Three days !
+Dialogue: 0,0:13:35.52,0:13:36.12,Sub,,0,0,0,,One day,
+Dialogue: 0,0:13:36.12,0:13:37.44,Sub,,0,0,0,,we can do it in one day.
+Dialogue: 0,0:13:38.28,0:13:39.20,Sub,,0,0,0,,Start now then.
+Dialogue: 0,0:13:59.16,0:13:59.80,Sub,,0,0,0,,Immortal,
+Dialogue: 0,0:14:00.24,0:14:01.72,Sub,,0,0,0,,it’s all done.
+Dialogue: 0,0:14:06.12,0:14:07.24,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:14:07.96,0:14:09.72,Sub,,0,0,0,,no one leaves the village.
+Dialogue: 0,0:14:11.12,0:14:11.92,Sub,,0,0,0,,Dismissed.
+Dialogue: 0,0:14:12.32,0:14:13.38,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:14:14.39,0:14:15.72,Sub,,0,0,0,,Go, quick.
+Dialogue: 0,0:14:19.35,0:14:21.32,Sub,,0,0,0,,This isn’t a Spirit Vein,
+Dialogue: 0,0:14:22.19,0:14:24.80,Sub,,0,0,0,,so why does this water have spiritual energy ?
+Dialogue: 0,0:14:39.59,0:14:40.82,Sub,,0,0,0,,Top quality spirit stones ?
+Dialogue: 0,0:14:42.29,0:14:43.35,Sub,,0,0,0,,No wonder...
+Dialogue: 0,0:14:53.92,0:14:55.95,Sub,,0,0,0,,Sealed with 5 top quality spirit stones...
+Dialogue: 0,0:14:57.32,0:14:59.92,Sub,,0,0,0,,This corpse must’ve been very powerful.
+Dialogue: 0,0:15:01.75,0:15:03.42,Sub,,0,0,0,,It's best not act recklessly.
+Dialogue: 0,0:15:26.69,0:15:29.31,Sub,,0,0,0,,I never managed to understand what this scroll is,
+Dialogue: 0,0:15:29.52,0:15:32.18,Sub,,0,0,0,,but even Mu Ye of the Forsaken Immortal Clan coveted it.
+Dialogue: 0,0:15:29.52,0:15:32.20,Second,,0,0,0,,Note: the 7-leaf Shaman
+Dialogue: 0,0:15:33.59,0:15:35.52,Sub,,0,0,0,,It must hold unimaginable power.
+Dialogue: 0,0:15:43.09,0:15:44.32,Sub,,0,0,0,,How did you find
+Dialogue: 0,0:15:45.09,0:15:46.55,Sub,,0,0,0,,this water prison ?
+Dialogue: 0,0:15:48.42,0:15:49.62,Sub,,0,0,0,,R... Reporting to Immortal,
+Dialogue: 0,0:15:50.02,0:15:52.15,Sub,,0,0,0,,this was just a barren land a few years ago.
+Dialogue: 0,0:15:52.15,0:15:53.32,Sub,,0,0,0,,But after an earthquake
+Dialogue: 0,0:15:53.32,0:15:54.36,Sub,,0,0,0,,the mountain split open
+Dialogue: 0,0:15:54.36,0:15:55.72,Sub,,0,0,0,,and this place appeared.
+Dialogue: 0,0:15:56.52,0:15:57.12,Sub,,0,0,0,,Then...
+Dialogue: 0,0:15:57.36,0:16:00.32,Sub,,0,0,0,,The boss thought it'd make a good prison
+Dialogue: 0,0:16:00.92,0:16:02.44,Sub,,0,0,0,,so we built this water prison.
+Dialogue: 0,0:16:04.80,0:16:06.39,Sub,,0,0,0,,Who was that corpse ?
+Dialogue: 0,0:16:07.73,0:16:10.00,Sub,,0,0,0,,What's its connection to this scroll ?
+Dialogue: 0,0:16:10.64,0:16:12.03,Sub,,0,0,0,,And what's this purple light ?
+Dialogue: 0,0:16:13.70,0:16:14.29,Sub,,0,0,0,,Alright,
+Dialogue: 0,0:16:15.24,0:16:16.32,Sub,,0,0,0,,I can't rush this matter.
+Dialogue: 0,0:16:17.36,0:16:19.84,Sub,,0,0,0,,For now, I must focus on restoring my cultivation
+Dialogue: 0,0:16:20.00,0:16:21.04,Sub,,0,0,0,,and breaking the seal.
+Dialogue: 0,0:16:21.92,0:16:23.64,Sub,,0,0,0,,The spiritual energy's violent impact
+Dialogue: 0,0:16:24.36,0:16:27.32,Sub,,0,0,0,,forced open a tiny crack in the seal.
+Dialogue: 0,0:16:28.80,0:16:29.53,Sub,,0,0,0,,But this method
+Dialogue: 0,0:16:29.80,0:16:30.80,Sub,,0,0,0,,can't be used again.
+Dialogue: 0,0:16:32.70,0:16:34.53,Sub,,0,0,0,,The seal doesn't just block spiritual energy
+Dialogue: 0,0:16:35.00,0:16:36.10,Sub,,0,0,0,,but it also devours it.
+Dialogue: 0,0:16:36.90,0:16:38.70,Sub,,0,0,0,,To open a larger crack
+Dialogue: 0,0:16:39.60,0:16:41.16,Sub,,0,0,0,,I need to accumulate internal spiritual energy
+Dialogue: 0,0:16:41.24,0:16:42.88,Sub,,0,0,0,,and advance my cultivation.
+Dialogue: 0,0:16:43.00,0:16:45.68,Sub,,0,0,0,,That way I can attack it from both sides at once
+Dialogue: 0,0:16:45.90,0:16:47.47,Sub,,0,0,0,,to weaken it further.
+Dialogue: 0,0:16:51.72,0:16:54.56,Sub,,0,0,0,,{\fad(300,300)\pos(195,550)}6 months later
+Dialogue: 0,0:16:54.84,0:16:56.03,Sub,,0,0,0,,After 6 months,
+Dialogue: 0,0:16:56.64,0:16:58.88,Sub,,0,0,0,,I'm only at the 6th layer of Qi Condensation.
+Dialogue: 0,0:16:59.64,0:17:02.23,Sub,,0,0,0,,This seal and domain combination is truly overbearing.
+Dialogue: 0,0:17:04.40,0:17:05.90,Sub,,0,0,0,,It's time to break it !
+Dialogue: 0,0:17:15.20,0:17:17.41,Sub,,0,0,0,,It's devouring more energy than before...
+Dialogue: 0,0:17:17.72,0:17:19.52,Sub,,0,0,0,,My spiritual energy won't last long.
+Dialogue: 0,0:17:19.92,0:17:21.20,Sub,,0,0,0,,This won't work !
+Dialogue: 0,0:17:22.12,0:17:23.88,Sub,,0,0,0,,To further weaken the seal
+Dialogue: 0,0:17:25.16,0:17:27.12,Sub,,0,0,0,,I can only think of one way.
+Dialogue: 0,0:17:27.52,0:17:29.14,Sub,,0,0,0,,If I swallow a celestial jade,
+Dialogue: 0,0:17:30.24,0:17:32.00,Sub,,0,0,0,,I can fight poison with poison.
+Dialogue: 0,0:17:41.16,0:17:41.96,Sub,,0,0,0,,Three...
+Dialogue: 0,0:17:43.52,0:17:44.48,Sub,,0,0,0,,Two...
+Dialogue: 0,0:17:50.72,0:17:51.92,Sub,,0,0,0,,One !
+Dialogue: 0,0:17:54.96,0:17:55.88,Sub,,0,0,0,,Break !
+Dialogue: 0,0:18:10.12,0:18:10.92,Sub,,0,0,0,,I did it !
+Dialogue: 0,0:18:12.28,0:18:14.44,Card Hard,,0,0,0,,{\pos(1678,510)\fad(300,000)}Wang Lin's avatar\NEarly stage\NFoundation Establishment
+Dialogue: 0,0:18:17.52,0:18:18.32,Sub,,0,0,0,,Be quiet,
+Dialogue: 0,0:18:18.52,0:18:19.52,Sub,,0,0,0,,don't disturb the Immortal.
+Dialogue: 0,0:18:24.60,0:18:25.64,Sub,,0,0,0,,This breakthrough
+Dialogue: 0,0:18:26.12,0:18:27.92,Sub,,0,0,0,,dispersed 10 percent of the Tea Domain
+Dialogue: 0,0:18:28.79,0:18:30.32,Sub,,0,0,0,,and loosened the sealing mark.
+Dialogue: 0,0:18:31.75,0:18:33.12,Sub,,0,0,0,,I can now use
+Dialogue: 0,0:18:33.52,0:18:34.72,Sub,,0,0,0,,most of my artifacts.
+Dialogue: 0,0:18:36.04,0:18:37.08,Sub,,0,0,0,,Thanks to the Mosquito Beast,
+Dialogue: 0,0:18:38.19,0:18:40.37,Sub,,0,0,0,,as long as I don't meet Soul Formation cultivators,
+Dialogue: 0,0:18:40.44,0:18:41.51,Sub,,0,0,0,,I will be safe.
+Dialogue: 0,0:18:43.00,0:18:44.06,Sub,,0,0,0,,No matter what,
+Dialogue: 0,0:18:44.90,0:18:45.84,Sub,,0,0,0,,within 7 years,
+Dialogue: 0,0:18:46.97,0:18:49.00,Sub,,0,0,0,,I must recover my cultivation.
+Dialogue: 0,0:18:50.64,0:18:52.67,Sub,,0,0,0,,I don't have enough top quality spirit stones
+Dialogue: 0,0:18:52.72,0:18:54.79,Sub,,0,0,0,,to keep using them like this.
+Dialogue: 0,0:18:54.93,0:18:57.80,Sub,,0,0,0,,I need a place dense in spiritual energy to cultivate.
+Dialogue: 0,0:18:59.50,0:19:01.12,Sub,,0,0,0,,Like the Soul Refining Sect...
+Dialogue: 0,0:18:59.52,0:19:01.92,Card Hard,,0,0,0,,{\pos(1685,472)\fad(300,300)}Soul Refining Sect\NCountry of Pilu
+Dialogue: 0,0:19:02.10,0:19:04.46,Sub,,0,0,0,,One of Pilu's three great sects.
+Dialogue: 0,0:19:06.13,0:19:07.30,Sub,,0,0,0,,They must have
+Dialogue: 0,0:19:08.63,0:19:10.24,Sub,,0,0,0,,abundant spiritual energy.
+Dialogue: 0,0:19:31.78,0:19:35.08,Music,,0,0,0,,{\fad(300,300}To let go of the consequences of my actions
+Dialogue: 0,0:19:35.08,0:19:36.80,Music,,0,0,0,,{\fad(300,300}is to ignore the law of cause and effect
+Dialogue: 0,0:19:36.84,0:19:38.74,Music,,0,0,0,,{\fad(300,300}like scattered ink.
+Dialogue: 0,0:19:39.62,0:19:46.22,Ending77,,0,0,0,,{\fad(300,300}As destiny falls
+Dialogue: 0,0:19:42.46,0:19:46.22,Ending77,,0,0,0,,{\fad(300,300}in exchange for this moment of tainted dreams.
+Dialogue: 0,0:19:46.22,0:19:53.82,Ending77,,0,0,0,,{\fad(300,300}It makes the mountains lose their colors,
+Dialogue: 0,0:19:49.46,0:19:53.82,Ending77,,0,0,0,,{\fad(300,300}wither and melt into rivers.
+Dialogue: 0,0:19:54.26,0:20:01.38,Ending77,,0,0,0,,{\fad(300,300}Who can deceive
+Dialogue: 0,0:19:57.02,0:20:01.38,Ending77,,0,0,0,,{\fad(300,300}the law of the heavens ?
+Dialogue: 0,0:20:01.70,0:20:04.70,Ending77,,0,0,0,,{\fad(300,300}Countless generations
+Dialogue: 0,0:20:02.98,0:20:04.70,Ending77,,0,0,0,,{\fad(300,300}have tried before me.
+Dialogue: 0,0:20:04.99,0:20:08.42,Ending77,,0,0,0,,{\fad(300,300}But how could I not catch my dreams
+Dialogue: 0,0:20:06.82,0:20:08.42,Ending77,,0,0,0,,{\fad(300,300}within my warm fingers ?
+Dialogue: 0,0:20:08.98,0:20:12.50,Music,,0,0,0,,{\fad(300,300}You're at my side when I'm alone
+Dialogue: 0,0:20:12.50,0:20:15.82,Music,,0,0,0,,{\fad(300,300}giving me the strength to fight the will of the heavens.
+Dialogue: 0,0:20:16.58,0:20:19.78,Music,,0,0,0,,{\fad(300,300}Fortunately, my mind was open and honest.
+Dialogue: 0,0:20:20.14,0:20:23.98,Ending77,,0,0,0,,{\fad(300,300}I'm sorry we never got to see the fireworks
+Dialogue: 0,0:20:21.98,0:20:23.98,Ending77,,0,0,0,,{\fad(300,300}in the streets.
+Dialogue: 0,0:20:24.14,0:20:28.94,Ending77,,0,0,0,,{\fad(300,300}Can I break the vortex of our destiny ?
+Dialogue: 0,0:20:25.70,0:20:28.94,Ending77,,0,0,0,,{\fad(300,300}Can I break the rules ?
+Dialogue: 0,0:20:28.95,0:20:31.66,Music,,0,0,0,,{\fad(300,300}To run towards you !
+Dialogue: 0,0:20:31.70,0:20:34.98,Music,,0,0,0,,{\fad(300,300}I will fight the law of the heavens and the law of cause and effect
+Dialogue: 0,0:20:34.98,0:20:39.62,Music,,0,0,0,,{\fad(300,300}to cut down this tribulation with my own hands
+Dialogue: 0,0:20:39.62,0:20:43.02,Music,,0,0,0,,{\fad(300,300}and break through the reincarnation cycle.
+Dialogue: 0,0:20:43.06,0:20:47.70,Music,,0,0,0,,{\fad(300,300}All of that for the stars in your eyes.
+Dialogue: 0,0:20:48.15,0:20:53.38,Music,,0,0,0,,{\fad(300,300}I wish to bend this dream for the fire in my heart.
+Dialogue: 0,0:20:53.50,0:20:57.30,Music,,0,0,0,,{\fad(300,300}If your soul is willing to wander,
+Dialogue: 0,0:20:57.30,0:21:01.94,Ending77,,0,0,0,,{\fad(300,300}can I still take your hands
+Dialogue: 0,0:20:58.98,0:21:01.94,Ending77,,0,0,0,,{\fad(300,300}and hold them tight ?
+Dialogue: 0,0:21:02.10,0:21:05.02,Music,,0,0,0,,{\fad(300,300}I will defy the heavens and prevent the stars from falling.
+Dialogue: 0,0:21:05.02,0:21:09.90,Music,,0,0,0,,{\fad(300,300}I will overthrow the Immortals and the Demons in my heart.
+Dialogue: 0,0:21:09.91,0:21:13.18,Music,,0,0,0,,{\fad(300,300}I dream of destroying
+Dialogue: 0,0:21:13.34,0:21:17.90,Music,,0,0,0,,{\fad(300,300}the shackles of our fate.
+Dialogue: 0,0:21:17.90,0:21:21.86,Music,,0,0,0,,{\fad(300,300}You're the only one that can ignore the law of cause and effect.
+Dialogue: 0,0:21:21.86,0:21:24.66,Music,,0,0,0,,{\fad(300,300}You're the hardest to let go of.
+Dialogue: 0,0:21:24.74,0:21:28.54,Music,,0,0,0,,{\fad(300,300}I want to be with you again
+Dialogue: 0,0:21:28.62,0:21:31.90,Music,,0,0,0,,{\fad(300,300}so I can look in your eyes.
+Dialogue: 0,0:21:32.18,0:21:37.14,Music,,0,0,0,,{\fad(300,1500}Even for a moment, it's worth it.

@@ -1,0 +1,343 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Pavilion,Roboto,100,&H004DBBF3,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4,2,2,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,4.0,3.0,1,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.40,0:00:07.17,Opening,,0,0,0,,{\fad(800,0)}The radiance of the night shines through my window
+Dialogue: 0,0:00:07.17,0:00:11.12,Opening,,0,0,0,,but the path to immortality is long.
+Dialogue: 0,0:00:11.60,0:00:15.85,Opening,,0,0,0,,The Eight Views and Nine-Bend Streams are desolate.
+Dialogue: 0,0:00:15.85,0:00:21.01,Opening,,0,0,0,,Living beings question the miseries of the world over a jar of wine.
+Dialogue: 0,0:00:22.28,0:00:25.00,Opening,,0,0,0,,Forget about Nirvana and rebirth,
+Dialogue: 0,0:00:25.40,0:00:28.25,Opening,,0,0,0,,I will break through the waves with my own flesh and blood.
+Dialogue: 0,0:00:28.25,0:00:33.52,Opening,,0,0,0,,The heavens are vast, so what if I was born mediocre ?
+Dialogue: 0,0:00:34.72,0:00:37.48,Opening,,0,0,0,,I stare at the Dao in my moments of madness
+Dialogue: 0,0:00:37.84,0:00:40.48,Opening,,0,0,0,,as the storm rages just below.
+Dialogue: 0,0:00:40.88,0:00:44.85,Opening,,0,0,0,,I've been thinking about life and death in my dreams.
+Dialogue: 0,0:00:44.85,0:00:47.84,Opening,,0,0,0,,I've unsheathed my sword to ask the immortals
+Dialogue: 0,0:00:48.00,0:00:50.69,Opening,,0,0,0,,why the world is a-changing.
+Dialogue: 0,0:00:50.71,0:00:54.04,Opening,,0,0,0,,Heaven and earth reveals its poignant truths.
+Dialogue: 0,0:00:54.28,0:00:57.21,Opening,,0,0,0,,Swallow the Four Seas and the Eight Wastelands,
+Dialogue: 0,0:00:57.21,0:01:00.29,Opening,,0,0,0,,experience all the vicissitudes of life in an instant.
+Dialogue: 0,0:01:00.45,0:01:03.17,Opening,,0,0,0,,I will defy the light in the sky
+Dialogue: 0,0:01:03.17,0:01:06.61,Opening,,0,0,0,,to continue to write a new chapter for all things in the three realms of existence.
+Dialogue: 0,0:01:15.69,0:01:19.05,Opening,,0,0,0,,Just a thought separates mortal from immortal.
+Dialogue: 0,0:01:19.21,0:01:22.13,Opening,,0,0,0,,Transform your insignificant body into light.
+Dialogue: 0,0:01:22.29,0:01:25.25,Opening,,0,0,0,,The hardships of the journey
+Dialogue: 0,0:01:25.37,0:01:28.21,Opening,,0,0,0,,will temper this young man's heart.
+Dialogue: 0,0:01:28.21,0:01:32.85,Opening,,0,0,0,,If I become a Renegade Immortal, will I hesitate to fight the heavens ?
+Dialogue: 0,0:01:39.60,0:01:43.48,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:02:05.17,0:02:06.53,Sub,,0,0,0,,Damn it,
+Dialogue: 0,0:02:06.61,0:02:08.12,Sub,,0,0,0,,the Return Cauldron malfunctioned
+Dialogue: 0,0:02:08.12,0:02:09.33,Sub,,0,0,0,,and sent us to the moon !
+Dialogue: 0,0:02:09.33,0:02:11.33,Sub,,0,0,0,,Fortunately we're back now.
+Dialogue: 0,0:02:12.09,0:02:12.97,Sub,,0,0,0,,Fellow cultivator,
+Dialogue: 0,0:02:12.97,0:02:16.00,Sub,,0,0,0,,has anything major happened on planet Suzaku lately ?
+Dialogue: 0,0:02:16.33,0:02:19.32,Sub,,0,0,0,,The biggest thing is, of course, the person named Ceng Niu.
+Dialogue: 0,0:02:19.81,0:02:20.80,Sub,,0,0,0,,Ceng Niu ?
+Dialogue: 0,0:02:21.41,0:02:23.05,Sub,,0,0,0,,Yes, Ceng Niu.
+Dialogue: 0,0:02:23.13,0:02:25.57,Sub,,0,0,0,,Red Butterfly lost an arm because of him !
+Dialogue: 0,0:02:25.97,0:02:28.00,Sub,,0,0,0,,What does this Ceng Niu look like ?
+Dialogue: 0,0:02:29.69,0:02:30.56,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:02:30.73,0:02:32.80,Sub,,0,0,0,,Junior doesn't know anything.
+Dialogue: 0,0:02:33.24,0:02:36.92,Sub,,0,0,0,,The country of Suzaku hasn't released any news about him either.
+Dialogue: 0,0:02:37.36,0:02:39.52,Sub,,0,0,0,,They didn't put a bounty on my head ?
+Dialogue: 0,0:02:40.56,0:02:42.00,Sub,,0,0,0,,Something fishy is going on.
+Dialogue: 0,0:02:43.16,0:02:44.56,Sub,,0,0,0,,Little girl is honest and smart,
+Dialogue: 0,0:02:45.04,0:02:45.84,Sub,,0,0,0,,not bad.
+Dialogue: 0,0:02:46.48,0:02:49.56,Sub,,0,0,0,,This bottle of pills will help you reach Core Formation.
+Dialogue: 0,0:03:00.96,0:03:02.28,Sub,,0,0,0,,Shattered Earth Pill !?
+Dialogue: 0,0:03:03.52,0:03:06.60,Sub,,0,0,0,,Disciple, you have great fortune !
+Dialogue: 0,0:03:07.32,0:03:08.12,Sub,,0,0,0,,Is that so ?
+Dialogue: 0,0:03:09.36,0:03:10.48,Sub,,0,0,0,,It's been a long time
+Dialogue: 0,0:03:10.68,0:03:12.28,Sub,,0,0,0,,and I don't know what happened to Wan'er.
+Dialogue: 0,0:03:12.52,0:03:13.88,Sub,,0,0,0,,It's time to go home.
+Dialogue: 0,0:03:19.49,0:03:22.61,Card Hard,,0,0,0,,{\pos(1610,500)\fad(300,300)}Qingtian Sect\NCountry of Chu's border
+Dialogue: 0,0:03:20.80,0:03:22.09,Sub,,0,0,0,,What's going on ?
+Dialogue: 0,0:03:28.48,0:03:30.04,Sub,,0,0,0,,Enemy attack !
+Dialogue: 0,0:03:31.16,0:03:32.24,Sub,,0,0,0,,What kind of monsters are they ?
+Dialogue: 0,0:03:34.28,0:03:35.96,Sub,,0,0,0,,You guys are still hungry, right ?
+Dialogue: 0,0:03:36.40,0:03:38.32,Sub,,0,0,0,,We've only eaten 12 sects.
+Dialogue: 0,0:03:38.64,0:03:40.84,Sub,,0,0,0,,The trip to the Celestial Realm was too expensive,
+Dialogue: 0,0:03:41.16,0:03:43.48,Sub,,0,0,0,,let's recover by eating the country of Chu !
+Dialogue: 0,0:03:50.24,0:03:52.16,Card Hard,,0,0,0,,{\pos(393,538)\fad(300,000}Maiwu Yi\NQingtian Sect Leader\NMiddle stage Nascent Soul
+Dialogue: 0,0:03:52.64,0:03:55.16,Sub,,0,0,0,,Chu is a vassal of the Giant Demon Clan.
+Dialogue: 0,0:04:01.08,0:04:02.28,Sub,,0,0,0,,Lord Envoy
+Dialogue: 0,0:04:02.48,0:04:05.36,Sub,,0,0,0,,won't forgive you for this !
+Dialogue: 0,0:04:07.12,0:04:09.04,Sub,,0,0,0,,Lord Envoy ?
+Dialogue: 0,0:04:12.00,0:04:14.44,Card,,0,0,0,,{\pos(1608,510)\fad(300,300}Giant Demon Clan Envoy\NSoul Formation
+Dialogue: 0,0:04:10.16,0:04:11.72,Card,,0,0,0,,{\pos(1604,495)\fad(300,000)}Heaven's Tower\NCountry of Chu
+Dialogue: 0,0:04:10.44,0:04:11.32,Sub,,0,0,0,,It's him !
+Dialogue: 0,0:04:11.80,0:04:13.40,Sub,,0,0,0,,According to the Elders of the clan,
+Dialogue: 0,0:04:13.80,0:04:15.76,Sub,,0,0,0,,although he's only Early stage Soul Formation.
+Dialogue: 0,0:04:16.00,0:04:18.80,Sub,,0,0,0,,He is one of the 6 cultivators of Suzaku who went to the Celestial Realm.
+Dialogue: 0,0:04:18.88,0:04:19.96,Sub,,0,0,0,,He isn't simple.
+Dialogue: 0,0:04:27.75,0:04:29.35,Sub,,0,0,0,,Zhan Bai of the Insect Demon Sect,
+Dialogue: 0,0:04:29.36,0:04:30.40,Sub,,0,0,0,,you deceived your master
+Dialogue: 0,0:04:30.40,0:04:31.88,Sub,,0,0,0,,and stole your sect's sacred texts !
+Dialogue: 0,0:04:31.92,0:04:33.88,Sub,,0,0,0,,You are wanted by the country of Puli !
+Dialogue: 0,0:04:34.04,0:04:35.44,Sub,,0,0,0,,I advise you to leave quickly !
+Dialogue: 0,0:04:35.60,0:04:37.68,Sub,,0,0,0,,Otherwise, once it's known that you're here,
+Dialogue: 0,0:04:37.68,0:04:39.00,Sub,,0,0,0,,they will come to kill you !
+Dialogue: 0,0:04:42.88,0:04:44.72,Sub,,0,0,0,,A Soul Formation cultivator
+Dialogue: 0,0:04:45.16,0:04:49.28,Sub,,0,0,0,,will be much more nourishing than Core Formations or Nascent Souls...
+Dialogue: 0,0:05:01.56,0:05:02.52,Sub,,0,0,0,,Madman !
+Dialogue: 0,0:05:08.64,0:05:09.84,Sub,,0,0,0,,It's a pity...
+Dialogue: 0,0:05:11.40,0:05:12.64,Sub,,0,0,0,,I didn't get to eat him.
+Dialogue: 0,0:05:13.92,0:05:16.76,Sub,,0,0,0,,This trip to the Celestial Realm was humiliating !
+Dialogue: 0,0:05:18.08,0:05:20.08,Sub,,0,0,0,,If it weren't for that Ceng Niu,
+Dialogue: 0,0:05:20.24,0:05:22.60,Sub,,0,0,0,,I wouldn't be in such a sorry state !
+Dialogue: 0,0:05:22.88,0:05:24.44,Sub,,0,0,0,,I should've been the one
+Dialogue: 0,0:05:24.48,0:05:25.84,Sub,,0,0,0,,to become famous !
+Dialogue: 0,0:05:26.32,0:05:27.24,Sub,,0,0,0,,However,
+Dialogue: 0,0:05:27.76,0:05:29.64,Sub,,0,0,0,,since he cut off Red Butterfly's arm,
+Dialogue: 0,0:05:30.00,0:05:33.40,Sub,,0,0,0,,I'm sure he's not Early stage Soul Formation.
+Dialogue: 0,0:05:34.72,0:05:36.16,Sub,,0,0,0,,He isn't to be messed with
+Dialogue: 0,0:05:36.88,0:05:39.04,Sub,,0,0,0,,before I have a breakthrough.
+Dialogue: 0,0:06:01.76,0:06:02.68,Sub,,0,0,0,,Sect Leader,
+Dialogue: 0,0:06:02.76,0:06:04.08,Sub,,0,0,0,,your health is important.
+Dialogue: 0,0:06:04.52,0:06:07.36,Sub,,0,0,0,,Playing the zither is a strain on your mind.
+Dialogue: 0,0:06:08.80,0:06:11.08,Sub,,0,0,0,,Did you find where that person comes from ?
+Dialogue: 0,0:06:11.80,0:06:13.92,Sub,,0,0,0,,I just know he's not very old.
+Dialogue: 0,0:06:14.28,0:06:15.40,Sub,,0,0,0,,A month ago,
+Dialogue: 0,0:06:15.52,0:06:17.88,Sub,,0,0,0,,he appeared at the border of Chu
+Dialogue: 0,0:06:18.28,0:06:20.80,Sub,,0,0,0,,and destroyed 12 sects in 7 days,
+Dialogue: 0,0:06:21.00,0:06:23.55,Sub,,0,0,0,,killing Nascent Soul Elders in the process.
+Dialogue: 0,0:06:23.88,0:06:26.56,Sub,,0,0,0,,I don't know who his next target will be.
+Dialogue: 0,0:06:33.00,0:06:33.88,Sub,,0,0,0,,In a few days,
+Dialogue: 0,0:06:34.84,0:06:36.16,Sub,,0,0,0,,when I’m feeling better,
+Dialogue: 0,0:06:36.96,0:06:38.92,Sub,,0,0,0,,I will return your Soul Blood.
+Dialogue: 0,0:06:39.28,0:06:39.96,Sub,,0,0,0,,Sect Leader !
+Dialogue: 0,0:06:40.20,0:06:42.80,Sub,,0,0,0,,All of you should run away afterward.
+Dialogue: 0,0:06:44.28,0:06:46.56,Sub,,0,0,0,,If only Ceng Niu could come to our country,
+Dialogue: 0,0:06:46.72,0:06:48.34,Sub,,0,0,0,,then this disaster would be resolved.
+Dialogue: 0,0:06:49.08,0:06:50.12,Sub,,0,0,0,,Ceng Niu
+Dialogue: 0,0:06:50.40,0:06:54.28,Sub,,0,0,0,,probably hasn’t even heard of Chu.
+Dialogue: 0,0:06:56.76,0:06:57.76,Sub,,0,0,0,,The Cloud Sky Sect
+Dialogue: 0,0:06:59.44,0:07:01.20,Sub,,0,0,0,,won't be able to avoid this disaster.
+Dialogue: 0,0:07:03.64,0:07:07.41,Sub,,0,0,0,,In these past 100 years, she failed at Nascent Soul 3 times
+Dialogue: 0,0:07:07.44,0:07:09.00,Sub,,0,0,0,,despite taking many pills.
+Dialogue: 0,0:07:10.04,0:07:13.72,Sub,,0,0,0,,If it wasn’t for the fact that she wanted to see that person one more time,
+Dialogue: 0,0:07:14.16,0:07:16.92,Sub,,0,0,0,,she would have died 30 years ago
+Dialogue: 0,0:07:17.36,0:07:19.32,Sub,,0,0,0,,when she failed to breakthrough again…
+Dialogue: 0,0:07:21.92,0:07:26.08,Sub,,0,0,0,,The foreign cultivator is going to wipe out the country of Chu.
+Dialogue: 0,0:07:26.60,0:07:28.68,Sub,,0,0,0,,Even the Giant Demon Clan don't dare to intervene.
+Dialogue: 0,0:07:29.80,0:07:31.20,Sub,,0,0,0,,Even if he was here,
+Dialogue: 0,0:07:32.08,0:07:35.40,Sub,,0,0,0,,I'm afraid he wouldn't be able to save the Cloud Sky Sect.
+Dialogue: 0,0:07:37.40,0:07:38.68,Sub,,0,0,0,,Chu has many factions.
+Dialogue: 0,0:07:39.28,0:07:40.80,Sub,,0,0,0,,The Cloud Sky Sect is not safe.
+Dialogue: 0,0:07:41.20,0:07:41.76,Sub,,0,0,0,,You...
+Dialogue: 0,0:07:43.20,0:07:45.52,Sub,,0,0,0,,Wan'er has been in the Cloud Sky Sect for a long time
+Dialogue: 0,0:07:45.80,0:07:47.96,Sub,,0,0,0,,so I can take care of these things myself.
+Dialogue: 0,0:07:48.17,0:07:50.83,Sub,,0,0,0,,Note: This part was cut from episode 44.
+Dialogue: 0,0:07:51.04,0:07:51.88,Sub,,0,0,0,,This is...
+Dialogue: 0,0:07:52.40,0:07:53.52,Sub,,0,0,0,,A devil I raised,
+Dialogue: 0,0:07:53.68,0:07:54.92,Sub,,0,0,0,,you can call it out
+Dialogue: 0,0:07:55.24,0:07:56.56,Sub,,0,0,0,,with a single thought.
+Dialogue: 0,0:08:06.60,0:08:07.48,Sub,,0,0,0,,From now on,
+Dialogue: 0,0:08:08.08,0:08:09.92,Sub,,0,0,0,,you must protect Wan'er at all times.
+Dialogue: 0,0:08:11.96,0:08:14.56,Sub,,0,0,0,,From now on, I'll call you Little Ling.
+Dialogue: 0,0:08:15.68,0:08:17.04,Sub,,0,0,0,,Senior...
+Dialogue: 0,0:08:23.84,0:08:24.76,Sub,,0,0,0,,Little Ling,
+Dialogue: 0,0:08:26.36,0:08:27.68,Sub,,0,0,0,,when will
+Dialogue: 0,0:08:29.20,0:08:31.12,Sub,,0,0,0,,your master come back ?
+Dialogue: 0,0:08:39.20,0:08:40.52,Sub,,0,0,0,,I haven't seen Wan'er in a while,
+Dialogue: 0,0:08:41.72,0:08:43.40,Sub,,0,0,0,,I should buy something for her...
+Dialogue: 0,0:08:46.36,0:08:49.36,Card,,0,0,0,,{\fad(300,300)\pos(251,538)}Treasure Refining Pavilion\NSea of Devils\NDevil Rebel City
+Dialogue: 0,0:08:46.00,0:08:47.60,Pavilion,,0,0,0,,{\fad(300,000)\move(966,391,966,423)\0c&FED95E&\t(\1c&33352E&)}Treasure Refining Pavilion
+Dialogue: 0,0:08:50.88,0:08:51.88,Sub,,0,0,0,,Welcome Sir,
+Dialogue: 0,0:08:51.92,0:08:54.36,Sub,,0,0,0,,what would you like to buy ?
+Dialogue: 0,0:08:54.64,0:08:55.56,Sub,,0,0,0,,A pill recipe,
+Dialogue: 0,0:08:55.64,0:08:56.60,Sub,,0,0,0,,at least grade 5.
+Dialogue: 0,0:09:00.08,0:09:02.05,Sub,,0,0,0,,Grade 5 pills recipes are very expensive.
+Dialogue: 0,0:09:02.56,0:09:03.92,Sub,,0,0,0,,Our pavilion only has 3.
+Dialogue: 0,0:09:05.32,0:09:06.24,Sub,,0,0,0,,Please wait here,
+Dialogue: 0,0:09:06.28,0:09:07.72,Sub,,0,0,0,,I'll get them for you.
+Dialogue: 0,0:09:08.68,0:09:09.32,Sub,,0,0,0,,Yes that's right...
+Dialogue: 0,0:09:10.72,0:09:11.36,Sub,,0,0,0,,Sir,
+Dialogue: 0,0:09:11.64,0:09:13.33,Sub,,0,0,0,,we have 3 grade 5 pill recipes.
+Dialogue: 0,0:09:13.36,0:09:14.46,Sub,,0,0,0,,2 of them.
+Dialogue: 0,0:09:14.48,0:09:16.52,Sub,,0,0,0,,are from Chu's Cloud Sky Sect.
+Dialogue: 0,0:09:16.96,0:09:20.28,Sub,,0,0,0,,And the other one is from Da Mo’s End of the World Sect.
+Dialogue: 0,0:09:20.72,0:09:23.00,Sub,,0,0,0,,They are all top quality pill recipes.
+Dialogue: 0,0:09:23.48,0:09:25.15,Sub,,0,0,0,,These jades contain the effect of the pills.
+Dialogue: 0,0:09:25.20,0:09:26.00,Sub,,0,0,0,,Please have a look.
+Dialogue: 0,0:09:26.20,0:09:27.00,Sub,,0,0,0,,No need.
+Dialogue: 0,0:09:27.60,0:09:30.28,Sub,,0,0,0,,I want this pill recipe from the End of the World Sect.
+Dialogue: 0,0:09:30.48,0:09:31.64,Sub,,0,0,0,,Do you have any
+Dialogue: 0,0:09:32.08,0:09:33.20,Sub,,0,0,0,,grade 6 pill recipes ?
+Dialogue: 0,0:09:35.00,0:09:36.56,Sub,,0,0,0,,A grade 6 pill recipe
+Dialogue: 0,0:09:36.96,0:09:38.40,Sub,,0,0,0,,is a priceless item.
+Dialogue: 0,0:09:38.56,0:09:40.36,Sub,,0,0,0,,My Treasure Refining Pavilion only has one.
+Dialogue: 0,0:09:41.04,0:09:42.12,Sub,,0,0,0,,But this item,
+Dialogue: 0,0:09:42.56,0:09:45.56,Sub,,0,0,0,,will be sold at the Sea of Devils auction that happens every 10 years.
+Dialogue: 0,0:09:46.04,0:09:48.52,Sub,,0,0,0,,If Sir wants it, why don't you wait 2 months ?
+Dialogue: 0,0:09:48.76,0:09:50.52,Sub,,0,0,0,,The auction is in 2 months.
+Dialogue: 0,0:09:50.64,0:09:51.44,Sub,,0,0,0,,Nevermind.
+Dialogue: 0,0:09:51.88,0:09:52.96,Sub,,0,0,0,,How much for this one ?
+Dialogue: 0,0:09:54.28,0:09:56.16,Sub,,0,0,0,,Sir, do you want to exchange items
+Dialogue: 0,0:09:56.16,0:09:57.32,Sub,,0,0,0,,or buy with spirit stones ?
+Dialogue: 0,0:09:57.32,0:09:58.24,Sub,,0,0,0,,Spirit stones.
+Dialogue: 0,0:09:58.68,0:10:00.12,Sub,,0,0,0,,This...
+Dialogue: 0,0:10:01.48,0:10:03.56,Sub,,0,0,0,,Items that have reached a certain value
+Dialogue: 0,0:10:03.72,0:10:06.44,Sub,,0,0,0,,are not sold for spirit stones.
+Dialogue: 0,0:10:14.84,0:10:15.28,Sub,,0,0,0,,Sir !
+Dialogue: 0,0:10:21.12,0:10:22.28,Sub,,0,0,0,,Sh...Shopkeeper...
+Dialogue: 0,0:10:31.28,0:10:32.08,Sub,,0,0,0,,This is...
+Dialogue: 0,0:10:32.84,0:10:33.96,Sub,,0,0,0,,a top-quality spirit stone !
+Dialogue: 0,0:10:36.88,0:10:40.00,Card,,0,0,0,,{\pos(1604,497)\fad(300,300)}Luoyue Sect\NCountry of Chu
+Dialogue: 0,0:10:52.68,0:10:54.28,Sub,,0,0,0,,This food is tasteless.
+Dialogue: 0,0:10:55.24,0:10:57.56,Sub,,0,0,0,,I heard that the biggest sect in Chu
+Dialogue: 0,0:10:58.00,0:11:00.08,Sub,,0,0,0,,has a beauty as the Sect Leader.
+Dialogue: 0,0:11:00.40,0:11:01.44,Sub,,0,0,0,,What was its name ?
+Dialogue: 0,0:11:02.76,0:11:04.04,Sub,,0,0,0,,Cloud Sky Sect ?
+Dialogue: 0,0:11:08.44,0:11:10.00,Sub,,0,0,0,,I'd like to see
+Dialogue: 0,0:11:10.40,0:11:12.48,Sub,,0,0,0,,that beauty get devoured by insects.
+Dialogue: 0,0:11:13.04,0:11:14.84,Sub,,0,0,0,,What could be more beautiful ?
+Dialogue: 0,0:11:18.12,0:11:20.20,Sub,,0,0,0,,How dare you do this to the country of Chu ?
+Dialogue: 0,0:11:20.28,0:11:22.60,Sub,,0,0,0,,Don't you know that Wang Lin from the Cloud Sky Sect
+Dialogue: 0,0:11:22.76,0:11:24.20,Sub,,0,0,0,,won't forgive you !?
+Dialogue: 0,0:11:31.04,0:11:32.08,Sub,,0,0,0,,Wang Lin ?
+Dialogue: 0,0:11:32.96,0:11:34.48,Sub,,0,0,0,,Never heard of him.
+Dialogue: 0,0:11:36.08,0:11:38.76,Sub,,0,0,0,,Only a handful of Soul Formation cultivators can fight me,
+Dialogue: 0,0:11:39.36,0:11:43.52,Sub,,0,0,0,,the rest are just meat on my plate.
+Dialogue: 0,0:11:52.72,0:11:55.08,Sub,,0,0,0,,The newly opened Chen's Tavern
+Dialogue: 0,0:11:55.36,0:11:56.96,Sub,,0,0,0,,sells 20% off !
+Dialogue: 0,0:11:57.76,0:11:58.64,Sub,,0,0,0,,Did you hear
+Dialogue: 0,0:11:59.04,0:12:01.52,Sub,,0,0,0,,that a mysterious person appeared in the Sea of Devils.
+Dialogue: 0,0:12:01.76,0:12:03.40,Sub,,0,0,0,,He bought a pill recipe at a high price.
+Dialogue: 0,0:12:04.08,0:12:06.20,Sub,,0,0,0,,The store was about to throw him out
+Dialogue: 0,0:12:06.28,0:12:07.64,Sub,,0,0,0,,but he forcefully took the item
+Dialogue: 0,0:12:07.92,0:12:09.88,Sub,,0,0,0,,and still paid them.
+Dialogue: 0,0:12:11.08,0:12:12.84,Sub,,0,0,0,,He went to many shops of the Sea of Devils
+Dialogue: 0,0:12:12.88,0:12:15.12,Sub,,0,0,0,,where there's no shortage of Nascent Souls.
+Dialogue: 0,0:12:15.96,0:12:16.60,Sub,,0,0,0,,Nascent Soul ?
+Dialogue: 0,0:12:16.72,0:12:17.92,Sub,,0,0,0,,I'm shocked !
+Dialogue: 0,0:12:20.40,0:12:21.36,Sub,,0,0,0,,Congratulations, Master.
+Dialogue: 0,0:12:21.52,0:12:24.12,Sub,,0,0,0,,In 10 days, you have purchased 8 grade 5 pill recipes !
+Dialogue: 0,0:12:24.76,0:12:26.24,Sub,,0,0,0,,If Wan'er sees these,
+Dialogue: 0,0:12:26.88,0:12:27.92,Sub,,0,0,0,,she will be happy.
+Dialogue: 0,0:12:29.24,0:12:30.04,Sub,,0,0,0,,Country of Chu...
+Dialogue: 0,0:12:31.32,0:12:32.32,Sub,,0,0,0,,I'm finally back.
+Dialogue: 0,0:12:36.88,0:12:37.52,Sub,,0,0,0,,This is...
+Dialogue: 0,0:12:38.56,0:12:40.24,Sub,,0,0,0,,An inner demon ?!
+Dialogue: 0,0:12:40.32,0:12:41.44,Sub,,0,0,0,,Not possible.
+Dialogue: 0,0:12:41.48,0:12:42.68,Sub,,0,0,0,,With my cultivation,
+Dialogue: 0,0:12:43.08,0:12:45.68,Sub,,0,0,0,,a normal inner demon could never enter my Origin Soul.
+Dialogue: 0,0:12:49.84,0:12:50.80,Sub,,0,0,0,,I will kill you !
+Dialogue: 0,0:13:02.96,0:13:04.04,Sub,,0,0,0,,This battle will be dangerous.
+Dialogue: 0,0:13:05.20,0:13:07.84,Sub,,0,0,0,,Those who want to leave are free to go.
+Dialogue: 0,0:13:08.28,0:13:10.16,Sub,,0,0,0,,If it weren't for Sect Leader's help,
+Dialogue: 0,0:13:10.36,0:13:12.56,Sub,,0,0,0,,I would never have reached Nascent Soul.
+Dialogue: 0,0:13:12.88,0:13:13.92,Sub,,0,0,0,,In this difficult time,
+Dialogue: 0,0:13:14.12,0:13:16.76,Sub,,0,0,0,,there is no reason to abandon you.
+Dialogue: 0,0:13:17.20,0:13:19.88,Sub,,0,0,0,,I swear to stand by your side !
+Dialogue: 0,0:13:20.12,0:13:21.76,Sub,,0,0,0,,It's thanks to Sect Leader
+Dialogue: 0,0:13:22.40,0:13:25.76,Sub,,0,0,0,,that the Cloud Sky Sect has more than 10 Nascent Soul cultivators.
+Dialogue: 0,0:13:26.12,0:13:27.64,Sub,,0,0,0,,We are indebted to you.
+Dialogue: 0,0:13:27.96,0:13:30.52,Sub,,0,0,0,,Today, I swear to protect Sect Leader.
+Dialogue: 0,0:13:30.80,0:13:33.28,Sub,,0,0,0,,I will never let Sect Leader down.
+Dialogue: 0,0:13:33.76,0:13:35.28,Sub,,0,0,0,,We will follow you until death !
+Dialogue: 0,0:13:35.60,0:13:37.28,Sub,,0,0,0,,We will follow you until death !
+Dialogue: 0,0:13:37.64,0:13:39.20,Sub,,0,0,0,,We will follow you until death !
+Dialogue: 0,0:13:50.88,0:13:52.92,Sub,,0,0,0,,Listen well, Cloud Sky Sect.
+Dialogue: 0,0:13:53.60,0:13:54.88,Sub,,0,0,0,,Bring out all your pills
+Dialogue: 0,0:13:55.48,0:13:57.41,Sub,,0,0,0,,and your Sect Leader is to come out
+Dialogue: 0,0:13:57.44,0:13:59.84,Sub,,0,0,0,,to greet me personally.
+Dialogue: 0,0:14:00.88,0:14:02.92,Sub,,0,0,0,,Senior is a Soul Formation cultivator,
+Dialogue: 0,0:14:02.96,0:14:05.43,Sub,,0,0,0,,please don’t make it difficult for a small sect like ours.
+Dialogue: 0,0:14:05.52,0:14:07.12,Sub,,0,0,0,,If Senior needs any pills,
+Dialogue: 0,0:14:07.12,0:14:08.86,Sub,,0,0,0,,you can just ask us.
+Dialogue: 0,0:14:08.92,0:14:11.48,Sub,,0,0,0,,My Cloud Sky Sect will do its best to fulfill your needs.
+Dialogue: 0,0:14:12.08,0:14:13.80,Sub,,0,0,0,,I guess you are the Sect Leader.
+Dialogue: 0,0:14:14.48,0:14:15.96,Sub,,0,0,0,,Give me the pills !
+Dialogue: 0,0:14:18.92,0:14:22.44,Sub,,0,0,0,,This formation is mysterious.
+Dialogue: 0,0:14:22.44,0:14:23.24,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:14:23.56,0:14:26.12,Sub,,0,0,0,,this formation was placed up by the Giant Demon Clan
+Dialogue: 0,0:14:26.12,0:14:27.08,Sub,,0,0,0,,to protect my sect.
+Dialogue: 0,0:14:27.24,0:14:29.32,Sub,,0,0,0,,Consider giving the Giant Demon Clan some face
+Dialogue: 0,0:14:29.48,0:14:31.04,Sub,,0,0,0,,and don't make it difficult for us.
+Dialogue: 0,0:14:32.40,0:14:33.80,Sub,,0,0,0,,The Giant Demon Clan ?
+Dialogue: 0,0:14:41.40,0:14:43.52,Sub,,0,0,0,,You might as well call them now.
+Dialogue: 0,0:14:44.04,0:14:47.88,Sub,,0,0,0,,Let's see if young master Chi Hu comes himself to save you !
+Dialogue: 0,0:14:52.68,0:14:54.06,Sub,,0,0,0,,The Cloud Sky Formation
+Dialogue: 0,0:14:54.08,0:14:55.24,Sub,,0,0,0,,won't hold for long.
+Dialogue: 0,0:14:57.64,0:14:58.64,Sub,,0,0,0,,I will do my best !
+Dialogue: 0,0:15:18.28,0:15:19.08,Sub,,0,0,0,,Protect the disciples
+Dialogue: 0,0:15:19.20,0:15:20.08,Sub,,0,0,0,,with all your might !
+Dialogue: 0,0:15:25.48,0:15:27.08,Sub,,0,0,0,,The disciples will retreat first !
+Dialogue: 0,0:15:27.08,0:15:27.76,Sub,,0,0,0,,Yes !
+Dialogue: 0,0:15:30.80,0:15:31.88,Sub,,0,0,0,,Hurry, retreat !
+Dialogue: 0,0:15:41.76,0:15:43.68,Sub,,0,0,0,,You really are a beauty...
+Dialogue: 0,0:15:44.48,0:15:48.04,Sub,,0,0,0,,You must taste very good.
+Dialogue: 0,0:15:48.76,0:15:50.28,Sub,,0,0,0,,What's your name ?
+Dialogue: 0,0:15:52.66,0:15:54.52,Sub,,0,0,0,,Oh? Not going to speak ?
+Dialogue: 0,0:15:54.68,0:15:55.60,Sub,,0,0,0,,That’s too bad !
+Dialogue: 0,0:15:56.76,0:15:57.60,Sub,,0,0,0,,What the hell !?
+Dialogue: 0,0:15:59.88,0:16:00.48,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:16:00.72,0:16:01.76,Sub,,0,0,0,,My name is Li Muwan !
+Dialogue: 0,0:16:06.20,0:16:06.88,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:16:07.28,0:16:09.20,Sub,,0,0,0,,if you have any request, please speak.
+Dialogue: 0,0:16:09.68,0:16:10.68,Sub,,0,0,0,,My request ?
+Dialogue: 0,0:16:10.91,0:16:12.00,Sub,,0,0,0,,I’m going to kill you all,
+Dialogue: 0,0:16:12.16,0:16:13.52,Sub,,0,0,0,,take all the pills,
+Dialogue: 0,0:16:13.96,0:16:16.04,Sub,,0,0,0,,and seal this place to be my personal palace.
+Dialogue: 0,0:16:16.64,0:16:19.96,Sub,,0,0,0,,As for you, you can be my maid.
+Dialogue: 0,0:16:20.88,0:16:22.28,Sub,,0,0,0,,You went too far !
+Dialogue: 0,0:16:31.76,0:16:35.16,Sub,,0,0,0,,It looks like I was too kind.
+Dialogue: 0,0:16:39.80,0:16:40.64,Sub,,0,0,0,,What the hell !?
+Dialogue: 0,0:16:48.48,0:16:49.80,Sub,,0,0,0,,Cloud Sky Sect...
+Dialogue: 0,0:16:50.24,0:16:50.92,Sub,,0,0,0,,Break !
+Dialogue: 0,0:16:53.68,0:16:54.92,Sub,,0,0,0,,Sect Leader, be careful !
+Dialogue: 0,0:16:57.48,0:16:58.12,Sub,,0,0,0,,No !
+Dialogue: 0,0:17:22.08,0:17:24.48,Sub,,0,0,0,,You've got a few tricks up your sleeve...
+Dialogue: 0,0:17:32.08,0:17:33.16,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:17:33.60,0:17:36.80,Sub,,0,0,0,,I don't think Wan'er can wait for you anymore.
+Dialogue: 0,0:17:37.12,0:17:38.64,Sub,,0,0,0,,With your cultivation,
+Dialogue: 0,0:17:39.00,0:17:42.72,Sub,,0,0,0,,how did you get the position of Cloud Sky Sect Leader ?
+Dialogue: 0,0:17:47.44,0:17:48.24,Sub,,0,0,0,,Because
+Dialogue: 0,0:17:49.60,0:17:51.40,Sub,,0,0,0,,she is my woman.
+Dialogue: 0,0:18:02.68,0:18:03.52,Sub,,0,0,0,,Ceng Niu !?
+Dialogue: 0,0:18:13.86,0:20:44.21,Note,,0,0,0,,{\fad(1000,1000)}The following scene was changed in the donghua. In the novel, Wang Lin is anxious to meet Li Muwan again and confuses that feeling of love with an inner demon disturbing his cultivation. In the donghua, they adapted the scene as if he was sensing danger through the Divine Sense he left with Li Muwan.\N\NWang Lin didn’t stop at all during this 800 000 li trip.\NHe stood on the edge of the Sea of Devils looking toward Chu, and for some reason his heart trembled slightly. He had never felt it trembling like this before; this was the first time it ever happened.\N“Inner demon ? Not possible. With my cultivation, a normal inner demon could never enter my Origin Soul.” While Wang Lin thought about it, he walked into the Sea of Devils.\N“I haven’t seen Wan Er in many years. I should buy something for her… ” Wang Lin let out a faint smile.
+Dialogue: 0,0:18:26.08,0:18:32.76,Music,,0,0,0,,{\fad(1000,300}Falling from the night sky and melting into dust\Nlike water without a source.
+Dialogue: 0,0:18:32.83,0:18:38.92,Music,,0,0,0,,{\fad(1000,300}Like the difference between clouds and mud,\Nthe truth cannot be found in conflict.
+Dialogue: 0,0:18:39.03,0:18:42.86,Music,,0,0,0,,{\fad(1000,300}Life and death\Nare like the moment when the rain falls
+Dialogue: 0,0:18:42.89,0:18:46.79,Music,,0,0,0,,{\fad(1000,300}and like many other unseparable things.
+Dialogue: 0,0:18:47.15,0:18:52.80,Music,,0,0,0,,{\fad(1000,300}In this lifetime,\Nto cultivate the truth, cultivate the world first.
+Dialogue: 0,0:18:53.98,0:18:59.81,Music,,0,0,0,,{\fad(1000,300}Old grudges had to be settled\Nbecause half an inch is engraved into my tree rings.
+Dialogue: 0,0:19:00.12,0:19:05.66,Music,,0,0,0,,{\fad(1000,300}Use the most vivid love and hate\Nto ask questions to your fate.
+Dialogue: 0,0:19:06.12,0:19:10.34,Music,,0,0,0,,{\fad(1000,300}Let your eyes be filled enough with rage\Nto pierce the heart and the soul
+Dialogue: 0,0:19:10.60,0:19:13.83,Music,,0,0,0,,{\fad(1000,300}then soften because of the mortals' fireworks.
+Dialogue: 0,0:19:14.00,0:19:19.82,Music,,0,0,0,,{\fad(1000,300}Only when you bend down can you understand\Nthe hidden edge of the blade.
+Dialogue: 0,0:19:20.34,0:19:24.02,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:19:24.12,0:19:27.94,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:19:28.12,0:19:33.79,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:19:34.05,0:19:37.72,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:19:37.93,0:19:41.50,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:19:41.62,0:19:47.54,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:19:47.61,0:19:51.62,Music,,0,0,0,,{\fad(1000,300}The human mind is nature,\Nthe rain fell silently like an answer.
+Dialogue: 0,0:19:51.65,0:19:55.44,Music,,0,0,0,,{\fad(1000,300}Life and death are just moments away,\Nthere are many other solutions to grudges.
+Dialogue: 0,0:19:56.03,0:20:01.27,Music,,0,0,0,,{\fad(1000,300}Use your dusty heart\Nto depict the world.
+Dialogue: 0,0:20:01.34,0:20:05.22,Music,,0,0,0,,{\fad(1000,500}One stroke is for killing.\NAfter struggling for hundreds of years, I endured letting go.
+Dialogue: 0,0:20:05.26,0:20:09.06,Music,,0,0,0,,{\fad(1000,500}One stroke is for caring.\NEverywhere there is life, there are thousands of lights.
+Dialogue: 0,0:20:09.36,0:20:14.92,Music,,0,0,0,,{\fad(1000,300}Give up your mind to be refined\Nby this endless world.
+Dialogue: 0,0:20:15.56,0:20:21.78,Music,,0,0,0,,{\fad(1000,300}Snow falls as my hair turns white, winter withers\Nwhile prosperity sprouts in summer.
+Dialogue: 0,0:20:22.08,0:20:28.58,Music,,0,0,0,,{\fad(1000,300}I step into the world, with light at my fingertips,\Nthe law of cause and effect.
+Dialogue: 0,0:20:29.60,0:20:35.30,Music,,0,0,0,,{\fad(1000,300}I observe the vastness of heaven and earth so I can get rid of evil.
+Dialogue: 0,0:20:35.47,0:20:42.17,Music,,0,0,0,,{\fad(1000,300}Obsession arises from one thought, life and death arise from one thought.\NReincarnation is not to be feared.

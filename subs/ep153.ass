@@ -1,0 +1,328 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 153
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100.0,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Stamp,Lucida Sans,100,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Opening2,Lucida Sans,38,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,90,0,0,1,0.5,2,2,10,10,5,1
+Style: Grave,Lucida Sans,80,&H00ABABAB,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.0,2,2,10,10,5,1
+Style: Bag,Lucida Sans,150,&H006ADCFB,&H000000FF,&H001D4969,&H001D4969,-1,-1,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Map,Lucida Sans,80,&H003C6F9B,&HFF000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,95,0,0,1,2,1,2,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.24,0:00:35.24,Opening2,,0,0,0,,{\fad(1000,1000)}The rules keep changing.
+Dialogue: 0,0:00:39.08,0:00:44.08,Opening2,,0,0,0,,{\fad(1000,1000)}I've been rehearsing every possible outcome.
+Dialogue: 0,0:00:48.24,0:00:54.52,Opening2,,0,0,0,,{\fad(1000,1000)}Once this thought arises, there is no more room for right or wrong.
+Dialogue: 0,0:00:57.68,0:01:03.16,Opening2,,0,0,0,,{\fad(1000,1000)}I am resolved to sever this flood
+Dialogue: 0,0:01:05.28,0:01:09.52,Opening2,,0,0,0,,{\fad(1000,1000)}so that my soul can break free from mediocrity,
+Dialogue: 0,0:01:09.76,0:01:13.88,Opening2,,0,0,0,,{\fad(1000,1000)}from loneliness and distinction.
+Dialogue: 0,0:01:14.36,0:01:18.84,Opening2,,0,0,0,,{\fad(1000,800)}One more step and you'll fall into madness.
+Dialogue: 0,0:01:19.04,0:01:23.84,Opening2,,0,0,0,,{\fad(1000,1000)}Don't fall down.
+Dialogue: 0,0:01:25.48,0:01:27.04,Opening2,,0,0,0,,{\fad(1000,150)}I look towards the top.
+Dialogue: 0,0:01:27.12,0:01:29.68,Opening2,,0,0,0,,{\fad(300,500)}Chase !
+Dialogue: 0,0:01:29.88,0:01:32.88,Opening2,,0,0,0,,{\fad(600,600)}Refined to perfection.
+Dialogue: 0,0:01:34.44,0:01:38.80,Opening2,,0,0,0,,{\fad(600,600)}Never retreat, no matter the danger.
+Dialogue: 0,0:01:38.92,0:01:41.84,Opening2,,0,0,0,,{\fad(300,300)}I dare to defy the heavens !
+Dialogue: 0,0:01:42.32,0:01:45.68,Opening2,,0,0,0,,{\fad(600,600)}Always overcome the obstacles,
+Dialogue: 0,0:01:45.87,0:01:48.04,Opening2,,0,0,0,,{\fad(300,300)}ignite the seas with blood,
+Dialogue: 0,0:01:48.20,0:01:52.48,Opening2,,0,0,0,,{\fad(600,600)}bloom through trials and tribulations.
+Dialogue: 0,0:01:52.64,0:01:57.12,Opening2,,0,0,0,,{\fad(600,600)}Even the sharpest thorns
+Dialogue: 0,0:01:57.24,0:02:01.68,Opening2,,0,0,0,,{\fad(600,1000)}will be reduced into ashes.
+Dialogue: 0,0:02:01.72,0:02:06.00,Opening2,,0,0,0,,{\fad(800,800)}What is there to fear ?
+Dialogue: 0,0:02:11.00,0:02:15.16,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:03:29.40,0:03:30.95,Sub,,0,0,0,,Xu Mu ?
+Dialogue: 0,0:03:32.24,0:03:33.79,Sub,,0,0,0,,I'll remember this name.
+Dialogue: 0,0:03:37.64,0:03:38.67,Sub,,0,0,0,,Named Xu ?
+Dialogue: 0,0:03:39.40,0:03:40.59,Sub,,0,0,0,,You also thought of it...
+Dialogue: 0,0:03:42.32,0:03:44.31,Sub,,0,0,0,,For such a powerful Corporeal Yang cultivator to appear,
+Dialogue: 0,0:03:44.48,0:03:46.79,Sub,,0,0,0,,it has to be the Xu Family of Planet Dong Lin.
+Dialogue: 0,0:03:47.96,0:03:48.95,Sub,,0,0,0,,Could this person be...
+Dialogue: 0,0:03:50.80,0:03:52.67,Sub,,0,0,0,,He is very strong.
+Dialogue: 0,0:03:53.08,0:03:55.39,Sub,,0,0,0,,Even if he isn't a descendant of Planet Dong Lin,
+Dialogue: 0,0:03:55.76,0:03:57.75,Sub,,0,0,0,,our Tang Family should avoid provoking him.
+Dialogue: 0,0:03:58.84,0:04:00.15,Sub,,0,0,0,,But Uncle Ping and the others...
+Dialogue: 0,0:04:00.76,0:04:02.55,Sub,,0,0,0,,They acted recklessly.
+Dialogue: 0,0:04:03.72,0:04:05.36,Sub,,0,0,0,,Since they're dead, they're dead.
+Dialogue: 0,0:04:06.52,0:04:07.23,Sub,,0,0,0,,Understood.
+Dialogue: 0,0:04:12.60,0:04:15.72,Card,,0,0,0,,{\fad(300,300)\pos(1620,429)}Inside the Celestial Cave
+Dialogue: 0,0:04:12.92,0:04:13.87,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:04:14.08,0:04:16.91,Sub,,0,0,0,,this cave seems somewhat peculiar.
+Dialogue: 0,0:04:18.48,0:04:19.19,Sub,,0,0,0,,Look,
+Dialogue: 0,0:04:19.72,0:04:20.95,Sub,,0,0,0,,on the walls around us,
+Dialogue: 0,0:04:21.28,0:04:23.44,Sub,,0,0,0,,there are traces of celestial spiritual energy fluctuations.
+Dialogue: 0,0:04:23.92,0:04:26.23,Sub,,0,0,0,,It must have been isolated from the outside for very long.
+Dialogue: 0,0:04:28.20,0:04:29.99,Sub,,0,0,0,,Since this place was left by Celestials,
+Dialogue: 0,0:04:31.00,0:04:32.63,Sub,,0,0,0,,it's strange that no one visited it
+Dialogue: 0,0:04:33.08,0:04:34.19,Sub,,0,0,0,,before us.
+Dialogue: 0,0:04:42.40,0:04:44.23,Sub,,0,0,0,,We have been moving at full speed
+Dialogue: 0,0:04:44.64,0:04:46.11,Sub,,0,0,0,,for half an hour now.
+Dialogue: 0,0:04:46.68,0:04:48.03,Sub,,0,0,0,,Why haven't we reached the end yet ?
+Dialogue: 0,0:04:49.40,0:04:51.15,Sub,,0,0,0,,Just how deep is this tunnel ?
+Dialogue: 0,0:04:52.96,0:04:54.15,Sub,,0,0,0,,Something's wrong.
+Dialogue: 0,0:04:58.88,0:04:59.35,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:04:59.48,0:05:00.07,Sub,,0,0,0,,what is it ?
+Dialogue: 0,0:05:00.92,0:05:02.43,Sub,,0,0,0,,Do you sense anything unusual ?
+Dialogue: 0,0:05:03.12,0:05:04.39,Sub,,0,0,0,,What do you mean, Brother Xu ?
+Dialogue: 0,0:05:05.32,0:05:06.51,Sub,,0,0,0,,Since we entered,
+Dialogue: 0,0:05:07.04,0:05:08.91,Sub,,0,0,0,,I have been using my Divine Sense to probe the path ahead
+Dialogue: 0,0:05:09.40,0:05:10.35,Sub,,0,0,0,,and mark our way back.
+Dialogue: 0,0:05:11.72,0:05:12.51,Sub,,0,0,0,,But I discovered
+Dialogue: 0,0:05:13.72,0:05:15.03,Sub,,0,0,0,,that the tunnel we are in
+Dialogue: 0,0:05:16.08,0:05:17.39,Sub,,0,0,0,,is a rune.
+Dialogue: 0,0:05:20.60,0:05:21.27,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:05:21.28,0:05:22.71,Sub,,0,0,0,,do you recognize this rune ?
+Dialogue: 0,0:05:23.52,0:05:26.19,Sub,,0,0,0,,This rune is a type of celestial restriction.
+Dialogue: 0,0:05:26.52,0:05:27.31,Sub,,0,0,0,,It's extremely rare
+Dialogue: 0,0:05:27.68,0:05:28.95,Sub,,0,0,0,,and can't be used by itself.
+Dialogue: 0,0:05:29.44,0:05:31.79,Sub,,0,0,0,,It needs to be combined with other runes
+Dialogue: 0,0:05:32.00,0:05:33.75,Sub,,0,0,0,,to form a restriction formation.
+Dialogue: 0,0:05:35.40,0:05:36.83,Sub,,0,0,0,,So complex...
+Dialogue: 0,0:05:37.32,0:05:39.59,Sub,,0,0,0,,Can you tell what kind of formation it is ?
+Dialogue: 0,0:05:44.28,0:05:45.31,Sub,,0,0,0,,Not yet.
+Dialogue: 0,0:05:45.88,0:05:47.19,Sub,,0,0,0,,We have too little information
+Dialogue: 0,0:05:47.60,0:05:48.51,Sub,,0,0,0,,to make a guess.
+Dialogue: 0,0:05:49.28,0:05:50.71,Sub,,0,0,0,,Before we reach the end,
+Dialogue: 0,0:05:51.32,0:05:52.75,Sub,,0,0,0,,it will be impossible to determine
+Dialogue: 0,0:05:53.60,0:05:54.71,Sub,,0,0,0,,what formation it is.
+Dialogue: 0,0:05:55.52,0:05:57.55,Sub,,0,0,0,,The Celestial Realm has been shattered for so long
+Dialogue: 0,0:05:57.84,0:05:59.95,Sub,,0,0,0,,but this place still has an active formation ?
+Dialogue: 0,0:06:00.92,0:06:02.19,Sub,,0,0,0,,Whatever is at the end
+Dialogue: 0,0:06:02.88,0:06:03.90,Sub,,0,0,0,,is either a great treasure
+Dialogue: 0,0:06:04.56,0:06:05.71,Sub,,0,0,0,,or a great calamity.
+Dialogue: 0,0:06:06.44,0:06:08.39,Sub,,0,0,0,,But this is too rare of an opportunity...
+Dialogue: 0,0:06:09.20,0:06:10.59,Sub,,0,0,0,,Giving up now
+Dialogue: 0,0:06:11.44,0:06:12.43,Sub,,0,0,0,,would be a waste.
+Dialogue: 0,0:06:14.56,0:06:15.19,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:06:16.08,0:06:16.87,Sub,,0,0,0,,in that case,
+Dialogue: 0,0:06:17.32,0:06:18.51,Sub,,0,0,0,,let's go down and see.
+Dialogue: 0,0:06:19.08,0:06:20.51,Sub,,0,0,0,,But remember, we must act cautiously
+Dialogue: 0,0:06:21.00,0:06:22.07,Sub,,0,0,0,,and understand the formation
+Dialogue: 0,0:06:22.56,0:06:23.39,Sub,,0,0,0,,before deciding.
+Dialogue: 0,0:06:26.72,0:06:29.56,Sub,,0,0,0,,{\pos(1733,488)\fad(600,000)}30 minutes later
+Dialogue: 0,0:06:27.28,0:06:28.47,Sub,,0,0,0,,The end is just ahead !
+Dialogue: 0,0:06:47.44,0:06:48.07,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:06:48.52,0:06:49.31,Sub,,0,0,0,,I figured it out.
+Dialogue: 0,0:06:49.96,0:06:51.19,Sub,,0,0,0,,This formation of runes
+Dialogue: 0,0:06:51.20,0:06:52.23,Sub,,0,0,0,,has only a single function.
+Dialogue: 0,0:06:52.44,0:06:53.43,Sub,,0,0,0,,It's for healing.
+Dialogue: 0,0:06:54.44,0:06:55.47,Sub,,0,0,0,,If I'm not mistaken,
+Dialogue: 0,0:06:55.92,0:06:58.39,Sub,,0,0,0,,there are 9 such runic tunnels in total.
+Dialogue: 0,0:06:59.16,0:07:00.64,Sub,,0,0,0,,The 9 runes work together
+Dialogue: 0,0:07:00.64,0:07:02.55,Sub,,0,0,0,,to create a massive healing formation.
+Dialogue: 0,0:07:03.40,0:07:04.63,Sub,,0,0,0,,All this time,
+Dialogue: 0,0:07:05.00,0:07:06.15,Sub,,0,0,0,,it never stopped operating.
+Dialogue: 0,0:07:07.52,0:07:08.71,Sub,,0,0,0,,Brother Li, do you mean that
+Dialogue: 0,0:07:09.32,0:07:10.27,Sub,,0,0,0,,all this time,
+Dialogue: 0,0:07:10.72,0:07:12.99,Sub,,0,0,0,,someone has been healing within
+Dialogue: 0,0:07:13.36,0:07:14.27,Sub,,0,0,0,,this formation ?
+Dialogue: 0,0:07:14.88,0:07:16.11,Sub,,0,0,0,,In the Thunder Celestial Realm,
+Dialogue: 0,0:07:16.44,0:07:18.11,Sub,,0,0,0,,someone who could use so many resources
+Dialogue: 0,0:07:18.52,0:07:19.55,Sub,,0,0,0,,just for healing
+Dialogue: 0,0:07:20.48,0:07:21.75,Sub,,0,0,0,,must be...
+Dialogue: 0,0:07:22.36,0:07:23.35,Sub,,0,0,0,,a Celestial !
+Dialogue: 0,0:07:24.68,0:07:27.60,Sub,,0,0,0,,The Celestial healing in this formation has already awakened.
+Dialogue: 0,0:07:27.76,0:07:30.11,Sub,,0,0,0,,He most likely sensed our presence long ago
+Dialogue: 0,0:07:30.48,0:07:32.67,Sub,,0,0,0,,and allowed us to venture this deep.
+Dialogue: 0,0:07:35.36,0:07:36.75,Sub,,0,0,0,,It's just a mere restriction.
+Dialogue: 0,0:07:37.12,0:07:38.64,Sub,,0,0,0,,I'm confident I can open it for you, Brother Xu.
+Dialogue: 0,0:07:43.92,0:07:44.69,Sub,,0,0,0,,Li Yuan !
+Dialogue: 0,0:07:45.20,0:07:45.91,Sub,,0,0,0,,What's wrong ?
+Dialogue: 0,0:07:46.26,0:07:46.91,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:07:47.32,0:07:48.63,Sub,,0,0,0,,don't you want to learn celestial spells ?
+Dialogue: 0,0:07:49.08,0:07:51.03,Sub,,0,0,0,,If we can find this Celestial,
+Dialogue: 0,0:07:51.48,0:07:52.55,Sub,,0,0,0,,we will obtain
+Dialogue: 0,0:07:52.76,0:07:53.87,Sub,,0,0,0,,countless celestial spells !
+Dialogue: 0,0:07:54.28,0:07:55.71,Sub,,0,0,0,,Brother Xu, let go of me !
+Dialogue: 0,0:07:56.00,0:07:57.63,Sub,,0,0,0,,I will open the restriction
+Dialogue: 0,0:07:56.00,0:07:58.04,Third,,0,0,0,,Li Yuan isn't this reckless usually.
+Dialogue: 0,0:07:57.64,0:07:59.03,Sub,,0,0,0,,to get the celestial spells !
+Dialogue: 0,0:07:59.32,0:08:00.31,Sub,,0,0,0,,Let go of me !
+Dialogue: 0,0:08:00.40,0:08:00.87,Sub,,0,0,0,,Could it be...?
+Dialogue: 0,0:08:08.92,0:08:10.83,Sub,,0,0,0,,Li Yuan must have been bewitched
+Dialogue: 0,0:08:10.84,0:08:11.71,Sub,,0,0,0,,by someone.
+Dialogue: 0,0:08:12.28,0:08:14.15,Sub,,0,0,0,,What exactly is in there ?
+Dialogue: 0,0:08:17.60,0:08:18.39,Sub,,0,0,0,,You...
+Dialogue: 0,0:08:18.84,0:08:20.67,Sub,,0,0,0,,What celestial spell do you wish to learn ?
+Dialogue: 0,0:08:22.52,0:08:24.07,Sub,,0,0,0,,Have your friend
+Dialogue: 0,0:08:24.60,0:08:26.35,Sub,,0,0,0,,cast those celestial restrictions
+Dialogue: 0,0:08:27.04,0:08:29.43,Sub,,0,0,0,,and I will grant all your desires.
+Dialogue: 0,0:08:29.64,0:08:30.51,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:08:33.00,0:08:34.15,Sub,,0,0,0,,Do you want to learn
+Dialogue: 0,0:08:34.36,0:08:35.95,Sub,,0,0,0,,or not ?
+Dialogue: 0,0:08:37.36,0:08:39.43,Sub,,0,0,0,,Countless cultivators chase after celestial spells
+Dialogue: 0,0:08:40.24,0:08:41.75,Sub,,0,0,0,,and this person offers them so easily ?
+Dialogue: 0,0:08:42.28,0:08:43.64,Sub,,0,0,0,,There must be something wrong.
+Dialogue: 0,0:08:44.36,0:08:46.11,Sub,,0,0,0,,No matter how precious the celestial spell,
+Dialogue: 0,0:08:46.40,0:08:48.19,Sub,,0,0,0,,I will only cultivate the ones
+Dialogue: 0,0:08:48.44,0:08:49.31,Sub,,0,0,0,,I obtain by myself.
+Dialogue: 0,0:08:50.68,0:08:52.15,Sub,,0,0,0,,I must never repeat the mistake
+Dialogue: 0,0:08:52.88,0:08:54.19,Sub,,0,0,0,,of the Celestial Slaughter Art.
+Dialogue: 0,0:08:55.80,0:08:59.35,Sub,,0,0,0,,I hate cautious people !
+Dialogue: 0,0:09:10.00,0:09:10.83,Sub,,0,0,0,,This is...
+Dialogue: 0,0:09:13.04,0:09:14.71,Sub,,0,0,0,,I acted impulsively just now.
+Dialogue: 0,0:09:15.48,0:09:16.15,Sub,,0,0,0,,I held you back...
+Dialogue: 0,0:09:16.16,0:09:17.31,Sub,,0,0,0,,It's not your fault.
+Dialogue: 0,0:09:17.80,0:09:19.35,Sub,,0,0,0,,That power was too strange.
+Dialogue: 0,0:09:19.80,0:09:21.48,Sub,,0,0,0,,We need to quickly leave this place.
+Dialogue: 0,0:09:25.80,0:09:26.55,Sub,,0,0,0,,What's this !?
+Dialogue: 0,0:09:28.08,0:09:28.91,Sub,,0,0,0,,Ji Realm !?
+Dialogue: 0,0:09:32.04,0:09:32.59,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:09:32.72,0:09:33.31,Sub,,0,0,0,,hurry up !
+Dialogue: 0,0:09:43.84,0:09:44.35,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:09:44.48,0:09:44.87,Sub,,0,0,0,,quick !
+Dialogue: 0,0:09:56.92,0:10:00.08,Card,,0,0,0,,{\fad(300,300)\pos(1610,474)}Wasteland\NThunder Celestial Realm
+Dialogue: 0,0:10:01.48,0:10:02.23,Sub,,0,0,0,,Brother Xu !
+Dialogue: 0,0:10:12.32,0:10:12.87,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:10:13.04,0:10:13.83,Sub,,0,0,0,,protect me !
+Dialogue: 0,0:10:17.92,0:10:19.75,Sub,,0,0,0,,I've never seen Brother Xu look so serious.
+Dialogue: 0,0:10:20.48,0:10:22.28,Sub,,0,0,0,,What exactly was that crimson light ?
+Dialogue: 0,0:10:22.28,0:10:25.24,Card,,0,0,0,,{\fad(300,300)\pos(1611,444)}Wang Lin's Sea of Consciousness
+Dialogue: 0,0:10:42.92,0:10:44.83,Sub,,0,0,0,,The power of this Ji Realm is truly astonishing.
+Dialogue: 0,0:10:45.80,0:10:47.96,Sub,,0,0,0,,If I hadn't once possessed the Ji Realm myself,
+Dialogue: 0,0:10:48.04,0:10:49.96,Sub,,0,0,0,,and known how to counter it with origin energy,
+Dialogue: 0,0:10:50.44,0:10:52.11,Sub,,0,0,0,,then even with my Corporeal Yang's cultivation,
+Dialogue: 0,0:10:52.76,0:10:54.91,Sub,,0,0,0,,my Origin Soul would have been destroyed by it !
+Dialogue: 0,0:11:03.08,0:11:04.07,Sub,,0,0,0,,Celestial spells...
+Dialogue: 0,0:11:04.60,0:11:05.51,Sub,,0,0,0,,Celestial spells !
+Dialogue: 0,0:11:17.32,0:11:18.44,Sub,,0,0,0,,Not enough !
+Dialogue: 0,0:11:18.44,0:11:19.55,Sub,,0,0,0,,It's still not enough !
+Dialogue: 0,0:11:19.88,0:11:22.27,Sub,,0,0,0,,I need more Qi Refiners !
+Dialogue: 0,0:11:23.00,0:11:25.23,Sub,,0,0,0,,Only 4 seals remain !
+Dialogue: 0,0:11:26.24,0:11:27.27,Sub,,0,0,0,,Qing Shui...
+Dialogue: 0,0:11:27.56,0:11:29.15,Sub,,0,0,0,,The day you will die
+Dialogue: 0,0:11:29.80,0:11:31.08,Sub,,0,0,0,,is approaching !
+Dialogue: 0,0:11:41.84,0:11:43.07,Sub,,0,0,0,,I finally sealed it...
+Dialogue: 0,0:11:44.16,0:11:45.75,Sub,,0,0,0,,Who exactly is sealed
+Dialogue: 0,0:11:46.28,0:11:47.31,Sub,,0,0,0,,behind that vortex ?
+Dialogue: 0,0:11:48.28,0:11:50.15,Sub,,0,0,0,,To be able to control such a Ji Realm...
+Dialogue: 0,0:11:52.28,0:11:53.59,Sub,,0,0,0,,Ji Realm cultivators
+Dialogue: 0,0:11:53.60,0:11:55.03,Sub,,0,0,0,,can't breakthrough above Nascent Soul.
+Dialogue: 0,0:11:56.28,0:11:57.71,Sub,,0,0,0,,The only exception
+Dialogue: 0,0:11:57.80,0:11:59.23,Sub,,0,0,0,,was when I met Na Duo.
+Dialogue: 0,0:12:00.04,0:12:02.43,Sub,,0,0,0,,But that was because his Ji Realm was gifted by a friend,
+Dialogue: 0,0:12:02.92,0:12:04.35,Sub,,0,0,0,,not cultivated from scratch.
+Dialogue: 0,0:12:05.32,0:12:05.99,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:12:06.64,0:12:07.87,Sub,,0,0,0,,that there is a way
+Dialogue: 0,0:12:08.40,0:12:10.48,Sub,,0,0,0,,to continue cultivating with the Ji Realm ?
+Dialogue: 0,0:12:15.36,0:12:15.96,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:12:16.20,0:12:17.15,Sub,,0,0,0,,how are your injuries ?
+Dialogue: 0,0:12:17.64,0:12:18.27,Sub,,0,0,0,,I'm fine.
+Dialogue: 0,0:12:19.12,0:12:20.59,Sub,,0,0,0,,It would be a pity
+Dialogue: 0,0:12:20.80,0:12:22.03,Sub,,0,0,0,,to just destroy it...
+Dialogue: 0,0:12:22.56,0:12:24.11,Sub,,0,0,0,,I'd rather sacrifice some origin energy
+Dialogue: 0,0:12:24.60,0:12:25.67,Sub,,0,0,0,,to keep it.
+Dialogue: 0,0:12:25.92,0:12:27.07,Sub,,0,0,0,,It may become useful.
+Dialogue: 0,0:12:28.60,0:12:29.35,Sub,,0,0,0,,Let's go.
+Dialogue: 0,0:12:29.76,0:12:31.19,Sub,,0,0,0,,We need to find the Collection Pavilion.
+Dialogue: 0,0:12:37.24,0:12:39.92,Sub,,0,0,0,,{\fad(1000,1000)\pos(960,491)}a month and a half later
+Dialogue: 0,0:12:39.08,0:12:42.24,Card,,0,0,0,,{\fad(300,300)\pos(1597,465)}Void\NThunder Celestial Realm
+Dialogue: 0,0:12:41.44,0:12:43.19,Sub,,0,0,0,,There are too many cultivators suddenly gathering...
+Dialogue: 0,0:12:43.80,0:12:44.79,Sub,,0,0,0,,Something is wrong.
+Dialogue: 0,0:12:45.52,0:12:46.79,Sub,,0,0,0,,Their destinations vary...
+Dialogue: 0,0:12:47.36,0:12:49.31,Sub,,0,0,0,,They're going in all 4 directions.
+Dialogue: 0,0:12:50.36,0:12:52.03,Sub,,0,0,0,,What happened exactly ?
+Dialogue: 0,0:13:03.68,0:13:04.59,Sub,,0,0,0,,It's Zhan Konglie !
+Dialogue: 0,0:13:05.24,0:13:05.91,Sub,,0,0,0,,Apparently,
+Dialogue: 0,0:13:06.44,0:13:08.27,Sub,,0,0,0,,he has become a Thunder Celestial Messenger.
+Dialogue: 0,0:13:10.20,0:13:11.23,Sub,,0,0,0,,Zhan Konglie !
+Dialogue: 0,0:13:12.44,0:13:15.87,Sub,,0,0,0,,with Shengong Hu and Tang Yanfeng, they are the 3 Heroes of the Southern Domain.
+Dialogue: 0,0:13:16.40,0:13:17.99,Sub,,0,0,0,,All 3 are prodigies of their generation.
+Dialogue: 0,0:13:18.72,0:13:21.15,Sub,,0,0,0,,They all reached Corporeal Yang at a young age.
+Dialogue: 0,0:13:21.64,0:13:23.07,Sub,,0,0,0,,They have a lot of potential.
+Dialogue: 0,0:13:32.48,0:13:33.27,Sub,,0,0,0,,Stop there !
+Dialogue: 0,0:14:02.88,0:14:03.83,Sub,,0,0,0,,Junior Zhan Konglie,
+Dialogue: 0,0:14:04.12,0:14:04.87,Sub,,0,0,0,,pays respect to Senior.
+Dialogue: 0,0:14:05.68,0:14:06.55,Sub,,0,0,0,,Senior !?
+Dialogue: 0,0:14:07.12,0:14:09.35,Sub,,0,0,0,,But this guy's cultivation is the same as Zhan Konglie's...
+Dialogue: 0,0:14:10.04,0:14:11.03,Sub,,0,0,0,,Corporeal Yang ?
+Dialogue: 0,0:14:11.48,0:14:12.67,Sub,,0,0,0,,So he really is a Senior.
+Dialogue: 0,0:14:13.08,0:14:15.31,Sub,,0,0,0,,I couldn't see him hiding his cultivation before,
+Dialogue: 0,0:14:15.56,0:14:16.99,Sub,,0,0,0,,and it's the same now.
+Dialogue: 0,0:14:18.16,0:14:19.23,Sub,,0,0,0,,Where are you going
+Dialogue: 0,0:14:19.76,0:14:20.67,Sub,,0,0,0,,in such haste ?
+Dialogue: 0,0:14:21.04,0:14:21.79,Sub,,0,0,0,,Senior,
+Dialogue: 0,0:14:22.44,0:14:24.11,Sub,,0,0,0,,4 fragments of the Thunder Celestial Realm suddenly gave off
+Dialogue: 0,0:14:24.32,0:14:26.04,Sub,,0,0,0,,powerful celestial spiritual energy fluctuations.
+Dialogue: 0,0:14:26.64,0:14:27.83,Sub,,0,0,0,,It's all sealed by restrictions
+Dialogue: 0,0:14:27.84,0:14:29.64,Sub,,0,0,0,,but we suspect great treasures will appear.
+Dialogue: 0,0:14:30.08,0:14:31.63,Sub,,0,0,0,,Junior has already agreed with Brother Shengong
+Dialogue: 0,0:14:31.76,0:14:32.71,Sub,,0,0,0,,to join forces.
+Dialogue: 0,0:14:33.36,0:14:33.95,Sub,,0,0,0,,Does Senior
+Dialogue: 0,0:14:34.04,0:14:35.35,Sub,,0,0,0,,have the time
+Dialogue: 0,0:14:35.92,0:14:37.31,Sub,,0,0,0,,to accompany me ?
+Dialogue: 0,0:14:38.24,0:14:39.39,Sub,,0,0,0,,I have other matters.
+Dialogue: 0,0:14:40.04,0:14:41.27,Sub,,0,0,0,,This journey sounds dangerous,
+Dialogue: 0,0:14:41.68,0:14:42.63,Sub,,0,0,0,,be careful.
+Dialogue: 0,0:14:45.92,0:14:46.47,Sub,,0,0,0,,Understood !
+Dialogue: 0,0:14:46.72,0:14:47.55,Sub,,0,0,0,,Junior will remember !
+Dialogue: 0,0:14:48.64,0:14:51.80,Card,,0,0,0,,{\fad(300,300)\pos(1608,465)}Central fragment\NThunder Celestial Realm
+Dialogue: 0,0:14:58.24,0:15:00.19,Sub,,0,0,0,,The Collection Pavilion should be right here.
+Dialogue: 0,0:15:01.32,0:15:02.91,Sub,,0,0,0,,There are indeed restriction fluctuations here
+Dialogue: 0,0:15:03.08,0:15:04.51,Sub,,0,0,0,,that are similar to celestial restrictions.
+Dialogue: 0,0:15:05.52,0:15:06.75,Sub,,0,0,0,,Although they are faint,
+Dialogue: 0,0:15:08.04,0:15:09.43,Sub,,0,0,0,,I can detect something
+Dialogue: 0,0:15:10.00,0:15:11.07,Sub,,0,0,0,,with my Restriction Heart.
+Dialogue: 0,0:15:35.60,0:15:36.23,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:15:36.76,0:15:37.87,Sub,,0,0,0,,I will need some time.
+Dialogue: 0,0:15:54.28,0:15:54.99,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:15:55.52,0:15:57.51,Sub,,0,0,0,,breaking this restriction completely
+Dialogue: 0,0:15:58.04,0:15:59.27,Sub,,0,0,0,,will likely take months.
+Dialogue: 0,0:15:59.96,0:16:00.99,Sub,,0,0,0,,With your restrictions
+Dialogue: 0,0:16:01.68,0:16:02.71,Sub,,0,0,0,,and my speed,
+Dialogue: 0,0:16:03.24,0:16:04.39,Sub,,0,0,0,,sending me inside
+Dialogue: 0,0:16:04.76,0:16:05.67,Sub,,0,0,0,,should be feasible.
+Dialogue: 0,0:16:06.36,0:16:07.35,Sub,,0,0,0,,Good idea !
+Dialogue: 0,0:16:07.88,0:16:08.80,Sub,,0,0,0,,It's worth a try.
+Dialogue: 0,0:16:11.44,0:16:12.07,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:16:12.68,0:16:13.43,Sub,,0,0,0,,once I'm inside,
+Dialogue: 0,0:16:13.60,0:16:14.63,Sub,,0,0,0,,find a place to hide.
+Dialogue: 0,0:16:15.16,0:16:16.52,Sub,,0,0,0,,After I obtain the celestial spells,
+Dialogue: 0,0:16:16.68,0:16:17.67,Sub,,0,0,0,,we will leave together.
+Dialogue: 0,0:16:25.88,0:16:27.55,Sub,,0,0,0,,Restriction Heart, burst !
+Dialogue: 0,0:16:37.24,0:16:40.44,Card,,0,0,0,,{\fad(300,300)\pos(1653,462)}Colletion Pavilion\NThunder Celestial Realm
+Dialogue: 0,0:16:44.60,0:16:47.08,Card,,0,0,0,,{\fad(300,000)\pos(1579,517)}Forbidden ground guardian\NYao Family cultivator\NCorporeal Yang
+Dialogue: 0,0:16:48.08,0:16:50.07,Sub,,0,0,0,,Outsiders of the four great families
+Dialogue: 0,0:16:50.32,0:16:51.87,Sub,,0,0,0,,who trespass into this forbidden ground
+Dialogue: 0,0:16:51.88,0:16:52.63,Sub,,0,0,0,,must die !
+Dialogue: 0,0:16:57.52,0:16:59.11,Sub,,0,0,0,,This is the Thunder Celestial Realm,
+Dialogue: 0,0:16:59.60,0:17:01.51,Sub,,0,0,0,,the Collection Pavilion is a relic of the past.
+Dialogue: 0,0:17:02.56,0:17:04.67,Sub,,0,0,0,,Why can the four great families use it freely
+Dialogue: 0,0:17:05.16,0:17:06.11,Sub,,0,0,0,,but not me ?
+Dialogue: 0,0:17:06.40,0:17:07.59,Sub,,0,0,0,,Because
+Dialogue: 0,0:17:08.04,0:17:09.43,Sub,,0,0,0,,you're not qualified.
+Dialogue: 0,0:17:49.20,0:17:50.88,Sub,,0,0,0,,And Origin Soul that devours thunder !?
+Dialogue: 0,0:18:19.52,0:18:20.91,Sub,,0,0,0,,Do you intend to keep watching !?
+Dialogue: 0,0:18:20.92,0:18:22.32,Card,,0,0,0,,{\pos(318,504)\fad(300,000)}Forbidden ground guardian\NChen Family cultivator\NCorporeal Yang
+Dialogue: 0,0:18:20.92,0:18:22.32,Card,,0,0,0,,{\pos(617,367)\fad(300,000)}Forbidden ground guardian\NLu Family cultivator\NCorporeal Yang
+Dialogue: 0,0:18:20.92,0:18:22.32,Card,,0,0,0,,{\pos(1597,445)\fad(300,000)}Forbidden ground guardian\NSong Family cultivator\NCorporeal Yang
+Dialogue: 0,0:18:22.56,0:18:23.51,Sub,,0,0,0,,Let me pass,
+Dialogue: 0,0:18:24.16,0:18:25.19,Sub,,0,0,0,,and we can avoid this fight.
+Dialogue: 0,0:18:26.28,0:18:27.71,Sub,,0,0,0,,Otherwise, even if I lose,
+Dialogue: 0,0:18:28.08,0:18:30.23,Sub,,0,0,0,,half of you will die.
+Dialogue: 0,0:18:31.96,0:18:32.79,Sub,,0,0,0,,Outsider,
+Dialogue: 0,0:18:33.16,0:18:34.51,Sub,,0,0,0,,you're not qualified to enter !
+Dialogue: 0,0:18:53.36,0:18:56.07,Sub,,0,0,0,,Then don't blame me for being rude.
+Dialogue: 0,0:19:19.36,0:19:20.55,Sub,,0,0,0,,Spatial Bending !?
+Dialogue: 0,0:19:21.72,0:19:22.35,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:20:00.88,0:20:02.07,Sub,,0,0,0,,What is this !?
+Dialogue: 0,0:20:31.48,0:20:32.23,Sub,,0,0,0,,I...
+Dialogue: 0,0:20:32.40,0:20:34.35,Sub,,0,0,0,,want to enter the Collection Pavilion.
+Dialogue: 0,0:21:16.44,0:21:18.39,Sub,,0,0,0,,I want to enter the Collection Pavilion.
+Dialogue: 0,0:21:21.08,0:21:22.15,Sub,,0,0,0,,Am I
+Dialogue: 0,0:21:22.96,0:21:24.95,Sub,,0,0,0,,qualified enough now ?

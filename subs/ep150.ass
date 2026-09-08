@@ -1,0 +1,462 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: [Bonobosubs]Renegade Immortal - Xian Ni Episode 150
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 816
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,3,1
+Style: Music,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,95,0,0,1,1,1,7,40,10,25,1
+Style: Second,Roboto,55,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,110,1
+Style: Opening,Lucida Sans,40,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,2,2,10,10,5,1
+Style: Music bis,Roboto,35,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,-1,0,0,100,90.0,0,0,1,1,1,7,40,10,2,1
+Style: Note,Roboto,40,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100.0,0,0,1,4.0,3.0,1,10,10,3,1
+Style: Card,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.0,1.0,2,10,10,5,1
+Style: Card Hard,Lucida Sans,40,&H00CEE5F0,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,1.5,2,10,10,5,1
+Style: Third,Roboto,55,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2.0,1,2,10,10,180,1
+Style: Stamp,Lucida Sans,100,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Opening2,Lucida Sans,38,&H00FFFFFF,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,90,0,0,1,0.5,2,2,10,10,5,1
+Style: Grave,Lucida Sans,80,&H00ABABAB,&H000000FF,&H32000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.0,2,2,10,10,5,1
+Style: city,Lucida Sans,150,&H006ADCFB,&H000000FF,&H001D4969,&H001D4969,-1,0,0,0,100,100,0,0,1,3.0,2,2,10,10,5,1
+Style: Map,Lucida Sans,80,&H003C6F9B,&HFF000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,95,0,0,1,2,1,2,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.24,0:00:35.24,Opening2,,0,0,0,,{\fad(1000,1000)}The rules keep changing.
+Dialogue: 0,0:00:39.08,0:00:44.08,Opening2,,0,0,0,,{\fad(1000,1000)}I've been rehearsing every possible outcome.
+Dialogue: 0,0:00:48.24,0:00:54.52,Opening2,,0,0,0,,{\fad(1000,1000)}Once this thought arises, there is no more room for right or wrong.
+Dialogue: 0,0:00:57.68,0:01:03.16,Opening2,,0,0,0,,{\fad(1000,1000)}I am resolved to sever this flood
+Dialogue: 0,0:01:05.28,0:01:09.52,Opening2,,0,0,0,,{\fad(1000,1000)}so that my soul can break free from mediocrity,
+Dialogue: 0,0:01:09.76,0:01:13.88,Opening2,,0,0,0,,{\fad(1000,1000)}from loneliness and distinction.
+Dialogue: 0,0:01:14.36,0:01:18.84,Opening2,,0,0,0,,{\fad(1000,800)}One more step and you'll fall into madness.
+Dialogue: 0,0:01:19.04,0:01:23.84,Opening2,,0,0,0,,{\fad(1000,1000)}Don't fall down.
+Dialogue: 0,0:01:25.48,0:01:27.04,Opening2,,0,0,0,,{\fad(1000,150)}I look towards the top.
+Dialogue: 0,0:01:27.12,0:01:29.68,Opening2,,0,0,0,,{\fad(300,500)}Chase !
+Dialogue: 0,0:01:29.88,0:01:32.88,Opening2,,0,0,0,,{\fad(600,600)}Refined to perfection.
+Dialogue: 0,0:01:34.44,0:01:38.80,Opening2,,0,0,0,,{\fad(600,600)}Never retreat, no matter the danger.
+Dialogue: 0,0:01:38.92,0:01:41.84,Opening2,,0,0,0,,{\fad(300,300)}I dare to defy the heavens !
+Dialogue: 0,0:01:42.32,0:01:45.68,Opening2,,0,0,0,,{\fad(600,600)}Always overcome the obstacles,
+Dialogue: 0,0:01:45.87,0:01:48.04,Opening2,,0,0,0,,{\fad(300,300)}ignite the seas with blood,
+Dialogue: 0,0:01:48.20,0:01:52.48,Opening2,,0,0,0,,{\fad(600,600)}bloom through trials and tribulations.
+Dialogue: 0,0:01:52.64,0:01:57.12,Opening2,,0,0,0,,{\fad(600,600)}Even the sharpest thorns
+Dialogue: 0,0:01:57.24,0:02:01.68,Opening2,,0,0,0,,{\fad(600,1000)}will be reduced into ashes.
+Dialogue: 0,0:02:01.72,0:02:06.00,Opening2,,0,0,0,,{\fad(800,800)}What is there to fear ?
+Dialogue: 0,0:02:11.00,0:02:15.16,Opening,,0,0,0,,{\pos(960,690)\fad(1000,1000)}Renegade Immortal\NSubtitles by Bonobosubs\Nhttps://discord.gg/Ceckd4pdVA
+Dialogue: 0,0:03:15.84,0:03:17.40,Sub,,0,0,0,,All this guy has done is scheme
+Dialogue: 0,0:03:17.48,0:03:18.39,Sub,,0,0,0,,to lure me into this trap.
+Dialogue: 0,0:03:19.24,0:03:20.19,Sub,,0,0,0,,He's way too vicious.
+Dialogue: 0,0:03:21.60,0:03:23.51,Sub,,0,0,0,,I'm just here for the 18 Plum Blossoms Restriction
+Dialogue: 0,0:03:24.40,0:03:25.99,Sub,,0,0,0,,but this mountain's restrictions are strange.
+Dialogue: 0,0:03:26.84,0:03:27.80,Sub,,0,0,0,,If he makes a move,
+Dialogue: 0,0:03:27.84,0:03:28.67,Sub,,0,0,0,,the outcome isn't certain.
+Dialogue: 0,0:03:30.20,0:03:30.91,Sub,,0,0,0,,I can't wait any longer.
+Dialogue: 0,0:03:41.04,0:03:41.95,Sub,,0,0,0,,From the very beginning,
+Dialogue: 0,0:03:42.72,0:03:44.15,Sub,,0,0,0,,you've been scheming against me.
+Dialogue: 0,0:03:44.16,0:03:44.63,Sub,,0,0,0,,Brother Xu...
+Dialogue: 0,0:03:45.96,0:03:47.27,Sub,,0,0,0,,Am I right or not ?
+Dialogue: 0,0:03:50.28,0:03:51.60,Sub,,0,0,0,,I wish to borrow that spell of yours
+Dialogue: 0,0:03:51.60,0:03:53.27,Sub,,0,0,0,,that can freeze everything !
+Dialogue: 0,0:03:55.04,0:03:55.91,Sub,,0,0,0,,The Stop Spell ?
+Dialogue: 0,0:03:59.28,0:03:59.71,Sub,,0,0,0,,Stop !
+Dialogue: 0,0:04:07.00,0:04:08.03,Sub,,0,0,0,,For my whole life,
+Dialogue: 0,0:04:08.88,0:04:10.88,Sub,,0,0,0,,I've always disliked those that scheme against me.
+Dialogue: 0,0:04:17.24,0:04:17.87,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:04:18.84,0:04:20.96,Sub,,0,0,0,,as long as you are willing to help me with the Stop Spell,
+Dialogue: 0,0:04:21.12,0:04:23.28,Sub,,0,0,0,,the slave imprint that bound my Li Family for tens of thousands of years
+Dialogue: 0,0:04:23.64,0:04:24.55,Sub,,0,0,0,,can be undone.
+Dialogue: 0,0:04:25.16,0:04:26.27,Sub,,0,0,0,,The affairs of your Li Family
+Dialogue: 0,0:04:26.64,0:04:27.75,Sub,,0,0,0,,have nothing to do with me !
+Dialogue: 0,0:04:30.16,0:04:31.27,Sub,,0,0,0,,Annihilation Restriction,
+Dialogue: 0,0:04:31.96,0:04:32.71,Sub,,0,0,0,,activate !
+Dialogue: 0,0:04:43.08,0:04:44.43,Sub,,0,0,0,,So this is the Annihilation Restriction ?
+Dialogue: 0,0:04:45.52,0:04:47.24,Sub,,0,0,0,,It really resonates with this mountain...
+Dialogue: 0,0:04:55.44,0:04:56.27,Sub,,0,0,0,,No !
+Dialogue: 0,0:04:59.52,0:05:00.31,Sub,,0,0,0,,Don't forget that
+Dialogue: 0,0:05:00.80,0:05:01.79,Sub,,0,0,0,,you still have some family.
+Dialogue: 0,0:05:02.04,0:05:03.39,Sub,,0,0,0,,This restriction is connected to the entire mountain.
+Dialogue: 0,0:05:02.60,0:05:03.39,Third,,0,0,0,,If you dare to touch me,
+Dialogue: 0,0:05:03.48,0:05:05.72,Third,,0,0,0,,they won't survive either !
+Dialogue: 0,0:05:04.20,0:05:05.71,Sub,,0,0,0,,It has the aura of the second step.
+Dialogue: 0,0:05:08.28,0:05:10.00,Sub,,0,0,0,,If it was only for the 18 Plum Blossoms Restriction,
+Dialogue: 0,0:05:10.12,0:05:11.12,Sub,,0,0,0,,it wouldn't be worth the risk.
+Dialogue: 0,0:05:11.12,0:05:12.39,Sub,,0,0,0,,You talk too much...
+Dialogue: 0,0:05:14.24,0:05:15.44,Sub,,0,0,0,,Once we reach the summit,
+Dialogue: 0,0:05:15.48,0:05:17.32,Sub,,0,0,0,,I will kill you and offer your blood as sacrifice.
+Dialogue: 0,0:05:20.84,0:05:21.40,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:05:22.04,0:05:23.07,Sub,,0,0,0,,I shouldn't have let you see
+Dialogue: 0,0:05:23.60,0:05:24.67,Sub,,0,0,0,,this dirty business.
+Dialogue: 0,0:05:28.64,0:05:29.79,Sub,,0,0,0,,I have never meant you any harm.
+Dialogue: 0,0:05:30.72,0:05:32.72,Sub,,0,0,0,,I just hoped you would use your spell to help me.
+Dialogue: 0,0:05:34.56,0:05:35.07,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:05:35.68,0:05:37.07,Sub,,0,0,0,,I have already withdrawn the restriction
+Dialogue: 0,0:05:37.24,0:05:38.39,Sub,,0,0,0,,so please hear me out.
+Dialogue: 0,0:05:39.80,0:05:40.55,Sub,,0,0,0,,My Li Family
+Dialogue: 0,0:05:41.40,0:05:43.03,Sub,,0,0,0,,was renowned in ancient times for its restrictions.
+Dialogue: 0,0:05:46.32,0:05:47.15,Sub,,0,0,0,,30 000 years ago,
+Dialogue: 0,0:05:48.04,0:05:50.23,Sub,,0,0,0,,our Ancestor was branded with a Celestial slave imprint here
+Dialogue: 0,0:05:51.28,0:05:53.24,Sub,,0,0,0,,and since then our family has withered.
+Dialogue: 0,0:05:54.00,0:05:55.31,Sub,,0,0,0,,Generation after generation,
+Dialogue: 0,0:05:55.48,0:05:56.83,Sub,,0,0,0,,no matter how brilliant our talent,
+Dialogue: 0,0:05:57.24,0:05:58.43,Sub,,0,0,0,,cultivating up to Ascendant
+Dialogue: 0,0:05:58.80,0:05:59.63,Sub,,0,0,0,,was the maximum.
+Dialogue: 0,0:06:01.52,0:06:03.72,Sub,,0,0,0,,Our lifespan is barely 30% of those at the same level.
+Dialogue: 0,0:06:04.16,0:06:05.03,Sub,,0,0,0,,The bloodline
+Dialogue: 0,0:06:05.32,0:06:06.59,Sub,,0,0,0,,is slowly fading away.
+Dialogue: 0,0:06:08.84,0:06:09.67,Sub,,0,0,0,,To sever the imprint
+Dialogue: 0,0:06:11.04,0:06:13.43,Sub,,0,0,0,,countless members of my Li Family willingly offered themselves as sacrifices
+Dialogue: 0,0:06:15.24,0:06:16.71,Sub,,0,0,0,,Their flesh, blood, and souls
+Dialogue: 0,0:06:17.96,0:06:20.52,Sub,,0,0,0,,were used to forge this sword that can break the imprint.
+Dialogue: 0,0:06:21.68,0:06:22.79,Sub,,0,0,0,,As you already know,
+Dialogue: 0,0:06:23.48,0:06:24.63,Sub,,0,0,0,,because of the Ge Family,
+Dialogue: 0,0:06:25.28,0:06:26.75,Sub,,0,0,0,,the whole plan fell apart !
+Dialogue: 0,0:06:28.32,0:06:29.35,Sub,,0,0,0,,Now the Li Family
+Dialogue: 0,0:06:30.88,0:06:31.83,Sub,,0,0,0,,has only me,
+Dialogue: 0,0:06:32.24,0:06:34.23,Sub,,0,0,0,,my younger sister, and my elderly mother.
+Dialogue: 0,0:06:35.52,0:06:38.19,Sub,,0,0,0,,I don't have enough lifespan to wait for the next opening of the Celestial Realm.
+Dialogue: 0,0:06:39.28,0:06:40.39,Sub,,0,0,0,,If I fail this time,
+Dialogue: 0,0:06:41.44,0:06:42.71,Sub,,0,0,0,,the Li bloodline
+Dialogue: 0,0:06:43.60,0:06:44.31,Sub,,0,0,0,,will truly
+Dialogue: 0,0:06:45.72,0:06:46.43,Sub,,0,0,0,,be gone.
+Dialogue: 0,0:06:47.44,0:06:49.15,Sub,,0,0,0,,Risking everything to protect his family
+Dialogue: 0,0:06:50.44,0:06:51.63,Sub,,0,0,0,,doesn't seem like a lie.
+Dialogue: 0,0:06:53.12,0:06:54.19,Sub,,0,0,0,,You deceived me first,
+Dialogue: 0,0:06:55.28,0:06:56.75,Sub,,0,0,0,,how can I trust you now ?
+Dialogue: 0,0:06:59.80,0:07:00.83,Sub,,0,0,0,,"To be a gentleman,
+Dialogue: 0,0:07:01.04,0:07:01.99,Sub,,0,0,0,,honesty is key
+Dialogue: 0,0:07:02.64,0:07:03.79,Sub,,0,0,0,,while deception is a disgrace."
+Dialogue: 0,0:07:05.08,0:07:06.43,Sub,,0,0,0,,This is the motto of the Li Family.
+Dialogue: 0,0:07:07.88,0:07:08.55,Sub,,0,0,0,,But I...
+Dialogue: 0,0:07:10.24,0:07:11.51,Sub,,0,0,0,,I really can't take that gamble...
+Dialogue: 0,0:07:13.24,0:07:15.07,Sub,,0,0,0,,If Brother Xu can use his Stop Spell to help me,
+Dialogue: 0,0:07:15.24,0:07:16.35,Sub,,0,0,0,,I'm 90% sure
+Dialogue: 0,0:07:16.88,0:07:18.11,Sub,,0,0,0,,I can break the imprint.
+Dialogue: 0,0:07:20.04,0:07:21.07,Sub,,0,0,0,,In this jade slip,
+Dialogue: 0,0:07:21.92,0:07:24.25,Sub,,0,0,0,,you will find the first 13 restrictions of the 18 Plum Blossoms Restriction.
+Dialogue: 0,0:07:24.48,0:07:25.27,Sub,,0,0,0,,I offer them to you
+Dialogue: 0,0:07:25.28,0:07:26.15,Sub,,0,0,0,,as an apology
+Dialogue: 0,0:07:27.12,0:07:28.32,Sub,,0,0,0,,and as a sign of sincerity.
+Dialogue: 0,0:07:39.88,0:07:41.92,Sub,,0,0,0,,It really is the 18 Plum Blossoms Restriction...
+Dialogue: 0,0:07:43.00,0:07:44.15,Sub,,0,0,0,,I came for this restriction
+Dialogue: 0,0:07:44.92,0:07:47.11,Sub,,0,0,0,,never expecting to obtain it like this.
+Dialogue: 0,0:07:48.84,0:07:49.99,Sub,,0,0,0,,Although he's a schemer,
+Dialogue: 0,0:07:50.84,0:07:52.19,Sub,,0,0,0,,his heart is genuine.
+Dialogue: 0,0:07:54.64,0:07:55.71,Sub,,0,0,0,,All you need is the Stop Spell ?
+Dialogue: 0,0:07:56.92,0:07:57.47,Sub,,0,0,0,,Exactly !
+Dialogue: 0,0:07:58.08,0:07:59.03,Sub,,0,0,0,,The source of the imprint
+Dialogue: 0,0:07:59.44,0:08:01.52,Sub,,0,0,0,,is inside the Celestial statue at the summit.
+Dialogue: 0,0:08:02.08,0:08:03.71,Sub,,0,0,0,,Only by shattering the statue with this sword
+Dialogue: 0,0:08:04.04,0:08:04.91,Sub,,0,0,0,,can the imprint be broken.
+Dialogue: 0,0:08:06.32,0:08:06.99,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:08:07.44,0:08:08.60,Sub,,0,0,0,,are you willing to help me ?
+Dialogue: 0,0:08:08.80,0:08:09.35,Sub,,0,0,0,,Lead the way.
+Dialogue: 0,0:08:10.68,0:08:11.15,Sub,,0,0,0,,Thank you !
+Dialogue: 0,0:08:12.40,0:08:14.87,Sub,,0,0,0,,The last 5 of the 18 Plum Blossoms Restriction must never be passed on.
+Dialogue: 0,0:08:15.52,0:08:16.59,Sub,,0,0,0,,But once this matter is settled,
+Dialogue: 0,0:08:16.84,0:08:17.91,Sub,,0,0,0,,I am willing to break ancestral rule
+Dialogue: 0,0:08:18.20,0:08:19.87,Sub,,0,0,0,,and give you the remaining 5 as well.
+Dialogue: 0,0:08:20.96,0:08:21.51,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:08:22.16,0:08:22.87,Sub,,0,0,0,,come with me.
+Dialogue: 0,0:08:53.12,0:08:53.87,Sub,,0,0,0,,Earlier,
+Dialogue: 0,0:08:54.72,0:08:57.59,Sub,,0,0,0,,you used your Peak Ascendant cultivation to stir the entire mountain's energy
+Dialogue: 0,0:08:58.36,0:09:00.16,Sub,,0,0,0,,while having the aura of the second step.
+Dialogue: 0,0:09:00.68,0:09:01.71,Sub,,0,0,0,,I didn't understand at first
+Dialogue: 0,0:09:02.32,0:09:03.15,Sub,,0,0,0,,but now I see
+Dialogue: 0,0:09:04.44,0:09:06.60,Sub,,0,0,0,,that your restrictions share the same origin as this mountain.
+Dialogue: 0,0:09:07.16,0:09:07.87,Sub,,0,0,0,,That being the case,
+Dialogue: 0,0:09:08.88,0:09:10.80,Sub,,0,0,0,,it makes sense for you to control it like this.
+Dialogue: 0,0:09:13.32,0:09:14.37,Sub,,0,0,0,,Brother Xu is very perceptive.
+Dialogue: 0,0:09:14.96,0:09:15.67,Sub,,0,0,0,,This mountain
+Dialogue: 0,0:09:15.68,0:09:17.27,Sub,,0,0,0,,was created by the Annihilation Restriction,
+Dialogue: 0,0:09:17.76,0:09:19.31,Sub,,0,0,0,,one of the four great ancient restrictions
+Dialogue: 0,0:09:19.92,0:09:21.84,Sub,,0,0,0,,that embodies the essence of illusory and corporeal...
+Dialogue: 0,0:09:22.24,0:09:23.56,Sub,,0,0,0,,Unfortunately, it's been long lost.
+Dialogue: 0,0:09:24.12,0:09:25.67,Sub,,0,0,0,,Only my Li Family has some of its inheritance.
+Dialogue: 0,0:09:30.92,0:09:31.63,Sub,,0,0,0,,This restriction
+Dialogue: 0,0:09:33.36,0:09:35.86,Sub,,0,0,0,,has transcended the grades of Heaven, Earth, Mysterious, and Underworld.
+Dialogue: 0,0:09:36.88,0:09:37.39,Sub,,0,0,0,,Precisely,
+Dialogue: 0,0:09:38.48,0:09:40.16,Sub,,0,0,0,,people think there are only 4 grades of restrictions
+Dialogue: 0,0:09:40.44,0:09:41.64,Sub,,0,0,0,,but they don't know
+Dialogue: 0,0:09:42.04,0:09:42.95,Sub,,0,0,0,,that there is a level above
+Dialogue: 0,0:09:43.52,0:09:44.63,Sub,,0,0,0,,called the Void grade.
+Dialogue: 0,0:09:45.84,0:09:47.21,Sub,,0,0,0,,The Void grade is divided into 4,
+Dialogue: 0,0:09:47.52,0:09:50.36,Sub,,0,0,0,,they are the 4 great ancient restrictions that stand above all else.
+Dialogue: 0,0:09:53.84,0:09:55.16,Sub,,0,0,0,,After grasping their true essence,
+Dialogue: 0,0:09:55.24,0:09:57.19,Sub,,0,0,0,,all restrictions become like an extension of your will.
+Dialogue: 0,0:09:57.96,0:09:59.40,Sub,,0,0,0,,No matter where, no matter the size,
+Dialogue: 0,0:09:59.44,0:10:00.72,Sub,,0,0,0,,they all follow my heart.
+Dialogue: 0,0:10:07.92,0:10:08.63,Sub,,0,0,0,,Finally...
+Dialogue: 0,0:10:10.48,0:10:11.55,Sub,,0,0,0,,Is it really the end ?
+Dialogue: 0,0:10:17.44,0:10:18.31,Sub,,0,0,0,,Li Yuan...
+Dialogue: 0,0:10:19.52,0:10:20.07,Sub,,0,0,0,,Brother Li !
+Dialogue: 0,0:10:20.44,0:10:21.59,Sub,,0,0,0,,Your mission
+Dialogue: 0,0:10:22.40,0:10:24.03,Sub,,0,0,0,,ends here.
+Dialogue: 0,0:10:29.64,0:10:30.11,Sub,,0,0,0,,It's my...
+Dialogue: 0,0:10:30.32,0:10:33.44,Card,,0,0,0,,{\fad(300,300)\pos(251,482)}Li Yuan's\NSea of Consciousness
+Dialogue: 0,0:10:31.44,0:10:32.39,Sub,,0,0,0,,Sea of Consciousness ?
+Dialogue: 0,0:10:37.04,0:10:37.85,Sub,,0,0,0,,Who are you ?
+Dialogue: 0,0:10:43.24,0:10:44.91,Sub,,0,0,0,,Don't you know who I am ?
+Dialogue: 0,0:10:46.68,0:10:48.07,Sub,,0,0,0,,The imprint on your Li Family
+Dialogue: 0,0:10:49.04,0:10:51.15,Sub,,0,0,0,,was my doing.
+Dialogue: 0,0:11:02.56,0:11:04.44,Sub,,0,0,0,,How did you enter my Sea of Consciousness ?
+Dialogue: 0,0:11:08.20,0:11:10.07,Sub,,0,0,0,,I have always been here.
+Dialogue: 0,0:11:11.48,0:11:13.63,Sub,,0,0,0,,From the moment the imprint was planted,
+Dialogue: 0,0:11:14.48,0:11:17.11,Sub,,0,0,0,,I have been within your bloodline.
+Dialogue: 0,0:11:19.44,0:11:21.39,Sub,,0,0,0,,Whenever someone breaks through to Ascendant,
+Dialogue: 0,0:11:21.88,0:11:24.76,Card,,0,0,0,,{\fad(300,000)\pos(287,451)}Celestial Slave Soul
+Dialogue: 0,0:11:22.52,0:11:24.36,Sub,,0,0,0,,I can awaken.
+Dialogue: 0,0:11:26.72,0:11:27.71,Sub,,0,0,0,,Ascendant ?
+Dialogue: 0,0:11:29.64,0:11:30.83,Sub,,0,0,0,,Since the imprint was placed,
+Dialogue: 0,0:11:31.32,0:11:32.93,Sub,,0,0,0,,among my family's generations, the only Ascendants
+Dialogue: 0,0:11:32.96,0:11:34.79,Sub,,0,0,0,,are Ancestor Li Jinglan and I...
+Dialogue: 0,0:11:35.68,0:11:36.35,Sub,,0,0,0,,Could it be...
+Dialogue: 0,0:11:37.04,0:11:38.07,Sub,,0,0,0,,You're smart.
+Dialogue: 0,0:11:40.08,0:11:43.27,Sub,,0,0,0,,Li Jinglan died without ever knowing I had possessed him.
+Dialogue: 0,0:11:44.80,0:11:45.40,Sub,,0,0,0,,You
+Dialogue: 0,0:11:46.12,0:11:47.71,Sub,,0,0,0,,are somewhat stronger.
+Dialogue: 0,0:11:49.28,0:11:50.19,Sub,,0,0,0,,Back then...
+Dialogue: 0,0:11:50.68,0:11:51.51,Sub,,0,0,0,,it was you !
+Dialogue: 0,0:11:53.84,0:11:56.24,Sub,,0,0,0,,{\fad(300,000)\pos(1695,409)}10 000 years ago
+Dialogue: 0,0:11:56.52,0:11:59.40,Card,,0,0,0,,{\pos(284,528)\fad(300,300)}Li Jinglan\NLi Family Ancestor\NEarly stage Ascendant
+Dialogue: 0,0:11:56.84,0:11:57.67,Sub,,0,0,0,,Today,
+Dialogue: 0,0:11:58.24,0:11:59.35,Sub,,0,0,0,,with this sword,
+Dialogue: 0,0:12:00.16,0:12:02.31,Sub,,0,0,0,,I will sever the curse that has plagued my family for generations !
+Dialogue: 0,0:12:24.72,0:12:27.52,Card,,0,0,0,,{\fad(300,000)\pos(1660,507)}Ge Yunfeng\NGe Family Ancestor\NEarly stage Ascendant
+Dialogue: 0,0:12:24.56,0:12:26.27,Sub,,0,0,0,,Ge Yunfeng pays respects to Senior.
+Dialogue: 0,0:12:28.08,0:12:28.88,Sub,,0,0,0,,Is the sacrifice
+Dialogue: 0,0:12:29.28,0:12:30.07,Sub,,0,0,0,,ready ?
+Dialogue: 0,0:12:34.12,0:12:35.67,Sub,,0,0,0,,The pure-blooded direct descendant is ready.
+Dialogue: 0,0:12:36.16,0:12:38.36,Sub,,0,0,0,,We of the Ge Family are descendants of the Celestial Lord.
+Dialogue: 0,0:12:38.96,0:12:40.23,Sub,,0,0,0,,The Celestial Lord's revival
+Dialogue: 0,0:12:40.60,0:12:41.47,Sub,,0,0,0,,is our duty.
+Dialogue: 0,0:12:45.08,0:12:46.11,Sub,,0,0,0,,Everything
+Dialogue: 0,0:12:46.84,0:12:47.75,Sub,,0,0,0,,is ready !
+Dialogue: 0,0:12:51.12,0:12:52.39,Sub,,0,0,0,,My Li Family's sword
+Dialogue: 0,0:12:52.84,0:12:54.55,Sub,,0,0,0,,was forged to sever the imprint !
+Dialogue: 0,0:12:56.16,0:12:57.19,Sub,,0,0,0,,Sever the imprint ?
+Dialogue: 0,0:12:58.80,0:13:01.91,Sub,,0,0,0,,From the moment your Li Ancestor brought back that imprint,
+Dialogue: 0,0:13:02.56,0:13:05.11,Sub,,0,0,0,,he was already my puppet.
+Dialogue: 0,0:13:06.24,0:13:07.03,Sub,,0,0,0,,That sword
+Dialogue: 0,0:13:07.72,0:13:09.61,Sub,,0,0,0,,was refined from the very beginning
+Dialogue: 0,0:13:09.92,0:13:12.91,Sub,,0,0,0,,to nourish a Celestial Soul.
+Dialogue: 0,0:13:14.04,0:13:14.83,Sub,,0,0,0,,You,
+Dialogue: 0,0:13:15.16,0:13:16.11,Sub,,0,0,0,,Li Jinglan,
+Dialogue: 0,0:13:16.52,0:13:18.11,Sub,,0,0,0,,and all of the Li Family
+Dialogue: 0,0:13:18.88,0:13:20.67,Sub,,0,0,0,,are my pawns.
+Dialogue: 0,0:13:21.96,0:13:23.43,Sub,,0,0,0,,Every step you took
+Dialogue: 0,0:13:24.08,0:13:26.11,Sub,,0,0,0,,was a path I paved for you.
+Dialogue: 0,0:13:27.16,0:13:30.19,Sub,,0,0,0,,It was all to bring me back to this place
+Dialogue: 0,0:13:30.72,0:13:32.79,Sub,,0,0,0,,and fulfill my wish.
+Dialogue: 0,0:13:34.64,0:13:35.59,Sub,,0,0,0,,Unfortunately,
+Dialogue: 0,0:13:36.44,0:13:38.35,Sub,,0,0,0,,I was only one step short back then.
+Dialogue: 0,0:13:40.00,0:13:41.23,Sub,,0,0,0,,But this time,
+Dialogue: 0,0:13:41.96,0:13:43.35,Sub,,0,0,0,,with that Xu Mu here,
+Dialogue: 0,0:13:44.16,0:13:45.71,Sub,,0,0,0,,I will not fail again !
+Dialogue: 0,0:13:48.24,0:13:49.67,Sub,,0,0,0,,So from the very beginning,
+Dialogue: 0,0:13:50.48,0:13:51.95,Sub,,0,0,0,,it was all a lie ?
+Dialogue: 0,0:13:56.84,0:13:58.15,Sub,,0,0,0,, I have cultivated all my life...
+Dialogue: 0,0:13:58.88,0:14:00.80,Sub,,0,0,0,,I didn't dare to slack off for a single day...
+Dialogue: 0,0:14:01.60,0:14:02.95,Sub,,0,0,0,,What was even the point
+Dialogue: 0,0:14:03.84,0:14:04.51,Sub,,0,0,0,,of everything
+Dialogue: 0,0:14:06.08,0:14:07.40,Sub,,0,0,0,,I ever did ?
+Dialogue: 0,0:14:08.76,0:14:09.35,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:14:09.88,0:14:10.35,Sub,,0,0,0,,forgive me.
+Dialogue: 0,0:14:10.56,0:14:11.15,Sub,,0,0,0,,Brother Li !
+Dialogue: 0,0:14:12.08,0:14:13.36,Sub,,0,0,0,,I've dragged you into this...
+Dialogue: 0,0:14:13.96,0:14:15.35,Sub,,0,0,0,,I fear that I, Li Yuan,
+Dialogue: 0,0:14:16.84,0:14:18.79,Sub,,0,0,0,,will never get a chance to repay you.
+Dialogue: 0,0:14:23.76,0:14:24.19,Sub,,0,0,0,,Brother Li...
+Dialogue: 0,0:14:33.88,0:14:34.51,Sub,,0,0,0,,It's nothing,
+Dialogue: 0,0:14:35.48,0:14:36.67,Sub,,0,0,0,,just the imprint's backlash.
+Dialogue: 0,0:14:37.76,0:14:38.43,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:14:39.16,0:14:39.95,Sub,,0,0,0,,let's go to the summit.
+Dialogue: 0,0:14:49.96,0:14:51.03,Sub,,0,0,0,,Just now,
+Dialogue: 0,0:14:52.28,0:14:54.28,Sub,,0,0,0,,it seemed like he had two auras.
+Dialogue: 0,0:14:58.68,0:14:59.79,Sub,,0,0,0,,But nothing is unusual...
+Dialogue: 0,0:15:01.76,0:15:02.75,Sub,,0,0,0,,Was it an illusion ?
+Dialogue: 0,0:15:03.84,0:15:04.31,Sub,,0,0,0,,Master,
+Dialogue: 0,0:15:05.28,0:15:06.23,Sub,,0,0,0,,something is not right.
+Dialogue: 0,0:15:07.32,0:15:07.88,Sub,,0,0,0,,Speak.
+Dialogue: 0,0:15:09.16,0:15:10.87,Sub,,0,0,0,,Earlier I felt on Li Yuan
+Dialogue: 0,0:15:11.56,0:15:14.63,Sub,,0,0,0,,a familiar feeling that made my scalp tingle.
+Dialogue: 0,0:15:32.60,0:15:33.07,Sub,,0,0,0,,This is...
+Dialogue: 0,0:15:34.36,0:15:36.15,Sub,,0,0,0,,the fall of the Thunder Celestial Realm !?
+Dialogue: 0,0:15:43.40,0:15:44.03,Sub,,0,0,0,,My sword,
+Dialogue: 0,0:15:44.64,0:15:45.26,Sub,,0,0,0,,appear !
+Dialogue: 0,0:15:45.08,0:15:47.20,Card,,0,0,0,,{\pos(255,465)\fad(300,300)}Gu Ziyuan\NCelestial General
+Dialogue: 0,0:15:48.40,0:15:49.03,Sub,,0,0,0,,It's him !
+Dialogue: 0,0:15:55.84,0:15:57.03,Sub,,0,0,0,,Can the might of a sword
+Dialogue: 0,0:15:58.12,0:15:59.19,Sub,,0,0,0,,be this strong ?
+Dialogue: 0,0:16:45.44,0:16:46.23,Sub,,0,0,0,,I lost
+Dialogue: 0,0:16:47.68,0:16:48.31,Sub,,0,0,0,,but my soul
+Dialogue: 0,0:16:49.92,0:16:50.63,Sub,,0,0,0,,won't die.
+Dialogue: 0,0:16:51.84,0:16:53.03,Sub,,0,0,0,,No !!!
+Dialogue: 0,0:16:57.00,0:16:57.59,Sub,,0,0,0,,Who
+Dialogue: 0,0:16:59.36,0:17:00.59,Sub,,0,0,0,,was calling him ?
+Dialogue: 0,0:17:09.16,0:17:10.03,Sub,,0,0,0,,Finally,
+Dialogue: 0,0:17:10.84,0:17:12.07,Sub,,0,0,0,,this day has arrived.
+Dialogue: 0,0:17:23.40,0:17:24.03,Sub,,0,0,0,,Now,
+Dialogue: 0,0:17:25.04,0:17:26.19,Sub,,0,0,0,,with your blood,
+Dialogue: 0,0:17:27.04,0:17:28.39,Sub,,0,0,0,,I will settle my family's grievance !
+Dialogue: 0,0:17:28.84,0:17:29.66,Sub,,0,0,0,,You can't...
+Dialogue: 0,0:17:29.76,0:17:30.35,Sub,,0,0,0,,You can't !
+Dialogue: 0,0:17:58.28,0:18:00.36,Sub,,0,0,0,,This statue is filled with overwhelming sadness
+Dialogue: 0,0:18:00.72,0:18:02.56,Sub,,0,0,0,,far beyond what an obsession would create.
+Dialogue: 0,0:18:12.20,0:18:13.31,Sub,,0,0,0,,So that's how it is...
+Dialogue: 0,0:18:14.60,0:18:15.23,Sub,,0,0,0,,Xu Liguo !
+Dialogue: 0,0:18:16.60,0:18:17.27,Sub,,0,0,0,,I'm right here.
+Dialogue: 0,0:18:32.08,0:18:32.79,Sub,,0,0,0,,Brother Xu,
+Dialogue: 0,0:18:33.16,0:18:34.03,Sub,,0,0,0,,help me quickly !
+Dialogue: 0,0:18:34.20,0:18:34.63,Sub,,0,0,0,,Brother Li,
+Dialogue: 0,0:18:35.48,0:18:36.75,Sub,,0,0,0,,I happened to see an illusion
+Dialogue: 0,0:18:37.40,0:18:38.75,Sub,,0,0,0,,from the ancient Celestial Realm
+Dialogue: 0,0:18:39.12,0:18:41.43,Sub,,0,0,0,,where this Celestial held a sword and slew enemies.
+Dialogue: 0,0:18:42.24,0:18:43.47,Sub,,0,0,0,,That sword's power was astonishing.
+Dialogue: 0,0:18:44.24,0:18:45.99,Sub,,0,0,0,,Tell me, why is the hand of this statue
+Dialogue: 0,0:18:47.60,0:18:49.03,Sub,,0,0,0,,empty ?
+Dialogue: 0,0:18:50.72,0:18:52.28,Sub,,0,0,0,,A sword is born to protect its master,
+Dialogue: 0,0:18:52.32,0:18:53.39,Sub,,0,0,0,,it shouldn't outlive him.
+Dialogue: 0,0:18:53.88,0:18:54.76,Sub,,0,0,0,,Since its master is no more,
+Dialogue: 0,0:18:55.20,0:18:55.63,Sub,,0,0,0,,the sword
+Dialogue: 0,0:18:56.36,0:18:57.55,Sub,,0,0,0,,has long since been broken.
+Dialogue: 0,0:18:58.64,0:18:59.40,Sub,,0,0,0,,Is that so ?
+Dialogue: 0,0:19:00.28,0:19:01.79,Sub,,0,0,0,,If Brother Xu finds the reward insufficient,
+Dialogue: 0,0:19:01.80,0:19:02.71,Sub,,0,0,0,,I can give you more !
+Dialogue: 0,0:19:02.96,0:19:04.47,Sub,,0,0,0,,The last 5 of the 18 Plum Blossoms Restriction
+Dialogue: 0,0:19:04.48,0:19:06.12,Sub,,0,0,0,,along with the true inheritance of the Annihilation Restriction.
+Dialogue: 0,0:19:06.16,0:19:07.04,Sub,,0,0,0,,After this,
+Dialogue: 0,0:19:07.08,0:19:08.00,Sub,,0,0,0,,they will both be yours !
+Dialogue: 0,0:19:08.84,0:19:09.23,Sub,,0,0,0,,Master,
+Dialogue: 0,0:19:09.60,0:19:10.79,Sub,,0,0,0,,I have sensed it
+Dialogue: 0,0:19:11.24,0:19:12.15,Sub,,0,0,0,,inside of the statue.
+Dialogue: 0,0:19:27.44,0:19:28.95,Sub,,0,0,0,,Oh my...
+Dialogue: 0,0:19:29.64,0:19:31.27,Sub,,0,0,0,,This sword is on the brink of shattering
+Dialogue: 0,0:19:31.60,0:19:32.11,Sub,,0,0,0,,but somehow
+Dialogue: 0,0:19:32.24,0:19:34.47,Sub,,0,0,0,,it's still holding on.
+Dialogue: 0,0:19:37.08,0:19:37.91,Sub,,0,0,0,,Xu Mu !
+Dialogue: 0,0:19:39.00,0:19:40.43,Sub,,0,0,0,,You already agreed to help me,
+Dialogue: 0,0:19:40.60,0:19:42.24,Sub,,0,0,0,,why are you going back on your word ?
+Dialogue: 0,0:19:42.40,0:19:44.59,Sub,,0,0,0,,I agreed to help Li Yuan,
+Dialogue: 0,0:19:45.72,0:19:46.43,Sub,,0,0,0,,not you,
+Dialogue: 0,0:19:46.88,0:19:48.23,Sub,,0,0,0,,Celestial Sword Spirit.
+Dialogue: 0,0:19:49.16,0:19:49.99,Sub,,0,0,0,,This place
+Dialogue: 0,0:19:50.68,0:19:52.43,Sub,,0,0,0,,is my territory.
+Dialogue: 0,0:19:52.84,0:19:54.19,Sub,,0,0,0,,You can't escape.
+Dialogue: 0,0:20:24.44,0:20:26.31,Sub,,0,0,0,,A low-grade Celestial Guard
+Dialogue: 0,0:20:26.72,0:20:28.91,Sub,,0,0,0,,dares to act recklessly before me ?
+Dialogue: 0,0:20:30.00,0:20:32.23,Sub,,0,0,0,,If you help me revive the Celestial Lord,
+Dialogue: 0,0:20:32.96,0:20:33.83,Sub,,0,0,0,,you may live.
+Dialogue: 0,0:20:34.72,0:20:35.35,Sub,,0,0,0,,Otherwise,
+Dialogue: 0,0:20:36.20,0:20:37.19,Sub,,0,0,0,,you'll die.
+Dialogue: 0,0:20:48.00,0:20:48.95,Sub,,0,0,0,,An illusion restriction ?
+Dialogue: 0,0:20:50.56,0:20:52.07,Sub,,0,0,0,,Li Yuan's invitation earlier
+Dialogue: 0,0:20:52.92,0:20:54.43,Sub,,0,0,0,,was probably also part of his plan.
+Dialogue: 0,0:20:55.44,0:20:57.04,Sub,,0,0,0,,If his goal is to revive the Celestial Lord,
+Dialogue: 0,0:20:57.88,0:20:58.83,Sub,,0,0,0,,then what am I here for ?
+Dialogue: 0,0:21:01.76,0:21:03.55,Sub,,0,0,0,,I have underestimated you.
+Dialogue: 0,0:21:04.24,0:21:06.31,Sub,,0,0,0,,Since you stubbornly refuse to yield,
+Dialogue: 0,0:21:06.96,0:21:08.27,Sub,,0,0,0,,then let me show you
+Dialogue: 0,0:21:08.48,0:21:09.95,Sub,,0,0,0,,what the true
+Dialogue: 0,0:21:09.96,0:21:11.99,Sub,,0,0,0,,18 Plum Blossoms Restriction really is.
+Dialogue: 0,0:21:15.76,0:21:16.56,Sub,,0,0,0,,First restriction,
+Dialogue: 0,0:21:17.56,0:21:19.15,Sub,,0,0,0,,Plum blossoms' first bloom.
+Dialogue: 0,0:21:19.20,0:21:22.32,Card,,0,0,0,,{\pos(275,472)\fad(300,300)}First restriction\N18 Plum Blossoms Restriction
+Dialogue: 0,0:21:32.96,0:21:34.15,Sub,,0,0,0,,I found you.
+Dialogue: 0,0:21:35.04,0:21:36.03,Sub,,0,0,0,,Fourth restriction,
+Dialogue: 0,0:21:35.60,0:21:38.76,Card,,0,0,0,,{\fad(300,300)\pos(275,484)}Fourth restriction\N18 Plum Blossoms Restriction
+Dialogue: 0,0:21:36.64,0:21:38.23,Sub,,0,0,0,,Broken branches cast shadows.
+Dialogue: 0,0:21:41.08,0:21:43.84,Sub,,0,0,0,,These shadows, born from the restriction, regenerate endlessly.
+Dialogue: 0,0:21:44.32,0:21:46.24,Sub,,0,0,0,,Also, all the restrictions in this place are under his control.
+Dialogue: 0,0:21:46.28,0:21:47.33,Sub,,0,0,0,,I can't fight him head-on !
+Dialogue: 0,0:21:56.28,0:21:58.12,Sub,,0,0,0,,The restriction is becoming unstable ?
+Dialogue: 0,0:22:02.24,0:22:02.95,Sub,,0,0,0,,It's Li Yuan !
+Dialogue: 0,0:22:16.56,0:22:17.47,Sub,,0,0,0,,Both inside and outside,
+Dialogue: 0,0:22:17.88,0:22:19.19,Sub,,0,0,0,,the restriction is tied to Li Yuan.
+Dialogue: 0,0:22:20.20,0:22:21.27,Sub,,0,0,0,,Only by awakening Li Yuan
+Dialogue: 0,0:22:21.28,0:22:22.42,Sub,,0,0,0,,and attacking from both sides
+Dialogue: 0,0:22:22.84,0:22:24.11,Sub,,0,0,0,,do we have a way out of this.
+Dialogue: 0,0:22:37.84,0:22:39.43,Sub,,0,0,0,,To revive my master,
+Dialogue: 0,0:22:39.96,0:22:41.35,Sub,,0,0,0,,I have schemed for tens of thousands of years.
+Dialogue: 0,0:22:41.84,0:22:43.07,Sub,,0,0,0,,My Dao Heart is unwavering !
+Dialogue: 0,0:22:44.24,0:22:44.91,Sub,,0,0,0,,You
+Dialogue: 0,0:22:45.80,0:22:46.75,Sub,,0,0,0,,can't break it.
+Dialogue: 0,0:22:49.00,0:22:49.96,Sub,,0,0,0,,Dao Heart ?
+Dialogue: 0,0:22:53.56,0:22:54.11,Sub,,0,0,0,,Maybe...
+Dialogue: 0,0:22:59.56,0:23:00.07,Sub,,0,0,0,,Sword Spirit !
+Dialogue: 0,0:23:01.08,0:23:02.67,Sub,,0,0,0,,You say your Dao Heart is unwavering
+Dialogue: 0,0:23:03.40,0:23:06.03,Sub,,0,0,0,,then why did you fail when you last came here
+Dialogue: 0,0:23:06.96,0:23:07.99,Sub,,0,0,0,,10 000 years ago ?
+Dialogue: 0,0:23:16.60,0:23:17.31,Sub,,0,0,0,,Indeed !
+Dialogue: 0,0:23:18.44,0:23:19.39,Sub,,0,0,0,,I've been wondering
+Dialogue: 0,0:23:20.20,0:23:21.68,Sub,,0,0,0,,why Li Yuan only asked me
+Dialogue: 0,0:23:21.80,0:23:23.87,Sub,,0,0,0,,to use the Stop Spell to immobilize the statue
+Dialogue: 0,0:23:24.24,0:23:25.35,Sub,,0,0,0,,in order to break the imprint.
+Dialogue: 0,0:23:26.36,0:23:27.72,Sub,,0,0,0,,You wish to revive the Celestial Lord
+Dialogue: 0,0:23:27.76,0:23:28.99,Sub,,0,0,0,,but you still lured me here.
+Dialogue: 0,0:23:29.60,0:23:31.15,Sub,,0,0,0,,What do you really seek ?
+Dialogue: 0,0:23:33.12,0:23:35.55,Sub,,0,0,0,,What you wanted to borrow was never the Stop Spell
+Dialogue: 0,0:23:36.84,0:23:38.67,Sub,,0,0,0,,but this Karma Whip !
+Dialogue: 0,0:23:39.48,0:23:39.91,Sub,,0,0,0,,Am I right !?
+Dialogue: 0,0:23:45.72,0:23:46.67,Sub,,0,0,0,,Give it to me...
+Dialogue: 0,0:23:47.12,0:23:48.19,Sub,,0,0,0,,You want to use it
+Dialogue: 0,0:23:48.80,0:23:51.23,Sub,,0,0,0,,to forcibly reverse the outcome of your master's death.
+Dialogue: 0,0:23:53.28,0:23:55.31,Sub,,0,0,0,,The sole reason you failed 10 000 years ago
+Dialogue: 0,0:23:56.08,0:23:57.63,Sub,,0,0,0,,was not because you were stopped
+Dialogue: 0,0:23:59.12,0:24:00.43,Sub,,0,0,0,,but because your master,
+Dialogue: 0,0:24:00.80,0:24:02.03,Sub,,0,0,0,,the great Celestial General,
+Dialogue: 0,0:24:04.36,0:24:06.39,Sub,,0,0,0,,is unwilling to be awakened.
+Dialogue: 100,0:24:30.26,0:27:04.00,Note,,0,0,0,,{\fad(1000,0000)}The 4 ranks of restrictions (Heaven, Earth, Mysterious, Underworld) were never mentioned before so it doesn't make sense for Wang Lin to know about them. The text explaining them and the Void grade was initially a monologue by Li Yuan.\N\NThe sadness of the celestial statue is because the blood of its descendants is being sacrificed before it.\N\NIn the donghua, they attributed the celestial slave imprint to the Sword Spirit, and not just a random celestial servant's soul. That way, Xu Liguo is able to help Wang Lin to uncover the scheme. In the novel, Wang Lin figures it all out by himself.\N\N“Not only are you not Li Yuan, even the Li ancestor from tens of thousands of years ago that collected the three treasures was not himself. It was you who merged together with the slave imprint and reincarnated into the Li family!”\N“[...]you are driven by a sense of self-righteousness, believing that you must revive your master even at the expense of the entire Ge family!”\N“You can cheat others, but you can’t cheat me. As long as it is related to the reincarnation cycle, there is nothing I can’t see through!”\N“Even the flesh you’re in rejects you! Because your soul is not of the Li family!”\N“What you’re interested in isn’t my Stop spell, but… this!” In Wang Lin’s right hand, the Karma Whip flickered in and out of existence.
+Dialogue: 0,0:24:51.04,0:24:56.52,Music,,0,0,0,,{\fad(600,600)}Ask
+Dialogue: 0,0:24:52.64,0:24:54.44,Stamp,,0,0,0,,{\pos(1514,677)}Qi Condensation
+Dialogue: 0,0:24:53.56,0:24:56.60,Music,,0,0,0,,{\fad(600,600)}the perilous path filled with countless blades.
+Dialogue: 0,0:24:56.08,0:24:57.72,Stamp,,0,0,0,,{\pos(1299,685)}Foundation Establishment
+Dialogue: 0,0:24:57.24,0:25:03.40,Music,,0,0,0,,{\fad(600,600)}Can the mundane world be shattered
+Dialogue: 0,0:24:58.60,0:25:01.04,Stamp,,0,0,0,,{\pos(1557,705)\fad(800,000)}Core Formation
+Dialogue: 0,0:25:01.80,0:25:04.48,Stamp,,0,0,0,,{\fad(800,000)\pos(1557,705)}Nascent Soul
+Dialogue: 0,0:25:00.04,0:25:03.40,Music,,0,0,0,,{\fad(600,600)}by a child's steadfast heart ?
+Dialogue: 0,0:25:03.52,0:25:09.64,Music,,0,0,0,,{\fad(600,600)}If the laws of this world
+Dialogue: 0,0:25:05.36,0:25:07.92,Stamp,,0,0,0,,{\pos(368,638)\fad(800,300)}Soul Formation
+Dialogue: 0,0:25:08.24,0:25:11.12,Stamp,,0,0,0,,{\pos(1445,688)\fad(800,000)}Soul Transformation
+Dialogue: 0,0:25:06.32,0:25:09.64,Music,,0,0,0,,{\fad(600,600)}stand in the way,
+Dialogue: 0,0:25:10.60,0:25:16.44,Music,,0,0,0,,{\fad(600,600)}I'll defy the universe to tread the heavens
+Dialogue: 0,0:25:14.44,0:25:17.40,Stamp,,0,0,0,,{\pos(1574,688)\fad(800,000)}Ascendant
+Dialogue: 0,0:25:12.80,0:25:16.44,Music,,0,0,0,,{\fad(600,600)}and ask this question to the sky.
+Dialogue: 0,0:25:16.88,0:25:22.32,Music,,0,0,0,,{\fad(600,600)}My heart's deepest wish
+Dialogue: 0,0:25:19.26,0:25:22.32,Music,,0,0,0,,{\fad(600,600)}is to not kneel before these mountains and rivers.
+Dialogue: 0,0:25:23.48,0:25:29.40,Music,,0,0,0,,{\fad(600,600)}Don't accept your doomed fate,
+Dialogue: 0,0:25:26.04,0:25:29.40,Music,,0,0,0,,{\fad(600,600)}karma can be changed.
+Dialogue: 0,0:25:29.80,0:25:35.16,Music,,0,0,0,,{\fad(600,600)}Unwilling to let go,
+Dialogue: 0,0:25:32.32,0:25:35.16,Music,,0,0,0,,{\fad(600,600)}my obsessions propel me forward.
+Dialogue: 0,0:25:35.16,0:25:42.68,Music,,0,0,0,,{\fad(600,600)}Don't be afraid.
+Dialogue: 0,0:25:37.48,0:25:42.68,Music,,0,0,0,,{\fad(600,600)}Thunder rumbles as I dare to tread through the reincarnation cycle.
+Dialogue: 0,0:25:43.64,0:25:47.08,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:25:45.08,0:25:47.08,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:25:47.20,0:25:50.92,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:25:48.52,0:25:50.92,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:25:51.00,0:25:56.64,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:25:52.60,0:25:56.64,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:25:56.96,0:26:00.48,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:25:58.32,0:26:00.48,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:26:00.48,0:26:04.04,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:26:01.52,0:26:04.04,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:26:04.12,0:26:09.44,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:26:05.88,0:26:09.44,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:26:10.80,0:26:15.68,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:26:12.12,0:26:15.68,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.
+Dialogue: 0,0:26:30.24,0:26:33.92,Music,,0,0,0,,{\fad(600,300)}Accept your fate and stay mortal or defy it to become immortal.
+Dialogue: 0,0:26:31.88,0:26:33.92,Music,,0,0,0,,{\fad(600,300)}Hold fast to this resolve and break through the obstacles.
+Dialogue: 0,0:26:34.00,0:26:37.76,Music,,0,0,0,,{\fad(600,600)}I'll fight all those who dare to stand in my way.
+Dialogue: 0,0:26:35.28,0:26:37.76,Music,,0,0,0,,{\fad(600,600)}Let the winds of war heed my command.
+Dialogue: 0,0:26:37.76,0:26:43.44,Music,,0,0,0,,{\fad(600,600)}I sign this question with my heart.
+Dialogue: 0,0:26:39.44,0:26:43.44,Music,,0,0,0,,{\fad(600,600)}What is the Dao ?
+Dialogue: 0,0:26:43.72,0:26:47.28,Music,,0,0,0,,{\fad(600,600)}Defying the flow of heaven and earth,
+Dialogue: 0,0:26:45.08,0:26:47.28,Music,,0,0,0,,{\fad(600,600)}the heart I cultivate stays true.
+Dialogue: 0,0:26:47.27,0:26:50.88,Music,,0,0,0,,{\fad(600,600)}I contemplate the wisdom of heaven and earth.
+Dialogue: 0,0:26:48.24,0:26:50.88,Music,,0,0,0,,{\fad(600,600)}I shall choose my path between karma and fate.
+Dialogue: 0,0:26:50.88,0:26:56.48,Music,,0,0,0,,{\fad(600,600)}My unshakable Dao Heart
+Dialogue: 0,0:26:52.84,0:26:56.48,Music,,0,0,0,,{\fad(600,600)}aspires to ascend.
+Dialogue: 0,0:26:57.20,0:27:02.56,Music,,0,0,0,,{\fad(600,600)}Defying,
+Dialogue: 0,0:26:58.04,0:27:02.56,Music,,0,0,0,,{\fad(600,600)}this is what my journey to treading the heavens relies on.
