@@ -15,7 +15,10 @@ buildscript {
         classpath("com.android.tools.build:gradle:8.7.3")
         // Cloudstream gradle plugin, pinned to JitPack's permanent "master" branch build
         // (the -SNAPSHOT version expires from JitPack's cache and breaks CI randomly)
-        classpath("com.github.recloudstream:gradle:master")
+        // The published POM carries a dangling self-reference dep — excluded here.
+        classpath("com.github.recloudstream:gradle:master") {
+            exclude(group = "com.github.recloudstream.gradle")
+        }
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.20")
     }
 }
