@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.recloudstream</groupId>
+  <artifactId>gradle</artifactId>
+  <version>master</version>
+  <packaging>jar</packaging>
+  <description>Cloudstream gradle plugin, vendored from recloudstream/gradle @ 32895aedb6 (JitPack's -SNAPSHOT artifacts expire, breaking CI)</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>9.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-tree</artifactId>
+      <version>9.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.vidstige</groupId>
+      <artifactId>jadb</artifactId>
+      <version>v1.2.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

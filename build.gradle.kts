@@ -5,6 +5,10 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 
 buildscript {
     repositories {
+        // Vendored cloudstream gradle plugin (see maven-repo/README) — JitPack's
+        // -SNAPSHOT artifacts expire and randomly break CI, so the jar+POM are
+        // committed to this repository and resolved from disk first.
+        maven { url = uri("maven-repo") }
         google()
         mavenCentral()
         // Shitpack repo which contains our tools and dependencies
@@ -13,12 +17,8 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
-        // Cloudstream gradle plugin, pinned to JitPack's permanent "master" branch build
-        // (the -SNAPSHOT version expires from JitPack's cache and breaks CI randomly)
-        // The published POM carries a dangling self-reference dep — excluded here.
-        classpath("com.github.recloudstream:gradle:master") {
-            exclude(group = "com.github.recloudstream.gradle")
-        }
+        // Cloudstream gradle plugin — vendored build of recloudstream/gradle @ 32895aedb6
+        classpath("com.github.recloudstream:gradle:master")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.20")
     }
 }
