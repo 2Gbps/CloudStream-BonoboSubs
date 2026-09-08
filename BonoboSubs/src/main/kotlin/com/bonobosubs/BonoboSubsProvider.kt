@@ -21,8 +21,6 @@ import com.lagradost.cloudstream3.newMovieSearchResponse
 import com.lagradost.cloudstream3.newSubtitleFile
 import com.lagradost.cloudstream3.newTvSeriesLoadResponse
 import com.lagradost.cloudstream3.toNewSearchResponseList
-import com.lagradost.cloudstream3.utils.AppUtils.toJson
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.Qualities
 import com.lagradost.cloudstream3.utils.newExtractorLink
@@ -91,8 +89,14 @@ class BonoboSubsProvider : MainAPI() {
             Regex("""Renegade Immortal Movie.*\.mkv$""", RegexOption.IGNORE_CASE)
     }
 
-    /** Episode/movie payload; serialized with Jackson and passed through loadLinks. */
-    data class EpisodeData(val ep: Int?, val movie: Boolean, val u4k: String?, val u1080: String?)
+    /*
+     * Episode/movie payload passed through loadLinks.
+     * Format: "<ep>|<4kUrl>|<1080pUrl>" for episodes, "movie|<4kUrl>|<1080pUrl>" for the movie.
+     * Pipe-delimited on purpose: Jackson parsing (tryParseJson) of a nested data class
+     * fails silently inside the AnymeX/ShonenX bridge, which dropped the 1080p link
+     * and every subtitle. Plain strings have no parse failure modes.
+     * URLs never contain '|'.
+     */
 
     private data class DavFile(val href: String, val fileName: String)
 
@@ -237,13 +241,12 @@ class BonoboSubsProvider : MainAPI() {
             .sorted()
             .distinct()
             .map { ep ->
-                val data = EpisodeData(
-                    ep = ep,
-                    movie = false,
-                    u4k = byEp4k[ep]?.let { "$mainUrl${it.href}" },
-                    u1080 = byEp1080[ep]?.let { "$mainUrl${it.href}" }
-                )
-                newEpisode(data.toJson()) {
+                val data = listOf(
+                    ep.toString(),
+                    byEp4k[ep]?.let { "$mainUrl${it.href}" } ?: "",
+                    byEp1080[ep]?.let { "$mainUrl${it.href}" } ?: ""
+                ).joinToString("|")
+                newEpisode(data) {
                     this.name = "Episode $ep"
                     this.episode = ep
                     this.season = 1
@@ -297,13 +300,12 @@ class BonoboSubsProvider : MainAPI() {
                 val movie4k = files4k.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
                     ?: throw ErrorLoadingException("Movie file not found on BonoboSubs")
                 val movie1080 = files1080.firstOrNull { MOVIE_PATTERN.containsMatchIn(it.fileName) }
-                val data = EpisodeData(
-                    ep = null,
-                    movie = true,
-                    u4k = "$mainUrl${movie4k.href}",
-                    u1080 = movie1080?.let { "$mainUrl${it.href}" }
-                )
-                newMovieLoadResponse(MOVIE_TITLE, url, TvType.AnimeMovie, data.toJson()) {
+                val data = listOf(
+                    "movie",
+                    "$mainUrl${movie4k.href}",
+                    movie1080?.let { "$mainUrl${it.href}" } ?: ""
+                ).joinToString("|")
+                newMovieLoadResponse(MOVIE_TITLE, url, TvType.AnimeMovie, data) {
                     this.posterUrl = POSTER_URL
                     this.plot =
                         "Renegade Immortal movie — Battle of the Gods. " +
@@ -323,21 +325,36 @@ class BonoboSubsProvider : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ): Boolean {
-        val parsed = tryParseJson<EpisodeData>(data)
-        if (parsed != null && (parsed.u4k != null || parsed.u1080 != null)) {
-            parsed.u4k?.let {
-                callback(link(it, "$name 4K HEVC", Qualities.P2160.value))
+        val parts = data.split("|")
+        when {
+            // Current format: "<ep>|<4kUrl>|<1080pUrl>" or "movie|<4kUrl>|<1080pUrl>"
+            parts.size >= 3 -> {
+                val key = parts[0]
+                val isMovie = key.equals("movie", true)
+                val ep = key.toIntOrNull()
+                // Subtitles MUST fire before the link callbacks: the bridge attaches
+                // the subtitle list to each link at callback time.
+                if (!isMovie && ep != null) {
+                    subtitleFor(ep)?.let { subtitleCallback(it) }
+                }
+                parts.getOrNull(1)?.takeIf { it.isNotBlank() }?.let {
+                    callback(link(it, "$name 4K HEVC", Qualities.P2160.value))
+                }
+                parts.getOrNull(2)?.takeIf { it.isNotBlank() }?.let {
+                    callback(link(it, "$name 1080p", Qualities.P1080.value))
+                }
             }
-            parsed.u1080?.let {
-                callback(link(it, "$name 1080p", Qualities.P1080.value))
+
+            // Legacy plain-URL data from older plugin versions
+            data.startsWith("http") -> {
+                val videoName = URLDecoder.decode(data.substringAfterLast('/'), "UTF-8")
+                if (!MOVIE_PATTERN.containsMatchIn(videoName)) {
+                    episodeNumber(videoName)?.let { ep ->
+                        subtitleFor(ep)?.let { subtitleCallback(it) }
+                    }
+                }
+                callback(link(data, "$name 4K HEVC", Qualities.P2160.value))
             }
-            val ep = parsed.ep
-            if (!parsed.movie && ep != null) {
-                subtitleFor(ep)?.let { subtitleCallback(it) }
-            }
-        } else if (data.startsWith("http")) {
-            // Legacy single-URL data
-            callback(link(data, "$name 4K HEVC", Qualities.P2160.value))
         }
         return true
     }
