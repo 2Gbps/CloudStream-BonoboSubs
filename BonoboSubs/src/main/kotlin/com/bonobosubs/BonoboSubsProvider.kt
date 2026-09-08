@@ -267,7 +267,6 @@ class BonoboSubsProvider : MainAPI() {
             }
             .filterNotNull()
     }
-    }
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         return newHomePageResponse(
