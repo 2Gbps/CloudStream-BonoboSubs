@@ -44,10 +44,9 @@ class BonoboSubsProvider : MainAPI() {
         private const val PATH_1080 = "/public.php/dav/files/$SHARE_TOKEN/1080p/"
         private const val PATH_SUBS = "/public.php/dav/files/$SHARE_TOKEN/Latest%20subtitle%20files/"
 
-        // Plain-ASCII mirrors of one subtitle per episode, committed to this repo.
+        // Plain-ASCII mirrors of subtitle files committed to this repo.
         private const val SUBS_RAW_BASE =
-            "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/subs/"
-        private const val BUNDLED_SUBS_MIN = 1
+            "https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/subs"
         private const val BUNDLED_SUBS_MAX = 157
 
         // Internal slugs, never fetched as http
@@ -195,24 +194,32 @@ class BonoboSubsProvider : MainAPI() {
         return entries
     }
 
-    private suspend fun subtitleFor(episode: Int): SubtitleFile? {
-        // Bundled: plain-ASCII raw.githubusercontent URL, verified Content-Type text/plain,
-        // no percent-encoding traps — this is what makes subs load in mpv-based players.
-        if (episode in BUNDLED_SUBS_MIN..BUNDLED_SUBS_MAX) {
-            return newSubtitleFile("English", "$SUBS_RAW_BASE/ep%03d.srt".format(episode))
-        }
-        // Future episodes: pick a single best file from the live share.
-        val pick = listFallbackSubs()
-            .filter { it.episode == episode }
-            .minByOrNull { entry ->
-                when {
-                    !entry.href.contains("Uncut", true) && entry.href.contains("Below", true) -> 0
-                    !entry.href.contains("Uncut", true) && entry.href.contains("Above", true) -> 1
-                    entry.href.contains("Below", true) -> 2
-                    else -> 3
+    private suspend fun subtitlesFor(episode: Int): List<SubtitleFile> {
+        if (episode > BUNDLED_SUBS_MAX) {
+            // Future episodes: pick a single best file from the live share.
+            val pick = listFallbackSubs()
+                .filter { it.episode == episode }
+                .minByOrNull { entry ->
+                    when {
+                        !entry.href.contains("Uncut", true) && entry.href.contains("Below", true) -> 0
+                        !entry.href.contains("Uncut", true) && entry.href.contains("Above", true) -> 1
+                        entry.href.contains("Below", true) -> 2
+                        else -> 3
+                    }
                 }
-            } ?: return null
-        return newSubtitleFile(pick.lang, "$mainUrl${pick.href}")
+            return if (pick != null) listOf(
+                newSubtitleFile("English", "$mainUrl${pick.href}")
+            ) else emptyList()
+        }
+        // Bundled: both Below and Above variants from raw.githubusercontent,
+        // plain-ASCII URLs with correct Content-Type — this is what makes subs
+        // load in every mpv/media_kit-based player.
+        val subs = mutableListOf<SubtitleFile>()
+        val below = "$SUBS_RAW_BASE/below/ep%03d.srt".format(episode)
+        val above = "$SUBS_RAW_BASE/above/ep%03d.srt".format(episode)
+        subs.add(newSubtitleFile("English (Below)", below))
+        subs.add(newSubtitleFile("English (Above)", above))
+        return subs
     }
 
     private suspend fun link(url: String, label: String, quality: Int): ExtractorLink {
@@ -350,7 +357,9 @@ class BonoboSubsProvider : MainAPI() {
         // Subtitles MUST fire before the link callbacks: the bridge attaches the
         // subtitle list to each link at callback time.
         if (!isMovie) {
-            ep?.let { e -> subtitleFor(e)?.let { subtitleCallback(it) } }
+            ep?.let { e ->
+                subtitlesFor(e).forEach { subtitleCallback(it) }
+            }
         }
 
         callback(
