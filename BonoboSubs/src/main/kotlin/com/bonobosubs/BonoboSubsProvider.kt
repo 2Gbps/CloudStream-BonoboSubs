@@ -211,15 +211,11 @@ class BonoboSubsProvider : MainAPI() {
                 newSubtitleFile("English", "$mainUrl${pick.href}")
             ) else emptyList()
         }
-        // Bundled: both Below and Above variants from raw.githubusercontent,
-        // plain-ASCII URLs with correct Content-Type — this is what makes subs
-        // load in every mpv/media_kit-based player.
-        val subs = mutableListOf<SubtitleFile>()
-        val below = "$SUBS_RAW_BASE/below/ep%03d.srt".format(episode)
-        val above = "$SUBS_RAW_BASE/above/ep%03d.srt".format(episode)
-        subs.add(newSubtitleFile("English (Below)", below))
-        subs.add(newSubtitleFile("English (Above)", above))
-        return subs
+        // Bundled: single best SRT per episode from raw.githubusercontent.
+        // Below preferred for eps 1-148, Uncut/Below for 149-157.
+        return listOf(
+            newSubtitleFile("English", "$SUBS_RAW_BASE/ep%03d.srt".format(episode))
+        )
     }
 
     private suspend fun link(url: String, label: String, quality: Int): ExtractorLink {
