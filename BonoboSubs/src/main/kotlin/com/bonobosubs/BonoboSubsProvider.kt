@@ -118,6 +118,13 @@ class BonoboSubsProvider : MainAPI() {
         }
     }
 
+    private suspend fun link(url: String, label: String, quality: Int): ExtractorLink {
+        return newExtractorLink(this.name, label, url) {
+            this.quality = quality
+            this.referer = ""
+        }
+    }
+
     private fun seriesEntry(): SearchResponse {
         return newAnimeSearchResponse(SERIES_TITLE, "$mainUrl$SERIES_URL", TvType.Anime) {
             this.posterUrl = POSTER_URL
