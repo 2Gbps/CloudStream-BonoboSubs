@@ -339,11 +339,22 @@ class BonoboSubsProvider : MainAPI() {
         callback: (ExtractorLink) -> Unit
     ): Boolean {
         // ShonenX splits its episode id "$url|$episodeNumber" on '|' and hands
-        // parts[0] here, so data is normally a bare URL. Tolerate stale v6 ids
-        // ("144|<4k>|<1080p>") left in resume/bookmark caches by picking the
-        // first URL out of them.
+        // parts[0] here. Stale v6 pipe-format data ("144|<4k>|<1080p>") may also
+        // arrive, or just the bare episode number "157" from an old cache. Handle all.
         val videoUrl = if (data.startsWith("http")) data
-        else data.split("|").firstOrNull { it.startsWith("http") } ?: return true
+        else {
+            // Try extracting a URL from pipe-separated legacy data
+            val fromPipe = data.split("|").firstOrNull { it.startsWith("http") }
+            if (fromPipe != null) fromPipe
+            else {
+                // Bare episode number from stale cache — reconstruct from listing
+                val ep = data.trim().toIntOrNull() ?: return true
+                val files4k = listMkvFiles(PATH_4K)
+                val match = files4k.firstOrNull { episodeNumber(it.fileName) == ep }
+                    ?: return true
+                "$mainUrl${match.href}"
+            }
+        }
 
         val videoName = URLDecoder.decode(videoUrl.substringAfterLast('/'), "UTF-8")
         val isMovie = MOVIE_PATTERN.containsMatchIn(videoName)
