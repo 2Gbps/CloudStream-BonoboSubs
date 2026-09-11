@@ -47,16 +47,6 @@ jobs:
           ./gradlew make makePluginsJson
           cp **/build/*.cs3 $GITHUB_WORKSPACE/builds
           cp build/plugins.json $GITHUB_WORKSPACE/builds
-          # Rename the .cs3 with a version stamp and rewrite plugins.json to match:
-          # raw.githubusercontent and jsdelivr both key their CDN caches on the full
-          # URL, so a new filename per build guarantees the app downloads bytes that
-          # match the published sha256 (query params are NOT safe — the ShonenX
-          # bridge's convertRawGitUrl can mangle them).
-          cd $GITHUB_WORKSPACE/builds
-          VER=$(python3 -c "import json;print(json.load(open('plugins.json'))[0]['version'])")
-          NAME=$(python3 -c "import json;print(json.load(open('plugins.json'))[0]['internalName'])")
-          mv "$NAME.cs3" "$NAME-$VER.cs3"
-          sed -i "s|$NAME\.cs3|$NAME-$VER.cs3|g" plugins.json
 
       - name: Push builds
         run: |
