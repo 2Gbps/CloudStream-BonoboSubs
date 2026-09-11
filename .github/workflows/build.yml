@@ -47,6 +47,10 @@ jobs:
           ./gradlew make makePluginsJson
           cp **/build/*.cs3 $GITHUB_WORKSPACE/builds
           cp build/plugins.json $GITHUB_WORKSPACE/builds
+          # Stamp the .cs3 URL with the commit sha: raw.githubusercontent's CDN
+          # keys on the full URL, so each build gets a fresh cache entry and the
+          # app can never download stale bytes that fail the sha256 check.
+          sed -i "s|\.cs3|.cs3?v=${GITHUB_SHA:0:7}|g" $GITHUB_WORKSPACE/builds/plugins.json
 
       - name: Push builds
         run: |
