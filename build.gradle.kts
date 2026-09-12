@@ -19,7 +19,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:8.7.3")
         // Cloudstream gradle plugin — vendored build of recloudstream/gradle @ 32895aedb6
         classpath("com.github.recloudstream:gradle:master")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
     }
 }
 
@@ -43,6 +43,11 @@ subprojects {
     cloudstream {
         // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "2Gbps/CloudStream-BonoboSubs")
+        // Use a Kotlin 2.1.0-compiled stub of the AnymeX engine's own vendored runtime.
+        // The pre-release stub (Kotlin 2.4 metadata) fails the engine's Jackson metadata
+        // parser, which falls back to Kotlin reflection — absent in the engine APK —
+        // and breaks every install. This stub produces metadata the engine reads natively.
+        overrideUrlPrefix("https://raw.githubusercontent.com/2Gbps/CloudStream-BonoboSubs/main/stub")
     }
 
     android {
