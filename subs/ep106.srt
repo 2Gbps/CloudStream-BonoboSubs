@@ -687,13 +687,13 @@ I arrived in a hurry
 so couldn't prepare any good gifts.
 
 172
-00:12:19,280 --> 00:12:21,120
-I know you like things with seven colors.
-
-173
 00:12:17,880 --> 00:12:21,000
 Sun Zhongan
 Envoy of the Cultivation Alliance
+
+173
+00:12:19,280 --> 00:12:21,120
+I know you like things with seven colors.
 
 174
 00:12:21,440 --> 00:12:23,440

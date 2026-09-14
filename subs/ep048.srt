@@ -220,18 +220,18 @@ The name of Teng Nine
 has already been passed 6 times.
 
 55
+00:03:42,800 --> 00:03:44,160
+Every time,
+
+56
+00:03:44,160 --> 00:03:46,560
+the younger generation gets stronger.
+
+57
 00:03:45,240 --> 00:03:48,480
 Teng Huayuan
 Teng Family Ancestor
 Peak Late stage Nascent Soul
-
-56
-00:03:42,800 --> 00:03:44,160
-Every time,
-
-57
-00:03:44,160 --> 00:03:46,560
-the younger generation gets stronger.
 
 58
 00:03:47,080 --> 00:03:48,420
@@ -278,14 +278,14 @@ Given enough time ?
 Your Teng Family
 
 69
-00:04:19,040 --> 00:04:20,720
-has 100 years.
-
-70
 00:04:18,000 --> 00:04:21,240
 Lin Yi
 Heaven’s Tower Envoy
 Early stage Soul Formation
+
+70
+00:04:19,040 --> 00:04:20,720
+has 100 years.
 
 71
 00:04:22,200 --> 00:04:23,520
@@ -304,12 +304,12 @@ It's like sitting in a well, looking at the sky.
 A domain is not something understood easily.
 
 75
-00:04:37,680 --> 00:04:39,840
-without my ancestor's help,
-
-76
 00:04:36,400 --> 00:04:37,680
 Even I,
+
+76
+00:04:37,680 --> 00:04:39,840
+without my ancestor's help,
 
 77
 00:04:40,960 --> 00:04:44,160
@@ -680,12 +680,12 @@ Come at me !
 Break !
 
 167
-00:10:49,000 --> 00:10:50,920
-What cultivation is he at ?
-
-168
 00:10:46,830 --> 00:10:48,230
 He beat it in one move ?
+
+168
+00:10:49,000 --> 00:10:50,920
+What cultivation is he at ?
 
 169
 00:10:51,730 --> 00:10:52,960

@@ -345,14 +345,14 @@ So their strength must vary from city to city.
 11 floors ?
 
 87
-00:05:31,240 --> 00:05:31,880
-Who...
-
-88
 00:05:29,800 --> 00:05:33,080
 Sun Shouyi
 72nd Xue Yue City Lord
 Late stage Core Formation
+
+88
+00:05:31,240 --> 00:05:31,880
+Who...
 
 89
 00:05:31,960 --> 00:05:33,080
@@ -376,7 +376,7 @@ Master.
 
 94
 00:06:00,920 --> 00:06:02,680
- Sun Shouyi's third disciple
+Sun Shouyi's third disciple
 Late stage Foundation Establishment
 
 95

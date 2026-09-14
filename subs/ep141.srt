@@ -578,12 +578,12 @@ They're all dead !
 Not a single one came back !
 
 145
-00:07:15,520 --> 00:07:17,110
-How is that possible ?
-
-146
 00:07:15,480 --> 00:07:18,320
 Da Zhou Emperor
+
+146
+00:07:15,520 --> 00:07:17,110
+How is that possible ?
 
 147
 00:07:17,800 --> 00:07:21,430
@@ -1563,6 +1563,132 @@ was able to remain conscious under my Divine Sense ?
 Note after the ending.
 
 388
+00:22:31,000 --> 00:22:38,040
+Go ahead and take a look
+
+389
+00:22:33,960 --> 00:22:38,040
+on the other side of the mountain.
+
+390
+00:22:38,080 --> 00:22:44,760
+See if the wind is blowing
+
+391
+00:22:40,280 --> 00:22:44,760
+across the sea.
+
+392
+00:22:44,760 --> 00:22:51,400
+A lush tree always grows
+
+393
+00:22:47,800 --> 00:22:51,400
+from a tender shoot.
+
+394
+00:22:51,400 --> 00:22:57,920
+That tree shields you
+
+395
+00:22:52,360 --> 00:22:57,920
+from half of the cold.
+
+396
+00:22:58,320 --> 00:23:04,560
+The scent of the herbs and the smoke
+
+397
+00:23:00,280 --> 00:23:04,560
+have drifted away from the stove
+
+398
+00:23:04,680 --> 00:23:12,080
+whose fire has warmed up
+
+399
+00:23:07,840 --> 00:23:12,080
+half of your lifetime.
+
+400
+00:23:12,080 --> 00:23:18,480
+I watch you smile
+
+401
+00:23:14,400 --> 00:23:18,480
+as you run back to me.
+
+402
+00:23:18,800 --> 00:23:25,120
+That cry, however,
+
+403
+00:23:20,880 --> 00:23:25,120
+came out slowly.
+
+404
+00:23:25,720 --> 00:23:33,000
+I'll take you on a journey through the mortal world,
+
+405
+00:23:30,440 --> 00:23:33,000
+as autumn fades and spring returns.
+
+406
+00:23:33,000 --> 00:23:39,840
+A few snowflakes have fallen from the eaves,
+
+407
+00:23:35,440 --> 00:23:39,840
+I hope this letter finds you well.
+
+408
+00:23:39,880 --> 00:23:46,480
+I’ll wait for you under the locust tree,
+
+409
+00:23:43,200 --> 00:23:46,480
+having weathered the storms of our journey so far.
+
+410
+00:23:46,480 --> 00:23:53,200
+Looking back, the smell of the food
+
+411
+00:23:49,360 --> 00:23:53,200
+hasn't changed.
+
+412
+00:23:50,530 --> 00:23:53,520
+Wang
+
+Mansion
+
+413
+00:23:53,320 --> 00:23:56,640
+Take your time.
+
+414
+00:23:56,960 --> 00:24:03,600
+I’ll wait for you under the locust tree,
+
+415
+00:24:00,400 --> 00:24:03,600
+having weathered the storms of our journey so far.
+
+416
+00:24:03,640 --> 00:24:11,000
+Looking back, the smell of the food
+
+417
+00:24:07,240 --> 00:24:11,000
+hasn't changed.
+
+418
+00:24:14,280 --> 00:24:17,600
+Take your time.
+
+419
 00:24:30,560 --> 00:24:34,720
 Wang Ping's story to the throne was heavily expanded upon in the donghua. Some notable changes from the novel include the fact Wang Ping didn't rise from rebuilding a village but he instead created a mortal sect called the School of Heaven. His sect grew in power until it rivaled the other countries and conquered them.
 
@@ -1579,129 +1705,3 @@ Later, when Wang Ping goes back to his father, he doesn't ask about his origins 
 It had been more than 60 years since Wang Ping first asked this. He remembered that he had only asked this once, and he saw how crestfallen his father was that time. This was the second time he asked.
 
 After that, when they lived in that small mountain village, we learn that Qing Yi has reached Soul Formation on her own after Wang Lin raised her to Nascent Soul. Her domain is regretless passion. Qing Yi aged herself artificially like Wang Lin.
-
-389
-00:22:31,000 --> 00:22:38,040
-Go ahead and take a look
-
-390
-00:22:33,960 --> 00:22:38,040
-on the other side of the mountain.
-
-391
-00:22:38,080 --> 00:22:44,760
-See if the wind is blowing
-
-392
-00:22:40,280 --> 00:22:44,760
-across the sea.
-
-393
-00:22:44,760 --> 00:22:51,400
-A lush tree always grows
-
-394
-00:22:47,800 --> 00:22:51,400
-from a tender shoot.
-
-395
-00:22:51,400 --> 00:22:57,920
-That tree shields you
-
-396
-00:22:52,360 --> 00:22:57,920
-from half of the cold.
-
-397
-00:22:58,320 --> 00:23:04,560
-The scent of the herbs and the smoke
-
-398
-00:23:00,280 --> 00:23:04,560
-have drifted away from the stove
-
-399
-00:23:04,680 --> 00:23:12,080
-whose fire has warmed up
-
-400
-00:23:07,840 --> 00:23:12,080
-half of your lifetime.
-
-401
-00:23:12,080 --> 00:23:18,480
-I watch you smile
-
-402
-00:23:14,400 --> 00:23:18,480
-as you run back to me.
-
-403
-00:23:18,800 --> 00:23:25,120
-That cry, however,
-
-404
-00:23:20,880 --> 00:23:25,120
-came out slowly.
-
-405
-00:23:25,720 --> 00:23:33,000
-I'll take you on a journey through the mortal world,
-
-406
-00:23:30,440 --> 00:23:33,000
-as autumn fades and spring returns.
-
-407
-00:23:33,000 --> 00:23:39,840
-A few snowflakes have fallen from the eaves,
-
-408
-00:23:35,440 --> 00:23:39,840
-I hope this letter finds you well.
-
-409
-00:23:39,880 --> 00:23:46,480
-I’ll wait for you under the locust tree,
-
-410
-00:23:43,200 --> 00:23:46,480
-having weathered the storms of our journey so far.
-
-411
-00:23:46,480 --> 00:23:53,200
-Looking back, the smell of the food
-
-412
-00:23:49,360 --> 00:23:53,200
-hasn't changed.
-
-413
-00:23:50,530 --> 00:23:53,520
-Wang
-
-Mansion
-
-414
-00:23:53,320 --> 00:23:56,640
-Take your time.
-
-415
-00:23:56,960 --> 00:24:03,600
-I’ll wait for you under the locust tree,
-
-416
-00:24:00,400 --> 00:24:03,600
-having weathered the storms of our journey so far.
-
-417
-00:24:03,640 --> 00:24:11,000
-Looking back, the smell of the food
-
-418
-00:24:07,240 --> 00:24:11,000
-hasn't changed.
-
-419
-00:24:14,280 --> 00:24:17,600
-Take your time.

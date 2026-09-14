@@ -399,16 +399,16 @@ Country of Xuanwu
 Burning Fire Country
 
 100
-00:07:53,400 --> 00:07:55,920
-Nan Dou City
+00:07:52,280 --> 00:07:53,840
+The continent's information
 
 101
 00:07:53,400 --> 00:07:55,920
-Sea of Devils
+Nan Dou City
 
 102
-00:07:52,280 --> 00:07:53,840
-The continent's information
+00:07:53,400 --> 00:07:55,920
+Sea of Devils
 
 103
 00:07:54,160 --> 00:07:55,680

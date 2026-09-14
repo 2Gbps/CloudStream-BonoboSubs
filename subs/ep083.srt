@@ -189,13 +189,13 @@ Of course.
 Giant Demon Clan ?
 
 48
+00:03:47,320 --> 00:03:50,360
+This old man is indeed from the Giant Demon Clan.
+
+49
 00:03:47,750 --> 00:03:50,650
 Giant Demon Clan Ancestor
 Early stage Soul Transformation
-
-49
-00:03:47,320 --> 00:03:50,360
-This old man is indeed from the Giant Demon Clan.
 
 50
 00:03:50,440 --> 00:03:52,250
@@ -864,13 +864,13 @@ Do you really think I'm afraid to fight you ?!
 How ?!
 
 216
-00:13:10,420 --> 00:13:11,610
-My cultivation...
-
-217
 00:13:10,250 --> 00:13:13,390
 Wang Lin's avatar
 3rd layer of Qi Condensation
+
+217
+00:13:10,420 --> 00:13:11,610
+My cultivation...
 
 218
 00:13:12,620 --> 00:13:13,950
@@ -1037,13 +1037,13 @@ My Lightning Domain
 was gained after I paid a great price
 
 259
-00:15:53,580 --> 00:15:57,480
-to cultivate a century on the Heavenly Thunder Planet !
-
-260
 00:15:53,320 --> 00:15:56,160
 Sun Tai's
 Thunder Domain
+
+260
+00:15:53,580 --> 00:15:57,480
+to cultivate a century on the Heavenly Thunder Planet !
 
 261
 00:15:57,580 --> 00:15:59,960

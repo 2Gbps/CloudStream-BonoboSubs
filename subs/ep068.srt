@@ -286,13 +286,13 @@ then that means you’re hostile towards me !
 I will stand with Brother Ceng and fight back.
 
 72
-00:04:57,230 --> 00:04:58,880
-And if I make it back alive,
-
-73
 00:04:56,680 --> 00:04:59,520
 Chi Hu's
 Origin Soul
+
+73
+00:04:57,230 --> 00:04:58,880
+And if I make it back alive,
 
 74
 00:04:59,400 --> 00:05:02,040
@@ -471,16 +471,16 @@ Don't be afraid.
 Your husband will always protect you.
 
 118
-00:07:06,690 --> 00:07:07,910
-will die.
-
-119
 00:07:04,650 --> 00:07:06,000
 Anyone that opposes us,
 
-120
+119
 00:07:05,340 --> 00:07:08,530
 Celestial Jade Pagoda
+
+120
+00:07:06,690 --> 00:07:07,910
+will die.
 
 121
 00:07:20,840 --> 00:07:23,160
@@ -495,13 +495,13 @@ I admire you.
 This fragment
 
 124
-00:07:26,330 --> 00:07:28,560
-is the coldest of the Celestial Realm.
-
-125
 00:07:25,760 --> 00:07:28,760
 Central Cold Fragment
 Rain Celestial Realm
+
+125
+00:07:26,330 --> 00:07:28,560
+is the coldest of the Celestial Realm.
 
 126
 00:07:28,690 --> 00:07:29,960
@@ -652,12 +652,12 @@ The Giant Demon Clan's treasure,
 the star compass ?
 
 163
-00:09:07,720 --> 00:09:10,600
-Fake Star Compass
-
-164
 00:09:07,440 --> 00:09:09,040
 In Tu Si's memory,
+
+164
+00:09:07,720 --> 00:09:10,600
+Fake Star Compass
 
 165
 00:09:09,330 --> 00:09:11,320

@@ -201,26 +201,26 @@ I'm from the blacksmith across the street.
 Remember to come and play with me.
 
 51
+00:05:12,230 --> 00:05:13,550
+Dad, Mom !
+
+52
+00:05:13,880 --> 00:05:14,920
+Look at this !
+
+53
 00:05:14,010 --> 00:05:16,110
 Ceng Niu
 Ceng Da Niu's father
 
-52
-00:05:12,230 --> 00:05:13,550
-Dad, Mom !
-
-53
-00:05:13,880 --> 00:05:14,920
-Look at this !
-
 54
-00:05:14,920 --> 00:05:16,540
-The uncle across the street gave it to me.
-
-55
 00:05:14,010 --> 00:05:16,110
 Ceng Si
 Ceng Da Niu's mother
+
+55
+00:05:14,920 --> 00:05:16,540
+The uncle across the street gave it to me.
 
 56
 00:05:17,280 --> 00:05:18,380

@@ -197,13 +197,13 @@ It's very different from us.
 A 5-leaf Shaman...
 
 50
-00:03:18,200 --> 00:03:19,480
-Soul Formation !
-
-51
 00:03:17,960 --> 00:03:19,480
 Forsaken Immortal Clan
 5-leaf Shaman
+
+51
+00:03:18,200 --> 00:03:19,480
+Soul Formation !
 
 52
 00:03:21,880 --> 00:03:24,720
@@ -363,14 +363,14 @@ Master...
 Get ready
 
 90
-00:06:10,400 --> 00:06:11,370
-Okay.
-
-91
 00:06:09,940 --> 00:06:11,480
 Tai Zhou
 Ka Mo's disciple
 Forsaken Immortal Clan
+
+91
+00:06:10,400 --> 00:06:11,370
+Okay.
 
 92
 00:06:11,680 --> 00:06:12,920
@@ -874,12 +874,12 @@ Ancient Bell
 I obtained this object inside the belly of a beast.
 
 217
-00:13:19,800 --> 00:13:22,800
-My cultivation is limited so I cannot see through it.
-
-218
 00:13:17,480 --> 00:13:19,440
 It should be an ancient artifact.
+
+218
+00:13:19,800 --> 00:13:22,800
+My cultivation is limited so I cannot see through it.
 
 219
 00:13:22,840 --> 00:13:24,480

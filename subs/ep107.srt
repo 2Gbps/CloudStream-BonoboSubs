@@ -397,12 +397,12 @@ Wang Lin !
 Disciple' cultivation is too shallow
 
 100
-00:05:17,440 --> 00:05:19,080
-and insufficient to compete with my Senior Brothers for the title.
-
-101
 00:05:17,030 --> 00:05:19,080
 Disciple isn't strong enough to compete.
+
+101
+00:05:17,440 --> 00:05:19,080
+and insufficient to compete with my Senior Brothers for the title.
 
 102
 00:05:19,080 --> 00:05:21,080
@@ -805,19 +805,19 @@ This person’s cultivation
 must be Ascendant.
 
 202
-00:09:46,640 --> 00:09:47,800
-Disciple Chen Tao
-
-203
-00:09:48,040 --> 00:09:49,280
-pays respects to Master.
-
-204
 00:09:46,120 --> 00:09:49,280
 Chen Tao
 Heavenly Fate Sect
 Purple Division disciple
 Middle stage Ascendant
+
+203
+00:09:46,640 --> 00:09:47,800
+Disciple Chen Tao
+
+204
+00:09:48,040 --> 00:09:49,280
+pays respects to Master.
 
 205
 00:09:51,920 --> 00:09:53,400

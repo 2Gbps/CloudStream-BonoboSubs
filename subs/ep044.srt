@@ -234,20 +234,20 @@ Wan'er knows that Senior has his own goals.
 The cultivation path is extremely dangerous
 
 59
-00:04:52,440 --> 00:04:54,870
-but I hope that if you encounter danger in the future,
-
-60
-00:04:54,940 --> 00:04:56,800
-this formation can delay it for a moment.
-
-61
 00:04:50,600 --> 00:04:54,120
 I promised in my dreams
 
-62
+60
+00:04:52,440 --> 00:04:54,870
+but I hope that if you encounter danger in the future,
+
+61
 00:04:54,120 --> 00:04:57,920
 that from now on no one will block our path.
+
+62
+00:04:54,940 --> 00:04:56,800
+this formation can delay it for a moment.
 
 63
 00:04:57,960 --> 00:05:04,130
@@ -310,12 +310,12 @@ Do you believe
 Do you have a death wish ?
 
 78
-00:05:38,280 --> 00:05:39,400
-I'll kill you !
-
-79
 00:05:36,720 --> 00:05:41,160
 in the unbreakable reincarnation cycle ?
+
+79
+00:05:38,280 --> 00:05:39,400
+I'll kill you !
 
 80
 00:05:45,900 --> 00:05:47,030
@@ -362,12 +362,12 @@ When I saw your beautiful face
 This is my personal affair with the Cloud Sky Sect.
 
 91
-00:06:29,510 --> 00:06:30,920
-If anyone dares to intervene,
-
-92
 00:06:27,760 --> 00:06:31,080
 on our first meeting,
+
+92
+00:06:29,510 --> 00:06:30,920
+If anyone dares to intervene,
 
 93
 00:06:31,080 --> 00:06:32,920
@@ -378,24 +378,24 @@ I believed
 don't blame me for being ruthless.
 
 95
+00:06:32,920 --> 00:06:38,490
+that fate will never destroy our vows.
+
+96
 00:06:33,920 --> 00:06:34,920
 If you wish to leave now,
 
-96
+97
 00:06:35,160 --> 00:06:36,400
 I won't stop you.
 
-97
+98
 00:06:36,400 --> 00:06:37,400
 Farewell then.
 
-98
+99
 00:06:37,560 --> 00:06:38,560
 Let's go, quick !
-
-99
-00:06:32,920 --> 00:06:38,490
-that fate will never destroy our vows.
 
 100
 00:06:42,600 --> 00:06:44,360
@@ -506,26 +506,26 @@ Greetings Ancestors.
 The Sect has lived for thousands of years,
 
 127
-00:08:19,000 --> 00:08:21,480
-but this is the first time someone dared attack
-
-128
-00:08:21,520 --> 00:08:22,640
-and kill my Elders.
-
-129
-00:08:23,080 --> 00:08:23,880
-Junior,
-
-130
-00:08:24,220 --> 00:08:26,440
-you won't have to wait for death !
-
-131
 00:08:18,520 --> 00:08:20,760
 Chen Bailang
 Ancestor of the Cloud Sky Sect
 Late stage Nascent Soul
+
+128
+00:08:19,000 --> 00:08:21,480
+but this is the first time someone dared attack
+
+129
+00:08:21,520 --> 00:08:22,640
+and kill my Elders.
+
+130
+00:08:23,080 --> 00:08:23,880
+Junior,
+
+131
+00:08:24,220 --> 00:08:26,440
+you won't have to wait for death !
 
 132
 00:08:26,920 --> 00:08:27,480
@@ -874,12 +874,12 @@ Wan'er, we have known each other for many years.
 There are some things
 
 218
-00:15:07,530 --> 00:15:09,040
-that I wish to tell you.
-
-219
 00:15:07,040 --> 00:15:09,640
 of this mortal life.
+
+219
+00:15:07,530 --> 00:15:09,040
+that I wish to tell you.
 
 220
 00:15:09,740 --> 00:15:16,000
@@ -918,12 +918,12 @@ the crystalization of the golden wind and the jade dew.
 I asked the heavens who exactly
 
 229
-00:15:33,940 --> 00:15:35,040
-Noooo !!!
-
-230
 00:15:33,160 --> 00:15:35,240
 sliced open this world
+
+230
+00:15:33,940 --> 00:15:35,040
+Noooo !!!
 
 231
 00:15:35,240 --> 00:15:38,000

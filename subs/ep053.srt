@@ -1005,28 +1005,28 @@ The young lady asked me to thank you.
 Here are 10 taels of gold,
 
 251
-00:14:01,640 --> 00:14:02,760
-consider it your payment.
-
-252
 00:14:00,520 --> 00:14:02,760
 Note: 1 tael = 37.5g
+
+252
+00:14:01,640 --> 00:14:02,760
+consider it your payment.
 
 253
 00:14:03,680 --> 00:14:04,480
 Thank you.
 
 254
-00:14:18,360 --> 00:14:19,840
-Spoiler
-
-255
 00:14:16,800 --> 00:14:17,880
 You old pervert !
 
-256
+255
 00:14:18,040 --> 00:14:20,160
 You came to my shop to see the women changing their clothes ?
+
+256
+00:14:18,360 --> 00:14:19,840
+Spoiler
 
 257
 00:14:20,240 --> 00:14:21,830

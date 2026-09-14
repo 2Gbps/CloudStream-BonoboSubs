@@ -345,24 +345,24 @@ is filled with suffering.
 You became a disciple,
 
 87
-00:10:19,960 --> 00:10:29,200
-One last glance, unable to forget
-
-88
-00:10:23,040 --> 00:10:29,200
-the lingering ties in my heart
-
-89
 00:10:19,520 --> 00:10:20,550
 pursued the Dao,
 
-90
+88
+00:10:19,960 --> 00:10:29,200
+One last glance, unable to forget
+
+89
 00:10:21,320 --> 00:10:22,190
 protected yourself,
 
-91
+90
 00:10:22,600 --> 00:10:23,430
 took revenge
+
+91
+00:10:23,040 --> 00:10:29,200
+the lingering ties in my heart
 
 92
 00:10:23,440 --> 00:10:24,470
@@ -549,12 +549,12 @@ How can I bear to watch our past vows
 trap you in the wind and the snow.
 
 138
-00:11:51,160 --> 00:11:52,110
-Senior,
-
-139
 00:11:50,960 --> 00:11:54,560
 Even if I don't want to,
+
+139
+00:11:51,160 --> 00:11:52,110
+Senior,
 
 140
 00:11:52,200 --> 00:11:54,560
@@ -569,12 +569,12 @@ having loved you in this life
 This body may shake the heavens
 
 143
-00:11:56,800 --> 00:11:59,360
-is enough for Wan’er.
-
-144
 00:11:56,640 --> 00:11:58,920
 but this love cannot be fulfilled.
+
+144
+00:11:56,800 --> 00:11:59,360
+is enough for Wan’er.
 
 145
 00:11:59,040 --> 00:12:04,320
@@ -653,12 +653,12 @@ Even if I'm reluctant,
 I have no regrets.
 
 164
-00:12:33,320 --> 00:12:34,470
-Wan’er !!!
-
-165
 00:12:32,920 --> 00:12:37,240
 This body may shake the heavens
+
+165
+00:12:33,320 --> 00:12:34,470
+Wan’er !!!
 
 166
 00:12:34,960 --> 00:12:37,240
@@ -693,12 +693,12 @@ Life and Death Domain,
 This is what I want,
 
 174
-00:12:50,080 --> 00:12:50,910
-activate !
-
-175
 00:12:49,800 --> 00:12:54,320
 this is my dying wish.
+
+175
+00:12:50,080 --> 00:12:50,910
+activate !
 
 176
 00:12:56,960 --> 00:12:58,590
@@ -733,12 +733,12 @@ scatter like the stars.
 Senior,
 
 184
-00:13:58,760 --> 00:13:59,950
-promise me
-
-185
 00:13:58,440 --> 00:14:03,960
 How can I bear to watch our past vows
+
+185
+00:13:58,760 --> 00:13:59,950
+promise me
 
 186
 00:14:00,960 --> 00:14:03,960
@@ -753,12 +753,12 @@ you’ll take care of yourself.
 Even if I don't want to,
 
 189
-00:14:06,000 --> 00:14:07,070
-Don't go !!!
-
-190
 00:14:05,160 --> 00:14:08,040
 I am resolved to scatter my soul.
+
+190
+00:14:06,000 --> 00:14:07,070
+Don't go !!!
 
 191
 00:14:08,040 --> 00:14:12,000
@@ -805,12 +805,12 @@ seeing you once more today
 Just this one glance
 
 202
-00:14:25,400 --> 00:14:27,070
-was like a stolen blessing.
-
-203
 00:14:24,640 --> 00:14:28,440
 is enough to know my heart's longing.
+
+203
+00:14:25,400 --> 00:14:27,070
+was like a stolen blessing.
 
 204
 00:14:27,880 --> 00:14:29,550
@@ -929,286 +929,373 @@ It's the will of the heavens !
 All of it is the freaking will of the heavens !
 
 233
+00:16:31,760 --> 00:16:38,280
+Falling from the night sky and melting into dust
+like water without a source.
+
+234
 00:16:32,200 --> 00:16:36,030
 When I turned mortal, I comprehended Life and Death
 
-234
+235
 00:16:36,120 --> 00:16:38,750
 when I saw the rain fall from the sky.
 
-235
+236
+00:16:38,480 --> 00:16:44,400
+Like the difference between clouds and mud,
+the truth cannot be found in conflict.
+
+237
 00:16:38,840 --> 00:16:40,390
 A raindrop is born in the sky
 
-236
+238
 00:16:41,480 --> 00:16:42,910
 and dies on the earth !
 
-237
+239
 00:16:43,960 --> 00:16:45,590
 I saw life as Life
 
-238
+240
+00:16:44,710 --> 00:16:48,640
+Life and death
+are like the moment when the rain falls
+
+241
 00:16:46,400 --> 00:16:48,110
 and death as Death.
 
-239
+242
+00:16:48,640 --> 00:16:52,600
+and like many other unseparable things.
+
+243
 00:16:49,080 --> 00:16:52,270
 Zhou Yi's obsession brought the celestial corpse to life.
 
-240
+244
+00:16:52,830 --> 00:16:58,560
+In this lifetime,
+to cultivate the truth, cultivate the world first.
+
+245
 00:16:53,440 --> 00:16:55,150
 If he lives she dies,
 
-241
+246
 00:16:55,520 --> 00:16:57,390
 and if he dies she lives.
 
-242
+247
 00:16:57,960 --> 00:16:59,950
 I realized life isn't always Life
 
-243
+248
+00:16:59,480 --> 00:17:05,490
+Old grudges had to be settled
+because half an inch is engraved into my tree rings.
+
+249
 00:17:00,640 --> 00:17:02,430
 and death isn't always Death !
 
-244
+250
 00:17:03,880 --> 00:17:05,950
 But now thanks to the will of the heavens,
 
-245
+251
+00:17:05,800 --> 00:17:11,340
+Use the most vivid love and hate
+to ask questions to your fate.
+
+252
 00:17:06,680 --> 00:17:08,920
 I can see Wan'er's Death in life
 
-246
+253
 00:17:08,960 --> 00:17:10,710
 and Life in death.
 
-247
+254
+00:17:11,800 --> 00:17:16,920
+Let your eyes be filled enough with rage
+to pierce the heart and the soul
+
+255
 00:17:14,760 --> 00:17:16,270
 I finally understand.
 
-248
+256
+00:17:16,920 --> 00:17:20,440
+then soften because of the mortals' fireworks.
+
+257
 00:17:19,800 --> 00:17:21,870
 Life has always been Life.
 
-249
+258
+00:17:20,440 --> 00:17:26,640
+Only when you bend down can you understand
+the hidden edge of the blade.
+
+259
 00:17:23,160 --> 00:17:23,990
 And death
 
-250
+260
 00:17:25,720 --> 00:17:27,470
 has always been Death.
 
-251
+261
+00:17:26,640 --> 00:17:30,560
+The human mind is nature,
+the rain fell silently like an answer.
+
+262
 00:17:28,160 --> 00:17:30,640
 The things that are lost to this world
 
-252
+263
+00:17:30,560 --> 00:17:34,480
+Life and death are just moments away,
+there are many other solutions to grudges.
+
+264
 00:17:30,720 --> 00:17:32,710
 stay lost
 
-253
+265
 00:17:33,160 --> 00:17:35,720
 to allow what remains to exist.
 
-254
+266
+00:17:34,680 --> 00:17:40,320
+Use your dusty heart
+to depict the world.
+
+267
 00:17:36,120 --> 00:17:37,790
 This rain is born in the sky
 
-255
+268
 00:17:38,480 --> 00:17:40,110
 but doesn't die on the earth.
 
-256
+269
+00:17:40,350 --> 00:17:44,240
+One stroke is for killing.
+After struggling for hundreds of years, I endured letting go.
+
+270
 00:17:41,440 --> 00:17:43,640
 When it hits the ground,
 
-257
+271
 00:17:43,680 --> 00:17:45,960
 it gains a new life.
 
-258
+272
+00:17:44,240 --> 00:17:48,040
+One stroke is for caring.
+Everywhere there is life, there are thousands of lights.
+
+273
 00:17:47,840 --> 00:17:49,590
 All of these things
 
-259
+274
+00:17:48,040 --> 00:17:54,120
+Give up your mind to be refined
+by this endless world.
+
+275
 00:17:52,520 --> 00:17:53,710
 are Death
 
-260
+276
+00:17:55,440 --> 00:18:01,140
+I observe the vastness of heaven and earth so I can get rid of evil.
+
+277
 00:17:55,520 --> 00:17:57,190
 and also Life.
 
-261
+278
 00:17:57,920 --> 00:17:58,870
 Wan'er,
 
-262
+279
 00:18:01,000 --> 00:18:02,070
 thank you.
 
-263
+280
+00:18:01,310 --> 00:18:07,960
+Obsession arises from one thought, life and death arise from one thought.
+Reincarnation is not to be feared.
+
+281
 00:18:10,680 --> 00:18:11,350
 Father,
 
-264
+282
 00:18:12,280 --> 00:18:13,110
 Mother,
 
-265
+283
 00:18:14,400 --> 00:18:17,270
 Tie Zhu failed to be filial when you were alive
 
-266
+284
 00:18:18,280 --> 00:18:20,910
 and then stubbornly sought to revive you
 
-267
+285
 00:18:22,760 --> 00:18:24,990
 while never considering what you wanted.
 
-268
+286
 00:18:26,840 --> 00:18:29,230
 Now, your son understands Life and Death
 
-269
+287
 00:18:30,040 --> 00:18:32,080
 and is free from this obsession.
 
-270
+288
 00:18:32,840 --> 00:18:35,280
 Whether you stay or leave,
 
-271
+289
 00:18:36,760 --> 00:18:38,830
 the choice is yours.
 
-272
+290
 00:18:43,760 --> 00:18:44,310
 Here,
 
-273
+291
 00:18:44,600 --> 00:18:45,350
 like this.
 
-274
+292
 00:18:46,800 --> 00:18:47,830
 Eat more !
 
-275
+293
 00:18:48,360 --> 00:18:49,510
 Whee !
 
-276
+294
 00:18:53,160 --> 00:18:54,720
 Let's call him Tie Zhu.
 
-277
+295
 00:20:02,280 --> 00:20:04,680
 Only by losing one's beloved
 
-278
+296
 00:20:04,800 --> 00:20:07,480
 can one comprehend Life and Death.
 
-279
+297
 00:20:08,720 --> 00:20:10,960
 Only through eternal farewells
 
-280
+298
 00:20:11,200 --> 00:20:14,510
 can the Life and Death Domain be completed.
 
-281
+299
 00:20:19,880 --> 00:20:22,550
 How utterly tragic...
 
-282
+300
 00:20:27,440 --> 00:20:29,760
 I've returned Zhou Ru to Chu
 
-283
+301
 00:20:29,760 --> 00:20:31,630
 and erased her memories of you.
 
-284
+302
 00:20:32,600 --> 00:20:34,670
 That way, she may live a full life.
 
-285
+303
 00:20:35,800 --> 00:20:36,830
 Wan'er,
 
-286
+304
 00:20:37,520 --> 00:20:39,520
 you waited 300 years for me.
 
-287
+305
 00:20:40,360 --> 00:20:42,110
 I, Wang Lin, can never repay you.
 
-288
+306
 00:20:42,480 --> 00:20:44,230
 But I will do my utmost.
 
-289
+307
 00:20:45,360 --> 00:20:46,430
 One year,
 
-290
+308
 00:20:46,880 --> 00:20:48,030
 ten years,
 
-291
+309
 00:20:48,520 --> 00:20:49,070
 a hundred years,
 
-292
+310
 00:20:49,080 --> 00:20:49,950
 a thousand years !
 
-293
+311
 00:20:51,080 --> 00:20:53,040
 Until the end of my life
 
-294
+312
 00:20:53,080 --> 00:20:54,390
 when my soul scatters.
 
-295
+313
 00:20:55,840 --> 00:20:58,590
 I will try the miracle of awakening you.
 
-296
+314
 00:21:07,720 --> 00:21:08,950
 Wan'er...
 
-297
+315
 00:21:13,680 --> 00:21:15,280
 Wait for me.
 
-298
+316
 00:21:29,200 --> 00:21:31,710
 Only by becoming stronger than I am today
 
-299
+317
 00:21:32,840 --> 00:21:36,080
 will I be able to protect the people that are important to me.
 
-300
+318
 00:21:36,920 --> 00:21:39,030
 Now that I am half a step into Soul Transformation,
 
-301
+319
 00:21:39,760 --> 00:21:41,790
 I must return to planet Suzaku
 
-302
+320
 00:21:42,800 --> 00:21:44,750
 and breakthrough to Soul Transformation !
 
-303
+321
 00:21:51,230 --> 00:24:27,470
 The adaptation doesn't really emphasize Wang Lin's confusion about the messenger of the law of the heavens. The heavens should be etheral and shouldn't need to have a messenger. Also this messenger is supposedly a 7-star Ancient God but doesn't display the strength of one which confuses Wang Lin even more.
 Wang Lin's "victory" can be attributed to the fact that he understood that he was facing a fake law of the heavens which can be defied by the Heaven Defying Bead.
@@ -1220,241 +1307,154 @@ In a way, without ever wanting to, Wang Lin used Li Muwan as his cultivation fur
 
 I invite you to reread the note of episode 72 if you don't remember it. See a mountain as a mountain and water as water...
 
-304
+322
 00:22:08,410 --> 00:22:11,710
 To let go of the consequences of my actions
 
-305
+323
 00:22:11,710 --> 00:22:13,430
 is to ignore the law of cause and effect
 
-306
+324
 00:22:13,470 --> 00:22:15,370
 like scattered ink.
 
-307
+325
 00:22:16,250 --> 00:22:22,850
 As destiny falls
 
-308
+326
 00:22:19,090 --> 00:22:22,850
 in exchange for this moment of tainted dreams.
 
-309
+327
 00:22:22,850 --> 00:22:30,450
 It makes the mountains lose their colors,
 
-310
+328
 00:22:26,090 --> 00:22:30,450
 wither and melt into rivers.
 
-311
+329
 00:22:30,890 --> 00:22:38,010
 Who can deceive
 
-312
+330
 00:22:33,650 --> 00:22:38,010
 the law of the heavens ?
 
-313
+331
 00:22:38,330 --> 00:22:41,330
 Countless generations
 
-314
+332
 00:22:39,610 --> 00:22:41,330
 have tried before me.
 
-315
+333
 00:22:41,620 --> 00:22:45,050
 But how could I not catch my dreams
 
-316
+334
 00:22:43,450 --> 00:22:45,050
 within my warm fingers ?
 
-317
+335
 00:22:45,610 --> 00:22:49,130
 You're at my side when I'm alone
 
-318
+336
 00:22:49,130 --> 00:22:52,450
 giving me the strength to fight the will of the heavens.
 
-319
+337
 00:22:53,210 --> 00:22:56,410
 Fortunately, my mind was open and honest.
 
-320
+338
 00:22:56,770 --> 00:23:00,610
 I'm sorry we never got to see the fireworks
 
-321
+339
 00:22:58,610 --> 00:23:00,610
 in the streets.
 
-322
+340
 00:23:00,770 --> 00:23:05,570
 Can I break the vortex of our destiny ?
 
-323
+341
 00:23:02,330 --> 00:23:05,570
 Can I break the rules ?
 
-324
+342
 00:23:05,580 --> 00:23:08,290
 To run towards you !
 
-325
+343
 00:23:08,330 --> 00:23:11,610
 I will fight the will of the heavens and the law of cause and effect
 
-326
+344
 00:23:11,610 --> 00:23:16,250
 to cut down this tribulation with my own hands
 
-327
+345
 00:23:16,250 --> 00:23:19,650
 and break through the reincarnation cycle.
 
-328
+346
 00:23:19,690 --> 00:23:24,330
 All of that for the stars in your eyes.
 
-329
+347
 00:23:24,780 --> 00:23:30,010
 I wish to bend this dream for the fire in my heart.
 
-330
+348
 00:23:30,130 --> 00:23:33,930
 If your soul is willing to wander,
 
-331
+349
 00:23:33,930 --> 00:23:38,570
 can I still take your hands
 
-332
+350
 00:23:35,610 --> 00:23:38,570
 and hold them tight ?
 
-333
+351
 00:23:38,730 --> 00:23:41,650
 I will defy the heavens and prevent the stars from falling.
 
-334
+352
 00:23:41,650 --> 00:23:46,530
 I will overthrow the Immortals and the Demons in my heart.
 
-335
+353
 00:23:46,540 --> 00:23:49,810
 I dream of destroying
 
-336
+354
 00:23:49,970 --> 00:23:54,530
 the shackles of our fate.
 
-337
+355
 00:23:54,530 --> 00:23:58,490
 You're the only one that can ignore the law of cause and effect.
 
-338
+356
 00:23:58,490 --> 00:24:01,290
 You're the hardest to let go of.
 
-339
+357
 00:24:01,370 --> 00:24:05,170
 I want to be with you again
 
-340
+358
 00:24:05,250 --> 00:24:08,530
 so I can look in your eyes.
 
-341
+359
 00:24:08,810 --> 00:24:13,770
 Even for a moment, it's worth it.
-
-342
-00:16:31,760 --> 00:16:38,280
-Falling from the night sky and melting into dust
-like water without a source.
-
-343
-00:16:38,480 --> 00:16:44,400
-Like the difference between clouds and mud,
-the truth cannot be found in conflict.
-
-344
-00:16:44,710 --> 00:16:48,640
-Life and death
-are like the moment when the rain falls
-
-345
-00:16:48,640 --> 00:16:52,600
-and like many other unseparable things.
-
-346
-00:16:52,830 --> 00:16:58,560
-In this lifetime,
-to cultivate the truth, cultivate the world first.
-
-347
-00:16:59,480 --> 00:17:05,490
-Old grudges had to be settled
-because half an inch is engraved into my tree rings.
-
-348
-00:17:05,800 --> 00:17:11,340
-Use the most vivid love and hate
-to ask questions to your fate.
-
-349
-00:17:11,800 --> 00:17:16,920
-Let your eyes be filled enough with rage
-to pierce the heart and the soul
-
-350
-00:17:16,920 --> 00:17:20,440
-then soften because of the mortals' fireworks.
-
-351
-00:17:20,440 --> 00:17:26,640
-Only when you bend down can you understand
-the hidden edge of the blade.
-
-352
-00:17:26,640 --> 00:17:30,560
-The human mind is nature,
-the rain fell silently like an answer.
-
-353
-00:17:30,560 --> 00:17:34,480
-Life and death are just moments away,
-there are many other solutions to grudges.
-
-354
-00:17:34,680 --> 00:17:40,320
-Use your dusty heart
-to depict the world.
-
-355
-00:17:40,350 --> 00:17:44,240
-One stroke is for killing.
-After struggling for hundreds of years, I endured letting go.
-
-356
-00:17:44,240 --> 00:17:48,040
-One stroke is for caring.
-Everywhere there is life, there are thousands of lights.
-
-357
-00:17:48,040 --> 00:17:54,120
-Give up your mind to be refined
-by this endless world.
-
-358
-00:17:55,440 --> 00:18:01,140
-I observe the vastness of heaven and earth so I can get rid of evil.
-
-359
-00:18:01,310 --> 00:18:07,960
-Obsession arises from one thought, life and death arise from one thought.
-Reincarnation is not to be feared.

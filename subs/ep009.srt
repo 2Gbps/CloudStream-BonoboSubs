@@ -753,15 +753,14 @@ My Nascent Soul can't endure this !
 Lin Yi, envoy of a rank 5 cultivation country
 
 183
-00:10:44,720 --> 00:10:47,510
-welcomes the Envoy of the Cultivation Alliance.
-
-184
 00:10:43,720 --> 00:10:47,000
-
 Envoy of the Cultivation Alliance
 Giant Demon Clan member
 Late stage Soul Formation
+
+184
+00:10:44,720 --> 00:10:47,510
+welcomes the Envoy of the Cultivation Alliance.
 
 185
 00:10:51,880 --> 00:10:55,390

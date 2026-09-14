@@ -248,22 +248,22 @@ won't forgive you for this !
 Lord Envoy ?
 
 62
-00:04:12,000 --> 00:04:14,440
-Giant Demon Clan Envoy
-Soul Formation
-
-63
 00:04:10,160 --> 00:04:11,720
 Heaven's Tower
 Country of Chu
 
-64
+63
 00:04:10,440 --> 00:04:11,320
 It's him !
 
-65
+64
 00:04:11,800 --> 00:04:13,400
 According to the Elders of the clan,
+
+65
+00:04:12,000 --> 00:04:14,440
+Giant Demon Clan Envoy
+Soul Formation
 
 66
 00:04:13,800 --> 00:04:15,760
@@ -562,14 +562,14 @@ I haven't seen Wan'er in a while,
 I should buy something for her...
 
 140
+00:08:46,000 --> 00:08:47,600
+Treasure Refining Pavilion
+
+141
 00:08:46,360 --> 00:08:49,360
 Treasure Refining Pavilion
 Sea of Devils
 Devil Rebel City
-
-141
-00:08:46,000 --> 00:08:47,600
-Treasure Refining Pavilion
 
 142
 00:08:50,880 --> 00:08:51,880

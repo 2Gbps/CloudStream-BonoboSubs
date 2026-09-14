@@ -157,14 +157,14 @@ please leave this platform
 and find another one.
 
 40
-00:03:15,270 --> 00:03:17,890
-He's... from the Giant Demon Clan ?
-
-41
 00:03:13,160 --> 00:03:15,800
 Chi Hu
 Giant Demon Clan's young master
 Middle stage Soul Formation
+
+41
+00:03:15,270 --> 00:03:17,890
+He's... from the Giant Demon Clan ?
 
 42
 00:03:29,640 --> 00:03:30,940
@@ -770,12 +770,12 @@ Save me
 Save me
 
 191
-00:12:09,640 --> 00:12:14,840
-Save me
-
-192
 00:12:08,120 --> 00:12:10,260
 This mountain has existed for a long time.
+
+192
+00:12:09,640 --> 00:12:14,840
+Save me
 
 193
 00:12:10,350 --> 00:12:12,550

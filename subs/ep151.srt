@@ -790,13 +790,13 @@ Brother Li !
 Ninth Restriction,
 
 198
-00:15:27,240 --> 00:15:28,150
-Plum Dew Frost !
-
-199
 00:15:27,040 --> 00:15:29,080
 Ninth restriction
 18 Plum Blossoms Restriction
+
+199
+00:15:27,240 --> 00:15:28,150
+Plum Dew Frost !
 
 200
 00:15:32,560 --> 00:15:33,070
@@ -1327,12 +1327,12 @@ Can the mundane world be shattered
 Core Formation
 
 329
-00:22:08,080 --> 00:22:10,760
-Nascent Soul
-
-330
 00:22:06,320 --> 00:22:09,680
 by a child's steadfast heart ?
+
+330
+00:22:08,080 --> 00:22:10,760
+Nascent Soul
 
 331
 00:22:09,800 --> 00:22:15,920
@@ -1343,24 +1343,24 @@ If the laws of this world
 Soul Formation
 
 333
-00:22:14,520 --> 00:22:17,400
-Soul Transformation
-
-334
 00:22:12,600 --> 00:22:15,920
 stand in the way,
+
+334
+00:22:14,520 --> 00:22:17,400
+Soul Transformation
 
 335
 00:22:16,880 --> 00:22:22,720
 I'll defy the universe to tread the heavens
 
 336
-00:22:20,720 --> 00:22:23,680
-Ascendant
-
-337
 00:22:19,080 --> 00:22:22,720
 and ask this question to the sky.
+
+337
+00:22:20,720 --> 00:22:23,680
+Ascendant
 
 338
 00:22:23,160 --> 00:22:28,600

@@ -117,14 +117,14 @@ We’ll throw him an even grander welcome feast.
 That kid is Wang Hao, right ?
 
 30
-00:02:09,920 --> 00:02:10,990
-Long time no see !
-
-31
 00:02:09,280 --> 00:02:11,360
 Wang Hao
 Xuan Dao Sect disciple
 4th layer of Qi Condensation
+
+31
+00:02:09,920 --> 00:02:10,990
+Long time no see !
 
 32
 00:02:14,160 --> 00:02:14,830
@@ -151,14 +151,14 @@ If you want to talk about big changes,
 Tie Zhu’s cultivation has long surpassed both of ours.
 
 38
-00:02:25,120 --> 00:02:26,470
-He isn't very talented
-
-39
 00:02:25,040 --> 00:02:28,280
 Wang Zhuo
 Xuan Dao Sect disciple
 11th layer of Qi Condensation
+
+39
+00:02:25,120 --> 00:02:26,470
+He isn't very talented
 
 40
 00:02:26,680 --> 00:02:28,870

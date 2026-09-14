@@ -610,13 +610,13 @@ it means I did choose the right gifts.
 Follow me !
 
 153
+00:11:47,240 --> 00:11:48,870
+Little friend Ceng Niu,
+
+154
 00:11:48,200 --> 00:11:51,360
 Inside the Blood Ring
 Soul Refining Sect
-
-154
-00:11:47,240 --> 00:11:48,870
-Little friend Ceng Niu,
 
 155
 00:11:49,200 --> 00:11:51,190
@@ -791,28 +791,28 @@ Soul Refining Country
 we've even lost our country.
 
 198
-00:14:15,520 --> 00:14:18,070
-and are forced to operate as a sect.
-
-199
-00:14:16,600 --> 00:14:18,840
-Soul Refining Sect
-
-200
 00:14:12,640 --> 00:14:14,880
 Country of Pilu
 
-201
+199
+00:14:12,640 --> 00:14:14,880
+Country of Suzaku
+
+200
 00:14:14,440 --> 00:14:18,840
 Country of Pilu
 
-202
-00:14:12,640 --> 00:14:14,880
-Country of Suzaku
-
-203
+201
 00:14:14,440 --> 00:14:17,120
 Country of Suzaku
+
+202
+00:14:15,520 --> 00:14:18,070
+and are forced to operate as a sect.
+
+203
+00:14:16,600 --> 00:14:18,840
+Soul Refining Sect
 
 204
 00:14:16,600 --> 00:14:18,840

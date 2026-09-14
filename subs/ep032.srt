@@ -844,14 +844,14 @@ I have a very low chance
 of passing it smoothly.
 
 211
-00:16:45,320 --> 00:16:46,160
-This place is...
-
-212
 00:16:45,120 --> 00:16:48,360
 Nirvana Space
 Land of the Ancient God
 Third trial
+
+212
+00:16:45,320 --> 00:16:46,160
+This place is...
 
 213
 00:16:49,160 --> 00:16:50,400

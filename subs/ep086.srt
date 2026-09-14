@@ -925,32 +925,32 @@ to Inner sect with me.
 These 3 mountains belong to the
 
 230
-00:12:42,280 --> 00:12:43,840
-Soul Refining Mountain
-
-231
 00:12:42,200 --> 00:12:43,830
 Soul Refining,
 
-232
-00:12:44,200 --> 00:12:45,600
-Soul Extracting Mountain
+231
+00:12:42,280 --> 00:12:43,840
+Soul Refining Mountain
 
-233
+232
 00:12:44,120 --> 00:12:45,280
 Soul Extracting
+
+233
+00:12:44,200 --> 00:12:45,600
+Soul Extracting Mountain
 
 234
 00:12:45,360 --> 00:12:47,840
 and Soul Sealing factions of the Inner sect.
 
 235
-00:12:48,080 --> 00:12:49,680
-The Inner Spirit Vein
-
-236
 00:12:45,960 --> 00:12:47,960
 Soul Sealing Mountain
+
+236
+00:12:48,080 --> 00:12:49,680
+The Inner Spirit Vein
 
 237
 00:12:50,440 --> 00:12:52,030
@@ -1391,12 +1391,12 @@ I surrender...
 Jade slip, Soul Flag,
 
 346
-00:17:44,400 --> 00:17:45,230
-they're yours.
-
-347
 00:17:43,760 --> 00:17:45,280
 Soul Refining jade slip
+
+347
+00:17:44,400 --> 00:17:45,230
+they're yours.
 
 348
 00:17:46,240 --> 00:17:47,870
@@ -1427,18 +1427,18 @@ it seems
 this jade is still incomplete.
 
 355
+00:18:04,480 --> 00:18:05,190
+Senior Brother,
+
+356
+00:18:05,440 --> 00:18:07,630
+did you notice that this Soul Flag method
+
+357
 00:18:05,640 --> 00:18:07,440
 Xu Jun
 Soul Refining Sect Inner Disciple
 Middle stage Core Formation
-
-356
-00:18:04,480 --> 00:18:05,190
-Senior Brother,
-
-357
-00:18:05,440 --> 00:18:07,630
-did you notice that this Soul Flag method
 
 358
 00:18:07,960 --> 00:18:08,790

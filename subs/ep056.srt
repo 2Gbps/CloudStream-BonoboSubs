@@ -265,14 +265,14 @@ in order to breakthrough to Soul Formation.
 You, come out.
 
 67
-00:05:26,960 --> 00:05:27,920
-It's your turn.
-
-68
 00:05:26,920 --> 00:05:30,160
 Shi Qi
 White Cloud Sect Elder
 Soul Formation
+
+68
+00:05:26,960 --> 00:05:27,920
+It's your turn.
 
 69
 00:05:28,620 --> 00:05:30,280
@@ -793,12 +793,12 @@ Grandpa Wang !
 Ceng Xiao Niu
 
 198
-00:13:24,200 --> 00:13:25,710
-Can I have a candy ?
-
-199
 00:13:22,710 --> 00:13:24,200
 I stole this wine for you.
+
+199
+00:13:24,200 --> 00:13:25,710
+Can I have a candy ?
 
 200
 00:13:32,040 --> 00:13:32,920

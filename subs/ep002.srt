@@ -352,18 +352,18 @@ They're outer disciples,
 they aren't counted as inner sect disciples.
 
 88
-00:06:13,680 --> 00:06:14,950
-Brother Zhang !
-
-89
-00:06:14,960 --> 00:06:16,920
-What brings you here today ?
-
-90
 00:06:13,480 --> 00:06:15,080
 Liu Shulang
 Heng Yue Sect disciple
 1st layer of Qi Condensation
+
+89
+00:06:13,680 --> 00:06:14,950
+Brother Zhang !
+
+90
+00:06:14,960 --> 00:06:16,920
+What brings you here today ?
 
 91
 00:06:19,480 --> 00:06:21,030
@@ -780,32 +780,32 @@ The realms of the first step of cultivation are:
 Qi Condensation,
 
 194
+00:13:35,400 --> 00:13:45,720
+Note: Refer to the cultivation level cheat sheet if needed.
+
+195
 00:13:37,240 --> 00:13:38,280
 Foundation Establishment,
 
-195
+196
 00:13:38,440 --> 00:13:39,720
 Core Formation,
 
-196
+197
 00:13:39,960 --> 00:13:41,080
 Nascent Soul,
 
-197
+198
 00:13:41,360 --> 00:13:42,360
 Soul Formation,
 
-198
+199
 00:13:42,520 --> 00:13:43,560
 Soul Transformation,
 
-199
+200
 00:13:43,720 --> 00:13:45,710
 and Ascendant.
-
-200
-00:13:35,400 --> 00:13:45,720
-Note: Refer to the cultivation level cheat sheet if needed.
 
 201
 00:13:46,840 --> 00:13:48,640

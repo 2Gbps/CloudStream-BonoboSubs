@@ -1093,14 +1093,14 @@ Lu Family member
 Illusory Yin
 
 270
+00:18:01,360 --> 00:18:03,390
+I will surely reach the third floor of this pavilion.
+
+271
 00:18:01,600 --> 00:18:03,880
 Chan Pingnian
 Chen Family member
 Illusory Yin
-
-271
-00:18:01,360 --> 00:18:03,390
-I will surely reach the third floor of this pavilion.
 
 272
 00:18:04,040 --> 00:18:05,710
@@ -1297,12 +1297,12 @@ Can the mundane world be shattered
 Core Formation
 
 317
-00:21:33,040 --> 00:21:35,720
-Nascent Soul
-
-318
 00:21:31,280 --> 00:21:34,640
 by a child's steadfast heart ?
+
+318
+00:21:33,040 --> 00:21:35,720
+Nascent Soul
 
 319
 00:21:34,760 --> 00:21:40,880
@@ -1313,24 +1313,24 @@ If the laws of this world
 Soul Formation
 
 321
-00:21:39,480 --> 00:21:42,360
-Soul Transformation
-
-322
 00:21:37,560 --> 00:21:40,880
 stand in the way,
+
+322
+00:21:39,480 --> 00:21:42,360
+Soul Transformation
 
 323
 00:21:41,840 --> 00:21:47,680
 I'll defy the universe to tread the heavens
 
 324
-00:21:45,680 --> 00:21:48,640
-Ascendant
-
-325
 00:21:44,040 --> 00:21:47,680
 and ask this question to the sky.
+
+325
+00:21:45,680 --> 00:21:48,640
+Ascendant
 
 326
 00:21:48,120 --> 00:21:53,560

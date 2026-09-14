@@ -13,6 +13,9 @@ on:
       - main
     paths-ignore:
       - '*.md'
+      # Subtitle sync commits and its tooling do not touch the plugin binary.
+      - 'subs/**'
+      - 'scripts/**'
 
 jobs:
   build:

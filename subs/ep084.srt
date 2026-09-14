@@ -146,12 +146,12 @@ Ceng Niu raised two fingers,
 ready to perish together with Red Butterfly.
 
 37
-00:03:11,600 --> 00:03:12,680
-After hearing about the duel...
-
-38
 00:03:10,600 --> 00:03:12,680
 Red Butterfly refused to back down.
+
+38
+00:03:11,600 --> 00:03:12,680
+After hearing about the duel...
 
 39
 00:03:12,840 --> 00:03:14,710
@@ -214,14 +214,14 @@ What ?
 Ceng Niu’s gone ?
 
 54
-00:04:05,180 --> 00:04:05,910
-Is it true ?
-
-55
 00:04:04,950 --> 00:04:07,630
 Cave at the top of
 Mount Suzaku
 Country of Suzaku
+
+55
+00:04:05,180 --> 00:04:05,910
+Is it true ?
 
 56
 00:04:08,380 --> 00:04:10,440
@@ -558,13 +558,13 @@ Loot them !
 Everyone has returned !
 
 139
-00:08:27,080 --> 00:08:28,200
-Open the gates !
-
-140
 00:08:26,520 --> 00:08:29,680
 Fire Cloud Village
 Country of Pilu
+
+140
+00:08:27,080 --> 00:08:28,200
+Open the gates !
 
 141
 00:08:32,040 --> 00:08:33,140

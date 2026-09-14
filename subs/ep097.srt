@@ -380,12 +380,12 @@ Then why don't you kill me now !?
 "Don't fight a desperate enemy,
 
 94
-00:06:19,400 --> 00:06:21,560
-always leave an escape route open."
-
-95
 00:06:17,400 --> 00:06:21,560
 Note: "The art of War", Sun Tzu
+
+95
+00:06:19,400 --> 00:06:21,560
+always leave an escape route open."
 
 96
 00:06:22,320 --> 00:06:23,910
@@ -448,18 +448,18 @@ Find a cold, dark place
 and recover quickly.
 
 111
+00:07:21,760 --> 00:07:23,710
+Do you remember
+
+112
+00:07:24,200 --> 00:07:26,790
+how many clansmen we sacrificed
+
+113
 00:07:26,520 --> 00:07:29,640
 First Ancestor of the
 Forsaken Immortal Clan
 11-leaf Shaman
-
-112
-00:07:21,760 --> 00:07:23,710
-Do you remember
-
-113
-00:07:24,200 --> 00:07:26,790
-how many clansmen we sacrificed
 
 114
 00:07:27,440 --> 00:07:30,790
@@ -809,14 +809,14 @@ This Divine Sense…
 a Soul Transformation cultivator ?
 
 200
-00:12:09,120 --> 00:12:10,110
-Interesting.
-
-201
 00:12:07,480 --> 00:12:10,720
 Cao Yidou's Origin Soul
 Planet Tian Yun's Mile Sect
 Middle stage Soul Formation
+
+201
+00:12:09,120 --> 00:12:10,110
+Interesting.
 
 202
 00:12:11,120 --> 00:12:12,870
@@ -1023,25 +1023,25 @@ if you free me
 and I’ll give you the main artifact of the Giant Demon Clan !
 
 253
-00:14:21,760 --> 00:14:24,400
-Lei Ji
-Giant Demon Clan branch leader
-
-254
 00:14:16,720 --> 00:14:17,470
 This is…
 
-255
+254
 00:14:18,160 --> 00:14:19,600
 a hint of Ancient God blood.
 
-256
+255
 00:14:19,920 --> 00:14:21,350
 His blood is indeed useful to me.
 
-257
+256
 00:14:21,640 --> 00:14:22,510
 Little friend,
+
+257
+00:14:21,760 --> 00:14:24,400
+Lei Ji
+Giant Demon Clan branch leader
 
 258
 00:14:23,080 --> 00:14:24,630

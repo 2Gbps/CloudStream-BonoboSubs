@@ -890,14 +890,14 @@ This jade pillar
 has defensive restrictions on it.
 
 223
+00:14:21,680 --> 00:14:24,240
+You dare enter the Library of the Cloud Sky Sect ?
+
+224
 00:14:21,800 --> 00:14:25,420
 Lu Fei
 Outer Cloud Sky Sect Elder
 Early stage Nascent Soul
-
-224
-00:14:21,680 --> 00:14:24,240
-You dare enter the Library of the Cloud Sky Sect ?
 
 225
 00:14:24,280 --> 00:14:26,280

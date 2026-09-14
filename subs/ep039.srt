@@ -764,20 +764,20 @@ Congratulations on becoming an inner disciple of the Cloud Sky Sect.
 Keep this pill.
 
 190
-00:11:57,120 --> 00:11:59,360
-The jade slip means you pass this trial
-
-191
 00:11:56,640 --> 00:11:58,440
 You will give it to your teacher
 
-192
-00:11:59,400 --> 00:12:01,720
-and the pill makes you an inner disciple directly.
+191
+00:11:57,120 --> 00:11:59,360
+The jade slip means you pass this trial
 
-193
+192
 00:11:58,560 --> 00:12:00,200
 to thank him for accepting you as disciple.
+
+193
+00:11:59,400 --> 00:12:01,720
+and the pill makes you an inner disciple directly.
 
 194
 00:12:03,520 --> 00:12:04,880

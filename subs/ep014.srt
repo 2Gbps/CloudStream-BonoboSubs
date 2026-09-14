@@ -114,14 +114,14 @@ Look !
 They're back.
 
 29
-00:02:00,440 --> 00:02:02,000
-They're finally back !
-
-30
 00:01:59,480 --> 00:02:02,440
 Xu Si
 War God Shrine disciple
 Late stage Foundation Establishment
+
+30
+00:02:00,440 --> 00:02:02,000
+They're finally back !
 
 31
 00:02:10,000 --> 00:02:11,480
@@ -484,30 +484,30 @@ What is this wood element spiritual energy ?
 Burning Gold Mountain Range
 
 120
+00:09:21,000 --> 00:09:24,200
+Junior Sister An, is this your first time picking Burning Gold Fruits ?
+
+121
 00:09:21,840 --> 00:09:24,200
 Zhou Gang
 Corpse Sect disciple
 Middle stage Foundation Establishment
 
-121
-00:09:21,000 --> 00:09:24,200
-Junior Sister An, is this your first time picking Burning Gold Fruits ?
-
 122
-00:09:24,720 --> 00:09:25,240
-Yes
-
-123
 00:09:24,440 --> 00:09:26,240
 An Zi
 Corpse Sect disciple
 Middle stage Foundation Establishment
 
-124
+123
 00:09:24,440 --> 00:09:26,240
 Ma Yu
 Corpse Sect disciple
 Middle stage Foundation Establishment
+
+124
+00:09:24,720 --> 00:09:25,240
+Yes
 
 125
 00:09:26,040 --> 00:09:28,040

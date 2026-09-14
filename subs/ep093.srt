@@ -113,14 +113,14 @@ and seal the Forsaken Immortal Clan for tens of thousands of years.
 But today,
 
 29
+00:02:13,760 --> 00:02:16,470
+this old man can rival peak Ascendant !
+
+30
 00:02:13,880 --> 00:02:17,000
 Original Ancestor of the
 Forsaken Immortal Clan
 11-Leaf
-
-30
-00:02:13,760 --> 00:02:16,470
-this old man can rival peak Ascendant !
 
 31
 00:02:16,920 --> 00:02:20,710
@@ -674,21 +674,21 @@ no one wants be in this kind of situation.
 Your Highness
 
 167
-00:11:21,120 --> 00:11:22,560
-3 children in the capital
-
-168
-00:11:22,560 --> 00:11:24,670
-were already taken by the outsiders.
-
-169
 00:11:21,000 --> 00:11:24,120
 Wang Qi
 Prince of Zhao
 
-170
+168
 00:11:21,000 --> 00:11:24,120
 Queen consort of Zhao
+
+169
+00:11:21,120 --> 00:11:22,560
+3 children in the capital
+
+170
+00:11:22,560 --> 00:11:24,670
+were already taken by the outsiders.
 
 171
 00:11:24,960 --> 00:11:26,320
@@ -896,14 +896,14 @@ It's actually a domain artifact...
 Greetings, Elder !
 
 222
-00:14:38,640 --> 00:14:41,990
-But its owner's cultivation is too weak.
-
-223
 00:14:38,400 --> 00:14:40,920
 Mo Luo
 Forsaken Immortal Clan
 6-Leaf Shaman
+
+223
+00:14:38,640 --> 00:14:41,990
+But its owner's cultivation is too weak.
 
 224
 00:14:44,040 --> 00:14:46,430

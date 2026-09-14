@@ -677,12 +677,12 @@ but I just realized now
 A raindrop is born in the sky
 
 170
-00:08:45,400 --> 00:08:47,920
-and dies on the earth.
-
-171
 00:08:44,440 --> 00:08:46,360
 that a raindrop is born in the sky
+
+171
+00:08:45,400 --> 00:08:47,920
+and dies on the earth.
 
 172
 00:08:46,360 --> 00:08:48,280
@@ -906,13 +906,13 @@ Why is it so dark ?
 Master !
 
 227
+00:13:10,770 --> 00:13:12,560
+I felt my heart shake.
+
+228
 00:13:11,090 --> 00:13:14,290
 Wang Zhuo's reincarnation
 Late stage Foundation Establishment
-
-228
-00:13:10,770 --> 00:13:12,560
-I felt my heart shake.
 
 229
 00:13:12,570 --> 00:13:14,480

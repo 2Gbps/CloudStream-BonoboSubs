@@ -549,20 +549,20 @@ This voice...
 Look at her...
 
 137
-00:07:41,560 --> 00:07:44,680
-In the past, she could barely complete a Heaven Separating Pill.
-
-138
-00:07:44,720 --> 00:07:47,990
-But now, she is an Elder who can make grade 5 pills.
-
-139
 00:07:40,150 --> 00:07:44,050
 All this sadness was not meaningless.
 
-140
+138
+00:07:41,560 --> 00:07:44,680
+In the past, she could barely complete a Heaven Separating Pill.
+
+139
 00:07:44,090 --> 00:07:47,210
 How many lives and deaths have passed in the blink of an eye ?
+
+140
+00:07:44,720 --> 00:07:47,990
+But now, she is an Elder who can make grade 5 pills.
 
 141
 00:07:47,440 --> 00:07:49,440
@@ -993,12 +993,12 @@ If you ever need my help with anything,
 don't hesitate !
 
 248
-00:14:38,480 --> 00:14:40,060
-after 93 tries...
-
-249
 00:14:36,780 --> 00:14:38,480
 You finally made it
+
+249
+00:14:38,480 --> 00:14:40,060
+after 93 tries...
 
 250
 00:14:40,300 --> 00:14:42,620
@@ -1142,12 +1142,12 @@ Wang Lin's avatar
 Peak Late stage Foundation Establishment
 
 285
-00:17:38,520 --> 00:17:40,000
-in just a few months.
-
-286
 00:17:37,400 --> 00:17:38,520
 You already progressed this much
+
+286
+00:17:38,520 --> 00:17:40,000
+in just a few months.
 
 287
 00:17:40,320 --> 00:17:43,080

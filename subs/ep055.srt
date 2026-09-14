@@ -297,12 +297,12 @@ This is Da Niu's New Year's money
 and it's also money for wine.
 
 75
-00:04:07,030 --> 00:04:08,670
-I'd like to buy a jug of wine every day.
-
-76
 00:04:06,130 --> 00:04:07,000
 From now on,
+
+76
+00:04:07,030 --> 00:04:08,670
+I'd like to buy a jug of wine every day.
 
 77
 00:04:08,750 --> 00:04:10,750
@@ -357,12 +357,12 @@ I'll deliver it to Uncle Wang.
 Deal.
 
 90
-00:04:50,270 --> 00:04:51,860
-Goodbye Uncle Wang !
-
-91
 00:04:49,520 --> 00:04:50,650
 It's cold ouside,
+
+91
+00:04:50,270 --> 00:04:51,860
+Goodbye Uncle Wang !
 
 92
 00:04:50,670 --> 00:04:51,940
@@ -1385,14 +1385,14 @@ than 30 Nascent Souls cultivators.
 And those 5 are Soul Formation.
 
 347
+00:16:47,630 --> 00:16:50,260
+The two of you broke my White Cloud Sect's formation.
+
+348
 00:16:47,700 --> 00:16:50,850
 Wen Baoxin
 White Cloud Sect Leader
 Soul Formation
-
-348
-00:16:47,630 --> 00:16:50,260
-The two of you broke my White Cloud Sect's formation.
 
 349
 00:16:50,910 --> 00:16:52,710

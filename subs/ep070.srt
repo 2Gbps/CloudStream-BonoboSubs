@@ -565,8 +565,8 @@ I remember now...
 I remember everything...
 
 141
-00:11:22,720 --> 00:11:24,480
-Young Zhou Yi
+00:11:18,840 --> 00:11:20,640
+I was born gifted with talent
 
 142
 00:11:20,090 --> 00:11:22,450
@@ -574,12 +574,12 @@ Main Hall of the
 Five Elements Sect
 
 143
-00:11:18,840 --> 00:11:20,640
-I was born gifted with talent
-
-144
 00:11:21,160 --> 00:11:24,440
 so I became a disciple of the Five Elements Sect thousands of years ago.
+
+144
+00:11:22,720 --> 00:11:24,480
+Young Zhou Yi
 
 145
 00:11:25,080 --> 00:11:27,440
@@ -850,12 +850,12 @@ and unless someone is above my current cultivation,
 they won't be able to pass.
 
 212
-00:15:44,360 --> 00:15:46,760
-Ascendant Crystal
-
-213
 00:15:44,240 --> 00:15:45,880
 This is the first gift I give you,
+
+213
+00:15:44,360 --> 00:15:46,760
+Ascendant Crystal
 
 214
 00:15:46,280 --> 00:15:47,600

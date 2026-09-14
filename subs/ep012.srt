@@ -167,12 +167,12 @@ can forcibly extract the spiritual energy from your body.
 Who knows what lies beyond them in the void ?
 
 42
-00:03:27,520 --> 00:03:28,600
-Save me !
-
-43
 00:03:25,320 --> 00:03:27,240
 Please, someone help me !
+
+43
+00:03:27,520 --> 00:03:28,600
+Save me !
 
 44
 00:03:30,880 --> 00:03:34,160
@@ -369,14 +369,14 @@ you won't be able to recover your body.
 This is a treasure
 
 92
-00:07:52,800 --> 00:07:54,320
-that was fated to be mine !
-
-93
 00:07:52,240 --> 00:07:54,320
 Kun Bu
 Posuo Sect disciple
 Late stage Foundation Establishment
+
+93
+00:07:52,800 --> 00:07:54,320
+that was fated to be mine !
 
 94
 00:08:00,240 --> 00:08:02,160

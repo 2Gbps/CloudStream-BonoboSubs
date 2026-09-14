@@ -110,14 +110,14 @@ Treasure Refining Pavilion
 to be Soul Formation.
 
 28
-00:02:03,920 --> 00:02:05,720
-Soul Formation cultivators ?
-
-29
 00:02:03,640 --> 00:02:06,640
 Sun Dian
 Owner of the Treasure Refining Pavilion
 Middle stage Soul Formation
+
+29
+00:02:03,920 --> 00:02:05,720
+Soul Formation cultivators ?
 
 30
 00:02:13,840 --> 00:02:15,090
@@ -1163,13 +1163,13 @@ Please be careful this time !
 Yin-Yang Sect
 
 290
+00:15:40,240 --> 00:15:41,470
+Who is this Junior
+
+291
 00:15:41,040 --> 00:15:42,720
 Yin-Yang Sect Ancestor
 Late stage Soul Formation
-
-291
-00:15:40,240 --> 00:15:41,470
-Who is this Junior
 
 292
 00:15:41,560 --> 00:15:43,210
@@ -1260,16 +1260,16 @@ I will walk against the heavens.
 I will even gather the clouds
 
 314
+00:18:30,400 --> 00:18:31,520
+I told them that
+
+315
 00:18:31,080 --> 00:18:35,120
 to illuminate the sky for you.
 
-315
+316
 00:18:33,240 --> 00:18:34,240
 Senior
-
-316
-00:18:30,400 --> 00:18:31,520
-I told them that
 
 317
 00:18:35,680 --> 00:18:39,520
@@ -1288,16 +1288,16 @@ How many lives and deaths have passed in the blink of an eye ?
 I vow to break
 
 321
+00:18:45,080 --> 00:18:49,800
+this chess game of fate.
+
+322
 00:18:45,200 --> 00:18:47,640
 Phantom Grass
 
-322
+323
 00:18:47,400 --> 00:18:49,030
 Start the furnace,
-
-323
-00:18:45,080 --> 00:18:49,800
-this chess game of fate.
 
 324
 00:18:49,120 --> 00:18:50,640

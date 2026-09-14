@@ -796,14 +796,14 @@ with this sword,
 I will sever the curse that has plagued my family for generations !
 
 199
+00:12:24,560 --> 00:12:26,270
+Ge Yunfeng pays respects to Senior.
+
+200
 00:12:24,720 --> 00:12:27,520
 Ge Yunfeng
 Ge Family Ancestor
 Early stage Ascendant
-
-200
-00:12:24,560 --> 00:12:26,270
-Ge Yunfeng pays respects to Senior.
 
 201
 00:12:28,080 --> 00:12:28,880
@@ -1575,12 +1575,12 @@ Can the mundane world be shattered
 Core Formation
 
 390
-00:25:01,800 --> 00:25:04,480
-Nascent Soul
-
-391
 00:25:00,040 --> 00:25:03,400
 by a child's steadfast heart ?
+
+391
+00:25:01,800 --> 00:25:04,480
+Nascent Soul
 
 392
 00:25:03,520 --> 00:25:09,640
@@ -1591,24 +1591,24 @@ If the laws of this world
 Soul Formation
 
 394
-00:25:08,240 --> 00:25:11,120
-Soul Transformation
-
-395
 00:25:06,320 --> 00:25:09,640
 stand in the way,
+
+395
+00:25:08,240 --> 00:25:11,120
+Soul Transformation
 
 396
 00:25:10,600 --> 00:25:16,440
 I'll defy the universe to tread the heavens
 
 397
-00:25:14,440 --> 00:25:17,400
-Ascendant
-
-398
 00:25:12,800 --> 00:25:16,440
 and ask this question to the sky.
+
+398
+00:25:14,440 --> 00:25:17,400
+Ascendant
 
 399
 00:25:16,880 --> 00:25:22,320

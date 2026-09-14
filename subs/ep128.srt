@@ -127,14 +127,14 @@ Senior Brother !
 Senior Brother...
 
 31
-00:02:21,910 --> 00:02:22,990
-Senior Greed,
-
-32
 00:02:21,750 --> 00:02:24,150
 Chen Long
 Da Lou Sword Sect disciple
 Early stage Ascendant
+
+32
+00:02:21,910 --> 00:02:22,990
+Senior Greed,
 
 33
 00:02:23,150 --> 00:02:24,470
@@ -1246,12 +1246,12 @@ Can the mundane world be shattered
 Core Formation
 
 306
-00:19:40,420 --> 00:19:43,100
-Nascent Soul
-
-307
 00:19:38,660 --> 00:19:42,020
 by a child's steadfast heart ?
+
+307
+00:19:40,420 --> 00:19:43,100
+Nascent Soul
 
 308
 00:19:42,140 --> 00:19:48,260
@@ -1262,24 +1262,24 @@ If the laws of this world
 Soul Formation
 
 310
-00:19:46,860 --> 00:19:49,740
-Soul Transformation
-
-311
 00:19:44,940 --> 00:19:48,260
 stand in the way,
+
+311
+00:19:46,860 --> 00:19:49,740
+Soul Transformation
 
 312
 00:19:49,220 --> 00:19:55,060
 I'll defy the universe to tread the heavens
 
 313
-00:19:53,060 --> 00:19:56,020
-Ascendant
-
-314
 00:19:51,420 --> 00:19:55,060
 and ask this question to the sky.
+
+314
+00:19:53,060 --> 00:19:56,020
+Ascendant
 
 315
 00:19:55,500 --> 00:20:00,940
