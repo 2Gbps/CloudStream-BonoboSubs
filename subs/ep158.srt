@@ -932,7 +932,7 @@ By crudely patching it with celestial restrictions,
 
 230
 00:19:53,760 --> 00:19:55,560
-we can activate it one final time.
+it can be activated one final time.
 
 231
 00:20:19,520 --> 00:20:20,800
@@ -940,7 +940,7 @@ We will never forget your great kindness !
 
 232
 00:20:20,840 --> 00:20:21,950
-May I ask Senior's name !
+May I ask Senior's name ?
 
 233
 00:20:25,000 --> 00:20:25,710
