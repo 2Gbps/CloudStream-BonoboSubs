@@ -32,6 +32,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -61,10 +62,7 @@ ASS_TAG_RE = re.compile(r"\{[^}]*\}")
 HTML_TAG_RE = re.compile(r"<[^>]*>")
 
 DAV_NS = "{DAV:}"
-USER_AGENT = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
-)
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 PROPFIND_BODY = (
     b'<?xml version="1.0"?>'
     b'<d:propfind xmlns:d="DAV:"><d:prop>'
@@ -73,19 +71,22 @@ PROPFIND_BODY = (
 )
 
 
-def http_request(url: str, *, method: str = "GET", headers: dict | None = None,
-                 data: bytes | None = None, timeout: int = 180) -> bytes:
-    request = urllib.request.Request(url, data=data, method=method)
-    request.add_header("User-Agent", USER_AGENT)
-    for name, value in (headers or {}).items():
-        request.add_header(name, value)
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        return response.read()
+def fetch_url_with_retry(request: urllib.request.Request) -> bytes:
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=180) as response:
+                return response.read()
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(5)
 
 
 def propfind(path: str) -> list[dict]:
-    body = http_request(BASE_URL + path, method="PROPFIND",
-                        headers={"Depth": "1"}, data=PROPFIND_BODY)
+    request = urllib.request.Request(BASE_URL + path, data=PROPFIND_BODY, method="PROPFIND")
+    request.add_header("Depth", "1")
+    request.add_header("User-Agent", USER_AGENT)
+    body = fetch_url_with_retry(request)
     root = ET.fromstring(body)
     entries = []
     for response in root.findall(f"{DAV_NS}response"):
@@ -182,6 +183,7 @@ def extract_movie_srt(movie_href: str) -> str:
         ass_path = Path(work_dir) / "movie.ass"
         command = [
             ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-nostdin",
+            "-user_agent", USER_AGENT,
             "-i", BASE_URL + movie_href,
             "-map", "0:s:0", "-c:s", "copy", "-f", "ass", str(ass_path),
         ]
@@ -231,7 +233,9 @@ def sync_episodes(state: dict, force: bool, changed: list[str]) -> None:
                 and record.get("etag") == entry["etag"] and destination.exists()):
             continue
         try:
-            ass_text = http_request(BASE_URL + entry["href"]).decode("utf-8-sig", "replace")
+            request = urllib.request.Request(BASE_URL + entry["href"])
+            request.add_header("User-Agent", USER_AGENT)
+            ass_text = fetch_url_with_retry(request).decode("utf-8-sig", "replace")
         except Exception as error:  # network hiccup: keep the previous SRT
             print(f"{key}: download failed ({error})", file=sys.stderr)
             continue
@@ -243,6 +247,58 @@ def sync_episodes(state: dict, force: bool, changed: list[str]) -> None:
                       "file": entry["name"]}
         if write_subs(key, srt, changed):
             print(f"{key}: updated from {label}")
+
+
+def sync_missing_embedded(state: dict, force: bool, changed: list[str]) -> None:
+    ffmpeg = find_ffmpeg()
+    if ffmpeg is None:
+        return
+
+    for entry in propfind(MOVIE_DIR):
+        if entry["collection"] or not entry["name"].lower().endswith(".mkv"):
+            continue
+        match = EPISODE_RE.search(entry["name"])
+        if not match:
+            continue
+        episode = int(match.group(1))
+        key = f"ep{episode:03d}"
+        
+        destination = SUBS_DIR / f"{key}.srt"
+        if key in state and destination.exists() and not force:
+            continue
+
+        print(f"Extracting embedded sub for {key}...")
+        with tempfile.TemporaryDirectory() as work_dir:
+            ass_path = Path(work_dir) / "ep.ass"
+            command = [
+                ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-nostdin",
+                "-user_agent", USER_AGENT,
+                "-i", BASE_URL + entry["href"],
+                "-map", "0:s:0", "-c:s", "copy", "-f", "ass", str(ass_path),
+            ]
+            result = subprocess.run(command, capture_output=True)
+            if result.returncode != 0 or not ass_path.exists():
+                print(f"{key}: ffmpeg failed to extract", file=sys.stderr)
+                continue
+            
+            try:
+                ass_text = ass_path.read_text(encoding="utf-8-sig", errors="replace")
+                srt = ass_to_srt(ass_text)
+            except Exception as error:
+                print(f"{key}: failed to parse embedded sub ({error})", file=sys.stderr)
+                continue
+            
+            if not srt.strip():
+                continue
+            
+            state[key] = {
+                "source": "1080p/embedded", 
+                "file": entry["name"], 
+                "href": entry["href"], 
+                "etag": entry["etag"]
+            }
+            if write_subs(key, srt, changed):
+                print(f"{key}: updated from embedded subtitle track")
 
 
 def sync_movie(state: dict, force: bool, changed: list[str]) -> None:
@@ -287,6 +343,7 @@ def main() -> int:
     changed: list[str] = []
 
     sync_episodes(state, args.force, changed)
+    sync_missing_embedded(state, args.force, changed)
     if not args.no_movie:
         sync_movie(state, args.force, changed)
 

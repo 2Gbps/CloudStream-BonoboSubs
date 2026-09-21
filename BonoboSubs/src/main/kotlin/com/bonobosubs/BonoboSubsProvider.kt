@@ -67,10 +67,9 @@ class BonoboSubsProvider : MainAPI() {
 
         private const val SECONDARY_LISTING_TTL_MS = 10 * 60 * 1000L
 
-        private val PROPFIND_BODY by lazy {
+        private val PROPFIND_BODY get() =
             """<?xml version="1.0"?><d:propfind xmlns:d="DAV:"><d:prop><d:resourcetype/><d:getcontentlength/></d:prop></d:propfind>"""
                 .trimIndent().toRequestBody("application/xml".toMediaTypeOrNull())
-        }
 
         // [BonoboSubs]Renegade Immortal - Xian Ni Episode 117 .mkv   (1080p releases)
         // [BonoboSubs][4k]Renegade Immortal - 仙逆 Xian Ni - 147.mkv  (4K releases)
