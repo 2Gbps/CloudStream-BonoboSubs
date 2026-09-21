@@ -180,11 +180,27 @@ def extract_movie_srt(movie_href: str) -> str:
     if ffmpeg is None:
         raise RuntimeError("ffmpeg not found; cannot extract the movie subtitle track")
     with tempfile.TemporaryDirectory() as work_dir:
+        mkv_path = Path(work_dir) / "movie.mkv"
         ass_path = Path(work_dir) / "movie.ass"
+        
+        print("Downloading movie video to extract subtitle (this may take a few minutes)...")
+        req = urllib.request.Request(BASE_URL + movie_href, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req) as response:
+            with open(mkv_path, "wb") as out_file:
+                downloaded = 0
+                while True:
+                    chunk = response.read(1024 * 1024 * 5)
+                    if not chunk:
+                        break
+                    out_file.write(chunk)
+                    downloaded += len(chunk)
+                    if downloaded % (50 * 1024 * 1024) == 0:
+                        print(".", end="", flush=True)
+        print(" Download complete! Extracting...")
+
         command = [
             ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-nostdin",
-            "-user_agent", USER_AGENT,
-            "-i", BASE_URL + movie_href,
+            "-i", str(mkv_path),
             "-map", "0:s:0", "-c:s", "copy", "-f", "ass", str(ass_path),
         ]
         result = subprocess.run(command, capture_output=True)
@@ -267,13 +283,32 @@ def sync_missing_embedded(state: dict, force: bool, changed: list[str]) -> None:
         if key in state and destination.exists() and not force:
             continue
 
-        print(f"Extracting embedded sub for {key}...")
+        print(f"Downloading {key} video to extract subtitle (this may take a few minutes)...")
         with tempfile.TemporaryDirectory() as work_dir:
+            mkv_path = Path(work_dir) / "ep.mkv"
             ass_path = Path(work_dir) / "ep.ass"
+            
+            try:
+                req = urllib.request.Request(BASE_URL + entry["href"], headers={"User-Agent": USER_AGENT})
+                with urllib.request.urlopen(req) as response:
+                    with open(mkv_path, "wb") as out_file:
+                        downloaded = 0
+                        while True:
+                            chunk = response.read(1024 * 1024 * 5) # 5MB chunks
+                            if not chunk:
+                                break
+                            out_file.write(chunk)
+                            downloaded += len(chunk)
+                            if downloaded % (50 * 1024 * 1024) == 0:
+                                print(".", end="", flush=True)
+                print(" Download complete! Extracting...")
+            except Exception as e:
+                print(f"\n{key}: failed to download video ({e})", file=sys.stderr)
+                continue
+
             command = [
                 ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-nostdin",
-                "-user_agent", USER_AGENT,
-                "-i", BASE_URL + entry["href"],
+                "-i", str(mkv_path),
                 "-map", "0:s:0", "-c:s", "copy", "-f", "ass", str(ass_path),
             ]
             result = subprocess.run(command, capture_output=True)
