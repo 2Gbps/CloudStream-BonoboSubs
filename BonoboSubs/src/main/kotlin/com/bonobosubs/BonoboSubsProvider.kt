@@ -7,6 +7,7 @@ import com.lagradost.cloudstream3.HomePageResponse
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.MainPageRequest
+import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.SearchResponseList
 import com.lagradost.cloudstream3.SubtitleFile
 import com.lagradost.cloudstream3.TvType
@@ -154,24 +155,41 @@ class BonoboSubsProvider : MainAPI() {
         }
     }
 
-    override suspend fun getMainPage(page: Int, request: MainPageRequest) = newHomePageResponse(
-        listOf(
-            HomePageList("Series", listOf(seriesEntry()), true),
-            HomePageList("Movies", listOf(movieEntry()), true)
+    private suspend fun getMovies(): List<SearchResponse> {
+        val files4k = listMkvFiles(PATH_4K)
+        val files1080 = listMkvFiles(PATH_1080)
+        val allFiles = (files4k + files1080).distinctBy { it.fileName }
+        
+        return allFiles.filter { episodeNumber(it.fileName) == null }.map { file ->
+            val title = file.fileName.replace(Regex("""\[.*?\]|\.mkv$""", RegexOption.IGNORE_CASE), "").trim().replace(Regex("""^[-_ ]+|[-_ ]+$"""), "")
+            newMovieSearchResponse(title, "$mainUrl${file.href}", TvType.AnimeMovie) {
+                posterUrl = POSTER_URL
+            }
+        }.distinctBy { it.name }
+    }
+
+    override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
+        val movies = getMovies()
+        return newHomePageResponse(
+            listOf(
+                HomePageList("Series", listOf(seriesEntry()), true),
+                HomePageList("Movies", movies, true)
+            )
         )
-    )
+    }
 
     override suspend fun search(query: String, page: Int): SearchResponseList? {
         if (page != 1) return null
         val q = query.trim().lowercase()
-        val entries = listOf(seriesEntry(), movieEntry())
+        val entries = listOf(seriesEntry()) + getMovies()
         if (q.isEmpty()) return entries.toNewSearchResponseList()
-        val aliases = mapOf(
-            0 to listOf("renegade immortal", "xian ni", "仙逆"),
-            1 to listOf("battle of the gods", "renegade immortal movie", "仙逆剧场版", "movie")
-        )
-        return entries.filterIndexed { index, _ ->
-            aliases[index]?.any { it.contains(q) || q.contains(it) } == true
+        val seriesAliases = listOf("renegade immortal", "xian ni", "仙逆")
+        return entries.filter { entry ->
+            if (entry.name == SERIES_TITLE) {
+                seriesAliases.any { it.contains(q) || q.contains(it) }
+            } else {
+                entry.name.lowercase().contains(q) || q.contains(entry.name.lowercase())
+            }
         }.toNewSearchResponseList()
     }
 
@@ -187,13 +205,12 @@ class BonoboSubsProvider : MainAPI() {
                 year = 2023
                 tags = listOf("Donghua", "Xianxia", "Cultivation")
             }
-            url.endsWith(MOVIE_URL) -> {
-                val movie = files4k.firstOrNull { isMovie(it.fileName) }
-                    ?: files1080.firstOrNull { isMovie(it.fileName) }
-                    ?: throw ErrorLoadingException("Movie not found")
-                newMovieLoadResponse(MOVIE_TITLE, url, TvType.AnimeMovie, "$mainUrl${movie.href}") {
+            url.contains("/public.php/dav/files/") -> {
+                val fileName = URLDecoder.decode(url.substringAfterLast('/'), "UTF-8")
+                val title = fileName.replace(Regex("""\[.*?\]|\.mkv$""", RegexOption.IGNORE_CASE), "").trim().replace(Regex("""^[-_ ]+|[-_ ]+$"""), "")
+                newMovieLoadResponse(title, url, TvType.AnimeMovie, url) {
                     posterUrl = POSTER_URL
-                    plot = "Battle of the Gods. Watch after episode 76. BonoboSubs 4K/1080p HEVC with English subtitles."
+                    plot = "$title. BonoboSubs 4K/1080p HEVC with English subtitles."
                     year = 2025
                     tags = listOf("Donghua", "Xianxia", "Movie")
                 }
@@ -222,24 +239,26 @@ class BonoboSubsProvider : MainAPI() {
     ): Boolean {
         val videoUrl = resolveVideoUrl(data) ?: return true
         val fileName = URLDecoder.decode(videoUrl.substringAfterLast('/'), "UTF-8")
-        val movie = isMovie(fileName)
         val episode = episodeNumber(fileName)
         val is4k = videoUrl.contains("/4k/", ignoreCase = true)
 
         // Subtitles must be emitted before the link callbacks: the runtime
         // snapshots the subtitle list into each link when the callback fires.
         when {
-            movie -> subtitleCallback(newSubtitleFile("English", MOVIE_SUBS_URL))
             episode != null -> subtitleCallback(
                 newSubtitleFile("English", "$SUBS_BASE/ep%03d.srt".format(episode))
             )
+            else -> {
+                val safeName = fileName.substringBeforeLast(".mkv").replace(Regex("""[^a-zA-Z0-9]"""), "_").trim('_')
+                subtitleCallback(newSubtitleFile("English", "$SUBS_BASE/movie_$safeName.srt"))
+            }
         }
 
         callback(link(videoUrl, is4k))
 
         val otherPath = if (is4k) PATH_1080 else PATH_4K
         val other = listMkvFiles(otherPath, SECONDARY_LISTING_TTL_MS).firstOrNull { file ->
-            if (movie) isMovie(file.fileName) else episodeNumber(file.fileName) == episode
+            if (episode != null) episodeNumber(file.fileName) == episode else file.fileName == fileName
         }
         other?.let { callback(link("$mainUrl${it.href}", it.href.contains("/4k/", ignoreCase = true))) }
         return true
