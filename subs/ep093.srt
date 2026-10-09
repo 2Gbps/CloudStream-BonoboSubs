@@ -341,7 +341,7 @@ Since you refuse to surrender,
 
 84
 00:06:03,680 --> 00:06:06,310
-I let my Juniors will practice on you !
+I will let my Juniors practice on you !
 
 85
 00:06:25,680 --> 00:06:27,030
@@ -817,7 +817,7 @@ Your Highness...
 
 202
 00:13:17,920 --> 00:13:20,160
-Hand over this children with a Spirit Root
+Hand over this child with a Spirit Root
 
 203
 00:13:20,160 --> 00:13:21,510
@@ -955,7 +955,7 @@ Become vassals of our Forsaken Immortal Clan
 
 236
 00:15:42,720 --> 00:15:45,790
-and you'll far better than under Suzaku.
+and you'll be far better than under Suzaku.
 
 237
 00:15:46,600 --> 00:15:47,710
@@ -1087,7 +1087,7 @@ I must use the Reincarnation Tree's power to go back !
 
 269
 00:18:25,840 --> 00:18:26,730
-Stop !
+Bind !
 
 270
 00:18:36,080 --> 00:18:37,720
@@ -1179,7 +1179,7 @@ Fulfilling the Ancestor's role.
 
 292
 00:19:33,760 --> 00:19:37,190
-You are Zhao rightful Ancestor !
+You are Zhao's rightful Ancestor !
 
 293
 00:19:40,800 --> 00:19:41,670
@@ -1203,7 +1203,7 @@ you still have your parents.
 
 298
 00:19:58,640 --> 00:20:01,190
-We pay Respects to Zhao's Ancestor !
+We pay respects to Zhao's Ancestor !
 
 299
 00:20:03,480 --> 00:20:05,280
@@ -1290,161 +1290,173 @@ I too must attend to my duties.
 Take care.
 
 320
+00:21:34,920 --> 00:21:37,080
+Soul
+
+321
+00:21:34,920 --> 00:21:37,080
+Refining
+
+322
+00:21:34,920 --> 00:21:37,080
+Sect
+
+323
 00:21:47,520 --> 00:21:49,480
 Little friend Ceng Niu,
 
-321
+324
 00:21:50,160 --> 00:21:51,680
 you're finally back.
 
-322
+325
 00:22:20,540 --> 00:22:23,840
 To let go of the consequences of my actions
 
-323
+326
 00:22:23,840 --> 00:22:25,560
 is to ignore the law of cause and effect
 
-324
+327
 00:22:25,600 --> 00:22:27,500
 like scattered ink.
 
-325
+328
 00:22:28,380 --> 00:22:34,980
 As destiny falls
 
-326
+329
 00:22:31,220 --> 00:22:34,980
 in exchange for this moment of tainted dreams.
 
-327
+330
 00:22:34,980 --> 00:22:42,580
 It makes the mountains lose their colors,
 
-328
+331
 00:22:38,220 --> 00:22:42,580
 wither and melt into rivers.
 
-329
+332
 00:22:43,020 --> 00:22:50,140
 Who can deceive
 
-330
+333
 00:22:45,780 --> 00:22:50,140
 the law of the heavens ?
 
-331
+334
 00:22:50,460 --> 00:22:53,460
 Countless generations
 
-332
+335
 00:22:51,740 --> 00:22:53,460
 have tried before me.
 
-333
+336
 00:22:53,750 --> 00:22:57,180
 But how could I not catch my dreams
 
-334
+337
 00:22:55,580 --> 00:22:57,180
 within my warm fingers ?
 
-335
+338
 00:22:57,740 --> 00:23:01,260
 You're at my side when I'm alone
 
-336
+339
 00:23:01,260 --> 00:23:04,580
 giving me the strength to fight the will of the heavens.
 
-337
+340
 00:23:05,340 --> 00:23:08,540
 Fortunately, my mind was open and honest.
 
-338
+341
 00:23:08,900 --> 00:23:12,740
 I'm sorry we never got to see the fireworks
 
-339
+342
 00:23:10,740 --> 00:23:12,740
 in the streets.
 
-340
+343
 00:23:12,900 --> 00:23:17,700
 Can I break the vortex of our destiny ?
 
-341
+344
 00:23:14,460 --> 00:23:17,700
 Can I break the rules ?
 
-342
+345
 00:23:17,710 --> 00:23:20,420
 To run towards you !
 
-343
+346
 00:23:20,460 --> 00:23:23,740
 I will fight the law of the heavens and the law of cause and effect
 
-344
+347
 00:23:23,740 --> 00:23:28,380
 to cut down this tribulation with my own hands
 
-345
+348
 00:23:28,380 --> 00:23:31,780
 and break through the reincarnation cycle.
 
-346
+349
 00:23:31,820 --> 00:23:36,460
 All of that for the stars in your eyes.
 
-347
+350
 00:23:36,910 --> 00:23:42,140
 I wish to bend this dream for the fire in my heart.
 
-348
+351
 00:23:42,260 --> 00:23:46,060
 If your soul is willing to wander,
 
-349
+352
 00:23:46,060 --> 00:23:50,700
 can I still take your hands
 
-350
+353
 00:23:47,740 --> 00:23:50,700
 and hold them tight ?
 
-351
+354
 00:23:50,860 --> 00:23:53,780
 I will defy the heavens and prevent the stars from falling.
 
-352
+355
 00:23:53,780 --> 00:23:58,660
 I will overthrow the Immortals and the Demons in my heart.
 
-353
+356
 00:23:58,670 --> 00:24:01,940
 I dream of destroying
 
-354
+357
 00:24:02,100 --> 00:24:06,660
 the shackles of our fate.
 
-355
+358
 00:24:06,660 --> 00:24:10,620
 You're the only one that can ignore the law of cause and effect.
 
-356
+359
 00:24:10,620 --> 00:24:13,420
 You're the hardest to let go of.
 
-357
+360
 00:24:13,500 --> 00:24:17,300
 I want to be with you again
 
-358
+361
 00:24:17,380 --> 00:24:20,660
 so I can look in your eyes.
 
-359
+362
 00:24:20,940 --> 00:24:25,900
 Even for a moment, it's worth it.

@@ -547,7 +547,7 @@ What's new ?
 
 136
 00:07:04,360 --> 00:07:07,160
-The 84th cycle is about to begin.
+The 8400th cycle is about to begin.
 
 137
 00:07:08,200 --> 00:07:10,600

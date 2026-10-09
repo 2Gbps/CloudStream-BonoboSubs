@@ -1313,7 +1313,7 @@ With my current knowledge,
 
 325
 00:17:56,640 --> 00:17:58,710
-I can't see through any of them.
+I can't see though any of them.
 
 326
 00:18:06,560 --> 00:18:10,030

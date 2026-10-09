@@ -525,7 +525,7 @@ I am Han Jin, military advisor of Ancient Demon City.
 
 131
 00:09:02,000 --> 00:09:05,000
-Han Jin
+Han Ji,
 Ancient Demon City's military advisor
 
 132

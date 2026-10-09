@@ -430,7 +430,7 @@ He has access to teleportation formations
 
 108
 00:08:03,820 --> 00:08:05,920
-so his identity must not be exceptional.
+so his identity must be exceptional.
 
 109
 00:08:06,720 --> 00:08:08,360

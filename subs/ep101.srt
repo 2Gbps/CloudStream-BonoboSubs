@@ -359,7 +359,7 @@ To enter Ye Wuyou’s tomb,
 
 90
 00:07:03,920 --> 00:07:06,160
-you just need to withstand one strike
+you just need to withstand one strike.
 
 91
 00:07:08,040 --> 00:07:09,840
@@ -779,7 +779,7 @@ the Cultivation Planet Crystal
 
 195
 00:13:59,360 --> 00:14:00,920
-can only mean only one thing.
+can only mean one thing.
 
 196
 00:14:01,840 --> 00:14:04,560

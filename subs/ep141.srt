@@ -1365,7 +1365,7 @@ The underworld...
 
 339
 00:19:29,320 --> 00:19:30,910
-I will accompany you there.
+I will accompany you there !
 
 340
 00:19:32,120 --> 00:19:33,990
